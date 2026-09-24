@@ -27,6 +27,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `capability-offset-net-gain.md` | ⭐⭐⭐ 5832次实验：新增失败抵消59%毛收益；平均通过率分不清净增长与换血 |
 | `eval-case-design.md` | ⭐⭐⭐ 按分支铺用例；负向用例测'它没做什么' |
 | `priority-override-layers.md` | ⭐⭐⭐ 临时Prompt>技能>全局Rule；用非作者措辞测试 |
 | `quality-rubric-nine-dims.md` | ⭐ 九维权重：实测表现 23 最高；这把尺子量不到什么 |
