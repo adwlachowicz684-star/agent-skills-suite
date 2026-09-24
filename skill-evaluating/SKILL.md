@@ -27,6 +27,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `incremental-debug-procedure.md` | ⭐ 最小配置起步、增量验证、diff 测试 |
 | `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |
 | `comparator-ab-eval.md` | ⭐ 盲评 comparator + 五条统计纪律 |
 | `three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |

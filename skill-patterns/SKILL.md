@@ -28,6 +28,7 @@ description: >
 6. **跑 `validate_skill.py`**，然后跑 5+5 触发测试
 
 ## 路由表
+| `solid-for-skills.md` | ⭐ 软件设计原则迁移：SOLID 映射、两张图、组合代价 |
 | `why-six-layers.md` | ⭐ 六层结构：目标/输入/流程/格式/自检/FAQ |
 | `trigger-fix-nine-causes.md` | ⭐ 不触发九项排查 + 两个流传很广的错误说法 |
 | `skill-overrides-audit.md` | ⭐ 同名覆盖与冲突：三级命名空间、审计、my- 前缀 |
