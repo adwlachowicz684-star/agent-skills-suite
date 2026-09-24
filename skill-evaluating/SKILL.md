@@ -27,6 +27,9 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `frontmatter-advanced-fields.md` | ⭐ fork/agent/hooks + 调用控制三档 |
+| `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
+| `frontmatter-full-reference.md` | ⭐ 全字段四组 + 开放标准 vs CC 扩展边界 |
 | `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
 | `incremental-debug-procedure.md` | ⭐ 最小配置起步、增量验证、diff 测试 |
 | `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |

@@ -28,6 +28,7 @@ description: Agent Skills 的安全审计、注入防御、合规治理、可观
 > 但**照样输出 "✅ SAFE"**——后台只剩 grep 正则在跑。
 
 ## 路由表（按需深读）
+| `observability-trace-debug.md` | ⭐⭐ 用技能调试技能；护栏放包装脚本不放提示 |
 | `deprecation-compat-strategy.md` | ⭐⭐ 跨版本循环依赖 + 废弃三阶段 + 可选参数优先 |
 | `allowed-tools-least-privilege.md` | ⭐⭐ 最小权限四面红旗（bash+curl 危险组合） |
 | `skill-ownership-changeflow.md` | ⭐ Owner 制度 + 变更七步 + 真实翻车案例 |
