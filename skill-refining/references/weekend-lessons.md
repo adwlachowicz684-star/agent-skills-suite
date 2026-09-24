@@ -1,7 +1,7 @@
 # 一个周末写技能的六条经验（三对三错）
 
 > 相关：《skill-authoring》的 `how-to-guide.md` ·
-> 《skill-refining》的 `pruning.md` · 《skill-crafting》的 `scripts-as-production.md`
+> 《skill-refining》的 `pruning.md` · 《skill-scripting》的 `scripts-as-production.md`
 
 ---
 

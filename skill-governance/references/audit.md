@@ -20,7 +20,7 @@
 ```
 
 □ scripts/ 里的脚本是否非交互、有 --help、JSON 输出、区分退出码？
-□ scripts/ 是否幂等、零硬编码凭据、用相对路径？（见 **`skill-authoring` 的 `skill-crafting` 的 `script-engineering.md`**）
+□ scripts/ 是否幂等、零硬编码凭据、用相对路径？（见 **`skill-authoring` 的 `skill-scripting` 的 `script-engineering.md`**）
 
 ## B. 内容（6 项）
 

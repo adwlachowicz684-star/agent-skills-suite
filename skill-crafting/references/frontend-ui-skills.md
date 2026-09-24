@@ -43,7 +43,7 @@ skills/ui-ux-pro-max/
 
 > ⭐ **把知识库查询做成脚本**是这里的关键设计：
 > 风格库可能几万行，但每次只需要检索出相关的几条——
-> 这正是 `scripts/` 该干的事（呼应 `skill-crafting` 的 `script-engineering.md`）。
+> 这正是 `scripts/` 该干的事（呼应 `skill-scripting` 的 `script-engineering.md`）。
 
 ---
 

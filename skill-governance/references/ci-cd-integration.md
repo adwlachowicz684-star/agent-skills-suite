@@ -161,7 +161,7 @@ gh run rerun <id> · gh pr checks
 □ ⭐ 建议分阶段执行（先快速检查，再深度分析）
 ```
 
-> ⭐ 呼应 `skill-crafting` 的 `script-engineering.md` 的"绝不交互"与超时纪律，
+> ⭐ 呼应 `skill-scripting` 的 `script-engineering.md` 的"绝不交互"与超时纪律，
 > 以及 `skill-selection` 的 `performance.md` 的并行 IO。
 
 ---

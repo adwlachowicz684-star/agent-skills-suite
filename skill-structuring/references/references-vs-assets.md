@@ -116,7 +116,7 @@ grep -n "^### E1" references/error-codes.md
 ✅ {baseDir}/assets/report-template.md
 ```
 
-换机器、换用户就断——这与 `script-engineering.md`、
+换机器、换用户就断——这与 《skill-scripting》`script-engineering.md`、
 `error-handling.md` 里反复出现的规则是同一条。
 
 ---

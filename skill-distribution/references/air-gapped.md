@@ -88,7 +88,7 @@ security:
 □ ⭐ 离线环境里"稍后安装"等于"永远不可用"
 ```
 
-> 呼应 `packaging.md` 的 provenance 与 `skill-crafting` 的 `script-engineering.md`
+> 呼应 `packaging.md` 的 provenance 与 `skill-scripting` 的 `script-engineering.md`
 > 的 PEP 723 内联依赖——**自包含在离线场景从"推荐"升级为"必需"**。
 
 ---

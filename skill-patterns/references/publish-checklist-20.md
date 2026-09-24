@@ -68,7 +68,7 @@
 ```
 
 > 前者对应 `scope-section.md` 的边界章节；
-> 后者对应 `scripts-as-production.md` 的核心论点。
+> 后者对应 《skill-scripting》`scripts-as-production.md` 的核心论点。
 > **这两条恰好也是我们自己校验器会报错的项**。
 
 ---

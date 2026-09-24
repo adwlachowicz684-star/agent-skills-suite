@@ -63,7 +63,7 @@ my-skill/
 
 **适用**：代码执行、确定性操作。
 
-> ⭐ 对应 `scripts-as-production.md`：
+> ⭐ 对应 《skill-scripting》`scripts-as-production.md`：
 > **脚本执行不进上下文，只输出进**——这是省 token 的关键。
 
 ---

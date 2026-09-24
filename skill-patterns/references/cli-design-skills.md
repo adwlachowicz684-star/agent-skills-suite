@@ -30,7 +30,7 @@
 □ 输出格式随 TTY 与否变化
 ```
 
-呼应 `script-engineering.md`（**`skill-crafting`**）的
+呼应 《skill-scripting》`script-engineering.md` 的
 「脚本必须非交互、JSON 输出、区分退出码、幂等」——
 **这里是同一套原则在 CLI 设计上的应用**。
 
@@ -124,7 +124,7 @@ mytool list --format table    # 给人看
 > ⭐ **区分"要不要重试"比区分"成功失败"更有用**：
 > 20（未找到）重试没意义，10（校验失败）改输入再试有意义。
 
-呼应 `script-engineering.md`：
+呼应 《skill-scripting》`script-engineering.md`：
 **退出码要区分类型，否则 SKILL.md 的错误处理章节没法精准回退**。
 
 **错误信息要给"下一步"**：

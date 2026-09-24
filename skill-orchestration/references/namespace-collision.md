@@ -176,7 +176,7 @@
 
 ### ③ 脚本里必须用相对路径
 
-绝对路径换机器就断——这与 `script-engineering.md` 一致，
+绝对路径换机器就断——这与 《skill-scripting》`script-engineering.md` 一致，
 但在**多技能编排**时更容易踩：每个技能都自带路径假设，组合起来必冲突。
 
 ---

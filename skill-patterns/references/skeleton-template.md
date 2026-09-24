@@ -121,7 +121,7 @@
 | **纯指令技能** | ⭐ 策略或流程指导 —— 更可移植 |
 | **脚本支撑技能** | ⭐ 转换、校验、报告生成、精确格式检查 |
 
-> 与《skill-crafting》`scripts-as-production.md` 一致，
+> 与《skill-scripting》`scripts-as-production.md` 一致，
 > 但这里给了更清晰的判据：**正确性是否依赖计算**。
 
 **脚本五条最佳实践**：

@@ -70,7 +70,7 @@ my-skill/
 
 ### `scripts/` — 可执行助手
 
-> 详见 `script-engineering.md`。这里只强调一条：
+> 详见 《skill-scripting》`script-engineering.md`。这里只强调一条：
 
 > ⚠️ **必须在 SKILL.md 里说清是"执行"还是"当参考读"。**
 

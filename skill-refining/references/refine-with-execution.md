@@ -100,7 +100,7 @@
 ```
 □ 脚本进 scripts/
 □ SKILL.md 里写明调用方式
-□ ⭐ 脚本要有 --help 和错误处理（见 script-engineering.md）
+□ ⭐ 脚本要有 --help 和错误处理（见 《skill-scripting》`script-engineering.md`）
 ```
 
 呼应 `skill-principles.md`（**`skill-crafting`**）：

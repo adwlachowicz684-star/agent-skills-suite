@@ -32,14 +32,12 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `skill-anatomy-antipatterns.md` | ⭐⭐ description 触发/正文教；绝不在 description 总结工作流 |
 | `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
 | `anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
-| `script-cli-contract.md` | ⭐⭐ 脚本 CLI 契约：stdout/stderr、退出码分级、JSON 输出 |
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
 | `content-layering-four.md` | ⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
 | `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
 | `preflight-gate.md` | ⭐ STEP 0 前置门禁：声明/验证/拦截三条 MUST NOT |
 | `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
 | `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
-| `deterministic-scripts.md` | ⭐ 确定性脚本四原则 + 跑两次 diff + 该不该脚本化 |
 | `output-contract-templates.md` | ⭐ 输出契约：模板钉 assets/、三种目录语义 |
 | `granularity-atomic-workflow.md` | ⭐ 原子 vs 工作流技能 + 重启测试 |
 | `output-control.md` | 输出控制三层次与模板 |
@@ -48,7 +46,6 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `five-starter-skills.md` | ⭐ 五个起步技能完整源码 |
 | `systematic-debugging-skill.md` | ⭐ 技能样本：四阶段、三次修复规则、写法分析 |
 | `code-review-skill-instance.md` | ⭐ 技能实例：八步、三档判词、三条硬规则 |
-| `scripts-as-production.md` | ⭐ 脚本即生产代码：JSON over stdout 契约 |
 | `first-skill-minimal.md` | ⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
 | `activation-mechanism.md` | ⭐ 激活机制：纯 LLM 推理，description 是唯一杠杆 |
 | `claude-md-bidirectional.md` | ⭐ CLAUDE.md 与技能的双向流动、头号反模式 |
@@ -67,9 +64,9 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 
 | 你要做的事 | 读 |
 |---|---|
-| **写 scripts/ 里的脚本** | `references/script-engineering.md` |
+| **写 scripts/ 里的脚本** | **`skill-scripting` 的 `script-engineering.md`** |
 | ⭐ **逐步写失败模式：只有 happy path 会在生产里断** | `references/failure-modes-doc.md` |
-| ⭐ **工具输出设计：输出就是推理的原材料** | `references/tool-output-design.md` |
+| ⭐ **工具输出设计：输出就是推理的原材料** | **`skill-scripting` 的 `tool-output-design.md`** |
 | ⭐ **范围章节：Out of scope 要指向替代方案** | `references/scope-section.md` |
 | ⭐ **反模式章节：四要素与具体成本** | `references/anti-pattern-section.md` |
 | **长任务的进度报告：按阶段报、降级必须说** | `references/progress-reporting.md` |

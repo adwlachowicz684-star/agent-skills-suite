@@ -193,7 +193,7 @@ PDF    258 tokens/页         （固定）
 5. .claude/skills/<技能名>/.env
 ```
 
-> 呼应 `skill-crafting` 的 `script-engineering.md` 与 security：**走环境变量，绝不写进文件。**
+> 呼应 `skill-scripting` 的 `script-engineering.md` 与 security：**走环境变量，绝不写进文件。**
 
 **③ 统一入口 + 任务参数**
 
