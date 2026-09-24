@@ -28,6 +28,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 > ⭐ **先手写跑一遍，再封装**：重复做过 5 次以上、未来还做 10 次以上的事才值得做成技能。
 
 ## 路由表（按需深读，不要一次全读）
+| `forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
 | `pushy-description.md` | ⭐ 描述要"稍微强势一点"（官方指引） |
 | `seven-step-authoring.md` | ⭐ 七步写第一个技能，含最常被跳过的数据源验证 |
 | `imperative-description.md` | ⭐ 祈使句+否定约束：650 次测试 100% 激活 |

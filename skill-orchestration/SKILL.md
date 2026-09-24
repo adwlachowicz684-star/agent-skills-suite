@@ -30,6 +30,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 > ⭐ **组合的甜蜜点是 5–8 个**。超过之后收益递减。
 
 ## 路由表（按需深读）
+| `orchestrator-timing.md` | ⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写编排器 |
 | `composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
 | `skill-chaining-composition.md` | ⭐ 串联组合：叠加加载、交接协议、五个坑 |
 | `context-isolation-fork.md` | ⭐ 上下文隔离：三条件才 fork + 六种别 fork |

@@ -25,6 +25,7 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 > 它来自实际踩过的坑，是技能里信号最高的内容。
 
 ## 路由表（按需深读）
+| `token-cost-optimization.md` | ⭐⭐⭐ 伪技能陷阱；Token泄漏；模型路由层 |
 | `skill-evolution-loop.md` | ⭐⭐ 三档信号 + 周月季节奏 + ⭐ 连续5次无用就删 |
 | `self-evolution-three-levels.md` | ⭐⭐⭐ 自进化边界：没反馈信号就是把墙撞得更响 |
 | `skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
