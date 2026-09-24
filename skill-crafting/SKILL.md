@@ -27,6 +27,8 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
+| `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
+| `six-anti-patterns-pitfalls.md` | ⭐⭐⭐ 六反模式症状→药方 + 六条安全红线 |
 | `judgment-branches-acceptance.md` | ⭐⭐⭐ 流程/判断/验收三件套；★差评反例比正向示例更有效 |
 | `examples-three-branches.md` | ⭐⭐ 三分支示例 + ⭐⭐⭐ Rationale 字段；gotchas 最值钱 |
 | `description-scope-shape.md` | ⭐⭐ 写不出三条反触发就别发布；"或"超一次就该拆 |
