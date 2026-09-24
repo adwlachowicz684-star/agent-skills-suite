@@ -25,6 +25,8 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 > 它来自实际踩过的坑，是技能里信号最高的内容。
 
 ## 路由表（按需深读）
+| `skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
+| `skill-reducer-study.md` | ⭐⭐ 压缩后质量反升 2.8%；>10K token 技能压缩率达 95.8% |
 | `split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
 | `version-changelog-practice.md` | ⭐ 版本与 Changelog：三种记录 + 四个常见错误 |
 | `version-strategy.md` | ⭐ 版本号判据：调用方会不会坏（不是改了多少字） |

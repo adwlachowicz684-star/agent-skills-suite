@@ -27,6 +27,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `quality-rubric-nine-dims.md` | ⭐ 九维权重：实测表现 23 最高；这把尺子量不到什么 |
 | `frontmatter-advanced-fields.md` | ⭐ fork/agent/hooks + 调用控制三档 |
 | `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
 | `frontmatter-full-reference.md` | ⭐ 全字段四组 + 开放标准 vs CC 扩展边界 |
