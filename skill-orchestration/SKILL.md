@@ -30,6 +30,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 > ⭐ **组合的甜蜜点是 5–8 个**。超过之后收益递减。
 
 ## 路由表（按需深读）
+| `skill-dependency-injection.md` | ⭐⭐ 依赖注入四模式：委托/链式/配置/共享服务；双向无知=解耦证据 |
 | `orchestrator-timing.md` | ⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写编排器 |
 | `composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
 | `skill-chaining-composition.md` | ⭐ 串联组合：叠加加载、交接协议、五个坑 |

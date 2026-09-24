@@ -36,12 +36,9 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
 | `content-layering-four.md` | ⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
 | `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
-| `preflight-gate.md` | ⭐ STEP 0 前置门禁：声明/验证/拦截三条 MUST NOT |
 | `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
 | `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
-| `output-contract-templates.md` | ⭐ 输出契约：模板钉 assets/、三种目录语义 |
 | `granularity-atomic-workflow.md` | ⭐ 原子 vs 工作流技能 + 重启测试 |
-| `output-control.md` | 输出控制三层次与模板 |
 | `unity-refactor-skill.md` | ⭐ 重构技能：默认范围=最近改动、八条规则 |
 | `frontend-ui-skills.md` | ⭐ 三 agent 前置、反 AI 味表、委托链 |
 | `five-starter-skills.md` | ⭐ 五个起步技能完整源码 |
@@ -50,14 +47,13 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `first-skill-minimal.md` | ⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
 | `activation-mechanism.md` | ⭐ 激活机制：纯 LLM 推理，description 是唯一杠杆 |
 | `claude-md-bidirectional.md` | ⭐ CLAUDE.md 与技能的双向流动、头号反模式 |
-| `infinite-loop-timeout.md` | ⭐ 无限循环与超时：终止条件、每技能单独 timeout |
 
 **指令怎么写**：
 
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **形态匹配：禁令 / 配方 / 槽位 / 条件** | `references/guidance-forms.md` |
-| **反理性化：agent 找借口跳过步骤** | `references/anti-rationalizations.md` |
+| **反理性化：agent 找借口跳过步骤** | **`skill-execution` 的 `anti-rationalizations.md`** |
 | **事实边界：该写什么不该写什么** | `references/fact-boundary.md` |
 | **措辞、语气、格式** | **`skill-authoring` 的 `writing-style.md`** |
 
@@ -70,7 +66,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | ⭐ **工具输出设计：输出就是推理的原材料** | **`skill-scripting` 的 `tool-output-design.md`** |
 | ⭐ **范围章节：Out of scope 要指向替代方案** | `references/scope-section.md` |
 | ⭐ **反模式章节：四要素与具体成本** | `references/anti-pattern-section.md` |
-| **长任务的进度报告：按阶段报、降级必须说** | `references/progress-reporting.md` |
+| **长任务的进度报告：按阶段报、降级必须说** | **`skill-execution` 的 `progress-reporting.md`** |
 | **术语一致性：一个词两个意思就够糟了** | `references/terminology.md` |
 | ⭐ **16 条实战原则** | `references/skill-principles.md` |
 | ⭐ **官方团队经验：别陈述显而易见、别过度约束** | `references/official-lessons.md` |
@@ -81,11 +77,11 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **输出契约：Schema-First、四道防线** | `references/output-contract.md` |
-| ⭐ **落地与验证：怎么证明"完成了"** | `references/grounding-verification.md` |
-| **失败处理、重试、熔断、降级** | `references/error-handling.md` |
-| ⭐ **幂等、状态文件、恢复与回滚** | `references/idempotency-resume.md` |
-| ⭐ **行动前先查状态** | `references/state-check.md` |
+| ⭐ **输出契约：Schema-First、四道防线** | **`skill-execution` 的 `output-contract.md`** |
+| ⭐ **落地与验证：怎么证明"完成了"** | **`skill-execution` 的 `grounding-verification.md`** |
+| **失败处理、重试、熔断、降级** | **`skill-execution` 的 `error-handling.md`** |
+| ⭐ **幂等、状态文件、恢复与回滚** | **`skill-execution` 的 `idempotency-resume.md`** |
+| ⭐ **行动前先查状态** | **`skill-execution` 的 `state-check.md`** |
 
 ## Critical Rules
 
@@ -131,7 +127,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | "脚本直接写在 SKILL.md 里就行" | 确定性逻辑必须进 scripts/——省 token 且结果确定。 |
 | "跑一遍扫描器显示 SAFE 就够了" | SAFE ≠ 安全。先确认扫描器实际启用了几个引擎。 |
 
-其余见 `references/anti-rationalizations.md`。
+其余见 **`skill-execution`** 的 `anti-rationalizations.md`。
 
 ## 脚本
 

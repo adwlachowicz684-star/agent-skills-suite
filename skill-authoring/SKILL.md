@@ -129,7 +129,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 | "多写几条禁令更保险" | 禁令只在防明知故犯时有效。形状问题用配方，否则反噬。 |
 | "这个技能相关，肯定有帮助" | **"看起来相关"正是主要风险源**。 |
 
-其余见 **`skill-crafting`** 的 `references/anti-rationalizations.md`。
+其余见 **`skill-execution`** 的 `anti-rationalizations.md`。
 
 ## 脚本
 

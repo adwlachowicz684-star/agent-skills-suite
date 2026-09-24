@@ -27,6 +27,7 @@ description: Agent Skills 的打包发布、版本管理、团队共享与组织
 > 真实事故：一次不带版本后缀的覆盖，导致下游所有依赖它的技能全部中断。
 
 ## 路由表（按需深读）
+| `skill-discovery-at-scale.md` | ⭐⭐ 15万技能下的发现机制；⭐⭐⭐ 给agent可信入口三要素 |
 | `gray-release-rollback.md` | ⭐⭐⭐ 版本级指标拆分：10%全挂=大盘掉1-2点；跳档代价 |
 | `team-landing-seven.md` | ⭐ 七原则 + 三层分发 + stable/dev 标签回滚 |
 | `team-naming-collisions.md` | ⭐ 防冲突命名 + 按环境拆分 + 四步上手 |
