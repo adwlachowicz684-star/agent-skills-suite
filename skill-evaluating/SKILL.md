@@ -27,6 +27,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
 | `incremental-debug-procedure.md` | ⭐ 最小配置起步、增量验证、diff 测试 |
 | `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |
 | `comparator-ab-eval.md` | ⭐ 盲评 comparator + 五条统计纪律 |
