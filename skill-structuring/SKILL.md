@@ -31,6 +31,10 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
+| `invocation-control-fields.md` | ⭐ 谁能调用：两个 frontmatter 声明字段 |
+| `argument-substitution.md` | ⭐⭐ 参数替换：占位符与会损坏代码的替换陷阱 |
+| `nine-checks-not-working.md` | ⭐ 九项排查清单 + 显式调用隔离技巧 |
+| `directory-decision-matrix.md` | ⭐ 决策矩阵：每个文件该放哪个子目录 |
 | `naming-conventions.md` | ⭐ 命名约定：三重角色、硬规则、一致性 > 形态 |
 | `skill-structuring` 的 `directory-contract.md` | ⭐ 目录契约：三个子目录各装什么、assets 不是用来读的 |
 | `skill-structuring` 的 `resource-bundling.md` | ⭐ 打包资源：脚本标签、四条不要放、执行意图 |

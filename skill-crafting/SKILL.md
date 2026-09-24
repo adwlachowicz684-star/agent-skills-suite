@@ -27,6 +27,8 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
+| `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
+| `content-layering-four.md` | ⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
 | `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
 | `preflight-gate.md` | ⭐ STEP 0 前置门禁：声明/验证/拦截三条 MUST NOT |
 | `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
