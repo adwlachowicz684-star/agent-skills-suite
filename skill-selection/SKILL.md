@@ -31,6 +31,8 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 ```
 
 ## 路由表（按需深读）
+| `three-conditions-rule-of-three.md` | ⭐ 三条件 + 三次法则 + 过度抽象治理表 |
+| `skill-portability-declare.md` | 可移植性验收与 compatibility 声明 |
 | `roi-breakeven.md` | ⭐ ROI 回本公式：B/(S×N)，频率是唯一决定项 |
 | `worth-skillifying.md` | ⭐ 该不该做：三条硬标准 + 五维矩阵 + 反直觉判断 |
 | `when-not-to-use-skill.md` | ⭐ 六条不该做成技能 + 三种误用后果（伪稳定最危险） |

@@ -28,6 +28,7 @@ description: Agent Skills 的安全审计、注入防御、合规治理、可观
 > 但**照样输出 "✅ SAFE"**——后台只剩 grep 正则在跑。
 
 ## 路由表（按需深读）
+| `ops-iteration-sop.md` | ⭐ 运维四段式 + S/A/B 分级 + 五条红线 |
 | `skill-min-record-card.md` | ⭐ 最小档案卡 9 字段 + Owner 责任线 + 六个触发点 |
 | `retirement-pipeline.md` | ⭐ 退役四阶段（35-42天）+ 归档≠删除 + 降级诊断 |
 | `injection-audit.md` | ⭐ 提示注入审计：六类红旗与徽章制 |
