@@ -27,6 +27,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
 | `trigger-tuning-loop.md` | ⭐⭐⭐ 误触发vs漏触发修法相反；生成的查询首先是诊断 |
 | `outgrowth-regression-detection.md` | ⭐⭐⭐ 三失败模式：被追上要归档、回归要修、本来不行要重做 |
 | `capability-offset-net-gain.md` | ⭐⭐⭐ 5832次实验：新增失败抵消59%毛收益；平均通过率分不清净增长与换血 |
