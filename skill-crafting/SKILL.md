@@ -31,7 +31,6 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `six-anti-patterns-pitfalls.md` | ⭐⭐⭐ 六反模式症状→药方 + 六条安全红线 |
 | `judgment-branches-acceptance.md` | ⭐⭐⭐ 流程/判断/验收三件套；★差评反例比正向示例更有效 |
 | `examples-three-branches.md` | ⭐⭐ 三分支示例 + ⭐⭐⭐ Rationale 字段；gotchas 最值钱 |
-| `description-scope-shape.md` | ⭐⭐ 写不出三条反触发就别发布；"或"超一次就该拆 |
 | `writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
 | `skill-anatomy-antipatterns.md` | ⭐⭐ description 触发/正文教；绝不在 description 总结工作流 |
 | `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
@@ -48,7 +47,6 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `systematic-debugging-skill.md` | ⭐ 技能样本：四阶段、三次修复规则、写法分析 |
 | `code-review-skill-instance.md` | ⭐ 技能实例：八步、三档判词、三条硬规则 |
 | `first-skill-minimal.md` | ⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
-| `activation-mechanism.md` | ⭐ 激活机制：纯 LLM 推理，description 是唯一杠杆 |
 | `claude-md-bidirectional.md` | ⭐ CLAUDE.md 与技能的双向流动、头号反模式 |
 
 **指令怎么写**：

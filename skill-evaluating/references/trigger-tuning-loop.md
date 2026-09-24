@@ -2,7 +2,7 @@
 
 > 相关：《skill-evaluating》的 `trigger-eval-set.md`（用例集设计）·
 > `description-by-collision-risk.md` · `trigger-debugging.md` ·
-> `metrics.md` · 《skill-crafting》的 `description-scope-shape.md`
+> `metrics.md` · 《skill-description》的 `description-scope-shape.md`
 > 前置：那份讲"用例集长什么样"，
 > 这份讲⭐⭐ **调优的循环过程本身**——
 > 以及⭐⭐⭐ 一个必须先分清的诊断分叉：误触发和漏触发。

@@ -34,7 +34,6 @@ description: >
 | `skill-families-nine.md` | ⭐⭐ 九类技能；跨类最难用好，一类做到底 |
 | `solid-for-skills.md` | ⭐ 软件设计原则迁移：SOLID 映射、两张图、组合代价 |
 | `why-six-layers.md` | ⭐ 六层结构：目标/输入/流程/格式/自检/FAQ |
-| `trigger-fix-nine-causes.md` | ⭐ 不触发九项排查 + 两个流传很广的错误说法 |
 | `skill-overrides-audit.md` | ⭐ 同名覆盖与冲突：三级命名空间、审计、my- 前缀 |
 | `skeleton-template.md` | ⭐ 可直接抄的骨架（六必含小节 + 触发调优） |
 | `instruction-craft.md` | ⭐ 正文写作：祈使句、钉死格式、讲为什么 |
@@ -45,7 +44,6 @@ description: >
 | `publish-checklist-20.md` | ⭐ 发布前 20 项（0–2 分制，28 分才发） |
 | `golden-rules-failure-modes.md` | ⭐ 黄金规则：每条失败模式配一条机械规则 |
 | `feedback-loop-design.md` | ⭐ 反馈环：做→检查→修，规则升级为代码 |
-| `description-four-rules.md` | ⭐ description 四条铁律（第三人称/触发词在前…） |
 | `ten-common-mistakes.md` | ⭐ 十条常见错误与四条最该记住的 |
 | `skill-type-testing.md` | ⭐ 按类型选测法（Pattern 测 near-miss、Discipline 加压力） |
 | `review-checklist.md` | ⭐ 十项自检 + 反转测试 + 只记三条 |

@@ -31,10 +31,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 | `scope-multiplication.md` | ⭐⭐⭐ 失败模式是笛卡尔积；70%事故来自未评估微调 |
 | `operator-card-style.md` | ⭐⭐⭐ 操作卡写法 + Keep/Delete 清单；安装/贡献/隐私章节一律删 |
 | `forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
-| `pushy-description.md` | ⭐ 描述要"稍微强势一点"（官方指引） |
 | `seven-step-authoring.md` | ⭐ 七步写第一个技能，含最常被跳过的数据源验证 |
-| `imperative-description.md` | ⭐ 祈使句+否定约束：650 次测试 100% 激活 |
-| `description-rewrite-case.md` | ⭐ description 改写实录 30%→90% + 六条常见错误 |
 | `data-source-validation.md` | ⭐ 数据源验证：技能会取到错的数据吗 |
 | `degree-of-freedom.md` | ⭐ 自由度校准：窄桥给护栏，开阔地给方向 |
 | `no-op-and-value.md` | ⭐ 每段都要回答：它配得上 token 成本吗 |

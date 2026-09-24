@@ -2,7 +2,7 @@
 
 > 相关：（已移至 _parked 领域实例库）的 `debugging-triage.md` ·
 > 《skill-crafting》的 `guidance-forms.md` ·
-> 《skill-authoring》的 `imperative-description.md`
+> 《skill-description》的 `imperative-description.md`
 
 ---
 

@@ -1,7 +1,7 @@
 # description 按碰撞风险分级 + 混淆伙伴审计
 
-> 相关：《skill-authoring》的 `imperative-description.md` ·
-> 《skill-patterns》的 `description-four-rules.md` ·
+> 相关：《skill-description》的 `imperative-description.md` ·
+> 《skill-description》的 `description-four-rules.md` ·
 > 《skill-orchestration》的 `namespace-collision.md`
 
 ---

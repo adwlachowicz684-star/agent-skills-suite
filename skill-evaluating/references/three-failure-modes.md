@@ -1,7 +1,7 @@
 # 三类失败模式：欠触发 / 误触发 / 执行失败
 
 > 相关：《skill-evaluating》的 `trigger-debugging.md` ·
-> `trigger-eval-set.md` · 《skill-patterns》的 `trigger-fix-nine-causes.md`
+> `trigger-eval-set.md` · 《skill-description》的 `trigger-fix-nine-causes.md`
 > 前置：那些文档讲"怎么修"，这份讲"三类故障各自的根因链路与诊断思路"。
 
 ---

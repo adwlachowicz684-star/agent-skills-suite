@@ -1,6 +1,6 @@
 # 四十个技能之后的五条硬经验
 
-> 相关：《skill-authoring》的 `activation-rate.md` ·
+> 相关：《skill-description》的 `activation-rate.md` ·
 > `pushy-description.md` · `what-not-to-do.md` ·
 > 《skill-crafting》的 `first-skill-minimal.md`
 > 前置：那些讲单条规则，

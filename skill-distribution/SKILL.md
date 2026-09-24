@@ -27,6 +27,7 @@ description: Agent Skills 的打包发布、版本管理、团队共享与组织
 > 真实事故：一次不带版本后缀的覆盖，导致下游所有依赖它的技能全部中断。
 
 ## 路由表（按需深读）
+| `team-admission-criteria.md` | ⭐⭐⭐ 14步流程+准入标准；★★★安全说明只写给人看=不存在 |
 | `dependency-resolution-conflicts.md` | ⭐⭐ 结构化声明 required/optional + conflicts；★可选依赖缺失=降级 |
 | `adoption-playbook-six-steps.md` | ⭐⭐⭐ 首个用例四条件(含错了只烦人)；采用须是阻力最小路径 |
 | `skill-discovery-at-scale.md` | ⭐⭐ 15万技能下的发现机制；⭐⭐⭐ 给agent可信入口三要素 |

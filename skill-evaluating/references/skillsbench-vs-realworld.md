@@ -1,7 +1,7 @@
 # SkillsBench vs 真实场景：同一个问题的两个答案
 
 > 相关：《skill-evaluating》的 `skill-lift-eval.md` ·
-> `library-size-effect.md` · 《skill-authoring》的 `activation-rate.md`
+> `library-size-effect.md` · 《skill-description》的 `activation-rate.md`
 > 前置：`skill-lift-eval.md` 记的是 SkillsBench 的 +16.2pp，
 > 这份记⭐ **后续更大规模研究对它的重要修正**——两个都真，但条件不同。
 

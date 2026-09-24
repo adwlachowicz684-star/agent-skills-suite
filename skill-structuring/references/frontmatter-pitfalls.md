@@ -1,7 +1,7 @@
 # Frontmatter 为什么会静默失败：两阶段解析
 
 > 相关：`skill-structuring` 的 `frontmatter-fields.md`（字段规范，对着填）·
-> 《skill-authoring》的 `frontmatter.md`（写法）·
+> 《skill-description》的 `frontmatter.md`（写法）·
 > 《skill-evaluating》的 `troubleshooting-manual.md`（排查顺序）
 
 ---
