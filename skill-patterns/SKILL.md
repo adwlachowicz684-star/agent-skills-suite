@@ -28,6 +28,7 @@ description: >
 6. **跑 `validate_skill.py`**，然后跑 5+5 触发测试
 
 ## 路由表
+| `conflict-precedence-four-types.md` | ⭐⭐⭐ 四层优先级(事实是约束/技能是指导)+四种冲突类型 |
 | `shared-service-skill.md` | ⭐⭐⭐ 共享服务技能：总是返回有效输出或明确错误 |
 | `seven-anti-patterns-scale.md` | ⭐⭐ 规模化七反模式；⭐⭐⭐ Markdown 指令不是访问控制 |
 | `skill-families-nine.md` | ⭐⭐ 九类技能；跨类最难用好，一类做到底 |

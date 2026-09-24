@@ -31,6 +31,7 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 ```
 
 ## 路由表（按需深读）
+| `prompt-vs-skill-failure-modes.md` | ⭐⭐⭐ Prompt四失败 vs 技能五失败；★错得自信而正确最难发现 |
 | `skill-vs-subagent-decide.md` | ⭐⭐⭐ 判断轴是隔离不是大小；子代理挂技能 |
 | `skill-vs-workflow.md` | ⭐⭐ Skill管怎么做/Workflow管流转；skill没有强制力 |
 | `context-file-selection.md` | ⭐⭐ 五问决策流程；300行CLAUDE.md不一致比没有更糟 |
