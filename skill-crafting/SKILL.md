@@ -27,6 +27,8 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
+| `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
+| `anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
 | `script-cli-contract.md` | ⭐⭐ 脚本 CLI 契约：stdout/stderr、退出码分级、JSON 输出 |
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
 | `content-layering-four.md` | ⭐ 四层沉淀：原则/知识/模板/动作各归其位 |

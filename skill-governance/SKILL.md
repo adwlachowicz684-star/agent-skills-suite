@@ -28,6 +28,7 @@ description: Agent Skills 的安全审计、注入防御、合规治理、可观
 > 但**照样输出 "✅ SAFE"**——后台只剩 grep 正则在跑。
 
 ## 路由表（按需深读）
+| `allowed-tools-least-privilege.md` | ⭐⭐ 最小权限四面红旗（bash+curl 危险组合） |
 | `skill-ownership-changeflow.md` | ⭐ Owner 制度 + 变更七步 + 真实翻车案例 |
 | `ops-iteration-sop.md` | ⭐ 运维四段式 + S/A/B 分级 + 五条红线 |
 | `skill-min-record-card.md` | ⭐ 最小档案卡 9 字段 + Owner 责任线 + 六个触发点 |

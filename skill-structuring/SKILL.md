@@ -31,6 +31,7 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
+| `reference-file-practices.md` | ⭐⭐ 一层深度 + 100行带目录 + 会被重复读取 |
 | `invocation-control-fields.md` | ⭐ 谁能调用：两个 frontmatter 声明字段 |
 | `argument-substitution.md` | ⭐⭐ 参数替换：占位符与会损坏代码的替换陷阱 |
 | `nine-checks-not-working.md` | ⭐ 九项排查清单 + 显式调用隔离技巧 |
