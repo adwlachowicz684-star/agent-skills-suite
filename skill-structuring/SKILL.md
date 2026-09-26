@@ -31,6 +31,7 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
+| `three-tier-token-math.md` | ⭐⭐⭐★ L1 30–50 tokens/技能；★健康基线 8K=窗口 4% |
 | `nested-scope-discovery.md` | ⭐⭐⭐⭐ 嵌套作用域只在子目录工作时才被发现（易误诊） |
 | `three-stages-discovery-activation-execution.md` | ⭐⭐⭐⭐ 三阶段；★★★真失忆vs假失灵二分诊断 |
 | `skill-cascade-css.md` | ⭐⭐⭐ CSS级联比喻：生效范围vs同名冲突；★插件不在梯子上、嵌套共存 |

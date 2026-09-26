@@ -31,6 +31,7 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 ```
 
 ## 路由表（按需深读）
+| `four-way-choice.md` | ⭐⭐⭐ 四选一：★三种规则差别只在★何时加载+多大范围；★技能=共享 子代理=隔离 |
 | `skill-portfolio-audit.md` | ⭐⭐⭐⭐★ 47个34%僵尸；★要么便宜+频繁要么昂贵+高价值，中间地带死 |
 | `prompt-vs-skill-failure-modes.md` | ⭐⭐⭐ Prompt四失败 vs 技能五失败；★错得自信而正确最难发现 |
 | `skill-vs-subagent-decide.md` | ⭐⭐⭐ 判断轴是隔离不是大小；子代理挂技能 |

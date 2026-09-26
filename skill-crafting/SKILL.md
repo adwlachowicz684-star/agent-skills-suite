@@ -27,6 +27,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
+| `six-pitfalls-selfcheck.md` | ⭐⭐⭐★★★ 沉积（打架的旧值）；★空转/重复；★禁令改写顺序 |
 | `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
 | `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
