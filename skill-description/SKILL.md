@@ -27,6 +27,7 @@ description: 写好 Agent Skill 的 name 与 description，让它在该触发时
 ```
 
 ## 路由表（按需深读，不要一次全读）
+| `skill-arguments-and-stacking.md` | ⭐⭐★★★ $0 才是第一个参数；★多技能同载最多6；★! 注入不二次扫描 |
 | `debug-not-following.md` | ⭐⭐⭐★★★★★ 问Claude何时用此技能→复述描述；★中途失效=截断 |
 | `description-tuning-official-loop.md` | ⭐⭐⭐ 官方调优循环：60/40切分·跑3次·5轮·★按测试集选防过拟合 |
 

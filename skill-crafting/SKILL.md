@@ -28,23 +28,18 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 
 ## 路由表（按需深读）
 | `few-shot-example-quality.md` | ⭐⭐★★★ 示例六准则；★负例 sparingly 且成对；★成本不均匀 |
-| `six-pitfalls-selfcheck.md` | ⭐⭐⭐★★★ 沉积（打架的旧值）；★空转/重复；★禁令改写顺序 |
 | `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
 | `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
 | `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
-| `six-anti-patterns-pitfalls.md` | ⭐⭐⭐ 六反模式症状→药方 + 六条安全红线 |
 | `judgment-branches-acceptance.md` | ⭐⭐⭐ 流程/判断/验收三件套；★差评反例比正向示例更有效 |
 | `examples-three-branches.md` | ⭐⭐ 三分支示例 + ⭐⭐⭐ Rationale 字段；gotchas 最值钱 |
 | `writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
-| `skill-anatomy-antipatterns.md` | ⭐⭐ description 触发/正文教；绝不在 description 总结工作流 |
 | `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
-| `anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
 | `content-layering-four.md` | ⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
 | `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
 | `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
-| `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
 | `granularity-atomic-workflow.md` | ⭐ 原子 vs 工作流技能 + 重启测试 |
 | `claude-md-bidirectional.md` | ⭐ CLAUDE.md 与技能的双向流动、头号反模式 |
 

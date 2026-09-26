@@ -28,6 +28,13 @@ description: >
 6. **跑 `validate_skill.py`**，然后跑 5+5 触发测试
 
 ## 路由表
+| `enterprise-three-layer-skeleton.md` | ⭐⭐★★★ 三层骨架；★前置指纹(规划期排除)；元描述=意图+前置+后置 |
+| `skill-anatomy-antipatterns.md` | ⭐⭐ description 触发/正文教；绝不在 description 总结工作流 |
+| `six-pitfalls-selfcheck.md` | ⭐⭐★★★ 沉积（打架的旧值）；★空转/重复；★禁令改写顺序 |
+| `six-anti-patterns-pitfalls.md` | ⭐⭐⭐ 六反模式症状→药方 + 六条安全红线 |
+| `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
+| `anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
+| `anti-pattern-section.md` | ⭐⭐ 反模式章节写法 |
 | `four-design-principles-io-contract.md` | ⭐⭐⭐⭐ 四项原则；★★无状态此前未列为原则 + schema.yaml 数据契约 |
 | `conflict-precedence-four-types.md` | ⭐⭐⭐ 四层优先级(事实是约束/技能是指导)+四种冲突类型 |
 | `shared-service-skill.md` | ⭐⭐⭐ 共享服务技能：总是返回有效输出或明确错误 |

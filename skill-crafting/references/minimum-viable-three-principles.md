@@ -1,6 +1,6 @@
 # 最小可用三原则：执行契约 · 一技能一事 · 路径不硬编码
 
-> 相关：《skill-crafting》的 `six-anti-patterns-pitfalls.md` ·
+> 相关：《skill-patterns》的 `six-anti-patterns-pitfalls.md` ·
 > `eight-practical-lessons.md` · `operator-card-style.md` ·
 > 《skill-execution》的 `seven-contracts.md` ·
 > 《skill-structuring》的 `directory-decision-matrix.md`

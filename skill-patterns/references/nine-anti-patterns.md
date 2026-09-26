@@ -1,7 +1,7 @@
 # 九个技能反模式（含症状、根因、修法）
 
 > 相关：《skill-refining》的 `pruning.md` · `skill-structuring` 的 `what-not-to-ship.md` ·
-> 《skill-crafting》的 `anti-pattern-section.md`
+> 《skill-patterns》的 `anti-pattern-section.md`
 
 ---
 

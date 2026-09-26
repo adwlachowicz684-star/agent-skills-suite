@@ -31,6 +31,7 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
+| `prompt-caching-and-skills.md` | ⭐⭐★★★ 缓存是前缀匹配；★allowed-tools 是缓存事件；fork 要共享父前缀 |
 | `diagnostic-commands.md` | ⭐⭐⭐★★ 三类收敛（加载/优先级/描述）；★/context vs /skills；作用域优先级 |
 | `yaml-frontmatter-errors.md` | ⭐⭐⭐★★ 半可用：手动能调、自动不能；★中文全角冒号；★三条验证命令 |
 | `three-tier-token-math.md` | ⭐⭐⭐★ L1 30–50 tokens/技能；★健康基线 8K=窗口 4% |

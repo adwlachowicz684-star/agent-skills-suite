@@ -1,6 +1,6 @@
 # 写完后的十条检查清单与"只记三条"
 
-> 相关：《skill-crafting》的 `anti-patterns-catalog.md` ·
+> 相关：《skill-patterns》的 `anti-patterns-catalog.md` ·
 > `six-anti-patterns-pitfalls.md` · `common-mistakes-checklist.md` ·
 > 《skill-patterns》的 `publish-checklist-20.md`（20 项 0–2 分制）
 > 前置：那份是⭐ 20 项打分，
