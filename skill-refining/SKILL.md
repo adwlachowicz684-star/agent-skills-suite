@@ -25,6 +25,7 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 > 它来自实际踩过的坑，是技能里信号最高的内容。
 
 ## 路由表（按需深读）
+| `four-pitfalls-practice.md` | ⭐⭐⭐ 四坑：★★描述强实现弱→信任崩坏；过细拆分判据 |
 | `memory-layering-and-skills.md` | ⭐⭐⭐ 记忆四层：★技能=程序记忆，不该装事实 |
 | `skill-rot-rollback-discipline.md` | ⭐⭐⭐ 自改进是版本控制问题；歧义时默认回滚不是保留 |
 | `model-migration-audit.md` | ⭐⭐⭐ 升级模型默认做减法；提示性能跨模型只弱相关 |
