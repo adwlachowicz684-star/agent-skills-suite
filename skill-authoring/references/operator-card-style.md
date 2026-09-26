@@ -1,7 +1,7 @@
 # 操作卡写法：Keep / Delete 清单与 30–60 行目标
 
 > 相关：《skill-authoring》的 `skill-anatomy.md` ·
-> 《skill-crafting》的 `first-skill-minimal.md` ·
+> 《skill-gallery》的 `first-skill-minimal.md` ·
 > `token-bloat-audit.md`
 > 前置：那些讲"结构是什么"，
 > 这份给⭐ **一份可照抄的取舍清单**：正文里该留什么、该删什么、目标多长。

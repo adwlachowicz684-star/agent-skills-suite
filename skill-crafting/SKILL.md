@@ -27,6 +27,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
+| `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
 | `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
 | `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
@@ -43,13 +44,13 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
 | `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
 | `granularity-atomic-workflow.md` | ⭐ 原子 vs 工作流技能 + 重启测试 |
-| `unity-refactor-skill.md` | ⭐ 重构技能：默认范围=最近改动、八条规则 |
-| `frontend-ui-skills.md` | ⭐ 三 agent 前置、反 AI 味表、委托链 |
-| `five-starter-skills.md` | ⭐ 五个起步技能完整源码 |
-| `systematic-debugging-skill.md` | ⭐ 技能样本：四阶段、三次修复规则、写法分析 |
-| `code-review-skill-instance.md` | ⭐ 技能实例：八步、三档判词、三条硬规则 |
-| `first-skill-minimal.md` | ⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
 | `claude-md-bidirectional.md` | ⭐ CLAUDE.md 与技能的双向流动、头号反模式 |
+
+**看完整样本**：
+
+| 你要做的事 | 读 |
+|---|---|
+| ⭐ **照着一份真技能写 / 看取舍是怎么做的** | **`skill-gallery`**（完整源码 + 写法分析） |
 
 **指令怎么写**：
 

@@ -2,7 +2,7 @@
 
 > 相关：《skill-description》的 `activation-rate.md` ·
 > `pushy-description.md` · `what-not-to-do.md` ·
-> 《skill-crafting》的 `first-skill-minimal.md`
+> 《skill-gallery》的 `first-skill-minimal.md`
 > 前置：那些讲单条规则，
 > 这份是⭐ **做完 40 个技能之后的复盘**——五条都是"踩出来的"，不是推出来的。
 
