@@ -28,6 +28,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 > ⭐ **先手写跑一遍，再封装**：重复做过 5 次以上、未来还做 10 次以上的事才值得做成技能。
 
 ## 路由表（按需深读，不要一次全读）
+| `prompt-altitude-three-laws.md` | ⭐⭐★★★ 高度检验法（三种诠释/崩掉）；★三条律含逃生口；按档位调 |
 | `scope-multiplication.md` | ⭐⭐⭐ 失败模式是笛卡尔积；70%事故来自未评估微调 |
 | `operator-card-style.md` | ⭐⭐⭐ 操作卡写法 + Keep/Delete 清单；安装/贡献/隐私章节一律删 |
 | `forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
