@@ -32,6 +32,7 @@ description: 完整技能样本库——可直接照抄的真实 SKILL.md 源码
 > ⭐ **没有一个说"功能很全"**。
 
 ## 路由表（按需深读）
+| `team-skill-template.md` | ⭐⭐⭐ 团队模板 + ★★★★命名仲裁（动名词 vs verb-noun） |
 | `first-skill-minimal.md` | ⭐⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
 | `five-starter-skills.md` | ⭐ 五个起步技能完整源码（含各自行数） |
 | `code-review-skill-instance.md` | ⭐⭐ 八步、三档判词逻辑、三条硬规则；生成者≠校验者 |

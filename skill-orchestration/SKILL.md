@@ -30,6 +30,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 > ⭐ **组合的甜蜜点是 5–8 个**。超过之后收益递减。
 
 ## 路由表（按需深读）
+| `skill-data-passing.md` | ⭐⭐⭐⭐★ 上下文是涂改的黑板；★复用≥2场景才拆成技能 |
 | `conflict-three-types-degradation.md` | ⭐⭐⭐ 冲突三型(排他/组合/确认) + 降级层；★别都当排他型 |
 | `routing-tiers-and-arbitration.md` | ⭐⭐⭐ 三级路由(规则<10/向量粗排/模型精排)+仲裁链；★仲裁写成函数 |
 | `skill-dependency-injection.md` | ⭐⭐ 依赖注入四模式：委托/链式/配置/共享服务；双向无知=解耦证据 |
