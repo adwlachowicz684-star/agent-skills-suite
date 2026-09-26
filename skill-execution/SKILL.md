@@ -27,6 +27,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 > 而技能会被调用几百次且每次都不经复核。
 
 ## 路由表（按需深读）
+| `three-crash-scenes.md` | ⭐⭐⭐⭐ 三起事故：★脚本输出3万字塞爆上下文；语义边界要主动收紧 |
 | `output-stability-contract.md` | ⭐⭐⭐ 输出稳定：★跑两遍(/clear)测试法 + 三分法 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
 | `output-contract.md` | ⭐ 输出契约：Schema-First、四道防线 |

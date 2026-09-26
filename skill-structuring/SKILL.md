@@ -31,6 +31,7 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
+| `three-stages-discovery-activation-execution.md` | ⭐⭐⭐⭐ 三阶段；★★★真失忆vs假失灵二分诊断 |
 | `skill-cascade-css.md` | ⭐⭐⭐ CSS级联比喻：生效范围vs同名冲突；★插件不在梯子上、嵌套共存 |
 | `prompt-layering-positional-bias.md` | ⭐⭐⭐ 四层职责 + 位置偏差；★关键规则两端重复 |
 | `four-layer-diagnosis-flow.md` | ⭐⭐⭐ 四步排查+停机规则；★80%问题在文件层 |

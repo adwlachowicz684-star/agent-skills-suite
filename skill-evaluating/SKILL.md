@@ -27,6 +27,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `benchmark-assertions-delta.md` | ⭐⭐⭐⭐ 断言好坏+delta判读表+VibeCheck；★约束型要写抑制测试 |
 | `three-skill-ceiling.md` | ⭐⭐⭐⭐ 每任务挂载>3个技能成功率下滑；★门槛曲线 |
 | `hit-rate-four-questions.md` | ⭐⭐⭐ 四类问题诊断；★★★纪律约束型最容易被理性化绕过 |
 | `eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
