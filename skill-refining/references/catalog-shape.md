@@ -1,7 +1,7 @@
 # 目录形状：五个反模式与审计节奏
 
 > 相关：`splitting.md`（何时拆）· `deduplication.md`（去重）·
-> 《skill-authoring》的 `skill-types.md`（分类法）· `claude-md-vs-skill.md`（归属）
+> 《skill-content》的 `skill-types.md`（分类法）· `claude-md-vs-skill.md`（归属）
 
 ---
 

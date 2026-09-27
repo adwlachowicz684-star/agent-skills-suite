@@ -1,15 +1,16 @@
 ---
 name: skill-authoring
 description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技能、把提示词 / 团队规范 / SOP / 既有文档沉淀成可复用技能，或选择工作流结构与约束强度、写 frontmatter 与示例、定输出契约。产出渐进式披露结构——SKILL.md 路由层 + references/ 详解 + scripts/ 确定性校验 + assets/ 模板。
-  Do NOT use for 已有技能的优化瘦身与拆分（用 skill-refining）、评估打分与触发测试（用 skill-evaluating）、安全审计与合规（用 skill-governance）、多技能编排（用 skill-orchestration），也不用于写一次性提示词或 PPT/Word 等成品文件。
+  Do NOT use for 各章节具体写什么内容与素材转换（用 skill-content）、已有技能的优化瘦身与拆分（用 skill-refining）、评估打分与触发测试（用 skill-evaluating）、安全审计与合规（用 skill-governance）、多技能编排（用 skill-orchestration），也不用于写一次性提示词或 PPT/Word 等成品文件。
 ---
 
 # 从零写一个 Agent Skill
 
 ## 边界
 
-- 用于：**新建技能** · 把提示词/规范/SOP 沉淀成技能 · 选结构与定约束 · 写 frontmatter/示例/输出契约
-- 不用于：已有技能的优化拆分 · 评估打分 · 安全审计 · 多技能编排 · 一次性提示词
+- 用于：**新建技能** · 把规范/SOP 沉淀成技能 · 选结构与定约束 · 定输出契约 · 触发测试
+- 不用于：各章节内容与素材转换 · 已有技能优化拆分 · 评估打分 · 安全审计 · 多技能编排
+- ⭐ **正文该放什么、措辞、验证章节、示例、提示词转技能 → 《skill-content》**
 
 ## 核心原则
 
@@ -28,10 +29,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 > ⭐ **先手写跑一遍，再封装**：重复做过 5 次以上、未来还做 10 次以上的事才值得做成技能。
 
 ## 路由表（按需深读，不要一次全读）
-| `anthropic-team-lessons.md` | ⭐⭐⭐⭐⭐ 官方团队七课：不陈述显然·Gotchas 最高信号·避免 railroading·setup 存 config.json·描述写给模型·技能自带记忆·给 helper 库 |
-| `prompt-altitude-three-laws.md` | ⭐⭐★★★ 高度检验法（三种诠释/崩掉）；★三条律含逃生口；按档位调 |
 | `scope-multiplication.md` | ⭐⭐⭐ 失败模式是笛卡尔积；70%事故来自未评估微调 |
-| `operator-card-style.md` | ⭐⭐⭐ 操作卡写法 + Keep/Delete 清单；安装/贡献/隐私章节一律删 |
 | `forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
 | `seven-step-authoring.md` | ⭐ 七步写第一个技能，含最常被跳过的数据源验证 |
 | `data-source-validation.md` | ⭐ 数据源验证：技能会取到错的数据吗 |
@@ -45,28 +43,8 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 | **⭐ 三步实操手册** | `references/how-to-guide.md`（怎么做）· `references/creation-framework.md`（骨架与流程）· `references/what-not-to-do.md`（不能做） |
 | **完整流程 / 六阶段** | `references/workflow.md` |
 | ⭐ **跨模型测试矩阵：Haiku/Sonnet/Opus 三档** | `references/testing-matrix.md` |
-| ⭐ **激活率实证：四档数据与一组矛盾证据** | `references/activation-rate.md` |
-| ⭐ **description 四种写法模式与三个致命错误** | `references/description-patterns.md` |
-| ⭐ **正文写作九条：可逐条检查的启发式** | `references/body-writing-rules.md` |
-| ⭐ **验证与升级章节：把废话写成可判定条件** | `references/validation-escalation.md` |
-| ⭐ **示例即契约：改技能时不能动的那些示例** | `references/examples-as-contract.md` |
-| **看模板与真实范例** | `assets/SKILL_template.md` · `references/real-examples.md` |
-| **判断该做成哪一类技能** | `references/skill-types.md`（Anthropic 九种类型） |
-| ⭐ **六阶段创作流程 / 三个评估角色** | `references/authoring-workflow.md` |
-| ⭐ **验证章节怎么写（含证据对照表）** | `references/verification-section.md` |
-| ⭐ **正文该放什么：Gotchas / 模板 / 程序优于声明** | `references/skill-anatomy.md` |
+| **看模板** | `assets/SKILL_template.md` |
 | **写完后自查 / 反模式对照表** | `references/authoring-checklist.md` |
-
-**写各部分**：
-
-| 你要做的事 | 读 |
-|---|---|
-| 写或改 frontmatter | `references/frontmatter.md` |
-| ⭐ **命名约定与 description 好坏对照** | `references/naming-description.md` |
-| ⭐ 选工作流结构、定约束强度 | `references/patterns.md` |
-| **措辞、语气、格式规范** | `references/writing-style.md` |
-| **写示例 / 定验收** | `references/examples.md` |
-| **把手头提示词 / SOP 转成技能** | `references/prompt-to-skill.md` · `references/prompt-migration.md` |
 
 **已写完之后**（交给姊妹技能）：
 
@@ -75,6 +53,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 | 优化 / 瘦身 / 拆分 / 翻译 / 发布 | **`skill-refining`** |
 | 评估打分 / 触发测试 / 排错 | **`skill-evaluating`** |
 | 正文构件细节（形态、目录、脚本、验证） | **`skill-crafting`** |
+| ⭐ 各章节写什么 / 示例 / 提示词转技能 | **`skill-content`** |
 
 ## 强制工作流（MANDATORY）
 

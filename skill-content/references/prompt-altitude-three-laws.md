@@ -1,6 +1,6 @@
 # 指令高度：金发姑娘区与三条律
 
-> 相关：《skill-authoring》的 `operator-card-style.md` ·
+> 相关：《skill-content》的 `operator-card-style.md` ·
 > 《skill-crafting》的 `imperative-style.md` · `write-reasons-not-rules.md`
 > 前置：那些讲⭐ 措辞与句式，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个更上游的问题——⭐ 指令该写在⭐ 哪个抽象层级，

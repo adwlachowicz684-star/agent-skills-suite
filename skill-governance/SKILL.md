@@ -31,6 +31,7 @@ description: Agent Skills 的安全审计、注入防御、合规治理、可观
 | `hooks-rewrite-reinject.md` | ⭐⭐★★★ modifyInput 就地改写；★compact 重注入（压缩可订阅）；子代理内也跑 |
 | `hooks-skill-cooperation.md` | ⭐⭐★★★ 退出码三档；★沉默≠批准；★阻断消息要可行动(否则试九次)；compact 重注入 |
 | `toxicskills-13-4-percent.md` | ⭐⭐⭐ 13.4%严重问题；★★description注入即使不调用也中招 |
+| `skill-slo-error-budget.md` | ⭐⭐⭐⭐⭐ 有指标没执法；三条 SLI（触发准确/输出合格/⭐净增益）；错误预算三档状态 |
 | `skill-decay-governance.md` | ⭐⭐⭐ 腐烂四症状 + 五条治理清单（review_after/无category拒绝注册） |
 | `allowed-tools-reference.md` | ⭐⭐ 完整工具表 + Bash(prefix:*) 作用域；★忘了 Skill 会调不动 |
 | `unicode-injection-defense.md` | ⭐⭐⭐ 隐藏Unicode注入：人类审查对它完全失效，必须机器检测 |

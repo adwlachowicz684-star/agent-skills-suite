@@ -2,7 +2,7 @@
 
 > 相关：《skill-crafting》的 `minimum-viable-three-principles.md`（执行契约非产品文档）·
 > 《skill-patterns》的 `self-containment-rewrite.md`（指令要写成规格不是散文）·
-> 《skill-authoring》的 `prompt-to-skill.md`
+> 《skill-content》的 `prompt-to-skill.md`
 > 前置：那些讲⭐ 技能里该写什么，
 > 这份讲⭐⭐⭐⭐ **一个类比的替换**——以及它带来的三条硬结论。
 

@@ -2,7 +2,7 @@
 
 > 相关：《skill-distribution》的 `adoption-playbook.md` ·
 > 《skill-distribution》的 `team-adoption.md` ·
-> 《skill-authoring》的 `skill-types.md`
+> 《skill-content》的 `skill-types.md`
 
 ---
 
