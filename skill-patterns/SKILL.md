@@ -40,6 +40,7 @@ description: >
 | `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
 | `anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
 | `anti-pattern-section.md` | ⭐⭐ 反模式章节写法 |
+| `reusability-over-specification.md` | ⭐⭐⭐⭐⭐ 先探测不先写（第五个同构场景）；⭐⭐⭐⭐⭐ 三层拆分通用/领域/项目；⭐⭐⭐⭐⭐ 改一个词测试 |
 | `four-design-principles-io-contract.md` | ⭐⭐⭐⭐ 四项原则；★★无状态此前未列为原则 + schema.yaml 数据契约 |
 | `conflict-precedence-four-types.md` | ⭐⭐⭐ 四层优先级(事实是约束/技能是指导)+四种冲突类型 |
 | `shared-service-skill.md` | ⭐⭐⭐ 共享服务技能：总是返回有效输出或明确错误 |

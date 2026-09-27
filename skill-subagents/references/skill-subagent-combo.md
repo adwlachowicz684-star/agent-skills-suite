@@ -1,7 +1,7 @@
 # Skill × 子代理：两个组合方向、三种实战模式
 
-> 相关：《skill-orchestration》的 `subagents.md`（子代理不从父对话继承技能）·
-> `composition.md` · 《skill-orchestration》的 `skill-vs-subagent.md`
+> 相关：《skill-subagents》的 `subagents.md`（子代理不从父对话继承技能）·
+> `composition.md` · 《skill-subagents》的 `skill-vs-subagent.md`
 
 ---
 

@@ -1,6 +1,6 @@
 # fork 的 token 经济学与三个真实坑
 
-> 相关：《skill-orchestration》的 `context-isolation-fork.md`（三条件才 fork）·
+> 相关：《skill-subagents》的 `context-isolation-fork.md`（三条件才 fork）·
 > 《skill-boundaries》的 `skill-vs-subagent-decide.md` ·
 > 《skill-loading》的 `frontmatter-advanced-fields.md`
 > 前置：那份讲⭐ 该不该 fork，

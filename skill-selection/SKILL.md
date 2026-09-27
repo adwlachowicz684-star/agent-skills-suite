@@ -41,6 +41,8 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 | `context-file-selection.md` | ⭐⭐ 五问决策流程；300行CLAUDE.md不一致比没有更糟 |
 | `three-conditions-rule-of-three.md` | ⭐ 三条件 + 三次法则 + 过度抽象治理表 |
 | `skill-portability-declare.md` | 可移植性验收与 compatibility 声明 |
+| `hard-thresholds-matrix.md` | ⭐⭐⭐⭐⭐ 三条硬门槛；⭐⭐⭐⭐⭐ 技能不会因为没数据而停下，它会编一个 |
+| `scope-and-mounting.md` | ⭐⭐⭐⭐⭐ "留"和"装"是两个独立选择；⭐⭐⭐⭐⭐ 认知切换是主要成本 |
 | `first-skill-cold-start.md` | ⭐⭐⭐⭐⭐ 第一个技能=你会做但嫌烦的事；⭐⭐⭐⭐⭐ 不触发改描述不改正文；⭐⭐⭐⭐ 第二个要等第一个用了 5 次 |
 | `roi-breakeven.md` | ⭐ ROI 回本公式：B/(S×N)，频率是唯一决定项 |
 | `project-level-overload.md` | ⭐⭐⭐⭐ 每项目只留 2–3 个；⭐⭐⭐⭐⭐ 一次性技能用完就删；库存≠装载 |

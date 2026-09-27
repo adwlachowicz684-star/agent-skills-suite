@@ -1,7 +1,7 @@
 # 元技能：让 agent 自己写技能
 
 > 相关：《skill-content》的 `prompt-to-skill.md` ·
-> 《skill-orchestration》的 `subagents.md` ·
+> 《skill-subagents》的 `subagents.md` ·
 > 《skill-crafting》的 `skill-structuring` 的 `frontmatter-fields.md`
 
 ---

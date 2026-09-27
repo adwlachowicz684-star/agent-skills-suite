@@ -1,6 +1,6 @@
 # 子代理不继承技能（以及内置 agent 完全用不了）
 
-> 相关：《skill-orchestration》的 `subagents.md` ·
+> 相关：《skill-subagents》的 `subagents.md` ·
 > `skill-subagent-combo.md` · `subagent-teams.md` ·
 > `fork-official-details.md`
 

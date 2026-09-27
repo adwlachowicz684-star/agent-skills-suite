@@ -1,7 +1,7 @@
 # 确定性边界：什么必须放 Hook，什么放技能
 
 > 相关：《skill-boundaries》的 `five-layer-choice.md` ·
-> 《skill-orchestration》的 `skill-vs-subagent.md`
+> 《skill-subagents》的 `skill-vs-subagent.md`
 
 ---
 

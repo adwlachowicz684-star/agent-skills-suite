@@ -2,7 +2,7 @@
 
 > 相关：《skill-boundaries》的 `five-layer-choice.md` ·
 > `skill-vs-subagent-decide.md`（判断轴是隔离）· `context-file-selection.md` ·
-> 《skill-orchestration》的 `context-isolation-fork.md`
+> 《skill-subagents》的 `context-isolation-fork.md`
 > 前置：那些讲⭐ 两两对比，
 > 这份讲⭐⭐⭐ **官方给出的四者并列对照**——
 > 含⭐⭐⭐⭐ 一个能把⭐ 三种"规则类载体"一次分清的⭐ 加载维度。

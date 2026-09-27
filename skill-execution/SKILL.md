@@ -33,6 +33,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
 | `human-checkpoint-design.md` | ⭐⭐⭐⭐⭐ 暂停≠结束；⭐⭐⭐⭐⭐ 确认要继续吗不够，要展示不可逆部分；⭐⭐⭐⭐ 过度暂停会训练无脑确认 |
 | `cross-session-continuity.md` | ⭐⭐⭐⭐⭐ 副作用持久/进度不持久；⭐⭐⭐⭐⭐ 上下文里的进度不是接续方案；⭐⭐⭐⭐ 重跑比接续可靠 |
+| `change-questions.md` | ⭐⭐⭐⭐⭐ 模型不区分"补充"和"改主意"；⭐⭐⭐⭐⭐ 改细节不要从头再来；⭐⭐⭐⭐⭐ 同一任务内只问一次 |
 | `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 三种结束（完成/转人/放弃）；⭐⭐⭐⭐⭐ 完成条件必须可枚举；⭐⭐⭐⭐⭐ 没有出口=默认继续尝试
 | `budget-caps-no-progress.md` | ⭐⭐⭐⭐ 五道上限；⭐⭐⭐⭐⭐ 无进展检测器（动作不同但状态不变）；终止不是模型的选项 |
 | `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；[SKILL_EXECUTION_ERROR] + safe_reply + 禁止解释 |

@@ -1,6 +1,6 @@
 # 上下文隔离：何时 fork，何时别 fork
 
-> 相关：《skill-orchestration》的 `fork-context-skill.md` ·
+> 相关：《skill-subagents》的 `fork-context-skill.md` ·
 > `fork-official-details.md` · `subagent-skill-inheritance.md`
 
 ---

@@ -30,7 +30,6 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 > ⭐ **组合的甜蜜点是 5–8 个**。超过之后收益递减。
 
 ## 路由表（按需深读）
-| `fork-token-economics.md` | ⭐⭐⭐ ★★技能内容会变成子代理的提示词→只写准则=空输出；token 经济学表 |
 | `skill-data-passing.md` | ⭐⭐⭐⭐★ 上下文是涂改的黑板；★复用≥2场景才拆成技能 |
 | `conflict-three-types-degradation.md` | ⭐⭐⭐ 冲突三型(排他/组合/确认) + 降级层；★别都当排他型 |
 | `routing-tiers-and-arbitration.md` | ⭐⭐⭐ 三级路由(规则<10/向量粗排/模型精排)+仲裁链；★仲裁写成函数 |
@@ -39,14 +38,10 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | `composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
 | `handoff-payload-contract.md` | ⭐⭐⭐⭐⭐ 交接包五项；⭐⭐⭐⭐⭐ 缺 failures = 技术上真实、实质上误导；⭐⭐⭐⭐ 覆盖率不足就停
 | `skill-chaining-composition.md` | ⭐ 串联组合：叠加加载、交接协议、五个坑 |
-| `context-isolation-fork.md` | ⭐ 上下文隔离：三条件才 fork + 六种别 fork |
 | `collision-arbitration.md` | ⭐ 技能打架仲裁三招 + 两步路由 + 延迟真相 |
 | `state-persistence.md` | ⭐ 会话间状态持久化：三类状态与读写时机 |
 | `gamedev-skill-routing.md` | ⭐ 多维技能库路由：三维正交、指纹识别、降级 |
-| `subagent-skill-inheritance.md` | ⭐ 子代理不继承技能，内置 agent 完全用不了 |
-| `subagent-teams.md` | 子代理团队：依赖分析→并行批次→关卡 |
 | `skills-mcp-subagent.md` | 技能/MCP/子代理协同范式与治理先行 |
-| `skill-subagent-combo.md` | ⭐ Skill × 子代理：两个方向、三种模式 |
 
 **编排模式**：
 
