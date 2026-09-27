@@ -32,6 +32,8 @@ description: 完整技能样本库——可直接照抄的真实 SKILL.md 源码
 > ⭐ **没有一个说"功能很全"**。
 
 ## 路由表（按需深读）
+| `skill-creator-agents-and-stats.md` | ⭐⭐★★★ 三子代理分工（校验者≠解释者）；★stddev 是我们缺的维度 |
+| `skill-creator-meta-architecture.md` | ⭐⭐★★★ 元技能架构；★每用例跑 with/baseline 两个子代理；★grader 也评审 eval |
 | `team-skill-template.md` | ⭐⭐⭐ 团队模板 + ★★★★命名仲裁（动名词 vs verb-noun） |
 | `first-skill-minimal.md` | ⭐⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
 | `five-starter-skills.md` | ⭐ 五个起步技能完整源码（含各自行数） |

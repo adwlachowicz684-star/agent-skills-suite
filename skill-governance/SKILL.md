@@ -28,6 +28,8 @@ description: Agent Skills 的安全审计、注入防御、合规治理、可观
 > 但**照样输出 "✅ SAFE"**——后台只剩 grep 正则在跑。
 
 ## 路由表（按需深读）
+| `hooks-rewrite-reinject.md` | ⭐⭐★★★ modifyInput 就地改写；★compact 重注入（压缩可订阅）；子代理内也跑 |
+| `hooks-skill-cooperation.md` | ⭐⭐★★★ 退出码三档；★沉默≠批准；★阻断消息要可行动(否则试九次)；compact 重注入 |
 | `toxicskills-13-4-percent.md` | ⭐⭐⭐ 13.4%严重问题；★★description注入即使不调用也中招 |
 | `skill-decay-governance.md` | ⭐⭐⭐ 腐烂四症状 + 五条治理清单（review_after/无category拒绝注册） |
 | `allowed-tools-reference.md` | ⭐⭐ 完整工具表 + Bash(prefix:*) 作用域；★忘了 Skill 会调不动 |

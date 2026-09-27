@@ -27,6 +27,8 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
+| `permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
+| `troubleshooting-order-five-cases.md` | ⭐⭐★★★ 五步排错顺序；★五类用例；★权限集合不同就该拆 |
 | `ci-skill-validation.md` | ⭐⭐⭐★★ CI 不能测行为；★四类结构验证；★事故→永久 eval |
 | `skill-health-metrics.md` | ⭐⭐★★★ 指标是问诊工具；★Token收益；★成功率三层 |
 | `benchmark-assertions-delta.md` | ⭐⭐⭐⭐ 断言好坏+delta判读表+VibeCheck；★约束型要写抑制测试 |
