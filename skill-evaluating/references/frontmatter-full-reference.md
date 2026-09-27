@@ -1,6 +1,6 @@
 # frontmatter 全字段：四组与开放标准边界
 
-> 相关：《skill-structuring》的 `frontmatter-pitfalls.md` ·
+> 相关：《skill-loading》的 `frontmatter-pitfalls.md` ·
 > `invocation-control-fields.md` · 《skill-crafting》的
 > `argument-substitution.md`
 > 前置：那些讲"常见错误"和"调用控制"，

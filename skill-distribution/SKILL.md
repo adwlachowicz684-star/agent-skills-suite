@@ -40,6 +40,7 @@ description: Agent Skills 的打包发布、版本管理、团队共享与组织
 | `team-conventions-pr.md` | ⭐ 团队约定四原则 + PR 评审清单 + 等级分层 |
 | `dependency-lockfile.md` | ⭐ 依赖与 lockfile：36.6% 隐藏依赖 + 五步加固 |
 | `cross-agent-portability.md` | ⭐ 跨平台：破坏可移植的三件事 + 中性目录 |
+| `skill-as-business-rule.md` | ⭐⭐⭐⭐⭐ 技能是业务规则的数字孪生；⭐⭐⭐⭐ 改 description 最危险（70% 事故）|
 | `adoption-metrics.md` | ⭐ 推广度量：先行/滞后指标 + 毕业信号四条 |
 | `enterprise-marketplace-ops.md` | ⭐ 企业市场运维三阶段与遥测盲区 |
 | `distribution-three-ways.md` | ⭐ Git / 插件市场 / 企业托管，优先级与 MDM |

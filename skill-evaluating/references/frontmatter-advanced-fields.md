@@ -1,7 +1,7 @@
 # frontmatter 高级字段：fork、agent、hooks 与调用控制
 
 > 相关：《skill-evaluating》的 `frontmatter-full-reference.md`（基础四组）·
-> 《skill-structuring》的 `invocation-control-fields.md` ·
+> 《skill-loading》的 `invocation-control-fields.md` ·
 > `frontmatter-pitfalls.md` · 《skill-orchestration》的
 > `context-isolation-fork.md`
 > 前置：基础字段见 `frontmatter-full-reference.md`。

@@ -1,7 +1,7 @@
 # 读 trace 排错：找到第一个错的 turn
 
 > 相关：《skill-evaluating》的 `troubleshooting-manual.md` ·
-> `fault-injection-eval.md` · 《skill-structuring》的 `verbose-debug.md`
+> `fault-injection-eval.md` · 《skill-loading》的 `verbose-debug.md`
 
 ---
 

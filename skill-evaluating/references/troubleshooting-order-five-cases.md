@@ -1,7 +1,7 @@
 # 排错顺序与五类测试用例
 
 > 相关：《skill-evaluating》的 `hit-rate-four-questions.md`（四类问题诊断）·
-> `trace-debugging.md` · 《skill-structuring》的 `four-layer-diagnosis-flow.md`
+> `trace-debugging.md` · 《skill-loading》的 `four-layer-diagnosis-flow.md`
 > 前置：那些讲⭐ 分层定位，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 更实用的⭐ 东西——⭐⭐⭐⭐⭐ ⭐⭐⭐ **顺序**，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 以及⭐ 一个⭐ 全新的⭐ 拆分判据（⭐⭐⭐⭐⭐ 权限集合）。

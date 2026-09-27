@@ -1,7 +1,7 @@
 # Hook 的进阶能力：改写、纠偏、重注入
 
 > 相关：`hooks-skill-cooperation.md`（生命周期与退出码契约）·
-> 《skill-evaluating》的 `determinism-boundary.md` · 《skill-structuring》的 `three-stages-discovery-activation-execution.md`
+> 《skill-evaluating》的 `determinism-boundary.md` · 《skill-loading》的 `three-stages-discovery-activation-execution.md`
 > 前置：上篇讲⭐ Hook 的⭐ 基本机制（事件、matcher、退出码三档），
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 三条⭐ 进阶能力——⭐⭐⭐⭐⭐ ⭐⭐⭐ **改写输入、压缩后重注入、子代理内生效**
 > ⭐⭐⭐⭐ ⭐⭐⭐ 其中⭐ "压缩后重注入"⭐ 补上了⭐ 我们⭐ 一个⭐ 长期悬空的⭐ 问题。

@@ -2,7 +2,7 @@
 
 > 相关：《skill-description》的 `description-tuning-official-loop.md` ·
 > `activation-mechanism.md` ·
-> 《skill-structuring》的 `nine-checks-not-working.md` · `four-layer-diagnosis-flow.md`
+> 《skill-loading》的 `nine-checks-not-working.md` · `four-layer-diagnosis-flow.md`
 > 前置：那些讲⭐ 加载与文件层排查，
 > 这份讲⭐⭐⭐ **"技能加载了但行为不对"**——
 > 含⭐⭐⭐⭐ 一个⭐ 零成本且⭐ 极准的描述调试技巧。

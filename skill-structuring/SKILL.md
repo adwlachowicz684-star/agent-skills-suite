@@ -1,15 +1,16 @@
 ---
 name: skill-structuring
 description: 组织 Agent Skill 的物理结构——目录契约、frontmatter 字段与陷阱、references/assets/scripts 的分工与路由、渐进式披露、打包资源、发布前清理、结构类故障排查。用于技能加载失败、静默不生效、文件该放哪个目录、frontmatter 报错、引用链断、依赖没打包。
-  Do NOT use for 从零创建的整体流程（用 skill-authoring）、正文措辞与指令形态（用 skill-crafting）、瘦身与拆分（用 skill-refining）、评估打分（用 skill-evaluating）。
+  Do NOT use for 从零创建的整体流程（用 skill-authoring）、正文措辞与指令形态（用 skill-crafting）、瘦身与拆分（用 skill-refining）、评估打分（用 skill-evaluating），也不用于 frontmatter 解析与加载故障排查（用 skill-loading）。
 ---
 
 # 技能的物理结构
 
 ## 边界
 
-- 用于：**目录与文件布局** · frontmatter 字段与陷阱 · 三层渐进式披露 · 资源打包 · 结构类故障排查
-- 不用于：整体创建流程 · 正文措辞与指令形态 · 瘦身拆分 · 评估打分
+- 用于：**目录与文件布局** · 三个子目录分工 · 打包资源 · 发布前清理 · 命名
+- 不用于：整体创建流程 · 正文措辞 · 瘦身拆分 · 评估打分
+- ⭐ **frontmatter 解析、加载机制、作用域、不生效排查 → 《skill-loading》**
 
 ## 核心原则
 
@@ -31,21 +32,8 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
-| `prompt-caching-and-skills.md` | ⭐⭐★★★ 缓存是前缀匹配；★allowed-tools 是缓存事件；fork 要共享父前缀 |
-| `diagnostic-commands.md` | ⭐⭐⭐★★ 三类收敛（加载/优先级/描述）；★/context vs /skills；作用域优先级 |
-| `yaml-frontmatter-errors.md` | ⭐⭐⭐★★ 半可用：手动能调、自动不能；★中文全角冒号；★三条验证命令 |
-| `three-tier-token-math.md` | ⭐⭐⭐★ L1 30–50 tokens/技能；★健康基线 8K=窗口 4% |
-| `nested-scope-discovery.md` | ⭐⭐⭐⭐ 嵌套作用域只在子目录工作时才被发现（易误诊） |
-| `three-stages-discovery-activation-execution.md` | ⭐⭐⭐⭐ 三阶段；★★★真失忆vs假失灵二分诊断 |
-| `skill-cascade-css.md` | ⭐⭐⭐ CSS级联比喻：生效范围vs同名冲突；★插件不在梯子上、嵌套共存 |
-| `prompt-layering-positional-bias.md` | ⭐⭐⭐ 四层职责 + 位置偏差；★关键规则两端重复 |
-| `four-layer-diagnosis-flow.md` | ⭐⭐⭐ 四步排查+停机规则；★80%问题在文件层 |
 | `directory-growth-path.md` | ⭐⭐⭐ 从1个文件起步；参考文档给链接+摘要不要全文复制 |
-| `official-spec-and-style.md` | ⭐⭐⭐ 加载失败硬条件四则；Markdown不用XML；列表还是表格 |
 | `reference-file-practices.md` | ⭐⭐ 一层深度 + 100行带目录 + 会被重复读取 |
-| `invocation-control-fields.md` | ⭐ 谁能调用：两个 frontmatter 声明字段 |
-| `argument-substitution.md` | ⭐⭐ 参数替换：占位符与会损坏代码的替换陷阱 |
-| `nine-checks-not-working.md` | ⭐ 九项排查清单 + 显式调用隔离技巧 |
 | `directory-decision-matrix.md` | ⭐ 决策矩阵：每个文件该放哪个子目录 |
 | `naming-conventions.md` | ⭐ 命名约定：三重角色、硬规则、一致性 > 形态 |
 | `skill-structuring` 的 `directory-contract.md` | ⭐ 目录契约：三个子目录各装什么、assets 不是用来读的 |
@@ -54,16 +42,11 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 | `skill-structuring` 的 `reference-routing.md` | ⭐ 引用路由：Router + STOP 指令、一层深、长文件带 TOC |
 | `skill-structuring` 的 `reference-organization.md` | ⭐ 参考文件拆分阈值、三种组织方式、grep 模式 |
 | `skill-structuring` 的 `progressive-disclosure-official.md` | ⭐ 官方渐进式披露三模式：按域组织、条件式、避免嵌套 |
-| `skill-structuring` 的 `frontmatter-fields.md` | ⭐ Frontmatter 字段速查与 YAML 六个陷阱 |
-| `skill-structuring` 的 `frontmatter-pitfalls.md` | ⭐ 静默失败根因：两阶段解析 + 完整雷区表 |
-| `skill-structuring` 的 `metadata-fields.md` | ⭐ 四必需字段 + 六元数据 + 六章节 + 每步 Expected/On failure |
 | `skill-structuring` 的 `enterprise-layout.md` | 企业目录结构：按职能分区、分角色审查 |
 | `skill-structuring` 的 `what-not-to-ship.md` | ⭐ 发布前该删的：多余文件、密钥、时敏信息 |
 | `skill-structuring` 的 `git-workflow.md` | Git 工作流：Changelog 倒序、分工、触发词变更要通知 |
 | `skill-structuring` 的 `content-placement-flowchart.md` | ⭐ 内容放哪五问决策流 + 跨阶段参数快照 |
 | `skill-structuring` 的 `lint-tooling.md` | ⭐ Lint 工具横评：skillscheck / skill-tools 各管什么 |
-| `skill-structuring` 的 `five-minute-diagnosis.md` | ⭐ 五分钟诊断八步：model pin、缓存、大小写 |
-| `skill-structuring` 的 `verbose-debug.md` | ⭐ Verbose 调试：trace-compare 循环、grep 断言 |
 
 **布局与打包**：
 
@@ -73,33 +56,6 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 | ⭐ 内容放哪（五问决策流） | `skill-structuring` 的 `content-placement-flowchart.md` |
 | ⭐ 打包资源、四条不要放 | `skill-structuring` 的 `resource-bundling.md` |
 | 企业目录结构 | `skill-structuring` 的 `enterprise-layout.md` |
-
-**frontmatter**：
-
-| 你要做的事 | 读 |
-|---|---|
-| ⭐ 字段速查与 YAML 六个陷阱 | `skill-structuring` 的 `frontmatter-fields.md` |
-| ⭐ 静默失败根因与雷区表 | `skill-structuring` 的 `frontmatter-pitfalls.md` |
-| ⭐ 四必需 + 六元数据 + 六章节 | `skill-structuring` 的 `metadata-fields.md` |
-
-**加载与引用**：
-
-| 你要做的事 | 读 |
-|---|---|
-| ⭐ 官方渐进式披露三模式 | `skill-structuring` 的 `progressive-disclosure-official.md` |
-| ⭐ references vs assets | `skill-structuring` 的 `references-vs-assets.md` |
-| ⭐ 引用路由与 Router 指令 | `skill-structuring` 的 `reference-routing.md` |
-| ⭐ 参考文件怎么拆 | `skill-structuring` 的 `reference-organization.md` |
-
-**排查与清理**：
-
-| 你要做的事 | 读 |
-|---|---|
-| ⭐ 五分钟诊断八步 | `skill-structuring` 的 `five-minute-diagnosis.md` |
-| ⭐ trace-compare 调试 | `skill-structuring` 的 `verbose-debug.md` |
-| ⭐ Lint 工具横评 | `skill-structuring` 的 `lint-tooling.md` |
-| ⭐ 发布前该删什么 | `skill-structuring` 的 `what-not-to-ship.md` |
-| Git 工作流与 Changelog | `skill-structuring` 的 `git-workflow.md` |
 
 ## Critical Rules
 

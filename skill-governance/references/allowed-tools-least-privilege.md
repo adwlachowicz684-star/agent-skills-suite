@@ -1,7 +1,7 @@
 # 最小权限：allowed-tools 的四面红旗
 
 > 相关：《skill-governance》的 `skill-invocation-control.md` ·
-> `security-audit-ops.md` · 《skill-structuring》的 `invocation-control-fields.md`
+> `security-audit-ops.md` · 《skill-loading》的 `invocation-control-fields.md`
 > 前置：`skill-invocation-control.md` 讲权限规则语法，
 > 这份讲⭐ **如何从声明判断一个技能是否过度授权**。
 

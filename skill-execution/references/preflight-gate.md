@@ -1,7 +1,7 @@
 # STEP 0 前置门禁：声明、验证、拦截
 
 > 相关：《skill-execution》的 `state-check.md` ·
-> `error-handling.md` · 《skill-structuring》的 `frontmatter-pitfalls.md`
+> `error-handling.md` · 《skill-loading》的 `frontmatter-pitfalls.md`
 
 ---
 

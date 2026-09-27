@@ -1,7 +1,7 @@
 # Hooks 与技能：声明说"别做"，Hook 说"做不到"
 
 > 相关：《skill-evaluating》的 `determinism-boundary.md`（确定性边界）·
-> `allowed-tools-least-privilege.md`（四面红旗）· 《skill-structuring》的 `prompt-caching-and-skills.md`
+> `allowed-tools-least-privilege.md`（四面红旗）· 《skill-loading》的 `prompt-caching-and-skills.md`
 > 前置：那些讲⭐ "该放哪一层"，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 那一层的⭐ 完整机制——⭐⭐⭐⭐⭐ ⭐⭐⭐ 12 个生命周期事件、
 > ⭐⭐⭐⭐ ⭐⭐⭐ 退出码契约、⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 以及两条⭐ 此前没收过的⭐ 能力。
