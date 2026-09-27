@@ -2,7 +2,7 @@
 
 > 相关：《skill-authoring》的 `patterns.md` ·
 > 《skill-authoring》的 `creation-framework.md` ·
-> 《skill-patterns》的 `methodology-skills.md`
+> 《skill-domains》的 `methodology-skills.md`
 
 ---
 

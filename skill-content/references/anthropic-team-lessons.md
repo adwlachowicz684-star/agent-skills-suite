@@ -1,7 +1,7 @@
 # Claude Code 团队自己怎么用技能
 
 > 相关：《skill-crafting》的 `write-reasons-not-rules.md`（写原因）·
-> 《skill-patterns》的 `methodology-skills.md`（外部化判断）·
+> 《skill-domains》的 `methodology-skills.md`（外部化判断）·
 > 《skill-execution》的 `seven-contracts.md`（责任契约）
 > 前置：那些讲⭐ 一般写法，
 > 这份讲⭐⭐⭐⭐⭐ **写技能的人自己怎么用**——一手实践，不是转述。

@@ -36,6 +36,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
 | `judgment-branches-acceptance.md` | ⭐⭐⭐ 流程/判断/验收三件套；★差评反例比正向示例更有效 |
 | `examples-three-branches.md` | ⭐⭐ 三分支示例 + ⭐⭐⭐ Rationale 字段；gotchas 最值钱 |
+| `skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题
 | `writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
 | `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |

@@ -37,6 +37,7 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 | `change-impact-analysis.md` | ⭐⭐⭐⭐ 改之前的影响面六问；⭐反向依赖图；风险与改动大小无关 |
 | `merge-signals-five.md` | ⭐⭐⭐⭐⭐ 单向棘轮；⭐⭐⭐⭐⭐ 顺序耦合=一个技能被拆两半；⭐⭐⭐⭐ 权限不同是合并否决项 |
 | `split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
+| `version-diff-behavior-compare.md` | ⭐⭐⭐⭐⭐ 改了什么≠变了什么；⭐⭐⭐⭐⭐ 描述是行为的一部分（改描述必须跑对比）；⭐⭐⭐⭐⭐ 第三层对比集（新触发的输入）
 | `version-changelog-practice.md` | ⭐ 版本与 Changelog：三种记录 + 四个常见错误 |
 | `version-strategy.md` | ⭐ 版本号判据：调用方会不会坏（不是改了多少字） |
 | `split-three-options.md` | ⭐ 三种拆法 + 别过度拆 + 拆后三件事 |

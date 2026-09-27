@@ -1,22 +1,27 @@
 ---
 name: skill-patterns
 description: >
-  按任务类型归纳的技能设计范式库。当你要做的技能属于某一类常见任务
-  （测试、文档、评审、重构、调试、迁移、研究、安全清单、运维分诊、内容、
-  客服、PM、合规、采购打分、会议记录、指标…），或你想知道「这类技能
-  该装什么、骨架长什么样、哪些规则值得编码」时使用。
-  提供每类技能的骨架、必编码项、判定表与反模式，可直接照着改。
-  不用于：从零写第一个技能（用 `skill-authoring`）、正文构件写法
-  （用 `skill-crafting`）、评估与治理（用 `skill-evaluating` /
-  `skill-governance`）、也不提供各领域的技术知识本身（如 SQL 索引、
-  图表选型、引擎 API）。
+  通用的技能设计原则、反模式与结构模式。用于决定一个技能该用什么结构
+  （A–E 五模式、六层模型、五类设计范式、SOLID 映射、I/O 契约四原则）、
+  识别反模式（九类/七类/六类反模式与常见错误清单）、处理冲突优先级与
+  多技能组合架构。
+  Do NOT use for 按具体业务领域写技能（用 skill-domains）、完整可抄的源码
+  （用 skill-gallery）、从零写第一个技能（用 skill-authoring）、正文构件写法
+  （用 skill-crafting）、评估与治理（用 skill-evaluating / skill-governance）。
 ---
 
 # 技能设计范式库
 
-> 定位：**按任务类型归纳「这类技能该怎么设计」**。
-> 每份讲骨架、必编码项、判定表、反模式——**领域只是载体，方法通用**。
-> 若要找「怎么从零写一个技能」，去 `skill-authoring`。
+> 定位：**跨领域通用的设计原则、结构模式与反模式**。
+> 每份讲骨架、结构、反模式——**不绑定具体业务领域**。
+> ⭐ **要按某个具体职能/行业写技能 → 《skill-domains》**
+> 要找「怎么从零写一个技能」→ 《skill-authoring》
+
+## 边界
+
+- 用于：**结构模式** · **设计原则** · **反模式** · **冲突优先级** · **组合架构**
+- ⭐ 用于：**测试、文档、评审、重构、客服、合规等具体领域** → 《skill-domains》
+- 不用于：从零写第一个技能 · 正文构件写法 · 评估与治理
 
 ## 强制工作流
 
@@ -64,40 +69,6 @@ description: >
 
 | 文档 | 内容 |
 |---|---|
-| `methodology-skills.md` | ⭐⭐ 成熟人类方法论如何变成技能（公式选择表 = 决策树） |
-| `testing-skills.md` | ⭐ 测试类 ROI 最高：必须编码的三件事 |
-| `code-quality-skills.md` | ⭐ 骨架：核心规则 + 语言差异表 + 严重度分级 |
-| `documentation-skills.md` | ⭐ 核心是更易审计，不是写得更长 |
-| `refactoring-skills.md` | ⭐ 代码味道 → 重构手法对照表 |
-| `code-review-automation.md` | ⭐ 评审自动化的分层信任工作流 |
-| `code-review-trust.md` | ⭐ 评审价值 = 发现能力 × 信任程度 |
-| `git-pr-workflow.md` | ⭐ 三个小技能组成循环：小而尖靠组合 |
-| `debugging-recovery.md` | ⭐ 五步分诊 + 两条护栏 |
-| `build-error-resolution.md` | 禁止猜测式修改 |
-| `dependency-upgrade.md` | ⭐ 关键是证明没弄坏东西 |
-| `changelog-release-notes.md` | ⭐ 确定性生成：不该交给模型自由发挥 |
-| `cli-design-skills.md` | ⭐ 让你的 CLI 变得 agent 好用 |
-| `i18n-implementation.md` | ⭐ 唯一可判定的完成标准 |
-| `api-doc-generation.md` | ⭐ 输出模板定义一次，全队一致 |
-| `legacy-modernization.md` | ⭐ 五阶段 + 绞杀者模式 |
-| `monorepo-skills.md` | ⭐ 多语言仓库里技能放哪、避免互相干扰 |
-| `research-skills.md` | ⭐ 研究类需要更强护栏 |
-| `performance-optimization.md` | ⭐ 先测量再优化、改进 <5% 就回滚 |
-| `incident-triage.md` | ⭐ 值得逐句读的真实技能样本 |
-| `log-analysis.md` | ⭐ 强制证据链 |
-| `security-review-checklist.md` | ⭐ 清单怎么组织才真的会被执行 |
-| `soc-soar-skills.md` | ⭐ 把能自动和该自动分开 |
-| `ml-mlops-skills.md` | ⭐ 反复犯同样错误 → 编码成铁律 |
-| `schema-migration-skills.md` | ⭐ 自由度校准里该给精确脚本的那一档 |
-| `brand-guidelines.md` | ⭐ 数据放正文 vs 放脚本的分界 |
-| `ecommerce-ops-skills.md` | ⭐ 判断流程值不值得做成技能的判据 |
-| `procurement-rfp.md` | ⭐ 0/3/5 打分制：把主观变可判定 |
-| `customer-support-skills.md` | ⭐ 为什么不能只靠提示词 |
-| `pm-skills.md` | ⭐ 模式路由：先选对分支 |
-| `writing-org-context.md` | ⭐ 目标是不出错而不是更聪明 |
-| `stakeholder-comms.md` | ⭐ 最大风险是看起来专业但内容不对 |
-| `meeting-notes-action.md` | ⭐ 确定性抽取 + 模型润色、置信度标记 |
-| `vertical-compliance.md` | ⭐ 规则来自外部而非团队内部 |
 
 ## 通用规律（跨范式）
 
