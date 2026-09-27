@@ -140,7 +140,7 @@ next steps       下一步
    ——工具输出截断 = 脚本只回摘要（Layer 1，最便宜）
 
 2. 长会话里技能失效，先查压缩边界
-   ——参见 `skill-crafting` 的 `runtime-truth.md`
+   ——参见 `skill-crafting` 的 `refine-with-execution.md`
 
 3. ⭐ 别急着给技能加"自我摘要"能力
    ——先确认前两层已经用满

@@ -1,6 +1,6 @@
 # 可观测性：trace 与调试技能
 
-> 相关：《skill-governance》的 `skill-observability.md` ·
+> 相关：《skill-evaluating》的 `skill-observability.md` ·
 > 《skill-evaluating》的 `trace-debugging.md`
 > 前置：`skill-observability.md` 讲"该记什么字段"，
 > 这份讲⭐ **trace 怎么串起来，以及"用技能来调试技能"这个自举思路**。

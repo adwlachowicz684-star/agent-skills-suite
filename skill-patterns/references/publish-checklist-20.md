@@ -2,7 +2,7 @@
 
 > 相关：《skill-patterns》的 `review-checklist.md` ·
 > `knowledge-delta-checklist.md` ·
-> 《skill-refining》的 `release-versioning.md`
+> 《skill-distribution》的 `release-versioning.md`
 
 ---
 

@@ -2,7 +2,7 @@
 
 > 相关：《skill-patterns》的 `anti-patterns-catalog.md` · `nine-anti-patterns.md` ·
 > 《skill-authoring》的 `authoring-checklist.md` ·
-> 《skill-refining》的 `token-bloat-audit.md`（瘦身六动作）
+> 《skill-crafting》的 `token-bloat-audit.md`（瘦身六动作）
 > 前置：那些讲⭐ 各类反模式的清单，
 > 这份给⭐⭐⭐⭐ ⭐ 一套⭐ 按维度组织、⭐ 可逐条过的⭐ 自检表 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 命名得很好的⭐ 剪枝动作。
@@ -112,7 +112,7 @@
 > ⭐⭐⭐⭐⭐ 它指的不是"过期"（过期只是旧），
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 而是⭐ **新加的内容和旧内容⭐ 互相矛盾，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 但⭐ 分别读⭐ 都看不出来**。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 我们已有的 `version-hygiene.md` 讲"⭐ 数值漂移"、
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 我们已有的 `version-changelog-practice.md` 讲"⭐ 数值漂移"、
 > `skill-rot-rollback-discipline.md` 讲"漂移"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ ⭐ 而⭐ "沉积"给了⭐ 一个⭐ 更准确的⭐ 检测角度：
 > ⭐⭐⭐⭐ **不要⭐ 单独审一句，要⭐⭐⭐⭐⭐ ⭐ 把⭐ 所有提到同一件事的地方⭐ 放在一起看。**

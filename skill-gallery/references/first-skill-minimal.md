@@ -2,7 +2,7 @@
 
 > 相关：《skill-authoring》的 `how-to-guide.md` ·
 > 《skill-distribution》的 `cold-start.md` ·
-> 《skill-crafting》的 `official-templates.md`
+> 《skill-authoring》的 `creation-framework.md`
 
 ---
 

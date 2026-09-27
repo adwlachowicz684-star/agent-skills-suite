@@ -1,6 +1,6 @@
 # 企业级技能库的三层骨架
 
-> 相关：《skill-patterns》的 `composition-patterns-types.md`（组合依赖类型）·
+> 相关：《skill-orchestration》的 `composition-patterns-types.md`（组合依赖类型）·
 > 《skill-orchestration》的 `routing-tiers-and-arbitration.md` ·
 > 《skill-execution》的 `seven-contracts.md`
 > 前置：那些讲⭐ 单个技能的契约与组合，

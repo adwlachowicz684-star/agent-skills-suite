@@ -1,6 +1,6 @@
 # 五种技能设计模式（含选型决策树）
 
-> 相关：《skill-crafting》的 `patterns.md` ·
+> 相关：《skill-authoring》的 `patterns.md` ·
 > 《skill-authoring》的 `creation-framework.md` ·
 > 《skill-patterns》的 `methodology-skills.md`
 

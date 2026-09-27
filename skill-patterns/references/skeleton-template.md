@@ -1,7 +1,7 @@
 # 可直接抄的技能骨架（含六个必含小节）
 
-> 相关：《skill-crafting》的 `creation-framework.md` ·
-> 《skill-authoring》的 `template-skill.md` ·
+> 相关：《skill-authoring》的 `creation-framework.md` ·
+> 《skill-authoring》的 `creation-framework.md` ·
 > 《skill-patterns》的 `structure-modes-abcde.md`
 
 ---

@@ -1,7 +1,7 @@
 # 正文写作：祈使句、钉死格式、讲为什么
 
-> 相关：《skill-crafting》的 `written-for-model.md` ·
-> 《skill-authoring》的 `guidance-forms.md` ·
+> 相关：《skill-crafting》的 `imperative-style.md` ·
+> 《skill-crafting》的 `guidance-forms.md` ·
 > 《skill-patterns》的 `knowledge-delta-checklist.md`
 
 ---

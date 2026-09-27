@@ -1,7 +1,7 @@
 # 团队 SKILL.md 约定模板（含命名仲裁）
 
 > 相关：《skill-gallery》的其余样本 ·
-> 《skill-structuring》的 `naming-conventions.md` · `naming-gerund-form.md` ·
+> 《skill-structuring》的 `naming-conventions.md` ·
 > 《skill-description》的 `description-four-rules.md` ·
 > 《skill-crafting》的 `minimum-viable-three-principles.md`
 > 前置：那些讲命名的各个侧面，

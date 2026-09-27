@@ -1,7 +1,7 @@
 # 输出稳定：两份契约与"跑两遍"测试法
 
 > 相关：《skill-execution》的 `seven-contracts.md` ·
-> 《skill-crafting》的 `output-control.md`（在 domain-eng 抢救版）·
+> 《skill-execution》的 `output-control.md`（在 domain-eng 抢救版）·
 > 《skill-scripting》的 `script-cli-contract.md` · `script-testing.md`
 > 前置：那些讲"输出该声明什么"，
 > 这份讲⭐⭐⭐ **怎么让输出真的稳定**——

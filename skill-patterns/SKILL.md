@@ -40,6 +40,7 @@ description: >
 | `shared-service-skill.md` | ⭐⭐⭐ 共享服务技能：总是返回有效输出或明确错误 |
 | `seven-anti-patterns-scale.md` | ⭐⭐ 规模化七反模式；⭐⭐⭐ Markdown 指令不是访问控制 |
 | `skill-families-nine.md` | ⭐⭐ 九类技能；跨类最难用好，一类做到底 |
+| `self-containment-rewrite.md` | ⭐⭐⭐⭐⭐ 三招迁移序列；⭐⭐⭐⭐⭐ 拆分判据：重写需要几份文档；⭐⭐⭐⭐⭐ 抽一个出来的诊断法 |
 | `solid-for-skills.md` | ⭐ 软件设计原则迁移：SOLID 映射、两张图、组合代价 |
 | `why-six-layers.md` | ⭐ 六层结构：目标/输入/流程/格式/自检/FAQ |
 | `skill-overrides-audit.md` | ⭐ 同名覆盖与冲突：三级命名空间、审计、my- 前缀 |

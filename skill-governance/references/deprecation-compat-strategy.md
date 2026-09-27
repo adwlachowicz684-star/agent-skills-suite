@@ -1,7 +1,7 @@
 # 废弃策略与向后兼容
 
 > 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `skill-lifecycle.md` · 《skill-refining》的
+> `lifecycle.md` · 《skill-refining》的
 > `version-changelog-practice.md`
 > 前置：那些讲"单个团队内怎么退休一个技能"，
 > 这份讲⭐ **平台/对外发布视角**：版本协商、兼容矩阵、废弃三阶段。

@@ -1,6 +1,6 @@
 # SkillReducer：压缩后功能反而变好的实证
 
-> 相关：《skill-refining》的 `token-bloat-audit.md` ·
+> 相关：《skill-crafting》的 `token-bloat-audit.md` ·
 > `pruning.md` · 《skill-evaluating》的 `skillsbench-vs-realworld.md`
 > 前置：`token-bloat-audit.md` 讲"怎么瘦"，
 > 这份讲⭐ **一篇有完整实测的论文：瘦身后质量不降反升，以及它的方法**。

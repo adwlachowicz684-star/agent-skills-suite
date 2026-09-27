@@ -1,7 +1,7 @@
 # 上下文预算的算术：为什么激活不是一次性开销
 
 > 相关：《skill-refining》的 `context-budget.md` · `budget-truncation.md` ·
-> 《skill-evaluating》的 `caching-economics.md`
+> 《skill-selection》的 `caching-economics.md`
 
 ---
 

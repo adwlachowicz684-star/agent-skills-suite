@@ -1,7 +1,7 @@
 # 重构类技能实例：范围、规则与报告
 
 > 相关：（已移至 _parked 领域实例库）的 `unity-csharp-standards.md` ·
-> `code-review-skill-instance.md` · 《skill-crafting》的 `output-contract.md`
+> `code-review-skill-instance.md` · 《skill-execution》的 `output-contract.md`
 
 ---
 
@@ -103,7 +103,7 @@ references/review/
   performance-checklist.md  分配、Update、物理、渲染
 ```
 
-> ⭐ 注意 `linq.md` 和 `null-safety.md` 的标题形态——
+> ⭐ 注意 linq（Unity 领域细节，已归档） 和 null-safety（Unity 领域细节，已归档） 的标题形态——
 > **"热路径规则 + 分配安全的替代方案"**、
 > **"null 检查模式 + TryGet"**——
 > 都是"问题 + 解法"成对出现，不是纯禁令。

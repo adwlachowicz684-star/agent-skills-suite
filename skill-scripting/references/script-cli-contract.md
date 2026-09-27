@@ -1,7 +1,7 @@
 # 脚本 CLI 契约：模型怎么读懂你的脚本
 
-> 相关：《skill-crafting》的 `deterministic-scripts.md` ·
-> `scripts-guidance.md` · 《skill-structuring》的 `directory-decision-matrix.md`
+> 相关：《skill-scripting》的 `deterministic-scripts.md` ·
+> `script-engineering.md` · 《skill-structuring》的 `directory-decision-matrix.md`
 > 前置：`deterministic-scripts.md` 讲"脚本要确定性且可复现"，
 > 这份讲⭐ 脚本与调用方（模型）之间的接口约定。
 

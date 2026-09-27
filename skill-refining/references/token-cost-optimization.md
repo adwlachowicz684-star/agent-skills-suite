@@ -1,6 +1,6 @@
 # 成本优化：Token 泄漏、模型路由与"伪技能"陷阱
 
-> 相关：《skill-refining》的 `token-bloat-audit.md`（瘦身六动作）·
+> 相关：《skill-crafting》的 `token-bloat-audit.md`（瘦身六动作）·
 > `context-budget.md` · `budget-truncation.md`
 > 前置：那份讲"技能内部怎么瘦身"，
 > 这份讲⭐ **系统层面的成本治理**：怎么找到耗能大户、怎么分层用模型、
@@ -148,7 +148,7 @@
 ```
 ① ⭐ 精简技能描述文本（description 是主要消耗源之一）
 ② （去重与引用，见 `deduplication.md`）
-③ （分层加载，见 `progressive-disclosure-patterns.md`）
+③ （分层加载，见 `progressive-disclosure-official.md`）
 ④ ⭐ 缓存技能执行结果
 ⑤ ⭐ 精简技能返回结果：只返回用户真正需要的信息
    · 移除调试信息和内部状态

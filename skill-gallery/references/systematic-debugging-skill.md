@@ -1,6 +1,6 @@
 # systematic-debugging：一个被广泛复刻的技能样本
 
-> 相关：（已移至 _parked 领域实例库）的 `debugging-triage.md` ·
+> 相关：（已移至 _parked 领域实例库）的 `debugging-recovery.md` ·
 > 《skill-crafting》的 `guidance-forms.md` ·
 > 《skill-description》的 `imperative-description.md`
 

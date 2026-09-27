@@ -1,7 +1,7 @@
 # 五种结构模式 A–E（含各自行数目标）
 
 > 相关：《skill-patterns》的 `five-design-patterns.md` ·
-> 《skill-crafting》的 `creation-framework.md` ·
+> 《skill-authoring》的 `creation-framework.md` ·
 > `skill-structuring` 的 `directory-contract.md`
 
 ---

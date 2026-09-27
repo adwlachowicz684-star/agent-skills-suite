@@ -2,7 +2,7 @@
 
 > 相关：《skill-orchestration》的 `namespace-collision.md` ·
 > 《skill-evaluating》的 `description-by-collision-risk.md` ·
-> 《skill-refining》的 `library-size-effect.md`
+> 《skill-selection》的 `library-size-effect.md`
 
 ---
 

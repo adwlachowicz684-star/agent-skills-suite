@@ -1,7 +1,7 @@
 # 确定性脚本四条原则与"该不该脚本化"判据
 
-> 相关：《skill-crafting》的 `scripts-as-production.md` ·
-> 《skill-refining》的 `script-engineering.md`
+> 相关：《skill-scripting》的 `scripts-as-production.md` ·
+> 《skill-scripting》的 `script-engineering.md`
 
 ---
 

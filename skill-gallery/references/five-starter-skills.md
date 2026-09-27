@@ -1,7 +1,7 @@
 # 五个立刻能做的起步技能（含完整源码）
 
 > 相关：《skill-gallery》的 `first-skill-minimal.md` ·
-> `official-templates.md` · 《skill-authoring》的 `how-to-guide.md`
+> `creation-framework.md` · 《skill-authoring》的 `how-to-guide.md`
 
 ---
 

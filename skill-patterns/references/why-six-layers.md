@@ -1,6 +1,6 @@
 # 六层结构：让 agent 知道目标、路径、确认与回正
 
-> 相关：《skill-crafting》的 `creation-framework.md` ·
+> 相关：《skill-authoring》的 `creation-framework.md` ·
 > 《skill-patterns》的 `instruction-craft.md` ·
 > `feedback-loop-design.md`
 

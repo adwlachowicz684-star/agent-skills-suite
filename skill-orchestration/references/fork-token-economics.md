@@ -2,7 +2,7 @@
 
 > 相关：《skill-orchestration》的 `context-isolation-fork.md`（三条件才 fork）·
 > 《skill-selection》的 `skill-vs-subagent-decide.md` ·
-> 《skill-structuring》的 `frontmatter-advanced-fields.md`
+> 《skill-evaluating》的 `frontmatter-advanced-fields.md`
 > 前置：那份讲⭐ 该不该 fork，
 > 这份讲⭐⭐⭐ fork 之后⭐ 到底谁付了多少 token +
 > ⭐⭐⭐⭐ 三个⭐ 只有真跑了才会遇到的坑。

@@ -1,7 +1,7 @@
 # 三级路由与仲裁链：冲突要在编排层解决
 
 > 相关：《skill-orchestration》的 `collision-arbitration.md`（技能打架仲裁）·
-> `priority-arbitration.md` · `skill-chaining-composition.md` ·
+> `collision-arbitration.md` · `skill-chaining-composition.md` ·
 > `skill-dependency-injection.md`
 > 前置：那份讲"两个技能打架怎么仲裁"，
 > 这份讲⭐⭐⭐ **路由本身的三层架构（规则→向量→模型）**

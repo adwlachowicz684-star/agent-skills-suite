@@ -1,6 +1,6 @@
 # 一人称 / 十项速查：发布前的完整自检
 
-> 相关：《skill-crafting》的 `creation-framework.md` ·
+> 相关：《skill-authoring》的 `creation-framework.md` ·
 > 《skill-patterns》的 `knowledge-delta-checklist.md`
 
 ---
