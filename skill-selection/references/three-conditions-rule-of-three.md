@@ -1,6 +1,6 @@
 # 三条件与三次法则：什么时候该封装
 
-> 相关：《skill-selection》的 `worth-skillifying.md` ·
+> 相关：《skill-boundaries》的 `worth-skillifying.md` ·
 > `when-not-to-use-skill.md` · `five-layer-choice.md`
 
 ---

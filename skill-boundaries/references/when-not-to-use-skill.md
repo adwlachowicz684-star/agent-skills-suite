@@ -1,6 +1,6 @@
 # 六条"不该做成技能"与三种误用后果
 
-> 相关：《skill-selection》的 `worth-skillifying.md` ·
+> 相关：《skill-boundaries》的 `worth-skillifying.md` ·
 > 《skill-structuring》的 `what-not-to-ship.md`
 
 ---

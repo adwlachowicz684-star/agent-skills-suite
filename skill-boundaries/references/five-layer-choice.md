@@ -1,6 +1,6 @@
 # 五层选型：Prompt / Skill / Project / MCP / Subagent
 
-> 相关：《skill-selection》的 `skill-vs-rag.md` · `skill-vs-finetuning.md` ·
+> 相关：《skill-boundaries》的 `skill-vs-rag.md` · `skill-vs-finetuning.md` ·
 > 《skill-orchestration》的 `skill-vs-subagent.md`
 
 ---

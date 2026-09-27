@@ -1,6 +1,6 @@
 # 四选一：CLAUDE.md / Rules / Skill / Subagent
 
-> 相关：《skill-selection》的 `five-layer-choice.md` ·
+> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
 > `skill-vs-subagent-decide.md`（判断轴是隔离）· `context-file-selection.md` ·
 > 《skill-orchestration》的 `context-isolation-fork.md`
 > 前置：那些讲⭐ 两两对比，

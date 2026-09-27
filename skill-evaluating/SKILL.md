@@ -45,6 +45,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
 | `frontmatter-full-reference.md` | ⭐ 全字段四组 + 开放标准 vs CC 扩展边界 |
 | `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
+| `execution-span-logging.md` | ⭐⭐⭐⭐⭐ stopped_at 字段；⭐⭐⭐⭐ 失败全量采样；⭐⭐⭐⭐⭐ 观测直接产出 Gotchas
 | `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |
 | `comparator-ab-eval.md` | ⭐ 盲评 comparator + 五条统计纪律 |
 | `three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |

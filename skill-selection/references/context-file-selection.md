@@ -1,6 +1,6 @@
 # CLAUDE.md / AGENTS.md / SKILL.md：该放哪
 
-> 相关：《skill-selection》的 `five-layer-choice.md` ·
+> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
 > `instructions-vs-skills-mcp.md` · 《skill-authoring》的
 > `claude-md-vs-skill.md`
 > 前置：那些讲"技能 vs MCP vs 子代理"，

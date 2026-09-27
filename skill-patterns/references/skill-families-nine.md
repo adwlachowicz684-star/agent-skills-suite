@@ -1,7 +1,7 @@
 # 九类技能：Anthropic 内部 taxonomy 与"跨类最难用好"
 
 > 相关：《skill-patterns》的 `five-design-patterns.md` ·
-> `structure-modes-abcde.md` · 《skill-selection》的 `domain-taxonomy.md`
+> `structure-modes-abcde.md` · 《skill-boundaries》的 `domain-taxonomy.md`
 > 前置：那些讲"结构模式"与"设计模式"，
 > 这份讲⭐ **按用途划分的九种技能类型**，以及⭐⭐ 跨类技能的失败规律。
 

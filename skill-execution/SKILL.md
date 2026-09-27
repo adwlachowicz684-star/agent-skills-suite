@@ -29,6 +29,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 ## 路由表（按需深读）
 | `budget-caps-no-progress.md` | ⭐⭐⭐⭐ 五道上限；⭐⭐⭐⭐⭐ 无进展检测器（动作不同但状态不变）；终止不是模型的选项 |
 | `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；[SKILL_EXECUTION_ERROR] + safe_reply + 禁止解释 |
+| `data-dependency-declaration.md` | ⭐⭐⭐⭐⭐ 数据依赖（配置/环境变量/前置产物）；⭐⭐⭐⭐⭐ 读不到就自己造一份
 | `readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
 | `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
 | `structured-output-pipeline.md` | ⭐⭐⭐⭐★ 结构化≠正确（schema合规不保证值）+ 防御管线六步 |

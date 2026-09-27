@@ -1,6 +1,6 @@
 # 可移植性：跨产品一致与 compatibility 声明
 
-> 相关：《skill-selection》的 `five-layer-choice.md` ·
+> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
 > `three-conditions-rule-of-three.md` ·
 > 《skill-distribution》的 `cross-agent-portability.md`
 > 前置：`cross-agent-portability.md` 讲跨平台部署坑，

@@ -40,6 +40,7 @@ description: 技能的边界界定与内容分层——Out of scope 章节该怎
 - 拆分信号与重构时机 → `skill-refining` 的 `split-signals-five.md`
 
 ## 路由表（按需深读）
+| `second-reader-test.md` | ⭐⭐⭐⭐⭐ 第二读者测试；⭐⭐⭐⭐ 四类'只有我能用'；⭐⭐⭐⭐ 少写怎么做多写前提
 | `scope-section.md` | ⭐⭐⭐⭐⭐ 范围章节：Out of scope 要指向替代方案；边界四错误 |
 | `granularity-atomic-workflow.md` | ⭐⭐⭐⭐ 原子 vs 工作流；⭐ 重启测试判据 |
 | `claude-md-bidirectional.md` | ⭐⭐⭐⭐ CLAUDE.md 与技能的双向流动；⭐⭐⭐ 头号反模式 |

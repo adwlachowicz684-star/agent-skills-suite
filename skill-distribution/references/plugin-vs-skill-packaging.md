@@ -2,7 +2,7 @@
 
 > 相关：《skill-adoption》的 `team-conventions-pr.md` ·
 > `enterprise-marketplace-ops.md` · `dependency-lockfile.md` ·
-> 《skill-selection》的 `four-way-choice.md`
+> 《skill-boundaries》的 `four-way-choice.md`
 > 前置：那些讲⭐ 发布与分发，
 > 这份讲⭐⭐⭐⭐ ⭐ 官方的⭐ 三层打包模型 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 很容易写错的⭐ 路径字段。

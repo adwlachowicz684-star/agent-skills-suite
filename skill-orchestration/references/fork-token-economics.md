@@ -1,7 +1,7 @@
 # fork 的 token 经济学与三个真实坑
 
 > 相关：《skill-orchestration》的 `context-isolation-fork.md`（三条件才 fork）·
-> 《skill-selection》的 `skill-vs-subagent-decide.md` ·
+> 《skill-boundaries》的 `skill-vs-subagent-decide.md` ·
 > 《skill-evaluating》的 `frontmatter-advanced-fields.md`
 > 前置：那份讲⭐ 该不该 fork，
 > 这份讲⭐⭐⭐ fork 之后⭐ 到底谁付了多少 token +

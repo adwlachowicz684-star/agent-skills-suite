@@ -1,6 +1,6 @@
 # Prompt 与技能各自的失败模式
 
-> 相关：《skill-selection》的 `five-layer-choice.md` ·
+> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
 > `worth-skillifying.md` · `when-not-to-use-skill.md` ·
 > `five-layer-choice.md` · `skill-vs-workflow.md`
 > 前置：那些讲"什么时候该做成技能"，

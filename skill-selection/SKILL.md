@@ -1,15 +1,16 @@
 ---
 name: skill-selection
 description: 判断某件事该不该做成技能、该用哪种机制。用于技能 vs RAG vs 微调 vs MCP 的选型、跨模型与跨客户端可移植性、上下文缓存与运行时性能的取舍、多模态技能的边界，以及处理不可信仓库内容（PR/Issue/CI 日志）时的技能设计。
-  Do NOT use for 技能的具体写法（用 skill-authoring）、编排多个技能（用 skill-orchestration）、安全审计（用 skill-governance），也不用于泛泛的技术趋势讨论。
+  Do NOT use for 技能的具体写法（用 skill-authoring）、机制边界对比（用 skill-boundaries）、编排多个技能（用 skill-orchestration）、安全审计（用 skill-governance），也不用于泛泛的技术趋势讨论。
 ---
 
 # 该不该做成技能
 
 ## 边界
 
-- 用于：**机制选型** · **可移植性** · **性能取舍** · **多模态边界** · **不可信内容处理**
+- 用于：**库存规模** · **装载取舍** · **成本归账** · **可移植性** · **缓存与性能** · **多模态边界** · **不可信内容处理**
 - 不用于：具体写法 · 多技能编排 · 安全审计
+- ⭐ **该用哪种机制（技能 vs RAG/微调/MCP/子代理/工作流）→ 《skill-boundaries》**
 
 ## 核心原则
 
@@ -48,23 +49,6 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 | `five-layer-choice.md` | ⭐ 五层选型：Prompt/Skill/Project/MCP/Subagent |
 | `vector-skill-retrieval.md` | ⭐ 向量检索技能：Top-K 3–8、冷启动先别上 |
 
-**选型**：
-
-| 你要做的事 | 读 |
-|---|---|
-| ⭐ **技能 vs RAG：过程性 vs 事实性知识** | `references/skill-vs-rag.md` |
-| ⭐ **技能 vs 微调：诊断差距的顺序** | `references/skill-vs-finetuning.md` |
-| **垂直行业落地模式、五条铁律** | `references/industry-patterns.md` |
-| ⭐ **什么时候不该做成技能** | `references/when-not-skill.md` |
-| ⭐ **MCP vs 技能：五问决策法** | `references/mcp-vs-skill-decision.md` |
-| ⭐ **领域分类法：754 技能的检索算术** | `references/domain-taxonomy.md` |
-| ⭐ **能力原语 vs 流程原语：做成哪一类技能** | `references/capability-vs-process.md` |
-| ⭐ **库规模效应：真正伤人的是遮蔽不是上下文** | `references/library-size-effect.md` |
-| **自定义指令 / 技能 / MCP 怎么选** | `references/instructions-vs-skills-mcp.md` |
-| ⭐ **技能数量上限：单请求 ≤8、召回退化与合并闸门** | `references/skill-count-limit.md` |
-| ⭐ **技能 vs 工作流引擎：五问判据与迁移信号** | `references/skill-vs-workflow-engine.md` |
-| **CLAUDE.md / AGENTS.md / SKILL.md 怎么选** | **`skill-crafting` 的 `claude-md-vs-skill.md`** |
-
 **可移植性**：
 
 | 你要做的事 | 读 |
@@ -83,15 +67,13 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **PR / Issue / CI 日志都是数据不是指令** | `references/untrusted-repo-content.md` |
+| ⭐ **机制边界：技能 vs RAG/微调/MCP/子代理/工作流** | **`skill-boundaries`** |
 | **多模态：技能与 MCP 的分工** | `references/multimodal.md` |
 
 ## Critical Rules
 
 **选型**：
 
-- ⭐ 诊断差距的顺序：推理不够→换模型；知识缺口→改检索；格式问题→改提示词或轻量微调
-- ❌ **别把"知识缺口"误当成"需要微调"**
-- ⭐ 明确 schema 下 GPT ~95% vs Llama 70B ~70%——**25 个百分点的可靠性鸿沟**
 - 音频 32 tokens/秒（1 小时 ≈ 115K tokens，比整个技能库还大）——**先算再用**
 
 **可移植性**：

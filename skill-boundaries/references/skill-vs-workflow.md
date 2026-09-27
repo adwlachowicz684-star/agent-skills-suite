@@ -1,6 +1,6 @@
 # Skill vs Workflow：一个管怎么做，一个管流转
 
-> 相关：《skill-selection》的 `capability-vs-process.md` ·
+> 相关：《skill-boundaries》的 `capability-vs-process.md` ·
 > `five-layer-choice.md` · 《skill-orchestration》的
 > `orchestrator-timing.md`
 > 前置：那些讲"技能 vs MCP vs 子代理"，

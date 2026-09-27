@@ -1,6 +1,6 @@
 # 技能与 MCP：两层架构，以及失败方式的不对称
 
-> 相关：《skill-selection》的 `five-layer-choice.md` · `four-way-choice.md` ·
+> 相关：《skill-boundaries》的 `five-layer-choice.md` · `four-way-choice.md` ·
 > 《skill-orchestration》的 `routing-tiers-and-arbitration.md`
 > 前置：那份讲⭐ 五层选型的判据，
 > 这份讲⭐⭐⭐⭐ ⭐ 技能与 MCP ⭐ 这一对⭐ 最容易选错的组合 +

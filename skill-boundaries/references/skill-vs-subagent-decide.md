@@ -1,6 +1,6 @@
 # 技能 vs 子代理：判断轴是"隔离"，不是"大小"
 
-> 相关：《skill-selection》的 `five-layer-choice.md` ·
+> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
 > `capability-vs-process.md` · 《skill-orchestration》的
 > `skill-vs-subagent.md` · `subagent-skill-inheritance.md`
 > 前置：那份讲"两者是什么"，
