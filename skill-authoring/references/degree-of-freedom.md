@@ -1,7 +1,7 @@
 # 自由度校准：窄桥给护栏，开阔地给方向
 
 > 相关：《skill-authoring》的 `patterns.md`（选结构、定约束强度）·
-> 《skill-crafting》的 `official-lessons.md`（不要过度约束）·
+> 《skill-scoping》的 `official-lessons.md`（不要过度约束）·
 > `guidance-forms.md`
 
 ---

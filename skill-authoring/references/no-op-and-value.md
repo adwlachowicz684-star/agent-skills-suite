@@ -1,7 +1,7 @@
 # 每一段都要回答：它配得上 token 成本吗
 
 > 相关：《skill-refining》的 `pruning.md`（逐句修剪）·
-> 《skill-crafting》的 `official-lessons.md`（别陈述显而易见）·
+> 《skill-scoping》的 `official-lessons.md`（别陈述显而易见）·
 > `fact-boundary.md`
 
 ---

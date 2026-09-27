@@ -1,6 +1,6 @@
 # 常见错误清单：从结构到内容
 
-> 相关：《skill-crafting》的 `skill-principles.md` ·
+> 相关：《skill-scoping》的 `skill-principles.md` ·
 > 《skill-refining》的 `anti-patterns-practice.md` ·
 > 《skill-authoring》的 `what-not-to-do.md`
 

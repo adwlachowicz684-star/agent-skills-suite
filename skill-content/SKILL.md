@@ -33,6 +33,7 @@ description: 技能各章节的内容来源与写法——正文该放什么（G
 - 触发率评测 → `skill-evaluating` 的 `trigger-tuning-loop.md`
 
 ## 路由表（按需深读）
+| `instruction-ordering.md` | ⭐⭐⭐⭐⭐ 五段式骨架（契约/红线/术语/流程/验证）；⭐⭐⭐⭐ 验证不能放最后；目录即黄金位 |
 | `gotchas-mining.md` | ⭐⭐⭐⭐⭐ Gotchas 是采集的不是写的；六个矿脉；⭐不可推理性筛子 |
 | `anthropic-team-lessons.md` | ⭐⭐⭐⭐⭐ 官方团队七课：不陈述显然·Gotchas 最高信号·避免 railroading·技能自带记忆·helper 库 |
 | `skill-anatomy.md` | ⭐⭐⭐⭐ 正文该放什么：Gotchas / 模板 / ⭐ 程序优于声明 |

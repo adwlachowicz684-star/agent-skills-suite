@@ -74,7 +74,7 @@
 ✅ ⭐⭐ 走环境变量传递，绝不写进文件
 ✅ 从用户已配置的凭据源读取（~/.aws 之类）时，⭐ 要在 SKILL.md 里声明
 ✅ 需要用户配置时，用技能里的 config.json + 首次运行询问
-   （见《skill-crafting》的 `official-lessons.md` 的初始化流程）
+   （见《skill-scoping》的 `official-lessons.md` 的初始化流程）
 ```
 
 > ⭐⭐ **"KEY=actual_value"这一条最阴**：

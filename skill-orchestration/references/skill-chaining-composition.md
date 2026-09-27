@@ -1,7 +1,7 @@
 # 技能串联与组合：叠加加载、交接协议、五个坑
 
 > 相关：《skill-orchestration》的 `composition.md` ·
-> `collision-arbitration.md` · 《skill-crafting》的 `granularity-atomic-workflow.md`
+> `collision-arbitration.md` · 《skill-scoping》的 `granularity-atomic-workflow.md`
 
 ---
 

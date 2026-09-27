@@ -1,15 +1,16 @@
 ---
 name: skill-crafting
 description: 打磨 Agent Skill 的正文构件——指令形态、目录契约、脚本工程、输出契约、验证章节、错误处理、指令分层。用于禁令不管用、输出形状不稳、agent 跳步、脚本该不该抽、内容该放 SKILL.md 还是 AGENTS.md、怎么证明"完成了"。
-  Do NOT use for 从零创建技能的整体流程（用 skill-authoring）、已有技能的瘦身拆分（用 skill-refining）、评估与打分（用 skill-evaluating），也不用于写一次性提示词。
+  Do NOT use for 从零创建技能的整体流程（用 skill-authoring）、范围章节与粒度分层（用 skill-scoping）、已有技能的瘦身拆分（用 skill-refining）、评估与打分（用 skill-evaluating），也不用于写一次性提示词。
 ---
 
 # 技能正文的构件
 
 ## 边界
 
-- 用于：**指令措辞与形态** · 目录与脚本组织 · 输出契约 · 验证章节 · 错误处理 · 指令分层
+- 用于：**指令措辞与形态** · 示例设计 · 验收与判断分支 · 整体写法原则与自查
 - 不用于：整体创建流程 · 瘦身拆分 · 评估打分 · 一次性提示词
+- ⭐ **范围章节、粒度、四层沉淀、与 CLAUDE.md/AGENTS.md 的分工 → 《skill-scoping》**
 
 ## 核心原则
 
@@ -27,6 +28,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
+| `vague-word-blacklist.md` | ⭐⭐⭐⭐⭐ 含糊词替换表；⭐⭐⭐⭐⭐ 五类伪装成约束的词（确保/重要：/总是）；可 grep 的 CI 检查 |
 | `few-shot-example-quality.md` | ⭐⭐★★★ 示例六准则；★负例 sparingly 且成对；★成本不均匀 |
 | `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
@@ -37,17 +39,15 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
 | `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
-| `content-layering-four.md` | ⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
 | `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
 | `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
-| `granularity-atomic-workflow.md` | ⭐ 原子 vs 工作流技能 + 重启测试 |
-| `claude-md-bidirectional.md` | ⭐ CLAUDE.md 与技能的双向流动、头号反模式 |
 
 **看完整样本**：
 
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **照着一份真技能写 / 看取舍是怎么做的** | **`skill-gallery`**（完整源码 + 写法分析） |
+| ⭐ **范围章节、粒度、分层** | **`skill-scoping`** |
 
 **指令怎么写**：
 
@@ -55,24 +55,8 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 |---|---|
 | ⭐ **形态匹配：禁令 / 配方 / 槽位 / 条件** | `references/guidance-forms.md` |
 | **反理性化：agent 找借口跳过步骤** | **`skill-execution` 的 `anti-rationalizations.md`** |
-| **事实边界：该写什么不该写什么** | `references/fact-boundary.md` |
-| **措辞、语气、格式** | **`skill-authoring` 的 `writing-style.md`** |
-
-**结构与组织**：
-
-| 你要做的事 | 读 |
-|---|---|
-| **写 scripts/ 里的脚本** | **`skill-scripting` 的 `script-engineering.md`** |
-| ⭐ **逐步写失败模式：只有 happy path 会在生产里断** | `references/failure-modes-doc.md` |
-| ⭐ **工具输出设计：输出就是推理的原材料** | **`skill-scripting` 的 `tool-output-design.md`** |
-| ⭐ **范围章节：Out of scope 要指向替代方案** | `references/scope-section.md` |
-| ⭐ **反模式章节：四要素与具体成本** | `references/anti-pattern-section.md` |
-| **长任务的进度报告：按阶段报、降级必须说** | **`skill-execution` 的 `progress-reporting.md`** |
-| **术语一致性：一个词两个意思就够糟了** | `references/terminology.md` |
-| ⭐ **16 条实战原则** | `references/skill-principles.md` |
-| ⭐ **官方团队经验：别陈述显而易见、别过度约束** | `references/official-lessons.md` |
-| ⭐ **CLAUDE.md / AGENTS.md / SKILL.md 怎么选** | `references/claude-md-vs-skill.md` |
-| **指令分层：什么该放 AGENTS.md** | `references/instruction-layering.md` |
+| **事实边界：该写什么不该写什么** | **`skill-scoping` 的 `fact-boundary.md`** |
+| **措辞、语气、格式** | **`skill-content` 的 `writing-style.md`** |
 
 **输出与收尾**：
 
@@ -99,17 +83,13 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 - ⭐ **建造者不能当审计员**——派全新只读子代理复核，agent 默认会"幻觉式合规"
 - 校验**分必做与按需**——过度验证是最大单一成本源
 
-**目录与脚本**：
+**脚本**：
 
-- `scripts/` = 要结果一致（执行，不占上下文）；`references/` = 要每次有新见解（读进上下文）
-- 脚本必须**非交互**、JSON 输出、区分退出码、幂等
-- `assets/` 的文件不是用来读的，是**被当作输入或模板消费的**
-- ⭐ 未被引用的 asset 是噪音——会稀释检索
+- ⭐ **确定性逻辑必须进 `scripts/`**——写进 SKILL.md 既占上下文又结果不定
 
 **分层**：
 
-- 技能可以保持简洁，因为**从 bootstrap 层隐式继承了工作区约定**
-- ❌ 把同一份清单同时粘进 AGENTS.md、Cursor rule 和技能——三处必然漂移
+- ⭐ 与 CLAUDE.md / AGENTS.md 的分工见 **`skill-scoping`**
 - 含"绝不"且机器能检查的规则 → 用 hook，不写进提示词
 
 **执行安全**：
@@ -125,7 +105,6 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | "多写几条禁令更保险" | 禁令只在防明知故犯时有效；形状问题用配方，否则反噬。 |
 | "多加几步校验更安全" | 过度验证是最大单一成本源。分必做/按需。 |
 | "写灵活一点更好用" | 无具体判据的词对模型等于没有约束，必须给可观察标准。 |
-| "脚本直接写在 SKILL.md 里就行" | 确定性逻辑必须进 scripts/——省 token 且结果确定。 |
 | "跑一遍扫描器显示 SAFE 就够了" | SAFE ≠ 安全。先确认扫描器实际启用了几个引擎。 |
 
 其余见 **`skill-execution`** 的 `anti-rationalizations.md`。
