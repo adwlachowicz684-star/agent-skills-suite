@@ -1,7 +1,7 @@
 # 增量验证：从最小配置一步步加
 
 > 相关：《skill-evaluating》的 `test-pyramid.md` ·
-> `troubleshooting-manual.md` · 《skill-patterns》的 `nine-checks-not-working.md`
+> `troubleshooting-manual.md` · 《skill-structuring》的 `nine-checks-not-working.md`
 > 前置：那些文档讲"故障后怎么定位"，
 > 这份讲⭐ 开发过程中怎么用增量方式让故障根本不发生。
 

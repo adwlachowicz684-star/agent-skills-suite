@@ -3,7 +3,7 @@
 > 相关：《skill-evaluating》的 `quality-rubric-nine-dims.md` ·
 > `capability-offset-net-gain.md`（净增益）·
 > 《skill-selection》的 `roi-breakeven.md` ·
-> 《skill-patterns》的 `skill-portfolio-audit.md`
+> 《skill-selection》的 `skill-portfolio-audit.md`
 > 前置：那份讲⭐ 单份技能的质量打分，
 > 这份讲⭐⭐⭐⭐ ⭐ 整个技能库的⭐ 运行期健康度 +
 > ⭐⭐⭐⭐⭐ 一条⭐ 关于"指标怎么用"的⭐ 提醒。

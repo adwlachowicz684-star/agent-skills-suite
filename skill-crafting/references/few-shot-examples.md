@@ -1,6 +1,6 @@
 # 少样本示例：数量、质量三要素、排序
 
-> 相关：《skill-crafting》的 `output-contract-templates.md` ·
+> 相关：《skill-execution》的 `output-contract-templates.md` ·
 > `guidance-forms.md` · 《skill-patterns》的 `instruction-craft.md`
 
 ---

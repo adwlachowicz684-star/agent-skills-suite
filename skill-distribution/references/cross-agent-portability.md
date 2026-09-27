@@ -1,6 +1,6 @@
 # 跨平台可移植：破坏它的三件事
 
-> 相关：《skill-authoring》的 `cross-model.md` ·
+> 相关：《skill-selection》的 `cross-model.md` ·
 > 《skill-distribution》的 `distribution-three-ways.md` ·
 > `packaging.md`
 

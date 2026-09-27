@@ -1,7 +1,7 @@
 # 祈使句而非第二人称：为什么这不是语法洁癖
 
 > 相关：《skill-authoring》的 `writing-style.md` ·
-> `description-writing.md` · 《skill-patterns》的 `instruction-craft.md`
+> `description-patterns.md` · 《skill-patterns》的 `instruction-craft.md`
 
 ---
 

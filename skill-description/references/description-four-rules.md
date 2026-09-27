@@ -1,7 +1,7 @@
 # description 四条铁律（含中文场景）
 
 > 相关：《skill-description》的 `imperative-description.md` ·
-> `description-recipes.md` · 《skill-refining》的 `i18n.md`
+> `description-rewrite-case.md` · 《skill-refining》的 `i18n.md`
 
 ---
 

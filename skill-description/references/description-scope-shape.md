@@ -1,6 +1,6 @@
 # description 的句式、反触发与"一技能一动词"
 
-> 相关：《skill-crafting》的 `description-by-collision-risk.md`（在 evaluating）·
+> 相关：《skill-evaluating》的 `description-by-collision-risk.md`（在 evaluating）·
 > 《skill-evaluating》的 `description-by-collision-risk.md`
 > 前置：那份讲"按碰撞风险决定长度"，
 > 这份讲⭐ **句式模板、反触发的质量判据、以及范围蔓延**。

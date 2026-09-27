@@ -1,7 +1,7 @@
 # 能力型 vs 偏好型：两类技能要分开评估
 
 > 相关：《skill-evaluating》的 `four-dimension-eval.md` ·
-> `official-checklist.md` · 《skill-refining》的 `versioning-compat.md`
+> `official-checklist.md` · 《skill-distribution》的 `versioning-compat.md`
 
 ---
 

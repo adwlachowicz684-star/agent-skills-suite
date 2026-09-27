@@ -1,7 +1,7 @@
 # 输出契约：声明格式、钉模板、可机械化解析
 
-> 相关：《skill-crafting》的 `output-control.md` ·
-> `written-for-model.md` · 《skill-patterns》的 `instruction-craft.md`
+> 相关：《skill-execution》的 `output-control.md` ·
+> `imperative-style.md` · 《skill-patterns》的 `instruction-craft.md`
 
 ---
 

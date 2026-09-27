@@ -1,6 +1,6 @@
 # 评估用例设计：按分支铺，而不是按感觉凑
 
-> 相关：《skill-evaluating》的 `test-data-design.md` ·
+> 相关：《skill-evaluating》的 `eval-case-design.md` ·
 > `eval-case-sources.md` · `trigger-eval-set.md` ·
 > `skill-test-pyramid-four.md`
 > 前置：那份讲"合成 vs 真实数据、边界用例"，

@@ -1,6 +1,6 @@
 # 测试金字塔四层：L1 结构 → L4 回归
 
-> 相关：《skill-evaluating》的 `evals-handbook.md` ·
+> 相关：《skill-evaluating》的 `skill-test-pyramid-four.md` ·
 > `assert-on-environment.md` · `skill-type-testing.md`
 > 前置：那些讲"断言什么、怎么断言"，
 > 这份讲⭐ **分层：每一层解决一个不同的问题，缺一层就有一类盲区**。

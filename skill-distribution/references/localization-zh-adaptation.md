@@ -1,6 +1,6 @@
 # 中文本土化：不是翻译，是让中文用户能自然触发
 
-> 相关：《skill-distribution》的 `cross-agent-portability.md` · `release-collaboration.md` ·
+> 相关：《skill-distribution》的 `cross-agent-portability.md` · `team-conventions-pr.md` ·
 > 《skill-description》的 `description-tuning-official-loop.md`
 > 前置：那份讲⭐ 跨 agent 可移植，
 > 这份讲⭐⭐⭐⭐ ⭐ 另一种移植——⭐⭐⭐⭐⭐ **跨语言的移植**，
