@@ -1,6 +1,6 @@
 # 九维打分：权重最高的三项是"能不能真跑"
 
-> 相关：《skill-evaluating》的 `quality-rubric.md`（四维度）·
+> 相关：《skill-quality》的 `quality-rubric.md`（四维度）·
 > `four-dimension-eval.md` · `comparator-ab-eval.md`
 > 前置：`quality-rubric.md` 是 Clarity/Completeness/Accuracy/Usefulness 四维，
 > 这份是⭐ **另一套九维加权体系**，⭐ 权重分布完全不同，可互补使用。

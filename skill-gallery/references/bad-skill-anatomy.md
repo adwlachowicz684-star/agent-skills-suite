@@ -4,7 +4,7 @@
 > 《skill-crafting》的 `vague-word-blacklist.md`（含糊词）·
 > 《skill-content》的 `instruction-ordering.md`（五段式骨架）·
 > 《skill-scoping》的 `scope-section.md`（Out of scope 要指向替代方案）·
-> 《skill-evaluating》的 `quality-rubric-nine-dims.md`（九维打分）
+> 《skill-quality》的 `quality-rubric-nine-dims.md`（九维打分）
 > 前置：gallery 里已有⭐⭐⭐ **正面样本**（照着写），
 > 这份给⭐⭐⭐⭐⭐ **一份完整的坏样本 + 逐条改写**——
 > 因为看得出别人哪里坏，比照着好的抄更难，也更有用。

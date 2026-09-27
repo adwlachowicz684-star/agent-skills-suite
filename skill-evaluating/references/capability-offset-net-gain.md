@@ -1,6 +1,6 @@
 # 能力换血：59% 的毛收益被抵消
 
-> 相关：《skill-evaluating》的 `skill-lift-eval.md`（NVIDIA 300+ 实测）·
+> 相关：《skill-quality》的 `skill-lift-eval.md`（NVIDIA 300+ 实测）·
 > `skillsbench-vs-realworld.md`（真实场景优势压缩）·
 > `comparator-ab-eval.md` · `regression-baseline.md`
 > 前置：那些讲"技能带来多少提升"，

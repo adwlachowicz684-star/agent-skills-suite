@@ -1,10 +1,10 @@
 # 技能的失败分类：四种失败要四种修法
 
 > 相关：《skill-triggering》的 `trigger-tuning-loop.md`（误触发 vs 漏触发）·
-> 《skill-evaluating》的 `compound-failure.md`（复合失效）·
+> 《skill-triggering》的 `compound-failure.md`（复合失效）·
 > `hit-rate-four-questions.md`（四类诊断）·
 > 《skill-execution》的 `execution-error-protocol.md`（错误被吞掉）·
-> 《skill-evaluating》的 `outgrowth-regression-detection.md`
+> 《skill-triggering》的 `outgrowth-regression-detection.md`
 > 前置：已有文档按⭐⭐⭐ **阶段**（触发前/触发后）或⭐⭐⭐ **机制**（文件/描述/上下文）分类失败，
 > 这份按⭐⭐⭐⭐ **"对不对 / 稳不稳"这个二分**重切一遍——
 > 因为⭐⭐⭐⭐⭐ **"偶尔错"和"总是错"的根因完全不同，而多数人用同一套方法修**。

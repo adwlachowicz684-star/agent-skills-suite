@@ -3,7 +3,7 @@
 > 相关：《skill-crafting》的 `write-reasons-not-rules.md` ·
 > `degree-of-freedom`（在 authoring）· `examples-three-branches.md` ·
 > 《skill-description》的 `description-tuning-official-loop.md` ·
-> 《skill-evaluating》的 `capability-vs-preference.md`
+> 《skill-quality》的 `capability-vs-preference.md`
 > 前置：那些讲具体技法，
 > 这份是⭐⭐⭐ **一位实践者（Philipp Schmid，Google DeepMind）的八条沉淀**——
 > 含⭐⭐⭐ 一条与我们已有认知⭐ 部分冲突的原则，和⭐⭐⭐ 一个此前没有的退役判据。

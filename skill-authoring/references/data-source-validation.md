@@ -1,7 +1,7 @@
 # 数据源验证：技能会取到错的数据吗
 
 > 相关：`skill-authoring` 的 `seven-step-authoring.md`（第 5 步）·
-> 《skill-evaluating》的 `four-dimension-eval.md` ·
+> 《skill-quality》的 `four-dimension-eval.md` ·
 > （已移至 _parked 领域实例库）的 `grounding-verification.md`
 
 ---

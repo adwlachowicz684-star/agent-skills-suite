@@ -34,6 +34,8 @@ L3 参考     未读取前为零
 - 正文写得好不好 → `skill-crafting`
 
 ## 路由表（按需深读）
+| `frontmatter-full-reference.md` | ⭐⭐⭐ 六字段开放标准 vs CC 扩展边界；⭐ 加载失败硬条件四则 |
+| `frontmatter-advanced-fields.md` | ⭐⭐⭐ `context: fork` / `agent` / `hooks` / `paths` |
 | `yaml-frontmatter-errors.md` | ⭐⭐⭐★★ **半可用**：手动能调、自动不能；★中文全角冒号；三条验证命令 |
 | `diagnostic-commands.md` | ⭐⭐⭐★★ 三类收敛（加载/优先级/描述）；/context vs /skills；作用域优先级 |
 | `three-stages-discovery-activation-execution.md` | ⭐⭐⭐⭐ 三阶段；★★★真失忆 vs 假失灵二分诊断 |

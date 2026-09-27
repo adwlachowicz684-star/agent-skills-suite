@@ -2,7 +2,7 @@
 
 > 相关：《skill-distribution》的 `skill-as-business-rule.md`（数字孪生）·
 > `gray-release-rollback.md`（灰度与回滚）·
-> 《skill-evaluating》的 `skill-health-metrics.md`（体检指标）·
+> 《skill-triggering》的 `skill-health-metrics.md`（体检指标）·
 > `capability-offset-net-gain.md`（新增失败抵消 59% 毛收益）
 > 前置：那些讲⭐⭐⭐ 指标有哪些、怎么算，
 > 这份讲⭐⭐⭐⭐ **指标到了什么程度就该停止发布**——

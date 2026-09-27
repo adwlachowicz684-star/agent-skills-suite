@@ -2,7 +2,7 @@
 
 > 相关：《skill-patterns》的 `golden-rules-failure-modes.md` ·
 > 《skill-execution》的 `grounding-verification.md` ·
-> 《skill-evaluating》的 `four-dimension-eval.md`
+> 《skill-quality》的 `four-dimension-eval.md`
 
 ---
 

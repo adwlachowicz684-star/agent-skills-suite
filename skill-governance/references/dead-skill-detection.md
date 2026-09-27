@@ -1,6 +1,6 @@
 # 死技能检测：用数据找出该修和该砍的
 
-> 相关：《skill-evaluating》的 `metrics.md`（指标）· `quality-rubric.md`（评分）·
+> 相关：《skill-quality》的 `metrics.md`（指标）· `quality-rubric.md`（评分）·
 > `canary-release.md`（灰度）· 《skill-refining》的 `catalog-shape.md`（审计节奏）
 
 ---

@@ -40,11 +40,9 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
 | `outgrowth-regression-detection.md` | ⭐⭐⭐ 三失败模式：被追上要归档、回归要修、本来不行要重做 |
 | `capability-offset-net-gain.md` | ⭐⭐⭐ 5832次实验：新增失败抵消59%毛收益；平均通过率分不清净增长与换血 |
+| `test-doubles-fixtures.md` | ⭐⭐⭐⭐⭐ 清空环境跑两次应完全一致；⭐⭐⭐⭐⭐ 替身只替成功响应=失败路径永远没被测；⭐⭐⭐⭐ 夹具要 TTL |
 | `eval-case-design.md` | ⭐⭐⭐ 按分支铺用例；负向用例测'它没做什么' |
-| `quality-rubric-nine-dims.md` | ⭐ 九维权重：实测表现 23 最高；这把尺子量不到什么 |
-| `frontmatter-advanced-fields.md` | ⭐ fork/agent/hooks + 调用控制三档 |
 | `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
-| `frontmatter-full-reference.md` | ⭐ 全字段四组 + 开放标准 vs CC 扩展边界 |
 | `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
 | `execution-span-logging.md` | ⭐⭐⭐⭐⭐ stopped_at 字段；⭐⭐⭐⭐ 失败全量采样；⭐⭐⭐⭐⭐ 观测直接产出 Gotchas
 | `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |
@@ -56,9 +54,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `determinism-boundary.md` | ⭐ 确定性边界：什么必须放 Hook，什么放技能 |
 | `assert-on-environment.md` | ⭐ 断言打在环境状态上 + pass^5 + 20 条路由集 |
 | `eval-loop-official.md` | ⭐ 官方评估四步、benchmark delta、盲评 A/B |
-| `capability-vs-preference.md` | ⭐ 能力型 vs 偏好型：评估方式完全不同 |
 | `deterministic-first.md` | ⭐ 确定性优先：能用代码判的别交给模型 |
-| `graded-rubric.md` | ⭐ 不要用全有或全无的 rubric：每维独立 0–1 |
 | `eval-case-sources.md` | ⭐ 每次手动修复都变成一条用例；10–20 条就够 |
 
 **正式评估**：

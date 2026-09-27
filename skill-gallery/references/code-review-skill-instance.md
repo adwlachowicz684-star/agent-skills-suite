@@ -1,7 +1,7 @@
 # 代码审查技能实例：八步与三档判词
 
 > 相关：（已移至 _parked 领域实例库）的 `code-review-trust.md` ·
-> `five-starter-skills.md` · 《skill-evaluating》的 `four-dimension-eval.md`
+> `five-starter-skills.md` · 《skill-quality》的 `four-dimension-eval.md`
 
 ---
 

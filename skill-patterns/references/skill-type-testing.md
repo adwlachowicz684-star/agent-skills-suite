@@ -1,6 +1,6 @@
 # 按技能类型选择测试方法
 
-> 相关：《skill-evaluating》的 `capability-vs-preference.md` ·
+> 相关：《skill-quality》的 `capability-vs-preference.md` ·
 > `test-pyramid.md` · `trigger-eval-set.md`
 
 ---

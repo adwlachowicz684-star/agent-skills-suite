@@ -33,6 +33,7 @@ description: 技能各章节的内容来源与写法——正文该放什么（G
 - 触发率评测 → `skill-evaluating` 的 `trigger-tuning-loop.md`
 
 ## 路由表（按需深读）
+| `portability-across-projects.md` | ⭐⭐⭐⭐⭐ 环境耦合会报错/组织耦合不会；⭐⭐⭐⭐⭐ L3 环境细节改为运行时探测；⭐⭐⭐⭐ 升模型要做减法 |
 | `default-actions.md` | ⭐⭐⭐⭐⭐ 省略不是留白：默认值表；⭐⭐⭐⭐ 最贵的三处省略；⭐⭐⭐ 主动设默认
 | `terminology-table.md` | ⭐⭐⭐⭐⭐ 模型不会做同义消解；⭐⭐⭐⭐⭐ 术语表第三列（不要用的说法）
 | `instruction-ordering.md` | ⭐⭐⭐⭐⭐ 五段式骨架（契约/红线/术语/流程/验证）；⭐⭐⭐⭐ 验证不能放最后；目录即黄金位 |

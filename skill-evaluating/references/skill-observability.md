@@ -1,7 +1,7 @@
 # 技能可观测性：日志记什么、指标看什么
 
 > 相关：《skill-governance》的 `telemetry-schema.md` ·
-> 《skill-evaluating》的 `trace-debugging.md` · `metrics.md`
+> 《skill-triggering》的 `trace-debugging.md` · `metrics.md`
 > 前置：`telemetry-schema.md` 讲 Span 结构与 OTel 约定，
 > 这份讲⭐ 落地时要记录的具体字段与要看的指标。
 

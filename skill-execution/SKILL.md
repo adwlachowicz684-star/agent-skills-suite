@@ -27,6 +27,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 > 而技能会被调用几百次且每次都不经复核。
 
 ## 路由表（按需深读）
+| `intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
 | `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 三种结束（完成/转人/放弃）；⭐⭐⭐⭐⭐ 完成条件必须可枚举；⭐⭐⭐⭐⭐ 没有出口=默认继续尝试
 | `budget-caps-no-progress.md` | ⭐⭐⭐⭐ 五道上限；⭐⭐⭐⭐⭐ 无进展检测器（动作不同但状态不变）；终止不是模型的选项 |
 | `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；[SKILL_EXECUTION_ERROR] + safe_reply + 禁止解释 |
