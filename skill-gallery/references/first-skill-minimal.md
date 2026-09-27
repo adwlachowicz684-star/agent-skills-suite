@@ -1,7 +1,7 @@
 # 你的第一个技能可以只有 10 行
 
 > 相关：《skill-authoring》的 `how-to-guide.md` ·
-> 《skill-distribution》的 `cold-start.md` ·
+> 《skill-adoption》的 `cold-start.md` ·
 > 《skill-authoring》的 `creation-framework.md`
 
 ---

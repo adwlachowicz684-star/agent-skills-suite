@@ -1,7 +1,7 @@
 # 冷启动：第一个技能该做哪个
 
-> 相关：《skill-distribution》的 `adoption-playbook.md` ·
-> 《skill-distribution》的 `team-adoption.md` ·
+> 相关：《skill-adoption》的 `adoption-playbook.md` ·
+> 《skill-adoption》的 `team-adoption.md` ·
 > 《skill-content》的 `skill-types.md`
 
 ---

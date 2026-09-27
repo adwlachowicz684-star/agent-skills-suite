@@ -1,7 +1,7 @@
 # ROI 与回本：频率决定一切
 
 > 相关：《skill-selection》的 `worth-skillifying.md` ·
-> `when-not-to-use-skill.md` · 《skill-distribution》的 `adoption-metrics.md`
+> `when-not-to-use-skill.md` · 《skill-adoption》的 `adoption-metrics.md`
 
 ---
 

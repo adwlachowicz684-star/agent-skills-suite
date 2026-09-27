@@ -32,6 +32,7 @@ description: 完整技能样本库——可直接照抄的真实 SKILL.md 源码
 > ⭐ **没有一个说"功能很全"**。
 
 ## 路由表（按需深读）
+| `bad-skill-anatomy.md` | ⭐⭐⭐⭐⭐ 反面样本 14 处诊断 + 改写；⭐⭐⭐⭐⭐ Q2：不用这技能模型也会做 = 伪技能 |
 | `skill-creator-agents-and-stats.md` | ⭐⭐★★★ 三子代理分工（校验者≠解释者）；★stddev 是我们缺的维度 |
 | `skill-creator-meta-architecture.md` | ⭐⭐★★★ 元技能架构；★每用例跑 with/baseline 两个子代理；★grader 也评审 eval |
 | `team-skill-template.md` | ⭐⭐⭐ 团队模板 + ★★★★命名仲裁（动名词 vs verb-noun） |

@@ -1,6 +1,6 @@
 # 团队采用六步：多数失败在采用，不在技术
 
-> 相关：《skill-distribution》的 `team-adoption.md`（为什么会卡住·三角色）·
+> 相关：《skill-adoption》的 `team-adoption.md`（为什么会卡住·三角色）·
 > `adoption-metrics.md`（先行/滞后指标）·
 > `adoption-playbook.md` · `team-conventions-pr.md`
 > 前置：那份讲"为什么会卡住"，

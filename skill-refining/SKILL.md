@@ -35,6 +35,7 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 | `skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
 | `skill-reducer-study.md` | ⭐⭐ 压缩后质量反升 2.8%；>10K token 技能压缩率达 95.8% |
 | `change-impact-analysis.md` | ⭐⭐⭐⭐ 改之前的影响面六问；⭐反向依赖图；风险与改动大小无关 |
+| `merge-signals-five.md` | ⭐⭐⭐⭐⭐ 单向棘轮；⭐⭐⭐⭐⭐ 顺序耦合=一个技能被拆两半；⭐⭐⭐⭐ 权限不同是合并否决项 |
 | `split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
 | `version-changelog-practice.md` | ⭐ 版本与 Changelog：三种记录 + 四个常见错误 |
 | `version-strategy.md` | ⭐ 版本号判据：调用方会不会坏（不是改了多少字） |

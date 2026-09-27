@@ -2,7 +2,7 @@
 
 > 相关：《skill-refining》的 `skill-evolution-loop.md` · `version-changelog-practice.md` ·
 > 《skill-patterns》的 `six-anti-patterns-pitfalls.md` ·
-> 《skill-distribution》的 `adoption-metrics.md`
+> 《skill-adoption》的 `adoption-metrics.md`
 > 前置：那些讲"怎么演进、怎么打分"，
 > 这份是⭐⭐⭐ **一份实践者踩坑清单**——
 > 四个坑里有两个⭐⭐ 此前完全没覆盖：**描述强实现弱** 与 **过细粒度拆分**。

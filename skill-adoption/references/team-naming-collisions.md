@@ -1,6 +1,6 @@
 # 团队命名冲突与上手导入
 
-> 相关：《skill-distribution》的 `team-conventions-pr.md` ·
+> 相关：《skill-adoption》的 `team-conventions-pr.md` ·
 > `adoption-metrics.md` · 《skill-structuring》的 `naming-conventions.md`
 > 前置：`naming-conventions.md` 讲 kebab-case 等硬规则，
 > 这份讲⭐ 多人长期贡献时如何避免撞名，以及新人导入怎么做。

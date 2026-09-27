@@ -1,7 +1,7 @@
 # 推广度量：先行指标 vs 滞后指标
 
-> 相关：《skill-distribution》的 `adoption-playbook.md` ·
-> 《skill-distribution》的 `team-adoption.md` ·
+> 相关：《skill-adoption》的 `adoption-playbook.md` ·
+> 《skill-adoption》的 `team-adoption.md` ·
 > 《skill-governance》的 `skill-min-record-card.md`
 
 ---

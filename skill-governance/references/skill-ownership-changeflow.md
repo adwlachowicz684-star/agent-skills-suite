@@ -1,7 +1,7 @@
 # Owner 制度与变更流程
 
 > 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `ops-iteration-sop.md` · 《skill-distribution》的 `team-conventions-pr.md`
+> `ops-iteration-sop.md` · 《skill-adoption》的 `team-conventions-pr.md`
 > 前置：`team-conventions-pr.md` 讲评审清单，
 > 这份讲⭐ 谁对技能负责、以及一次改动要走完什么流程。
 

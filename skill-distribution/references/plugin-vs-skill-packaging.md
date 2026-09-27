@@ -1,6 +1,6 @@
 # 技能 vs 插件 vs 市场：三层打包
 
-> 相关：《skill-distribution》的 `team-conventions-pr.md` ·
+> 相关：《skill-adoption》的 `team-conventions-pr.md` ·
 > `enterprise-marketplace-ops.md` · `dependency-lockfile.md` ·
 > 《skill-selection》的 `four-way-choice.md`
 > 前置：那些讲⭐ 发布与分发，

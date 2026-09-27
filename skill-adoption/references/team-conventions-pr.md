@@ -1,6 +1,6 @@
 # 团队约定与 PR 评审清单
 
-> 相关：《skill-distribution》的 `team-sharing.md` ·
+> 相关：《skill-adoption》的 `team-sharing.md` ·
 > `adoption-metrics.md` · 《skill-governance》的 `retirement-pipeline.md`
 
 ---

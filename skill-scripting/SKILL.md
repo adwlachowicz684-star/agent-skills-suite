@@ -29,6 +29,7 @@ description: 把技能里的确定性工作做成脚本——脚本该不该抽�
 
 ## 路由表（按需深读）
 | `helper-library-pattern.md` | ⭐⭐⭐⭐ 给 helper 库而非流程；⭐⭐⭐⭐⭐ docstring 是 Gotchas 第二投放点；现场组合 |
+| `script-error-messages.md` | ⭐⭐⭐⭐⭐ 四段式错误消息；⭐⭐⭐⭐⭐ 没写'不要推断'模型就会推断；不写密钥 |
 | `script-testing.md` | ⭐⭐ golden 文件是变更可见化机制；跑三次测幂等 |
 | `script-security-boundary.md` | ⭐⭐ 技能里的安全声明是说明不是锁 |
 | `script-cli-contract.md` | ⭐⭐ 退出码分级 + stdout/stderr 分离；绝不设计交互式输入 |

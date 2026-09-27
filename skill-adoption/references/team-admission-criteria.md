@@ -1,6 +1,6 @@
 # 团队准入标准、14 步流程与六个误区
 
-> 相关：《skill-distribution》的 `team-landing-seven.md`（七原则）·
+> 相关：《skill-adoption》的 `team-landing-seven.md`（七原则）·
 > `team-conventions-pr.md`（PR 评审清单）· `team-conventions-pr.md` ·
 > 《skill-governance》的 `retirement-pipeline.md`（退役四阶段）
 > 前置：那些讲"怎么推、怎么评"，

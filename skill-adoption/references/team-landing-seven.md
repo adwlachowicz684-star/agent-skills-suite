@@ -1,6 +1,6 @@
 # 团队落地：七原则、三层分发、三步走
 
-> 相关：《skill-distribution》的 `adoption-playbook.md` ·
+> 相关：《skill-adoption》的 `adoption-playbook.md` ·
 > `adoption-metrics.md` · `team-conventions-pr.md` ·
 > `enterprise-registry.md`
 > 前置：那些讲"怎么推广、怎么度量、怎么定规范、怎么建注册中心"，
