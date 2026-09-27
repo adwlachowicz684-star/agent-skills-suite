@@ -33,6 +33,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 | `structured-output-pipeline.md` | ⭐⭐⭐⭐⭐ **结构化≠正确**：schema 合规不保证值；⭐⭐⭐⭐⭐ 无 description 的字段=省略了一半提示 |
 | `output-stability-contract.md` | ⭐⭐⭐⭐ `/clear` 后跑两遍测试法；⭐⭐⭐ 长度上限 ≤ 基线 ×1.5 |
 | `output-control.md` | ⭐⭐⭐⭐ 输出控制：长度、详尽度、抑制冗长 |
+| `enumeration-and-completeness.md` | ⭐⭐⭐⭐⭐ 没有分母就没有完成；⭐⭐⭐⭐⭐ 覆盖率必须出现在输出里；"全面"是无上限的词 |
 | `progress-reporting.md` | ⭐⭐⭐ 进度汇报：长任务的可见性 |
 | `grounding-verification.md` | ⭐⭐⭐⭐ 有据可查验证：⭐⭐⭐⭐⭐ 每个结论要能追溯到源 |
 

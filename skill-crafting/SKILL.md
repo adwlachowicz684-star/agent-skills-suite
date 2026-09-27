@@ -36,6 +36,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
 | `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
 | `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
+| `conditional-branch-writing.md` | ⭐⭐⭐⭐⭐ 没有 else 的 if = 授权模型自己定义 else；⭐⭐⭐⭐⭐ 半写的约束比不写更危险；⭐⭐⭐⭐⭐ "有但不可用"那档 |
 | `judgment-branches-acceptance.md` | ⭐⭐⭐ 流程/判断/验收三件套；★差评反例比正向示例更有效 |
 | `examples-three-branches.md` | ⭐⭐ 三分支示例 + ⭐⭐⭐ Rationale 字段；gotchas 最值钱 |
 | `skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题

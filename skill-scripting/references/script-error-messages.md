@@ -3,7 +3,7 @@
 > 相关：《skill-scripting》的 `script-engineering.md`（该不该抽成脚本）·
 > `tool-output-design.md`（输出设计）·
 > `script-testing.md`（golden 文件）·
-> 《skill-execution》的 `execution-error-protocol.md`（`safe_reply` 字段）·
+> 《skill-recovery》的 `execution-error-protocol.md`（`safe_reply` 字段）·
 > 《skill-security》的 `hooks-skill-cooperation.md`（stderr 就是模型看到的全部）
 > 前置：那些讲⭐⭐⭐ 退出码要分级、⭐⭐⭐⭐ 输出要压缩，
 > 这份讲⭐⭐⭐⭐⭐ **错误消息本身的写法**——

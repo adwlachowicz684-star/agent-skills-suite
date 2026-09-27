@@ -1,6 +1,6 @@
 # 跨会话接续：这次没做完，下次怎么接
 
-> 相关：《skill-execution》的 `idempotency-resume.md`（幂等与断点续跑）·
+> 相关：《skill-recovery》的 `idempotency-resume.md`（幂等与断点续跑）·
 > `state-check.md`（先查状态）·
 > `budget-caps-no-progress.md`（预算与无进展）·
 > 《skill-refining》的 `memory-layering-and-skills.md`（记忆四层）·

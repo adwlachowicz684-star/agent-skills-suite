@@ -1,6 +1,6 @@
 # 并行与并发：技能里的"同时做几件事"
 
-> 相关：《skill-execution》的 `budget-caps-no-progress.md`（预算与无进展检测）·
+> 相关：《skill-recovery》的 `budget-caps-no-progress.md`（预算与无进展检测）·
 > `termination-modes-and-gates.md`（三种终止方式）·
 > 《skill-orchestration》的 `composition-patterns-types.md`（组合的四种依赖）·
 > `conflict-three-types-degradation.md`（无序并行比只跑一个还差）

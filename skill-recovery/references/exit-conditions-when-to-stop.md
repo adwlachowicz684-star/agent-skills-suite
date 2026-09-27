@@ -1,6 +1,6 @@
 # 技能的停止条件：什么时候该结束、该转人、该放弃
 
-> 相关：《skill-execution》的 `budget-caps-no-progress.md`（预算与无进展检测）·
+> 相关：《skill-recovery》的 `budget-caps-no-progress.md`（预算与无进展检测）·
 > `termination-modes-and-gates.md`（三种终止方式）·
 > `execution-error-protocol.md` ·
 > 《skill-orchestration》的 `routing-tiers-and-arbitration.md`（无法判断就提问）·

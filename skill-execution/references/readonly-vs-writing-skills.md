@@ -1,6 +1,6 @@
 # 只读技能与写入技能：两套完全不同的写法
 
-> 相关：《skill-execution》的 `idempotency-resume.md`（幂等与恢复）·
+> 相关：《skill-recovery》的 `idempotency-resume.md`（幂等与恢复）·
 > `parallel-and-concurrency.md`（准入条件）·
 > `state-check.md`（行动前先查状态）·
 > 《skill-security》的 `allowed-tools-least-privilege.md`（最小权限）·

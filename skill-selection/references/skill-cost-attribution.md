@@ -177,7 +177,7 @@ C_load = 元数据 tokens × 每次判断的次数
 **误算：把"技能文件大小"当成"技能成本"。**
 
 脚本源码默认**不进上下文**——只有它的输出进
-（《skill-execution》的 `three-crash-scenes.md`）。
+（《skill-recovery》的 `three-crash-scenes.md`）。
 
 ```
 ❌ 脚本 2000 行 → 成本 2000 行

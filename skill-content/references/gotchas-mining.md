@@ -2,7 +2,7 @@
 
 > 相关：`anthropic-team-lessons.md`（⭐ Gotchas 是技能里信号最高的内容）·
 > 《skill-crafting》的 `examples-three-branches.md`（gotchas 每纠正一次就写进去）·
-> 《skill-execution》的 `execution-error-protocol.md`
+> 《skill-recovery》的 `execution-error-protocol.md`
 > 前置：那些讲⭐⭐⭐⭐⭐ Gotchas 为什么最值钱、⭐ 怎么维护，
 > 这份讲⭐⭐⭐⭐⭐ **第一批 Gotchas 从哪来**——
 > 一个所有人都默认"作者自己知道"、因而从未被写成方法的环节。

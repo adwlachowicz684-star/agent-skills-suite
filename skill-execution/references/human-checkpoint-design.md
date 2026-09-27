@@ -1,6 +1,6 @@
 # 人在回路：哪些步骤必须停下来给人看
 
-> 相关：《skill-execution》的 `exit-conditions-when-to-stop.md`（三种结束）·
+> 相关：《skill-recovery》的 `exit-conditions-when-to-stop.md`（三种结束）·
 > `readonly-vs-writing-skills.md`（只读 vs 写入）·
 > `intent-drift-midflight.md`（意图漂移）·
 > `preflight-gate.md`（前置门禁）·

@@ -47,6 +47,7 @@ L3 参考     未读取前为零
 | `four-layer-diagnosis-flow.md` | ⭐⭐⭐ 四步排查 + 停机规则；★80% 问题在文件层 |
 | `official-spec-and-style.md` | ⭐⭐⭐ 加载失败硬条件四则；Markdown 不用 XML |
 | `argument-substitution.md` | ⭐⭐ 参数替换：⭐⭐⭐ 会静默损坏 shell 代码示例 |
+| `skill-reload-and-session-state.md` | ⭐⭐⭐⭐⭐ 唯一需要重启的情况；⭐⭐⭐⭐⭐ 生效 vs 看清效果；⭐⭐⭐⭐⭐ 问它最快 |
 | `nine-checks-not-working.md` | ⭐ 九项排查清单 + 显式调用隔离技巧 |
 | `frontmatter-fields.md` | ⭐ 字段速查与 YAML 六个陷阱 |
 | `frontmatter-pitfalls.md` | ⭐ 静默失败根因：两阶段解析 + 完整雷区表 |

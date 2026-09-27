@@ -4,7 +4,10 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
   Do NOT use for 从零创建技能的整体流程（用 skill-authoring）、正文措辞与指令形态（用 skill-crafting）、目录与 frontmatter 结构（用 skill-structuring）、脚本本身的写法（用 skill-scripting），也不用于一次性提示词。
 ---
 
-# 技能的执行期行为
+# 技能
+
+> ⭐ **失败、终止、重试、幂等、跨会话接续不在本技能** → 《skill-recovery》
+> 本技能管"执行期怎么跑"，那份管"跑砸了之后怎么办"。的执行期行为
 
 > ⭐ **输出契约（格式、字段、模板、稳定性）不在本技能** → 《skill-output》
 > 本技能管"跑的过程"，那份管"跑出来什么"。
@@ -32,23 +35,14 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 ## 路由表（按需深读）
 | `intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
 | `human-checkpoint-design.md` | ⭐⭐⭐⭐⭐ 暂停≠结束；⭐⭐⭐⭐⭐ 确认要继续吗不够，要展示不可逆部分；⭐⭐⭐⭐ 过度暂停会训练无脑确认 |
-| `cross-session-continuity.md` | ⭐⭐⭐⭐⭐ 副作用持久/进度不持久；⭐⭐⭐⭐⭐ 上下文里的进度不是接续方案；⭐⭐⭐⭐ 重跑比接续可靠 |
 | `change-questions.md` | ⭐⭐⭐⭐⭐ 模型不区分"补充"和"改主意"；⭐⭐⭐⭐⭐ 改细节不要从头再来；⭐⭐⭐⭐⭐ 同一任务内只问一次 |
-| `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 三种结束（完成/转人/放弃）；⭐⭐⭐⭐⭐ 完成条件必须可枚举；⭐⭐⭐⭐⭐ 没有出口=默认继续尝试
-| `budget-caps-no-progress.md` | ⭐⭐⭐⭐ 五道上限；⭐⭐⭐⭐⭐ 无进展检测器（动作不同但状态不变）；终止不是模型的选项 |
-| `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；[SKILL_EXECUTION_ERROR] + safe_reply + 禁止解释 |
 | `assumption-registry.md` | ⭐⭐⭐⭐⭐ 假设≠依赖：不报错只是结果错；⭐⭐⭐⭐ 规模假设隐藏最深；⭐⭐⭐⭐⭐ 只写假定不写后果更糟
 | `data-dependency-declaration.md` | ⭐⭐⭐⭐⭐ 数据依赖（配置/环境变量/前置产物）；⭐⭐⭐⭐⭐ 读不到就自己造一份
 | `readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
 | `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
-| `three-crash-scenes.md` | ⭐⭐⭐⭐ 三起事故：★脚本输出3万字塞爆上下文；语义边界要主动收紧 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
+| `input-validation-and-triage.md` | ⭐⭐⭐⭐⭐ 残缺/矛盾/超范围三类输入；⭐⭐⭐⭐⭐ 一次问完；⭐⭐⭐⭐⭐ 被丢弃的需求必须出现在输出里 |
 | `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
-| `state-check.md` | ⭐ 行动前先查状态 |
-| `idempotency-resume.md` | ⭐ 幂等、状态文件、恢复与回滚 |
-| `error-handling.md` | 失败处理、重试、熔断、降级 |
-| `infinite-loop-timeout.md` | ⭐ 无限循环与超时：终止条件、每技能单独 timeout |
-| `anti-rationalizations.md` | ⭐ 反理性化：agent 找借口跳过步骤 |
 
 **输出形状**：
 

@@ -1,6 +1,6 @@
 # 技能的意图漂移：任务被中途改变了怎么办
 
-> 相关：《skill-execution》的 `exit-conditions-when-to-stop.md`（三种结束）·
+> 相关：《skill-recovery》的 `exit-conditions-when-to-stop.md`（三种结束）·
 > `default-actions.md`（省略不是留白）·
 > `parallel-and-concurrency.md`（N 个半成品）·
 > 《skill-orchestration》的 `skill-dependency-injection.md`（双向无知）
