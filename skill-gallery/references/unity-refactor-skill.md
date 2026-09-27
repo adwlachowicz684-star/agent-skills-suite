@@ -1,7 +1,7 @@
 # 重构类技能实例：范围、规则与报告
 
 > 相关：（已移至 _parked 领域实例库）的 `unity-csharp-standards.md` ·
-> `code-review-skill-instance.md` · 《skill-execution》的 `output-contract.md`
+> `code-review-skill-instance.md` · 《skill-output》的 `output-contract.md`
 
 ---
 

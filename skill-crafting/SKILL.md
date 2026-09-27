@@ -29,6 +29,8 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 
 ## 路由表（按需深读）
 | `vague-word-blacklist.md` | ⭐⭐⭐⭐⭐ 含糊词替换表；⭐⭐⭐⭐⭐ 五类伪装成约束的词（确保/重要：/总是）；可 grep 的 CI 检查 |
+| `example-mining-from-traces.md` | ⭐⭐⭐⭐⭐ 定格式的示例该编、教判断的必须采集；⭐⭐⭐⭐⭐ 像教科书=你编了；⭐⭐⭐⭐⭐ 从改好的那次里捞 |
+| `decision-rationale-output.md` | ⭐⭐⭐⭐⭐ 依据 vs 解释（可查 vs 可编）；⭐⭐⭐⭐⭐ 默认值必须写依据；⭐⭐⭐⭐⭐ 依据让出错点可见 |
 | `few-shot-example-quality.md` | ⭐⭐★★★ 示例六准则；★负例 sparingly 且成对；★成本不均匀 |
 | `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |

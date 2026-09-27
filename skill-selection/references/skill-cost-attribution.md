@@ -110,7 +110,7 @@ C_load = 元数据 tokens × 每次判断的次数
 
 第三类的判据很实用：**如果技能的主要作用是"让输出更规范"，
 而 delta 却是正的，那它的格式要求一定写得比需要更长**
-（《skill-execution》的 `output-stability-contract.md` 同源）。
+（《skill-output》的 `output-stability-contract.md` 同源）。
 
 第四类不是"优化"能解决的——**必须加终止条件**，
 因为偶发极大的分布意味着它不是一个可以调优的参数，是一个缺失的机制。

@@ -2,7 +2,7 @@
 
 > 相关：`error-handling.md`（失败处理与降级）·
 > 《skill-scripting》的 `script-cli-contract.md`（退出码分级）·
-> 《skill-execution》的 `structured-output-pipeline.md` 的姐妹篇
+> 《skill-output》的 `structured-output-pipeline.md` 的姐妹篇
 > 前置：那些讲⭐ 脚本怎么报错，
 > 这份讲⭐⭐⭐⭐⭐ **模型收到错误之后会干什么**——
 > 一个几乎没人防、但每次都伤人的环节。

@@ -6,6 +6,9 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 
 # 技能的执行期行为
 
+> ⭐ **输出契约（格式、字段、模板、稳定性）不在本技能** → 《skill-output》
+> 本技能管"跑的过程"，那份管"跑出来什么"。
+
 ## 边界
 
 - 用于：**输出契约** · 前置门禁 · 进度报告 · 状态检查 · 幂等与恢复 · 错误与熔断 · 防绕开 · 落地验证
@@ -28,6 +31,8 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 
 ## 路由表（按需深读）
 | `intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
+| `human-checkpoint-design.md` | ⭐⭐⭐⭐⭐ 暂停≠结束；⭐⭐⭐⭐⭐ 确认要继续吗不够，要展示不可逆部分；⭐⭐⭐⭐ 过度暂停会训练无脑确认 |
+| `cross-session-continuity.md` | ⭐⭐⭐⭐⭐ 副作用持久/进度不持久；⭐⭐⭐⭐⭐ 上下文里的进度不是接续方案；⭐⭐⭐⭐ 重跑比接续可靠 |
 | `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 三种结束（完成/转人/放弃）；⭐⭐⭐⭐⭐ 完成条件必须可枚举；⭐⭐⭐⭐⭐ 没有出口=默认继续尝试
 | `budget-caps-no-progress.md` | ⭐⭐⭐⭐ 五道上限；⭐⭐⭐⭐⭐ 无进展检测器（动作不同但状态不变）；终止不是模型的选项 |
 | `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；[SKILL_EXECUTION_ERROR] + safe_reply + 禁止解释 |
@@ -35,21 +40,14 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `data-dependency-declaration.md` | ⭐⭐⭐⭐⭐ 数据依赖（配置/环境变量/前置产物）；⭐⭐⭐⭐⭐ 读不到就自己造一份
 | `readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
 | `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
-| `structured-output-pipeline.md` | ⭐⭐⭐⭐★ 结构化≠正确（schema合规不保证值）+ 防御管线六步 |
 | `three-crash-scenes.md` | ⭐⭐⭐⭐ 三起事故：★脚本输出3万字塞爆上下文；语义边界要主动收紧 |
-| `output-stability-contract.md` | ⭐⭐⭐ 输出稳定：★跑两遍(/clear)测试法 + 三分法 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
-| `output-contract.md` | ⭐ 输出契约：Schema-First、四道防线 |
-| `output-contract-templates.md` | ⭐ 模板钉 assets/、三种目录语义 |
-| `output-control.md` | 输出控制三层次与模板 |
 | `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
-| `progress-reporting.md` | 长任务按阶段报、降级必须说 |
 | `state-check.md` | ⭐ 行动前先查状态 |
 | `idempotency-resume.md` | ⭐ 幂等、状态文件、恢复与回滚 |
 | `error-handling.md` | 失败处理、重试、熔断、降级 |
 | `infinite-loop-timeout.md` | ⭐ 无限循环与超时：终止条件、每技能单独 timeout |
 | `anti-rationalizations.md` | ⭐ 反理性化：agent 找借口跳过步骤 |
-| `grounding-verification.md` | ⭐ 落地与验证：怎么证明"完成了" |
 
 **输出形状**：
 

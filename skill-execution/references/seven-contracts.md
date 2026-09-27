@@ -1,8 +1,8 @@
 # 七个契约：从"说明书"到"责任契约"
 
-> 相关：《skill-execution》的 `output-contract.md` · `preflight-gate.md` ·
+> 相关：《skill-output》的 `output-contract.md` · `preflight-gate.md` ·
 > `error-handling.md` · `idempotency-resume.md` · `state-check.md` ·
-> 《skill-execution》的 `output-control.md`
+> 《skill-output》的 `output-control.md`
 > 前置：那些讲单个契约怎么写（输出格式、前置门禁、错误处理、幂等），
 > 这份讲⭐⭐⭐ **它们合起来构成的七个面**——
 > 核心论点是⭐⭐⭐ **"单一职责、准确描述、惜字如金"都不足以让技能进生产**。
