@@ -2,7 +2,7 @@
 
 > 相关：《skill-selection》的 `library-size-effect.md`（遮蔽占 68%）·
 > 《skill-orchestration》的 `namespace-collision.md`（缩候选到 3–8）·
-> 《skill-crafting》的 `skill-vs-rag.md`
+> 《skill-selection》的 `skill-vs-rag.md`
 
 ---
 

@@ -1,7 +1,7 @@
 # 九项排查：技能不工作时的顺序检查
 
 > 相关：《skill-structuring》的 `frontmatter-pitfalls.md` ·
-> `loading-mechanics.md` · 《skill-evaluating》的 `troubleshooting-manual.md`
+> `three-stages-discovery-activation-execution.md` · 《skill-evaluating》的 `troubleshooting-manual.md`
 > 前置：那些文档讲"为什么"，这份给一份⭐ 按顺序执行的实操清单。
 
 ---

@@ -1,7 +1,7 @@
 # 命名约定：name 同时是标识符、搜索关键词、认知锚点
 
 > 相关：《skill-structuring》的 `frontmatter-fields.md` ·
-> `cross-agent-portability.md` · 《skill-authoring》的 `description-writing.md`
+> `cross-agent-portability.md` · 《skill-description》的 `description-patterns.md`
 
 ---
 

@@ -1,6 +1,6 @@
 # 该不该做成技能：三条硬标准与五维矩阵
 
-> 相关：《skill-selection》的 `when-to-build.md` ·
+> 相关：《skill-selection》的 `three-conditions-rule-of-three.md` ·
 > 《skill-authoring》的 `how-to-guide.md`
 
 ---

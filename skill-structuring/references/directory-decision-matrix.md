@@ -1,7 +1,7 @@
 # 目录决策矩阵：每个文件该放哪
 
 > 相关：《skill-structuring》的 `directory-contract.md` ·
-> 《skill-crafting》的 `reference-routing.md`
+> 《skill-structuring》的 `reference-routing.md`
 > 前置：本技能其余文档讲"目录存在哪"，这份只讲"单个文件放哪个子目录"。
 
 ---
@@ -118,7 +118,7 @@ pdf/
     └── fill_pdf_form_with_annotations.py
 ```
 
-> ⚠️ 注意 `forms.md` 在根目录——这是**早于严格标准的遗留组织方式**。
+> ⚠️ 注意 `references-vs-assets.md` 在根目录——这是**早于严格标准的遗留组织方式**。
 > ⭐ **不要模仿这个**：新增文档一律进 `references/`。
 
 **③ 资源密集结构**（newsletter 设计）

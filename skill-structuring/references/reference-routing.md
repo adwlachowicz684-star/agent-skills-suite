@@ -21,7 +21,7 @@
 ⭐ Reference Index          —— 紧挨着 Router
 ```
 
-为什么是前 50 行：截断保头不保尾（见 `runtime-truth.md`），
+为什么是前 50 行：截断保头不保尾（见 `refine-with-execution.md`），
 路由信息放太后面可能根本进不了上下文。
 
 ## 强制加载要用动词，不用形容词

@@ -1,6 +1,6 @@
 # 技能脚本就是生产代码
 
-> 相关：《skill-crafting》的 `script-engineering.md` ·
+> 相关：《skill-scripting》的 `script-engineering.md` ·
 > `skill-structuring` 的 `references-vs-assets.md` · 《skill-authoring》的 `seven-step-authoring.md`
 
 ---

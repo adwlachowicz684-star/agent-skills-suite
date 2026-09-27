@@ -1,6 +1,6 @@
 # 谁能调用：两个 frontmatter 字段
 
-> 相关：《skill-structuring》的 `frontmatter.md` ·
+> 相关：《skill-description》的 `frontmatter.md` ·
 > `argument-substitution.md` · 《skill-governance》的 `skill-invocation-control.md`
 > 前置：`skill-invocation-control.md` 讲权限规则层，
 > 这份只讲⭐ 作者侧的两个声明字段。

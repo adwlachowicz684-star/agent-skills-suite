@@ -1,6 +1,6 @@
 # 三道关卡：发现 / 激活 / 执行
 
-> 相关：《skill-structuring》的 `skill-cascade-css.md` · `progressive-disclosure-patterns.md` ·
+> 相关：《skill-structuring》的 `skill-cascade-css.md` · `progressive-disclosure-official.md` ·
 > 《skill-scripting》的 `script-cli-contract.md` ·
 > 《skill-execution》的 `seven-contracts.md`
 > 前置：那些讲"字段怎么填、文件怎么放"，

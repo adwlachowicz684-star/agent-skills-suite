@@ -2,7 +2,7 @@
 
 > 相关：《skill-selection》的 `five-layer-choice.md` ·
 > `worth-skillifying.md` · `when-not-to-use-skill.md` ·
-> `prompt-vs-skill-framework.md` · `skill-vs-workflow.md`
+> `five-layer-choice.md` · `skill-vs-workflow.md`
 > 前置：那些讲"什么时候该做成技能"，
 > 这份讲⭐⭐⭐ **两边各自的失败模式**——
 > ⭐⭐⭐ 核心是一张对比表，以及由此推出的⭐⭐⭐ **混合模式**。

@@ -1,7 +1,7 @@
 # 参数替换：让一个技能当多个用
 
-> 相关：《skill-structuring》的 `frontmatter.md` ·
-> 《skill-crafting》的 `preflight-gate.md`
+> 相关：《skill-description》的 `frontmatter.md` ·
+> 《skill-execution》的 `preflight-gate.md`
 > 前置：本技能其余文档讲静态结构，这份只讲运行时参数替换机制。
 
 ---

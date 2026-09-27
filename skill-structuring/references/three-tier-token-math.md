@@ -2,7 +2,7 @@
 
 > 相关：《skill-structuring》的 `progressive-disclosure-official.md` ·
 > `reference-file-practices.md` ·
-> 《skill-refining》的 `context-budget-math.md` · `budget-truncation.md`
+> 《skill-patterns》的 `context-budget-math.md` · `budget-truncation.md`
 > 前置：那些讲⭐ 渐进式披露的机制与⭐ 预算算术，
 > 这份给⭐⭐⭐⭐ ⭐ 官方公布的⭐ 每级具体 token 数 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 能立刻判断"我这套库还健康吗"的⭐ 基准数字。
