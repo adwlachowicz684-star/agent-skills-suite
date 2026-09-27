@@ -3,7 +3,7 @@
 > 相关：《skill-execution》的 `idempotency-resume.md`（幂等与恢复）·
 > `parallel-and-concurrency.md`（准入条件）·
 > `state-check.md`（行动前先查状态）·
-> 《skill-governance》的 `allowed-tools-least-privilege.md`（最小权限）·
+> 《skill-security》的 `allowed-tools-least-privilege.md`（最小权限）·
 > `hooks-skill-cooperation.md`（沉默≠批准）
 > 前置：那些讲⭐⭐⭐ 幂等怎么写、⭐⭐⭐⭐ 权限怎么收，
 > 这份讲⭐⭐⭐⭐⭐ **最上游的分岔：这个技能到底动不动东西**——

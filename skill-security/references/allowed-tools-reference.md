@@ -1,6 +1,6 @@
 # allowed-tools 完整参考：工具表与 Bash 作用域
 
-> 相关：《skill-governance》的 `allowed-tools-least-privilege.md`（四面红旗）·
+> 相关：《skill-security》的 `allowed-tools-least-privilege.md`（四面红旗）·
 > `pre-install-security-audit.md` · 《skill-structuring》的
 > `frontmatter-fields.md` · `official-spec-and-style.md`
 > 前置：那份讲"最小权限的原则与危险组合"，

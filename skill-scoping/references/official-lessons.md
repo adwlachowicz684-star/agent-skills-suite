@@ -153,7 +153,7 @@ ${CLAUDE_PLUGIN_DATA}   —— 稳定存储，⭐ 技能升级后仍然存活
 
 > ⭐ **运维和部署类技能没有借口不装这两个。**
 
-这与《skill-governance》的 `sandbox-execution.md` 是互补的两层：
+这与《skill-security》的 `sandbox-execution.md` 是互补的两层：
 沙箱是**环境级隔离**，这两个钩子是**会话级闸门**。
 
 ---

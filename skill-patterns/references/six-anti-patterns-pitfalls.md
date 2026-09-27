@@ -2,7 +2,7 @@
 
 > 相关：《skill-patterns》的 `anti-patterns-catalog.md`（五类反模式总目）·
 > `common-mistakes-checklist.md` ·
-> 《skill-governance》的 `allowed-tools-least-privilege.md`
+> 《skill-security》的 `allowed-tools-least-privilege.md`
 > 前置：那份按"命名/内容/路径/工具/逻辑/安全"分类，
 > 这份按⭐⭐ **症状 → 药方**的对照表组织，
 > 并补上⭐⭐⭐ 六条安全红线与⭐⭐ 一个"先查这两步"的排障顺序。

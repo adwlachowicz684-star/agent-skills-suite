@@ -1,6 +1,6 @@
 # 供应链信任：像对待代码依赖一样对待技能
 
-> 相关：《skill-governance》的 `marketplace-security.md` ·
+> 相关：《skill-security》的 `marketplace-security.md` ·
 > `security-audit-ops.md` · （已移至 _parked 领域实例库）的 `injection-audit.md`
 
 ---

@@ -1,7 +1,7 @@
 # 脚本的安全边界：路径、凭据、网络
 
 > 相关：《skill-scripting》的 `script-cli-contract.md` ·
-> 《skill-governance》的 `pre-install-security-audit.md`（15 向量扫描）·
+> 《skill-security》的 `pre-install-security-audit.md`（15 向量扫描）·
 > `allowed-tools-least-privilege.md`
 > 前置：那份讲"怎么审别人的技能"，
 > 这份讲⭐ **你自己写技能脚本时该守住的三条边界**。

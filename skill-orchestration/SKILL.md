@@ -37,6 +37,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | `skill-dependency-injection.md` | ⭐⭐ 依赖注入四模式：委托/链式/配置/共享服务；双向无知=解耦证据 |
 | `orchestrator-timing.md` | ⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写编排器 |
 | `composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
+| `handoff-payload-contract.md` | ⭐⭐⭐⭐⭐ 交接包五项；⭐⭐⭐⭐⭐ 缺 failures = 技术上真实、实质上误导；⭐⭐⭐⭐ 覆盖率不足就停
 | `skill-chaining-composition.md` | ⭐ 串联组合：叠加加载、交接协议、五个坑 |
 | `context-isolation-fork.md` | ⭐ 上下文隔离：三条件才 fork + 六种别 fork |
 | `collision-arbitration.md` | ⭐ 技能打架仲裁三招 + 两步路由 + 延迟真相 |

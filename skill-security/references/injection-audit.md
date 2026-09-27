@@ -1,6 +1,6 @@
 # 提示注入审计：六类红旗与徽章制
 
-> 相关：《skill-governance》的 `injection-defense.md`（五层纵深）·
+> 相关：《skill-security》的 `injection-defense.md`（五层纵深）·
 > `security-audit-ops.md`（四类恶意技能）·
 > 《skill-orchestration》的 `prompt-injection.md`
 

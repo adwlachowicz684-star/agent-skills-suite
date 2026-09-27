@@ -30,6 +30,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 ## 路由表（按需深读）
 | `permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
 | `ci-skill-validation.md` | ⭐⭐⭐★★ CI 不能测行为；★四类结构验证；★事故→永久 eval |
+| `failure-quadrant-diagnosis.md` | ⭐⭐⭐⭐⭐ 稳定地错 vs 偶尔错根因不同；⭐⭐⭐⭐⭐ 第④格（对但不稳）最危险
 | `compound-failure.md` | ⭐⭐⭐⭐⭐ 多故障互相当不在场证明；⭐⭐ 改了只改善一点点=复合信号；逐层清空 |
 | `skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
 | `eval-set-rot.md` | ⭐⭐⭐⭐⭐ 测试集自身四种腐烂；⭐⭐⭐⭐⭐ 全绿是坏消息；⭐⭐ 定期改坏技能看它报不报警 |
