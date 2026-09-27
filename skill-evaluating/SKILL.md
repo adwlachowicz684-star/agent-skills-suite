@@ -1,15 +1,16 @@
 ---
 name: skill-evaluating
 description: 评估一个 Agent Skill 到底有没有用。用于技能不触发 / 乱触发 / 改了不生效 / 触发后跑偏、要做 A/B 配对对照、算 Skill Lift、跑四层测试金字塔、做质量评分 Rubric、排查加载失败与运行时问题。
-  Do NOT use for 从零写技能（用 skill-authoring）、瘦身拆分（用 skill-refining）、安全审计与合规（用 skill-governance）、打包发布（用 skill-distribution），也不用于单纯解释概念。
+  Do NOT use for 从零写技能（用 skill-authoring）、技能不触发乱触发与加载失败（用 skill-triggering）、瘦身拆分（用 skill-refining）、安全审计与合规（用 skill-governance）、打包发布（用 skill-distribution），也不用于单纯解释概念。
 ---
 
 # 评估技能有没有用
 
 ## 边界
 
-- 用于：**触发测试** · **配对对照** · **质量评分** · **排错** · **运行时诊断**
+- 用于：**配对对照** · **质量评分** · **评测集设计** · **触发后的运行时诊断**
 - 不用于：从零写 · 瘦身拆分 · 安全审计 · 打包发布
+- ⭐ **技能不触发 / 乱触发 / 改了不生效 / 加载失败 → 《skill-triggering》**
 
 ## 核心原则
 
@@ -28,25 +29,22 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 
 ## 路由表（按需深读）
 | `permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
-| `troubleshooting-order-five-cases.md` | ⭐⭐★★★ 五步排错顺序；★五类用例；★权限集合不同就该拆 |
 | `ci-skill-validation.md` | ⭐⭐⭐★★ CI 不能测行为；★四类结构验证；★事故→永久 eval |
+| `compound-failure.md` | ⭐⭐⭐⭐⭐ 多故障互相当不在场证明；⭐⭐ 改了只改善一点点=复合信号；逐层清空 |
+| `skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
 | `eval-set-rot.md` | ⭐⭐⭐⭐⭐ 测试集自身四种腐烂；⭐⭐⭐⭐⭐ 全绿是坏消息；⭐⭐ 定期改坏技能看它报不报警 |
 | `skill-health-metrics.md` | ⭐⭐★★★ 指标是问诊工具；★Token收益；★成功率三层 |
 | `benchmark-assertions-delta.md` | ⭐⭐⭐⭐ 断言好坏+delta判读表+VibeCheck；★约束型要写抑制测试 |
 | `three-skill-ceiling.md` | ⭐⭐⭐⭐ 每任务挂载>3个技能成功率下滑；★门槛曲线 |
-| `hit-rate-four-questions.md` | ⭐⭐⭐ 四类问题诊断；★★★纪律约束型最容易被理性化绕过 |
 | `eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
-| `trigger-tuning-loop.md` | ⭐⭐⭐ 误触发vs漏触发修法相反；生成的查询首先是诊断 |
 | `outgrowth-regression-detection.md` | ⭐⭐⭐ 三失败模式：被追上要归档、回归要修、本来不行要重做 |
 | `capability-offset-net-gain.md` | ⭐⭐⭐ 5832次实验：新增失败抵消59%毛收益；平均通过率分不清净增长与换血 |
 | `eval-case-design.md` | ⭐⭐⭐ 按分支铺用例；负向用例测'它没做什么' |
-| `priority-override-layers.md` | ⭐⭐⭐ 临时Prompt>技能>全局Rule；用非作者措辞测试 |
 | `quality-rubric-nine-dims.md` | ⭐ 九维权重：实测表现 23 最高；这把尺子量不到什么 |
 | `frontmatter-advanced-fields.md` | ⭐ fork/agent/hooks + 调用控制三档 |
 | `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
 | `frontmatter-full-reference.md` | ⭐ 全字段四组 + 开放标准 vs CC 扩展边界 |
 | `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
-| `incremental-debug-procedure.md` | ⭐ 最小配置起步、增量验证、diff 测试 |
 | `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |
 | `comparator-ab-eval.md` | ⭐ 盲评 comparator + 五条统计纪律 |
 | `three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |
@@ -54,21 +52,12 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `fault-injection-eval.md` | ⭐ 故障注入评测：先写恢复契约 + 故障矩阵 + 四判定 |
 | `ci-gate-integration.md` | ⭐ CI 门禁：增量触发、P0/P1 分级、幂等 |
 | `determinism-boundary.md` | ⭐ 确定性边界：什么必须放 Hook，什么放技能 |
-| `description-by-collision-risk.md` | ⭐ description 按碰撞风险分级 + 混淆伙伴审计 |
 | `assert-on-environment.md` | ⭐ 断言打在环境状态上 + pass^5 + 20 条路由集 |
 | `eval-loop-official.md` | ⭐ 官方评估四步、benchmark delta、盲评 A/B |
 | `capability-vs-preference.md` | ⭐ 能力型 vs 偏好型：评估方式完全不同 |
 | `deterministic-first.md` | ⭐ 确定性优先：能用代码判的别交给模型 |
 | `graded-rubric.md` | ⭐ 不要用全有或全无的 rubric：每维独立 0–1 |
 | `eval-case-sources.md` | ⭐ 每次手动修复都变成一条用例；10–20 条就够 |
-
-**先排除假故障**：
-
-| 症状 | 读 |
-|---|---|
-| ⭐ **改了不生效 / 技能不加载** | `references/reload-debug.md` |
-| **四层定位法 / 症状诊断表** | `references/troubleshooting-manual.md` |
-| **触发不稳：欠触发 / 过触发 / 冲突** | `references/triggering.md` · `references/trigger-debugging.md` |
 
 **正式评估**：
 
@@ -81,6 +70,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | ⭐ **LLM-as-Judge：四种形式、机器可读判据、偏差与校准** | `references/judge-design.md` |
 | **官方有效性清单（逐项对照）** | `references/official-checklist.md` |
 | ⭐ **金丝雀发布：把技能改动当可执行配置** | `references/canary-release.md` |
+| ⭐ **触发与加载问题（不触发/乱触发/不生效）** | **`skill-triggering`** |
 | ⭐ **触发 Eval 集：near-miss 负例是承重的一半** | `references/trigger-eval-set.md` |
 | ⭐ **先手动跑一遍：eval 素材从哪来、--json 判分** | `references/manual-first.md` |
 | ⭐ **套件维护：100% 通过是坏消息、三个版本号** | `references/suite-maintenance.md` |
@@ -102,7 +92,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 
 1. **问清"好"的定义**：正确性？省时间？格式稳定？——不同目标用不同指标。
 2. **跑基线**：`python scripts/validate_skill.py <路径>`。
-3. ⭐ **确认真的加载了**：让模型复述技能流程，对得上才算数（`reload-debug.md`）。
+3. ⭐ **确认真的加载了**：让模型复述技能流程，对得上才算数（详见 **`skill-triggering`**）。
 4. **分离触发测试与输出测试**：先测"该不该触发"，再测"触发后做对没有"。
 5. ⭐ **配对对照**：同一任务跑「有/无技能」两遍，**跑 3 次取趋势**（单次不作数）。
 6. **量成本**：token 与耗时——**技能不一定更省**。
@@ -126,7 +116,6 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | "我用自己写的措辞测过，能触发" | ⭐ 那是作者的词汇不是用户的。请同事用他的说法测。 |
 | "别人测出平均 +31 分" | 跨产品差异远大于平均分所能反映的。自己测。 |
 | "技能让 token 涨了 120%，但效果好" | 可以接受——但必须把代价写进判决，不能只报提升。 |
-| "加载失败我改了三遍了" | ⭐ 重启往往没用——先 `/reload-skills`，再查文件层。 |
 
 ## 脚本
 

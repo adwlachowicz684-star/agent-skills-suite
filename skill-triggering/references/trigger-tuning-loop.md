@@ -1,6 +1,6 @@
 # 触发调优循环：误触发与漏触发是两种病
 
-> 相关：《skill-evaluating》的 `trigger-eval-set.md`（用例集设计）·
+> 相关：《skill-triggering》的 `trigger-eval-set.md`（用例集设计）·
 > `description-by-collision-risk.md` · `trigger-debugging.md` ·
 > `metrics.md` · 《skill-description》的 `description-scope-shape.md`
 > 前置：那份讲"用例集长什么样"，

@@ -1,6 +1,6 @@
 # 优先级铁律：临时 Prompt > 技能 > 全局 Rule
 
-> 相关：《skill-evaluating》的 `trigger-debugging.md` ·
+> 相关：《skill-triggering》的 `trigger-debugging.md` ·
 > `nine-checks-not-working.md`（在《skill-structuring》）·
 > 《skill-orchestration》的 `collision-arbitration.md`
 > 前置：那些讲"技能没触发怎么办"，

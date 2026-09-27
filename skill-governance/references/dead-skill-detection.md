@@ -77,7 +77,7 @@
 | **低使用** | 两种可能 | ⭐ **要么 description 错了（模型从没触发），要么没人需要它 → 修或砍** |
 
 > ⭐ **第三类的判断是关键**：低使用不等于没价值。
-> 先按《skill-evaluating》的 `trigger-debugging.md` 排查是不是触发问题，
+> 先按《skill-triggering》的 `trigger-debugging.md` 排查是不是触发问题，
 > **确认不是之后才砍**。
 
 ---

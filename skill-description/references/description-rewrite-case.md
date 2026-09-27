@@ -1,7 +1,7 @@
 # description 改写实录：30% → 90%
 
 > 相关：《skill-description》的 `activation-rate.md`（四档实测）·
-> `description-patterns.md` · 《skill-evaluating》的 `triggering.md`
+> `description-patterns.md` · 《skill-triggering》的 `triggering.md`
 
 ---
 

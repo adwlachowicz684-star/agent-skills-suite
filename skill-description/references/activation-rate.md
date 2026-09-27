@@ -1,7 +1,7 @@
 # 激活率实证：四档数据与一组矛盾证据
 
 > 相关：`description-patterns.md`（写法）· `naming-description.md`（字段规范）·
-> 《skill-evaluating》的 `trigger-debugging.md`（排错）· `trigger-eval-set.md`（测试集）
+> 《skill-triggering》的 `trigger-debugging.md`（排错）· `trigger-eval-set.md`（测试集）
 
 ---
 
@@ -146,7 +146,7 @@ description: >
 3. **别用 hook 强制激活**——它会和被动词描述打架，适得其反。
 4. **否定词要区分用途**：堵退路（召回）与排误触发（精确）分开写，别混。
 5. ⭐ **改完必须自己测**：这些数字来自特定模型、特定环境。
-   方法见《skill-evaluating》的 `trigger-eval-set.md`——**用同事的原话测，不要用你写 description 时的措辞**。
+   方法见《skill-triggering》的 `trigger-eval-set.md`——**用同事的原话测，不要用你写 description 时的措辞**。
 6. **边界不清的技能别靠否定词救**——那是粒度问题，应按 `splitting.md` 拆开。
 
 ---

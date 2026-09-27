@@ -2,7 +2,7 @@
 
 > 相关：《skill-loading》的 `nine-checks-not-working.md`（九项排查）·
 > `frontmatter-pitfalls.md` · `five-minute-diagnosis.md` ·
-> 《skill-evaluating》的 `troubleshooting-manual.md`
+> 《skill-triggering》的 `troubleshooting-manual.md`
 > 前置：那份讲"九项该查什么"，
 > 这份讲⭐⭐⭐ **一个带顺序和停机的排查流程**——
 > ⭐⭐⭐ 关键价值是那个经验分布：**80% 的问题在第一步。**

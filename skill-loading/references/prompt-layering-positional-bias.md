@@ -1,6 +1,6 @@
 # 提示分层：四层堆叠与位置偏差
 
-> 相关：《skill-evaluating》的 `priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
+> 相关：《skill-triggering》的 `priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
 > 《skill-selection》的 `context-file-selection.md`（CLAUDE.md/AGENTS.md/SKILL.md 该放哪）·
 > 《skill-loading》的 `skill-cascade-css.md`
 > 前置：那些讲"谁覆盖谁"，

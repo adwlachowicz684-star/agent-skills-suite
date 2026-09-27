@@ -1,7 +1,7 @@
 # 技能打架的仲裁规则与两步路由
 
 > 相关：《skill-orchestration》的 `namespace-collision.md` ·
-> 《skill-evaluating》的 `description-by-collision-risk.md` ·
+> 《skill-triggering》的 `description-by-collision-risk.md` ·
 > 《skill-selection》的 `library-size-effect.md`
 
 ---

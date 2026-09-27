@@ -1,6 +1,6 @@
 # 命中率优化：四类问题诊断与六步迭代
 
-> 相关：《skill-evaluating》的 `trigger-tuning-loop.md` ·
+> 相关：《skill-triggering》的 `trigger-tuning-loop.md` ·
 > `outgrowth-regression-detection.md` · `eval-set-two-dimensions.md` ·
 > 《skill-description》的 `description-tuning-official-loop.md`
 > 前置：那份讲⭐ 官方循环的切分与防过拟合，

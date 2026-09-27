@@ -1,6 +1,6 @@
 # 技能不触发：九项排查（按此顺序）
 
-> 相关：《skill-evaluating》的 `troubleshooting-manual.md` ·
+> 相关：《skill-triggering》的 `troubleshooting-manual.md` ·
 > `reload-debug.md` · 《skill-crafting》的 `skill-structuring` 的 `frontmatter-pitfalls.md`
 
 ---

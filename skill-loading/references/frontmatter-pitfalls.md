@@ -2,7 +2,7 @@
 
 > 相关：`skill-structuring` 的 `frontmatter-fields.md`（字段规范，对着填）·
 > 《skill-description》的 `frontmatter.md`（写法）·
-> 《skill-evaluating》的 `troubleshooting-manual.md`（排查顺序）
+> 《skill-triggering》的 `troubleshooting-manual.md`（排查顺序）
 
 ---
 
@@ -36,7 +36,7 @@
 
 **这解释了前面反复出现的一条经验**：
 改了 frontmatter 字段后必须重启客户端（甚至开新会话），
-因为注册发生在启动阶段。见《skill-evaluating》的 `reload-debug.md`。
+因为注册发生在启动阶段。见《skill-triggering》的 `reload-debug.md`。
 
 ---
 

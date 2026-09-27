@@ -1,6 +1,6 @@
 # 权限集合：拆分判据、审查清单与核心/个人分离
 
-> 相关：《skill-evaluating》的 `troubleshooting-order-five-cases.md`（排错顺序与五类用例）·
+> 相关：《skill-triggering》的 `troubleshooting-order-five-cases.md`（排错顺序与五类用例）·
 > 《skill-governance》的 `allowed-tools-least-privilege.md` · `pre-install-security-audit.md`
 > 前置：上篇讲⭐ 技能"表现不对"时⭐ 怎么⭐ 按顺序定位，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 两类⭐ 不同性质的⭐ 判断——

@@ -1,7 +1,7 @@
 # 技能级联：像 CSS 一样理解"谁生效"
 
 > 相关：《skill-patterns》的 `skill-overrides-audit.md`（覆盖优先级与冲突事故）·
-> 《skill-evaluating》的 `priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
+> 《skill-triggering》的 `priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
 > 《skill-structuring》的 `naming-conventions.md`
 > 前置：那两份给了"优先级顺序"和"事故案例"，
 > 这份给⭐⭐⭐ **一个能一次记住全部规则的比喻——CSS 级联**，

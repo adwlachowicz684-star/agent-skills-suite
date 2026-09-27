@@ -3,7 +3,7 @@
 > 相关：《skill-patterns》的 `skill-overrides-audit.md` ·
 > 《skill-orchestration》的 `collision-arbitration.md` ·
 > `routing-tiers-and-arbitration.md` ·
-> 《skill-evaluating》的 `priority-override-layers.md`
+> 《skill-triggering》的 `priority-override-layers.md`
 > 前置：那些讲"技能之间打架怎么裁"，
 > 这份讲⭐⭐⭐ **一套更完整的层级**——
 > 它把⭐ **事实（Facts）** 与⭐ **元技能（Meta）** 也纳入了，

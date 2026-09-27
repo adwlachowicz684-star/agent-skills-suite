@@ -1,6 +1,6 @@
 # 官方描述调优循环：20 个查询、跑 3 次、按测试集选
 
-> 相关：《skill-evaluating》的 `trigger-tuning-loop.md`（误触发 vs 漏触发修法相反）·
+> 相关：《skill-triggering》的 `trigger-tuning-loop.md`（误触发 vs 漏触发修法相反）·
 > `description-by-collision-risk.md`（长度由碰撞风险定）·
 > `triggering.md`（三类故障）·
 > 《skill-description》的 `activation-rate.md`（四档实测）
