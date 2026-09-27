@@ -1,6 +1,6 @@
 # 四个大坑：描述强实现弱、只建不评、过细拆分、忽视版本
 
-> 相关：《skill-refining》的 `skill-evolution-loop.md` · `version-changelog-practice.md` ·
+> 相关：《skill-versioning》的 `skill-evolution-loop.md` · `version-changelog-practice.md` ·
 > 《skill-patterns》的 `six-anti-patterns-pitfalls.md` ·
 > 《skill-adoption》的 `adoption-metrics.md`
 > 前置：那些讲"怎么演进、怎么打分"，

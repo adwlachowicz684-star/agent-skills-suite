@@ -1,6 +1,6 @@
 # 版本与 Changelog：三种记录方式与四个常见错误
 
-> 相关：《skill-refining》的 `version-strategy.md` ·
+> 相关：《skill-versioning》的 `version-strategy.md` ·
 > `iteration-three-levels.md` · 《skill-governance》的 `retirement-pipeline.md`
 
 ---

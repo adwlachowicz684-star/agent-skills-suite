@@ -36,6 +36,8 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 | `reference-file-practices.md` | ⭐⭐ 一层深度 + 100行带目录 + 会被重复读取 |
 | `directory-decision-matrix.md` | ⭐ 决策矩阵：每个文件该放哪个子目录 |
 | `rename-alias-deprecation.md` | ⭐⭐⭐⭐⭐ 改名不会报错→静默降级；⭐⭐⭐⭐⭐ 旧名写进描述=零成本别名；⭐⭐⭐⭐ 弃用四段式（含新旧差异）|
+| `skill-directory-contract.md` | ⭐⭐⭐⭐⭐ 复制到新机器应立刻能用；⭐⭐⭐⭐⭐ 悬空引用=幻觉来源；⭐⭐⭐ config-example 里的真值也是泄露 |
+| `skill-documentation-beyond-body.md` | ⭐⭐⭐⭐⭐ 写在 README 里的安全约束 agent 读不到；⭐⭐⭐⭐⭐ 过时的限制比没有限制更有害 |
 | `naming-conventions.md` | ⭐ 命名约定：三重角色、硬规则、一致性 > 形态 |
 | `skill-structuring` 的 `directory-contract.md` | ⭐ 目录契约：三个子目录各装什么、assets 不是用来读的 |
 | `skill-structuring` 的 `resource-bundling.md` | ⭐ 打包资源：脚本标签、四条不要放、执行意图 |

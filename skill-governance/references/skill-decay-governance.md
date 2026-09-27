@@ -2,7 +2,7 @@
 
 > 相关：《skill-governance》的 `retirement-pipeline.md`（退役四阶段）·
 > `dead-skill-detection.md` · `lifecycle.md` ·
-> 《skill-refining》的 `skill-rot-rollback-discipline.md` ·
+> 《skill-versioning》的 `skill-rot-rollback-discipline.md` ·
 > `skill-scope-tiering.md`
 > 前置：那份讲"确认要退役之后怎么退"，
 > 这份讲⭐⭐ **腐烂的症状识别** 与⭐⭐⭐ **腐烂之前的日常治理**——

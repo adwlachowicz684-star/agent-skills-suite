@@ -2,7 +2,7 @@
 
 > 相关：《skill-crafting》的 `writing-style-rfc2119.md` · `minimum-viable-three-principles.md` ·
 > `write-reasons-not-rules.md` · `few-shot-examples.md` ·
-> 《skill-refining》的 `version-changelog-practice.md`
+> 《skill-versioning》的 `version-changelog-practice.md`
 > 前置：那些讲措辞与形态，
 > 这份讲⭐⭐⭐ **正文的分节结构**——
 > 含⭐⭐⭐⭐ 一处与我们已有结论⭐ 表面冲突的仲裁，和⭐⭐⭐ 一条防"转圈"的纪律。

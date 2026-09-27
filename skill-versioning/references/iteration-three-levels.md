@@ -1,6 +1,6 @@
 # 版本管理三层次与迭代策略（含 in-session 陷阱）
 
-> 相关：《skill-refining》的 `version-strategy.md` ·
+> 相关：《skill-versioning》的 `version-strategy.md` ·
 > `release-versioning.md` · 《skill-distribution》的 `supply-chain-trust.md`
 
 ---

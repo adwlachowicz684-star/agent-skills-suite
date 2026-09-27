@@ -1,6 +1,6 @@
 # 自进化的三个层次与它的边界
 
-> 相关：《skill-refining》的 `skill-evolution-loop.md` ·
+> 相关：《skill-versioning》的 `skill-evolution-loop.md` ·
 > `refine-with-execution.md` · 《skill-governance》的
 > `ops-iteration-sop.md`
 > 前置：`skill-evolution-loop.md` 讲"人怎么改"，

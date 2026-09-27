@@ -1,7 +1,7 @@
 # frontmatter 字段：四个必需 + 六个元数据
 
 > 相关：《skill-crafting》的 `skill-structuring` 的 `frontmatter-pitfalls.md` ·
-> 《skill-refining》的 `version-strategy.md` ·
+> 《skill-versioning》的 `version-strategy.md` ·
 > `skill-structuring` 的 `directory-contract.md`
 
 ---

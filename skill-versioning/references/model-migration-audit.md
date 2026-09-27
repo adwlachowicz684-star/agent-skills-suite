@@ -1,6 +1,6 @@
 # 模型升级后：技能要重新校准，不是自动变好
 
-> 相关：《skill-refining》的 `skill-rot-rollback-discipline.md` ·
+> 相关：《skill-versioning》的 `skill-rot-rollback-discipline.md` ·
 > `skill-evolution-loop.md` · 《skill-evaluating》的
 > `capability-vs-preference.md` · `cross-model.md`
 > 前置：那份讲"技能会腐烂"，

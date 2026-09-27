@@ -1,6 +1,6 @@
 # 技能是业务规则的数字孪生
 
-> 相关：《skill-refining》的 `version-changelog-practice.md` ·
+> 相关：《skill-versioning》的 `version-changelog-practice.md` ·
 > 《skill-distribution》的 `gray-release-rollback.md`（10% 流量全挂大盘只掉 1–2 点）·
 > 《skill-authoring》的 `scope-multiplication.md`（70% 事故来自未评估微调）
 > 前置：那些讲⭐ 版本号怎么打，

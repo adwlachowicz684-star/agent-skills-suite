@@ -1,7 +1,7 @@
 # 运维与持续迭代 SOP：四段式 + 分级 + 五条红线
 
 > 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `dead-skill-detection.md` · 《skill-refining》的 `version-changelog-practice.md`
+> `dead-skill-detection.md` · 《skill-versioning》的 `version-changelog-practice.md`
 > 前置：那些文档讲版本怎么记、技能怎么退，这份讲"上线之后怎么长期养"。
 
 ---

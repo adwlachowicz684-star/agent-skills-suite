@@ -2,7 +2,7 @@
 
 > 相关：《skill-selection》的 `roi-breakeven.md` · `worth-skillifying.md` ·
 > 《skill-governance》的 `retirement-pipeline.md` · `dead-skill-detection.md` ·
-> 《skill-refining》的 `skill-evolution-loop.md`
+> 《skill-versioning》的 `skill-evolution-loop.md`
 > 前置：那些讲"单个技能该不该做"，
 > 这份讲⭐⭐⭐ **整个库的持有成本**——
 > 含⭐⭐⭐⭐ 一个此前没有的三分类，和⭐⭐⭐⭐ 一条反直觉的存活规律。

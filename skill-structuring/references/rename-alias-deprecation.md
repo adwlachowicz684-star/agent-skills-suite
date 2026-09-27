@@ -1,7 +1,7 @@
 # 技能的别名与弃用：改名字的正确姿势
 
 > 相关：《skill-structuring》的 `naming-conventions.md`（三重角色、硬规则）·
-> 《skill-refining》的 `version-diff-behavior-compare.md`（改了什么≠变了什么）·
+> 《skill-versioning》的 `version-diff-behavior-compare.md`（改了什么≠变了什么）·
 > `merge-signals-five.md`（合并信号）·
 > 《skill-distribution》的 `dependency-resolution-conflicts.md`（跨版本循环依赖）
 > 前置：命名约定讲⭐⭐⭐ **怎么起名字**，

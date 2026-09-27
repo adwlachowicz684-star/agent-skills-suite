@@ -2,7 +2,7 @@
 
 > 相关：《skill-evaluating》的 `capability-offset-net-gain.md`（59% 抵消）·
 > `metrics.md` · `comparator-ab-eval.md` · `eval-loop-official.md` ·
-> 《skill-refining》的 `skill-rot-rollback-discipline.md`
+> 《skill-versioning》的 `skill-rot-rollback-discipline.md`
 > 前置：那些讲"怎么测、测什么"，
 > 这份讲⭐⭐⭐ **测出来的数字对应哪三种不同的病**——
 > ⭐⭐ 其中一种的正确处置是"删掉这个技能"。

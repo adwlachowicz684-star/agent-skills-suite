@@ -1,6 +1,6 @@
 # 改一个技能之前：影响面分析
 
-> 相关：《skill-refining》的 `version-changelog-practice.md`（MAJOR/MINOR 判据）·
+> 相关：《skill-versioning》的 `version-changelog-practice.md`（MAJOR/MINOR 判据）·
 > 《skill-distribution》的 `skill-as-business-rule.md`（数字孪生）·
 > `gray-release-rollback.md`（10% 全挂大盘只掉 1–2 点）·
 > `dependency-resolution-conflicts.md`（显式依赖声明）

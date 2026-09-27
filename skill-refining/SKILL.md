@@ -27,21 +27,12 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 ## 路由表（按需深读）
 | `four-pitfalls-practice.md` | ⭐⭐⭐ 四坑：★★描述强实现弱→信任崩坏；过细拆分判据 |
 | `memory-layering-and-skills.md` | ⭐⭐⭐ 记忆四层：★技能=程序记忆，不该装事实 |
-| `skill-rot-rollback-discipline.md` | ⭐⭐⭐ 自改进是版本控制问题；歧义时默认回滚不是保留 |
-| `model-migration-audit.md` | ⭐⭐⭐ 升级模型默认做减法；提示性能跨模型只弱相关 |
 | `token-cost-optimization.md` | ⭐⭐⭐ 伪技能陷阱；Token泄漏；模型路由层 |
-| `skill-evolution-loop.md` | ⭐⭐ 三档信号 + 周月季节奏 + ⭐ 连续5次无用就删 |
-| `self-evolution-three-levels.md` | ⭐⭐⭐ 自进化边界：没反馈信号就是把墙撞得更响 |
 | `skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
 | `skill-reducer-study.md` | ⭐⭐ 压缩后质量反升 2.8%；>10K token 技能压缩率达 95.8% |
-| `change-impact-analysis.md` | ⭐⭐⭐⭐ 改之前的影响面六问；⭐反向依赖图；风险与改动大小无关 |
 | `merge-signals-five.md` | ⭐⭐⭐⭐⭐ 单向棘轮；⭐⭐⭐⭐⭐ 顺序耦合=一个技能被拆两半；⭐⭐⭐⭐ 权限不同是合并否决项 |
 | `split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
-| `version-diff-behavior-compare.md` | ⭐⭐⭐⭐⭐ 改了什么≠变了什么；⭐⭐⭐⭐⭐ 描述是行为的一部分（改描述必须跑对比）；⭐⭐⭐⭐⭐ 第三层对比集（新触发的输入）
-| `version-changelog-practice.md` | ⭐ 版本与 Changelog：三种记录 + 四个常见错误 |
-| `version-strategy.md` | ⭐ 版本号判据：调用方会不会坏（不是改了多少字） |
 | `split-three-options.md` | ⭐ 三种拆法 + 别过度拆 + 拆后三件事 |
-| `iteration-three-levels.md` | ⭐ 版本三层次 + in-session 修改陷阱 + 重构时机 |
 | `weekend-lessons.md` | ⭐ 一个周末的六条经验：三对三错与实测数据 |
 
 **瘦身与预算**：

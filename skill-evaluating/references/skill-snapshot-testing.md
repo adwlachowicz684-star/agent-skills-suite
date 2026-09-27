@@ -2,7 +2,7 @@
 
 > 相关：《skill-evaluating》的 `test-pyramid.md`（四层金字塔）·
 > 《skill-scripting》的 `script-testing.md`（golden 文件是变更可见化机制）·
-> 《skill-refining》的 `version-changelog-practice.md`（MAJOR/MINOR 判据）·
+> 《skill-versioning》的 `version-changelog-practice.md`（MAJOR/MINOR 判据）·
 > `change-impact-analysis.md`（影响面）
 > 前置：脚本侧我们已经有 golden 文件测试，
 > 这份讲⭐⭐⭐⭐ **技能输出侧的快照**——

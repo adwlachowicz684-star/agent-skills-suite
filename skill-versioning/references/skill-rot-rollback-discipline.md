@@ -1,6 +1,6 @@
 # 技能腐烂与回滚纪律：自改进是版本控制问题
 
-> 相关：《skill-refining》的 `skill-evolution-loop.md` ·
+> 相关：《skill-versioning》的 `skill-evolution-loop.md` ·
 > `self-evolution-three-levels.md` · `iteration-three-levels.md` ·
 > 《skill-governance》的 `retirement-pipeline.md`
 > 前置：那些讲"进化循环"与"版本三层次"，

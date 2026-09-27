@@ -1,6 +1,6 @@
 # 技能的版本对比：改之前先看两份差在哪
 
-> 相关：《skill-refining》的 `version-changelog-practice.md`（版本号与 Changelog）·
+> 相关：《skill-versioning》的 `version-changelog-practice.md`（版本号与 Changelog）·
 > `measure-before-cut.md`（先量后切）·
 > `change-impact-analysis.md`（影响面）·
 > 《skill-evaluating》的 `comparator-ab-eval.md`（盲评）·
