@@ -1,6 +1,6 @@
 # 瘦身：技能为什么会变慢、怎么砍
 
-> 相关：《skill-refining》的 `budget-truncation.md` ·
+> 相关：《skill-context》的 `budget-truncation.md` ·
 > `context-budget.md` · 《skill-governance》的 `cost-control.md`
 > 前置：那些文档讲预算的"边界在哪里"，
 > 这份讲⭐ **日常可执行的瘦身动作**。

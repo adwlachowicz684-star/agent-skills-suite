@@ -30,6 +30,7 @@ description: 技能执行失败、跑不完、跑重了、跑断了之后的恢�
 
 ## 路由表
 
+| `reversibility-and-undo.md` | ⭐⭐⭐⭐⭐ 可逆性取决于原值还在不在；B类动作必须留 undo 清单；不可撤销给补偿不给回滚 |
 | `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；`safe_reply` 字段；禁止解释错误 |
 | `error-handling.md` | ⭐⭐⭐⭐⭐ 四段式错误消息（含第④段"明确禁止什么"） |
 | `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 只定义怎么开始的技能；跑不动被当成"已完成" |

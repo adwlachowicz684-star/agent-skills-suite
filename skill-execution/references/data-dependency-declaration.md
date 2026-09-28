@@ -3,7 +3,7 @@
 > 相关：《skill-execution》的 `preflight-gate.md`（STEP 0 前置门禁）·
 > 《skill-execution》的 `prerequisites.md`（前置条件声明）·
 > 《skill-distribution》的 `dependency-lockfile.md`（36.6% 隐藏依赖）·
-> 《skill-selection》的 `skill-cost-attribution.md`（成本归账）
+> 《skill-context》的 `skill-cost-attribution.md`（成本归账）
 > 前置：依赖声明那份讲⭐⭐⭐ **脚本依赖**（包、版本、lockfile），
 > 这份讲⭐⭐⭐⭐⭐ **数据依赖**——
 > 技能读的那些文件/接口/环境变量，⭐⭐⭐ **几乎从不出现在任何声明里**，
