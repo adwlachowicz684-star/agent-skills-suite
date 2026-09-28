@@ -1,6 +1,6 @@
 # 流程、判断、验收：三件套与"差评反例"
 
-> 相关：《skill-crafting》的 `examples-three-branches.md`（示例三分支）·
+> 相关：《skill-examples》的 `examples-three-branches.md`（示例三分支）·
 > `few-shot-examples.md` · `output-control.md`（输出控制三层次）·
 > `instruction-craft.md` · 《skill-execution》的 `seven-contracts.md`
 > 前置：那份讲"示例要覆盖三个分支"，

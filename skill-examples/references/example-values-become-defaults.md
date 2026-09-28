@@ -1,6 +1,6 @@
 # 示例里的具体值会被当成默认值
 
-> 相关：《skill-crafting》的 `examples-three-branches.md`（示例三分支 + Rationale）·
+> 相关：《skill-examples》的 `examples-three-branches.md`（示例三分支 + Rationale）·
 > `example-mining-from-traces.md`（示例是采集的）·
 > `few-shot-example-quality.md`（示例六准则）·
 > 《skill-content》的 `real-examples.md` ·

@@ -2,7 +2,7 @@
 
 > 相关：`skill-crafting` 的 `skill-structuring` 的 `directory-contract.md`（四目录职责）·
 > `skill-structuring` 的 `resource-bundling.md`（打包四不要）·
-> 《skill-refining》的 `budget-truncation.md`（预算）
+> 《skill-context》的 `budget-truncation.md`（预算）
 
 ---
 

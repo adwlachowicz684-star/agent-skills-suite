@@ -46,8 +46,6 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 | `first-skill-cold-start.md` | ⭐⭐⭐⭐⭐ 第一个技能=你会做但嫌烦的事；⭐⭐⭐⭐⭐ 不触发改描述不改正文；⭐⭐⭐⭐ 第二个要等第一个用了 5 次 |
 | `roi-breakeven.md` | ⭐ ROI 回本公式：B/(S×N)，频率是唯一决定项 |
 | `project-level-overload.md` | ⭐⭐⭐⭐ 每项目只留 2–3 个；⭐⭐⭐⭐⭐ 一次性技能用完就删；库存≠装载 |
-| `context-budget-per-skill.md` | ⭐⭐⭐⭐⭐ 成本可见≠受控；⭐⭐⭐⭐⭐ 三层预算（挂载≤3是质量上限）；⭐⭐⭐⭐ 红线永不删
-| `skill-cost-attribution.md` | ⭐⭐⭐⭐⭐ 成本拆到单个技能；⭐常驻成本没触发也收费；⭐脚本源码不进上下文输出才进 |
 | `worth-skillifying.md` | ⭐ 该不该做：三条硬标准 + 五维矩阵 + 反直觉判断 |
 | `when-not-to-use-skill.md` | ⭐ 六条不该做成技能 + 三种误用后果（伪稳定最危险） |
 | `five-layer-choice.md` | ⭐ 五层选型：Prompt/Skill/Project/MCP/Subagent |

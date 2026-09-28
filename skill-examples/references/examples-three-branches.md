@@ -1,6 +1,6 @@
 # 示例怎么选：三条分支 + 一个 Rationale 字段
 
-> 相关：《skill-crafting》的 `few-shot-examples.md`（数量与排序）·
+> 相关：《skill-examples》的 `few-shot-examples.md`（数量与排序）·
 > `examples-as-contract.md`（在《skill-authoring》）·
 > `real-examples.md`
 > 前置：那份讲"放几个、怎么排"，

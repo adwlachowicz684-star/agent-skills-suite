@@ -1,6 +1,6 @@
 # 让输出可审：把决策依据写出来
 
-> 相关：《skill-crafting》的 `examples-three-branches.md`（Rationale 字段）·
+> 相关：《skill-examples》的 `examples-three-branches.md`（Rationale 字段）·
 > 《skill-output》的 `grounding-verification.md`（有据可查）·
 > `structured-output-pipeline.md`（结构化≠正确）·
 > 《skill-triggering》的 `trace-debugging.md`（失败点≠出错点）·

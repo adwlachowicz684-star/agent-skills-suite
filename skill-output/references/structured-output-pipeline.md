@@ -1,7 +1,7 @@
 # 结构化输出的防御管线
 
 > 相关：《skill-execution》的 `seven-contracts.md` · `output-stability-contract.md` ·
-> 《skill-crafting》的 `judgment-branches-acceptance.md`（验收三件套）·
+> 《skill-examples》的 `judgment-branches-acceptance.md`（验收三件套）·
 > 《skill-scripting》的 `script-cli-contract.md` · `tool-output-design.md` ·
 > 《skill-evaluating》的 `benchmark-assertions-delta.md`
 > 前置：那些讲"输出要有格式""要给示例"，

@@ -42,6 +42,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
 | `tool-argument-construction.md` | ⭐⭐⭐⭐⭐ "用 X 工具"不是参数说明；⭐⭐⭐⭐⭐ 猜参数名是幻觉高发区；⭐⭐⭐⭐⭐ 失败先换参数不换工具 |
+| `repeat-invocation-same-session.md` | ⭐⭐⭐⭐⭐ 第二次调用的输入多了第一次的输出；⭐⭐⭐⭐⭐ 会话内跑两次测的是自洽不是稳定 |
 | `relative-time-resolution.md` | ⭐⭐⭐⭐⭐ 相对时间必须解析成绝对区间并写进输出；⭐⭐⭐⭐⭐ 时间窗口错不报错只换一批数据 |
 | `input-validation-and-triage.md` | ⭐⭐⭐⭐⭐ 残缺/矛盾/超范围三类输入；⭐⭐⭐⭐⭐ 一次问完；⭐⭐⭐⭐⭐ 被丢弃的需求必须出现在输出里 |
 | `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |

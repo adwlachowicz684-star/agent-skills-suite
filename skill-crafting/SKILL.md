@@ -4,7 +4,10 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
   Do NOT use for 从零创建技能的整体流程（用 skill-authoring）、范围章节与粒度分层（用 skill-scoping）、已有技能的瘦身拆分（用 skill-refining）、评估与打分（用 skill-evaluating），也不用于写一次性提示词。
 ---
 
-# 技能正文的构件
+# 技能
+
+> ⭐ **示例与判断依据不在本技能** → 《skill-examples》
+> 本技能管「措辞与文体」，那份管「示例怎么来、判断依据怎么写」。正文的构件
 
 ## 边界
 
@@ -29,24 +32,18 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 
 ## 路由表（按需深读）
 | `vague-word-blacklist.md` | ⭐⭐⭐⭐⭐ 含糊词替换表；⭐⭐⭐⭐⭐ 五类伪装成约束的词（确保/重要：/总是）；可 grep 的 CI 检查 |
-| `example-mining-from-traces.md` | ⭐⭐⭐⭐⭐ 定格式的示例该编、教判断的必须采集；⭐⭐⭐⭐⭐ 像教科书=你编了；⭐⭐⭐⭐⭐ 从改好的那次里捞 |
-| `decision-rationale-output.md` | ⭐⭐⭐⭐⭐ 依据 vs 解释（可查 vs 可编）；⭐⭐⭐⭐⭐ 默认值必须写依据；⭐⭐⭐⭐⭐ 依据让出错点可见 |
-| `few-shot-example-quality.md` | ⭐⭐★★★ 示例六准则；★负例 sparingly 且成对；★成本不均匀 |
 | `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
 | `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
 | `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
 | `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
 | `conditional-branch-writing.md` | ⭐⭐⭐⭐⭐ 没有 else 的 if = 授权模型自己定义 else；⭐⭐⭐⭐⭐ 半写的约束比不写更危险；⭐⭐⭐⭐⭐ "有但不可用"那档 |
-| `judgment-branches-acceptance.md` | ⭐⭐⭐ 流程/判断/验收三件套；★差评反例比正向示例更有效 |
-| `example-values-become-defaults.md` | ⭐⭐⭐⭐⭐ 示例里的具体值会被当成默认值；⭐⭐⭐⭐⭐ 显著假值；⭐⭐⭐⭐⭐ 会被复制的要假、会被参照的要真 |
+| `list-item-relations.md` | ⭐⭐⭐⭐⭐ 列表项之间是且/或/顺序；⭐⭐⭐⭐⭐ 默认解读是且+顺序；⭐⭐⭐⭐⭐ 混合列表 |
 | `unjustified-numbers.md` | ⭐⭐⭐⭐⭐ 没有出处的数字；⭐⭐⭐⭐⭐ 具体性≠有依据；⭐⭐⭐⭐⭐ 数字+出处+越界动作 |
-| `examples-three-branches.md` | ⭐⭐ 三分支示例 + ⭐⭐⭐ Rationale 字段；gotchas 最值钱 |
 | `skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题
 | `writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
 | `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
 | `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
 | `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
-| `few-shot-examples.md` | ⭐ 少样本：数量黄金比例、质量三要素、相似度排序 |
 
 **看完整样本**：
 

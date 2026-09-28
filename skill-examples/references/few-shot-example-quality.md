@@ -1,6 +1,6 @@
 # 示例的六条设计准则
 
-> 相关：《skill-crafting》的 `examples-three-branches.md`（三分支 + Rationale）·
+> 相关：《skill-examples》的 `examples-three-branches.md`（三分支 + Rationale）·
 > `few-shot-examples.md`（3 个高质量 = 5 个普通）
 > 前置：那两份讲⭐ 示例的数量与分支，
 > 这份讲⭐⭐⭐⭐ ⭐ 单个示例本身的⭐ 质量准则 +

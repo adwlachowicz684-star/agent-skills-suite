@@ -2,7 +2,7 @@
 
 > 相关：《skill-authoring》的 `forty-skills-lessons.md` ·
 > 《skill-automation》的 `comparator-ab-eval.md` · `skill-test-pyramid-four.md` ·
-> 《skill-crafting》的 `examples-three-branches.md`
+> 《skill-examples》的 `examples-three-branches.md`
 > 前置：那些讲⭐ 该怎么做，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 真正⭐ 把⭐ 这些⭐ 全部⭐ 实现了的⭐ 元技能⭐ 长什么样——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 它⭐ 有三处⭐ 设计⭐ 与我们⭐ 已有结论⭐ 精确对上。

@@ -1,7 +1,7 @@
 # 示例是采集的，不是编的
 
 > 相关：《skill-content》的 `gotchas-mining.md`（六个矿脉）·
-> 《skill-crafting》的 `few-shot-example-quality.md`（示例六准则）·
+> 《skill-examples》的 `few-shot-example-quality.md`（示例六准则）·
 > `examples-three-branches.md`（三分支 + Rationale）·
 > `anti-patterns-catalog.md`
 > 前置：示例准则讲⭐⭐⭐ **一条好示例长什么样**，

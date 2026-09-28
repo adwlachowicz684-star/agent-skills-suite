@@ -1,7 +1,7 @@
 # Gotchas 的供给：去哪里系统性挖
 
 > 相关：`anthropic-team-lessons.md`（⭐ Gotchas 是技能里信号最高的内容）·
-> 《skill-crafting》的 `examples-three-branches.md`（gotchas 每纠正一次就写进去）·
+> 《skill-examples》的 `examples-three-branches.md`（gotchas 每纠正一次就写进去）·
 > 《skill-recovery》的 `execution-error-protocol.md`
 > 前置：那些讲⭐⭐⭐⭐⭐ Gotchas 为什么最值钱、⭐ 怎么维护，
 > 这份讲⭐⭐⭐⭐⭐ **第一批 Gotchas 从哪来**——
