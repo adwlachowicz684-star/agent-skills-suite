@@ -1,7 +1,7 @@
 # skill-creator 的三个子代理与统计维度
 
 > 相关：`skill-creator-meta-architecture.md`（目录结构与核心循环）·
-> 《skill-evaluating》的 `comparator-ab-eval.md` · `benchmark-assertions-delta.md`
+> 《skill-automation》的 `comparator-ab-eval.md` · `benchmark-assertions-delta.md`
 > 前置：上篇讲⭐ 它的⭐ 结构⭐ 与⭐ 循环，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 三个子代理⭐ 的⭐ 分工，
 > ⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 它⭐ 多出的⭐ 一个⭐ 统计维度——⭐⭐⭐⭐⭐ ⭐⭐⭐ **stddev**。

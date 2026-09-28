@@ -3,7 +3,7 @@
 > 相关：《skill-versioning》的 `version-changelog-practice.md`（版本号与 Changelog）·
 > `measure-before-cut.md`（先量后切）·
 > `change-impact-analysis.md`（影响面）·
-> 《skill-evaluating》的 `comparator-ab-eval.md`（盲评）·
+> 《skill-automation》的 `comparator-ab-eval.md`（盲评）·
 > `failure-quadrant-diagnosis.md`（四象限）
 > 前置：版本管理那份讲⭐⭐⭐ **怎么记**（semver + Changelog），
 > 这份讲⭐⭐⭐⭐⭐ **怎么比**——

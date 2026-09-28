@@ -1,6 +1,6 @@
 # 技能的可观测性：跑完了，你知道它做了什么吗
 
-> 相关：《skill-evaluating》的 `skill-observability.md`（调用日志 vs 决策日志）·
+> 相关：《skill-automation》的 `skill-observability.md`（调用日志 vs 决策日志）·
 > 《skill-selection》的 `skill-cost-attribution.md`（成本归账）·
 > 《skill-governance》的 `observability-trace-debug.md`（用技能调试技能）·
 > 《skill-versioning》的 `skill-evolution-loop.md`（进化信号）

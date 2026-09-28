@@ -29,7 +29,6 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 
 ## 路由表（按需深读）
 | `permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
-| `ci-skill-validation.md` | ⭐⭐⭐★★ CI 不能测行为；★四类结构验证；★事故→永久 eval |
 | `failure-quadrant-diagnosis.md` | ⭐⭐⭐⭐⭐ 稳定地错 vs 偶尔错根因不同；⭐⭐⭐⭐⭐ 第④格（对但不稳）最危险
 | `compound-failure.md` | ⭐⭐⭐⭐⭐ 多故障互相当不在场证明；⭐⭐ 改了只改善一点点=复合信号；逐层清空 |
 | `skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
@@ -44,13 +43,9 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `eval-case-design.md` | ⭐⭐⭐ 按分支铺用例；负向用例测'它没做什么' |
 | `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
 | `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
-| `execution-span-logging.md` | ⭐⭐⭐⭐⭐ stopped_at 字段；⭐⭐⭐⭐ 失败全量采样；⭐⭐⭐⭐⭐ 观测直接产出 Gotchas
-| `skill-observability.md` | ⭐ 调用日志 vs 决策日志、入参记两份、评估≠监控 |
-| `comparator-ab-eval.md` | ⭐ 盲评 comparator + 五条统计纪律 |
 | `three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |
 | `trace-debugging.md` | ⭐ 读 trace：找第一个错的 turn + 循环唯一根因 |
 | `fault-injection-eval.md` | ⭐ 故障注入评测：先写恢复契约 + 故障矩阵 + 四判定 |
-| `ci-gate-integration.md` | ⭐ CI 门禁：增量触发、P0/P1 分级、幂等 |
 | `determinism-boundary.md` | ⭐ 确定性边界：什么必须放 Hook，什么放技能 |
 | `assert-on-environment.md` | ⭐ 断言打在环境状态上 + pass^5 + 20 条路由集 |
 | `eval-loop-official.md` | ⭐ 官方评估四步、benchmark delta、盲评 A/B |

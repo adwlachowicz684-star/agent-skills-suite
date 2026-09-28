@@ -1,6 +1,6 @@
 # A/B 对比评测：改了到底有没有变好
 
-> 相关：《skill-evaluating》的 `claude-ab-loop.md` ·
+> 相关：《skill-automation》的 `claude-ab-loop.md` ·
 > `regression-baseline.md` · `judge-design.md`
 > 前置：这份只讲⭐ 官方新增的 comparator 机制与统计纪律。
 

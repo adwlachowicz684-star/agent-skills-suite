@@ -41,6 +41,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
 | `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
+| `tool-argument-construction.md` | ⭐⭐⭐⭐⭐ "用 X 工具"不是参数说明；⭐⭐⭐⭐⭐ 猜参数名是幻觉高发区；⭐⭐⭐⭐⭐ 失败先换参数不换工具 |
 | `input-validation-and-triage.md` | ⭐⭐⭐⭐⭐ 残缺/矛盾/超范围三类输入；⭐⭐⭐⭐⭐ 一次问完；⭐⭐⭐⭐⭐ 被丢弃的需求必须出现在输出里 |
 | `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
 

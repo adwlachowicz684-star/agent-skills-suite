@@ -31,6 +31,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 ## 路由表（按需深读，不要一次全读）
 | `scope-multiplication.md` | ⭐⭐⭐ 失败模式是笛卡尔积；70%事故来自未评估微调 |
 | `forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
+| `output-contract-first-order.md` | ⭐⭐⭐⭐⭐ 先写输出契约再写流程；⭐⭐⭐⭐⭐ 写不出输出契约=不该做技能；⭐⭐⭐⭐⭐ 流程会反向决定输出 |
 | `seven-step-authoring.md` | ⭐ 七步写第一个技能，含最常被跳过的数据源验证 |
 | `data-source-validation.md` | ⭐ 数据源验证：技能会取到错的数据吗 |
 | `degree-of-freedom.md` | ⭐ 自由度校准：窄桥给护栏，开阔地给方向 |

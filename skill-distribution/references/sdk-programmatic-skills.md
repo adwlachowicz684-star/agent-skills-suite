@@ -1,7 +1,7 @@
 # 在 SDK / 程序化环境里使用技能
 
 > 相关：《skill-distribution》的 `plugin-vs-skill-packaging.md` ·
-> 《skill-evaluating》的 `ci-skill-validation.md` · `output-stability-contract.md`
+> 《skill-automation》的 `ci-skill-validation.md` · `output-stability-contract.md`
 > 前置：那份讲⭐ 三层打包，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 完全不同的⭐ 运行环境——⭐⭐⭐⭐⭐ ⭐⭐⭐ **没有交互会话时，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 技能怎么用、⭐⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 这⭐ 带来⭐ 两个⭐ 宝贵的⭐ 副作用。**

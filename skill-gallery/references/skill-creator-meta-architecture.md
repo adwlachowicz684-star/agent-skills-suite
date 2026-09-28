@@ -1,7 +1,7 @@
 # skill-creator：一个元技能的完整架构
 
 > 相关：《skill-authoring》的 `forty-skills-lessons.md` ·
-> 《skill-evaluating》的 `comparator-ab-eval.md` · `skill-test-pyramid-four.md` ·
+> 《skill-automation》的 `comparator-ab-eval.md` · `skill-test-pyramid-four.md` ·
 > 《skill-crafting》的 `examples-three-branches.md`
 > 前置：那些讲⭐ 该怎么做，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 真正⭐ 把⭐ 这些⭐ 全部⭐ 实现了的⭐ 元技能⭐ 长什么样——
