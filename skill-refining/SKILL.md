@@ -27,7 +27,6 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 ## 路由表（按需深读）
 | `four-pitfalls-practice.md` | ⭐⭐⭐ 四坑：★★描述强实现弱→信任崩坏；过细拆分判据 |
 | `memory-layering-and-skills.md` | ⭐⭐⭐ 记忆四层：★技能=程序记忆，不该装事实 |
-| `token-cost-optimization.md` | ⭐⭐⭐ 伪技能陷阱；Token泄漏；模型路由层 |
 | `skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
 | `skill-reducer-study.md` | ⭐⭐ 压缩后质量反升 2.8%；>10K token 技能压缩率达 95.8% |
 | `merge-signals-five.md` | ⭐⭐⭐⭐⭐ 单向棘轮；⭐⭐⭐⭐⭐ 顺序耦合=一个技能被拆两半；⭐⭐⭐⭐ 权限不同是合并否决项 |
