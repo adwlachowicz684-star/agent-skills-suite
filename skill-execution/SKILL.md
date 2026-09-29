@@ -6,6 +6,9 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 
 # 技能
 
+> ⭐ **输入侧不在本技能** → 《skill-input》
+> 本技能管「执行期怎么跑」，那份管「拿到什么、缺的该推断还是该问」。
+
 > ⭐ **失败、终止、重试、幂等、跨会话接续不在本技能** → 《skill-recovery》
 > 本技能管"执行期怎么跑"，那份管"跑砸了之后怎么办"。的执行期行为
 
@@ -36,15 +39,11 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
 | `human-checkpoint-design.md` | ⭐⭐⭐⭐⭐ 暂停≠结束；⭐⭐⭐⭐⭐ 确认要继续吗不够，要展示不可逆部分；⭐⭐⭐⭐ 过度暂停会训练无脑确认 |
 | `change-questions.md` | ⭐⭐⭐⭐⭐ 模型不区分"补充"和"改主意"；⭐⭐⭐⭐⭐ 改细节不要从头再来；⭐⭐⭐⭐⭐ 同一任务内只问一次 |
-| `assumption-registry.md` | ⭐⭐⭐⭐⭐ 假设≠依赖：不报错只是结果错；⭐⭐⭐⭐ 规模假设隐藏最深；⭐⭐⭐⭐⭐ 只写假定不写后果更糟
-| `data-dependency-declaration.md` | ⭐⭐⭐⭐⭐ 数据依赖（配置/环境变量/前置产物）；⭐⭐⭐⭐⭐ 读不到就自己造一份
 | `readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
 | `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
+| `intermediate-artifacts.md` | ⭐⭐⭐⭐⭐ 中间产物写在哪/命名/清理；⭐⭐⭐⭐⭐ 不要用存在判断做过；⭐⭐⭐⭐⭐ 失败要留现场 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
-| `tool-argument-construction.md` | ⭐⭐⭐⭐⭐ "用 X 工具"不是参数说明；⭐⭐⭐⭐⭐ 猜参数名是幻觉高发区；⭐⭐⭐⭐⭐ 失败先换参数不换工具 |
 | `repeat-invocation-same-session.md` | ⭐⭐⭐⭐⭐ 第二次调用的输入多了第一次的输出；⭐⭐⭐⭐⭐ 会话内跑两次测的是自洽不是稳定 |
-| `relative-time-resolution.md` | ⭐⭐⭐⭐⭐ 相对时间必须解析成绝对区间并写进输出；⭐⭐⭐⭐⭐ 时间窗口错不报错只换一批数据 |
-| `input-validation-and-triage.md` | ⭐⭐⭐⭐⭐ 残缺/矛盾/超范围三类输入；⭐⭐⭐⭐⭐ 一次问完；⭐⭐⭐⭐⭐ 被丢弃的需求必须出现在输出里 |
 | `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
 
 **输出形状**：

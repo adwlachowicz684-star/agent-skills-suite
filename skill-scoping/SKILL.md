@@ -40,6 +40,9 @@ description: 技能的边界界定与内容分层——Out of scope 章节该怎
 - 拆分信号与重构时机 → `skill-refining` 的 `split-signals-five.md`
 
 ## 路由表（按需深读）
+| `degree-of-freedom.md` | ⭐⭐⭐⭐ 给多少自由度：高/中/低三档与判据 |
+| `scope-multiplication.md` | ⭐⭐⭐⭐⭐ 每加一项能力，失败模式是乘法叠加 |
+| `no-op-and-value.md` | ⭐⭐⭐⭐⭐ 模型不用这个技能也会做的事 = 没有价值 |
 | `second-reader-test.md` | ⭐⭐⭐⭐⭐ 第二读者测试；⭐⭐⭐⭐ 四类'只有我能用'；⭐⭐⭐⭐ 少写怎么做多写前提
 | `scope-section.md` | ⭐⭐⭐⭐⭐ 范围章节：Out of scope 要指向替代方案；边界四错误 |
 | `granularity-atomic-workflow.md` | ⭐⭐⭐⭐ 原子 vs 工作流；⭐ 重启测试判据 |

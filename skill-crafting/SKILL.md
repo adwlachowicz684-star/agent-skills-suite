@@ -37,6 +37,9 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
 | `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
 | `conditional-branch-writing.md` | ⭐⭐⭐⭐⭐ 没有 else 的 if = 授权模型自己定义 else；⭐⭐⭐⭐⭐ 半写的约束比不写更危险；⭐⭐⭐⭐⭐ "有但不可用"那档 |
+| `conflicting-instructions.md` | ⭐⭐⭐⭐⭐ 详尽vs简洁等五类冲突；⭐⭐⭐⭐⭐ 模型默认折中不是二选一；⭐⭐⭐⭐⭐ 按「被约束的维度」分组才能发现 |
+| `positional-references.md` | ⭐⭐⭐⭐⭐ 上文/第3步/如下；⭐⭐⭐⭐⭐ 压缩后指令留下而引用没了；⭐⭐⭐⭐⭐ 给中间产物起名 |
+| `enumeration-closed-vs-open.md` | ⭐⭐⭐⭐⭐ 枚举是穷举还是举例；⭐⭐⭐⭐⭐ 列表越长越像穷举；⭐⭐⭐⭐⭐ 遇到列表外默认归类是静默失败 |
 | `list-item-relations.md` | ⭐⭐⭐⭐⭐ 列表项之间是且/或/顺序；⭐⭐⭐⭐⭐ 默认解读是且+顺序；⭐⭐⭐⭐⭐ 混合列表 |
 | `unjustified-numbers.md` | ⭐⭐⭐⭐⭐ 没有出处的数字；⭐⭐⭐⭐⭐ 具体性≠有依据；⭐⭐⭐⭐⭐ 数字+出处+越界动作 |
 | `skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题
