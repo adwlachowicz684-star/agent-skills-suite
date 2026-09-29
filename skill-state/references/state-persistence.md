@@ -1,6 +1,6 @@
 # 状态持久化：会话之间不保留是设计，不是 bug
 
-> 相关：《skill-orchestration》的 `memory-state.md` ·
+> 相关：《skill-state》的 `memory-state.md` ·
 > `cross-session-artifacts.md` ·
 > `skill-crafting` 的 `official-lessons.md`（config.json 模式）
 

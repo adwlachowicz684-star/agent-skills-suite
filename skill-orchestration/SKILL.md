@@ -39,7 +39,6 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | `handoff-payload-contract.md` | ⭐⭐⭐⭐⭐ 交接包五项；⭐⭐⭐⭐⭐ 缺 failures = 技术上真实、实质上误导；⭐⭐⭐⭐ 覆盖率不足就停
 | `skill-chaining-composition.md` | ⭐ 串联组合：叠加加载、交接协议、五个坑 |
 | `collision-arbitration.md` | ⭐ 技能打架仲裁三招 + 两步路由 + 延迟真相 |
-| `state-persistence.md` | ⭐ 会话间状态持久化：三类状态与读写时机 |
 | `gamedev-skill-routing.md` | ⭐ 多维技能库路由：三维正交、指纹识别、降级 |
 | `skills-mcp-subagent.md` | 技能/MCP/子代理协同范式与治理先行 |
 
