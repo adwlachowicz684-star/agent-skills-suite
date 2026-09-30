@@ -30,14 +30,11 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 > ⭐ **组合的甜蜜点是 5–8 个**。超过之后收益递减。
 
 ## 路由表（按需深读）
-| `skill-data-passing.md` | ⭐⭐⭐⭐★ 上下文是涂改的黑板；★复用≥2场景才拆成技能 |
 | `conflict-three-types-degradation.md` | ⭐⭐⭐ 冲突三型(排他/组合/确认) + 降级层；★别都当排他型 |
 | `routing-tiers-and-arbitration.md` | ⭐⭐⭐ 三级路由(规则<10/向量粗排/模型精排)+仲裁链；★仲裁写成函数 |
 | `skill-dependency-injection.md` | ⭐⭐ 依赖注入四模式：委托/链式/配置/共享服务；双向无知=解耦证据 |
 | `orchestrator-timing.md` | ⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写编排器 |
 | `composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
-| `handoff-payload-contract.md` | ⭐⭐⭐⭐⭐ 交接包五项；⭐⭐⭐⭐⭐ 缺 failures = 技术上真实、实质上误导；⭐⭐⭐⭐ 覆盖率不足就停
-| `skill-chaining-composition.md` | ⭐ 串联组合：叠加加载、交接协议、五个坑 |
 | `collision-arbitration.md` | ⭐ 技能打架仲裁三招 + 两步路由 + 延迟真相 |
 | `gamedev-skill-routing.md` | ⭐ 多维技能库路由：三维正交、指纹识别、降级 |
 | `skills-mcp-subagent.md` | 技能/MCP/子代理协同范式与治理先行 |

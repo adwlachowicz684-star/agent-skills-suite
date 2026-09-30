@@ -44,6 +44,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `intermediate-artifacts.md` | ⭐⭐⭐⭐⭐ 中间产物写在哪/命名/清理；⭐⭐⭐⭐⭐ 不要用存在判断做过；⭐⭐⭐⭐⭐ 失败要留现场 |
 | `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
 | `repeat-invocation-same-session.md` | ⭐⭐⭐⭐⭐ 第二次调用的输入多了第一次的输出；⭐⭐⭐⭐⭐ 会话内跑两次测的是自洽不是稳定 |
+| `sequential-dependency.md` | ⭐⭐⭐⭐⭐ 列表排列是建议不是约束；⭐⭐⭐⭐⭐ 顺序错不报错只是值不同；⭐⭐⭐⭐⭐ 顺序敏感性测试 |
 | `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
 
 **输出形状**：
