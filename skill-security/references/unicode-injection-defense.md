@@ -1,8 +1,8 @@
 # 隐藏 Unicode 指令注入：看不见的对抗载荷
 
-> 相关：《skill-security》的 `injection-audit.md`（六类红旗）·
-> `supply-chain-audit.md` · `pre-install-security-audit.md` ·
-> `marketplace-security.md`
+> 相关：《skill-security》的 `skill-security/references/injection-audit.md`（六类红旗）·
+> `skill-security/references/supply-chain-audit.md` · `skill-security/references/pre-install-security-audit.md` ·
+> `skill-security/references/marketplace-security.md`
 > 前置：那份把"Unicode 转义或同形字"列为六类红旗之一，
 > 这份把它⭐ **单独展开成一种完整攻击面**，含⭐⭐ 具体检测方法与⭐⭐ 一条反直觉结论。
 
@@ -58,7 +58,7 @@
 | HTML 注释里藏指令（ClawHub 事件） | ⚠️ 要看原始文件 |
 | ⭐⭐ **Unicode 隐藏指令** | ⭐⭐ **看不出来** |
 
-> ⭐⭐⭐ 这直接推翻了 `pre-install-security-audit.md` 里
+> ⭐⭐⭐ 这直接推翻了 `skill-security/references/pre-install-security-audit.md` 里
 > "读一遍 SKILL.md 和 scripts/"这条建议的有效性——
 > **对这类载荷，读一遍是不够的，必须机器检测**。
 
@@ -94,7 +94,7 @@
 
 > ⭐⭐ PostToolUse hook 这个位置很关键：
 > **它在模型看到输出之前拦截**——
-> 这与 `determinism-boundary.md` 的"执行侧强制"是同一思路：
+> 这与 `skill-evaluating/references/determinism-boundary.md` 的"执行侧强制"是同一思路：
 > **不指望模型自己识别，而是在它看到之前就处理掉。**
 
 ---
@@ -122,7 +122,7 @@
 >
 > ⭐⭐ 一句可以直接记住的原则：
 > **⭐ 任何技能或 MCP server 都不得"仅因其来源"而被信任。**
-> 这与 `marketplace-security.md` 的"签名验的是身份与完整性，不是善意"
+> 这与 `skill-security/references/marketplace-security.md` 的"签名验的是身份与完整性，不是善意"
 > 是同一条，只是换了措辞。
 
 **CCM 的归类**也值得注意——它给出了一个有用的心智模型：
@@ -147,11 +147,11 @@ MCPTox 基准的发现：
 ```
 
 > ⭐⭐⭐ 如果"越强越脆弱"成立，那么**升级模型不会自动带来安全性提升**——
-> 这与 `capability-vs-preference.md` 那条
+> 这与 `skill-quality/references/capability-vs-preference.md` 那条
 > "模型升级对能力型影响远大于偏好型"
 > 形成了一个令人不安的推论：**升级改善了能力，却可能扩大攻击面。**
 
-> ⭐ 所以 `cross-model.md` 的跨模型测试矩阵里，
+> ⭐ 所以 `skill-selection/references/cross-model.md` 的跨模型测试矩阵里，
 > **安全性必须在每个模型档位单独测**，不能只测一次。
 
 ---
@@ -177,7 +177,7 @@ MCPTox 基准的发现：
 ```
 
 > ⭐⭐⭐ **"组织应自己做实证测试再下结论"** ——
-> 这与 `skillsbench-vs-realworld.md` 那条
+> 这与 `skill-evaluating/references/skillsbench-vs-realworld.md` 那条
 > "基准里的优势会被真实场景压缩"是同一种谨慎：
 > **别人的数字不能直接搬到你的环境。**
 

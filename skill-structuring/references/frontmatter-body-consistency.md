@@ -1,10 +1,10 @@
 # description 承诺了，正文没有
 
-> 相关：《skill-description》的 `description-scope-shape.md`·
-> 《skill-loading》的 `frontmatter-full-reference.md`·
-> 《skill-structuring》的 `reference-file-practices.md`（reference 组织）·
-> 《skill-triggering》的 `compound-failure.md`（复合失效）·
-> 《skill-crafting》的 `unjustified-numbers.md`
+> 相关：《skill-description》的 `skill-description/references/description-scope-shape.md`·
+> 《skill-loading》的 `skill-loading/references/frontmatter-full-reference.md`·
+> 《skill-structuring》的 `skill-structuring/references/reference-file-practices.md`（reference 组织）·
+> 《skill-triggering》的 `skill-triggering/references/compound-failure.md`（复合失效）·
+> 《skill-crafting》的 `skill-precision/references/unjustified-numbers.md`
 > 前置：
 > 已有文档讲的是⭐⭐⭐⭐ **frontmatter 写错**（格式、字段、大小写），
 > 这份讲的是⭐⭐⭐⭐⭐ **frontmatter 写对了、正文没跟上**——
@@ -224,7 +224,7 @@ grep -oP '(?<=^description: ).*' SKILL.md
 
 > ⭐⭐⭐⭐⭐ 它本来就不该在正文里有对应实现——
 > ⭐⭐⭐⭐ 它的作用是**不触发**，正文是触发后才加载的。
-> 这与《skill-patterns》的 `skill-anatomy-antipatterns.md` 那条
+> 这与《skill-patterns》的 `skill-patterns/references/skill-anatomy-antipatterns.md` 那条
 > "正文里不要有 When to Use 章节"是同一个道理。
 
 **② ⭐⭐⭐⭐⭐ 平台约定的标准能力**

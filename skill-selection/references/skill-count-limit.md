@@ -24,7 +24,7 @@
 
 ## 召回为什么会退化
 
-回顾 `library-size-effect.md` 的分解：
+回顾 `skill-selection/references/library-size-effect.md` 的分解：
 
 ```
 技能遮蔽   最多占 68%（唯一置信区间排除零的成分）
@@ -56,7 +56,7 @@
 ```
 
 ⚠️ 要点：**eval 必须包含 near-miss 负例**
-（见 `trigger-eval-set.md`）——
+（见 `skill-triggering/references/trigger-eval-set.md`）——
 正例的召回率往往到很晚才掉，
 **负例先崩**。
 
@@ -150,7 +150,7 @@
    ——单独跑得好不代表在 20 个技能里还能被选中
 ```
 
-第 ③ 条呼应 `trigger-eval-set.md` 的五维：
+第 ③ 条呼应 `skill-triggering/references/trigger-eval-set.md` 的五维：
 **隔离行为与共存是两个独立维度，必须各测一遍。**
 
 ## 自查

@@ -21,7 +21,7 @@
 ⭐ Reference Index          —— 紧挨着 Router
 ```
 
-为什么是前 50 行：截断保头不保尾（见 `refine-with-execution.md`），
+为什么是前 50 行：截断保头不保尾（见 `skill-refining/references/refine-with-execution.md`），
 路由信息放太后面可能根本进不了上下文。
 
 ## 强制加载要用动词，不用形容词
@@ -29,7 +29,7 @@
 ```
 ❌ "更多细节见 references/advanced.md"
 ❌ "（重要）请参考 references/advanced.md"
-✅ ⭐ "STOP. Read `references/accessibility-floor.md` in full
+✅ ⭐ "STOP. Read accessibility-floor.md in full
       before implementing or reviewing any interactive widget."
 ```
 

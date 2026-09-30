@@ -1,9 +1,9 @@
 # 技能的别名与弃用：改名字的正确姿势
 
-> 相关：《skill-structuring》的 `naming-conventions.md`（三重角色、硬规则）·
-> 《skill-versioning》的 `version-diff-behavior-compare.md`（改了什么≠变了什么）·
-> `merge-signals-five.md`（合并信号）·
-> 《skill-distribution》的 `dependency-resolution-conflicts.md`（跨版本循环依赖）
+> 相关：《skill-structuring》的 `skill-structuring/references/naming-conventions.md`（三重角色、硬规则）·
+> 《skill-versioning》的 `skill-versioning/references/version-diff-behavior-compare.md`（改了什么≠变了什么）·
+> `skill-refining/references/merge-signals-five.md`（合并信号）·
+> 《skill-distribution》的 `skill-distribution/references/dependency-resolution-conflicts.md`（跨版本循环依赖）
 > 前置：命名约定讲⭐⭐⭐ **怎么起名字**，
 > 这份讲⭐⭐⭐⭐⭐ **怎么改名字**——
 > **改名是技能体系里最容易被低估的破坏性改动。**
@@ -43,7 +43,7 @@
 | ⭐⭐⭐⭐ 编排链 | 上游写死 `/old-name` → 调不动 |
 
 > ⭐⭐⭐⭐⭐ 第一行最关键：**名字是触发词的一部分**。
-> 改名字等于改触发集——所以按 `version-diff-behavior-compare.md` 的判据，
+> 改名字等于改触发集——所以按 `skill-versioning/references/version-diff-behavior-compare.md` 的判据，
 > ⭐⭐⭐⭐ **改名必须走行为对比，不能只走文本评审。**
 
 ---
@@ -80,7 +80,7 @@ metadata:
 
 > ⭐⭐⭐ 最干净，但依赖平台支持——
 > **开放标准只定义 6 个字段**，`aliases` 属于扩展，
-> ⭐⭐⭐ 换平台会被忽略（见 `frontmatter-full-reference.md`）。
+> ⭐⭐⭐ 换平台会被忽略（见 `skill-loading/references/frontmatter-full-reference.md`）。
 
 ---
 
@@ -99,7 +99,7 @@ metadata:
 
 > ⭐⭐⭐⭐⭐ **第三行最常被省，也最危险**：
 > 如果新旧行为有差异，"改用新技能"这个建议本身就会引入 bug。
-> 这正是 `skill-scope-tiering.md` 那条原则——
+> 这正是 `skill-refining/references/skill-scope-tiering.md` 那条原则——
 > ⭐⭐⭐⭐⭐ **没有恢复路径的空壳，就是没人承认的删除。**
 
 > ⭐⭐⭐⭐ **第四行让弃用有终点。**
@@ -138,7 +138,7 @@ grep -rn "old-name" --include="*.md" .
 并确认用户会不会用旧名来叫它
 ```
 
-> ⭐⭐⭐⭐ 判据：**用户实际会说的词，是捞的不是想的**（`trigger-word-mining.md`）。
+> ⭐⭐⭐⭐ 判据：**用户实际会说的词，是捞的不是想的**（trigger-word-mining.md）。
 > 旧名恰好是一个"已被证实会被说到"的词——⭐⭐⭐⭐ 所以它必留。
 
 **③ ⭐⭐⭐⭐ 编排链里的写死引用**
@@ -148,7 +148,7 @@ grep -rn "old-name" --include="*.md" .
 ```
 
 > ⭐⭐⭐⭐ 这一处最容易漏，因为它不报任何错——
-> 且属于 `change-impact-analysis.md` 里的第②类（编排下游会级联）。
+> 且属于 `skill-versioning/references/change-impact-analysis.md` 里的第②类（编排下游会级联）。
 
 ---
 
@@ -188,7 +188,7 @@ grep -rn "old-name" --include="*.md" .
 > 想改变"什么情况下会被用到"，改 description；
 > ⭐⭐⭐⭐ **改 name 只在"这个名字本身是错的"时才必要。**
 
-第 ③ 条也是 `merge-signals-five.md` 的镜像：
+第 ③ 条也是 `skill-refining/references/merge-signals-five.md` 的镜像：
 拆分后旧名指向谁都不对——因为它现在对应两件事了。
 ⭐⭐⭐ 这种情况应该让旧名**彻底失效**（给出明确错误），
 而不是悄悄指向其中一个。

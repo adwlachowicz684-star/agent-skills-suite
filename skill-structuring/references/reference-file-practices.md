@@ -1,8 +1,8 @@
 # reference 文件的组织与加载
 
-> 相关：《skill-structuring》的 `directory-decision-matrix.md` ·
-> `references-vs-assets.md` · 《skill-patterns》的
-> `progressive-disclosure-official.md` · `reference-organization.md`
+> 相关：《skill-structuring》的 `skill-structuring/references/directory-decision-matrix.md` ·
+> `skill-structuring/references/references-vs-assets.md` · 《skill-patterns》的
+> `skill-structuring/references/progressive-disclosure-official.md` · `skill-structuring/references/reference-organization.md`
 > 前置：那些文档讲"要不要放进 references"，这份讲⭐ 放进去之后怎么组织。
 
 ---
@@ -49,7 +49,7 @@
         SKILL.md → b.md
 ```
 
-> ⭐ 与 `progressive-disclosure-official.md` 的结论完全一致：
+> ⭐ 与 `skill-structuring/references/progressive-disclosure-official.md` 的结论完全一致：
 > **所有 reference 文件都应从 SKILL.md 直接链接。**
 
 ---
@@ -136,14 +136,14 @@ api-skill/
 **内联（加载并采纳）**：
 
 ```
-See `references/examples.md` for examples of this pattern.
+See `skill-content/references/examples.md` for examples of this pattern.
 ```
 
 **块引用（显式指令）**：
 
 ```
 ## Extended Examples
-Before proceeding, read the full examples in `references/examples.md`
+Before proceeding, read the full examples in `skill-content/references/examples.md`
 and apply those patterns to the current task.
 ```
 

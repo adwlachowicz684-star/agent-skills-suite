@@ -1,14 +1,14 @@
 # Hook 的进阶能力：改写、纠偏、重注入
 
-> 相关：`hooks-skill-cooperation.md`（生命周期与退出码契约）·
-> 《skill-evaluating》的 `determinism-boundary.md` · 《skill-loading》的 `three-stages-discovery-activation-execution.md`
+> 相关：`skill-security/references/hooks-skill-cooperation.md`（生命周期与退出码契约）·
+> 《skill-evaluating》的 `skill-evaluating/references/determinism-boundary.md` · 《skill-loading》的 `skill-loading/references/three-stages-discovery-activation-execution.md`
 > 前置：上篇讲⭐ Hook 的⭐ 基本机制（事件、matcher、退出码三档），
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 三条⭐ 进阶能力——⭐⭐⭐⭐⭐ ⭐⭐⭐ **改写输入、压缩后重注入、子代理内生效**
 > ⭐⭐⭐⭐ ⭐⭐⭐ 其中⭐ "压缩后重注入"⭐ 补上了⭐ 我们⭐ 一个⭐ 长期悬空的⭐ 问题。
 
 ---
 
-> 上篇：见 `hooks-skill-cooperation.md`
+> 上篇：见 `skill-security/references/hooks-skill-cooperation.md`
 
 ## 目录
 - [6. ⭐⭐⭐⭐ PreToolUse 不只阻断，还能改写](#6--pretooluse-不只阻断还能改写)
@@ -61,7 +61,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 不需要⭐ 模型⭐ 记得⭐ 去做。**
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 另外⭐ "⭐ 只跑⭐ 变更模块的⭐ 测试"⭐ 这条⭐ 也值得⭐ 抄——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 与⭐ `unity-refactor-skill.md` 那句
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 与⭐ `skill-gallery/references/unity-refactor-skill.md` 那句
 > "⭐ 重构技能⭐ 默认范围⭐ 该是⭐ 最近改动"⭐ 是⭐ 同一个⭐ 判断（⭐ 范围 = 变更集）。
 
 ---
@@ -117,7 +117,7 @@
               ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **按子代理类型差异化**（比"一刀切"精细得多）
 ```
 
-> ⭐⭐⭐⭐⭐ 推论一⭐ 与⭐ 我们⭐ 已有的⭐ `skill-vs-subagent-decide.md` 那条
+> ⭐⭐⭐⭐⭐ 推论一⭐ 与⭐ 我们⭐ 已有的⭐ `skill-boundaries/references/skill-vs-subagent-decide.md` 那条
 > "⭐⭐⭐⭐⭐ **不显式挂技能，⭐⭐⭐⭐⭐ ⭐⭐⭐ 你的子代理就是在裸奔**"⭐ 是⭐ 同一族——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 只不过⭐ 那里⭐ 说的是⭐ 技能，⭐⭐⭐⭐⭐ ⭐⭐⭐ 这里⭐ 说的是⭐ 护栏：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **隔离不豁免约束，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但前提是⭐ 约束⭐ 来自⭐ 正确的层。**

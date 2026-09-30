@@ -1,8 +1,8 @@
 # 提示注入审计：六类红旗与徽章制
 
-> 相关：《skill-security》的 `injection-defense.md`（五层纵深）·
-> `security-audit-ops.md`（四类恶意技能）·
-> 《skill-orchestration》的 `prompt-injection.md`
+> 相关：《skill-security》的 `skill-security/references/injection-defense.md`（五层纵深）·
+> `skill-security/references/security-audit-ops.md`（四类恶意技能）·
+> 《skill-orchestration》的 `skill-orchestration/references/prompt-injection.md`
 
 ---
 
@@ -79,7 +79,7 @@ Unicode 转义或同形字（homoglyph）
 白字 / 零透明度 CSS
 ```
 
-> 这与 `marketplace-security.md` 里 ClawHub 2026-03 事件完全对应：
+> 这与 `skill-security/references/marketplace-security.md` 里 ClawHub 2026-03 事件完全对应：
 > **386 个恶意技能把指令藏在 HTML 注释里**。
 
 徽章：🔴 Injection Risk

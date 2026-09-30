@@ -1,10 +1,10 @@
 # 技能的文档：正文之外的那部分
 
-> 相关：《skill-structuring》的 `naming-gerund-form.md` ·
-> `rename-alias-deprecation.md`（改名与弃用）·
-> 《skill-distribution》的 `release-collaboration.md`（发布与贡献）·
-> 《skill-content》的 `portability-across-projects.md`（可迁移性）·
-> 《skill-crafting》的 `system-prompt-structure.md`
+> 相关：《skill-structuring》的 naming-gerund-form.md ·
+> `skill-structuring/references/rename-alias-deprecation.md`（改名与弃用）·
+> 《skill-distribution》的 release-collaboration.md（发布与贡献）·
+> 《skill-content》的 `skill-content/references/portability-across-projects.md`（可迁移性）·
+> 《skill-crafting》的 `skill-crafting/references/system-prompt-structure.md`
 > 前置：
 > 几乎所有技能文档都在讲⭐⭐⭐ **SKILL.md 正文怎么写**，
 > 这份讲⭐⭐⭐⭐ **正文之外还要写什么**——
@@ -73,7 +73,7 @@
 
 > ⭐⭐⭐⭐⭐ **这是 README 里唯一必须和正文严格一致的部分**——
 > 不一致会导致"文档说能跑、实际跑不了"。
-> 判据：**能直接对应 `data-dependency-declaration.md` 那张表。**
+> 判据：**能直接对应 `skill-input/references/data-dependency-declaration.md` 那张表。**
 
 **③ ⭐⭐⭐⭐ 使用示例（真实的，含输入长什么样）**
 
@@ -133,7 +133,7 @@ Owner · 最后更新时间 · 上游来源（若是 fork）
 不是给模型的，是给"这次行为怎么变了"的人看的
 ```
 
-> ⭐⭐⭐⭐⭐ 与 `version-changelog-practice.md` 的差别在读者：
+> ⭐⭐⭐⭐⭐ 与 `skill-versioning/references/version-changelog-practice.md` 的差别在读者：
 > 那份的读者是**下游维护者**（他们要知道会不会断），
 > 这份的读者是**使用者**（他们要知道现在会怎样）。
 > ⭐⭐⭐⭐ 所以 README 里的变更记录要写"对你有什么影响"，

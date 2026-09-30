@@ -230,7 +230,7 @@ API 缓存与之前请求匹配的最长前缀。
 ```
 
 > 信息的过载不会带来更好的决策，只会带来更差的决策。
-> 这呼应 `skill-evaluating` 的 `metrics.md` 的"候选池越大精确率越低"。
+> 这呼应 `skill-evaluating` 的 `skill-quality/references/metrics.md` 的"候选池越大精确率越低"。
 
 **② ⭐ 动态增删工具会让 KV-Cache 完全失效**
 
@@ -259,7 +259,7 @@ API 缓存与之前请求匹配的最长前缀。
   （它们不进缓存前缀，只在被查到时才追加进会话）
 ```
 
-> 这与 `caching-economics.md` 主线一致：
+> 这与 `skill-selection/references/caching-economics.md` 主线一致：
 > **缓存要求前缀稳定，任何中途变更都要付出 10 倍代价。**
 
 **③ 一个容易犯的致命错误**
@@ -268,7 +268,7 @@ API 缓存与之前请求匹配的最长前缀。
 > 结果就是**同样的错误反复出现**。
 >
 > 上下文压缩时应保留失败记录（呼应 `skill-authoring` 的
-> `skill-orchestration` 的 `memory-state.md` 与 `skill-crafting` 的
+> `skill-orchestration` 的 `skill-state/references/memory-state.md` 与 `skill-crafting` 的
 > `anti-rationalizations.md`）。
 
 ## 自查

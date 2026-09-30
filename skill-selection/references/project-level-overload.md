@@ -1,7 +1,7 @@
 # 项目级技能过载：每项目只留两三个
 
-> 相关：《skill-selection》的 `skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
-> `skill-count-limit.md` · 《skill-evaluating》的 `three-skill-ceiling.md`（同时挂载 ≤3）
+> 相关：《skill-selection》的 `skill-selection/references/skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
+> `skill-selection/references/skill-count-limit.md` · 《skill-evaluating》的 `skill-evaluating/references/three-skill-ceiling.md`（同时挂载 ≤3）
 > 前置：那些讲⭐ 库该多大，
 > 这份讲⭐⭐⭐⭐ **一个具体项目里该装几个**——
 > 以及⭐⭐⭐⭐⭐ 一类此前没被单独命名的东西：一次性技能。
@@ -29,8 +29,8 @@
 
 | 已有 | 说的 |
 |---|---|
-| `three-skill-ceiling.md` | ⭐ 一个任务同时挂载 >3 个，成功率下滑 |
-| `skill-portfolio-audit.md` | 库存里 34% 是僵尸 |
+| `skill-evaluating/references/three-skill-ceiling.md` | ⭐ 一个任务同时挂载 >3 个，成功率下滑 |
+| `skill-selection/references/skill-portfolio-audit.md` | 库存里 34% 是僵尸 |
 | ⭐⭐ 本份 | ⭐⭐⭐ **同一个项目里装太多，会产生"错误组合"** |
 
 第三条是新的一类失败：**不是选错一个，是把几个拼成一个谁都没要的东西。**
@@ -62,7 +62,7 @@
 
 一个容易踩的坑：**"留着说不定以后用得上"**。
 而这句话的代价不是存储，是**后续每一次判断都要为它付费**
-（`skill-portfolio-audit.md` 的认知切换成本：每个候选 40–80 token）。
+（`skill-selection/references/skill-portfolio-audit.md` 的认知切换成本：每个候选 40–80 token）。
 
 ---
 
@@ -73,8 +73,8 @@
 | 层 | 阈值 | 管什么 |
 |---|---|---|
 | ⭐ **单项目装载** | **2–3 个核心** | ⭐ 本份：防错误组合 |
-| 单任务挂载 | ≤3 | `three-skill-ceiling.md`：防成功率下滑 |
-| 库存总量 | 10–20（质量）· 50（路由） | `skill-portfolio-audit.md` / `routing-tiers` |
+| 单任务挂载 | ≤3 | `skill-evaluating/references/three-skill-ceiling.md`：防成功率下滑 |
+| 库存总量 | 10–20（质量）· 50（路由） | `skill-selection/references/skill-portfolio-audit.md` / `routing-tiers` |
 
 > ⭐⭐⭐ 前两条常被当成一条，其实不是：
 > **项目里只装 3 个，但一个任务上同时挂了 5 个**——
@@ -87,7 +87,7 @@
 
 > ⭐ **把不用的移出到备份目录。**
 
-这跟我们已有的"归档 ≠ 删除"（`retirement-pipeline.md`）完全一致，
+这跟我们已有的"归档 ≠ 删除"（`skill-governance/references/retirement-pipeline.md`）完全一致，
 但这里有个**更轻的形态**——它不是退役流程，是日常整理：
 
 ```
@@ -97,7 +97,7 @@
 
 > ⭐⭐⭐ **重点：备份目录必须放在不会被扫描的位置。**
 > 放在 `skills/` 下的子目录会被当成嵌套技能发现
-> （《skill-loading》的 `nested-scope-discovery.md`），
+> （《skill-loading》的 `skill-loading/references/nested-scope-discovery.md`），
 > 那样"归档"就完全没起作用。
 
 ---
@@ -118,7 +118,7 @@
 
 ## 6. ⭐⭐ 与"中间地带"说的矛盾及仲裁
 
-`skill-portfolio-audit.md` 说：
+`skill-selection/references/skill-portfolio-audit.md` 说：
 
 ```
 ✅ 昂贵 + 高价值（专家型）→ 恰恰最该留
@@ -137,6 +137,6 @@
 > ⭐⭐⭐ **低频高价值的技能应该"留在库里、不装进项目"。**
 > 这正是备份目录这个形态存在的理由——它解决了"留"和"装"的分离。
 
-顺带一句：这条也呼应了 `three-skill-ceiling.md` 的配套发现——
+顺带一句：这条也呼应了 `skill-evaluating/references/three-skill-ceiling.md` 的配套发现——
 **库存 20+ 时 agent 每次随机加载好几个，精简到 <10 后效果立刻好转**。
 三个来源都指向：**少即是准。**

@@ -1,14 +1,14 @@
 # Hooks 与技能：声明说"别做"，Hook 说"做不到"
 
-> 相关：《skill-evaluating》的 `determinism-boundary.md`（确定性边界）·
-> `allowed-tools-least-privilege.md`（四面红旗）· 《skill-loading》的 `prompt-caching-and-skills.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/determinism-boundary.md`（确定性边界）·
+> `skill-security/references/allowed-tools-least-privilege.md`（四面红旗）· 《skill-loading》的 `skill-loading/references/prompt-caching-and-skills.md`
 > 前置：那些讲⭐ "该放哪一层"，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 那一层的⭐ 完整机制——⭐⭐⭐⭐⭐ ⭐⭐⭐ 12 个生命周期事件、
 > ⭐⭐⭐⭐ ⭐⭐⭐ 退出码契约、⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 以及两条⭐ 此前没收过的⭐ 能力。
 
 ---
 
-> 下篇：见 `hooks-rewrite-reinject.md`
+> 下篇：见 `skill-security/references/hooks-rewrite-reinject.md`
 
 ## 目录
 - [1. ⭐⭐⭐⭐⭐ 三层配置结构](#1--三层配置结构)
@@ -42,7 +42,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ 这条⭐ 值得⭐ 单独⭐ 记住，⭐⭐⭐⭐⭐ ⭐ 因为⭐ 它⭐ 是⭐ "⭐⭐⭐⭐⭐ **把廉价判断⭐ 放在⭐ 昂贵动作⭐ 之前**"
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 的⭐ 又一个⭐ 实例——⭐⭐⭐⭐ ⭐⭐⭐ 与 `hook-risk.md` 的⭐ 思路一致，
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 的⭐ 又一个⭐ 实例——⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-security/references/hook-risk.md` 的⭐ 思路一致，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 也⭐ 与⭐ 第 5 节⭐ 那条⭐ "⭐ 便宜检查先做"⭐ 同源。
 
 ---
@@ -72,7 +72,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 再决定⭐ 这一轮⭐ 是不是⭐ 真的该停。**
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 补上了⭐ 我们⭐ 此前⭐ 一条⭐ 只提了⭐ 一半的⭐ 建议：
-> ⭐⭐⭐⭐⭐ `seven-contracts.md` 说⭐ "⭐ 别把完成任务⭐ 当成⭐ 终止条件"，
+> ⭐⭐⭐⭐⭐ `skill-execution/references/seven-contracts.md` 说⭐ "⭐ 别把完成任务⭐ 当成⭐ 终止条件"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 没说⭐ 怎么⭐ 让 agent ⭐ 在⭐ "看起来完成了"⭐ 时
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 还能⭐ 看见⭐ 未完成的⭐ 后台任务——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **这就是⭐ 那个⭐ 机制。**
@@ -101,7 +101,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **0 / 2 / 其他 ⭐ 三档，⭐⭐⭐⭐⭐ ⭐⭐⭐ 分别对应
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 放行+可注入 / ⭐ 阻断+原因反馈 / ⭐ 失败但不可见原因。**
 >
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 也⭐ 与 `script-cli-contract.md` 那份⭐ 完全同构
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 也⭐ 与 `skill-scripting/references/script-cli-contract.md` 那份⭐ 完全同构
 > （⭐ 脚本⭐ 用⭐ 退出码⭐ 跟模型说话）——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 两个⭐ 不同⭐ 载体⭐ 收敛到⭐ 同一个⭐ 契约，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 说明⭐ 这⭐ 确实⭐ 是⭐ "⭐⭐⭐⭐⭐ 跟模型通信"⭐ 的⭐ 正确方式。
@@ -131,7 +131,7 @@
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与⭐ 我们已有的⭐ 一条⭐ 完美咬合：
 > ⭐⭐⭐⭐⭐ **"⭐ 声明摄入 → ⭐ 权限强制 → ⭐ 运行时隔离"⭐ 三层纵深**
-> （`allowed-tools-least-privilege.md`）——
+> （`skill-security/references/allowed-tools-least-privilege.md`）——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **Hook 沉默 ⭐ 意味着 ⭐ 第二层⭐ 交还给⭐ 第二层的默认规则，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而不是⭐ 跳过了⭐ 第二层。**
 
@@ -165,7 +165,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 也⭐ 与⭐ 我们⭐ 那条⭐ "⭐⭐⭐⭐⭐ **通过⭐ 给循环模式⭐ 命名、
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 告诉模型'重复是有意义的'，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ 你把⭐ 无限循环⭐ 转换成⭐ 一条⭐ 有用的⭐ 错误信息**"
-> （`trace-debugging.md`）⭐ 完全同构——
+> （`skill-triggering/references/trace-debugging.md`）⭐ 完全同构——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ 两者⭐ 都是：⭐⭐⭐⭐⭐ ⭐⭐⭐ 拒绝本身⭐ 不够，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ **拒绝必须携带⭐ 一条可走的⭐ 路。**
 

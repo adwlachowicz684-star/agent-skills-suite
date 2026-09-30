@@ -158,7 +158,7 @@ allowed-tools 是"免确认"字段，不是"限制"字段
 
 **② 沙箱要按技能类型切片**
 
-具体分级见 `sandbox-execution.md`——
+具体分级见 `skill-security/references/sandbox-execution.md`——
 summarizer 只放行 api.openai.com，git parser 禁网。
 
 **③ MCP server 要 pin 并审阅**

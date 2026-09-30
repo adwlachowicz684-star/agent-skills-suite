@@ -121,7 +121,7 @@ exit 1  → ⭐ 只在日志里留个标记，不阻止
 
 > ⭐ 这再次印证：`allowed-tools` 不是安全边界。
 > **安全控制必须在工具层/系统层做**
-> （见 `least-privilege.md`）。
+> （见 `skill-security/references/least-privilege.md`）。
 
 ## 清单
 

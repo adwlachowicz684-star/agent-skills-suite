@@ -1,7 +1,7 @@
 # 三条件与三次法则：什么时候该封装
 
-> 相关：《skill-boundaries》的 `worth-skillifying.md` ·
-> `when-not-to-use-skill.md` · `five-layer-choice.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/worth-skillifying.md` ·
+> `skill-boundaries/references/when-not-to-use-skill.md` · `skill-boundaries/references/five-layer-choice.md`
 
 ---
 
@@ -29,7 +29,7 @@
 
 > ⭐ 这句话是全套判断的收口：**不适合封装的东西做成技能，
 > 产出不是"自动化"，而是"一个看起来权威的错误流程"。**
-> 与 `when-not-to-use-skill.md` 的"制造伪稳定"同源。
+> 与 `skill-boundaries/references/when-not-to-use-skill.md` 的"制造伪稳定"同源。
 
 ---
 

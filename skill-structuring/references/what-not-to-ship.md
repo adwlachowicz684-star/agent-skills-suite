@@ -1,7 +1,7 @@
 # 发布前该删掉的东西
 
-> 相关：`skill-structuring` 的 `references-vs-assets.md` · `skill-structuring` 的 `enterprise-layout.md` ·
-> 《skill-refining》的 `pruning.md`（逐句修剪）
+> 相关：`skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` · `skill-structuring` 的 `skill-structuring/references/enterprise-layout.md` ·
+> 《skill-refining》的 `skill-refining/references/pruning.md`（逐句修剪）
 
 ---
 
@@ -38,7 +38,7 @@ README.md · INSTALLATION_GUIDE.md · QUICK_REFERENCE.md · CHANGELOG.md
 | 不要 | 原因 |
 |---|---|
 | ⭐ **密钥、API key、密码** | 一律环境变量；扫描器会抓（AWS key、GitHub token、私钥、.env） |
-| ⭐ **二进制文件** | 不可审计——`skill-structuring` 的 `directory-contract.md`：技能应当可读，正文就是审计轨迹 |
+| ⭐ **二进制文件** | 不可审计——`skill-structuring` 的 `skill-structuring/references/directory-contract.md`：技能应当可读，正文就是审计轨迹 |
 | **过大的资源** | 撑爆加载 / 超出预算 |
 | ⭐ **时敏信息**（"截至 2024 Q4…"） | ⭐ 腐烂极快；用脚本取实时数据或直接省略 |
 | **重复内容** | ⭐ 信息只应存在于 SKILL.md 或 references 之一，**不要两处都有** |

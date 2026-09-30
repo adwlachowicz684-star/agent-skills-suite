@@ -1,7 +1,7 @@
 # 官方渐进式披露三模式
 
-> 相关：`skill-crafting` 的 `skill-structuring` 的 `reference-routing.md`（引用一层深）·
-> `skill-structuring` 的 `references-vs-assets.md` · 《skill-refining》的 `splitting.md`
+> 相关：`skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/reference-routing.md`（引用一层深）·
+> `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` · 《skill-refining》的 `skill-refining/references/splitting.md`
 
 ---
 
@@ -68,7 +68,7 @@ bigquery-skill/
 **收益**：token 用量低、上下文聚焦。
 
 > ⭐ 这是"按域拆分"最标准的形态，
-> 与 `skill-structuring` 的 `references-vs-assets.md` 的"理解 vs 使用"判据互补：
+> 与 `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` 的"理解 vs 使用"判据互补：
 > 先按域分，再判每份是 references 还是 assets。
 
 一个写法示例——在主文件里给出**带路由提示的表**：
@@ -158,7 +158,7 @@ pdf/
 ```
 
 > ⭐ 注意 `scripts/` 里的是**被执行，不被加载**——
-> 这是 `skill-structuring` 的 `references-vs-assets.md` 那条成本差异的第三种形态。
+> 这是 `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` 那条成本差异的第三种形态。
 
 ---
 

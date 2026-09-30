@@ -1,8 +1,8 @@
 # 目录增长路径：从 1 个文件到生产级
 
-> 相关：《skill-structuring》的 `directory-decision-matrix.md`（文件放哪）·
-> `frontmatter-fields.md` · `official-spec-and-style.md` ·
-> 《skill-distribution》的 `packaging.md`
+> 相关：《skill-structuring》的 `skill-structuring/references/directory-decision-matrix.md`（文件放哪）·
+> `skill-loading/references/frontmatter-fields.md` · `skill-loading/references/official-spec-and-style.md` ·
+> 《skill-distribution》的 `skill-distribution/references/packaging.md`
 > 前置：那份讲"⭐ 单个文件该放哪个子目录"，
 > 这份讲⭐⭐ **整个目录怎么随复杂度生长**——
 > ⭐⭐⭐ 以及一条明确劝告：别一上来就搭大而全的骨架。
@@ -39,9 +39,9 @@ python-agent-debugger/
 ⭐⭐ 这种过度设计除了增加认知负担之外没有任何好处
 ```
 
-> ⭐⭐⭐ 这与 `first-skill-minimal.md` 的"第一个技能可以只有 10 行"
+> ⭐⭐⭐ 这与 `skill-gallery/references/first-skill-minimal.md` 的"第一个技能可以只有 10 行"
 > 是同一条原则在目录层面的延伸。
-> 也和 `orchestrator-timing.md` 的
+> 也和 `skill-orchestration/references/orchestrator-timing.md` 的
 > "过早编排 = 过早抽象"同源——
 > ⭐⭐⭐ **技能开发的三个"过早"：过早编排、过早分目录、过早通用化。**
 
@@ -59,7 +59,7 @@ python-agent-debugger/
 
 > ⭐⭐ 那句"这些目录⭐ 不是为了让结构显得完整，
 > 而是⭐ 解决不同性质的问题"是本份的核心。
-> 它与 `directory-decision-matrix.md` 的判据
+> 它与 `skill-structuring/references/directory-decision-matrix.md` 的判据
 > （"问它进不进上下文"）是同一个问题的两种表述：
 >
 > ```
@@ -93,9 +93,9 @@ my-skill/
 ```
 
 > ⭐⭐ 500 行这个数字我们已经从两个独立来源验证过了
-> （`official-spec-and-style.md`：由 5000 tokens 物理边界倒推）。
+> （`skill-loading/references/official-spec-and-style.md`：由 5000 tokens 物理边界倒推）。
 > ⭐ **"examples 超过 5 个"是这里新增的一档**——
-> 正好与 `few-shot-examples.md` 的"数量黄金比例（中等 4–6，>5 收益递减）"对上：
+> 正好与 `skill-examples/references/few-shot-examples.md` 的"数量黄金比例（中等 4–6，>5 收益递减）"对上：
 > ⭐⭐ **超过 5 个示例不划算，就该把示例移出正文进独立文件。**
 
 **另外两档**（来自我们已有的判据，排队对照）：
@@ -134,8 +134,8 @@ my-skill/
 ```
 
 > ⭐⭐⭐ 第三条值得强调，因为它与
-> `reference-file-practices.md` 的"每次引用就会读一次"、
-> `token-bloat-audit.md` 的静态开销是同一件事：
+> `skill-structuring/references/reference-file-practices.md` 的"每次引用就会读一次"、
+> `skill-crafting/references/token-bloat-audit.md` 的静态开销是同一件事：
 > ⭐ **塞进库里的每个字都要反复付费。**
 > 而且这里给了具体做法：**摘要 + 链接，而不是全文**。
 
@@ -193,7 +193,7 @@ agents/openai.yaml   # ⭐⭐ Codex 专用
 > **"具体位置和调用方式可能继续演进，
 > ⭐ 安装前应以官方文档为准，⭐⭐ 而不是照搬其他 Agent 工具的路径。"**
 >
-> 这与 `cross-agent-portability.md` 的中性目录 `.agents/skills/` 呼应，
+> 这与 `skill-distribution/references/cross-agent-portability.md` 的中性目录 `.agents/skills/` 呼应，
 > 但也提醒我们：**路径是会变的，别把某篇文章里的路径当标准。**
 
 ---

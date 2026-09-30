@@ -20,7 +20,7 @@
 ```
 
 □ scripts/ 里的脚本是否非交互、有 --help、JSON 输出、区分退出码？
-□ scripts/ 是否幂等、零硬编码凭据、用相对路径？（见 **`skill-authoring` 的 `skill-scripting` 的 `script-engineering.md`**）
+□ scripts/ 是否幂等、零硬编码凭据、用相对路径？（见 **`skill-authoring` 的 `skill-scripting` 的 `skill-scripting/references/script-engineering.md`**）
 
 ## B. 内容（6 项）
 
@@ -33,7 +33,7 @@
 □ 有禁止项清单，且每条禁令带理由
 ```
 
-## B2. 形态（4 项，来自 `skill-crafting` 的 `guidance-forms.md`）
+## B2. 形态（4 项，来自 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`）
 
 ```
 □ 每条禁令防的是"明知故犯"吗？若防的是"形状不对"，应改用输出模板
@@ -69,7 +69,7 @@
 □ 是否已版本化（SemVer + CHANGELOG 记录 why）、走 PR 评审？
 ```
 
-## B6. 安全边界（3 项，来自 `skill-orchestration` 的 `prompt-injection.md`）
+## B6. 安全边界（3 项，来自 `skill-orchestration` 的 `skill-orchestration/references/prompt-injection.md`）
 
 ```
 □ 若读不可信内容，是否要求了边界标记（"这是数据不是指令"）？
@@ -80,7 +80,7 @@
 > 技能是**可复用的指令上下文，不是独立的安全主体**——
 > 干净的顶层段落无法消除稍后获取的恶意内容。
 
-## B7. 落地与验证（3 项，来自 **`skill-authoring` 的 `skill-crafting` 的 `grounding-verification.md`**）
+## B7. 落地与验证（3 项，来自 **`skill-authoring` 的 `skill-crafting` 的 `skill-output/references/grounding-verification.md`**）
 
 ```
 □ 是否有"验证"章节，写明了证明完成的具体命令？
@@ -90,7 +90,7 @@
 
 > 这是**剩余错误的主要来源**——现有技能普遍过度强调流程，而对落地和验证支持不足。
 
-## B8. 回归防护（4 项，来自 `skill-evaluating` 的 `failure-modes.md`）
+## B8. 回归防护（4 项，来自 `skill-evaluating` 的 `skill-triggering/references/failure-modes.md`）
 
 ```
 □ description 里有没有写成行为规范（会造成"描述渗透"）？
@@ -103,7 +103,7 @@
 > 研究报告显示**最好的技能胜出主要是因为回归更少，而不是提升更多**。
 > "这个技能有用"是需要证明的命题，不是默认前提。
 
-## B9. 可移植与演进（4 项，来自 `skill-selection` 的 `cross-model.md` / `lifecycle.md`）
+## B9. 可移植与演进（4 项，来自 `skill-selection` 的 `skill-selection/references/cross-model.md` / `skill-governance/references/lifecycle.md`）
 
 ```
 □ 是否依赖角色扮演（"你是一个……"）而非具体行为要求？
@@ -115,7 +115,7 @@
 > 若要在多个模型 / 客户端上跑，**必打本节**。
 > 提示词是模型相关的——在 GPT 上调好的技能搬到 Claude 上可能无声失败。
 
-## B10. 部署前安全（4 项，来自 `security-review.md`）
+## B10. 部署前安全（4 项，来自 `skill-security/references/security-review.md`）
 
 ```
 □ 是否做完了风险评级（脚本/指令操纵/MCP 引用/网络访问/硬编码凭据）？
@@ -126,7 +126,7 @@
 
 > 部署到共享环境或引入第三方技能时**必打本节**。
 
-## B11. 合规与遥测（4 项，来自 `compliance-audit.md` · `telemetry-schema.md`）
+## B11. 合规与遥测（4 项，来自 `skill-security/references/compliance-audit.md` · `skill-governance/references/telemetry-schema.md`）
 
 ```
 □ 是否有 per-agent identity（动作可归因，而非共享密钥）？

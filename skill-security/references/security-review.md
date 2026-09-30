@@ -116,7 +116,7 @@ skills/
 □ 对"读取技能 / 查看技能 / 列出技能"这类指令做特殊处理
 ```
 
-> 呼应 `skill-orchestration` 的 `prompt-injection.md`：**技能不是安全主体**，
+> 呼应 `skill-orchestration` 的 `skill-orchestration/references/prompt-injection.md`：**技能不是安全主体**，
 > 干净的顶层段落无法消除稍后获取的恶意内容。
 
 ---

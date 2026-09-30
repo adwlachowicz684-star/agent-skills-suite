@@ -24,7 +24,7 @@
 | **缓存** | 重复昂贵调用 | 多层缓存（**提升最明显**） |
 
 > ⚠️ **注意区分**：这里的"性能"是**服务侧**的（延迟/吞吐/并发）；
-> 上下文 token 优化见 `skill-authoring` 的 `skill-refining` 的 `context-budget.md`。
+> 上下文 token 优化见 `skill-authoring` 的 `skill-refining` 的 `skill-context/references/context-budget.md`。
 
 ---
 

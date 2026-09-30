@@ -30,18 +30,18 @@ description: 子代理与 fork 隔离环境下的技能使用。当需要决定"
 
 ## 路由表
 
-| `skill-vs-subagent.md` | ⭐⭐⭐⭐⭐ 判断轴是隔离不是大小；⭐⭐⭐⭐ 按"大小"判断会导致把需要上下文的大任务丢给子代理，答案反而变差 |
-| `context-isolation-fork.md` | ⭐⭐⭐⭐⭐ 隔离扔掉的可能正是任务需要的信息 |
-| `fork-token-economics.md` | ⭐⭐⭐⭐⭐ 主上下文成本零，fork 内仍加载完整正文；⭐⭐⭐⭐ fork 必须共享父前缀 |
-| `fork-official-details.md` | ⭐⭐⭐⭐⭐ 子代理打破整个层叠：②③ 两层默认不存在 |
-| `fork-context-skill.md` | ⭐⭐⭐⭐ 子代理内技能可用性 |
-| `subagent-skill-inheritance.md` | ⭐⭐⭐⭐⭐ 继承什么、不继承什么 |
-| `subagent-advanced.md` | ⭐⭐⭐⭐ 高级用法 |
-| `subagent-teams.md` | ⭐⭐⭐⭐ 多代理分工 |
-| `skill-subagent-combo.md` | ⭐⭐⭐⭐ 组合模式 |
-| `parallel-subagents.md` | ⭐⭐⭐⭐⭐ N 个半成品：每个单独看都成功，合起来是错的 |
-| `multi-agent-review.md` | ⭐⭐⭐⭐ 评审型多代理 |
-| `subagents.md` | ⭐⭐⭐ 基础 |
+| `skill-subagents/references/skill-vs-subagent.md` | ⭐⭐⭐⭐⭐ 判断轴是隔离不是大小；⭐⭐⭐⭐ 按"大小"判断会导致把需要上下文的大任务丢给子代理，答案反而变差 |
+| `skill-subagents/references/context-isolation-fork.md` | ⭐⭐⭐⭐⭐ 隔离扔掉的可能正是任务需要的信息 |
+| `skill-subagents/references/fork-token-economics.md` | ⭐⭐⭐⭐⭐ 主上下文成本零，fork 内仍加载完整正文；⭐⭐⭐⭐ fork 必须共享父前缀 |
+| `skill-subagents/references/fork-official-details.md` | ⭐⭐⭐⭐⭐ 子代理打破整个层叠：②③ 两层默认不存在 |
+| `skill-subagents/references/fork-context-skill.md` | ⭐⭐⭐⭐ 子代理内技能可用性 |
+| `skill-subagents/references/subagent-skill-inheritance.md` | ⭐⭐⭐⭐⭐ 继承什么、不继承什么 |
+| `skill-subagents/references/subagent-advanced.md` | ⭐⭐⭐⭐ 高级用法 |
+| `skill-subagents/references/subagent-teams.md` | ⭐⭐⭐⭐ 多代理分工 |
+| `skill-subagents/references/skill-subagent-combo.md` | ⭐⭐⭐⭐ 组合模式 |
+| `skill-subagents/references/parallel-subagents.md` | ⭐⭐⭐⭐⭐ N 个半成品：每个单独看都成功，合起来是错的 |
+| `skill-subagents/references/multi-agent-review.md` | ⭐⭐⭐⭐ 评审型多代理 |
+| `skill-subagents/references/subagents.md` | ⭐⭐⭐ 基础 |
 
 ## Critical Rules
 

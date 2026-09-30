@@ -1,7 +1,7 @@
 # ROI 与回本：频率决定一切
 
-> 相关：《skill-boundaries》的 `worth-skillifying.md` ·
-> `when-not-to-use-skill.md` · 《skill-adoption》的 `adoption-metrics.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/worth-skillifying.md` ·
+> `skill-boundaries/references/when-not-to-use-skill.md` · 《skill-adoption》的 `skill-adoption/references/adoption-metrics.md`
 
 ---
 

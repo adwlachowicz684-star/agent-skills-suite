@@ -22,11 +22,11 @@ description: 技能的状态与记忆：会话内状态放哪、跨会话持久�
 
 | 参考 | 何时读 |
 |---|---|
-| `state-persistence.md` | ⭐⭐⭐⭐⭐ 进度写到哪、什么该持久化、什么必须随会话消失 |
-| `cross-session-artifacts.md` | ⭐⭐⭐⭐⭐ 跨会话接续：副作用持久而进度不持久；重跑 vs 接续 |
-| `memory-tiers.md` | ⭐⭐⭐⭐⭐ 记忆四层：短期 / 长期 / 程序 / 反思 |
-| `memory-state.md` | ⭐⭐⭐⭐ 技能自带记忆：append-only log / JSON / SQLite |
-| `skill-activation.md` | ⭐⭐⭐ 激活态与生命周期：一次运行的状态边界 |
+| `skill-state/references/state-persistence.md` | ⭐⭐⭐⭐⭐ 进度写到哪、什么该持久化、什么必须随会话消失 |
+| `skill-state/references/cross-session-artifacts.md` | ⭐⭐⭐⭐⭐ 跨会话接续：副作用持久而进度不持久；重跑 vs 接续 |
+| `skill-state/references/memory-tiers.md` | ⭐⭐⭐⭐⭐ 记忆四层：短期 / 长期 / 程序 / 反思 |
+| `skill-state/references/memory-state.md` | ⭐⭐⭐⭐ 技能自带记忆：append-only log / JSON / SQLite |
+| `skill-state/references/skill-activation.md` | ⭐⭐⭐ 激活态与生命周期：一次运行的状态边界 |
 
 ## 速查
 
@@ -47,6 +47,6 @@ description: 技能的状态与记忆：会话内状态放哪、跨会话持久�
 
 ## 相关
 
-- 《skill-recovery》的 `reversibility-and-undo.md`
-- 《skill-execution》的 `intermediate-artifacts.md`
+- 《skill-recovery》的 `skill-recovery/references/reversibility-and-undo.md`
+- 《skill-execution》的 `skill-execution/references/intermediate-artifacts.md`
 - 《skill-context》

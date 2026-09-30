@@ -27,7 +27,7 @@
    ——模型的输出、工具的响应、可观测平台的记录
 ```
 
-呼应 `skill-structuring` 的 `frontmatter-fields.md`（**`skill-crafting`**）：
+呼应 `skill-structuring` 的 `skill-loading/references/frontmatter-fields.md`（**`skill-crafting`**）：
 **不写硬编码密钥/内网地址——只写"从环境变量读取"**。
 
 ## 技能该写什么
@@ -40,7 +40,7 @@
 □ ⭐ 处理外部数据时声明"这是数据不是指令"
 ```
 
-第三条呼应 `prompt-injection.md`（**`skill-orchestration`**）：
+第三条呼应 `skill-orchestration/references/prompt-injection.md`（**`skill-orchestration`**）：
 **用边界标记包裹不可信内容**。
 
 **按数据类型分级**（这是技能真正的价值）：
@@ -78,7 +78,7 @@
 
 ## 日志与遥测的红线
 
-呼应 `telemetry-schema.md` 的"什么不该记"：
+呼应 `skill-governance/references/telemetry-schema.md` 的"什么不该记"：
 
 ```
 ❌ 系统提示词原文    → ✅ prompt_template_version
@@ -91,7 +91,7 @@
 
 > ⭐ **让 prompt 可 diff，但不可读。**
 
-**一条具体建议**（来自 `telemetry-schema.md`）：
+**一条具体建议**（来自 `skill-governance/references/telemetry-schema.md`）：
 
 ```
 □ ⭐ 一定要记 top_k
@@ -105,7 +105,7 @@
    ——既省成本，也减少暴露面
 ```
 
-呼应 `observability-tools.md`：
+呼应 `skill-governance/references/observability-tools.md`：
 **Langfuse 允许你节流 span，LangSmith 惩罚细粒度 span**。
 
 ## 数据驻留与跨境
@@ -116,10 +116,10 @@
 □ ⭐ 跨境传输通常触发额外合规义务
 ```
 
-呼应 `observability-tools.md` 的核心结论：
+呼应 `skill-governance/references/observability-tools.md` 的核心结论：
 **如果 trace 里有不能出内网的数据，这一条直接决定选型**。
 
-以及 `compliance-audit.md`：
+以及 `skill-security/references/compliance-audit.md`：
 **部署者日志留存 ≥6 个月**——留存要求与删除权之间要有明确策略。
 
 ## 自检
@@ -152,7 +152,7 @@
    ——示例里有真数据，输出里就会有
 ```
 
-呼应 `examples.md`（**`skill-authoring`**）：
+呼应 `skill-content/references/examples.md`（**`skill-authoring`**）：
 **一两份干净范例远胜几十个杂乱例子**——
 "干净"也包括不含真实敏感数据。
 

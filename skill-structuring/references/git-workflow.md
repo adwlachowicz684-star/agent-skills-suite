@@ -1,7 +1,7 @@
 # Git 工作流：技能的版本与分工
 
-> 相关：《skill-distribution》的 `release-versioning.md`（语义化版本）·
-> `changelog-practice.md` · `team-sharing.md`（PR 评审）
+> 相关：《skill-distribution》的 `skill-distribution/references/release-versioning.md`（语义化版本）·
+> `skill-distribution/references/changelog-practice.md` · `skill-adoption/references/team-sharing.md`（PR 评审）
 
 ---
 
@@ -47,7 +47,7 @@
 > ⭐ **关键约定：倒序排列——最新的在最上面。**
 > 别人打开文件第一眼就看到最近改了什么，不用翻到底部。
 
-⚠️ 但注意 `skill-structuring` 的 `what-not-to-ship.md` 那条：
+⚠️ 但注意 `skill-structuring` 的 `skill-structuring/references/what-not-to-ship.md` 那条：
 **独立的 `CHANGELOG.md` 文件不该出现在技能目录里**。
 这里的做法是**作为 SKILL.md 末尾的一个区块**，两者不冲突。
 
@@ -97,7 +97,7 @@ push 遇到冲突（remote 有新提交）：
 
 > **两个人都改 SKILL.md 正文？那必然冲突。**
 
-这与 `enterprise-registry.md` 的 RBAC 四角色是同一思路在小组的轻量版。
+这与 `skill-distribution/references/enterprise-registry.md` 的 RBAC 四角色是同一思路在小组的轻量版。
 
 ---
 
@@ -109,7 +109,7 @@ push 遇到冲突（remote 有新提交）：
 
 > ⭐ **触发词变更属于破坏性更新，必须通知所有人。**
 
-这正好对应 `versioning-compat.md` 那条：
+这正好对应 `skill-distribution/references/versioning-compat.md` 那条：
 **不是每次 description 改进都是安全的**——它会改变触发边界。
 
 ### 翻车 2：靠聊天工具传文件

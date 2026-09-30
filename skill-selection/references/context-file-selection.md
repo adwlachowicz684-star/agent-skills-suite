@@ -1,8 +1,8 @@
 # CLAUDE.md / AGENTS.md / SKILL.md：该放哪
 
-> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
-> `instructions-vs-skills-mcp.md` · 《skill-authoring》的
-> `claude-md-vs-skill.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md` ·
+> `skill-boundaries/references/instructions-vs-skills-mcp.md` · 《skill-authoring》的
+> `skill-scoping/references/claude-md-vs-skill.md`
 > 前置：那些讲"技能 vs MCP vs 子代理"，
 > 这份讲⭐ **三个 markdown 文件之间的界线**，以及⭐⭐ 五个常见错误。
 
@@ -195,8 +195,8 @@ CLAUDE.md 引用它
 ```
 
 > ⭐⭐ **"被稀释的注意力"** 比 token 更重要——
-> 这与 `skill-reducer-study.md` 的"减少干扰 +2.8%"
-> 和 `library-size-effect.md` 的结论完全一致。
+> 这与 `skill-refining/references/skill-reducer-study.md` 的"减少干扰 +2.8%"
+> 和 `skill-selection/references/library-size-effect.md` 的结论完全一致。
 
 ---
 

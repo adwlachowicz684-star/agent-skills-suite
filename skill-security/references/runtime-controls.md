@@ -44,7 +44,7 @@
 `.claude/settings.local.json`
 
 > **测试神器**：基线对比时用它开关技能，
-> **完全不用碰 SKILL.md**（见 `skill-evaluating` 的 `testing.md`）。
+> **完全不用碰 SKILL.md**（见 `skill-evaluating` 的 `skill-evaluating/references/testing.md`）。
 
 ---
 
@@ -115,7 +115,7 @@ Review these changes:
 | **命令输出** | `` !`cmd` `` | 执行 shell 并嵌入输出 |
 
 > ⚠️ **输出要小**——大 diff 会挤爆上下文。
-> 见 `skill-refining` 的 `context-budget.md` 的 Observation Masking。
+> 见 `skill-refining` 的 `skill-context/references/context-budget.md` 的 Observation Masking。
 
 ---
 
@@ -152,7 +152,7 @@ Review these changes:
 > 尤其是它是那个"用来安装其他技能"的技能（必须在项目存在之前就有）。
 
 > ⚠️ **加载的技能越多 ≠ agent 越聪明。过了某个点，它会变得更糟。**
-> （见 `skill-evaluating` 的 `failure-modes.md`：候选池 5 → 100，精确率 29.6% → 3.3%）
+> （见 `skill-evaluating` 的 `skill-triggering/references/failure-modes.md`：候选池 5 → 100，精确率 29.6% → 3.3%）
 
 **两条经验**：
 

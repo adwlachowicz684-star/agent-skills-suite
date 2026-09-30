@@ -1,9 +1,9 @@
 # 可移植性：跨产品一致与 compatibility 声明
 
-> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
-> `three-conditions-rule-of-three.md` ·
-> 《skill-distribution》的 `cross-agent-portability.md`
-> 前置：`cross-agent-portability.md` 讲跨平台部署坑，
+> 相关：《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md` ·
+> `skill-selection/references/three-conditions-rule-of-three.md` ·
+> 《skill-distribution》的 `skill-distribution/references/cross-agent-portability.md`
+> 前置：`skill-distribution/references/cross-agent-portability.md` 讲跨平台部署坑，
 > 这份讲⭐ 作者侧该声明什么、以及"可移植"的验收含义。
 
 ---
@@ -49,7 +49,7 @@
 
 ## 3. 与"三条件"的关系
 
-`three-conditions-rule-of-three.md` 的三条件是**该不该做**的判断；
+`skill-selection/references/three-conditions-rule-of-three.md` 的三条件是**该不该做**的判断；
 这份的可移植性是**做出来能不能交付**的判断。
 
 ```
@@ -77,7 +77,7 @@
 ③ ⭐ 静默降级——技能跳过失败步骤继续执行，产出缺一块但不报错
 ```
 
-> ⭐ 第 ③ 条最危险，与 `three-failure-modes.md` 的
+> ⭐ 第 ③ 条最危险，与 `skill-triggering/references/three-failure-modes.md` 的
 > "引用不存在的文件 → 模型自己补内容"是同一类静默失败。
 
 ---

@@ -26,40 +26,41 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 
 ## 何时不用本技能
 
-- 想知道"这个工作流该不该做成技能" → `skill-selection` 的 `worth-skillifying.md`
-- 想改指令措辞、禁令还是配方 → `skill-crafting` 的 `guidance-forms.md`
-- 想拆分已过大的技能 → `skill-refining` 的 `split-three-options.md`
+- 想知道"这个工作流该不该做成技能" → `skill-selection` 的 `skill-boundaries/references/worth-skillifying.md`
+- 想改指令措辞、禁令还是配方 → `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`
+- 想拆分已过大的技能 → `skill-refining` 的 `skill-refining/references/split-three-options.md`
 - 想评估技能好不好用 → `skill-evaluating`
 
 ## 路由表（按需深读）
-| `directory-growth-path.md` | ⭐⭐⭐ 从1个文件起步；参考文档给链接+摘要不要全文复制 |
-| `frontmatter-body-consistency.md` | ⭐⭐⭐⭐⭐ description 承诺了正文没有；⭐⭐⭐⭐⭐ 缺失不报错因为没环节在等它；⭐⭐⭐⭐⭐ 从短的一侧检查 |
-| `reference-file-practices.md` | ⭐⭐ 一层深度 + 100行带目录 + 会被重复读取 |
-| `directory-decision-matrix.md` | ⭐ 决策矩阵：每个文件该放哪个子目录 |
-| `rename-alias-deprecation.md` | ⭐⭐⭐⭐⭐ 改名不会报错→静默降级；⭐⭐⭐⭐⭐ 旧名写进描述=零成本别名；⭐⭐⭐⭐ 弃用四段式（含新旧差异）|
-| `skill-directory-contract.md` | ⭐⭐⭐⭐⭐ 复制到新机器应立刻能用；⭐⭐⭐⭐⭐ 悬空引用=幻觉来源；⭐⭐⭐ config-example 里的真值也是泄露 |
-| `skill-documentation-beyond-body.md` | ⭐⭐⭐⭐⭐ 写在 README 里的安全约束 agent 读不到；⭐⭐⭐⭐⭐ 过时的限制比没有限制更有害 |
-| `naming-conventions.md` | ⭐ 命名约定：三重角色、硬规则、一致性 > 形态 |
-| `skill-structuring` 的 `directory-contract.md` | ⭐ 目录契约：三个子目录各装什么、assets 不是用来读的 |
-| `skill-structuring` 的 `resource-bundling.md` | ⭐ 打包资源：脚本标签、四条不要放、执行意图 |
-| `skill-structuring` 的 `references-vs-assets.md` | ⭐ references 进上下文 vs assets 零成本引用 |
-| `skill-structuring` 的 `reference-routing.md` | ⭐ 引用路由：Router + STOP 指令、一层深、长文件带 TOC |
-| `skill-structuring` 的 `reference-organization.md` | ⭐ 参考文件拆分阈值、三种组织方式、grep 模式 |
-| `skill-structuring` 的 `progressive-disclosure-official.md` | ⭐ 官方渐进式披露三模式：按域组织、条件式、避免嵌套 |
-| `skill-structuring` 的 `enterprise-layout.md` | 企业目录结构：按职能分区、分角色审查 |
-| `skill-structuring` 的 `what-not-to-ship.md` | ⭐ 发布前该删的：多余文件、密钥、时敏信息 |
-| `skill-structuring` 的 `git-workflow.md` | Git 工作流：Changelog 倒序、分工、触发词变更要通知 |
-| `skill-structuring` 的 `content-placement-flowchart.md` | ⭐ 内容放哪五问决策流 + 跨阶段参数快照 |
-| `skill-structuring` 的 `lint-tooling.md` | ⭐ Lint 工具横评：skillscheck / skill-tools 各管什么 |
+| `skill-structuring/references/directory-growth-path.md` | ⭐⭐⭐ 从1个文件起步；参考文档给链接+摘要不要全文复制 |
+| `skill-structuring/references/frontmatter-body-consistency.md` | ⭐⭐⭐⭐⭐ description 承诺了正文没有；⭐⭐⭐⭐⭐ 缺失不报错因为没环节在等它；⭐⭐⭐⭐⭐ 从短的一侧检查 |
+| `skill-structuring/references/reference-file-practices.md` | ⭐⭐ 一层深度 + 100行带目录 + 会被重复读取 |
+| `skill-structuring/references/directory-decision-matrix.md` | ⭐ 决策矩阵：每个文件该放哪个子目录 |
+| `skill-structuring/references/rename-alias-deprecation.md` | ⭐⭐⭐⭐⭐ 改名不会报错→静默降级；⭐⭐⭐⭐⭐ 旧名写进描述=零成本别名；⭐⭐⭐⭐ 弃用四段式（含新旧差异）|
+| `skill-structuring/references/skill-directory-contract.md` | ⭐⭐⭐⭐⭐ 复制到新机器应立刻能用；⭐⭐⭐⭐⭐ 悬空引用=幻觉来源；⭐⭐⭐ config-example 里的真值也是泄露 |
+| `skill-structuring/references/skill-documentation-beyond-body.md` | ⭐⭐⭐⭐⭐ 写在 README 里的安全约束 agent 读不到；⭐⭐⭐⭐⭐ 过时的限制比没有限制更有害 |
+| `skill-structuring/references/naming-conventions.md` | ⭐ 命名约定：三重角色、硬规则、一致性 > 形态 |
+| `skill-structuring` 的 `skill-structuring/references/directory-contract.md` | ⭐ 目录契约：三个子目录各装什么、assets 不是用来读的 |
+| `skill-structuring` 的 `skill-structuring/references/resource-bundling.md` | ⭐ 打包资源：脚本标签、四条不要放、执行意图 |
+| `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` | ⭐ references 进上下文 vs assets 零成本引用 |
+| `skill-structuring` 的 `skill-structuring/references/reference-routing.md` | ⭐ 引用路由：Router + STOP 指令、一层深、长文件带 TOC |
+| `skill-structuring` 的 `skill-structuring/references/reference-organization.md` | ⭐ 参考文件拆分阈值、三种组织方式、grep 模式 |
+| `skill-structuring` 的 `skill-structuring/references/progressive-disclosure-official.md` | ⭐ 官方渐进式披露三模式：按域组织、条件式、避免嵌套 |
+| `skill-structuring` 的 `skill-structuring/references/enterprise-layout.md` | 企业目录结构：按职能分区、分角色审查 |
+| `skill-structuring` 的 `skill-structuring/references/what-not-to-ship.md` | ⭐ 发布前该删的：多余文件、密钥、时敏信息 |
+| `skill-structuring` 的 `skill-structuring/references/git-workflow.md` | Git 工作流：Changelog 倒序、分工、触发词变更要通知 |
+| `skill-structuring` 的 `skill-structuring/references/content-placement-flowchart.md` | ⭐ 内容放哪五问决策流 + 跨阶段参数快照 |
+| `skill-structuring` 的 `skill-structuring/references/lint-tooling.md` | ⭐ Lint 工具横评：skillscheck / skill-tools 各管什么 |
+| `skill-structuring/references/five-paragraph-skeleton.md` | ⭐⭐⭐⭐⭐ 正文五段排布：红线在首、验收在尾、两端重复 |
 
 **布局与打包**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 三个子目录各装什么 | `skill-structuring` 的 `directory-contract.md` |
-| ⭐ 内容放哪（五问决策流） | `skill-structuring` 的 `content-placement-flowchart.md` |
-| ⭐ 打包资源、四条不要放 | `skill-structuring` 的 `resource-bundling.md` |
-| 企业目录结构 | `skill-structuring` 的 `enterprise-layout.md` |
+| ⭐ 三个子目录各装什么 | `skill-structuring` 的 `skill-structuring/references/directory-contract.md` |
+| ⭐ 内容放哪（五问决策流） | `skill-structuring` 的 `skill-structuring/references/content-placement-flowchart.md` |
+| ⭐ 打包资源、四条不要放 | `skill-structuring` 的 `skill-structuring/references/resource-bundling.md` |
+| 企业目录结构 | `skill-structuring` 的 `skill-structuring/references/enterprise-layout.md` |
 
 ## Critical Rules
 

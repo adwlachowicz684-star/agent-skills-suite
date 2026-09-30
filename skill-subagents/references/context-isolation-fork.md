@@ -1,7 +1,7 @@
 # 上下文隔离：何时 fork，何时别 fork
 
-> 相关：《skill-subagents》的 `fork-context-skill.md` ·
-> `fork-official-details.md` · `subagent-skill-inheritance.md`
+> 相关：《skill-subagents》的 `skill-subagents/references/fork-context-skill.md` ·
+> `skill-subagents/references/fork-official-details.md` · `skill-subagents/references/subagent-skill-inheritance.md`
 
 ---
 
@@ -78,7 +78,7 @@ general-purpose  完整工具
 > ⭐ **`context: fork` + 一个由分类法/模板/知识构成的正文 = 空输出。**
 > 子代理把正文当成它的任务；**没有指令，就无事可做**。
 
-这与 `fork-official-details.md` 那条完全一致。
+这与 `skill-subagents/references/fork-official-details.md` 那条完全一致。
 
 **② 追问敏感性**
 

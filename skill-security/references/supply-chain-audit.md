@@ -88,7 +88,7 @@ grep -rn "base64\|\\\\x[0-9a-f]" <skill-dir>
 grep -rn "crontab\|launchd\|\.bashrc\|\.zshrc\|startup\|autorun" <skill-dir>
 ```
 
-> ⭐ 完整模式见 `security-audit-ops.md`；
+> ⭐ 完整模式见 `skill-security/references/security-audit-ops.md`；
 > 这里的关键是**四组命令能覆盖绝大多数真实攻击**。
 
 MCP server 额外检查：

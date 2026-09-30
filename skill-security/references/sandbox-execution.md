@@ -55,7 +55,7 @@ docker run --rm \
 
 ### 闸门 3：人工确认
 
-> 见 `injection-defense.md` 的层 3——
+> 见 `skill-security/references/injection-defense.md` 的层 3——
 > **展示实际将要执行的动作，而不是模型的转述**。
 
 ### 闸门 4：第三方来源

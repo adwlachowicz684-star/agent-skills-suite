@@ -1,10 +1,10 @@
 # 作用域与挂载：不是所有技能都该装进项目
 
-> 相关：《skill-selection》的 `skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
-> `context-budget-per-skill.md`（上下文预算）·
-> `skill-cost-attribution.md`（成本归账）·
-> 《skill-distribution》的 `release-collaboration.md` ·
-> 《skill-loading》的 `skill-cascade-css.md`（层级与覆盖）
+> 相关：《skill-selection》的 `skill-selection/references/skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
+> `skill-context/references/context-budget-per-skill.md`（上下文预算）·
+> `skill-context/references/skill-cost-attribution.md`（成本归账）·
+> 《skill-distribution》的 release-collaboration.md ·
+> 《skill-loading》的 `skill-loading/references/skill-cascade-css.md`（层级与覆盖）
 > 前置：
 > 投资组合审计说"删掉垫底 50%"，但没说⭐⭐⭐⭐ **删到哪里去**；
 > 而"低频高价值最该留"和"每项目只留 2–3 个"看着矛盾。
@@ -56,7 +56,7 @@ B ⭐⭐⭐⭐ 每个项目只留 2–3 个技能
 > ⭐⭐⭐⭐⭐ **它让"删"变成"移"**——
 > 而"移"的决策成本远低于"删"（因为可逆）。
 
-这与 `skill-scope-tiering.md` 那条
+这与 `skill-refining/references/skill-scope-tiering.md` 那条
 "没有恢复路径的空壳，就是没人承认的删除"完全同源：
 **可逆性是让治理真正发生的前提。**
 
@@ -148,7 +148,7 @@ B ⭐⭐⭐⭐ 每个项目只留 2–3 个技能
 ⭐⭐⭐⭐⭐ 判据：技能里出现了这个项目才有的路径/术语/缩写
 ```
 
-（与 `portability-across-projects.md` 的"组织耦合"是同一信号——
+（与 `skill-content/references/portability-across-projects.md` 的"组织耦合"是同一信号——
 **一旦出现，这个技能就已经是项目级的了，只是还没搬过去。**）
 
 ---

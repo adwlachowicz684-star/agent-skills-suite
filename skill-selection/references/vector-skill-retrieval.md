@@ -1,8 +1,8 @@
 # 用向量检索技能：当技能多到模型选不过来
 
-> 相关：《skill-selection》的 `library-size-effect.md`（遮蔽占 68%）·
-> 《skill-orchestration》的 `namespace-collision.md`（缩候选到 3–8）·
-> 《skill-boundaries》的 `skill-vs-rag.md`
+> 相关：《skill-selection》的 `skill-selection/references/library-size-effect.md`（遮蔽占 68%）·
+> 《skill-orchestration》的 `skill-orchestration/references/namespace-collision.md`（缩候选到 3–8）·
+> 《skill-boundaries》的 `skill-boundaries/references/skill-vs-rag.md`
 
 ---
 
@@ -18,7 +18,7 @@
 
 ## 1. 为什么需要它
 
-模型的激活决策是**纯 LLM 推理**（见 `activation-rate.md`），
+模型的激活决策是**纯 LLM 推理**（见 `skill-description/references/activation-rate.md`），
 当技能数量增长，元数据层变嘈杂，**路由质量下降**——
 ⭐ 即使没有任何单个技能发生变化（微软渐进式披露研究）。
 

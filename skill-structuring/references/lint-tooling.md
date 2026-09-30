@@ -1,8 +1,8 @@
 # Lint 工具横评：五个工具各管什么
 
-> 相关：`skill-crafting` 的 `skill-structuring` 的 `frontmatter-pitfalls.md`（该查什么）·
-> `skill-authoring` 的 `validation-escalation.md` ·
-> 《skill-evaluating》的 `test-pyramid.md`（第 1 层）
+> 相关：`skill-crafting` 的 `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md`（该查什么）·
+> `skill-authoring` 的 `skill-content/references/validation-escalation.md` ·
+> 《skill-evaluating》的 `skill-evaluating/references/test-pyramid.md`（第 1 层）
 
 ---
 
@@ -95,7 +95,7 @@ skill-tools route "deploy my app" --skills ./skills/
 skill-tools route --conflicts --skills ./skills/
 ```
 
-> `--conflicts` 直接回答 `namespace-collision.md` 里那件事——
+> `--conflicts` 直接回答 `skill-orchestration/references/namespace-collision.md` 里那件事——
 > **不用靠人眼比对 description**。
 
 还有 `watch`（保存即重查）、`init`（脚手架）、`to-prompt`（生成 XML 给系统提示词）、
@@ -113,7 +113,7 @@ skill-tools route --conflicts --skills ./skills/
 | **agent-skill-linter** | 发布就绪（frontmatter + manifest）+ 自动修复 |
 
 > ⭐ **依赖环检测**是 claude-skill-lint 独有的高价值项——
-> `catalog-shape.md` 把循环依赖列为结构性反模式，而人眼很难发现。
+> `skill-refining/references/catalog-shape.md` 把循环依赖列为结构性反模式，而人眼很难发现。
 
 ---
 
@@ -153,9 +153,9 @@ skill-tools check ./skills/ --format sarif > results.sarif
 | 只关心 spec 合规 | skill-lint |
 | 发布前最后一道 | agent-skill-linter |
 
-⚠️ 一条提醒（与 `security-audit-ops.md` 一致）：
+⚠️ 一条提醒（与 `skill-security/references/security-audit-ops.md` 一致）：
 **工具说 SAFE 不等于安全**。扫描器只覆盖已知模式，
-隐藏在自然语言里的手法（如 `marketplace-security.md` 那个 HTML 注释案例）扫不出来。
+隐藏在自然语言里的手法（如 `skill-security/references/marketplace-security.md` 那个 HTML 注释案例）扫不出来。
 
 ---
 

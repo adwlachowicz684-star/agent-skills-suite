@@ -71,7 +71,7 @@ MCP server        提供实际的工具 —— 能力层
 ```
 
 > ⭐ 这类"哪档模型能做哪件事"的表格，
-> 正是 `skill-authoring` 的 `skill-types.md` 里"库和 API 参考"类的典型内容——
+> 正是 `skill-authoring` 的 `skill-content/references/skill-types.md` 里"库和 API 参考"类的典型内容——
 > **gotchas 与能力门槛是最有价值的**。
 
 ---
@@ -89,7 +89,7 @@ PDF    258 tokens/页         （固定）
 图像   258–1,548 tokens      （按尺寸）
 ```
 
-> 对照 `skill-refining` 的 `context-budget.md`：
+> 对照 `skill-refining` 的 `skill-context/references/context-budget.md`：
 > **一个 1 小时的音频就是 115K tokens**——
 > 比一份完整技能库还大。所以"先算再用"不是优化，是必需。
 
@@ -127,7 +127,7 @@ PDF    258 tokens/页         （固定）
 解：分级压缩（见上）
 ```
 
-> ⭐ **"结构化输出 > 自由文本"** 与 `skill-crafting` 的 `output-contract.md` 完全一致——
+> ⭐ **"结构化输出 > 自由文本"** 与 `skill-crafting` 的 `skill-output/references/output-contract.md` 完全一致——
 > 多模态尤其如此，因为自由文本描述图像会丢掉大量可验证信息。
 
 ---
@@ -193,7 +193,7 @@ PDF    258 tokens/页         （固定）
 5. .claude/skills/<技能名>/.env
 ```
 
-> 呼应 `skill-scripting` 的 `script-engineering.md` 与 security：**走环境变量，绝不写进文件。**
+> 呼应 `skill-scripting` 的 `skill-scripting/references/script-engineering.md` 与 security：**走环境变量，绝不写进文件。**
 
 **③ 统一入口 + 任务参数**
 
@@ -217,7 +217,7 @@ Codex（克隆 + 软链到 ~/.agents/skills）
 OpenCode（克隆 + 软链全部）
 ```
 
-> 呼应 `skill-crafting` 的 `skill-structuring` 的 `directory-contract.md`：**`.agents/skills/` 是跨客户端的互操作路径。**
+> 呼应 `skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md`：**`.agents/skills/` 是跨客户端的互操作路径。**
 
 ---
 

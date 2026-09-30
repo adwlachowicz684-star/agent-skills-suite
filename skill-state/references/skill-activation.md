@@ -26,7 +26,7 @@
 动态切换：只有当前阶段相关的技能在上下文里
 ```
 
-呼应 `runtime-controls.md` 里 `/skill-doctor` 的定位：
+呼应 `skill-security/references/runtime-controls.md` 里 `/skill-doctor` 的定位：
 **列表里每一个技能每一轮都在消耗上下文，不管有没有用过**。
 
 ## 三种激活策略
@@ -60,7 +60,7 @@
 3. 激活新技能，并在新技能的上下文里引用步骤 1 的产物路径
 ```
 
-> 呼应 `memory-state.md` 的交接班协议——
+> 呼应 `skill-state/references/memory-state.md` 的交接班协议——
 > **切换技能本质是跨会话/跨阶段的记忆传递问题**。
 
 **保留产物的原因**：
@@ -102,8 +102,8 @@ vpn-guide                  → 沙箱里预装的各类 VPN 客户端连接
 ```
 
 **25 这个数字值得注意**——
-呼应 `skill-composition-patterns.md`（**`skill-orchestration`**）的甜蜜点 5–8
-与 `scale-effects.md` 的"装太多 description 会被压缩削掉关键词"：
+呼应 `skill-composition/references/skill-composition-patterns.md`（**`skill-orchestration`**）的甜蜜点 5–8
+与 `skill-governance/references/scale-effects.md` 的"装太多 description 会被压缩削掉关键词"：
 
 ```
 技能数    适用
@@ -128,7 +128,7 @@ vpn-guide                  → 沙箱里预装的各类 VPN 客户端连接
 注意示例库里 `security-findings` 是独立的——
 **报告的产出规范与发现的过程规范是两件事**。
 
-呼应 `output-contract.md`（**`skill-crafting`**）：
+呼应 `skill-output/references/output-contract.md`（**`skill-crafting`**）：
 输出契约应该独立可测。
 
 **③ 大参考文档用"技能 + references"承载**

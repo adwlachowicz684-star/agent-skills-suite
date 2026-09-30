@@ -1,8 +1,8 @@
 # ToxicSkills：13.4% 的公开技能有严重问题
 
-> 相关：《skill-security》的 `pre-install-security-audit.md`（15 向量与判决规则）·
-> `marketplace-security.md`（ClawHub 2026-03 事件）·
-> `unicode-injection-defense.md` · `allowed-tools-least-privilege.md`
+> 相关：《skill-security》的 `skill-security/references/pre-install-security-audit.md`（15 向量与判决规则）·
+> `skill-security/references/marketplace-security.md`（ClawHub 2026-03 事件）·
+> `skill-security/references/unicode-injection-defense.md` · `skill-security/references/allowed-tools-least-privilege.md`
 > 前置：那份讲"安装前怎么审"，
 > 这份讲⭐⭐⭐ **第一个系统性的生态审计数据**——
 > 以及⭐⭐⭐ 三个具体的攻击模式（其中一个是⭐⭐ 我们没覆盖过的新机制）。
@@ -100,7 +100,7 @@ ToxicSkills 记录了⭐ 第一起针对 Claude Code 用户的协调恶意活动
 ⭐⭐ 在⭐ 看起来正常的工作过程中执行载荷
 ```
 
-> ⭐⭐⭐ 这与 `allowed-tools-least-privilege.md` 的
+> ⭐⭐⭐ 这与 `skill-security/references/allowed-tools-least-privilege.md` 的
 > "bash + curl 是经典危险组合"完全一致，
 > ⭐⭐ 但这里补上了⭐ **时序**——载荷不是立刻执行，
 > ⭐⭐⭐ 是⭐ 埋伏起来，等一个正常触发词。
@@ -143,10 +143,10 @@ ToxicSkills 记录了⭐ 第一起针对 Claude Code 用户的协调恶意活动
 ```
 
 > ⭐⭐⭐ 这条把我们此前一条零散的建议变成了⭐ 硬性要求：
-> `dependency-lockfile.md` 说"pin 到具体 commit hash"——
+> `skill-distribution/references/dependency-lockfile.md` 说"pin 到具体 commit hash"——
 > ⭐⭐⭐ **现在有了明确理由**：不 pin，就意味着
 > ⭐ **你今天审计过的技能，明天可能已经不是你审计的那一版**。
-> 这也与 `skill-rot-rollback-discipline.md` 的"歧义时默认回滚"同源。
+> 这也与 `skill-versioning/references/skill-rot-rollback-discipline.md` 的"歧义时默认回滚"同源。
 
 ---
 
@@ -178,7 +178,7 @@ SkillsMP · skills.sh · LobeHub
 > 341 个恶意技能通过 ClawHub、Snyk 在超过三分之一的技能里发现注入——
 > ⭐⭐⭐ 都不是因为审查失败了，而是⭐ **压根没有审查发生**。
 >
-> ⭐⭐ 这与 `pre-install-security-audit.md` 的"90 秒审计"形成对照：
+> ⭐⭐ 这与 `skill-security/references/pre-install-security-audit.md` 的"90 秒审计"形成对照：
 > 那份给的是⭐ 你能做的最低成本防线，
 > 而这份数据说明⭐ **绝大多数人连 90 秒都没花**。
 
@@ -218,10 +218,10 @@ SkillsMP · skills.sh · LobeHub
 
 | 已有 | 本份补充 |
 |---|---|
-| `pre-install-security-audit.md`：15 向量怎么审 | ⭐⭐ 审什么之外的**为什么必须审**（13.4% / 三分之一 / 零审查） |
-| `marketplace-security.md`：ClawHub 2026-03 | ⭐⭐⭐ ClawHub 之前的**系统性审计数据**，以及 11 天暴露窗口 |
-| `unicode-injection-defense.md`：人类审查失效 | ⭐⭐⭐ **即使没有隐藏字符，普通文字也能注入**（占比 42%） |
-| `allowed-tools-least-privilege.md` | ⭐⭐⭐ 补上**时序**（埋伏等正常触发词）与**模式 2**（不调用也中招） |
+| `skill-security/references/pre-install-security-audit.md`：15 向量怎么审 | ⭐⭐ 审什么之外的**为什么必须审**（13.4% / 三分之一 / 零审查） |
+| `skill-security/references/marketplace-security.md`：ClawHub 2026-03 | ⭐⭐⭐ ClawHub 之前的**系统性审计数据**，以及 11 天暴露窗口 |
+| `skill-security/references/unicode-injection-defense.md`：人类审查失效 | ⭐⭐⭐ **即使没有隐藏字符，普通文字也能注入**（占比 42%） |
+| `skill-security/references/allowed-tools-least-privilege.md` | ⭐⭐⭐ 补上**时序**（埋伏等正常触发词）与**模式 2**（不调用也中招） |
 
 ---
 

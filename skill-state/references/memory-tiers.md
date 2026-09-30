@@ -169,7 +169,7 @@ agent 在对话层写给自己的笔记
 没有 eval 兜底的自我修改，正是从这里看出了问题：
 它把"一次通过"当成了"已验证"。
 
-**② 技能的持久化产物**（见 `cross-session-artifacts.md`）
+**② 技能的持久化产物**（见 `skill-state/references/cross-session-artifacts.md`）
 其实是在**情节层与语义层之间**架桥——
 `CONTEXT.md` 偏情节（发生了什么），
 ADR 偏语义（我们认定的事实）。

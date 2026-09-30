@@ -32,24 +32,24 @@ description: 判断某件事该不该做成技能、该用哪种机制。用于�
 ```
 
 ## 路由表（按需深读）
-| `skill-vs-mcp-two-layers.md` | ⭐⭐★★★ 失败不对称（隐形 vs 报错）；★Token 不对称；编排+执行 |
-| `four-way-choice.md` | ⭐⭐⭐ 四选一：★三种规则差别只在★何时加载+多大范围；★技能=共享 子代理=隔离 |
-| `skill-portfolio-audit.md` | ⭐⭐⭐⭐★ 47个34%僵尸；★要么便宜+频繁要么昂贵+高价值，中间地带死 |
-| `prompt-vs-skill-failure-modes.md` | ⭐⭐⭐ Prompt四失败 vs 技能五失败；★错得自信而正确最难发现 |
-| `skill-vs-subagent-decide.md` | ⭐⭐⭐ 判断轴是隔离不是大小；子代理挂技能 |
-| `skill-vs-workflow.md` | ⭐⭐ Skill管怎么做/Workflow管流转；skill没有强制力 |
-| `context-file-selection.md` | ⭐⭐ 五问决策流程；300行CLAUDE.md不一致比没有更糟 |
-| `three-conditions-rule-of-three.md` | ⭐ 三条件 + 三次法则 + 过度抽象治理表 |
-| `skill-portability-declare.md` | 可移植性验收与 compatibility 声明 |
-| `hard-thresholds-matrix.md` | ⭐⭐⭐⭐⭐ 三条硬门槛；⭐⭐⭐⭐⭐ 技能不会因为没数据而停下，它会编一个 |
-| `scope-and-mounting.md` | ⭐⭐⭐⭐⭐ "留"和"装"是两个独立选择；⭐⭐⭐⭐⭐ 认知切换是主要成本 |
-| `first-skill-cold-start.md` | ⭐⭐⭐⭐⭐ 第一个技能=你会做但嫌烦的事；⭐⭐⭐⭐⭐ 不触发改描述不改正文；⭐⭐⭐⭐ 第二个要等第一个用了 5 次 |
-| `roi-breakeven.md` | ⭐ ROI 回本公式：B/(S×N)，频率是唯一决定项 |
-| `project-level-overload.md` | ⭐⭐⭐⭐ 每项目只留 2–3 个；⭐⭐⭐⭐⭐ 一次性技能用完就删；库存≠装载 |
-| `worth-skillifying.md` | ⭐ 该不该做：三条硬标准 + 五维矩阵 + 反直觉判断 |
-| `when-not-to-use-skill.md` | ⭐ 六条不该做成技能 + 三种误用后果（伪稳定最危险） |
-| `five-layer-choice.md` | ⭐ 五层选型：Prompt/Skill/Project/MCP/Subagent |
-| `vector-skill-retrieval.md` | ⭐ 向量检索技能：Top-K 3–8、冷启动先别上 |
+| `skill-boundaries/references/skill-vs-mcp-two-layers.md` | ⭐⭐★★★ 失败不对称（隐形 vs 报错）；★Token 不对称；编排+执行 |
+| `skill-boundaries/references/four-way-choice.md` | ⭐⭐⭐ 四选一：★三种规则差别只在★何时加载+多大范围；★技能=共享 子代理=隔离 |
+| `skill-selection/references/skill-portfolio-audit.md` | ⭐⭐⭐⭐★ 47个34%僵尸；★要么便宜+频繁要么昂贵+高价值，中间地带死 |
+| `skill-selection/references/prompt-vs-skill-failure-modes.md` | ⭐⭐⭐ Prompt四失败 vs 技能五失败；★错得自信而正确最难发现 |
+| `skill-boundaries/references/skill-vs-subagent-decide.md` | ⭐⭐⭐ 判断轴是隔离不是大小；子代理挂技能 |
+| `skill-boundaries/references/skill-vs-workflow.md` | ⭐⭐ Skill管怎么做/Workflow管流转；skill没有强制力 |
+| `skill-selection/references/context-file-selection.md` | ⭐⭐ 五问决策流程；300行CLAUDE.md不一致比没有更糟 |
+| `skill-selection/references/three-conditions-rule-of-three.md` | ⭐ 三条件 + 三次法则 + 过度抽象治理表 |
+| `skill-selection/references/skill-portability-declare.md` | 可移植性验收与 compatibility 声明 |
+| `skill-selection/references/hard-thresholds-matrix.md` | ⭐⭐⭐⭐⭐ 三条硬门槛；⭐⭐⭐⭐⭐ 技能不会因为没数据而停下，它会编一个 |
+| `skill-selection/references/scope-and-mounting.md` | ⭐⭐⭐⭐⭐ "留"和"装"是两个独立选择；⭐⭐⭐⭐⭐ 认知切换是主要成本 |
+| `skill-selection/references/first-skill-cold-start.md` | ⭐⭐⭐⭐⭐ 第一个技能=你会做但嫌烦的事；⭐⭐⭐⭐⭐ 不触发改描述不改正文；⭐⭐⭐⭐ 第二个要等第一个用了 5 次 |
+| `skill-selection/references/roi-breakeven.md` | ⭐ ROI 回本公式：B/(S×N)，频率是唯一决定项 |
+| `skill-selection/references/project-level-overload.md` | ⭐⭐⭐⭐ 每项目只留 2–3 个；⭐⭐⭐⭐⭐ 一次性技能用完就删；库存≠装载 |
+| `skill-boundaries/references/worth-skillifying.md` | ⭐ 该不该做：三条硬标准 + 五维矩阵 + 反直觉判断 |
+| `skill-boundaries/references/when-not-to-use-skill.md` | ⭐ 六条不该做成技能 + 三种误用后果（伪稳定最危险） |
+| `skill-boundaries/references/five-layer-choice.md` | ⭐ 五层选型：Prompt/Skill/Project/MCP/Subagent |
+| `skill-selection/references/vector-skill-retrieval.md` | ⭐ 向量检索技能：Top-K 3–8、冷启动先别上 |
 
 **可移植性**：
 

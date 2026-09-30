@@ -1,8 +1,8 @@
 # 安装前安全审计：15 向量与判决规则
 
-> 相关：《skill-security》的 `supply-chain-audit.md`（依赖治理）·
-> `injection-audit.md`（六类红旗）· `security-audit-ops.md`（审计流程）·
-> `allowed-tools-least-privilege.md`
+> 相关：《skill-security》的 `skill-security/references/supply-chain-audit.md`（依赖治理）·
+> `skill-security/references/injection-audit.md`（六类红旗）· `skill-security/references/security-audit-ops.md`（审计流程）·
+> `skill-security/references/allowed-tools-least-privilege.md`
 > 前置：那些讲"依赖怎么管、红旗长什么样、审计怎么走"，
 > 这份给一份⭐ **可直接执行的扫描清单 + 每种命中的判决（BLOCK/FLAG/REJECT）**。
 
@@ -28,7 +28,7 @@
 
 > ⭐ **Shell 指令在 hooks 里是在模型对输出进行推理之前就执行的。**
 
-> ⭐ 这解释了为什么 `determinism-boundary.md` 说"拦截写进技能是表演"——
+> ⭐ 这解释了为什么 `skill-evaluating/references/determinism-boundary.md` 说"拦截写进技能是表演"——
 > **执行顺序上，hook 已经跑完了，模型才刚开始想。**
 
 **信任原则**：⭐ 连"可信来源"的技能也要验——可能被供应链攻击、可能含可利用漏洞、可能权限过宽。
@@ -205,7 +205,7 @@ C) 社区审计（扫描结果 + 徽章）
 ```
 
 > ⭐⭐ **"签名验的是身份，不是善意"** ——
-> 这与 `marketplace-security.md` 那句"签名验的是身份与完整性，不是善意与安全"
+> 这与 `skill-security/references/marketplace-security.md` 那句"签名验的是身份与完整性，不是善意与安全"
 > 完全一致，**两个独立来源得出同一结论**。
 
 > ⭐ 最后那句 "can still be useful without being dangerous" 是最佳总结：

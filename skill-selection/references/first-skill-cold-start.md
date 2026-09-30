@@ -1,9 +1,9 @@
 # 技能的冷启动：第一个技能该做什么
 
-> 相关：《skill-adoption》的 `adoption-playbook-six-steps.md`（首个用例四条件）·
-> 《skill-selection》的 `roi-breakeven.md`（回本公式）·
-> `context-file-selection.md`（技能 vs CLAUDE.md）·
-> 《skill-crafting》的 `minimum-viable-three-principles.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/adoption-playbook-six-steps.md`（首个用例四条件）·
+> 《skill-selection》的 `skill-selection/references/roi-breakeven.md`（回本公式）·
+> `skill-selection/references/context-file-selection.md`（技能 vs CLAUDE.md）·
+> 《skill-crafting》的 `skill-crafting/references/minimum-viable-three-principles.md`
 > 前置：
 > 采用手册讲⭐⭐⭐ **团队层面怎么铺开**，
 > 这份讲⭐⭐⭐⭐⭐ **个人/小团队从零开始时第一步该做什么**——
@@ -60,7 +60,7 @@
 > ⭐⭐⭐⭐⭐ **"你会做但嫌烦"意味着流程在你脑子里，
 > 写技能只是把它倒出来**——你不需要发明任何东西。
 
-第四条与 `adoption-playbook-six-steps.md` 那条
+第四条与 `skill-adoption/references/adoption-playbook-six-steps.md` 那条
 "工程师把 agent 用在手上最棘手的任务上，于是断定这工具还不行"
 是同一结论：**第一个用例必须选错了也无所谓的。**
 

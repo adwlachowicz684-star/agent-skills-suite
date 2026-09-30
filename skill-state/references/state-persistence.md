@@ -1,8 +1,8 @@
 # 状态持久化：会话之间不保留是设计，不是 bug
 
-> 相关：《skill-state》的 `memory-state.md` ·
-> `cross-session-artifacts.md` ·
-> `skill-crafting` 的 `official-lessons.md`（config.json 模式）
+> 相关：《skill-state》的 `skill-state/references/memory-state.md` ·
+> `skill-state/references/cross-session-artifacts.md` ·
+> `skill-crafting` 的 `skill-scoping/references/official-lessons.md`（config.json 模式）
 
 ---
 
@@ -39,7 +39,7 @@
 | **用户偏好** | 格式约定、命名习惯、输出风格 |
 | **累积数据** | 历史运行结果、处理过的 ID、错误计数 |
 
-一个典型结构（见 `official-lessons.md`）：
+一个典型结构（见 `skill-scoping/references/official-lessons.md`）：
 
 ```json
 {
@@ -93,7 +93,7 @@
 
 ## 5. 与"外部状态"这一上下文手段的关系
 
-`infinite-loop-timeout.md` 里"上下文溢出的四个预防手段"中，
+`skill-recovery/references/infinite-loop-timeout.md` 里"上下文溢出的四个预防手段"中，
 第三条是**外部状态**：
 
 > 不要把任务状态全放在会话里，

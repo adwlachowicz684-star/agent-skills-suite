@@ -1,8 +1,8 @@
 # Prompt 与技能各自的失败模式
 
-> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
-> `worth-skillifying.md` · `when-not-to-use-skill.md` ·
-> `five-layer-choice.md` · `skill-vs-workflow.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md` ·
+> `skill-boundaries/references/worth-skillifying.md` · `skill-boundaries/references/when-not-to-use-skill.md` ·
+> `skill-boundaries/references/five-layer-choice.md` · `skill-boundaries/references/skill-vs-workflow.md`
 > 前置：那些讲"什么时候该做成技能"，
 > 这份讲⭐⭐⭐ **两边各自的失败模式**——
 > ⭐⭐⭐ 核心是一张对比表，以及由此推出的⭐⭐⭐ **混合模式**。
@@ -45,7 +45,7 @@
 > ⭐ ①②③ 都是"多份/易变"的直接后果，
 > ⭐⭐ ④ 是"依赖隐式上下文"的后果。
 >
-> ⭐⭐ 这也解释了为什么 `worth-skillifying.md` 把"稳定"列为硬标准——
+> ⭐⭐ 这也解释了为什么 `skill-boundaries/references/worth-skillifying.md` 把"稳定"列为硬标准——
 > **不稳定的东西做成技能，只是把漂移从五个地方搬到一个文件里。**
 
 ---
@@ -81,13 +81,13 @@
 
 > ⭐⭐⭐ 但要诚实标注边界：
 > **di ①②③ 靠改描述能修，④⑤ 不能**——
-> ③ 要靠 `review_after`（`skill-decay-governance.md`），
-> ④ 要靠仲裁（`collision-arbitration.md`）与唯一命名，
-> ⑤ 要靠 lockfile（`dependency-lockfile.md`）。
+> ③ 要靠 `review_after`（`skill-governance/references/skill-decay-governance.md`），
+> ④ 要靠仲裁（`skill-orchestration/references/collision-arbitration.md`）与唯一命名，
+> ⑤ 要靠 lockfile（`skill-distribution/references/dependency-lockfile.md`）。
 >
 > ⭐⭐⭐ 第 ③ 条尤其值得单独记：**"输出错得自信而正确"**
-> ——这与 `priority-override-layers.md` 的"结构正确的废话"、
-> `skill-rot-rollback-discipline.md` 的"自信的漂移读起来就像改进"
+> ——这与 `skill-triggering/references/priority-override-layers.md` 的"结构正确的废话"、
+> `skill-versioning/references/skill-rot-rollback-discipline.md` 的"自信的漂移读起来就像改进"
 > 是⭐ 同一现象的第四个说法。四份独立来源反复命中它，
 > 说明⭐ **这是技能最难被发现的失败模式**。
 
@@ -170,7 +170,7 @@
 > ⭐⭐⭐ 第 ③ 步"把当前事实移出去"是这份文档最实用的一条——
 > **提示词里塞着本次任务的具体信息，这正是它不能被复用的原因**；
 > 而很多人的做法正是"把整个提示粘进去"（也就是
-> `token-cost-optimization.md` 说的⭐ **伪技能陷阱**）。
+> `skill-context/references/token-cost-optimization.md` 说的⭐ **伪技能陷阱**）。
 
 **何时该保留为提示**（四条，别过度技能化）：
 
@@ -196,7 +196,7 @@ Done means:  ⭐⭐⭐ 那条能证明它做成了的检查
 ```
 
 > ⭐⭐⭐ 注意最后一行 **"Done means"**——
-> 它正是 `judgment-branches-acceptance.md` 三件套里的"验收"，
+> 它正是 `skill-examples/references/judgment-branches-acceptance.md` 三件套里的"验收"，
 > ⭐⭐ 也是七个契约里的"验收契约"。
 > **三个独立来源都把"何时算完"列为必写项。**
 

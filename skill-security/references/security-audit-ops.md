@@ -46,7 +46,7 @@
 ——正是机器上最可能有钱包密钥与交易所凭据的那群人
 ```
 
-> 呼应 `skill-orchestration` 的 `prompt-injection.md` 的 ClawHavoc 复盘：
+> 呼应 `skill-orchestration` 的 `skill-orchestration/references/prompt-injection.md` 的 ClawHavoc 复盘：
 > **恶意逻辑藏在 SKILL.md 的英文段落里，因为静态扫描不解析自然语言。**
 
 **② Google Workspace "助手"**
@@ -160,7 +160,7 @@ ASI07 智能体间通信 → agent 间消息是否认证？
 ## 误报的四种典型
 
 > ⭐ **这一节决定了你会不会在第二次就把扫描器关掉。**
-> 呼应 `security-review.md` 的"自动阻断会侵蚀信任"。
+> 呼应 `skill-security/references/security-review.md` 的"自动阻断会侵蚀信任"。
 
 | 误报 | 原因 | 处理 |
 |---|---|---|

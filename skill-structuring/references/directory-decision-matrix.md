@@ -1,7 +1,7 @@
 # 目录决策矩阵：每个文件该放哪
 
-> 相关：《skill-structuring》的 `directory-contract.md` ·
-> 《skill-structuring》的 `reference-routing.md`
+> 相关：《skill-structuring》的 `skill-structuring/references/directory-contract.md` ·
+> 《skill-structuring》的 `skill-structuring/references/reference-routing.md`
 > 前置：本技能其余文档讲"目录存在哪"，这份只讲"单个文件放哪个子目录"。
 
 ---
@@ -51,7 +51,7 @@
 ```
 
 为什么：嵌套引用会让模型改用 `head -100` 之类的预览方式读取，
-导致信息不完整——这和 `progressive-disclosure-official.md` 那条一致。
+导致信息不完整——这和 `skill-structuring/references/progressive-disclosure-official.md` 那条一致。
 
 ```
 ⭐ 例外：assets/ 允许子目录
@@ -86,7 +86,7 @@
 > 前者是工具，后者是教材。
 > **在 SKILL.md 里必须写明是"运行它"还是"照它改写"**，否则模型会搞混。
 
-这对应 `reference-routing.md` 那条"要结果一致 → 执行；要每次有新见解 → 读进来"
+这对应 `skill-structuring/references/reference-routing.md` 那条"要结果一致 → 执行；要每次有新见解 → 读进来"
 ——同一条原则在 `scripts/` 内部的延伸。
 
 ---
@@ -118,7 +118,7 @@ pdf/
     └── fill_pdf_form_with_annotations.py
 ```
 
-> ⚠️ 注意 `references-vs-assets.md` 在根目录——这是**早于严格标准的遗留组织方式**。
+> ⚠️ 注意 `skill-structuring/references/references-vs-assets.md` 在根目录——这是**早于严格标准的遗留组织方式**。
 > ⭐ **不要模仿这个**：新增文档一律进 `references/`。
 
 **③ 资源密集结构**（newsletter 设计）

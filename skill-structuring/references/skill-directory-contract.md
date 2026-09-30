@@ -1,9 +1,9 @@
 # 技能的目录契约：什么该进 references，什么不该
 
-> 相关：《skill-structuring》的 `directory-decision-matrix.md`（进不进上下文）·
-> `reference-file-practices.md`（一层深度、100 行带目录）·
-> `three-tier-token-math.md`（三级加载的精确数字）·
-> `references-organization-practice.md`
+> 相关：《skill-structuring》的 `skill-structuring/references/directory-decision-matrix.md`（进不进上下文）·
+> `skill-structuring/references/reference-file-practices.md`（一层深度、100 行带目录）·
+> `skill-loading/references/three-tier-token-math.md`（三级加载的精确数字）·
+> references-organization-practice.md
 > 前置：
 > 目录决策矩阵讲⭐⭐⭐ **单个文件放哪**，
 > 这份讲⭐⭐⭐⭐⭐ **整个目录要满足什么约束**——
@@ -53,7 +53,7 @@ scripts/ 里每个被提到的脚本都必须可执行
 ```
 
 > ⭐⭐⭐⭐⭐ **引用了不存在的模板文件 → 模型读取失败 → 自己补内容 → 幻觉**
-> （这是 `three-failure-modes.md` 里已确认的一条因果）。
+> （这是 `skill-triggering/references/three-failure-modes.md` 里已确认的一条因果）。
 > 所以⭐⭐⭐⭐ **悬空引用不是"小瑕疵"，是幻觉的直接来源**，
 > 必须是硬错误而不是警告。
 
@@ -65,7 +65,7 @@ scripts/ 里每个被提到的脚本都必须可执行
 
 > ⭐⭐⭐⭐⭐ 这些会在分发时一起被打包出去，
 > 于是别人装上就带着"上次跑到第 8 个"的假状态
-> （与 `cross-session-continuity.md` 里"残留状态是假失灵来源"一致）。
+> （与 `skill-recovery/references/cross-session-continuity.md` 里"残留状态是假失灵来源"一致）。
 
 **③ ⭐⭐⭐⭐ 命名不冲突**
 
@@ -75,7 +75,7 @@ scripts/ 里每个被提到的脚本都必须可执行
 ```
 
 > ⭐⭐⭐⭐⭐ **通用名会造成静默冲突**：错的那一个被调起，而你毫无察觉。
-> 这条在 `team-naming-collisions.md` 里已强调，这里补一句：
+> 这条在 `skill-adoption/references/team-naming-collisions.md` 里已强调，这里补一句：
 > ⭐⭐⭐⭐ **在分发场景下，"可能冲突"几乎等于"一定冲突"**——
 > 因为你不知道用户已经装了什么。
 
@@ -94,7 +94,7 @@ scripts/ 里每个被提到的脚本都必须可执行
 
 > ⭐⭐⭐⭐⭐ 第一行值得单独说：
 > 判据不是"有没有 .env 文件"，是⭐⭐⭐⭐⭐ **等号右边是真值而不是占位符**。
-> 很多人把密钥写在 `references/config-example.md` 里，
+> 很多人把密钥写在 config-example.md 里，
 > 因为"不在 .env 里就不算泄露"——**它照样会被打包和提交。**
 
 ---

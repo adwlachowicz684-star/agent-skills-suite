@@ -1,7 +1,7 @@
 # 参考文件的组织与拆分阈值
 
-> 相关：`skill-structuring` 的 `progressive-disclosure-official.md`（三模式）·
-> `skill-structuring` 的 `reference-routing.md` · `skill-structuring` 的 `references-vs-assets.md`
+> 相关：`skill-structuring` 的 `skill-structuring/references/progressive-disclosure-official.md`（三模式）·
+> `skill-structuring` 的 `skill-structuring/references/reference-routing.md` · `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md`
 
 ---
 
@@ -72,12 +72,12 @@
 > ⭐ **超过 5,000 词的参考文件，在 SKILL.md 里给出 grep 模式。**
 
 ```markdown
-数据库 schema 详见 `references/schemas.md`。搜索模式：
+数据库 schema 详见 schemas.md。搜索模式：
 - 用户表：`grep -n "## User" references/schemas.md`
 - 订单表：`grep -n "## Order" references/schemas.md`
 ```
 
-这与 `skill-structuring` 的 `references-vs-assets.md` 那条（>1 万词给 grep 模式）一致，
+这与 `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` 那条（>1 万词给 grep 模式）一致，
 只是阈值更严（5,000 词）。取严的那个。
 
 ---

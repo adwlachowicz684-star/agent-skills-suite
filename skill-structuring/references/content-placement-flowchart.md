@@ -1,7 +1,7 @@
 # 内容放哪：五问决策流
 
-> 相关：《skill-crafting》的 `skill-structuring` 的 `reference-organization.md` ·
-> `output-contract-templates.md` · `granularity-atomic-workflow.md`
+> 相关：《skill-crafting》的 `skill-structuring` 的 `skill-structuring/references/reference-organization.md` ·
+> `skill-output/references/output-contract-templates.md` · `skill-scoping/references/granularity-atomic-workflow.md`
 
 ---
 
@@ -51,7 +51,7 @@
 ③ 它天然产出分层——不用额外设计目录结构
 ```
 
-> ⭐ 与 `granularity-atomic-workflow.md` 的"重启测试"互补：
+> ⭐ 与 `skill-scoping/references/granularity-atomic-workflow.md` 的"重启测试"互补：
 > 那份决定**拆分边界**（技能之间），这份决定**放置层级**（文件之间）。
 
 ---
@@ -72,7 +72,7 @@ L3 资源      references/scripts/assets —— ⭐ 按需
 第 5 问     → ⭐ 删除
 ```
 
-**L3 内部还有三种语义**（见 `output-contract-templates.md`）：
+**L3 内部还有三种语义**（见 `skill-output/references/output-contract-templates.md`）：
 
 ```
 references/  READ      —— 读进上下文（付 token）
@@ -100,7 +100,7 @@ scripts/     EXECUTE   —— 执行，不进上下文
    ⭐ 阶段门卡确保参数完整性
 ```
 
-> ⭐ 这与 `assert-on-environment.md` 的"断言打在环境状态上"同源——
+> ⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的"断言打在环境状态上"同源——
 > 快照就是那个可被断言的环境状态。
 
 ---

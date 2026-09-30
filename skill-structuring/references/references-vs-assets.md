@@ -1,8 +1,8 @@
 # references 与 assets：一字之差，成本差一个数量级
 
-> 相关：`skill-crafting` 的 `skill-structuring` 的 `directory-contract.md`（四目录职责）·
-> `skill-structuring` 的 `resource-bundling.md`（打包四不要）·
-> 《skill-context》的 `budget-truncation.md`（预算）
+> 相关：`skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md`（四目录职责）·
+> `skill-structuring` 的 `skill-structuring/references/resource-bundling.md`（打包四不要）·
+> 《skill-context》的 `skill-context/references/budget-truncation.md`（预算）
 
 ---
 
@@ -103,7 +103,7 @@ HTML/React 样板 · 字体 · 最终输出要用的样例文档
 grep -n "^### E1" references/error-codes.md
 ```
 
-配套原则（与 `skill-structuring` 的 `reference-routing.md` 一致）：**引用一层深，不链套**。
+配套原则（与 `skill-structuring` 的 `skill-structuring/references/reference-routing.md` 一致）：**引用一层深，不链套**。
 
 ---
 
@@ -116,8 +116,8 @@ grep -n "^### E1" references/error-codes.md
 ✅ {baseDir}/assets/report-template.md
 ```
 
-换机器、换用户就断——这与 《skill-scripting》`script-engineering.md`、
-`error-handling.md` 里反复出现的规则是同一条。
+换机器、换用户就断——这与 《skill-scripting》`skill-scripting/references/script-engineering.md`、
+`skill-recovery/references/error-handling.md` 里反复出现的规则是同一条。
 
 ---
 
@@ -135,7 +135,7 @@ README.md · INSTALLATION_GUIDE.md · QUICK_REFERENCE.md · CHANGELOG.md
 理由很实在：**额外的文档文件只会增加混乱**——
 它们会被当成候选参考资料，稀释检索。
 
-> ⚠️ 这与 `enterprise-registry.md` 里"README 写安装步骤"不冲突：
+> ⚠️ 这与 `skill-distribution/references/enterprise-registry.md` 里"README 写安装步骤"不冲突：
 > 那份 README 在**仓库根**，用于人类分发；
 > 这里禁止的是**技能目录内**的多余文档。
 

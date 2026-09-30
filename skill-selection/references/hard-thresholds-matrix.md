@@ -1,10 +1,10 @@
 # 硬门槛矩阵：什么情况下不该做技能
 
-> 相关：《skill-selection》的 `five-layer-selection.md`（五层选型）·
-> `roi-breakeven.md`（回本公式）·
-> `context-file-selection.md`（CLAUDE.md / AGENTS.md / SKILL.md）·
-> 《skill-boundaries》的 `skill-vs-mcp-two-layers.md` ·
-> `four-way-choice.md`
+> 相关：《skill-selection》的 five-layer-selection.md（五层选型）·
+> `skill-selection/references/roi-breakeven.md`（回本公式）·
+> `skill-selection/references/context-file-selection.md`（CLAUDE.md / AGENTS.md / SKILL.md）·
+> 《skill-boundaries》的 `skill-boundaries/references/skill-vs-mcp-two-layers.md` ·
+> `skill-boundaries/references/four-way-choice.md`
 > 前置：
 > 五层选型回答⭐⭐⭐ **"该用哪种载体"**，
 > 这份回答⭐⭐⭐⭐⭐ **"什么时候根本不该用技能"**——
@@ -77,7 +77,7 @@
 > 它在每一次判断里都作为候选被读了一遍，
 > 而它永远只会被用一次。
 
-这与 `skill-portfolio-audit.md` 里那条
+这与 `skill-selection/references/skill-portfolio-audit.md` 里那条
 "一次性技能在写它的那一刻就能判断，应零延迟清除"
 是同一条：**不需要积累数据，写的时候就知道。**
 
@@ -147,7 +147,7 @@
 > ⭐⭐⭐⭐⭐ **先写验收标准，再写技能。**
 > 验收标准写不出来 → 别写技能。
 >
-> 这与 `minimum-viable-three-principles.md` 里
+> 这与 `skill-crafting/references/minimum-viable-three-principles.md` 里
 > "先定义 finished 的样子"是同一条，
 > ⭐⭐⭐⭐ 而这里的额外价值是：**它还顺带回答了"该不该做"**。
 

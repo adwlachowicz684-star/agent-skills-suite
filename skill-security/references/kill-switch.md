@@ -45,7 +45,7 @@
 
 第 ③④ 条常被忽略——**只停技能是不够的**，
 如果这个动作本身危险，任何技能调用它都应该被拦。
-（呼应 `least-privilege.md`：控制在工具层。）
+（呼应 `skill-security/references/least-privilege.md`：控制在工具层。）
 
 ## 多久能停
 
@@ -81,7 +81,7 @@
 · ⭐ 网络层断开出口（这是唯一无法被绕过的）
 ```
 
-最后一条呼应 `sandbox-execution.md`：
+最后一条呼应 `skill-security/references/sandbox-execution.md`：
 **控制点落在 agent 无法绕过的边界上**。
 
 ## 停用之后

@@ -1,8 +1,8 @@
 # 企业目录结构：按职责分区，让不同角色各审各的
 
-> 相关：`skill-crafting` 的 `skill-structuring` 的 `directory-contract.md`（标准布局）·
+> 相关：`skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md`（标准布局）·
 > `structure/references-vs-assets.md`（两目录区别）·
-> 《skill-distribution》的 `enterprise-registry.md`
+> 《skill-distribution》的 `skill-distribution/references/enterprise-registry.md`
 
 ---
 
@@ -90,7 +90,7 @@ skill-name/
 规范的建议是：主文件保持精简，
 把更深的内容放进 `scripts/`、`references/`、`assets/`。
 
-**判据**（与 `skill-structuring` 的 `references-vs-assets.md` 同源）：
+**判据**（与 `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` 同源）：
 这段内容是需要被"理解"还是只被"使用"？
 理解 → references/；使用 → assets/；执行 → scripts/。
 

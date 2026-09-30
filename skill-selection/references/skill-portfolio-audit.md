@@ -1,8 +1,8 @@
 # 技能组合审计：47 个里 34% 是僵尸
 
-> 相关：《skill-selection》的 `roi-breakeven.md` · `worth-skillifying.md` ·
-> 《skill-governance》的 `retirement-pipeline.md` · `dead-skill-detection.md` ·
-> 《skill-versioning》的 `skill-evolution-loop.md`
+> 相关：《skill-selection》的 `skill-selection/references/roi-breakeven.md` · `skill-boundaries/references/worth-skillifying.md` ·
+> 《skill-governance》的 `skill-governance/references/retirement-pipeline.md` · `skill-governance/references/dead-skill-detection.md` ·
+> 《skill-versioning》的 `skill-versioning/references/skill-evolution-loop.md`
 > 前置：那些讲"单个技能该不该做"，
 > 这份讲⭐⭐⭐ **整个库的持有成本**——
 > 含⭐⭐⭐⭐ 一个此前没有的三分类，和⭐⭐⭐⭐ 一条反直觉的存活规律。
@@ -42,7 +42,7 @@
 > ⭐⭐⭐⭐ **"技能安装的⭐ 前期成本是零，所以我们都把它当成免费的——
 > ⭐⭐⭐⭐ 但⭐ 持有成本是真的。"**
 >
-> ⭐⭐⭐ 这句话把 `roi-breakeven.md` 的公式补上了一块：
+> ⭐⭐⭐ 这句话把 `skill-selection/references/roi-breakeven.md` 的公式补上了一块：
 > 那个公式算的是⭐ 单个技能的回本，
 > ⭐⭐⭐⭐ 这里指出的是⭐ **那些"已经回本过、现在还在收租"的技能**——
 > 它们不在任何回本公式里，却持续扣费。
@@ -55,8 +55,8 @@
 > ⭐⭐⭐⭐ 而⭐ 交付 ⭐ 95% 的相同价值。"**
 
 > ⭐⭐⭐⭐ 这是"删掉一半、只损失 5% 价值"——
-> ⭐⭐ 与 `skill-reducer-study.md`（压缩后质量反升 2.8%）、
-> `three-crash-scenes.md`（输出压缩后质量反而更高）
+> ⭐⭐ 与 `skill-refining/references/skill-reducer-study.md`（压缩后质量反升 2.8%）、
+> `skill-recovery/references/three-crash-scenes.md`（输出压缩后质量反而更高）
 > ⭐⭐⭐ 是⭐ 同一规律的第三个场景：**冗余在扣费，而不只是占位。**
 
 ---
@@ -78,15 +78,15 @@
 > ⭐⭐⭐⭐ **"无意识地绕开"使失败隐形**——
 > 你的工作流已经把它当成噪音过滤掉了，于是它既不报错也不被修。
 >
-> ⭐⭐⭐⭐ 这补上了 `dead-skill-detection.md` 缺的一档：
+> ⭐⭐⭐⭐ 这补上了 `skill-governance/references/dead-skill-detection.md` 缺的一档：
 > 那份讲的是"低使用≠没价值，先查触发链路"，
 > ⭐⭐⭐ 这里讲的是⭐ **"有使用但一直在失败，而人已经学会绕开"**——
 > ⭐⭐⭐⭐ **调用次数高 + 你总在手动补救 = 这就是第三类。**
-> （与 `adoption-metrics.md` 的"高调用次数但没有质量审查 = 负债"同源。）
+> （与 `skill-adoption/references/adoption-metrics.md` 的"高调用次数但没有质量审查 = 负债"同源。）
 
 > ⭐⭐⭐ **第二类（过度工程）** 与我们已有的
-> `three-skill-ceiling.md`（挂载 >3 下滑）、
-> `worth-skillifying.md`（Git 提交案例：高频但只省 1 分钟 → 不做）
+> `skill-evaluating/references/three-skill-ceiling.md`（挂载 >3 下滑）、
+> `skill-boundaries/references/worth-skillifying.md`（Git 提交案例：高频但只省 1 分钟 → 不做）
 > 同源：**不是越复杂越值得封装。**
 
 ---
@@ -120,7 +120,7 @@
 > 这也从另一个角度解释了为什么"挂载 >3 个成功率下滑"。
 
 > ⭐⭐⭐ 第 ① 项那句"只是为了记住我能做什么，而不是我实际做了什么"——
-> ⭐⭐⭐ 精确对应 `skill-scope-tiering.md` 的"触发空壳"方案：
+> ⭐⭐⭐ 精确对应 `skill-refining/references/skill-scope-tiering.md` 的"触发空壳"方案：
 > **把不常用的压成空壳，正是为了只保留"我能做什么"这一层，而去掉成本。**
 
 ---
@@ -151,7 +151,7 @@
 > ⭐⭐⭐⭐ 该删的是⭐ **"中等"那一档**：不够常用到摊薄成本，
 > 又不够有价值到值得保留。
 >
-> ⭐⭐⭐ 这与 `worth-skillifying.md` 的五维矩阵形成对照：
+> ⭐⭐⭐ 这与 `skill-boundaries/references/worth-skillifying.md` 的五维矩阵形成对照：
 > 那份是⭐ **事前**（做不做），这份是⭐ **事后**（留不留），
 > ⭐⭐⭐ 而判据从"频率 × 稳定性 × 可复用 × 可验证 × 可授权"
 > 简化成了⭐⭐⭐ **成本 × 频率 × 单次的那个二维定位**。
@@ -163,7 +163,7 @@
 > ⭐⭐⭐⭐ 这其实是⭐ 一个技能的可测性判据：
 > ⭐⭐⭐ **如果一个技能的失败是"模糊的、部分的"，它就很难被维护**
 > ——因为你不知道它到底是坏了还是只是这次运气不好。
-> ⭐⭐⭐ 与 `assert-on-environment.md` 的"PASS 必须有 concrete 证据"同源。
+> ⭐⭐⭐ 与 `skill-evaluating/references/assert-on-environment.md` 的"PASS 必须有 concrete 证据"同源。
 
 ---
 
@@ -181,7 +181,7 @@
 > ⭐⭐⭐ 这比"再观察观察"强——它把"无用"从⭐ 需要预测
 > 变成了⭐⭐ 已有事实。
 >
-> ⭐⭐⭐ 而"核心组合也要追踪退化"这一条补上了 `retirement-pipeline.md`
+> ⭐⭐⭐ 而"核心组合也要追踪退化"这一条补上了 `skill-governance/references/retirement-pipeline.md`
 > 的一个缺口：那份讲的是⭐ **如何退役**，
 > ⭐⭐⭐ 这里讲的是⭐ **核心技能也要有降级通道**（好 → 边缘 → 察看 → 砍），
 > ⭐⭐ 否则今天的功臣就是明天的僵尸。
@@ -196,7 +196,7 @@
 ③ ⭐⭐⭐⭐ 如果我用 X 次，⭐⭐ 每月的⭐ 持有成本是多少？
 ```
 
-> ⭐⭐⭐ 第 ③ 问最关键——它把 `roi-breakeven.md` 的回本公式
+> ⭐⭐⭐ 第 ③ 问最关键——它把 `skill-selection/references/roi-breakeven.md` 的回本公式
 > ⭐⭐⭐ **反向使用**：不是"多久回本"，⭐⭐⭐⭐ 而是
 > **"按我真实的使用频率，它每月要收我多少租"**。
 >
