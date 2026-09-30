@@ -29,14 +29,14 @@ description: 技能的质量标准、评分 rubric 与验收门槛。当需要�
 
 ## 路由表
 
-| `quality-rubric.md` | ⭐⭐⭐⭐ 基础评分表：维度定义与档位 |
-| `quality-rubric-nine-dims.md` | ⭐⭐⭐⭐⭐ 九维打分：⭐ **实测表现 23 / 可执行具体性 17 / 失败模式 12 占 52%**；⭐⭐ 量不到什么 |
-| `graded-rubric.md` | ⭐⭐⭐⭐ 分级 rubric（S/A/B/C）与判据 |
-| `four-dimension-eval.md` | ⭐⭐⭐⭐ 四维度评估：触发 / 执行 / 输出 / 成本 |
-| `official-checklist.md` | ⭐⭐⭐ 官方检查清单 |
-| `metrics.md` | ⭐⭐⭐⭐ 指标定义：⭐⭐⭐⭐ 必须报**净增益**（新增通过 − 回归） |
-| `capability-vs-preference.md` | ⭐⭐⭐⭐⭐ **能力问题 vs 偏好问题**——⭐ 修法完全不同 |
-| `skill-lift-eval.md` | ⭐⭐⭐⭐ Lift 度量：⭐⭐⭐⭐ 对无技能基线，不只是对上一版 |
+| `skill-quality/references/quality-rubric.md` | ⭐⭐⭐⭐ 基础评分表：维度定义与档位 |
+| `skill-quality/references/quality-rubric-nine-dims.md` | ⭐⭐⭐⭐⭐ 九维打分：⭐ **实测表现 23 / 可执行具体性 17 / 失败模式 12 占 52%**；⭐⭐ 量不到什么 |
+| `skill-quality/references/graded-rubric.md` | ⭐⭐⭐⭐ 分级 rubric（S/A/B/C）与判据 |
+| `skill-quality/references/four-dimension-eval.md` | ⭐⭐⭐⭐ 四维度评估：触发 / 执行 / 输出 / 成本 |
+| `skill-quality/references/official-checklist.md` | ⭐⭐⭐ 官方检查清单 |
+| `skill-quality/references/metrics.md` | ⭐⭐⭐⭐ 指标定义：⭐⭐⭐⭐ 必须报**净增益**（新增通过 − 回归） |
+| `skill-quality/references/capability-vs-preference.md` | ⭐⭐⭐⭐⭐ **能力问题 vs 偏好问题**——⭐ 修法完全不同 |
+| `skill-quality/references/skill-lift-eval.md` | ⭐⭐⭐⭐ Lift 度量：⭐⭐⭐⭐ 对无技能基线，不只是对上一版 |
 
 ## Critical Rules
 

@@ -1,8 +1,8 @@
 # 六层结构：让 agent 知道目标、路径、确认与回正
 
-> 相关：《skill-authoring》的 `creation-framework.md` ·
-> 《skill-patterns》的 `instruction-craft.md` ·
-> `feedback-loop-design.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/creation-framework.md` ·
+> 《skill-patterns》的 `skill-patterns/references/instruction-craft.md` ·
+> `skill-patterns/references/feedback-loop-design.md`
 
 ---
 
@@ -43,7 +43,7 @@ A: ⭐ 如实告知信息不足，建议用户提供补充资料或更换分析�
 > ⭐ 注意这个答案的形态：
 > **不是"跳过"，不是"编一个"，而是"如实告知 + 给替代路径"**。
 
-这正是 `research-skills.md` 那条硬护栏的实例——
+这正是 `skill-domains/references/research-skills.md` 那条硬护栏的实例——
 **不准编造**，且要说清哪些没验证。
 
 **FAQ 层应该写什么**：
@@ -66,14 +66,14 @@ A: ⭐ 如实告知信息不足，建议用户提供补充资料或更换分析�
 ② ⭐ 行动建议是否可执行?
 ```
 
-对应到 `golden-rules-failure-modes.md`：
+对应到 `skill-patterns/references/golden-rules-failure-modes.md`：
 
 ```
 ❌ "代码干净"、"输出看起来不错"      → 主观，无法判定失败
 ✅ "输出字段齐全、无缺列"、"无 console 错误" → 事实，可判定
 ```
 
-以及 `instruction-craft.md` 里那条很实用的例子：
+以及 `skill-patterns/references/instruction-craft.md` 里那条很实用的例子：
 
 > ❌ "显示正常" —— **这类没法断言的写法要禁止**
 
@@ -81,7 +81,7 @@ A: ⭐ 如实告知信息不足，建议用户提供补充资料或更换分析�
 
 ## 4. 与骨架六小节的对应
 
-六层（本篇）与六小节（`skeleton-template.md`）是同一件事的两种切法：
+六层（本篇）与六小节（`skill-patterns/references/skeleton-template.md`）是同一件事的两种切法：
 
 | 六层 | 六小节 |
 |---|---|

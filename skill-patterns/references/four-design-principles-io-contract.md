@@ -1,8 +1,8 @@
 # 四项设计原则与数据契约
 
-> 相关：《skill-patterns》的 `solid-for-skills.md` · `five-design-patterns.md` ·
-> 《skill-execution》的 `seven-contracts.md` ·
-> 《skill-scripting》的 `script-cli-contract.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/solid-for-skills.md` · `skill-patterns/references/five-design-patterns.md` ·
+> 《skill-execution》的 `skill-execution/references/seven-contracts.md` ·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md`
 > 前置：那些讲"软件原则怎么迁移""五种行为模式"，
 > 这份讲⭐⭐⭐ **工程化封装的四项原则**——
 > 其中⭐⭐⭐⭐ **"无状态"此前提到过但从未被列为原则**，
@@ -33,7 +33,7 @@
 > ⭐⭐⭐⭐ **"输出可解析"这个措辞比"输出格式稳定"更精准**——
 > 它把判据从"看起来一样"前移到了⭐ **下游能不能机械处理**。
 >
-> ⭐⭐⭐ 对照 `output-stability-contract.md` 的验收条件
+> ⭐⭐⭐ 对照 `skill-output/references/output-stability-contract.md` 的验收条件
 > （文件是否生成 · JSON 是否可解析 · 列表是否包含必要字段）：
 > ⭐⭐⭐ **"可解析"是唯一能被机器立即判定的一条**，
 > 所以它是四项里⭐ 最该先保证的。
@@ -61,7 +61,7 @@
 > ② ⭐⭐⭐ 跨技能交接时显式收尾（ANNOUNCE→SUMMARIZE→LOAD→PASS）
 > ③ ⭐⭐⭐ 步骤措辞要能承受⭐ 被反复看到（不要写"第一步做 X"）
 > ```
-> ⭐⭐⭐ 第 ③ 条与 `context-budget-math.md` 完全一致——
+> ⭐⭐⭐ 第 ③ 条与 `skill-patterns/references/context-budget-math.md` 完全一致——
 > **"第一步"这种措辞在第 20 轮仍然会被读到，而 agent 不知道那是一次性的。**
 
 ---
@@ -98,9 +98,9 @@ schema.yaml → ⭐⭐⭐ 机器可读 → ⭐⭐⭐ 下游能可靠解析
 
 | 场景 | 用什么 |
 |---|---|
-| 脚本的输入输出 | ⭐ `script-cli-contract.md`（退出码 + stdout） |
+| 脚本的输入输出 | ⭐ `skill-scripting/references/script-cli-contract.md`（退出码 + stdout） |
 | 技能对外的 I/O | ⭐⭐⭐ `schema.yaml`（给工作流/API 用） |
-| 给模型看的输出格式 | ⭐ `output-stability-contract.md`（模板 + 示例） |
+| 给模型看的输出格式 | ⭐ `skill-output/references/output-stability-contract.md`（模板 + 示例） |
 
 > ⭐⭐ 三者的⭐ 读者不同：
 > **脚本契约给模型看，schema.yaml 给下游系统看，输出模板给模型看。**

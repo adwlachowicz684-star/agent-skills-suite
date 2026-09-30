@@ -1,8 +1,8 @@
 # 技能即程序：不是文档，运行时是 LLM
 
-> 相关：《skill-crafting》的 `minimum-viable-three-principles.md`（执行契约非产品文档）·
-> 《skill-patterns》的 `self-containment-rewrite.md`（指令要写成规格不是散文）·
-> 《skill-content》的 `prompt-to-skill.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/minimum-viable-three-principles.md`（执行契约非产品文档）·
+> 《skill-patterns》的 `skill-patterns/references/self-containment-rewrite.md`（指令要写成规格不是散文）·
+> 《skill-content》的 `skill-content/references/prompt-to-skill.md`
 > 前置：那些讲⭐ 技能里该写什么，
 > 这份讲⭐⭐⭐⭐ **一个类比的替换**——以及它带来的三条硬结论。
 
@@ -56,7 +56,7 @@
 > ⭐⭐ **没有它，你的 Angular 迁移技能会在 React 项目上触发，
 > 你的 Python 测试技能会在 Go 代码上触发。**
 
-`name` 的硬规则（与 `naming-conventions.md` 一致，这里给完整版）：
+`name` 的硬规则（与 `skill-structuring/references/naming-conventions.md` 一致，这里给完整版）：
 
 ```
 1–64 字符 · 小写字母+数字+连字符 · 无连续连字符 · 必须与父目录名一致
@@ -93,7 +93,7 @@ skill-name/
 
 | 类别 | 具体 | 为什么删 |
 |---|---|---|
-| 文档文件 | README.md · CHANGELOG.md · INSTALLATION_GUIDE.md | ⭐ agent 运行时不需要，且 README 不在加载链里——**写在 README 里的安全约束根本读不到**（`unicode-injection-defense.md` 同源） |
+| 文档文件 | README.md · CHANGELOG.md · INSTALLATION_GUIDE.md | ⭐ agent 运行时不需要，且 README 不在加载链里——**写在 README 里的安全约束根本读不到**（`skill-security/references/unicode-injection-defense.md` 同源） |
 | 冗余逻辑 | agent 本来就做得好的指令 | 零增量 |
 | 库代码 | 长生命周期的通用库 | ⭐ 技能里只放"小而单一"的脚本 |
 | 时敏信息 | 版本、价格、截止日期 | ⭐ 程序记忆层没有时间维度 |
@@ -126,7 +126,7 @@ skill-name/
 ❌ "You should extract…" / "I will extract…"
 ```
 
-与我们已有的 `imperative-style.md` 一致，但这里给了理由：
+与我们已有的 `skill-crafting/references/imperative-style.md` 一致，但这里给了理由：
 **第一/第二人称会制造"谁在说话"的歧义**——
 当这段指令被注入另一个 agent 的上下文时尤其明显。
 
@@ -142,7 +142,7 @@ Angular 里说 "template"，
 ```
 
 理由是具体的：**不一致会增加 agent 把相似概念混为一谈的概率。**
-这与 `terminology.md` 一致，但这里的机制解释值得记——
+这与 `skill-precision/references/terminology.md` 一致，但这里的机制解释值得记——
 **不是"更专业"，是"减少混淆的机会"。**
 
 ---
@@ -167,5 +167,5 @@ Angular 里说 "template"，
 > 不介意 → 给约束和目标（程序里的"接口"）
 > 介意 → 写脚本或工作流（程序里的"实现"）
 
-这与 `eight-practical-lessons.md` 的"给约束不给流程"、
-`anthropic-team-lessons.md` 的"避免 railroading"是同一判据的三次出现。
+这与 `skill-crafting/references/eight-practical-lessons.md` 的"给约束不给流程"、
+`skill-content/references/anthropic-team-lessons.md` 的"避免 railroading"是同一判据的三次出现。

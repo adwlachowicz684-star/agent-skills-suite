@@ -1,7 +1,7 @@
 # 四维评估：能写进 CI 的那四个维度
 
-> 前置：`metrics.md`（八层评估模型）· `eval-tooling.md`（pass@k、基线对比）·
-> `test-pyramid.md`（四层金字塔）
+> 前置：`skill-quality/references/metrics.md`（八层评估模型）· `skill-automation/references/eval-tooling.md`（pass@k、基线对比）·
+> `skill-evaluating/references/test-pyramid.md`（四层金字塔）
 > 这份只讲**可直接代码实现的四维框架**——每维给出断言方式和判据。
 
 ---
@@ -96,7 +96,7 @@ for name, grp in groupby(tool_calls):
 ⭐ **关键**：用 `--output-schema` 约束返回固定格式 JSON，
 **否则跨版本的分数无法量化对比**。
 
-这与 `judge-design.md` 一致——评分必须机器可读，不能是自然语言。
+这与 `skill-evaluating/references/judge-design.md` 一致——评分必须机器可读，不能是自然语言。
 
 ---
 
@@ -117,7 +117,7 @@ Token 节省 800 (40.0%)
 ```
 
 > ⭐ **必须对比"不开技能"的基线**——
-> 这是唯一有意义的问题。见 `regression-baseline.md`。
+> 这是唯一有意义的问题。见 `skill-evaluating/references/regression-baseline.md`。
 
 ---
 
@@ -135,7 +135,7 @@ Token 节省 800 (40.0%)
 
 **保持第一层轻量**，在加入模型评分之前先有快速可解释的基础保障。
 
-> 这与 `test-pyramid.md` 第 1 层"结构 lint 不用 LLM 判"是同一条原则：
+> 这与 `skill-evaluating/references/test-pyramid.md` 第 1 层"结构 lint 不用 LLM 判"是同一条原则：
 > **能用代码判的，绝不交给模型。**
 
 ---
@@ -162,7 +162,7 @@ LLM 评分类指标**天然有波动**。用固定阈值会疯狂误报。
 ⭐ 10–20 条提示就够，用 CSV 管理即可
 ```
 
-**四个角度**（与 `trigger-eval-set.md` 一致）：
+**四个角度**（与 `skill-triggering/references/trigger-eval-set.md` 一致）：
 
 | 类型 | 测什么 | 数量 |
 |---|---|---|

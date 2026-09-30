@@ -1,8 +1,8 @@
 # 三招移动序列：从一坨提示词到模块化技能库
 
-> 相关：《skill-refining》的 `split-signals-five.md`（拆分五信号）·
-> 《skill-orchestration》的 `skill-dependency-injection.md`（双向无知）·
-> 《skill-structuring》的 `progressive-disclosure-official.md`
+> 相关：《skill-refining》的 `skill-refining/references/split-signals-five.md`（拆分五信号）·
+> 《skill-orchestration》的 `skill-orchestration/references/skill-dependency-injection.md`（双向无知）·
+> 《skill-structuring》的 `skill-structuring/references/progressive-disclosure-official.md`
 > 前置：那些讲⭐ 拆不拆，
 > 这份讲⭐⭐⭐⭐⭐ **一次系统性的迁移动作**——
 > 以及⭐⭐⭐⭐⭐ 一个能把隐藏架构问题一次性逼出来的诊断法。
@@ -38,7 +38,7 @@
 > ⭐ **先命名再解决**——这一步常被跳过，于是你以为是"技能写不好"，
 > 其实是依赖没拆干净。
 
-这与 `dependency-resolution-conflicts.md` 那条
+这与 `skill-distribution/references/dependency-resolution-conflicts.md` 那条
 "隐藏依赖的特征症状是**时好时坏**"是同一件事的两个面：
 一个讲检测信号，一个讲处理动作。
 
@@ -68,9 +68,9 @@
 
 | 判据 | 问法 | 出处 |
 |---|---|---|
-| 重启测试 | 跑到一半失败，人从哪重启？ | `granularity-atomic-workflow.md` |
-| 双向无知 | 两个技能都需要知道对方细节吗？ | `skill-dependency-injection.md` |
-| 业务动作 | 能独立完成一个有意义的业务动作吗？ | `four-pitfalls-practice.md` |
+| 重启测试 | 跑到一半失败，人从哪重启？ | `skill-scoping/references/granularity-atomic-workflow.md` |
+| 双向无知 | 两个技能都需要知道对方细节吗？ | `skill-orchestration/references/skill-dependency-injection.md` |
+| 业务动作 | 能独立完成一个有意义的业务动作吗？ | `skill-refining/references/four-pitfalls-practice.md` |
 | ⭐ **重写体积** | **自包含重写需要几份文档？** | 本份 |
 
 四条互补：前三条从"运行时行为"判断，这一条从"写下来有多大"判断——
@@ -84,7 +84,7 @@
 > 要么总是加载（延迟加载彻底失效）。**
 > **契约让调用变成确定性的。**
 
-契约三件套与我们的 `seven-contracts.md` 完全对应，这里给最小版本：
+契约三件套与我们的 `skill-execution/references/seven-contracts.md` 完全对应，这里给最小版本：
 
 ```
 触发条件：用户说出 X / 命中 Y 类文件
@@ -94,7 +94,7 @@
 
 > ⭐⭐ 第二条特别容易漏：**"缺了怎么办"**。
 > 没写的后果是模型即兴发挥一条回退路径
-> （`preflight-gate.md` 的 MUST NOT ③）。
+> （`skill-execution/references/preflight-gate.md` 的 MUST NOT ③）。
 
 ---
 
@@ -116,7 +116,7 @@
 
 > ⭐⭐ **第三种结果最容易被误判**——
 > 你会以为是自己描述写得不好，其实它压根不该做成技能
-> （`worth-skillifying.md` / `when-not-to-use-skill.md`）。
+> （`skill-boundaries/references/worth-skillifying.md` / `skill-boundaries/references/when-not-to-use-skill.md`）。
 
 ---
 

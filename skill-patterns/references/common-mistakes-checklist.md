@@ -1,8 +1,8 @@
 # 常见错误清单：从结构到内容
 
-> 相关：《skill-scoping》的 `skill-principles.md` ·
-> 《skill-refining》的 `anti-patterns-practice.md` ·
-> 《skill-authoring》的 `what-not-to-do.md`
+> 相关：《skill-scoping》的 `skill-scoping/references/skill-principles.md` ·
+> 《skill-refining》的 `skill-refining/references/anti-patterns-practice.md` ·
+> 《skill-authoring》的 `skill-authoring/references/what-not-to-do.md`
 
 ---
 
@@ -34,7 +34,7 @@
 用户问"帮我看下这家公司季度收入的变化"——谁该接？
 ```
 
-> ⭐ 这就是 `description-by-collision-risk.md` 的混淆伙伴审计要解决的问题。
+> ⭐ 这就是 `skill-triggering/references/description-by-collision-risk.md` 的混淆伙伴审计要解决的问题。
 
 ---
 

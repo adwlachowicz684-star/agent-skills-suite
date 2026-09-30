@@ -1,9 +1,9 @@
 # 冲突的四层优先级与四种类型
 
-> 相关：《skill-patterns》的 `skill-overrides-audit.md` ·
-> 《skill-orchestration》的 `collision-arbitration.md` ·
-> `routing-tiers-and-arbitration.md` ·
-> 《skill-triggering》的 `priority-override-layers.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/skill-overrides-audit.md` ·
+> 《skill-orchestration》的 `skill-orchestration/references/collision-arbitration.md` ·
+> `skill-orchestration/references/routing-tiers-and-arbitration.md` ·
+> 《skill-triggering》的 `skill-triggering/references/priority-override-layers.md`
 > 前置：那些讲"技能之间打架怎么裁"，
 > 这份讲⭐⭐⭐ **一套更完整的层级**——
 > 它把⭐ **事实（Facts）** 与⭐ **元技能（Meta）** 也纳入了，
@@ -102,12 +102,12 @@ Skill B (hakyll-patterns)："这个编译器模式通常是 30 行"
 → ⭐⭐ Skill B 赢（⭐ 对当前上下文更具体）
 ```
 
-> ⭐⭐⭐ 这与 `routing-tiers-and-arbitration.md` 的
+> ⭐⭐⭐ 这与 `skill-orchestration/references/routing-tiers-and-arbitration.md` 的
 > "特异优先于通用"是⭐ 同一条规则的独立来源，
 > 但这里多了⭐ 第 ② 步"看任务在哪一层"——
 > **这是一个新维度：不是比谁更具体，而是比谁管这一层。**
 >
-> ⭐ 也与 `collision-arbitration.md` 的"更具体的赢"一致，
+> ⭐ 也与 `skill-orchestration/references/collision-arbitration.md` 的"更具体的赢"一致，
 > ⭐⭐⭐ 三个来源同一结论：**specificity 是仲裁的第一原则。**
 
 ---
@@ -165,8 +165,8 @@ Core (coding-standard)："默认用 Text 而非 String"
 > 这条很重要，因为它确立了⭐ **"何时停下"优先于"怎么做"**。
 >
 > ⭐⭐ 与我们已有内容对照：
-> `preflight-gate.md` 的"前置条件失败 → 快速失败"、
-> `skill-ownership-changeflow.md` 的"歧义时默认回滚"——
+> `skill-execution/references/preflight-gate.md` 的"前置条件失败 → 快速失败"、
+> `skill-governance/references/skill-ownership-changeflow.md` 的"歧义时默认回滚"——
 > ⭐⭐⭐ 三条都在说：**停止/提问的判断，优先级高于执行判断。**
 
 **还有一条上下文的补充说明**（避免误解）：
@@ -204,7 +204,7 @@ Core (coding-standard)："默认用 Text 而非 String"
 ```
 
 > ⭐⭐ 这个格式的价值在于⭐ **强制写出 Rationale**——
-> 与 `skill-chaining-composition.md` 的"真的有歧义时记 --decision 日志"
+> 与 `skill-composition/references/skill-chaining-composition.md` 的"真的有歧义时记 --decision 日志"
 > 是同一条：⭐⭐⭐ **没记下来的仲裁 = 下次重新吵一遍**。
 
 **还有一条新信息处理的规则**：

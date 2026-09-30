@@ -1,8 +1,8 @@
 # 共享服务技能：给用户用 vs 给别的技能用
 
-> 相关：《skill-patterns》的 `five-design-patterns.md` ·
-> `solid-for-skills.md` · 《skill-orchestration》的
-> `skill-dependency-injection.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/five-design-patterns.md` ·
+> `skill-patterns/references/solid-for-skills.md` · 《skill-orchestration》的
+> `skill-orchestration/references/skill-dependency-injection.md`
 > 前置：那份讲四种组合写法，
 > 这份把其中⭐ **"专门设计给别的技能调用"**这一类单独展开——
 > 因为它的设计规则与常规技能⭐ 有系统性的不同。
@@ -52,7 +52,7 @@
 > 它沉默一次，整条链就在中间断掉，
 > 而上游看到的只是"下游没给我东西"——⭐ **极难定位**。
 >
-> 这与 `script-cli-contract.md` 的"失败必须诚实（非 0 退出）"是同一条原则，
+> 这与 `skill-scripting/references/script-cli-contract.md` 的"失败必须诚实（非 0 退出）"是同一条原则，
 > 只是载体从脚本换成了技能。
 
 **② ⭐ 输入输出契约必须钉死**
@@ -70,7 +70,7 @@
 ```
 
 > ⭐⭐ 第二条尤其重要：**一旦掺入业务语义，它就只能被那一条链用**。
-> 这跟 `gamedev-skill-routing.md` 的
+> 这跟 `skill-orchestration/references/gamedev-skill-routing.md` 的
 > "学科技能拥有可移植概念，代码部分让给引擎技能"是同一种切法。
 
 ---
@@ -90,7 +90,7 @@
 ❌ 需要判断力——判断交给主技能，共享服务只做机械操作
 ```
 
-> ⭐ 第二条呼应 `seven-anti-patterns-scale.md` 的"过度脚本化"：
+> ⭐ 第二条呼应 `skill-patterns/references/seven-anti-patterns-scale.md` 的"过度脚本化"：
 > ⭐ **判断步骤留在 markdown，机械步骤才下沉**。
 > 共享服务技能也适用——**它是机械的那部分**。
 
@@ -104,7 +104,7 @@
 ③ ⭐ 掺入业务语义——复用性归零
 ④ ⭐ 输出里混了说明文字——上游解析失败
    （呼应 script-cli-contract.md 的"stdout 只放结果"）
-⑤ ⭐⭐ 版本变了没通知依赖方——⭐ 与 `deprecation-compat-strategy.md`
+⑤ ⭐⭐ 版本变了没通知依赖方——⭐ 与 `skill-governance/references/deprecation-compat-strategy.md`
    的"跨版本循环依赖"同源
 ```
 
@@ -129,7 +129,7 @@
 ❌ 别把确定性操作做成技能——脚本更省 token 且可测试
 ```
 
-> ⭐⭐ 判据与 `deterministic-scripts.md` 一致：
+> ⭐⭐ 判据与 `skill-scripting/references/deterministic-scripts.md` 一致：
 > **"从 Y 算出 X，X 是数字、Y 是结构化数据" → 脚本；
 > "用自然语言解释 X" → LLM。**
 > 共享服务技能处在中间地带：**有语言成分，但输出是结构化的、可复用的**。

@@ -1,9 +1,9 @@
 # 规模化七反模式：从个人技能到团队库
 
-> 相关：《skill-patterns》的 `nine-anti-patterns.md` ·
-> `five-design-patterns.md` · 《skill-structuring》的
-> `enterprise-layout.md` · 《skill-distribution》的
-> `team-landing-seven.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/nine-anti-patterns.md` ·
+> `skill-patterns/references/five-design-patterns.md` · 《skill-structuring》的
+> `skill-structuring/references/enterprise-layout.md` · 《skill-distribution》的
+> `skill-adoption/references/team-landing-seven.md`
 > 前置：那份讲"单个技能的反模式"，
 > 这份讲⭐⭐ **当技能库变大、变成团队资产之后**才会出现的反模式。
 
@@ -44,7 +44,7 @@ packages/ui/.claude/skills/           只在共享 UI 包相关时加载
 > ⭐⭐ **No configuration. No setup.**
 > **把技能放进正确的文件夹，正确的技能就会在正确的地方加载。**
 
-> ⭐ 这条与 `frontmatter-full-reference.md` 的 `paths:` 字段是互补的两种手段：
+> ⭐ 这条与 `skill-loading/references/frontmatter-full-reference.md` 的 `paths:` 字段是互补的两种手段：
 > `paths:` 是⭐ 显式声明文件 glob；文件夹位置是⭐ 隐式的作用域。
 > 前者更精确，后者零配置。
 
@@ -82,7 +82,7 @@ packages/ui/.claude/skills/           只在共享 UI 包相关时加载
 ③ ⭐⭐ 有副作用的技能需要⭐ 显式的权限边界
 ```
 
-**起步建议**（与 `team-landing-seven.md` 一致）：
+**起步建议**（与 `skill-adoption/references/team-landing-seven.md` 一致）：
 
 ```
 ⭐ 从一个重复的工作流开始
@@ -92,7 +92,7 @@ packages/ui/.claude/skills/           只在共享 UI 包相关时加载
 ```
 
 > ⭐⭐ 后半句常被漏——**只测"该触发时触发"会得到一个到处乱触发的技能**。
-> 这正是 `description-by-collision-risk.md` 的负样本比正样本值钱。
+> 这正是 `skill-triggering/references/description-by-collision-risk.md` 的负样本比正样本值钱。
 
 ---
 
@@ -111,7 +111,7 @@ CLAUDE.md = ⭐ 常驻事实（架构决策、技术栈、代码风格）
 技能      = ⭐ 触发式程序（只在 description 匹配时加载）
 ```
 
-> ⭐ 与 `context-file-selection.md` 的结论一致，但这里给了更好的记忆法：
+> ⭐ 与 `skill-selection/references/context-file-selection.md` 的结论一致，但这里给了更好的记忆法：
 > **CLAUDE.md 是"每轮都为真"的东西；技能是"当做 X 时"的东西。**
 
 **技能 vs 自定义命令**（一条历史事实）：
@@ -134,7 +134,7 @@ CLAUDE.md = ⭐ 常驻事实（架构决策、技术栈、代码风格）
 ✅ ⭐ 只有⭐ 固定计算、校验、可重复的数据处理才用小的、测过的脚本
 ```
 
-> ⭐ 这条是对 `deterministic-scripts.md` 的必要补充——
+> ⭐ 这条是对 `skill-scripting/references/deterministic-scripts.md` 的必要补充——
 > 那份讲"该脚本化什么"，这份补**"不该脚本化什么"**：
 > **需要判断力的部分留在 markdown，因为脚本无法表达判断**。
 

@@ -1,8 +1,8 @@
 # 六个坑与一张二维自检清单
 
-> 相关：《skill-patterns》的 `anti-patterns-catalog.md` · `nine-anti-patterns.md` ·
-> 《skill-authoring》的 `authoring-checklist.md` ·
-> 《skill-crafting》的 `token-bloat-audit.md`（瘦身六动作）
+> 相关：《skill-patterns》的 `skill-patterns/references/anti-patterns-catalog.md` · `skill-patterns/references/nine-anti-patterns.md` ·
+> 《skill-authoring》的 `skill-authoring/references/authoring-checklist.md` ·
+> 《skill-crafting》的 `skill-crafting/references/token-bloat-audit.md`（瘦身六动作）
 > 前置：那些讲⭐ 各类反模式的清单，
 > 这份给⭐⭐⭐⭐ ⭐ 一套⭐ 按维度组织、⭐ 可逐条过的⭐ 自检表 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 命名得很好的⭐ 剪枝动作。
@@ -39,7 +39,7 @@
 >
 > ⭐⭐⭐⭐⭐ 最后那个问句⭐ 很妙：⭐ **"手动技能多到记不住"⭐ 是一个⭐ 可观察的信号**，
 > ⭐⭐⭐⭐ 它⭐ 提示你⭐ 该引入⭐ 路由层了——
-> ⭐⭐⭐⭐ 与 `routing-tiers-and-arbitration.md` 的"10–50 个上向量召回"
+> ⭐⭐⭐⭐ 与 `skill-orchestration/references/routing-tiers-and-arbitration.md` 的"10–50 个上向量召回"
 > ⭐⭐⭐ ⭐ 是⭐ 同一件事的⭐ 另一种触发条件（一个看数量，⭐⭐⭐⭐ 一个看⭐ 你的记性）。
 
 ---
@@ -70,7 +70,7 @@
 
 > ⭐⭐⭐⭐⭐ "产出一份清单"⭐ 这个反例⭐ 精准得刺人——
 > ⭐⭐⭐⭐⭐ ⭐ 它看起来⭐ 有要求，⭐ 实际上⭐ 没有终止条件也没有覆盖定义。
-> ⭐⭐⭐⭐ 这与 `trace-debugging.md` 的"循环根因是⭐ 没有明确的成功判据"
+> ⭐⭐⭐⭐ 这与 `skill-triggering/references/trace-debugging.md` 的"循环根因是⭐ 没有明确的成功判据"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 是同一条，⭐⭐⭐ 只是⭐ 落在⭐ 单步的粒度上。
 
 **信息层级**：
@@ -87,7 +87,7 @@
 > ⭐⭐⭐⭐⭐ ⭐ 一条只有 10% 情况用得到的指令，⭐⭐⭐⭐ ⭐ 却 100% 地占用上下文。
 >
 > ⭐⭐⭐⭐⭐ 而第三条⭐ 此前完全没人提过：⭐⭐⭐ **指针本身也要写得好**。
-> 与 `reference-file-practices.md` 的"⭐ 引用措辞决定⭐ 会不会被正确打开"
+> 与 `skill-structuring/references/reference-file-practices.md` 的"⭐ 引用措辞决定⭐ 会不会被正确打开"
 > ⭐⭐⭐⭐ ⭐ 是同一条的两个说法。
 
 ---
@@ -112,8 +112,8 @@
 > ⭐⭐⭐⭐⭐ 它指的不是"过期"（过期只是旧），
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 而是⭐ **新加的内容和旧内容⭐ 互相矛盾，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 但⭐ 分别读⭐ 都看不出来**。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 我们已有的 `version-changelog-practice.md` 讲"⭐ 数值漂移"、
-> `skill-rot-rollback-discipline.md` 讲"漂移"，
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 我们已有的 `skill-versioning/references/version-changelog-practice.md` 讲"⭐ 数值漂移"、
+> `skill-versioning/references/skill-rot-rollback-discipline.md` 讲"漂移"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ ⭐ 而⭐ "沉积"给了⭐ 一个⭐ 更准确的⭐ 检测角度：
 > ⭐⭐⭐⭐ **不要⭐ 单独审一句，要⭐⭐⭐⭐⭐ ⭐ 把⭐ 所有提到同一件事的地方⭐ 放在一起看。**
 >
@@ -142,7 +142,7 @@
 > ② ⭐⭐⭐⭐⭐ ⭐ 实在没法正着说 → ⭐⭐⭐ 才保留禁令
 > ③ ⭐⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 保留了也⭐ 必须⭐ 配替代品
 > ```
-> ⭐⭐⭐⭐⭐ 而⭐ 它的⭐ 理由⭐ 与 `write-reasons-not-rules.md` 一致：
+> ⭐⭐⭐⭐⭐ 而⭐ 它的⭐ 理由⭐ 与 `skill-crafting/references/write-reasons-not-rules.md` 一致：
 > ⭐⭐⭐⭐ **正面表述⭐ 给的是⭐ 可迁移的判断依据，⭐⭐⭐ 禁令⭐ 只堵了⭐ 一条路。**
 >
 > ⭐⭐⭐⭐⭐ 这已是⭐ "禁令必须带替代方案"的⭐⭐⭐⭐⭐ **第八个来源**，
@@ -175,7 +175,7 @@
 > ```
 >
 > ⭐⭐⭐⭐⭐ 而⭐ "像对待代码那样"⭐ 这个⭐ 总体比喻
-> ⭐⭐⭐⭐ 与 `solid-for-skills.md`（软件设计原则迁移）⭐ 是⭐ 同一立场，
+> ⭐⭐⭐⭐ 与 `skill-patterns/references/solid-for-skills.md`（软件设计原则迁移）⭐ 是⭐ 同一立场，
 > ⭐⭐⭐⭐⭐ ⭐ 但⭐ 这里⭐ 强调的是⭐ 工程纪律（剪枝、测试、评审），
 > ⭐⭐⭐⭐ ⭐ 那份⭐ 强调的是⭐ 结构设计。
 >
@@ -183,7 +183,7 @@
 > ⭐⭐⭐⭐⭐ **"哪怕是你⭐ 天天在用、⭐ 以为写得挺干净的 skill，
 > ⭐⭐⭐⭐⭐ ⭐ 六个坑也⭐ 照样条条能踩。"**
 > ⭐⭐⭐⭐ ⭐ 这解释了为什么⭐ 需要⭐ 定期审计（而非"写的时候注意"）——
-> ⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-decay-governance.md` 的 `review_after` ⭐ 同源。
+> ⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-governance/references/skill-decay-governance.md` 的 `review_after` ⭐ 同源。
 
 ---
 

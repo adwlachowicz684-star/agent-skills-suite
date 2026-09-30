@@ -1,8 +1,8 @@
 # 发布前 20 项自查（0–2 分制，28 分以上才发）
 
-> 相关：《skill-patterns》的 `review-checklist.md` ·
-> `knowledge-delta-checklist.md` ·
-> 《skill-distribution》的 `release-versioning.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/review-checklist.md` ·
+> `skill-patterns/references/knowledge-delta-checklist.md` ·
+> 《skill-distribution》的 `skill-distribution/references/release-versioning.md`
 
 ---
 
@@ -67,8 +67,8 @@
 确定性操作不脚本化 → ⭐ 跑一次一个样，根本没法持续使用
 ```
 
-> 前者对应 `scope-section.md` 的边界章节；
-> 后者对应 《skill-scripting》`scripts-as-production.md` 的核心论点。
+> 前者对应 `skill-scoping/references/scope-section.md` 的边界章节；
+> 后者对应 《skill-scripting》`skill-scripting/references/scripts-as-production.md` 的核心论点。
 > **这两条恰好也是我们自己校验器会报错的项**。
 
 ---
@@ -91,7 +91,7 @@
 
 > ⭐ 最后一条很关键：
 > **改完不重启就测试，测的是缓存里的旧版本**
-> （与 `skill-structuring` 的 `frontmatter-pitfalls.md` 的平台缓存问题一致）。
+> （与 `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md` 的平台缓存问题一致）。
 
 ---
 

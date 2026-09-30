@@ -1,8 +1,8 @@
 # 企业级技能库的三层骨架
 
-> 相关：《skill-orchestration》的 `composition-patterns-types.md`（组合依赖类型）·
-> 《skill-orchestration》的 `routing-tiers-and-arbitration.md` ·
-> 《skill-execution》的 `seven-contracts.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/composition-patterns-types.md`（组合依赖类型）·
+> 《skill-orchestration》的 `skill-orchestration/references/routing-tiers-and-arbitration.md` ·
+> 《skill-execution》的 `skill-execution/references/seven-contracts.md`
 > 前置：那些讲⭐ 单个技能的契约与组合，
 > 这份讲⭐⭐⭐⭐ ⭐ 当技能⭐ 多到需要被"找到"时，⭐⭐⭐⭐⭐ ⭐⭐⭐ 库本身⭐ 该长成什么样。
 
@@ -51,7 +51,7 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 缺少⭐ 一个⭐ 把它们⭐ 组织起来的⭐ 结构——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ "结构"⭐ 恰恰是⭐ 规模化的⭐ 前提。**
 >
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这也⭐ 呼应了 `skill-scope-tiering.md` 里⭐ 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这也⭐ 呼应了 `skill-refining/references/skill-scope-tiering.md` 里⭐ 那条
 > "⭐ 无 category 拒绝注册"——⭐⭐⭐⭐⭐ ⭐⭐⭐ 那个⭐ "category"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 正是⭐ 第 ① 层的⭐ 准入字段。
 
@@ -80,7 +80,7 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 ```
 
 > ⭐⭐⭐⭐⭐ 第 ③ 条⭐ 是⭐ 本轮⭐ 最值钱的⭐ 一条，⭐⭐⭐⭐⭐ ⭐⭐⭐ 因为⭐ 它⭐ 与⭐ 我们
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 已有的⭐ `preflight-gate.md`（STEP 0 前置门禁）⭐ 形成了⭐ 一个⭐ 漂亮的⭐ 分工：
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 已有的⭐ `skill-execution/references/preflight-gate.md`（STEP 0 前置门禁）⭐ 形成了⭐ 一个⭐ 漂亮的⭐ 分工：
 > ```
 > preflight-gate：⭐⭐⭐⭐⭐ ⭐⭐⭐ 技能⭐ 内部 ⭐ 检查前置（⭐ 已进入执行，失败则快速失败）
 > ⭐⭐⭐⭐⭐ 前置指纹  ：⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ Agent 在 ⭐ 规划阶段 ⭐ 就排除（⭐⭐⭐⭐⭐ ⭐⭐⭐ 根本不调用）
@@ -89,11 +89,11 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ "加载了、开始了、然后才发现缺东西"⭐ 这种
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐ 最差的⭐ 情况。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 也⭐ 是"⭐ 把判断⭐ 前移"⭐ 的⭐ 又一个⭐ 实例
-> （同族：⭐ 声明期预防 ⭐ 优于 ⭐ 运行时仲裁 —— `collision-arbitration.md`）。
+> （同族：⭐ 声明期预防 ⭐ 优于 ⭐ 运行时仲裁 —— `skill-orchestration/references/collision-arbitration.md`）。
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 第 ② 条⭐ 的⭐ 四段式⭐ 与⭐ 我们已有的
 > ⭐⭐⭐⭐⭐ **"description 的 WHAT / WHEN / HOW / NOT / ALSO"**
-> （`description-by-collision-risk.md`）⭐ 高度重合，
+> （`skill-triggering/references/description-by-collision-risk.md`）⭐ 高度重合，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 这里⭐ 多出了⭐ 一整块：⭐ **"是什么"**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ —— 即⭐ 一个⭐ 明确的⭐ 领域类别声明，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而⭐ 那⭐ 正是⭐ 第 ① 层⭐ 标签的⭐ 文字形式。
@@ -121,7 +121,7 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 推论：⭐⭐⭐⭐⭐ **"前置 + 后置"⭐ 合起来
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 就是⭐ 一个⭐ 技能的⭐ 完整⭐ 副作用契约**——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `seven-contracts.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-execution/references/seven-contracts.md` 的
 > "⭐ 从说明书到责任契约"⭐ 是⭐ 同一个⭐ 目标，⭐⭐⭐⭐⭐ ⭐⭐⭐ 只是⭐ 切分方式不同。
 
 ---
@@ -140,9 +140,9 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与⭐ 我们已有的⭐ 两条⭐ 精确对应：
 > ```
-> `composition-patterns-types.md`：⭐⭐⭐⭐⭐ ⭐ 隐式依赖最隐蔽
+> `skill-orchestration/references/composition-patterns-types.md`：⭐⭐⭐⭐⭐ ⭐ 隐式依赖最隐蔽
 >                                ⭐⭐⭐⭐⭐ ⭐⭐⭐ 单独测试看不出，⭐⭐⭐⭐⭐ ⭐⭐⭐ 只在生产"被单独调用"时暴露
-> `dependency-resolution-conflicts.md`：⭐⭐⭐⭐⭐ ⭐⭐⭐ "需要 Python 环境"不是声明，
+> `skill-distribution/references/dependency-resolution-conflicts.md`：⭐⭐⭐⭐⭐ ⭐⭐⭐ "需要 Python 环境"不是声明，
 >                                    ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ `python: ">=3.11"` 才是
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **三个来源⭐ 同一结论，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这里⭐ 补上了
@@ -151,7 +151,7 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 还有一条⭐ 值得⭐ 单独⭐ 记：
 > ⭐⭐⭐⭐⭐ **依赖声明⭐ 不只⭐ 声明 MCP 工具，⭐⭐⭐⭐⭐ ⭐⭐⭐ 还要⭐ 声明
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ "依赖哪些其他 Skill"**——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 正是⭐ `skill-dependency-injection.md` 那份
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 正是⭐ `skill-orchestration/references/skill-dependency-injection.md` 那份
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 讲的⭐ 技能级依赖注入⭐ 的⭐ 注册侧要求。
 
 ---
@@ -175,7 +175,7 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 不是只记日志，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而是⭐ 记录
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ "这次执行⭐ 产生了什么"——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这是⭐ 清理的⭐ 依据。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 对照 `seven-contracts.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 对照 `skill-execution/references/seven-contracts.md` 的
 > "⭐ 产物不可定位 → ⭐⭐⭐⭐⭐ ⭐⭐⭐ 完成不可验证"：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **这里⭐ 更进一步——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 产物不可定位 → ⭐ 连清理都没法做。**
@@ -183,14 +183,14 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 > **② ⭐⭐⭐⭐⭐ 失败路径是"回滚 Skill"，不是"报告错误"**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 把回滚⭐ 也建模成⭐ 一个技能
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ （⭐ 可组合、可测试、可被单独审查）
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `seven-contracts.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-execution/references/seven-contracts.md` 那条
 > "⭐ 重试要区分'没写入' vs '已写入但回应丢失'，⭐⭐⭐⭐⭐ ⭐⭐⭐ 否则创建重复对象"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 是⭐ 同一件事的⭐ 正向解法。
 >
 > **③ ⭐⭐⭐⭐⭐ 两条路径汇合后都要"验证环境干净"**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这是⭐ 一个⭐ 独立的⭐ 收尾步骤，⭐⭐⭐⭐⭐ ⭐⭐⭐ 且⭐ 有⭐ 验证——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ **不是"清理了"就算，⭐⭐⭐⭐⭐ ⭐⭐⭐ 是"验证干净了"才算。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `judgment-branches-acceptance.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-examples/references/judgment-branches-acceptance.md` 的
 > "⭐ 少了验收，⭐⭐⭐⭐⭐ ⭐⭐⭐ agent 很容易用一句'已完成'糊过去"⭐ 同源。
 
 ---
@@ -204,12 +204,12 @@ Skill 执行与副作用管理层     ← MCP 工具 / 外部系统
 ✅ "接口测试"（主标签）+ 领域化的意图描述
 ```
 
-> ⭐⭐⭐⭐⭐ 这条⭐ 与⭐ 我们已有的⭐ `naming-conventions.md` 完全同源，
+> ⭐⭐⭐⭐⭐ 这条⭐ 与⭐ 我们已有的⭐ `skill-structuring/references/naming-conventions.md` 完全同源，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 这里⭐ 给出的是⭐ 一个⭐ 具体的⭐ 高频错误形态：
 > ⭐⭐⭐⭐ **把"一次具体执行的标题"当成"一类能力的名字"。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 判据可以是⭐ 我们那条⭐ 现成的：
 > ⭐⭐⭐⭐⭐ **"能被两个以上场景复用才拆成技能，否则只是普通函数"**
-> （`skill-data-passing.md`）——
+> （`skill-interfaces/references/skill-data-passing.md`）——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 一个⭐ 名字里⭐ 带了⭐ 具体用例的⭐ 技能，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 多半⭐ 通不过⭐ 这条检验。
 

@@ -118,7 +118,7 @@
            应该做 Z"                    ⭐ ——同时给了替代方案
 ```
 
-回顾 `guidance-forms.md`：
+回顾 `skill-crafting/references/guidance-forms.md`：
 **禁令单独使用可能反噬，而"配方"形态更硬。**
 反模式章节因为带了"该怎么做"，实际上更接近**配方**。
 
@@ -136,7 +136,7 @@
 ```
 
 最后一条：**如果一个技能的反模式超过 8 条，
-通常说明它承担了太多职责**——该拆了（见 `splitting.md`）。
+通常说明它承担了太多职责**——该拆了（见 `skill-refining/references/splitting.md`）。
 
 ## 一条提醒
 

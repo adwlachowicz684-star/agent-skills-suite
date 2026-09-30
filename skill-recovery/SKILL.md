@@ -30,17 +30,17 @@ description: 技能执行失败、跑不完、跑重了、跑断了之后的恢�
 
 ## 路由表
 
-| `reversibility-and-undo.md` | ⭐⭐⭐⭐⭐ 可逆性取决于原值还在不在；B类动作必须留 undo 清单；不可撤销给补偿不给回滚 |
-| `execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；`safe_reply` 字段；禁止解释错误 |
-| `error-handling.md` | ⭐⭐⭐⭐⭐ 四段式错误消息（含第④段"明确禁止什么"） |
-| `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 只定义怎么开始的技能；跑不动被当成"已完成" |
-| `budget-caps-no-progress.md` | ⭐⭐⭐⭐⭐ 无进展检测器：动作不同但状态不变 |
-| `infinite-loop-timeout.md` | ⭐⭐⭐⭐ 循环与重试上限 |
-| `three-crash-scenes.md` | ⭐⭐⭐⭐ 三起翻车现场：脚本输出 3 万字塞爆上下文 |
+| `skill-recovery/references/reversibility-and-undo.md` | ⭐⭐⭐⭐⭐ 可逆性取决于原值还在不在；B类动作必须留 undo 清单；不可撤销给补偿不给回滚 |
+| `skill-recovery/references/execution-error-protocol.md` | ⭐⭐⭐⭐⭐ 错误被吞掉：模型把失败改写成成功；`safe_reply` 字段；禁止解释错误 |
+| `skill-recovery/references/error-handling.md` | ⭐⭐⭐⭐⭐ 四段式错误消息（含第④段"明确禁止什么"） |
+| `skill-recovery/references/exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐⭐ 只定义怎么开始的技能；跑不动被当成"已完成" |
+| `skill-recovery/references/budget-caps-no-progress.md` | ⭐⭐⭐⭐⭐ 无进展检测器：动作不同但状态不变 |
+| `skill-recovery/references/infinite-loop-timeout.md` | ⭐⭐⭐⭐ 循环与重试上限 |
+| `skill-recovery/references/three-crash-scenes.md` | ⭐⭐⭐⭐ 三起翻车现场：脚本输出 3 万字塞爆上下文 |
 | `anti-rationalizations.md` | ⭐⭐⭐⭐⭐ 反合理化：模型给"绕开约束"找的理由 |
-| `idempotency-resume.md` | ⭐⭐⭐⭐⭐ 幂等三层次；区分"没写入"vs"已写入但回应丢失" |
-| `state-check.md` | ⭐⭐⭐⭐ 先查状态再决定跳过还是重做 |
-| `cross-session-continuity.md` | ⭐⭐⭐⭐⭐ 重跑常比接续可靠 |
+| `skill-recovery/references/idempotency-resume.md` | ⭐⭐⭐⭐⭐ 幂等三层次；区分"没写入"vs"已写入但回应丢失" |
+| `skill-recovery/references/state-check.md` | ⭐⭐⭐⭐ 先查状态再决定跳过还是重做 |
+| `skill-recovery/references/cross-session-continuity.md` | ⭐⭐⭐⭐⭐ 重跑常比接续可靠 |
 
 ## Critical Rules
 

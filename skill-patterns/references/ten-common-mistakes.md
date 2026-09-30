@@ -1,7 +1,7 @@
 # 十条常见错误与反转修法
 
-> 相关：《skill-patterns》的 `nine-anti-patterns.md` ·
-> 《skill-authoring》的 `what-not-to-do.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/nine-anti-patterns.md` ·
+> 《skill-authoring》的 `skill-authoring/references/what-not-to-do.md`
 
 ---
 
@@ -77,7 +77,7 @@ SKILL.md 超过 1000 行 → 拆开
 ✅ 描述"何时用"
 ```
 
-> 与 `nine-anti-patterns.md` 第 6 条（隐身技能）同源。
+> 与 `skill-patterns/references/nine-anti-patterns.md` 第 6 条（隐身技能）同源。
 
 ---
 
@@ -110,7 +110,7 @@ agent 会理性化地跳过步骤
 ```
 
 > ⭐ **修法很特别：在写技能之前先写测试提示。**
-> 这与 `eval-loop-official.md` 的"先跑一遍再加断言"略有张力——
+> 这与 `skill-evaluating/references/eval-loop-official.md` 的"先跑一遍再加断言"略有张力——
 > 但两者其实说的是不同阶段：
 > **先写触发用的提示（决定 description），
 > 跑完再加输出断言。**

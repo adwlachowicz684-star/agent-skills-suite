@@ -115,7 +115,7 @@ X/20（优秀 / 良好 / 及格 / 弱 / 差）
 
 > ⭐ **批量评审的实用用法**：
 > `--below-score 3.5` 直接列出所有不合格的技能——
-> 这是清库时的第一工具（呼应 `skill-distribution` 的 `library-ops.md` 的五维健康诊断）。
+> 这是清库时的第一工具（呼应 `skill-distribution` 的 `skill-distribution/references/library-ops.md` 的五维健康诊断）。
 
 ---
 
@@ -194,7 +194,7 @@ X/20（优秀 / 良好 / 及格 / 弱 / 差）
 修法  ⭐ 每个分数都要有具体证据
 ```
 
-> ⭐ 呼应 `skill-crafting` 的 `grounding-verification.md` 的"别让 AI 给自己的作业打分"：
+> ⭐ 呼应 `skill-crafting` 的 `skill-output/references/grounding-verification.md` 的"别让 AI 给自己的作业打分"：
 > **评分必须由独立评审者给出，且要引用证据。**
 
 **进阶：先验证证据再评分**：

@@ -1,8 +1,8 @@
 # 五种技能设计模式（含选型决策树）
 
-> 相关：《skill-authoring》的 `patterns.md` ·
-> 《skill-authoring》的 `creation-framework.md` ·
-> 《skill-domains》的 `methodology-skills.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/patterns.md` ·
+> 《skill-authoring》的 `skill-authoring/references/creation-framework.md` ·
+> 《skill-domains》的 `skill-domains/references/methodology-skills.md`
 
 ---
 
@@ -79,7 +79,7 @@ metadata:
 
 > ⭐ 模板放 **`assets/`** 而非 `references/`——
 > 它是被填充的骨架，不是被阅读的知识
-> （对应 `skill-structuring` 的 `references-vs-assets.md` 的分界）。
+> （对应 `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` 的分界）。
 
 ---
 
@@ -134,7 +134,7 @@ metadata:
 
 **适用**：复杂需求拆解、项目脚手架、用户画像分析、架构设计。
 
-> ⭐ 这个模式与 `guidance-forms.md` 的关系值得注意：
+> ⭐ 这个模式与 `skill-crafting/references/guidance-forms.md` 的关系值得注意：
 > 它用的是**禁令**（DO NOT start building），
 > 但**同时给出了完整的替代路径**（先完成这些阶段）——
 > 所以是有效禁令。
@@ -170,7 +170,7 @@ metadata:
 **适用**：数据处理流水线、CI/CD 编排、多步骤内容生产。
 
 > ⭐ 注意"每步输出落文件"——
-> 与 `composition.md` 的"中间产物落文件"完全一致。
+> 与 `skill-composition/references/composition.md` 的"中间产物落文件"完全一致。
 
 ---
 

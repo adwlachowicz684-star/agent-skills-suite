@@ -1,8 +1,8 @@
 # 五种结构模式 A–E（含各自行数目标）
 
-> 相关：《skill-patterns》的 `five-design-patterns.md` ·
-> 《skill-authoring》的 `creation-framework.md` ·
-> `skill-structuring` 的 `directory-contract.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/five-design-patterns.md` ·
+> 《skill-authoring》的 `skill-authoring/references/creation-framework.md` ·
+> `skill-structuring` 的 `skill-structuring/references/directory-contract.md`
 
 ---
 
@@ -63,7 +63,7 @@ my-skill/
 
 **适用**：代码执行、确定性操作。
 
-> ⭐ 对应 《skill-scripting》`scripts-as-production.md`：
+> ⭐ 对应 《skill-scripting》`skill-scripting/references/scripts-as-production.md`：
 > **脚本执行不进上下文，只输出进**——这是省 token 的关键。
 
 ---
@@ -80,7 +80,7 @@ my-skill/
 
 **适用**：技术框架知识库。
 
-> ⭐ 与 `five-design-patterns.md` 的 Tool Wrapper 对应：
+> ⭐ 与 `skill-patterns/references/five-design-patterns.md` 的 Tool Wrapper 对应：
 > **检测到关键词才加载 references/ 里的领域文档。**
 
 ---

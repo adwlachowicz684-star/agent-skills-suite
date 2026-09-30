@@ -1,8 +1,8 @@
 # 九维打分：权重最高的三项是"能不能真跑"
 
-> 相关：《skill-quality》的 `quality-rubric.md`（四维度）·
-> `four-dimension-eval.md` · `comparator-ab-eval.md`
-> 前置：`quality-rubric.md` 是 Clarity/Completeness/Accuracy/Usefulness 四维，
+> 相关：《skill-quality》的 `skill-quality/references/quality-rubric.md`（四维度）·
+> `skill-quality/references/four-dimension-eval.md` · `skill-automation/references/comparator-ab-eval.md`
+> 前置：`skill-quality/references/quality-rubric.md` 是 Clarity/Completeness/Accuracy/Usefulness 四维，
 > 这份是⭐ **另一套九维加权体系**，⭐ 权重分布完全不同，可互补使用。
 
 ---
@@ -54,21 +54,21 @@
 ⭐ 一个描述粗糙但每次都能稳定跑对的技能，得分不低
 ```
 
-> ⭐ 这与 `quality-rubric.md` 的"Accuracy 30% 且有一票否决"
+> ⭐ 这与 `skill-quality/references/quality-rubric.md` 的"Accuracy 30% 且有一票否决"
 > 是同一个价值观的两个表达：**正确性 > 美观度**。
 
 **三条具体判据**（可直接当检查表）：
 
 ```
 · ⭐ "可执行具体性"扣分点：出现"建议""可以考虑""尽量""适当的"
-  → ⭐ 这些是无效指令（与 `write-reasons-not-rules.md` 的
+  → ⭐ 这些是无效指令（与 `skill-crafting/references/write-reasons-not-rules.md` 的
      "全是原则没有动作"同源）
 
 · ⭐ "失败模式编码"扣分点：只有正向流程
-  → 与《crafting》的 `preflight-gate.md`、`error-handling.md` 配套
+  → 与《crafting》的 `skill-execution/references/preflight-gate.md`、`skill-recovery/references/error-handling.md` 配套
 
 · ⭐ "反例黑名单"扣分点：只有正向指令
-  → ⭐ 但注意：禁令必须带替代方案（见 `guidance-forms.md`）
+  → ⭐ 但注意：禁令必须带替代方案（见 `skill-crafting/references/guidance-forms.md`）
      ⭐ 只写"不要做 X"而不写"改做什么"，在这一维也不该满分
 ```
 

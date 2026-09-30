@@ -1,8 +1,8 @@
 # 反馈环设计：做 → 检查 → 修
 
-> 相关：《skill-patterns》的 `golden-rules-failure-modes.md` ·
-> 《skill-output》的 `grounding-verification.md` ·
-> 《skill-quality》的 `four-dimension-eval.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/golden-rules-failure-modes.md` ·
+> 《skill-output》的 `skill-output/references/grounding-verification.md` ·
+> 《skill-quality》的 `skill-quality/references/four-dimension-eval.md`
 
 ---
 
@@ -41,7 +41,7 @@
 > ⭐ 优先级：**脚本校验 > 自审查清单 > 主观判断**。
 > 因为脚本不会自欺，清单可能敷衍，主观等于没有。
 
-这与 `test-pyramid.md` 第 1 层"不用 LLM 判"同源。
+这与 `skill-evaluating/references/test-pyramid.md` 第 1 层"不用 LLM 判"同源。
 
 ---
 
@@ -94,7 +94,7 @@
 `skill_rules.py` 里的扫描规则，
 比在文档里写一百遍"不要硬编码路径"有效得多。
 
-> ⭐ 这也解释了 `failure-modes.md` 里"禁令反噬"的现象——
+> ⭐ 这也解释了 `skill-triggering/references/failure-modes.md` 里"禁令反噬"的现象——
 > **禁令是段落，它依赖模型遵守；
 > 校验器是代码，它不依赖。**
 
@@ -123,7 +123,7 @@ L3 脚本         —— ⭐ 校验器，确定性判定
 ```
 
 > ⭐ 没有 STOP 标记，agent 会一气呵成跳过所有验证步骤——
-> 与 `five-design-patterns.md` 的 Pipeline 门控同理。
+> 与 `skill-patterns/references/five-design-patterns.md` 的 Pipeline 门控同理。
 
 ---
 

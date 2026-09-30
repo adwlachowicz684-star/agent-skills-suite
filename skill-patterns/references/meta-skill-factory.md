@@ -1,8 +1,8 @@
 # 元技能：让 agent 自己写技能
 
-> 相关：《skill-content》的 `prompt-to-skill.md` ·
-> 《skill-subagents》的 `subagents.md` ·
-> 《skill-crafting》的 `skill-structuring` 的 `frontmatter-fields.md`
+> 相关：《skill-content》的 `skill-content/references/prompt-to-skill.md` ·
+> 《skill-subagents》的 `skill-subagents/references/subagents.md` ·
+> 《skill-crafting》的 `skill-structuring` 的 `skill-loading/references/frontmatter-fields.md`
 
 ---
 
@@ -59,8 +59,8 @@ resources.references = {
 
 ```
 When asked to create a new skill, generate a complete SKILL.md file.
-Read `references/skill-spec.md` for the format specification.
-Read `references/example-skill.md` for a working example.
+Read skill-spec.md for the format specification.
+Read example-skill.md for a working example.
 ```
 
 > ⭐ **这是元技能能否工作的关键**：
@@ -98,7 +98,7 @@ Read `references/example-skill.md` for a working example.
 >
 > **并且，对你构建的任何技能，都应该测试其有效性。**
 
-理由与 `code-review-trust.md` 那条一致：
+理由与 `skill-domains/references/code-review-trust.md` 那条一致：
 
 > ⭐ **别让 AI 给自己的作业打分。**
 > 生成的技能必须通过独立测试才算数。
@@ -139,5 +139,5 @@ agent 加载 skill-creator
 
 > ⭐ 自扩展能力很强大，但也意味着
 > **技能库会以你无法预见的速度增长**。
-> 配套必须要有 `library-ops.md` 里那套清理机制，
-> 否则很快就会撞上 `library-size-effect.md` 说的遮蔽问题。
+> 配套必须要有 `skill-distribution/references/library-ops.md` 里那套清理机制，
+> 否则很快就会撞上 `skill-selection/references/library-size-effect.md` 说的遮蔽问题。

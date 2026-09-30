@@ -33,40 +33,40 @@ description: >
 6. **跑 `validate_skill.py`**，然后跑 5+5 触发测试
 
 ## 路由表
-| `enterprise-three-layer-skeleton.md` | ⭐⭐★★★ 三层骨架；★前置指纹(规划期排除)；元描述=意图+前置+后置 |
-| `skill-anatomy-antipatterns.md` | ⭐⭐ description 触发/正文教；绝不在 description 总结工作流 |
-| `six-pitfalls-selfcheck.md` | ⭐⭐★★★ 沉积（打架的旧值）；★空转/重复；★禁令改写顺序 |
-| `six-anti-patterns-pitfalls.md` | ⭐⭐⭐ 六反模式症状→药方 + 六条安全红线 |
-| `common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
-| `anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
-| `anti-pattern-section.md` | ⭐⭐ 反模式章节写法 |
-| `reusability-over-specification.md` | ⭐⭐⭐⭐⭐ 先探测不先写（第五个同构场景）；⭐⭐⭐⭐⭐ 三层拆分通用/领域/项目；⭐⭐⭐⭐⭐ 改一个词测试 |
-| `four-design-principles-io-contract.md` | ⭐⭐⭐⭐ 四项原则；★★无状态此前未列为原则 + schema.yaml 数据契约 |
-| `conflict-precedence-four-types.md` | ⭐⭐⭐ 四层优先级(事实是约束/技能是指导)+四种冲突类型 |
-| `shared-service-skill.md` | ⭐⭐⭐ 共享服务技能：总是返回有效输出或明确错误 |
-| `seven-anti-patterns-scale.md` | ⭐⭐ 规模化七反模式；⭐⭐⭐ Markdown 指令不是访问控制 |
-| `skill-families-nine.md` | ⭐⭐ 九类技能；跨类最难用好，一类做到底 |
-| `self-containment-rewrite.md` | ⭐⭐⭐⭐⭐ 三招迁移序列；⭐⭐⭐⭐⭐ 拆分判据：重写需要几份文档；⭐⭐⭐⭐⭐ 抽一个出来的诊断法 |
-| `skills-are-programs.md` | ⭐⭐⭐⭐ 技能即程序，运行时是 LLM；⭐⭐⭐⭐⭐ 1024 字符决定存不存在；不该存在的四类文件 |
-| `solid-for-skills.md` | ⭐ 软件设计原则迁移：SOLID 映射、两张图、组合代价 |
-| `why-six-layers.md` | ⭐ 六层结构：目标/输入/流程/格式/自检/FAQ |
-| `skill-overrides-audit.md` | ⭐ 同名覆盖与冲突：三级命名空间、审计、my- 前缀 |
-| `skeleton-template.md` | ⭐ 可直接抄的骨架（六必含小节 + 触发调优） |
-| `instruction-craft.md` | ⭐ 正文写作：祈使句、钉死格式、讲为什么 |
-| `context-budget-math.md` | ⭐ 预算算术：96% 从哪来、压缩会驱逐技能 |
-| `team-registry-governance.md` | ⭐ 团队分发：manifest、pin、owner、hub-and-spoke |
-| `structure-modes-abcde.md` | ⭐ 五种结构模式 A–E（含各自行数目标） |
-| `six-step-creation.md` | ⭐ 六步创建法 + 五阶段学习路径 |
-| `publish-checklist-20.md` | ⭐ 发布前 20 项（0–2 分制，28 分才发） |
-| `golden-rules-failure-modes.md` | ⭐ 黄金规则：每条失败模式配一条机械规则 |
-| `feedback-loop-design.md` | ⭐ 反馈环：做→检查→修，规则升级为代码 |
-| `ten-common-mistakes.md` | ⭐ 十条常见错误与四条最该记住的 |
-| `skill-type-testing.md` | ⭐ 按类型选测法（Pattern 测 near-miss、Discipline 加压力） |
-| `review-checklist.md` | ⭐ 十项自检 + 反转测试 + 只记三条 |
-| `nine-anti-patterns.md` | ⭐ 九个反模式：症状 / 根因 / 修法 |
-| `meta-skill-factory.md` | ⭐ 元技能：让 agent 自己写技能（含人在环路） |
-| `knowledge-delta-checklist.md` | ⭐ 知识增量清单：该有的是模型不知道的 |
-| `five-design-patterns.md` | ⭐⭐ 五种设计模式 + 选型决策树（Tool Wrapper 起步） |
+| `skill-patterns/references/enterprise-three-layer-skeleton.md` | ⭐⭐★★★ 三层骨架；★前置指纹(规划期排除)；元描述=意图+前置+后置 |
+| `skill-patterns/references/skill-anatomy-antipatterns.md` | ⭐⭐ description 触发/正文教；绝不在 description 总结工作流 |
+| `skill-patterns/references/six-pitfalls-selfcheck.md` | ⭐⭐★★★ 沉积（打架的旧值）；★空转/重复；★禁令改写顺序 |
+| `skill-patterns/references/six-anti-patterns-pitfalls.md` | ⭐⭐⭐ 六反模式症状→药方 + 六条安全红线 |
+| `skill-patterns/references/common-mistakes-checklist.md` | ⭐ 常见错误清单：描述/正文/结构/输出/维护五层 |
+| `skill-patterns/references/anti-patterns-catalog.md` | ⭐ 五类反模式总目（含模型已知信息、嵌套引用） |
+| `skill-patterns/references/anti-pattern-section.md` | ⭐⭐ 反模式章节写法 |
+| `skill-patterns/references/reusability-over-specification.md` | ⭐⭐⭐⭐⭐ 先探测不先写（第五个同构场景）；⭐⭐⭐⭐⭐ 三层拆分通用/领域/项目；⭐⭐⭐⭐⭐ 改一个词测试 |
+| `skill-patterns/references/four-design-principles-io-contract.md` | ⭐⭐⭐⭐ 四项原则；★★无状态此前未列为原则 + schema.yaml 数据契约 |
+| `skill-patterns/references/conflict-precedence-four-types.md` | ⭐⭐⭐ 四层优先级(事实是约束/技能是指导)+四种冲突类型 |
+| `skill-patterns/references/shared-service-skill.md` | ⭐⭐⭐ 共享服务技能：总是返回有效输出或明确错误 |
+| `skill-patterns/references/seven-anti-patterns-scale.md` | ⭐⭐ 规模化七反模式；⭐⭐⭐ Markdown 指令不是访问控制 |
+| `skill-patterns/references/skill-families-nine.md` | ⭐⭐ 九类技能；跨类最难用好，一类做到底 |
+| `skill-patterns/references/self-containment-rewrite.md` | ⭐⭐⭐⭐⭐ 三招迁移序列；⭐⭐⭐⭐⭐ 拆分判据：重写需要几份文档；⭐⭐⭐⭐⭐ 抽一个出来的诊断法 |
+| `skill-patterns/references/skills-are-programs.md` | ⭐⭐⭐⭐ 技能即程序，运行时是 LLM；⭐⭐⭐⭐⭐ 1024 字符决定存不存在；不该存在的四类文件 |
+| `skill-patterns/references/solid-for-skills.md` | ⭐ 软件设计原则迁移：SOLID 映射、两张图、组合代价 |
+| `skill-patterns/references/why-six-layers.md` | ⭐ 六层结构：目标/输入/流程/格式/自检/FAQ |
+| `skill-patterns/references/skill-overrides-audit.md` | ⭐ 同名覆盖与冲突：三级命名空间、审计、my- 前缀 |
+| `skill-patterns/references/skeleton-template.md` | ⭐ 可直接抄的骨架（六必含小节 + 触发调优） |
+| `skill-patterns/references/instruction-craft.md` | ⭐ 正文写作：祈使句、钉死格式、讲为什么 |
+| `skill-patterns/references/context-budget-math.md` | ⭐ 预算算术：96% 从哪来、压缩会驱逐技能 |
+| `skill-patterns/references/team-registry-governance.md` | ⭐ 团队分发：manifest、pin、owner、hub-and-spoke |
+| `skill-patterns/references/structure-modes-abcde.md` | ⭐ 五种结构模式 A–E（含各自行数目标） |
+| `skill-patterns/references/six-step-creation.md` | ⭐ 六步创建法 + 五阶段学习路径 |
+| `skill-patterns/references/publish-checklist-20.md` | ⭐ 发布前 20 项（0–2 分制，28 分才发） |
+| `skill-patterns/references/golden-rules-failure-modes.md` | ⭐ 黄金规则：每条失败模式配一条机械规则 |
+| `skill-patterns/references/feedback-loop-design.md` | ⭐ 反馈环：做→检查→修，规则升级为代码 |
+| `skill-patterns/references/ten-common-mistakes.md` | ⭐ 十条常见错误与四条最该记住的 |
+| `skill-patterns/references/skill-type-testing.md` | ⭐ 按类型选测法（Pattern 测 near-miss、Discipline 加压力） |
+| `skill-patterns/references/review-checklist.md` | ⭐ 十项自检 + 反转测试 + 只记三条 |
+| `skill-patterns/references/nine-anti-patterns.md` | ⭐ 九个反模式：症状 / 根因 / 修法 |
+| `skill-patterns/references/meta-skill-factory.md` | ⭐ 元技能：让 agent 自己写技能（含人在环路） |
+| `skill-patterns/references/knowledge-delta-checklist.md` | ⭐ 知识增量清单：该有的是模型不知道的 |
+| `skill-patterns/references/five-design-patterns.md` | ⭐⭐ 五种设计模式 + 选型决策树（Tool Wrapper 起步） |
 
 | 文档 | 内容 |
 |---|---|

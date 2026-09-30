@@ -1,7 +1,7 @@
 # 不要用全有或全无的 rubric
 
-> 相关：`skill-evaluating` 的 `judge-design.md` ·
-> `quality-rubric.md` · `four-dimension-eval.md`
+> 相关：`skill-evaluating` 的 `skill-evaluating/references/judge-design.md` ·
+> `skill-quality/references/quality-rubric.md` · `skill-quality/references/four-dimension-eval.md`
 
 ---
 
@@ -51,11 +51,11 @@
 
 ## 3. 与"避免全有或全无评分"的关系
 
-这与 `metrics.md` / `judge-design.md` 里反复出现的原则一致：
+这与 `skill-quality/references/metrics.md` / `skill-evaluating/references/judge-design.md` 里反复出现的原则一致：
 **评分必须机器可读、可分解**，
 不能是"通过/不通过"一个比特。
 
-配套要求（与 `four-dimension-eval.md` 一致）：
+配套要求（与 `skill-quality/references/four-dimension-eval.md` 一致）：
 
 ```
 ⭐ 用 --output-schema 约束返回固定格式 JSON
@@ -85,7 +85,7 @@
 > ⭐ 锚点必须是**可观察到的行为**，
 > 不是"好/较好/一般"这类需要主观判断的标签。
 
-这与 `quality-rubric.md` 的"1-5 行为锚点"是同一套方法的简化版。
+这与 `skill-quality/references/quality-rubric.md` 的"1-5 行为锚点"是同一套方法的简化版。
 
 ---
 

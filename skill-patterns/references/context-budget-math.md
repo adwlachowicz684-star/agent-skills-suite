@@ -1,7 +1,7 @@
 # 上下文预算的算术：为什么激活不是一次性开销
 
-> 相关：《skill-context》的 `context-budget.md` · `budget-truncation.md` ·
-> 《skill-selection》的 `caching-economics.md`
+> 相关：《skill-context》的 `skill-context/references/context-budget.md` · `skill-context/references/budget-truncation.md` ·
+> 《skill-selection》的 `skill-selection/references/caching-economics.md`
 
 ---
 
@@ -36,7 +36,7 @@ metadata      可变
 > **正文里每一段都要证明自己配得上 token 成本。**
 > 如果内容没有提供 agent 所缺的信息，就该移到 references/ 或删掉。
 >
-> 这与《skill-refining》`pruning.md` 的 no-op 测试完全同源。
+> 这与《skill-refining》`skill-refining/references/pruning.md` 的 no-op 测试完全同源。
 
 ---
 
@@ -86,7 +86,7 @@ metadata      可变
 >
 > 应对：**强化技能指令，或在压缩后重新调用它。**
 
-这与 `budget-truncation.md` 的"压缩后每个技能只留前 5,000 tokens"完全吻合，
+这与 `skill-context/references/budget-truncation.md` 的"压缩后每个技能只留前 5,000 tokens"完全吻合，
 而且给出了更强的结论：**不只是留前 5000，还可能在有多个技能时被整个丢掉**。
 
 ---

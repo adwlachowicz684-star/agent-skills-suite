@@ -1,10 +1,10 @@
 # 占位符会变成成品
 
-> 相关：《skill-output》的 `numbers-in-output.md`（虚假精度与 0 vs 未获取）·
-> `enumeration-and-completeness.md`（没有分母就没有完成）·
-> 《skill-input》的 `inference-vs-asking.md`（推断并标注）·
-> 《skill-examples》的 `examples-three-branches.md`（示例里的具体值）·
-> `unjustified-numbers.md`
+> 相关：《skill-output》的 `skill-output/references/numbers-in-output.md`（虚假精度与 0 vs 未获取）·
+> `skill-output/references/enumeration-and-completeness.md`（没有分母就没有完成）·
+> 《skill-input》的 `skill-input/references/inference-vs-asking.md`（推断并标注）·
+> 《skill-examples》的 `skill-examples/references/examples-three-branches.md`（示例里的具体值）·
+> `skill-precision/references/unjustified-numbers.md`
 > 前置：
 > 已有文档讲的是⭐⭐⭐⭐ **内容层面的静默失败**（数字是猜的、类型是归错的、步骤被跳了），
 > 这份讲的是⭐⭐⭐⭐⭐ **形式层面的静默失败**——
@@ -59,7 +59,7 @@
 输出：  "客户：示例客户A"
 ```
 
-> ⭐⭐⭐⭐⭐ 这与《skill-examples》的 `examples-three-branches.md` 同源：
+> ⭐⭐⭐⭐⭐ 这与《skill-examples》的 `skill-examples/references/examples-three-branches.md` 同源：
 > ⭐⭐⭐⭐⭐ 少样本示例是最强的上下文信号，模型对示例的信任度高于对指令的信任度。
 > 那份讲的是"值被当成默认值"，这份讲的是**那些值现在出现在成品里**。
 
@@ -115,7 +115,7 @@ JSON 可解析 ✅ · schema 通过 ✅ · 字段齐全 ✅
 > ⭐⭐⭐⭐⭐ 最危险的不是 `TBD`，而是 **`N/A` 和 `无`**——
 > ⭐⭐⭐⭐⭐ 它们是一个完整的、语法正确的、语义错误的回答。
 
-而《skill-output》的 `numbers-in-output.md` 已经命中过其中一半：
+而《skill-output》的 `skill-output/references/numbers-in-output.md` 已经命中过其中一半：
 
 > ⭐⭐⭐⭐⭐ "新增问题 0" 可能是真的没有，也可能是没查到
 > → ⭐⭐⭐⭐⭐ **`0` 和 `无` 是最危险的占位符，因为它们看起来像结果。**
@@ -192,7 +192,7 @@ JSON 可解析 ✅ · schema 通过 ✅ · 字段齐全 ✅
 ```
 
 > ⭐⭐⭐⭐⭐ 这是最有效的一条：⭐⭐⭐⭐⭐ **把默认值设成"可见的空"，
-> 而不是"看起来填了的空"**。与 `inference-vs-asking.md` 的 L2 完全同构。
+> 而不是"看起来填了的空"**。与 `skill-input/references/inference-vs-asking.md` 的 L2 完全同构。
 
 **③ ⭐⭐⭐⭐⭐ 给模板配一个字段说明表**（`description` 缺失等于省略一半提示）
 

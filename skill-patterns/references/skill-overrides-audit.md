@@ -1,8 +1,8 @@
 # 同名覆盖与冲突：三级命名空间与审计
 
-> 相关：《skill-orchestration》的 `namespace-collision.md` ·
-> 《skill-distribution》的 `enterprise-registry.md` ·
-> `distribution-three-ways.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/namespace-collision.md` ·
+> 《skill-distribution》的 `skill-distribution/references/enterprise-registry.md` ·
+> `skill-distribution/references/distribution-three-ways.md`
 
 ---
 

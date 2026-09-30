@@ -1,8 +1,8 @@
 # 六大反模式与六条安全红线
 
-> 相关：《skill-patterns》的 `anti-patterns-catalog.md`（五类反模式总目）·
-> `common-mistakes-checklist.md` ·
-> 《skill-security》的 `allowed-tools-least-privilege.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/anti-patterns-catalog.md`（五类反模式总目）·
+> `skill-patterns/references/common-mistakes-checklist.md` ·
+> 《skill-security》的 `skill-security/references/allowed-tools-least-privilege.md`
 > 前置：那份按"命名/内容/路径/工具/逻辑/安全"分类，
 > 这份按⭐⭐ **症状 → 药方**的对照表组织，
 > 并补上⭐⭐⭐ 六条安全红线与⭐⭐ 一个"先查这两步"的排障顺序。
@@ -32,12 +32,12 @@
 
 > ⭐⭐⭐ 第二条"黑话描述"值得单独强调：
 > **用内部术语写描述 = 用⭐ 你自己团队的词去匹配⭐ 用户实际会打的字。**
-> 这与 `description-scope-shape.md` 的
+> 这与 `skill-description/references/description-scope-shape.md` 的
 > "用真实的触发短语，不是技术描述"是同一条，
 > ⭐⭐ 但"黑话"这个词更形象也更刺人。
 >
 > ⭐⭐⭐ 第四条"没有检查点"与我们已有的一条⭐ 完全同构：
-> `judgment-branches-acceptance.md` 说"少了验收，agent 会用一句'已完成'糊过去"；
+> `skill-examples/references/judgment-branches-acceptance.md` 说"少了验收，agent 会用一句'已完成'糊过去"；
 > ⭐⭐ 这里说的是⭐ **长流程中间**的自查节点——
 > 不是最后的验收，是⭐ **步骤之间的闸门**。
 > 两者都要有。
@@ -89,7 +89,7 @@
 ⭐⭐ 药方：⭐⭐⭐ 把要求改成⭐⭐ 具体的检查、命令、判断分支
 ```
 
-> ⭐⭐⭐ 这与 `write-reasons-not-rules.md` 的
+> ⭐⭐⭐ 这与 `skill-crafting/references/write-reasons-not-rules.md` 的
 > "写原因而非堆规则"要区分开：
 > 那条是说⭐ **别只下死命令而不给理由**；
 > ⭐⭐ 这条是说⭐⭐ **别只给抽象要求而不给动作**。
@@ -102,7 +102,7 @@
 药方：写清依赖 · 参数明确 · ⭐ 加错误提示和样例测试
 ```
 
-> ⭐⭐ 与 `dependency-resolution-conflicts.md` 的
+> ⭐⭐ 与 `skill-distribution/references/dependency-resolution-conflicts.md` 的
 > "隐式依赖的症状 = 时好时坏"同源。
 
 ---
@@ -114,7 +114,7 @@
 > ⭐⭐ 要么⭐ 描述写得不好导致没触发（改描述、加关键词）。
 > ⭐⭐⭐ ⭐ 先排查这两个，⭐⭐ 再考虑更复杂的原因。"**
 
-> ⭐⭐⭐ 这与 `four-layer-diagnosis-flow.md` 的
+> ⭐⭐⭐ 这与 `skill-loading/references/four-layer-diagnosis-flow.md` 的
 > "80% 文件层 · 15% 触发层 · 5% 后两层"⭐ 完全一致——
 > ⭐⭐ 这是⭐ 第二个独立来源给出同样的分布。
 > **两个来源都说：先花两分钟查文件层，别一上来就改描述。**
@@ -146,7 +146,7 @@
 ```
 
 > ⭐⭐⭐ "改前/改后对照"这个形式值得单独记——
-> 它与 `judgment-branches-acceptance.md` 的"差评反例"
+> 它与 `skill-examples/references/judgment-branches-acceptance.md` 的"差评反例"
 > 是同一种技巧的两个变体：
 > ```
 > 差评反例：给一个不合格输出 + 一句改进说明

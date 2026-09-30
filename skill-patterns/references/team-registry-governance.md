@@ -1,7 +1,7 @@
 # 团队技能分发：清单、锁定与所有权
 
-> 相关：《skill-distribution》的 `enterprise-registry.md` ·
-> `release-versioning.md` · `supply-chain-trust.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/enterprise-registry.md` ·
+> `skill-distribution/references/release-versioning.md` · `skill-distribution/references/supply-chain-trust.md`
 
 ---
 

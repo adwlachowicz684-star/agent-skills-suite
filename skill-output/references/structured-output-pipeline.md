@@ -1,9 +1,9 @@
 # 结构化输出的防御管线
 
-> 相关：《skill-execution》的 `seven-contracts.md` · `output-stability-contract.md` ·
-> 《skill-examples》的 `judgment-branches-acceptance.md`（验收三件套）·
-> 《skill-scripting》的 `script-cli-contract.md` · `tool-output-design.md` ·
-> 《skill-evaluating》的 `benchmark-assertions-delta.md`
+> 相关：《skill-execution》的 `skill-execution/references/seven-contracts.md` · `skill-output/references/output-stability-contract.md` ·
+> 《skill-examples》的 `skill-examples/references/judgment-branches-acceptance.md`（验收三件套）·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md` · `skill-scripting/references/tool-output-design.md` ·
+> 《skill-evaluating》的 `skill-evaluating/references/benchmark-assertions-delta.md`
 > 前置：那些讲"输出要有格式""要给示例"，
 > 这份讲⭐⭐⭐ **格式校验失败之后怎么办**——
 > 含⭐⭐⭐⭐ 一条我们此前只模糊提到、从未说透的⭐ 根本性警告。
@@ -30,7 +30,7 @@
 
 > ⭐⭐⭐⭐ **"⭐ 永远在 schema 校验⭐ 之后、⭐ 在应用代码里⭐ 再做⭐ 语义校验。"**
 
-> ⭐⭐⭐⭐⭐ 这条把 `output-stability-contract.md` 的验收三问
+> ⭐⭐⭐⭐⭐ 这条把 `skill-output/references/output-stability-contract.md` 的验收三问
 > （文件生成？JSON 可解析？字段齐全？）
 > ⭐⭐⭐⭐ 推到了⭐ 第四问——⭐⭐⭐⭐⭐ **值是对的还是只是"长得对"？**
 >
@@ -41,8 +41,8 @@
 > ✅ 字段一个不少
 > ❌ ⭐⭐⭐⭐⭐ 值是模型⭐ 猜的
 > ```
-> ⭐⭐⭐⭐⭐ 与 `three-failure-modes.md` 的"结构正确的废话"、
-> `conflict-three-types-degradation.md` 的"错得自信而正确"
+> ⭐⭐⭐⭐⭐ 与 `skill-triggering/references/three-failure-modes.md` 的"结构正确的废话"、
+> `skill-orchestration/references/conflict-three-types-degradation.md` 的"错得自信而正确"
 > ⭐ 是⭐⭐⭐⭐⭐ 同一件事在⭐ 结构化输出这个具体场景里的⭐ 精确形态——
 > ⭐⭐⭐⭐⭐ **这是该结论的⭐⭐ 第六个来源，也是最可操作的一个**
 > （因为⭐ 它给了明确的修法：⭐ 语义校验放在应用代码里）。
@@ -78,13 +78,13 @@
 > ⭐⭐⭐ 第 ④ 步那条"不加任何说明"⭐ 值得单独记——
 > ⭐⭐⭐⭐ 因为模型⭐ 最自然的反应是⭐ 解释它错在哪，
 > ⭐⭐⭐⭐ 而那段解释⭐ 会再次破坏格式。
-> ⭐⭐⭐⭐ 这与 `script-cli-contract.md` 的"stdout 只放结果"是⭐ 同一条纪律的⭐ 第二个场景。
+> ⭐⭐⭐⭐ 这与 `skill-scripting/references/script-cli-contract.md` 的"stdout 只放结果"是⭐ 同一条纪律的⭐ 第二个场景。
 
 **每一步都要发遥测**：
 
 > ⭐⭐⭐ **"每一步都要发出遥测：⭐ 哪种策略成功了、⭐ 尝试了几次、⭐ 最终状态。"**
 
-> ⭐⭐⭐⭐ 这补上了 `skill-observability.md` 的一个盲区：
+> ⭐⭐⭐⭐ 这补上了 `skill-automation/references/skill-observability.md` 的一个盲区：
 > 那份讲⭐ 调用日志 vs 决策日志，
 > ⭐⭐⭐ 这里讲的是⭐ **输出校验层的日志**——
 > ⭐⭐⭐⭐ 没有它，你只知道"最终失败了"，不知道⭐ 卡在哪一步。
@@ -99,8 +99,8 @@
 ③ ⭐⭐⭐⭐ ⭐ 重试之间⭐ 引入变化（否则会得到⭐ 同样的错误两次）
 ```
 
-> ⭐⭐⭐⭐⭐ 第 ① 条与 `output-stability-contract.md` 的"跑两遍要 /clear"、
-> `trace-debugging.md` 的"循环根因是没有明确的成功判据"
+> ⭐⭐⭐⭐⭐ 第 ① 条与 `skill-output/references/output-stability-contract.md` 的"跑两遍要 /clear"、
+> `skill-triggering/references/trace-debugging.md` 的"循环根因是没有明确的成功判据"
 > ⭐⭐⭐⭐ 三者指向⭐ 同一件事：
 > ⭐⭐⭐ **没有具体反馈的重试 = 换个随机数再撞一次墙。**
 >
@@ -126,7 +126,7 @@
 >
 > ⭐⭐⭐⭐ 第 5 项则是一个⭐ 此前没收过的信号类型：
 > ⭐⭐⭐⭐ **"模型没坏，但它填东西的方式变了"**——
-> ⭐⭐⭐ 这正是 `skill-rot-rollback-discipline.md` 里"模型变了、指令没变、行为可能变了"
+> ⭐⭐⭐ 这正是 `skill-versioning/references/skill-rot-rollback-discipline.md` 里"模型变了、指令没变、行为可能变了"
 > ⭐⭐⭐⭐ 的⭐ 可量化版本。⭐⭐ 建议：⭐⭐⭐ **换模型后先看漂移指标，再看通过率。**
 >
 > ⭐⭐⭐ 另外要⭐ 把这些指标和⭐ 延迟、成本⭐ 放在一起看——
@@ -149,7 +149,7 @@
 > ⭐⭐⭐ ⭐⭐ **避免⭐ 庞大而含糊的 schema（逼模型去猜）；
 > ⭐⭐⭐ 倾向⭐ 紧凑、⭐ 按动作划分的形状，⭐ 然后用多步把它们串起来。**
 >
-> ⭐⭐⭐⭐⭐ 这与 `four-design-principles-io-contract.md` 的
+> ⭐⭐⭐⭐⭐ 这与 `skill-patterns/references/four-design-principles-io-contract.md` 的
 > "单一职责 + 可组合"⭐⭐⭐⭐ ⭐ 完全同构——
 > ⭐⭐⭐⭐ **schema 也要单一职责**：⭐ 一个大而全的 schema 等于⭐ 一个大而全的技能。
 
@@ -195,7 +195,7 @@
 ```
 
 > ⭐⭐⭐⭐ 本份还顺带⭐ 补上了一个此前⭐ 只有结论没有机制的空白：
-> `judgment-branches-acceptance.md` 说"结构化输出 + 代码渲染把格式稳定性
+> `skill-examples/references/judgment-branches-acceptance.md` 说"结构化输出 + 代码渲染把格式稳定性
 > 从模型手里彻底拿走"，
 > ⭐⭐⭐⭐ 而这里给出了⭐ **拿走之后那条完整管线长什么样**。
 

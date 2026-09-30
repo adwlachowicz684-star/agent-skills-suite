@@ -34,8 +34,8 @@
 ```
 
 > ⭐ **第二层"重复检测"是个很好的补充**——
-> 呼应 `skill-orchestration` 的 `skill-composition-patterns.md` 的重叠合并与
-> `skill-distribution` 的 `library-ops.md` 的健康诊断。
+> 呼应 `skill-orchestration` 的 `skill-composition/references/skill-composition-patterns.md` 的重叠合并与
+> `skill-distribution` 的 `skill-distribution/references/library-ops.md` 的健康诊断。
 
 ---
 
@@ -96,8 +96,8 @@ Token 消耗   25,227 → 55,582   ⭐ 增加 120.3%
    也必须单独检查它带来的执行成本
 ```
 
-> ⭐ 呼应 `skill-governance` 的 `cost-control.md` 的三个 token 桶与
-> `failure-modes.md` 的"过度验证是最大成本源"：
+> ⭐ 呼应 `skill-governance` 的 `skill-governance/references/cost-control.md` 的三个 token 桶与
+> `skill-triggering/references/failure-modes.md` 的"过度验证是最大成本源"：
 > **提升与代价必须一起看**。
 
 ---
@@ -129,7 +129,7 @@ Token 消耗   25,227 → 55,582   ⭐ 增加 120.3%
    无法判断一个技能在所有 agent 和所有任务中的实际效果
 ```
 
-> ⭐ 呼应 `metrics.md` 的边际效应与 `eval-tooling.md` 的 pass@k：
+> ⭐ 呼应 `skill-quality/references/metrics.md` 的边际效应与 `skill-automation/references/eval-tooling.md` 的 pass@k：
 > **跑一次不算证据**。
 
 ---
@@ -149,8 +149,8 @@ Token 消耗   25,227 → 55,582   ⭐ 增加 120.3%
 每个用例包含：提示词 · 预期输出 · 可选的断言
 ```
 
-> ⭐ 这四类正对应 `metrics.md` 的"负例 > 边界 > 正例"优先级，
-> 也呼应 `test-pyramid.md` 的触发/行为分层。
+> ⭐ 这四类正对应 `skill-quality/references/metrics.md` 的"负例 > 边界 > 正例"优先级，
+> 也呼应 `skill-evaluating/references/test-pyramid.md` 的触发/行为分层。
 
 ---
 

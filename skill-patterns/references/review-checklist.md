@@ -1,7 +1,7 @@
 # 一人称 / 十项速查：发布前的完整自检
 
-> 相关：《skill-authoring》的 `creation-framework.md` ·
-> 《skill-patterns》的 `knowledge-delta-checklist.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/creation-framework.md` ·
+> 《skill-patterns》的 `skill-patterns/references/knowledge-delta-checklist.md`
 
 ---
 
@@ -66,7 +66,7 @@
 "函数不超过 50 行"  → 反过来明确错误                → ⭐ 有效，可检查
 ```
 
-> 与 `pruning.md` 的 no-op 测试同源，
+> 与 `skill-refining/references/pruning.md` 的 no-op 测试同源，
 > 但更轻量——**不需要跑，读一遍就能筛**。
 
 ---
@@ -81,7 +81,7 @@
 
 > 第 ③ 条是这条清单里最锋利的一句：
 > **任何一条规则，如果你说不出"它防止了哪次失败"，就删掉。**
-> 这与 `skill-structuring` 的 `what-not-to-ship.md` 的"一条规则对应一个坑"完全一致。
+> 这与 `skill-structuring` 的 `skill-structuring/references/what-not-to-ship.md` 的"一条规则对应一个坑"完全一致。
 
 ---
 

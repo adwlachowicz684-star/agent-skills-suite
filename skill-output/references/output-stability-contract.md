@@ -1,8 +1,8 @@
 # 输出稳定：两份契约与"跑两遍"测试法
 
-> 相关：《skill-execution》的 `seven-contracts.md` ·
-> 《skill-output》的 `output-control.md`（在 domain-eng 抢救版）·
-> 《skill-scripting》的 `script-cli-contract.md` · `script-testing.md`
+> 相关：《skill-execution》的 `skill-execution/references/seven-contracts.md` ·
+> 《skill-output》的 `skill-output/references/output-control.md`（在 domain-eng 抢救版）·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md` · `skill-scripting/references/script-testing.md`
 > 前置：那些讲"输出该声明什么"，
 > 这份讲⭐⭐⭐ **怎么让输出真的稳定**——
 > 含⭐⭐⭐ 一个便宜到离谱但没人做的测试方法，和⭐⭐⭐ 一个三分法。
@@ -45,7 +45,7 @@
 ⭐⭐ 把⭐ 分类标准写到单独的文件里，SKILL.md ⭐ 只负责引用
 ```
 
-> ⭐⭐ 这与 `directory-decision-matrix.md` 的
+> ⭐⭐ 这与 `skill-structuring/references/directory-decision-matrix.md` 的
 > "要被执行的用列表、要被比较的用表格/文件"一致：
 > 分类标准是⭐ 要被查的表，放进 reference；
 > SKILL.md 只留"先读哪份、判断什么、检查哪些输出条件"。
@@ -75,8 +75,8 @@
 > ⭐ **一次 /clear + 一次重跑**，不需要任何工具、不需要 eval 框架。
 > ⭐⭐ 但它测的恰恰是最难用断言覆盖的东西——**整体结构的稳定性**。
 >
-> ⭐⭐ 与我们已有的 `assert-on-environment.md` 的 pass^5、
-> `description-tuning-official-loop.md` 的"跑 3 次"
+> ⭐⭐ 与我们已有的 `skill-evaluating/references/assert-on-environment.md` 的 pass^5、
+> `skill-description/references/description-tuning-official-loop.md` 的"跑 3 次"
 > 是同一思路的⭐ 三个不同应用点：
 > ```
 > 触发稳定性 → 跑 3 次
@@ -114,7 +114,7 @@
 > **"建议必须引用特定主题名"是一条防幻觉的低成本断言**：
 > 如果它引用了数据里不存在的主题，立刻暴露。
 
-> ⭐⭐ 对照 `skill-review-checklist-ten.md` 的
+> ⭐⭐ 对照 `skill-crafting/references/skill-review-checklist-ten.md` 的
 > "每条规则都要能对应一个失败场景"——
 > 这四条⭐ 每条都能立刻说出"违反它会出现什么"。
 
@@ -139,7 +139,7 @@
 > ⭐⭐⭐ 而第二条"标记为'混合'而非猜测"——
 > ⭐⭐⭐ **给了一个⭐ 除了"必须猜一个"之外的出路**。
 > 这是⭐ 抑制幻觉最有效的一招：**提供"我不知道"这个合法选项。**
-> 与我们已有的 `outgrowth-regression-detection.md` 的 inconclusive 档同源。
+> 与我们已有的 `skill-triggering/references/outgrowth-regression-detection.md` 的 inconclusive 档同源。
 
 ---
 
@@ -160,7 +160,7 @@
 >    ⭐⭐⭐ ⭐ 这条最常被漏：⭐⭐ 凡是"无论谁跑结果都必须一致"的，
 >        ⭐⭐⭐ 就不该让模型生成
 > ```
-> ⭐⭐⭐ 与我们已有的 `deterministic-scripts.md`
+> ⭐⭐⭐ 与我们已有的 `skill-scripting/references/deterministic-scripts.md`
 > （"从 Y 算出 X，X 是数字 → 脚本"）完全对上，
 > ⭐⭐ 但这里把它放进了⭐ 一个三选一的分类里——
 > **每写一段之前，先问它属于哪一类。**
@@ -197,7 +197,7 @@
 
 > ⭐⭐ 这条看起来是废话，但它对应的失败很具体：
 > 技能里引用了一个⭐ **从未被运行过的脚本**，
-> 而 `three-failure-modes.md` 记过——
+> 而 `skill-triggering/references/three-failure-modes.md` 记过——
 > "技能引用了不存在的模板文件 → 模型读取失败后自己补内容 → 这是幻觉的来源之一"。
 > ⭐⭐⭐ **脚本存在但跑不通，比脚本不存在更危险**——
 > 因为不存在会立刻暴露，跑不通可能只是"偶尔出错"。

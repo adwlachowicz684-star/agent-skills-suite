@@ -1,11 +1,11 @@
 # 输出顺序即优先级
 
-> 相关：《skill-output》的 `output-length-budget.md`（长度预算）·
-> `numbers-in-output.md`（虚假精度）·
-> `placeholder-in-output.md`（占位符）·
-> `enumeration-and-completeness.md`（分母）·
-> 《skill-crafting》的 `conflicting-instructions.md`·
-> 《skill-content》的 `default-actions.md`
+> 相关：《skill-output》的 `skill-output/references/output-length-budget.md`（长度预算）·
+> `skill-output/references/numbers-in-output.md`（虚假精度）·
+> `skill-output/references/placeholder-in-output.md`（占位符）·
+> `skill-output/references/enumeration-and-completeness.md`（分母）·
+> 《skill-crafting》的 `skill-precision/references/conflicting-instructions.md`·
+> 《skill-content》的 `skill-content/references/default-actions.md`
 > 前置：
 > 已有文档管的是⭐⭐⭐⭐ **输出的内容**（有没有、对不对、多长），
 > 这份管的是⭐⭐⭐⭐⭐ **输出的排列**——
@@ -80,7 +80,7 @@ vs 同一份内容换个顺序：
 
 ```
 关键那句没消失，它在第 47 行
-⭐⭐⭐⭐⭐ 而用户读到第 12 行就停了（见 `output-length-budget.md`）
+⭐⭐⭐⭐⭐ 而用户读到第 12 行就停了（见 `skill-output/references/output-length-budget.md`）
 ```
 
 > ⭐⭐⭐⭐⭐ 长度预算解决的是"它会不会被埋在很后面"，
@@ -94,7 +94,7 @@ vs 同一份内容换个顺序：
 → ⭐⭐⭐⭐⭐ 用户拿前面的数字去决策
 ```
 
-> ⭐⭐⭐⭐⭐ 与 `placeholder-in-output.md` 同源：⭐⭐⭐⭐ 那个是"无/0"被当成答案，
+> ⭐⭐⭐⭐⭐ 与 `skill-output/references/placeholder-in-output.md` 同源：⭐⭐⭐⭐ 那个是"无/0"被当成答案，
 > ⭐⭐⭐⭐⭐ 这个是"覆盖率/未达标"被放在没人读的位置，效果一样。
 
 **③ ⭐⭐⭐⭐ 排序不稳定导致输出看起来"每次都不一样"**

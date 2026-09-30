@@ -1,7 +1,7 @@
 # 能力型 vs 偏好型：两类技能要分开评估
 
-> 相关：《skill-quality》的 `four-dimension-eval.md` ·
-> `official-checklist.md` · 《skill-distribution》的 `versioning-compat.md`
+> 相关：《skill-quality》的 `skill-quality/references/four-dimension-eval.md` ·
+> `skill-quality/references/official-checklist.md` · 《skill-distribution》的 `skill-distribution/references/versioning-compat.md`
 
 ---
 
@@ -56,7 +56,7 @@
 | 模型升级 | ⭐ **优先重跑能力型技能的基准** |
 | 流程/规范变更 | 重跑偏好型 |
 
-> 这与 `versioning-compat.md` 那条呼应：
+> 这与 `skill-distribution/references/versioning-compat.md` 那条呼应：
 > **破坏性变更不只是代码层面的，模型升级也是。**
 
 ---

@@ -1,8 +1,8 @@
 # 可直接抄的技能骨架（含六个必含小节）
 
-> 相关：《skill-authoring》的 `creation-framework.md` ·
-> 《skill-authoring》的 `creation-framework.md` ·
-> 《skill-patterns》的 `structure-modes-abcde.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/creation-framework.md` ·
+> 《skill-authoring》的 `skill-authoring/references/creation-framework.md` ·
+> 《skill-patterns》的 `skill-patterns/references/structure-modes-abcde.md`
 
 ---
 
@@ -121,7 +121,7 @@
 | **纯指令技能** | ⭐ 策略或流程指导 —— 更可移植 |
 | **脚本支撑技能** | ⭐ 转换、校验、报告生成、精确格式检查 |
 
-> 与《skill-scripting》`scripts-as-production.md` 一致，
+> 与《skill-scripting》`skill-scripting/references/scripts-as-production.md` 一致，
 > 但这里给了更清晰的判据：**正确性是否依赖计算**。
 
 **脚本五条最佳实践**：

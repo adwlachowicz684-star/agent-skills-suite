@@ -1,7 +1,7 @@
 # 九类技能：Anthropic 内部 taxonomy 与"跨类最难用好"
 
-> 相关：《skill-patterns》的 `five-design-patterns.md` ·
-> `structure-modes-abcde.md` · 《skill-boundaries》的 `domain-taxonomy.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/five-design-patterns.md` ·
+> `skill-patterns/references/structure-modes-abcde.md` · 《skill-boundaries》的 `skill-boundaries/references/domain-taxonomy.md`
 > 前置：那些讲"结构模式"与"设计模式"，
 > 这份讲⭐ **按用途划分的九种技能类型**，以及⭐⭐ 跨类技能的失败规律。
 
@@ -41,7 +41,7 @@ Anthropic 把内部跑过的几百个技能归成九类：
 ```
 
 > ⭐ "内部库"这一点很关键——**模型训练数据里没有你的内部库**，
-> 这正是 `knowledge-delta-checklist.md` 说的"模型不知道的东西"。
+> 这正是 `skill-patterns/references/knowledge-delta-checklist.md` 说的"模型不知道的东西"。
 
 ---
 
@@ -59,8 +59,8 @@ Anthropic 把内部跑过的几百个技能归成九类：
 
 > ⭐⭐ **最好的技能都是"一类做到底"。**
 
-> ⭐ 这与 `description-scope-shape.md` 的"一技能一动词一范围"、
-> `granularity-atomic-workflow.md` 的"重启测试"是同一条原则的三种表述——
+> ⭐ 这与 `skill-description/references/description-scope-shape.md` 的"一技能一动词一范围"、
+> `skill-scoping/references/granularity-atomic-workflow.md` 的"重启测试"是同一条原则的三种表述——
 > **单一职责这件事，在这套体系里被反复验证。** --
 实际上三条来自完全不同的来源（Anthropic 内部经验 / 独立博客 / 拆分方法论），
 互相独立地得出同一结论。
@@ -79,8 +79,8 @@ Anthropic 把内部跑过的几百个技能归成九类：
 ② ⭐ 在每个步骤强制执行程序化断言
 ```
 
-> ⭐ 第 ② 条与 `deterministic-scripts.md` 的"该脚本化的就脚本化"、
-> `assert-on-environment.md` 的"断言打在环境状态上"完全同源：
+> ⭐ 第 ② 条与 `skill-scripting/references/deterministic-scripts.md` 的"该脚本化的就脚本化"、
+> `skill-evaluating/references/assert-on-environment.md` 的"断言打在环境状态上"完全同源：
 > **验证不能靠模型自己说"通过了"，必须有程序化断言。**
 
 这也解释了为什么 `skill-evaluating` 里的测试金字塔把 L1（结构/契约）
@@ -103,11 +103,11 @@ Anthropic 把内部跑过的几百个技能归成九类：
 >
 > ① **停止条件是"只剩吹毛求疵级别"**——这是个可观察的判据，
 >    比"迭代 3 次"或"直到满意"都好
-> ② **"全新视角"** 对应 `multi-agent-review.md` 的 `challenge_agent`
+> ② **"全新视角"** 对应 `skill-subagents/references/multi-agent-review.md` 的 `challenge_agent`
 >    是必需角色——专家专注自己的领域，会漏掉横切关注点
 
 这类技能还可以**挂在 hooks 或 GitHub Action 里自动运行**
-（呼应 `determinism-boundary.md` 的"确定性约束放 hook"）。
+（呼应 `skill-evaluating/references/determinism-boundary.md` 的"确定性约束放 hook"）。
 
 ---
 
@@ -138,8 +138,8 @@ Anthropic 内部的分发机制很特别（这段描述值得原样记住）：
 ```
 
 > ⭐⭐ **这是一种新的"组织记忆"。**
-> 这与 `prompt-to-skill.md` 的"技能作为可传递的专业知识"、
-> `methodology-skills.md` 的"把成熟方法论编码成技能"是同一条主线——
+> 这与 `skill-content/references/prompt-to-skill.md` 的"技能作为可传递的专业知识"、
+> `skill-domains/references/methodology-skills.md` 的"把成熟方法论编码成技能"是同一条主线——
 > **技能的真正价值不在自动化，在⭐ 把隐性知识变成可执行资产。**
 
 **起步心态**（收尾那句很打动人，也最实用）：

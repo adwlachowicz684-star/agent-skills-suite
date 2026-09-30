@@ -1,10 +1,10 @@
 # 可复用性越高，过度具体化的代价越大
 
-> 相关：《skill-patterns》的 `four-design-principles-io-contract.md`（单一职责/无状态）·
-> 《skill-crafting》的 `minimum-viable-three-principles.md` ·
-> `eight-practical-lessons.md`（给约束不给流程）·
-> 《skill-content》的 `portability-across-projects.md`（组织耦合）·
-> 《skill-input》的 `data-dependency-declaration.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/four-design-principles-io-contract.md`（单一职责/无状态）·
+> 《skill-crafting》的 `skill-crafting/references/minimum-viable-three-principles.md` ·
+> `skill-crafting/references/eight-practical-lessons.md`（给约束不给流程）·
+> 《skill-content》的 `skill-content/references/portability-across-projects.md`（组织耦合）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`
 > 前置：
 > "给约束不给流程"说的是⭐⭐⭐ **不要写死步骤**，
 > 这份说的是⭐⭐⭐⭐⭐ **不要写死"世界长什么样"**——
@@ -142,7 +142,7 @@ B ⭐⭐⭐⭐⭐ 只写通用方法：读 schema、数行数、按结构遍历
 > 项目特定的知识不是"污染"，
 > 但⭐⭐⭐⭐⭐ **它必须是独立的一层**，这样通用部分才能真的通用。
 
-这与 `portability-across-projects.md` 那条
+这与 `skill-content/references/portability-across-projects.md` 那条
 "组织耦合集中到一个标记为'本项目特有'的章节"是同一结论，
 只是那份是**章节粒度**，这份是**技能粒度**——
 ⭐⭐⭐⭐ **两层都要做**：先在一个技能内分区，规模大了再拆成技能。
@@ -174,7 +174,7 @@ B ⭐⭐⭐⭐⭐ 只写通用方法：读 schema、数行数、按结构遍历
 > ⭐⭐⭐⭐⭐ 第三行是这份最有价值的产出：
 > **读不通，说明有一处依赖你脑子里知道、但技能里没写。**
 >
-> 这与 `assumption-registry.md` 里"假设不写'不成立时'比不写更糟"
+> 这与 `skill-input/references/assumption-registry.md` 里"假设不写'不成立时'比不写更糟"
 > 是同一类问题——只是那个是显式的，这个是连作者都没意识到的。
 
 ---

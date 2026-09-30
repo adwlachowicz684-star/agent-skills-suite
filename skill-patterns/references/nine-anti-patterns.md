@@ -1,7 +1,7 @@
 # 九个技能反模式（含症状、根因、修法）
 
-> 相关：《skill-refining》的 `pruning.md` · `skill-structuring` 的 `what-not-to-ship.md` ·
-> 《skill-patterns》的 `anti-pattern-section.md`
+> 相关：《skill-refining》的 `skill-refining/references/pruning.md` · `skill-structuring` 的 `skill-structuring/references/what-not-to-ship.md` ·
+> 《skill-patterns》的 `skill-patterns/references/anti-pattern-section.md`
 
 ---
 
@@ -73,7 +73,7 @@
 ⭐ 模板："NEVER use X because [需要经验才知道的具体问题]"
 ```
 
-> 这条与 `pruning.md` 的 no-op 测试直接对应：
+> 这条与 `skill-refining/references/pruning.md` 的 no-op 测试直接对应：
 > **"要小心" 删掉后模型行为不变 = 空操作句**；
 > 而 "NEVER X because Y" 删掉会改变行为。
 
@@ -105,7 +105,7 @@
 
 > ⭐ 这是最根本的一个：
 > **写在正文里的触发条件，模型在决定是否触发时根本看不到。**
-> 与 `skill-structuring` 的 `frontmatter-pitfalls.md` 的两阶段解析是同一件事的两个面。
+> 与 `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md` 的两阶段解析是同一件事的两个面。
 
 ---
 
@@ -127,7 +127,7 @@
 | **根因** | ⭐ 没考虑任务脆弱性 |
 | **修法** | 创意 → 高自由度（给原则）；脆弱 → 低自由度（给精确脚本、无参数） |
 
-> 与 `skill-principles.md` 的自由度校准完全一致——
+> 与 `skill-scoping/references/skill-principles.md` 的自由度校准完全一致——
 > **两侧悬崖的窄桥给护栏，开阔地给方向。**
 
 ---

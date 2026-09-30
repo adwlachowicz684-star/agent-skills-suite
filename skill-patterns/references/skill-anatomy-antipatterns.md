@@ -1,9 +1,9 @@
 # 技能解剖：结构、五种反模式、发布前五测
 
-> 相关：《skill-patterns》的 `anti-patterns-catalog.md` ·
-> `common-mistakes-checklist.md` · 《skill-structuring》的
-> `frontmatter-pitfalls.md`
-> 前置：`anti-patterns-catalog.md` 是按"类别"归的反模式，
+> 相关：《skill-patterns》的 `skill-patterns/references/anti-patterns-catalog.md` ·
+> `skill-patterns/references/common-mistakes-checklist.md` · 《skill-structuring》的
+> `skill-loading/references/frontmatter-pitfalls.md`
+> 前置：`skill-patterns/references/anti-patterns-catalog.md` 是按"类别"归的反模式，
 > 这份按⭐ **"一个技能的完整解剖 + 五个具名反模式 + 发布前五测"**组织。
 
 ---
@@ -137,7 +137,7 @@ If uncertain: → ⭐ [默认动作]
 ```
 
 > ⭐ 第 ④ 条最容易被跳过，而它恰恰是
-> `skillsbench-vs-realworld.md` 里"负增益任务"的主要成因——
+> `skill-evaluating/references/skillsbench-vs-realworld.md` 里"负增益任务"的主要成因——
 > **技能引入了互相冲突的指引**。
 
 ---
@@ -199,7 +199,7 @@ If uncertain: → ⭐ [默认动作]
 
 > ⭐ 用 haiku 跑这步又快又便宜——
 > 而且有个额外好处：**如果连 haiku 都能看懂，
-> 说明指令足够显式**（呼应 `anti-patterns-catalog.md` 的
+> 说明指令足够显式**（呼应 `skill-patterns/references/anti-patterns-catalog.md` 的
 > "对 Haiku 要解释更充分"）。
 
 ---

@@ -1,8 +1,8 @@
 # 黄金规则：每条失败模式配一条规则
 
-> 相关：《skill-crafting》的 `guidance-forms.md` ·
-> 《skill-patterns》的 `knowledge-delta-checklist.md` ·
-> 《skill-refining》的 `pruning.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/guidance-forms.md` ·
+> 《skill-patterns》的 `skill-patterns/references/knowledge-delta-checklist.md` ·
+> 《skill-refining》的 `skill-refining/references/pruning.md`
 
 ---
 
@@ -75,8 +75,8 @@
 > **如果清单永远全绿，它要么是废话，要么检查得太松。**
 > 好的清单应该"偶尔会红"——这说明它在真检查。
 >
-> 这与 `quality-rubric.md` 的"每个分数要引用具体证据"、
-> `eval-loop-official.md` 的"两组都通过的断言没有区分度"
+> 这与 `skill-quality/references/quality-rubric.md` 的"每个分数要引用具体证据"、
+> `skill-evaluating/references/eval-loop-official.md` 的"两组都通过的断言没有区分度"
 > 是同一条原理的三种表述。
 
 ---
@@ -95,7 +95,7 @@
 | ⭐ **不在文件里就等于不存在** | ⭐ agent 只能看到技能目录里的东西。每条约束、约定、模式都必须写下来，否则会被忽略 |
 
 > ⭐ 第四条值得单独体会：
-> **写得更严厉没有用**——这正是 `failure-modes.md` 里
+> **写得更严厉没有用**——这正是 `skill-triggering/references/failure-modes.md` 里
 > "禁令反噬"和"验证置换"的根源。
 > 真正有效的是**把规则变成可执行的代码**。
 

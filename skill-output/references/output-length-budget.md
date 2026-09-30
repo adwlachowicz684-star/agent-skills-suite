@@ -1,13 +1,13 @@
 # 输出长度预算
 
-> 相关：《skill-output》的 `output-contract.md` ·
-> `output-stability-contract.md`（跑两遍 /clear 测试）·
-> `structured-output-pipeline.md`（结构化≠正确）·
-> `enumeration-and-completeness.md`（覆盖率）·
-> 《skill-crafting》的 `vague-word-blacklist.md` ·
-> 《skill-execution》的 `parallel-and-concurrency.md`
+> 相关：《skill-output》的 `skill-output/references/output-contract.md` ·
+> `skill-output/references/output-stability-contract.md`（跑两遍 /clear 测试）·
+> `skill-output/references/structured-output-pipeline.md`（结构化≠正确）·
+> `skill-output/references/enumeration-and-completeness.md`（覆盖率）·
+> 《skill-crafting》的 `skill-precision/references/vague-word-blacklist.md` ·
+> 《skill-execution》的 `skill-execution/references/parallel-and-concurrency.md`
 > 前置：
-> `token-bloat-audit.md` 讲的是⭐⭐⭐ **技能文档本身的瘦身**，
+> `skill-crafting/references/token-bloat-audit.md` 讲的是⭐⭐⭐ **技能文档本身的瘦身**，
 > 这份讲的是⭐⭐⭐⭐⭐ **技能产出的输出该多长**——
 > **两件事都叫"长度"，但一个是成本，一个是质量。**
 
@@ -117,7 +117,7 @@
 
 ## 4. ⭐⭐⭐⭐⭐ 长度膨胀是最安静的退化
 
-`skill-snapshot-testing.md` 里那条判据值得单列出来：
+`skill-evaluating/references/skill-snapshot-testing.md` 里那条判据值得单列出来：
 
 > ⭐⭐⭐⭐⭐ **长度上限 ≤ 基线 × 1.5** ——
 > ⭐⭐⭐⭐⭐ **长度膨胀是最容易被忽略的退化：

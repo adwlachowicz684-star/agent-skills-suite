@@ -1,7 +1,7 @@
 # 六步创建法 + 五阶段学习路径
 
-> 相关：《skill-authoring》的 `how-to-guide.md` ·
-> `creation-framework.md` · 《skill-patterns》的 `structure-modes-abcde.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/how-to-guide.md` ·
+> `skill-authoring/references/creation-framework.md` · 《skill-patterns》的 `skill-patterns/references/structure-modes-abcde.md`
 
 ---
 
@@ -60,7 +60,7 @@
 > 它直接破除"技能必须有脚本"的误解——
 > **把规范文档整理成技能目录，本身就是一个完整有效的技能**。
 
-> ⭐ 第 ④ 阶段对应 `namespace-collision.md` 的遮蔽问题——
+> ⭐ 第 ④ 阶段对应 `skill-orchestration/references/namespace-collision.md` 的遮蔽问题——
 > **只有真的装了多个相近技能，才会体会到它**。
 
 ---

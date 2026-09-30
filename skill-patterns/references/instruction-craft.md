@@ -1,8 +1,8 @@
 # 正文写作：祈使句、钉死格式、讲为什么
 
-> 相关：《skill-crafting》的 `imperative-style.md` ·
-> 《skill-crafting》的 `guidance-forms.md` ·
-> 《skill-patterns》的 `knowledge-delta-checklist.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/imperative-style.md` ·
+> 《skill-crafting》的 `skill-crafting/references/guidance-forms.md` ·
+> 《skill-patterns》的 `skill-patterns/references/knowledge-delta-checklist.md`
 
 ---
 
@@ -113,7 +113,7 @@
 > **能显著减少低级遗漏**。
 
 > ⭐ 注意第 2 条：**"显示正常"这类没法断言的写法**——
-> 这跟 `golden-rules-failure-modes.md` 的
+> 这跟 `skill-patterns/references/golden-rules-failure-modes.md` 的
 > "把每个形容词换成一条规格"是同一条原则。
 
 ---
@@ -131,7 +131,7 @@
 
 > ⭐ **说清后果，比命令本身更有约束力。**
 
-这与《skill-crafting》`guidance-forms.md` 的
+这与《skill-crafting》`skill-crafting/references/guidance-forms.md` 的
 "反模式必须带 Why + Instead"完全吻合——
 **只写"不要 X"是禁令，加上"因为 Y、改成 Z"才变成配方**。
 

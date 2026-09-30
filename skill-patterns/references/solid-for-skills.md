@@ -1,7 +1,7 @@
 # 软件设计原则迁移到技能设计
 
-> 相关：《skill-chaining》的 `skill-chaining-composition.md` ·
-> `collision-arbitration.md` · 《skill-boundaries》的 `five-layer-choice.md`
+> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md` ·
+> `skill-orchestration/references/collision-arbitration.md` · 《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md`
 > 前置：那些文档讲具体怎么组合，这份讲⭐ 底层原则——
 > 软件架构的哪些力在技能系统里同样成立。
 
@@ -69,12 +69,12 @@
 ✅ ⭐ "搜索知识库"
 ```
 
-> ⭐ 与 `protocol-layering.md` 的"技能是协议无关的纯 Markdown"同源：
+> ⭐ 与 `skill-composition/references/protocol-layering.md` 的"技能是协议无关的纯 Markdown"同源：
 > **绑定到具体工具会让技能随工具变化而失效。**
 
 **快速失败 → STEP 0 前置门禁**：
 
-> 与 `preflight-gate.md` 完全对应：**在工作前检查前置条件**，
+> 与 `skill-execution/references/preflight-gate.md` 完全对应：**在工作前检查前置条件**，
 > 而不是跑到一半才发现缺东西。
 
 **结构类比**（帮助记忆）：
@@ -166,12 +166,12 @@ TypeScript interface → 技能的输入/输出契约
 | 问题 | 应对 |
 |---|---|
 | 依赖冲突 | ⭐ 显式声明输入/输出契约（契约式设计） |
-| Token 爆炸 | `context-budget-math.md` 的预算算术 + 桶模式 |
-| ⭐ 顺序敏感 | ⭐ 显式写交接协议（`skill-chaining-composition.md` 的四步） |
-| 版本兼容 | 语义化版本 + `dependency-lockfile.md` 的 pin |
+| Token 爆炸 | `skill-patterns/references/context-budget-math.md` 的预算算术 + 桶模式 |
+| ⭐ 顺序敏感 | ⭐ 显式写交接协议（`skill-composition/references/skill-chaining-composition.md` 的四步） |
+| 版本兼容 | 语义化版本 + `skill-distribution/references/dependency-lockfile.md` 的 pin |
 
 > ⭐ 第 ③ 项最容易被忽略：**同一个技能集，加载顺序不同结果就不同**。
-> 这与 `scale-effects.md` 的"遮蔽"是同一族问题——
+> 这与 `skill-governance/references/scale-effects.md` 的"遮蔽"是同一族问题——
 > **组合让每件事都变成多体的**。
 
 **可组合性的五个前置条件**（缺一个就组合不起来）：

@@ -1,7 +1,7 @@
 # 反模式总目：五类不该出现在技能里的东西
 
-> 相关：《skill-patterns》的 `common-mistakes-checklist.md` ·
-> `what-not-to-do` 系列 · 《skill-structuring》的 `naming-conventions.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/common-mistakes-checklist.md` ·
+> `what-not-to-do` 系列 · 《skill-structuring》的 `skill-structuring/references/naming-conventions.md`
 > 前置：已有文档分散讲过各类错误，这份做⭐ 一次性的完整归类。
 
 ---
@@ -48,7 +48,7 @@
    ——提供历史背景，又不污染主内容
 ```
 
-> ⭐ 这与 `versioning-compat.md` 的"旧迁移逻辑永不删除"是互补的：
+> ⭐ 这与 `skill-distribution/references/versioning-compat.md` 的"旧迁移逻辑永不删除"是互补的：
 > 历史信息要留，但要**放在不干扰主流程的位置**。
 
 **模型差异那条**很实用：
@@ -70,7 +70,7 @@
 ❌ 各文件间路径分隔符不一致
 ```
 
-> ⭐ 与 `nine-checks-not-working.md` 那条一致：
+> ⭐ 与 `skill-loading/references/nine-checks-not-working.md` 那条一致：
 > **本地一切正常、CI 才暴露**——因为 macOS/Windows 默认不敏感而 Linux 敏感。
 
 ---

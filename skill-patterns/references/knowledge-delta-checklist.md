@@ -1,8 +1,8 @@
 # 知识增量清单：技能里该有的是"模型不知道的"
 
-> 相关：《skill-refining》的 `pruning.md` ·
-> 《skill-patterns》的 `nine-anti-patterns.md` ·
-> 《skill-authoring》的 `creation-framework.md`
+> 相关：《skill-refining》的 `skill-refining/references/pruning.md` ·
+> 《skill-patterns》的 `skill-patterns/references/nine-anti-patterns.md` ·
+> 《skill-authoring》的 `skill-authoring/references/creation-framework.md`
 
 ---
 
@@ -44,7 +44,7 @@
 >
 > 后三条是**必含项**——它们才是技能存在的理由。
 
-> 这与 `pruning.md` 的 no-op 测试互为表里：
+> 这与 `skill-refining/references/pruning.md` 的 no-op 测试互为表里：
 > **能通过的都该删，删了会改变行为的才该留。**
 
 ---
