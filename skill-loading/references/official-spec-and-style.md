@@ -243,7 +243,7 @@ SKILL.md 文件         < 500 行（~5000 tokens 上限）
 > ⭐⭐ "会话总计 < 5000（索引 + 1–2 个活跃技能）"这条很有意思：
 > ⭐⭐ 它默认你一次只有⭐ **1–2 个技能活跃**。
 > 所以⭐ 如果你的工作流同时需要 5 个技能，就已经超出设计假设了——
-> 这与 `skill-composition/references/skill-chaining-composition.md` 的组合成本、
+> 这与 `skill-composition/references/sequential-composition.md` 的组合成本、
 > `skill-selection/references/library-size-effect.md` 的遮蔽是同一件事的不同侧面。
 
 **结构建议**（可直接照做）：

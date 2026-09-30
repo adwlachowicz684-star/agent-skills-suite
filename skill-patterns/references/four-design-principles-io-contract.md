@@ -116,7 +116,7 @@ schema.yaml → ⭐⭐⭐ 机器可读 → ⭐⭐⭐ 下游能可靠解析
              双向无知、重启测试、一技能一动词）
 输入输出稳定 ←→ output-stability-contract.md（跑两遍测试法）
 无状态     ←→ ⭐⭐⭐ 本份新增（机制上无法完全做到，但设计上必须显式隔离）
-可组合     ←→ skill-chaining-composition.md（叠加不覆盖、交接四步）
+可组合     ←→ sequential-composition.md（叠加不覆盖、交接四步）
 ```
 
 > ⭐⭐⭐ 四项原则的价值在于⭐ 提供了一个验收清单：

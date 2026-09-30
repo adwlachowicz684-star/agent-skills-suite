@@ -1,7 +1,7 @@
 # 技能之间怎么传数据
 
 > 相关：《skill-orchestration》的 `skill-orchestration/references/skill-dependency-injection.md`（双向无知）·
-> `skill-composition/references/skill-chaining-composition.md`（交接四步）·
+> `skill-composition/references/sequential-composition.md`（交接四步）·
 > `skill-orchestration/references/composition-patterns-types.md`（隐式依赖）·
 > 《skill-execution》的 `skill-execution/references/seven-contracts.md`
 > 前置：那些讲⭐ 谁先谁后、⭐ 依赖怎么声明，

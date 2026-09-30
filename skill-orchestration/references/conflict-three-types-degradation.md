@@ -1,7 +1,7 @@
 # 冲突三型与降级层：别把所有冲突都当排他型
 
 > 相关：《skill-orchestration》的 `skill-orchestration/references/collision-arbitration.md` ·
-> `skill-orchestration/references/routing-tiers-and-arbitration.md` · `skill-composition/references/skill-chaining-composition.md` ·
+> `skill-orchestration/references/routing-tiers-and-arbitration.md` · `skill-composition/references/sequential-composition.md` ·
 > 《skill-patterns》的 `skill-patterns/references/conflict-precedence-four-types.md`
 > 前置：那些讲"谁赢、怎么裁"，
 > 这份讲⭐⭐⭐ **冲突其实有三种，处理方式完全不同**——

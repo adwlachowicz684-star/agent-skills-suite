@@ -204,7 +204,7 @@ Core (coding-standard)："默认用 Text 而非 String"
 ```
 
 > ⭐⭐ 这个格式的价值在于⭐ **强制写出 Rationale**——
-> 与 `skill-composition/references/skill-chaining-composition.md` 的"真的有歧义时记 --decision 日志"
+> 与 `skill-composition/references/sequential-composition.md` 的"真的有歧义时记 --decision 日志"
 > 是同一条：⭐⭐⭐ **没记下来的仲裁 = 下次重新吵一遍**。
 
 **还有一条新信息处理的规则**：

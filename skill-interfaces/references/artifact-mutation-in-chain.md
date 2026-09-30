@@ -3,7 +3,7 @@
 > 相关：《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`·
 > 《skill-execution》的 `skill-execution/references/intermediate-artifacts.md`·
 > `skill-execution/references/partial-following.md`·
-> 《skill-chaining》的 `skill-chaining/references/partial-aggregation.md`·
+> 《skill-composition》的 `skill-composition/references/partial-aggregation.md`·
 > 《skill-execution》的 `skill-execution/references/self-verification-trap.md`
 > 前置：
 > `skill-interfaces/references/handoff-payload-contract.md` 讲的是⭐⭐⭐⭐ **交接包里该有哪些字段**，

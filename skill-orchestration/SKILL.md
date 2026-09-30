@@ -35,6 +35,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | `skill-orchestration/references/skill-dependency-injection.md` | ⭐⭐ 依赖注入四模式：委托/链式/配置/共享服务；双向无知=解耦证据 |
 | `skill-orchestration/references/orchestrator-timing.md` | ⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写编排器 |
 | `skill-orchestration/references/composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
+| `skill-orchestration/references/dependency-cycles.md` | ⭐⭐⭐⭐⭐ 依赖环路：跑很久然后超时；三种环、等待环画不出来、代次计数 |
 | `skill-orchestration/references/collision-arbitration.md` | ⭐ 技能打架仲裁三招 + 两步路由 + 延迟真相 |
 | `skill-orchestration/references/gamedev-skill-routing.md` | ⭐ 多维技能库路由：三维正交、指纹识别、降级 |
 | `skill-orchestration/references/skills-mcp-subagent.md` | 技能/MCP/子代理协同范式与治理先行 |
@@ -50,23 +51,23 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | **该用技能还是子代理** | `skill-subagents/references/skill-vs-subagent.md` |
 | ⭐ **多角色审查：challenge_agent 是必需角色** | `skill-subagents/references/multi-agent-review.md` |
 | ⭐ **技能动态激活与停用** | `skill-state/references/skill-activation.md` |
-| ⭐ **多 Agent 并行流水线 / 反幻觉验证** | `references/security-pipeline.md` |
+| ⭐ **多 Agent 并行流水线 / 反幻觉验证** | `skill-orchestration/references/security-pipeline.md` |
 | ⭐ **并行子代理：五种模式与四个坑** | `skill-subagents/references/parallel-subagents.md` |
 | ⭐ **交接协议：阶段之间传什么** | `skill-interfaces/references/handoff-protocol.md` |
 | ⭐ **Fan-out / Fan-in：难点在汇聚不在并行** | `skill-composition/references/fan-out-fan-in.md` |
 | ⭐ **可组合模式：管道/扇出/装饰器/回退/过滤 + 调用链** | `skill-composition/references/composable-patterns.md` |
 | ⭐ **Fork 上下文技能：把大 diff 隔离到子代理** | `skill-subagents/references/fork-context-skill.md` |
 | ⭐ **Fork 官方细则：background、rewind、返回空** | `skill-subagents/references/fork-official-details.md` |
-| ⭐ **技能 vs 斜杠命令：100% 触发 vs 按需** | `references/skill-vs-command.md` |
-| ⭐ **步数/时间/花费上限：三个维度都要且 fail closed** | `references/spend-limits.md` |
+| ⭐ **技能 vs 斜杠命令：100% 触发 vs 按需** | `skill-orchestration/references/skill-vs-command.md` |
+| ⭐ **步数/时间/花费上限：三个维度都要且 fail closed** | `skill-orchestration/references/spend-limits.md` |
 
 **与外部系统协作**：
 
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **Skill × MCP：三层栈与三种混合模式** | `skill-composition/references/mcp-composition.md` |
-| ⭐ **MCP 协同落地：配置、护栏、四个坑** | `references/mcp-integration-patterns.md` |
-| ⭐ **命名空间冲突：互斥点名、遮蔽、参数冲突** | `references/namespace-collision.md` |
+| ⭐ **MCP 协同落地：配置、护栏、四个坑** | `skill-orchestration/references/mcp-integration-patterns.md` |
+| ⭐ **命名空间冲突：互斥点名、遮蔽、参数冲突** | `skill-orchestration/references/namespace-collision.md` |
 | **技能 / MCP / A2A 三层分层** | `skill-composition/references/protocol-layering.md` |
 
 **状态与自动化**：
@@ -76,9 +77,9 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | ⭐ **跨会话记忆、交接班协议** | `skill-state/references/memory-state.md` |
 | ⭐ **持久化产物：CONTEXT.md / ADR / 决策日志** | `skill-state/references/cross-session-artifacts.md` |
 | ⭐ **记忆分层：四层写入节奏、遗忘是特性** | `skill-state/references/memory-tiers.md` |
-| **Hooks / 定时任务 / 技能的分工** | `references/automation.md` |
-| ⭐ **提示注入：技能本身是注入通道** | `references/prompt-injection.md` |
-| ⭐ **升级规则：把"有疑问就问人"写成可判定条件** | `references/escalation-rules.md` |
+| **Hooks / 定时任务 / 技能的分工** | `skill-orchestration/references/automation.md` |
+| ⭐ **提示注入：技能本身是注入通道** | `skill-orchestration/references/prompt-injection.md` |
+| ⭐ **升级规则：把"有疑问就问人"写成可判定条件** | `skill-orchestration/references/escalation-rules.md` |
 
 ## Critical Rules
 

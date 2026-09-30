@@ -1,6 +1,6 @@
 # 交接协议：一个技能做完，怎么交给下一个
 
-> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md`（串联组合与交接四步）·
+> 相关：《skill-composition》的 `skill-composition/references/sequential-composition.md`（串联组合与交接四步）·
 > `skill-orchestration/references/composition-patterns-types.md`（隐式依赖）·
 > `skill-orchestration/references/skill-dependency-injection.md`（双向无知）·
 > 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（前置产物）·

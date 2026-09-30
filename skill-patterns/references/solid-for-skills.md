@@ -1,6 +1,6 @@
 # 软件设计原则迁移到技能设计
 
-> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md` ·
+> 相关：《skill-composition》的 `skill-composition/references/sequential-composition.md` ·
 > `skill-orchestration/references/collision-arbitration.md` · 《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md`
 > 前置：那些文档讲具体怎么组合，这份讲⭐ 底层原则——
 > 软件架构的哪些力在技能系统里同样成立。
@@ -167,7 +167,7 @@ TypeScript interface → 技能的输入/输出契约
 |---|---|
 | 依赖冲突 | ⭐ 显式声明输入/输出契约（契约式设计） |
 | Token 爆炸 | `skill-patterns/references/context-budget-math.md` 的预算算术 + 桶模式 |
-| ⭐ 顺序敏感 | ⭐ 显式写交接协议（`skill-composition/references/skill-chaining-composition.md` 的四步） |
+| ⭐ 顺序敏感 | ⭐ 显式写交接协议（`skill-composition/references/sequential-composition.md` 的四步） |
 | 版本兼容 | 语义化版本 + `skill-distribution/references/dependency-lockfile.md` 的 pin |
 
 > ⭐ 第 ③ 项最容易被忽略：**同一个技能集，加载顺序不同结果就不同**。

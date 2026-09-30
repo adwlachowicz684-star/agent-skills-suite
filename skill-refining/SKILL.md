@@ -39,43 +39,43 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **逐句修剪、五种失败模式** | `references/pruning.md` |
+| ⭐ **逐句修剪、五种失败模式** | `skill-refining/references/pruning.md` |
 | **上下文预算与瘦身清单** | `skill-context/references/context-budget.md` |
 | ⭐ **上下文剖析：目录税 / 加载 / 按需三笔账** | `skill-context/references/token-profiling.md` |
 | ⭐ **预算硬边界：截断砍哪、5,000 token 存活区** | `skill-context/references/budget-truncation.md` |
 | ⭐ **上下文工程：写 / 选 / 压 / 隔** | `skill-context/references/context-engineering.md` |
 | ⭐ **压缩：先改工具再谈摘要、三层级联、30–40% 预算** | `skill-context/references/context-compression.md` |
 | ⭐ **渐进式披露的算术：三层各花多少、22 倍** | `skill-context/references/disclosure-math.md` |
-| **平台差异：本地 vs 托管、上传方式、单请求 ≤8 个** | `references/platform-differences.md` |
-| ⭐ **坏味道目录：30 个可快速识别的信号** | `references/skill-smells.md` |
-| ⭐ **重构已有技能：表现 vs 行为、六步流程** | `references/refactor-pass.md` |
-| ⭐ **去重：按变化频率分组，不是按内容相似度** | `references/deduplication.md` |
-| ⭐ **裁剪前先测量：三笔账、四类常见的误剪** | `references/measure-before-cut.md` |
-| **太长了该往哪里拆** | `references/splitting.md` |
-| ⭐ **目录形状：五个反模式与 30 天审计节奏** | `references/catalog-shape.md` |
+| **平台差异：本地 vs 托管、上传方式、单请求 ≤8 个** | `skill-refining/references/platform-differences.md` |
+| ⭐ **坏味道目录：30 个可快速识别的信号** | `skill-refining/references/skill-smells.md` |
+| ⭐ **重构已有技能：表现 vs 行为、六步流程** | `skill-refining/references/refactor-pass.md` |
+| ⭐ **去重：按变化频率分组，不是按内容相似度** | `skill-refining/references/deduplication.md` |
+| ⭐ **裁剪前先测量：三笔账、四类常见的误剪** | `skill-refining/references/measure-before-cut.md` |
+| **太长了该往哪里拆** | `skill-refining/references/splitting.md` |
+| ⭐ **目录形状：五个反模式与 30 天审计节奏** | `skill-refining/references/catalog-shape.md` |
 
 **结构与规模**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **何时拆、Router 模式、三层架构** | `references/architecture-layering.md` |
-| **实战反模式与七个坑** | `references/anti-patterns-practice.md` |
-| ⭐ **可发现性：用户怎么知道技能存在** | `references/discovery-ux.md` |
+| ⭐ **何时拆、Router 模式、三层架构** | `skill-refining/references/architecture-layering.md` |
+| **实战反模式与七个坑** | `skill-refining/references/anti-patterns-practice.md` |
+| ⭐ **可发现性：用户怎么知道技能存在** | `skill-refining/references/discovery-ux.md` |
 
 **多语言**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **翻译什么、不翻译什么、中文场景** | `references/i18n.md` |
+| ⭐ **翻译什么、不翻译什么、中文场景** | `skill-refining/references/i18n.md` |
 
 **优化工作流本身**：
 
 | 你要做的事 | 读 |
 |---|---|
-| **优化流程的六步** | `references/workflow.md` |
-| **优化场景的借口反驳表** | `references/anti-rationalizations.md` |
-| ⭐ **慢 / 无限循环 / 上下文溢出** | `references/runtime-failures.md` |
-| ⭐ **从真实执行中迭代、防过拟合** | `references/refine-with-execution.md` |
+| **优化流程的六步** | `skill-refining/references/workflow.md` |
+| **优化场景的借口反驳表** | `skill-refining/references/anti-rationalizations.md` |
+| ⭐ **慢 / 无限循环 / 上下文溢出** | `skill-refining/references/runtime-failures.md` |
+| ⭐ **从真实执行中迭代、防过拟合** | `skill-refining/references/refine-with-execution.md` |
 
 ## 强制工作流（MANDATORY）
 
@@ -105,7 +105,7 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 | "翻译时把 name 也译了" | ❌ name 是标识符，必须与目录名一致且 kebab-case。 |
 | "行数超一点没关系" | 150 行是自定上限；超了说明该拆，不是该忍。 |
 
-其余见 `references/anti-rationalizations.md`。
+其余见 `skill-refining/references/anti-rationalizations.md`。
 
 ## 脚本
 

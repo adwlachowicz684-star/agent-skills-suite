@@ -1,7 +1,7 @@
 # 技能依赖注入：委托 / 链式 / 配置 / 共享服务
 
 > 相关：《skill-orchestration》的 `skill-orchestration/references/composition-patterns-types.md` ·
-> `skill-composition/references/skill-chaining-composition.md` · `skill-orchestration/references/collision-arbitration.md` ·
+> `skill-composition/references/sequential-composition.md` · `skill-orchestration/references/collision-arbitration.md` ·
 > 《skill-patterns》的 `skill-patterns/references/five-design-patterns.md`
 > 前置：那些讲"组合的类型与冲突怎么解"，
 > 这份讲⭐ **组合的四种具体写法**，每种都给一个可直接照抄的正文骨架。

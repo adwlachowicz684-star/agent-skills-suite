@@ -87,7 +87,7 @@ metadata:
 
 **痛点**：几十条规范写进提示词，一更新所有技能都要改。
 
-**解法**：**把"检查什么"与"怎么检查"分离**——清单放 `references/review-checklist.md`。
+**解法**：**把"检查什么"与"怎么检查"分离**——清单放 `skill-patterns/references/review-checklist.md`。
 
 ```markdown
 - [ ] 所有函数都有类型注解        (严重:高)

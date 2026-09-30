@@ -1,8 +1,8 @@
 # 组合的四种依赖类型与三个反模式
 
-> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md` ·
+> 相关：《skill-composition》的 `skill-composition/references/sequential-composition.md` ·
 > `skill-orchestration/references/collision-arbitration.md` · 《skill-patterns》的 `skill-patterns/references/solid-for-skills.md`
-> 前置：`skill-composition/references/skill-chaining-composition.md` 讲"叠加加载与交接协议"，
+> 前置：`skill-composition/references/sequential-composition.md` 讲"叠加加载与交接协议"，
 > 这份讲⭐ **依赖关系的类型学 + 组合反模式**。
 
 ---

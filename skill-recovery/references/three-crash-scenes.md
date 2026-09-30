@@ -126,7 +126,7 @@
 ```
 ① ⭐⭐⭐ 中间产物要⭐ 显式命名/加前缀，让它⭐ 自带归属标记
 ② ⭐⭐⭐ 跨技能交接时，⭐ 上一个技能应⭐ 明确收尾
-   （对应 skill-chaining-composition.md 的 ANNOUNCE → SUMMARIZE → LOAD → PASS）
+   （对应 sequential-composition.md 的 ANNOUNCE → SUMMARIZE → LOAD → PASS）
 ```
 
 > ⭐⭐⭐ 这也解释了为什么"交接失败是最常见的组合坑"——
