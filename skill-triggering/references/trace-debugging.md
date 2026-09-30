@@ -1,7 +1,7 @@
 # 读 trace 排错：找到第一个错的 turn
 
 > 相关：《skill-triggering》的 `skill-triggering/references/troubleshooting-manual.md` ·
-> `skill-evaluating/references/fault-injection-eval.md` · 《skill-loading》的 `skill-loading/references/verbose-debug.md`
+> `skill-judging/references/fault-injection-eval.md` · 《skill-loading》的 `skill-loading/references/verbose-debug.md`
 
 ---
 

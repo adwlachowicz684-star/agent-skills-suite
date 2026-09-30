@@ -2,7 +2,7 @@
 
 > 相关：《skill-scripting》的 `skill-scripting/references/deterministic-scripts.md`（纯函数四原则）·
 > `skill-scripting/references/script-cli-contract.md`（退出码分级）·
-> 《skill-evaluating》的 `skill-evaluating/references/assert-on-environment.md`
+> 《skill-evaluating》的 `skill-judging/references/assert-on-environment.md`
 > 前置：那份讲"脚本该怎么写"，
 > 这份讲⭐ **脚本写完之后怎么证明它对**——以及⭐⭐ 技能里的脚本和 CI 里的脚本有什么不同。
 

@@ -80,7 +80,7 @@ Anthropic 把内部跑过的几百个技能归成九类：
 ```
 
 > ⭐ 第 ② 条与 `skill-scripting/references/deterministic-scripts.md` 的"该脚本化的就脚本化"、
-> `skill-evaluating/references/assert-on-environment.md` 的"断言打在环境状态上"完全同源：
+> `skill-judging/references/assert-on-environment.md` 的"断言打在环境状态上"完全同源：
 > **验证不能靠模型自己说"通过了"，必须有程序化断言。**
 
 这也解释了为什么 `skill-evaluating` 里的测试金字塔把 L1（结构/契约）
@@ -107,7 +107,7 @@ Anthropic 把内部跑过的几百个技能归成九类：
 >    是必需角色——专家专注自己的领域，会漏掉横切关注点
 
 这类技能还可以**挂在 hooks 或 GitHub Action 里自动运行**
-（呼应 `skill-evaluating/references/determinism-boundary.md` 的"确定性约束放 hook"）。
+（呼应 `skill-judging/references/determinism-boundary.md` 的"确定性约束放 hook"）。
 
 ---
 

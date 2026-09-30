@@ -163,7 +163,7 @@
 > ⭐⭐⭐⭐ 这其实是⭐ 一个技能的可测性判据：
 > ⭐⭐⭐ **如果一个技能的失败是"模糊的、部分的"，它就很难被维护**
 > ——因为你不知道它到底是坏了还是只是这次运气不好。
-> ⭐⭐⭐ 与 `skill-evaluating/references/assert-on-environment.md` 的"PASS 必须有 concrete 证据"同源。
+> ⭐⭐⭐ 与 `skill-judging/references/assert-on-environment.md` 的"PASS 必须有 concrete 证据"同源。
 
 ---
 

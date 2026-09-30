@@ -80,7 +80,7 @@ scripts/     ⭐ EXECUTE   —— 执行，不进上下文
 输出形状随机 → 只能人肉看   → 无法比较     → 回归静默发生
 ```
 
-> 与 `skill-evaluating/references/assert-on-environment.md` 的"确定性断言能两秒筛掉一半失败样本"同源——
+> 与 `skill-judging/references/assert-on-environment.md` 的"确定性断言能两秒筛掉一半失败样本"同源——
 > **形状稳定是自动化的前提**。
 
 ---

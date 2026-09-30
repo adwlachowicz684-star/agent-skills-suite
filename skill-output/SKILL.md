@@ -38,6 +38,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 | `skill-output/references/output-ordering-priority.md` | ⭐⭐⭐⭐⭐ 顺序不是排版是主张；⭐⭐⭐⭐⭐ 默认顺序=生成顺序≠重要程度；⭐⭐⭐⭐⭐ 覆盖率/例外必须在前5行 |
 | `skill-output/references/output-length-budget.md` | ⭐⭐⭐⭐⭐ "详尽"不是长度规格；⭐⭐⭐⭐⭐ 每段给上限不给下限；⭐⭐⭐⭐⭐ 长度膨胀是最安静的退化 |
 | `skill-output/references/enumeration-and-completeness.md` | ⭐⭐⭐⭐⭐ 没有分母就没有完成；⭐⭐⭐⭐⭐ 覆盖率必须出现在输出里；"全面"是无上限的词 |
+| `skill-output/references/output-template-vs-scale.md` | ⭐⭐⭐⭐⭐ 模板是某个规模的隐式承诺；⭐⭐⭐⭐⭐ 规模变大时严格遵守模板=输出不可用；⭐⭐⭐⭐⭐ 0 条时空模板最危险 |
 | `skill-output/references/progress-reporting.md` | ⭐⭐⭐ 进度汇报：长任务的可见性 |
 | `skill-output/references/grounding-verification.md` | ⭐⭐⭐⭐ 有据可查验证：⭐⭐⭐⭐⭐ 每个结论要能追溯到源 |
 

@@ -100,7 +100,7 @@ scripts/     EXECUTE   —— 执行，不进上下文
    ⭐ 阶段门卡确保参数完整性
 ```
 
-> ⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的"断言打在环境状态上"同源——
+> ⭐ 这与 `skill-judging/references/assert-on-environment.md` 的"断言打在环境状态上"同源——
 > 快照就是那个可被断言的环境状态。
 
 ---

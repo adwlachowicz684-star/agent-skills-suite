@@ -105,7 +105,7 @@ priority: 10
 ⭐ 很多团队忽略的是：⭐ 工具调用权限不能由模型自己决定。
 ```
 
-> ⭐ 与 `skill-evaluating/references/determinism-boundary.md` 那条完全一致：
+> ⭐ 与 `skill-judging/references/determinism-boundary.md` 那条完全一致：
 > **技能里的权限声明不是安全边界，真正的边界在 hook 或 permission 规则。**
 
 ---

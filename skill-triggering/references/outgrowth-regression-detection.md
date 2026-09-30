@@ -115,7 +115,7 @@ commit-message 技能：92% → 71%（模型更新后）
 ⭐⭐ 单次运行告诉你"这一次发生了什么"，不是"通常会发生什么"
 ```
 
-> ⭐⭐⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的 `pass^5`（跑 5 次全过才算过）
+> ⭐⭐⭐ 这与 `skill-judging/references/assert-on-environment.md` 的 `pass^5`（跑 5 次全过才算过）
 > 是同一个原理，只是官方给的默认值是 3。
 > ⭐ 仲裁：**关键断言用 5，常规基准用 3**——
 > 因为 `pass^5` 针对的是"这条断言是否稳定"，

@@ -1,6 +1,6 @@
 # 不要用全有或全无的 rubric
 
-> 相关：`skill-evaluating` 的 `skill-evaluating/references/judge-design.md` ·
+> 相关：`skill-evaluating` 的 `skill-judging/references/judge-design.md` ·
 > `skill-quality/references/quality-rubric.md` · `skill-quality/references/four-dimension-eval.md`
 
 ---
@@ -51,7 +51,7 @@
 
 ## 3. 与"避免全有或全无评分"的关系
 
-这与 `skill-quality/references/metrics.md` / `skill-evaluating/references/judge-design.md` 里反复出现的原则一致：
+这与 `skill-quality/references/metrics.md` / `skill-judging/references/judge-design.md` 里反复出现的原则一致：
 **评分必须机器可读、可分解**，
 不能是"通过/不通过"一个比特。
 

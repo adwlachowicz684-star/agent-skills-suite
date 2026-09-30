@@ -75,7 +75,7 @@
 > ⭐ **一次 /clear + 一次重跑**，不需要任何工具、不需要 eval 框架。
 > ⭐⭐ 但它测的恰恰是最难用断言覆盖的东西——**整体结构的稳定性**。
 >
-> ⭐⭐ 与我们已有的 `skill-evaluating/references/assert-on-environment.md` 的 pass^5、
+> ⭐⭐ 与我们已有的 `skill-judging/references/assert-on-environment.md` 的 pass^5、
 > `skill-description/references/description-tuning-official-loop.md` 的"跑 3 次"
 > 是同一思路的⭐ 三个不同应用点：
 > ```

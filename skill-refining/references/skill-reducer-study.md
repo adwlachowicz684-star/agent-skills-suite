@@ -58,7 +58,7 @@
 > ⭐ 第 ③ 步是这个方法最妙的地方：
 > **不是压缩完就结束，而是用查询集做回归，按贡献度逐条回补。**
 >
-> 这跟 `skill-evaluating/references/assert-on-environment.md` 的"同步校验断言本身"一样——
+> 这跟 `skill-judging/references/assert-on-environment.md` 的"同步校验断言本身"一样——
 > **对优化动作本身做验证**。
 
 ---

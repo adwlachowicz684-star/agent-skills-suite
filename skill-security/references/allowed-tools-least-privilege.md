@@ -23,7 +23,7 @@
 > **在处理对抗性提示时，不能信任 LLM 会自我执行访问限制。**
 
 > ⭐ 这一条是所有后续讨论的地基。
-> 它与 `skill-evaluating/references/determinism-boundary.md` 的
+> 它与 `skill-judging/references/determinism-boundary.md` 的
 > "把破坏性拦截写进技能是表演"完全同源：
 > **声明只是意图，执行侧的强制才算数。**
 

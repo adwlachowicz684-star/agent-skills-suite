@@ -28,7 +28,7 @@
 
 > ⭐ **Shell 指令在 hooks 里是在模型对输出进行推理之前就执行的。**
 
-> ⭐ 这解释了为什么 `skill-evaluating/references/determinism-boundary.md` 说"拦截写进技能是表演"——
+> ⭐ 这解释了为什么 `skill-judging/references/determinism-boundary.md` 说"拦截写进技能是表演"——
 > **执行顺序上，hook 已经跑完了，模型才刚开始想。**
 
 **信任原则**：⭐ 连"可信来源"的技能也要验——可能被供应链攻击、可能含可利用漏洞、可能权限过宽。

@@ -53,7 +53,7 @@
 
 > ⭐ 一个具体的好习惯：**脚本开头就把"允许写的根目录"定义成一个常量，
 > 所有写操作都过一次校验**。这比在 SKILL.md 里写"不要写到别处"有效得多——
-> 因为它是代码，不依赖模型遵守（呼应 `skill-evaluating/references/determinism-boundary.md`）。
+> 因为它是代码，不依赖模型遵守（呼应 `skill-judging/references/determinism-boundary.md`）。
 
 ---
 

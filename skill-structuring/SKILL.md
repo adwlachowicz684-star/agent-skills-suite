@@ -35,6 +35,7 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 | `skill-structuring/references/directory-growth-path.md` | ⭐⭐⭐ 从1个文件起步；参考文档给链接+摘要不要全文复制 |
 | `skill-structuring/references/frontmatter-body-consistency.md` | ⭐⭐⭐⭐⭐ description 承诺了正文没有；⭐⭐⭐⭐⭐ 缺失不报错因为没环节在等它；⭐⭐⭐⭐⭐ 从短的一侧检查 |
 | `skill-structuring/references/reference-file-practices.md` | ⭐⭐ 一层深度 + 100行带目录 + 会被重复读取 |
+| `skill-structuring/references/reference-discoverability.md` | ⭐⭐⭐⭐⭐ 决定 reference 存不存在的是路由那一行；⭐⭐⭐⭐⭐ 模型按触发条件读，而目录项给的是主题；⭐⭐⭐⭐ 僵尸 reference |
 | `skill-structuring/references/directory-decision-matrix.md` | ⭐ 决策矩阵：每个文件该放哪个子目录 |
 | `skill-structuring/references/rename-alias-deprecation.md` | ⭐⭐⭐⭐⭐ 改名不会报错→静默降级；⭐⭐⭐⭐⭐ 旧名写进描述=零成本别名；⭐⭐⭐⭐ 弃用四段式（含新旧差异）|
 | `skill-structuring/references/skill-directory-contract.md` | ⭐⭐⭐⭐⭐ 复制到新机器应立刻能用；⭐⭐⭐⭐⭐ 悬空引用=幻觉来源；⭐⭐⭐ config-example 里的真值也是泄露 |

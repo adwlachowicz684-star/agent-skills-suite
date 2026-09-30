@@ -94,7 +94,7 @@
 
 > ⭐⭐ PostToolUse hook 这个位置很关键：
 > **它在模型看到输出之前拦截**——
-> 这与 `skill-evaluating/references/determinism-boundary.md` 的"执行侧强制"是同一思路：
+> 这与 `skill-judging/references/determinism-boundary.md` 的"执行侧强制"是同一思路：
 > **不指望模型自己识别，而是在它看到之前就处理掉。**
 
 ---

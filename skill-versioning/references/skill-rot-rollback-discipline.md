@@ -102,7 +102,7 @@
 ⭐⭐ 歧义时的默认动作是 ⭐ 回滚，不是保留。
 ```
 
-> ⭐⭐⭐ "默认回滚"这条与 `skill-evaluating/references/fault-injection-eval.md` 的
+> ⭐⭐⭐ "默认回滚"这条与 `skill-judging/references/fault-injection-eval.md` 的
 > "恢复前检查点缺失/过期 → 安全停止，绝不编造进度"是同一种保守取向。
 > 也与 `skill-governance/references/retirement-pipeline.md` 的"归档 ≠ 删除"一致——
 > **留着旧版本，成本极低；丢掉它，代价极高。**

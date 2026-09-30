@@ -34,7 +34,7 @@
 > ⭐⭐ 所以 `allowed-tools` 是少数⭐ **真正在执行侧生效的技能内声明**。
 > 但它仍然是"允许"而不是"拒绝"——
 > ⭐ 它不能扩大用户已授予的权限，只能⭐ 收窄到这个技能需要的子集。
-> 这与 `skill-evaluating/references/determinism-boundary.md` 的
+> 这与 `skill-judging/references/determinism-boundary.md` 的
 > "Hooks 用于模型不可被信任去遵守的事"是同一层的不同机制。
 
 ---

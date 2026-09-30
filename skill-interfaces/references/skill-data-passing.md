@@ -178,7 +178,7 @@ dependencies:
 错误：  超时控制 · 指数退避重试 · ⭐⭐⭐ 降级（主技能失败用备用）· 监控告警
 ```
 
-> ⭐⭐⭐ 其中"⭐ 检查点"与 `skill-evaluating/references/fault-injection-eval.md` 的
+> ⭐⭐⭐ 其中"⭐ 检查点"与 `skill-judging/references/fault-injection-eval.md` 的
 > "⭐⭐ 恢复前检查点缺失/过期 → ⭐ 安全停止，⭐ 绝不编造进度"
 > ⭐⭐⭐ 完全一致——⭐⭐ 那份讲⭐ 检查点坏了怎么办，这里讲⭐ 检查点该怎么设计。
 

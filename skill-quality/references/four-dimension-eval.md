@@ -96,7 +96,7 @@ for name, grp in groupby(tool_calls):
 ⭐ **关键**：用 `--output-schema` 约束返回固定格式 JSON，
 **否则跨版本的分数无法量化对比**。
 
-这与 `skill-evaluating/references/judge-design.md` 一致——评分必须机器可读，不能是自然语言。
+这与 `skill-judging/references/judge-design.md` 一致——评分必须机器可读，不能是自然语言。
 
 ---
 

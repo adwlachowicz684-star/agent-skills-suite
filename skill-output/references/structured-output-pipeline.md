@@ -3,7 +3,7 @@
 > 相关：《skill-execution》的 `skill-execution/references/seven-contracts.md` · `skill-output/references/output-stability-contract.md` ·
 > 《skill-examples》的 `skill-examples/references/judgment-branches-acceptance.md`（验收三件套）·
 > 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md` · `skill-scripting/references/tool-output-design.md` ·
-> 《skill-evaluating》的 `skill-evaluating/references/benchmark-assertions-delta.md`
+> 《skill-evaluating》的 `skill-judging/references/benchmark-assertions-delta.md`
 > 前置：那些讲"输出要有格式""要给示例"，
 > 这份讲⭐⭐⭐ **格式校验失败之后怎么办**——
 > 含⭐⭐⭐⭐ 一条我们此前只模糊提到、从未说透的⭐ 根本性警告。
