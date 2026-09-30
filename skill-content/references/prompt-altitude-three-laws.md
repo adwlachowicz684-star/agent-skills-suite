@@ -1,7 +1,7 @@
 # 指令高度：金发姑娘区与三条律
 
-> 相关：《skill-content》的 `operator-card-style.md` ·
-> 《skill-crafting》的 `imperative-style.md` · `write-reasons-not-rules.md`
+> 相关：《skill-content》的 `skill-content/references/operator-card-style.md` ·
+> 《skill-crafting》的 `skill-crafting/references/imperative-style.md` · `skill-crafting/references/write-reasons-not-rules.md`
 > 前置：那些讲⭐ 措辞与句式，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个更上游的问题——⭐ 指令该写在⭐ 哪个抽象层级，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 以及 ⭐ 三条⭐ 可直接检验的⭐ 律。
@@ -90,7 +90,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ 第三项⭐ 最值得⭐ 单独记：⭐ **"确保改动⭐ 最小且聚焦"**。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 它⭐ 与 `description-scope-shape.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 它⭐ 与 `skill-description/references/description-scope-shape.md` 那条
 > "⭐ 没有反触发，⭐⭐⭐⭐⭐ ⭐⭐⭐ 代码评审技能⭐ 被叫去审 typo 修复时
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 会⭐ '好心'加上⭐ 五段无关的⭐ 架构反馈"⭐ 是⭐ 同一个病。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这里⭐ 把它⭐ 变成了⭐ 一条⭐ 收尾时的⭐ 自检项。
@@ -124,12 +124,12 @@
 ## Processing Rules  [如何把输入转成输出]
 ```
 
-> ⭐⭐⭐⭐⭐ 这三段⭐ 与我们⭐ 已有的⭐ `seven-contracts.md` 的
+> ⭐⭐⭐⭐⭐ 这三段⭐ 与我们⭐ 已有的⭐ `skill-execution/references/seven-contracts.md` 的
 > "⭐ 输入契约 / 输出契约"⭐ 是⭐ 同一个⭐ 划分，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而⭐ 这里⭐ 补上了⭐ 第三块——⭐ **"如何转换"**。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 三块齐全，⭐⭐⭐⭐⭐ ⭐⭐⭐ 才是一份⭐ 完整的⭐ 执行契约。
 
-**③ ⭐⭐⭐ 反模式要成对写**（`Don't` + `Instead`），见 `six-pitfalls-selfcheck.md`。
+**③ ⭐⭐⭐ 反模式要成对写**（`Don't` + `Instead`），见 `skill-patterns/references/six-pitfalls-selfcheck.md`。
 
 ---
 
@@ -194,7 +194,7 @@
    · ⭐⭐⭐ 缺失的错误处理（加 try/catch 或校验）"
 ```
 
-> ⭐⭐⭐⭐⭐ 这⭐ 与 `judgment-branches-acceptance.md` 的"流程/判断/验收三件套"
+> ⭐⭐⭐⭐⭐ 这⭐ 与 `skill-examples/references/judgment-branches-acceptance.md` 的"流程/判断/验收三件套"
 > ⭐⭐⭐⭐ ⭐ 是⭐ 同一件事的⭐ 最短版本：⭐ **"审查质量问题"⭐ 只有流程，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 没有⭐ 判断标准，⭐⭐⭐⭐⭐ ⭐⭐⭐ 于是⭐ 每次结果都不一样。**
 
@@ -204,7 +204,7 @@
 ❌ "要彻底，把所有东西都检查一遍。⭐ 同时要快，要高效。"
 ```
 
-> ⭐⭐⭐⭐⭐ 这⭐ 与 `conflict-precedence-four-types.md` 的
+> ⭐⭐⭐⭐⭐ 这⭐ 与 `skill-patterns/references/conflict-precedence-four-types.md` 的
 > "⭐ 避免跨层矛盾 ⭐ 比 ⭐ 记住优先级顺序 ⭐ 更根本"⭐ 完全同源。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而⭐ 这里⭐ 给出了⭐ 最常见的⭐ 具体形态：
 > ⭐⭐⭐⭐⭐ **"彻底" ⭐ 和 ⭐ "快" ⭐ 同时出现——⭐⭐⭐⭐⭐ ⭐⭐⭐ 这是⭐ 一对⭐ 天然冲突的

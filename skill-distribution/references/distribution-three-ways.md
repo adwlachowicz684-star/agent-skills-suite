@@ -1,7 +1,7 @@
 # 三种分发方式：Git / 插件市场 / 企业托管
 
-> 相关：《skill-distribution》的 `enterprise-registry.md` ·
-> `supply-chain-trust.md` · `marketplace-listing.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/enterprise-registry.md` ·
+> `skill-distribution/references/supply-chain-trust.md` · `skill-distribution/references/marketplace-listing.md`
 
 ---
 

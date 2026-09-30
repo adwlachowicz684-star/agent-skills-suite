@@ -1,7 +1,7 @@
 # description 四条铁律（含中文场景）
 
-> 相关：《skill-description》的 `imperative-description.md` ·
-> `description-rewrite-case.md` · 《skill-refining》的 `i18n.md`
+> 相关：《skill-description》的 `skill-description/references/imperative-description.md` ·
+> `skill-description/references/description-rewrite-case.md` · 《skill-refining》的 `skill-refining/references/i18n.md`
 
 ---
 
@@ -66,7 +66,7 @@ Avoid: "You can use this to process Excel files"
 
 > ⭐ 理由很硬：**description 经常会被截断，关键词必须在前面。**
 
-这与 `budget-truncation.md` 那条一致——
+这与 `skill-context/references/budget-truncation.md` 那条一致——
 **装太多技能时描述会被压缩以省字符预算，可能把匹配用的关键词削掉**。
 
 ---
@@ -80,8 +80,8 @@ Avoid: "You can use this to process Excel files"
 ```
 
 > ⭐ **"不用于 X（用 Y 代替）" 是最强的路由提示**——
-> 与 `activation-rate.md` 的祈使句 + 否定约束、
-> `namespace-collision.md` 的排除声明互相点名，完全同构。
+> 与 `skill-description/references/activation-rate.md` 的祈使句 + 否定约束、
+> `skill-orchestration/references/namespace-collision.md` 的排除声明互相点名，完全同构。
 
 ---
 
@@ -155,4 +155,4 @@ Avoid: "You can use this to process Excel files"
 **中文场景补充**：
 中文日常表达更丰富，同一件事至少五种说法——
 **把所有你同事会说的说法都写进 description**
-（详见《skill-refining》的 `i18n.md`）。
+（详见《skill-refining》的 `skill-refining/references/i18n.md`）。

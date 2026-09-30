@@ -1,6 +1,6 @@
 # 企业注册中心：当技能多到需要"仓库管理员"
 
-> 前置：`team-sharing.md`（共享流程）· `team-workflow.md`（工具型 vs 领域型）
+> 前置：`skill-adoption/references/team-sharing.md`（共享流程）· `skill-adoption/references/team-workflow.md`（工具型 vs 领域型）
 > 这份讲**技能规模上去之后的注册中心形态**，以及个人技能转团队资产的七步。
 
 ---
@@ -52,7 +52,7 @@
 
 ## 3. 命名空间：分类靠元数据，不靠目录
 
-这是与 `packaging.md` 一致的原则，在注册中心里更重要：
+这是与 `skill-distribution/references/packaging.md` 一致的原则，在注册中心里更重要：
 
 ```
 ❌ skills/security/...  skills/data/...     目录分类
@@ -79,7 +79,7 @@
 
 > ⭐ **审核者的存在感决定注册中心的质量**——
 > 没有审核环节，注册中心会退化成"共享文件夹"，
-> 这正是 `team-sharing.md` 那句"没有治理流程的 monorepo 只是共享文件夹"的企业版。
+> 这正是 `skill-adoption/references/team-sharing.md` 那句"没有治理流程的 monorepo 只是共享文件夹"的企业版。
 
 ---
 
@@ -102,7 +102,7 @@
 
 **高风险操作必须人工确认**——涉及**资金 · 合同 · 人员 · 生产配置 · 客户隐私 · 跨境数据传输**时，
 Agent 可以负责分析、生成计划、准备材料，
-⭐ **但真正执行前应暂停等待授权**。这与 `approval-gates.md` 一致。
+⭐ **但真正执行前应暂停等待授权**。这与 `skill-security/references/approval-gates.md` 一致。
 
 > 治理的目标**不是让 AI 完全失去自主性**，而是让自主性在可接受边界内运行。
 
@@ -144,7 +144,7 @@ Agent 可以负责分析、生成计划、准备材料，
 
 > 落地建议：**从 L0/L1 起步**。
 > 直接上 L2/L3 的团队，通常在第一次事故后回退到 L0——
-> 但那时已经损失了信任（见 `team-adoption.md` 里"信任的负面对称性"）。
+> 但那时已经损失了信任（见 `skill-adoption/references/team-adoption.md` 里"信任的负面对称性"）。
 
 ---
 

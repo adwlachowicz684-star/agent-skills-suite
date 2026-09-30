@@ -1,7 +1,7 @@
 # description 改写实录：30% → 90%
 
-> 相关：《skill-description》的 `activation-rate.md`（四档实测）·
-> `description-patterns.md` · 《skill-triggering》的 `triggering.md`
+> 相关：《skill-description》的 `skill-description/references/activation-rate.md`（四档实测）·
+> `skill-description/references/description-patterns.md` · 《skill-triggering》的 `skill-triggering/references/triggering.md`
 
 ---
 
@@ -73,7 +73,7 @@ description: "当用户要求审查 Python 代码性能、查找内存泄漏或�
 `skill-01` 对模型毫无信息量，`review-code` 有。
 
 第四条更危险——**它会通过所有结构校验，
-但每次执行都不对**。这正是 `skill-structuring` 的 `frontmatter-pitfalls.md` 说的
+但每次执行都不对**。这正是 `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md` 说的
 "第一阶段的 loaded 只代表文件存在"。
 
 ---
@@ -88,7 +88,7 @@ description: "当用户要求审查 Python 代码性能、查找内存泄漏或�
 ```
 
 > ⭐ **只改一个变量**是这个方法有效的前提——
-> 与 `claude-ab-loop.md` 的"每次只改 1–2 个变量，否则无法归因"一致。
+> 与 `skill-automation/references/claude-ab-loop.md` 的"每次只改 1–2 个变量，否则无法归因"一致。
 
 ---
 

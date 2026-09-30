@@ -1,9 +1,9 @@
 # 章节顺序：把什么放在开头
 
-> 相关：《skill-loading》的 `prompt-layering-positional-bias.md`（位置偏差）·
-> `three-stages-discovery-activation-execution.md`（压缩只带回开头 5000）·
-> 《skill-structuring》的 `reference-file-practices.md`（100 行带 TOC）·
-> 《skill-content》的 `skill-anatomy.md`（正文该放什么）
+> 相关：《skill-loading》的 `skill-loading/references/prompt-layering-positional-bias.md`（位置偏差）·
+> `skill-loading/references/three-stages-discovery-activation-execution.md`（压缩只带回开头 5000）·
+> 《skill-structuring》的 `skill-structuring/references/reference-file-practices.md`（100 行带 TOC）·
+> 《skill-content》的 `skill-content/references/skill-anatomy.md`（正文该放什么）
 > 前置：那些讲⭐⭐⭐ 位置偏差存在、⭐ 压缩只保开头，
 > 这份讲⭐⭐⭐⭐ **由此推出的章节排布顺序**——
 > 把"开头是黄金位置"从一条观察变成一份可照抄的骨架。
@@ -27,9 +27,9 @@
 
 | 来源 | 结论 |
 |---|---|
-| `prompt-layering-positional-bias.md` | ⭐ 首因效应与近因效应可测量；中间是黑洞 |
+| `skill-loading/references/prompt-layering-positional-bias.md` | ⭐ 首因效应与近因效应可测量；中间是黑洞 |
 | `three-stages-...md` | ⭐⭐⭐ 压缩带回的是"开头 5000"，**不是"最重要的 5000"** |
-| `reference-file-practices.md` | 超 100 行会被 `head -100` 预览 |
+| `skill-structuring/references/reference-file-practices.md` | 超 100 行会被 `head -100` 预览 |
 
 > ⭐⭐⭐⭐⭐ **第二条最关键：系统没有能力判断哪 5000 重要，
 > 它只能取开头。**
@@ -53,7 +53,7 @@
 ```
 
 关键设计：**第 ② 和第 ⑤ 是同一批约束的两端重复**——
-这正是 `prompt-layering-positional-bias.md` 的建议
+这正是 `skill-loading/references/prompt-layering-positional-bias.md` 的建议
 （"关键规则在两端都写一遍"）在章节层面的落地。
 
 各段的作用：

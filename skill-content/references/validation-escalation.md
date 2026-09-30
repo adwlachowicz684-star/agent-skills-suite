@@ -135,7 +135,7 @@
 ```
 
 注意最后一条——**它把"跑通了但结果是错的"显式定义为失败**。
-这正是 `failure-modes-doc.md` 强调的那类最危险的失败。
+这正是 `skill-scoping/references/failure-modes-doc.md` 强调的那类最危险的失败。
 
 ## 自查
 
@@ -152,7 +152,7 @@
 
 > ⭐ **Validation 章节是"证据先于声明"的落地方式。**
 
-`grounding-verification.md` 说"未验证就声称成功是不诚实"——
+`skill-output/references/grounding-verification.md` 说"未验证就声称成功是不诚实"——
 Validation 章节就是让这个要求**可执行**的地方：
 **它明确定义了什么算证据。**
 

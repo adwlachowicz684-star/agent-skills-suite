@@ -1,10 +1,10 @@
 # 技能正文里的外部链接
 
-> 相关：《skill-structuring》的 `reference-file-practices.md`（reference 组织）·
-> 《skill-refining》的 `pruning.md`（剪枝）·
-> 《skill-content》的 `gotchas-mining.md`（Gotchas 是采集的）·
-> `portability-across-projects.md`（可迁移性）·
-> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）
+> 相关：《skill-structuring》的 `skill-structuring/references/reference-file-practices.md`（reference 组织）·
+> 《skill-refining》的 `skill-refining/references/pruning.md`（剪枝）·
+> 《skill-content》的 `skill-content/references/gotchas-mining.md`（Gotchas 是采集的）·
+> `skill-content/references/portability-across-projects.md`（可迁移性）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（数据依赖）
 > 前置：
 > 依赖声明两份讲的是⭐⭐⭐⭐ **脚本依赖**和**数据依赖**，
 > 这份讲的是第三种：⭐⭐⭐⭐⭐ **知识依赖**——
@@ -132,7 +132,7 @@
 
 > ⭐⭐⭐⭐⭐ 括号内那句同时完成了三件事：
 > 给出来源、给出核对时间、⭐⭐⭐⭐⭐ **让后来者知道该什么时候重验**。
-> 这与 `unjustified-numbers.md` 的"数字 + 出处"是同一手法。
+> 这与 `skill-precision/references/unjustified-numbers.md` 的"数字 + 出处"是同一手法。
 
 **② ⭐⭐⭐⭐⭐ 链接 + 摘要（reference 里推荐的形式）**
 

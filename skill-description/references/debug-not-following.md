@@ -1,8 +1,8 @@
 # 描述与指令不生效时的排查
 
-> 相关：《skill-description》的 `description-tuning-official-loop.md` ·
-> `activation-mechanism.md` ·
-> 《skill-loading》的 `nine-checks-not-working.md` · `four-layer-diagnosis-flow.md`
+> 相关：《skill-description》的 `skill-description/references/description-tuning-official-loop.md` ·
+> `skill-description/references/activation-mechanism.md` ·
+> 《skill-loading》的 `skill-loading/references/nine-checks-not-working.md` · `skill-loading/references/four-layer-diagnosis-flow.md`
 > 前置：那些讲⭐ 加载与文件层排查，
 > 这份讲⭐⭐⭐ **"技能加载了但行为不对"**——
 > 含⭐⭐⭐⭐ 一个⭐ 零成本且⭐ 极准的描述调试技巧。
@@ -41,7 +41,7 @@
 > ③ 复述正确但⭐ 仍然不触发       → ⭐⭐⭐⭐ ⭐ 有更强的竞争者在赢（见第 5 节）
 > ```
 >
-> ⭐⭐⭐⭐ 与 `nested-scope-discovery.md` 的
+> ⭐⭐⭐⭐ 与 `skill-loading/references/nested-scope-discovery.md` 的
 > "无法判断哪个版本生效 → 直接问 What skills are available?"
 > ⭐⭐⭐⭐ 是⭐ 同一手法的两个问法：
 > ⭐⭐⭐ **一个问"有哪些"，一个问"你会在什么时候用这个"**——
@@ -77,7 +77,7 @@
     online payment workflows, ⭐⭐⭐⭐ not for general financial queries."
 ```
 
-> ⭐⭐⭐⭐⭐ 三解法与我们已有的 `trigger-tuning-loop.md`
+> ⭐⭐⭐⭐⭐ 三解法与我们已有的 `skill-triggering/references/trigger-tuning-loop.md`
 > （误触发：加反触发、点名排除、收窄）⭐⭐ 完全一致，
 > ⭐⭐⭐⭐ 但这里⭐ 每条都给了⭐ 可照抄的⭐ 完整句式——
 > ⭐⭐⭐⭐⭐ 尤其第 ① 条那个⭐⭐⭐ `(use data-viz skill instead)`
@@ -116,14 +116,14 @@
 > ⭐⭐⭐⭐⭐ 第 ③ 条那组对照⭐ 值得单独抄——
 > ⭐⭐⭐⭐⭐ 它把"要具体"落成了⭐ 一个可检查的形式：
 > ⭐⭐⭐⭐ **每条验证项都能被⭐ 机械判定**（非空 / ≥1 / 不在过去）。
-> ⭐⭐⭐⭐⭐ 这与 `assert-on-environment.md` 的
+> ⭐⭐⭐⭐⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的
 > "断言要打在环境状态上（版本号 == 1.42.0）"
 > ⭐⭐⭐⭐⭐ ⭐ 是⭐ 同一条原则在⭐ 提示措辞层面的应用。
 >
 > ⭐⭐⭐⭐⭐ 第 ④ 条那个限定⭐ 最容易被忽略：
 > ⭐⭐⭐⭐ ⭐ "加在用户提示里比加在 SKILL.md 里更有效"。
 > ⭐⭐⭐⭐⭐ 这说明⭐ **SKILL.md 的指令权重⭐ 低于⭐ 用户当轮输入**——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与 `priority-override-layers.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-triggering/references/priority-override-layers.md` 的
 > "临时 Prompt > 技能内置规则 > 全局 Rule" ⭐⭐⭐⭐⭐ ⭐ 完全同源，
 > ⭐⭐⭐⭐ ⭐ 且⭐ 这是第二次独立确认。
 
@@ -151,7 +151,7 @@
      ⭐⭐⭐⭐ 或⭐ 把参考材料拆成⭐ 按需加载的兄弟文件
 ```
 
-> ⭐⭐⭐ 这与 `three-stages-discovery-activation-execution.md` 的
+> ⭐⭐⭐ 这与 `skill-loading/references/three-stages-discovery-activation-execution.md` 的
 > "真失忆 vs 假失灵"⭐⭐ 是⭐ 同一症状的⭐ 两种根因：
 > ```
 > · 那份讲的是：被压缩挤出去了（真失忆）／模型选了别的路径（假失灵）
@@ -171,8 +171,8 @@
 
 | 症状 | ⭐ 首先怀疑 | 用什么文档 |
 |---|---|---|
-| **完全不出现** | ⭐⭐⭐ 文件层（目录/文件名/YAML/BOM）· ⭐⭐ 嵌套作用域 | `nine-checks-not-working.md` · `nested-scope-discovery.md` |
-| **出现但不触发** | ⭐⭐⭐ 描述 · ⭐⭐⭐⭐ 竞争者更强 | 本份第 1、2 节 · `trigger-tuning-loop.md` |
+| **完全不出现** | ⭐⭐⭐ 文件层（目录/文件名/YAML/BOM）· ⭐⭐ 嵌套作用域 | `skill-loading/references/nine-checks-not-working.md` · `skill-loading/references/nested-scope-discovery.md` |
+| **出现但不触发** | ⭐⭐⭐ 描述 · ⭐⭐⭐⭐ 竞争者更强 | 本份第 1、2 节 · `skill-triggering/references/trigger-tuning-loop.md` |
 | **触发但行为不对** | ⭐⭐⭐⭐ 指令被埋没/含糊 · ⭐⭐ 权限不足 · ⭐ 模型 pin | 本份第 3 节 |
 | **开头好、后面不行** | ⭐⭐⭐⭐⭐ ⭐ 正文长度截断 | 本份第 4 节 |
 

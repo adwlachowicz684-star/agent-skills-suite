@@ -1,8 +1,8 @@
 # 跨平台可移植：破坏它的三件事
 
-> 相关：《skill-selection》的 `cross-model.md` ·
-> 《skill-distribution》的 `distribution-three-ways.md` ·
-> `packaging.md`
+> 相关：《skill-selection》的 `skill-selection/references/cross-model.md` ·
+> 《skill-distribution》的 `skill-distribution/references/distribution-three-ways.md` ·
+> `skill-distribution/references/packaging.md`
 
 ---
 

@@ -1,9 +1,9 @@
 # 八个实战技巧：给约束，不给流程
 
-> 相关：《skill-crafting》的 `write-reasons-not-rules.md` ·
-> `degree-of-freedom`（在 authoring）· `examples-three-branches.md` ·
-> 《skill-description》的 `description-tuning-official-loop.md` ·
-> 《skill-quality》的 `capability-vs-preference.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/write-reasons-not-rules.md` ·
+> `degree-of-freedom`（在 authoring）· `skill-examples/references/examples-three-branches.md` ·
+> 《skill-description》的 `skill-description/references/description-tuning-official-loop.md` ·
+> 《skill-quality》的 `skill-quality/references/capability-vs-preference.md`
 > 前置：那些讲具体技法，
 > 这份是⭐⭐⭐ **一位实践者（Philipp Schmid，Google DeepMind）的八条沉淀**——
 > 含⭐⭐⭐ 一条与我们已有认知⭐ 部分冲突的原则，和⭐⭐⭐ 一个此前没有的退役判据。
@@ -40,7 +40,7 @@
 >
 > ⭐⭐⭐ 推论很直接：**如果你的技能表现不好，⭐ 先别急着改指令——先把描述改清楚。**
 
-> ⭐⭐ 这与 `four-layer-diagnosis-flow.md` 的"80% 在文件层、15% 在触发层"
+> ⭐⭐ 这与 `skill-loading/references/four-layer-diagnosis-flow.md` 的"80% 在文件层、15% 在触发层"
 > 要合起来看才完整：
 > ```
 > 彻底不工作 → 先查文件层（80%）
@@ -98,8 +98,8 @@
    ⭐⭐⭐ → 这让 agent 能⭐ 举一反三，而不是死记规则
 ```
 
-> ⭐⭐ 后两条与我们已有的 `few-shot-examples.md`（示例优先）
-> 和 `write-reasons-not-rules.md`（说清后果比命令更有约束力）
+> ⭐⭐ 后两条与我们已有的 `skill-examples/references/few-shot-examples.md`（示例优先）
+> 和 `skill-crafting/references/write-reasons-not-rules.md`（说清后果比命令更有约束力）
 > ⭐⭐ 完全一致——**第三个独立来源**。
 
 ---
@@ -109,7 +109,7 @@
 > ⭐⭐ **"不要为了通过你手里那三条测试 prompt 做微调。
 > ⭐⭐⭐ 好的技能要能⭐ 扛住百万次调用。"**
 
-> ⭐⭐⭐ 这与 `description-tuning-official-loop.md` 的
+> ⭐⭐⭐ 这与 `skill-description/references/description-tuning-official-loop.md` 的
 > "按测试集分数选、防止过拟合到那 20 个查询"是⭐ 同一条原则，
 > ⭐ 但这里给出了⭐ 一个更直观的量级对照：
 > **三条测试 vs 百万次调用。**
@@ -127,8 +127,8 @@
 > ⭐⭐⭐ **"只想着什么时候该触发，不想什么时候不该触发，很容易翻车。"**
 > ⭐⭐ "测试也一样——⭐⭐⭐ 否则你只会在⭐ 一个方向上优化。"
 
-> ⭐⭐ 这与 `description-scope-shape.md` 的"写不出三条反触发就别发布"、
-> `hit-rate-four-questions.md` 的"只在一个方向上优化"同源。
+> ⭐⭐ 这与 `skill-description/references/description-scope-shape.md` 的"写不出三条反触发就别发布"、
+> `skill-triggering/references/hit-rate-four-questions.md` 的"只在一个方向上优化"同源。
 > ⭐⭐ "劫持"这个词比"误触发"更形象。
 
 ---
@@ -151,7 +151,7 @@
 > ⭐⭐⭐ 如果你断言的是"是否按步骤执行"，你测的是⭐ **是否听话**；
 > 断言"输出能编译吗？用了正确的 API 吗？"，测的才是⭐ **有没有用**。
 >
-> ⭐⭐ 这与 `assert-on-environment.md` 的
+> ⭐⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的
 > "断言打在环境状态上，而不是模型'说了正确的话'"同源，
 > ⭐⭐ 但这里是在⭐ 技能评测的语境下说的，更具体。
 
@@ -172,13 +172,13 @@
 ⭐⭐⭐ ⭐ 如果结果依然通过 → ⭐⭐ 说明模型已经⭐ 内化了这个技能的能力 → 可以退役
 ```
 
-> ⭐⭐⭐ 这与 `outgrowth-regression-detection.md` 的
+> ⭐⭐⭐ 这与 `skill-triggering/references/outgrowth-regression-detection.md` 的
 > "Outgrowth：基线无技能 88%，你的技能 89% → 归档"
 > ⭐⭐⭐ 是⭐ 完全同一条判据的第二个来源——
 > 两份独立来源用几乎相同的操作定义"退役时机"，
 > ⭐⭐ 说明这是⭐ 目前最可靠的退役判据。
 
-**两类技能的退役逻辑不同**（与 `capability-vs-preference.md` 一致）：
+**两类技能的退役逻辑不同**（与 `skill-quality/references/capability-vs-preference.md` 一致）：
 
 ```
 能力型：⭐⭐⭐ 随模型进步会过时 → ⭐ 用评测判断何时退役
@@ -193,10 +193,10 @@
 
 ## 8. ⭐⭐ 一个反直觉的仲裁
 
-我们已有 `structure-modes-abcde.md` 等文档把"多主题拆成多个 reference"当成标准做法，
+我们已有 `skill-patterns/references/structure-modes-abcde.md` 等文档把"多主题拆成多个 reference"当成标准做法，
 而本份第 4 条讲"精简、按主题拆 reference"——一致。
 
-但第 2 条"给约束不给流程"与 `operator-card-style.md`（操作卡：极短、强约束）
+但第 2 条"给约束不给流程"与 `skill-content/references/operator-card-style.md`（操作卡：极短、强约束）
 放在一起时要小心一个边界：
 
 ```

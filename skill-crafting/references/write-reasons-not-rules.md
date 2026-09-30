@@ -1,7 +1,7 @@
 # 写原因，而不是堆规则
 
-> 相关：《skill-crafting》的 `guidance-forms.md` ·
-> `instruction-craft.md` · 《skill-patterns》的 `golden-rules-failure-modes.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/guidance-forms.md` ·
+> `skill-patterns/references/instruction-craft.md` · 《skill-patterns》的 `skill-patterns/references/golden-rules-failure-modes.md`
 > 前置：那些文档讲指令的"形态"，这份讲⭐ 同一个指令要不要附上"为什么"。
 
 ---
@@ -78,7 +78,7 @@
    ⭐ 而模型在遇到边界情况时，恰恰是靠"为什么"来类推的
 ```
 
-> ⭐ 第 ② 条与 `guidance-forms.md` 的"禁令反噬"是同一件事的两面：
+> ⭐ 第 ② 条与 `skill-crafting/references/guidance-forms.md` 的"禁令反噬"是同一件事的两面：
 > **禁令缺的不是力度，是替代方案和理由。**
 
 **可操作建议**（两条，都能立刻执行）：
@@ -116,7 +116,7 @@
 > 所以它这里不讲理，直接下死命令。
 
 > ⭐ **硬约束要省着用，用在刀刃上。**
-> 这与 `golden-rules-failure-modes.md` 那条
+> 这与 `skill-patterns/references/golden-rules-failure-modes.md` 那条
 > "反复被违反的指令升级为校验函数"是同一条原则的不同阶段：
 > 先讲理 → 仍被违反 → 下硬命令 → 仍被违反 → 变成代码。
 
@@ -148,7 +148,7 @@
 > 可逆但影响面大的，dry-run + 检查点；
 > 随便改改就行的，给个方向让它自己发挥。
 
-> ⭐ 这与 `degree-of-freedom.md` 完全对上，但这里给了**具体的三档映射**
+> ⭐ 这与 `skill-scoping/references/degree-of-freedom.md` 完全对上，但这里给了**具体的三档映射**
 > 和"30%"这个可自查的数字。
 
 ---

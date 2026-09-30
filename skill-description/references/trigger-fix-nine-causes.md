@@ -1,7 +1,7 @@
 # 技能不触发：九项排查（按此顺序）
 
-> 相关：《skill-triggering》的 `troubleshooting-manual.md` ·
-> `reload-debug.md` · 《skill-crafting》的 `skill-structuring` 的 `frontmatter-pitfalls.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/troubleshooting-manual.md` ·
+> `skill-triggering/references/reload-debug.md` · 《skill-crafting》的 `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md`
 
 ---
 
@@ -121,7 +121,7 @@ Claude Code：   确认不在受限权限模式；
 ```
 
 > ⭐ **加载了 → 能准确描述；没加载 → 回答很笼统。**
-> 这与 `reload-debug.md` 的"验证要靠它复述"完全一致。
+> 这与 `skill-triggering/references/reload-debug.md` 的"验证要靠它复述"完全一致。
 
 ---
 
@@ -172,8 +172,8 @@ Claude Code：   确认不在受限权限模式；
 > ⭐ **五分钟，因为顺序是对的：
 > 确认加载 → 检查 description 作用域 → 找重叠。**
 
-这正好对应 `troubleshooting-manual.md` 的四步法，
-也验证了 `namespace-collision.md` 里
+这正好对应 `skill-triggering/references/troubleshooting-manual.md` 的四步法，
+也验证了 `skill-orchestration/references/namespace-collision.md` 里
 "两个技能都在场、互相稀释触发概率"的那个隐蔽表现。
 
 ---

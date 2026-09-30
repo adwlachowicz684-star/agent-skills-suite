@@ -63,7 +63,7 @@
    ——这是迭代改进技能最直接的途径之一
 ```
 
-> 呼应 `pruning.md`（**`skill-refining`**）：
+> 呼应 `skill-refining/references/pruning.md`（**`skill-refining`**）：
 > **Gotchas 是唯一几乎不可能通过 no-op 测试的部分**，修剪时永远别动它。
 
 ## 输出格式模板
@@ -111,7 +111,7 @@
 
 ## 与自由度的关系
 
-呼应 `guidance-forms.md`（**`skill-crafting`**）与自由度校准：
+呼应 `skill-crafting/references/guidance-forms.md`（**`skill-crafting`**）与自由度校准：
 
 ```
 多种做法都可行、任务容忍变化 → 给自由，只写启发式

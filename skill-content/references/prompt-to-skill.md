@@ -87,7 +87,7 @@ description: 根据本周工作日志和 git 提交生成周报。
 ```
 
 > ⚠️ 一个现实预期：**默认激活率只有 20% 左右**，
-> 所以 description 要按 **`skill-evaluating` 的 `triggering.md`** 认真打磨。
+> 所以 description 要按 **`skill-evaluating` 的 `skill-triggering/references/triggering.md`** 认真打磨。
 
 ---
 
@@ -143,7 +143,7 @@ description: 根据本周工作日志和 git 提交生成周报。
 
 **同一个任务可以是"Rules 定基调 + Skill 走流程 + 提示词补细节"**。
 
-> 这也呼应 `skill-crafting` 的 `instruction-layering.md`：
+> 这也呼应 `skill-crafting` 的 `skill-scoping/references/instruction-layering.md`：
 > 别把"日常都要遵守的"塞进技能（技能激活前它可能已经错过了），
 > 也别把长流程塞进 AGENTS.md（每个会话都背着无关指令）。
 

@@ -5,7 +5,7 @@
 
 ⚠️ **来源说明**：本章方法来自 2026 年新近研究（SkillOps 等），
 属于**早期成果**，数字请当作方向性参考而非定论。
-但"技能库会积累技术债务"这个判断，与 `skill-evaluating` 的 `failure-modes.md` 里
+但"技能库会积累技术债务"这个判断，与 `skill-evaluating` 的 `skill-triggering/references/failure-modes.md` 里
 候选池 5→100 精确率掉 10 倍的实测结论**相互印证**。
 
 ## 目录
@@ -36,7 +36,7 @@
 **为什么这事现在才重要**：
 
 > 候选池从 5 涨到 100，**实际使用精确率从 29.6% 掉到 3.3%**
-> （见 `skill-evaluating` 的 `failure-modes.md`）。
+> （见 `skill-evaluating` 的 `skill-triggering/references/failure-modes.md`）。
 > 库越大，检索越成为瓶颈——**而检索是独立于技能质量的第二个瓶颈**。
 
 ---
@@ -57,8 +57,8 @@ F  已知失败模式 Failures    —— 它历史上怎么翻车过
 
 > ⭐ **V（验证器）这一项最常被漏掉。**
 > 没有验证器的技能，**失败了也没人知道**——
-> 这正好对应 `skill-evaluating` 的 `metrics.md` 第 3 层"确定性契约"和
-> **`skill-authoring` 的 `skill-crafting` 的 `grounding-verification.md`** 的核心主张。
+> 这正好对应 `skill-evaluating` 的 `skill-quality/references/metrics.md` 第 3 层"确定性契约"和
+> **`skill-authoring` 的 `skill-crafting` 的 `skill-output/references/grounding-verification.md`** 的核心主张。
 
 **用这个五元组审查你自己的技能**：
 
@@ -83,7 +83,7 @@ F  已知失败模式 Failures    —— 它历史上怎么翻车过
 | **red** | 冗余（干同一件事） | **合并** |
 
 > `red` 边是技术债务的主要形态——
-> 也直接对应 `skill-evaluating` 的 `triggering.md` 里"技能偷窃"的检测方法：
+> 也直接对应 `skill-evaluating` 的 `skill-triggering/references/triggering.md` 里"技能偷窃"的检测方法：
 > 两个技能描述重叠时，模型会随机选一个，或干脆不选。
 
 ---
@@ -132,7 +132,7 @@ add_adapter(sᵢ, sⱼ)  —— 在接口不兼容处插入类型转换层
 
 | 频率 | 做什么 |
 |---|---|
-| **每月** | 用 `/skill-doctor`（见 `skill-governance` 的 `runtime-controls.md`）找从未被调用的，从成本最高的开始关 |
+| **每月** | 用 `/skill-doctor`（见 `skill-governance` 的 `skill-security/references/runtime-controls.md`）找从未被调用的，从成本最高的开始关 |
 | **每季度** | 查 `red` 边：把描述重叠的技能合并 |
 | **每次改动** | 查 `dep` 边：被依赖的技能改了接口吗？ |
 | **持续** | 每写一个新技能，问：现有库里有没有已经干这事的？ |
@@ -146,7 +146,7 @@ add_adapter(sᵢ, sⱼ)  —— 在接口不兼容处插入类型转换层
 | 方法 | 解决什么 | 何时用 |
 |---|---|---|
 | **库运维（本章）** | **库本身**干不干净——无冗余、无失效、接口兼容 | 技能数 >20，出现冲突与重复时 |
-| **训练单个技能**（见 `skill-orchestration` 的 `subagents.md` 附近的自进化章节） | 用数据驱动**深挖一个**关键技能 | 有明确任务、有 eval 集的单技能改进 |
+| **训练单个技能**（见 `skill-orchestration` 的 `skill-subagents/references/subagents.md` 附近的自进化章节） | 用数据驱动**深挖一个**关键技能 | 有明确任务、有 eval 集的单技能改进 |
 | **组合选择** | 为当前任务挑**最具性价比的技能组合** | 成本敏感、技能多 |
 
 **推荐顺序**：

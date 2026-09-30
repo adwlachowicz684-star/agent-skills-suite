@@ -1,10 +1,10 @@
 # 触发词的采集：不是想出来的，是捞出来的
 
-> 相关：《skill-description》的 `description-tuning-official-loop.md`（官方调优循环）·
-> `activation-mechanism.md`（激活机制）·
-> `description-scope-shape.md`（句式与反触发）·
-> 《skill-triggering》的 `trigger-eval-set.md`（near-miss 负例）·
-> 《skill-triggering》的 `trigger-tuning-loop.md`（误触发 vs 漏触发）
+> 相关：《skill-description》的 `skill-description/references/description-tuning-official-loop.md`（官方调优循环）·
+> `skill-description/references/activation-mechanism.md`（激活机制）·
+> `skill-description/references/description-scope-shape.md`（句式与反触发）·
+> 《skill-triggering》的 `skill-triggering/references/trigger-eval-set.md`（near-miss 负例）·
+> 《skill-triggering》的 `skill-triggering/references/trigger-tuning-loop.md`（误触发 vs 漏触发）
 > 前置：那些讲⭐⭐⭐ 描述怎么写、⭐⭐⭐ 调优怎么跑，
 > 这份讲⭐⭐⭐⭐⭐ **触发词从哪来**——
 > 一个几乎所有人都靠"想"、而实际上只能靠"捞"的环节。
@@ -164,7 +164,7 @@
 
 > ⭐⭐⭐ 第二条是真正的停止信号：
 > **误触发率上升说明你加的词已经开始侵入别人的地盘。**
-> （这正是 `trigger-tuning-loop.md` 说的"加反触发"的时机。）
+> （这正是 `skill-triggering/references/trigger-tuning-loop.md` 说的"加反触发"的时机。）
 
 ---
 
@@ -176,7 +176,7 @@
 | ⭐⭐⭐ 把改写后的句子当原话 | ⭐ 采集失效，等于在想 |
 | ⭐⭐ 触发词堆到占满 description | 变成关键词袋，语义丢失，误触发上升 |
 | ⭐⭐ 只在建技能时采一次 | ⭐⭐⭐ 语言会漂移（新同事、新业务），要定期补 |
-| 用英文语料推导中文触发词 | ⭐⭐⭐ 见 `localization-zh-adaptation.md`：本地化 ≠ 翻译 |
+| 用英文语料推导中文触发词 | ⭐⭐⭐ 见 `skill-distribution/references/localization-zh-adaptation.md`：本地化 ≠ 翻译 |
 
 > ⭐⭐⭐ 第四条最容易被忽略：**触发词是有保质期的。**
 > 建议每季度和"用户实际怎么问"对一次。

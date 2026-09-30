@@ -29,7 +29,7 @@ Memory      ⭐ 跨会话持久记忆，三种：
   现在存下的，是为了将来某一刻被精确取回
 ```
 
-> ⭐ 呼应 `skill-orchestration` 的 `memory-state.md` 的记忆分层——
+> ⭐ 呼应 `skill-orchestration` 的 `skill-state/references/memory-state.md` 的记忆分层——
 > **程序式记忆正是技能该承载的东西**。
 
 ### 2. Select —— 把对的信息拉进来
@@ -125,7 +125,7 @@ Memory      ⭐ 跨会话持久记忆，三种：
 ```
 
 > ⭐ 这正是渐进式披露的另一种表述——
-> 呼应 `skill-authoring` 的 `patterns.md` 与 `context-budget.md`。
+> 呼应 `skill-authoring` 的 `skill-authoring/references/patterns.md` 与 `skill-context/references/context-budget.md`。
 
 ---
 
@@ -175,8 +175,8 @@ Consent       按策略要求，记忆写入需显式同意
      一等字段，统一强制
 ```
 
-> 呼应 `skill-governance` 的 `telemetry-schema.md` 的"什么不该记"与
-> `skill-governance` 的 `compliance-audit.md` 的 per-agent identity。
+> 呼应 `skill-governance` 的 `skill-governance/references/telemetry-schema.md` 的"什么不该记"与
+> `skill-governance` 的 `skill-security/references/compliance-audit.md` 的 per-agent identity。
 
 ---
 

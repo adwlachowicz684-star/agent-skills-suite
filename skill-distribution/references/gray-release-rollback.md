@@ -1,9 +1,9 @@
 # 灰度、回滚与版本级指标拆分
 
-> 相关：《skill-distribution》的 `release-versioning.md` ·
-> `canary-release.md`（在《skill-evaluating》）·
-> `team-landing-seven.md` · 《skill-refining》的
-> `version-changelog-practice.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/release-versioning.md` ·
+> `skill-automation/references/canary-release.md`（在《skill-evaluating》）·
+> `skill-adoption/references/team-landing-seven.md` · 《skill-refining》的
+> `skill-versioning/references/version-changelog-practice.md`
 > 前置：那些讲"版本号怎么定、灰度是什么"，
 > 这份讲⭐⭐ **具体的放量节奏、跳档的真实代价、
 > 以及⭐⭐⭐ 为什么必须做版本级指标拆分**。
@@ -55,7 +55,7 @@
 
 > ⭐ **场景灰度**最适合技能——因为技能的"写入类"操作
 > （改代码、发部署、改数据）出错代价远高于"查询类"
-> （呼应 `approval-gates.md` 的分级）。
+> （呼应 `skill-security/references/approval-gates.md` 的分级）。
 
 ---
 
@@ -122,7 +122,7 @@
 
 > ⭐⭐ 第 ④ 条是技能特有的——**传统服务不会把"上下文长度"当监控指标**，
 > 但技能会，而且它一旦飙升就会拖垮后续所有轮次
-> （呼应 `token-bloat-audit.md` 的"一个 dump 500 行日志的命令会拖慢之后每一个响应"）。
+> （呼应 `skill-crafting/references/token-bloat-audit.md` 的"一个 dump 500 行日志的命令会拖慢之后每一个响应"）。
 
 **一个真实案例**（说明为什么要拆到更细的维度）：
 
@@ -139,7 +139,7 @@
 > ⭐⭐⭐ 这个案例的教训比"要监控"深一层：
 > **拆了版本还不够，还要拆到⭐ 业务维度**。
 > 因为技能的 Bug 往往是"对某类输入才触发"——
-> 这与 `three-failure-modes.md` 的"隐式上下文依赖"是同一类问题。
+> 这与 `skill-triggering/references/three-failure-modes.md` 的"隐式上下文依赖"是同一类问题。
 
 ---
 
@@ -156,14 +156,14 @@
 
 三级回滚：长尾质量
    结构正确但内容错误的比例上升
-   ⭐⭐ 最难发现，也最需要人工抽样（见 `comparator-ab-eval.md`）
+   ⭐⭐ 最难发现，也最需要人工抽样（见 `skill-automation/references/comparator-ab-eval.md`）
 ```
 
 > ⭐⭐⭐ **"回滚不能等到全挂了才执行，那样已经造成了不可逆的损失。"**
 
 > ⭐ 一级那条"不需要讨论策略"很重要——**预先定级，
 > 是为了在凌晨两点不需要开会决定要不要回滚**。
-> 这与 `escalation-rules.md` 的"升级规则要预先写死"是同一思路。
+> 这与 `skill-orchestration/references/escalation-rules.md` 的"升级规则要预先写死"是同一思路。
 
 ---
 

@@ -1,8 +1,8 @@
 # 系统提示词式正文：结构优于长度
 
-> 相关：《skill-crafting》的 `writing-style-rfc2119.md` · `minimum-viable-three-principles.md` ·
-> `write-reasons-not-rules.md` · `few-shot-examples.md` ·
-> 《skill-versioning》的 `version-changelog-practice.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/writing-style-rfc2119.md` · `skill-crafting/references/minimum-viable-three-principles.md` ·
+> `skill-crafting/references/write-reasons-not-rules.md` · `skill-examples/references/few-shot-examples.md` ·
+> 《skill-versioning》的 `skill-versioning/references/version-changelog-practice.md`
 > 前置：那些讲措辞与形态，
 > 这份讲⭐⭐⭐ **正文的分节结构**——
 > 含⭐⭐⭐⭐ 一处与我们已有结论⭐ 表面冲突的仲裁，和⭐⭐⭐ 一条防"转圈"的纪律。
@@ -30,7 +30,7 @@
 > 一堵文字墙里的每一句都在互相竞争注意力；
 > ⭐⭐⭐ 分成节之后，模型⭐ 知道当前该看哪一类。
 >
-> ⭐⭐ 与我们已有的 `token-bloat-audit.md` 不矛盾：
+> ⭐⭐ 与我们已有的 `skill-crafting/references/token-bloat-audit.md` 不矛盾：
 > 那份说的是⭐ **删掉不产生价值的内容**，
 > ⭐⭐⭐ 这份说的是⭐ **留下来的内容要分节**。
 > 先删，再分。
@@ -54,7 +54,7 @@
 ② ⭐⭐⭐ ⭐ 也让⭐ 提示更易被⭐ 人类审查、修改和维护
 ```
 
-> ⭐⭐⭐ 第 ② 条与 `writing-style-rfc2119.md` 的"语义换行让 git diff 精确到行"
+> ⭐⭐⭐ 第 ② 条与 `skill-crafting/references/writing-style-rfc2119.md` 的"语义换行让 git diff 精确到行"
 > ⭐⭐⭐ 是⭐ 同一条的第二个说法：**结构不只是给模型的，也是给维护者的。**
 > 一份分节的技能，半年后你还能改得动；一堵文字墙你只能重写。
 
@@ -78,8 +78,8 @@
 > ⭐⭐⭐⭐ 推论：⭐ **你不写清楚的地方，就是你在授权模型自由发挥的地方。**
 > 所以"省略"不是中性动作，⭐⭐ 它是一次⭐ 默认授权。
 >
-> ⭐⭐⭐ 与我们已有的 `skill-review-checklist-ten.md`、
-> `judgment-branches-acceptance.md`（判断分支要写死）
+> ⭐⭐⭐ 与我们已有的 `skill-crafting/references/skill-review-checklist-ten.md`、
+> `skill-examples/references/judgment-branches-acceptance.md`（判断分支要写死）
 > 同源，⭐ 但这里给出了⭐ 一个更强的因果表述。
 
 ---
@@ -96,8 +96,8 @@
 > ⭐⭐⭐ ⭐ 一个展示棘手输入正确响应的示例，
 > ⭐⭐⭐ ⭐ 教会模型处理类似输入，⭐ 而无须为每种情况都写规则。"**
 
-> ⭐⭐⭐ 这与 `few-shot-examples.md`（3 个高质量 = 5 个普通）、
-> `examples-three-branches.md`（Rationale 字段让示例产生泛化）
+> ⭐⭐⭐ 这与 `skill-examples/references/few-shot-examples.md`（3 个高质量 = 5 个普通）、
+> `skill-examples/references/examples-three-branches.md`（Rationale 字段让示例产生泛化）
 > ⭐⭐⭐ 是⭐ 同一条的第三个来源，
 > ⭐⭐⭐ 且这里⭐ 点明了机制：**模式 > 规则**。
 > ⭐⭐ 也因此解释了为什么 Rationale 字段有效——⭐ 它让"模式"可被迁移。
@@ -158,7 +158,7 @@ crafting 核心原则：
 > 代码审查技能 → 你只要 bug 识别，它开始⭐ 提重构建议
 > 数据分析技能 → 你只要描述统计，它开始⭐ 给推荐
 > ```
-> ⭐⭐⭐ 这精确描述了 `description-scope-shape.md` 里那个
+> ⭐⭐⭐ 这精确描述了 `skill-description/references/description-scope-shape.md` 里那个
 > "typo 修复被加上五段无关架构反馈"的 scope creep。
 
 ---
@@ -183,12 +183,12 @@ crafting 核心原则：
 > ⭐⭐⭐ 而⭐ 没有记录⭐ 上一次是因为什么才改成现在这样。
 >
 > ⭐⭐⭐⭐ 解法就是⭐ **版本历史 + 每次改动记下"为什么改"**：
-> 与 `version-changelog-practice.md` 的
+> 与 `skill-versioning/references/version-changelog-practice.md` 的
 > "Changelog 随文件走，一个孤立拿到文件的人不需要 git 权限就能看见历史"
 > ⭐⭐⭐⭐ 是⭐ 完全同一条的第二个来源——
 > ⭐⭐⭐ 而且这里⭐ 给出了它的⭐ 具体收益：⭐⭐ **防止转圈**。
 >
-> ⭐⭐⭐ 也与 `skill-rot-rollback-discipline.md` 的"歧义时默认回滚"配套：
+> ⭐⭐⭐ 也与 `skill-versioning/references/skill-rot-rollback-discipline.md` 的"歧义时默认回滚"配套：
 > **有历史才能回滚，能回滚才敢改。**
 
 ---

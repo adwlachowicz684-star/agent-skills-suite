@@ -1,9 +1,9 @@
 # 依赖解析与冲突：从声明到降级
 
-> 相关：《skill-distribution》的 `dependency-lockfile.md`（36.6% 隐藏依赖）·
-> `packaging.md` · `release-versioning.md` ·
-> 《skill-governance》的 `deprecation-compat-strategy.md` ·
-> `skill-decay-governance.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/dependency-lockfile.md`（36.6% 隐藏依赖）·
+> `skill-distribution/references/packaging.md` · `skill-distribution/references/release-versioning.md` ·
+> 《skill-governance》的 `skill-governance/references/deprecation-compat-strategy.md` ·
+> `skill-governance/references/skill-decay-governance.md`
 > 前置：那份讲"⭐ 锁什么、多少技能有隐藏依赖"，
 > 这份讲⭐⭐ **解析流程与冲突解决机制**：
 > 预检 · 拓扑排序 · 动态回退 · 兼容矩阵 · 显式冲突声明。
@@ -43,8 +43,8 @@
 > ⭐ **因为多数声明是自然语言写的，解析器读不了**。
 > "需要 Python 环境"不是声明，`python: ">=3.11"` 才是。
 >
-> 这与 `preflight-gate.md` 的"Prerequisites 要可判定"、
-> `determinism-boundary.md` 的"确定性判断用确定性机制"
+> 这与 `skill-execution/references/preflight-gate.md` 的"Prerequisites 要可判定"、
+> `skill-evaluating/references/determinism-boundary.md` 的"确定性判断用确定性机制"
 > 是同一原则在依赖层的版本。
 
 ---
@@ -57,7 +57,7 @@
 | MINOR 2.1.0→2.2.0 | 向后兼容的功能新增 | ⭐ 允许自动升级 |
 | PATCH 2.1.0→2.1.1 | 仅修复问题 | ⭐ 可静默更新 |
 
-> ⭐ 这与 `iteration-three-levels.md` 的判据完全一致
+> ⭐ 这与 `skill-versioning/references/iteration-three-levels.md` 的判据完全一致
 > （"沿用旧版本仍能拿到正确结果 → MINOR"），
 > 但这里给了一个⭐ 更可操作的补充：**每档对应不同的用户动作**——
 > MAJOR 必须手动、MINOR 可自动、PATCH 可静默。
@@ -81,7 +81,7 @@
 
 > ⭐⭐ "环境漂移"这个词很准：**同一个 lockfile 之外的解析，
 > 今天和明天可能给出不同答案**——
-> 这与 `deterministic-scripts.md` 的"跑两次 diff"是同一诉求
+> 这与 `skill-scripting/references/deterministic-scripts.md` 的"跑两次 diff"是同一诉求
 > （确定性），只是作用层不同。
 
 **升级策略分环境**（很实用）：
@@ -113,7 +113,7 @@
 > ⭐⭐⭐ 第 ③ 条最有价值，它给出了一条⭐ 我们此前没收过的原则：
 > **可选依赖缺失不该导致技能不可用，而该导致⭐ 功能降级。**
 >
-> 这与 `preflight-gate.md` 的
+> 这与 `skill-execution/references/preflight-gate.md` 的
 > "前置条件失败 → 快速失败；运行时失败 → 优雅降级"要区分开：
 > ⭐ **必需依赖缺失 = 前置失败（快速失败）；
 > ⭐⭐ 可选依赖缺失 = 降级（继续跑，少一项功能）。**
@@ -126,7 +126,7 @@
 ⭐⭐ 维护技能依赖关系图 → ⭐⭐⭐ 快速定位⭐ 循环依赖或⭐ 高风险节点
 ```
 
-> ⭐ 与 `deprecation-compat-strategy.md` 的
+> ⭐ 与 `skill-governance/references/deprecation-compat-strategy.md` 的
 > "环的检测必须在（名字,版本）二维上做"配套——
 > 那份给检测维度，这份给⭐ 可视化手段。
 
@@ -146,7 +146,7 @@
 ```
 
 > ⭐⭐⭐ 第 ② 条与我们已有的一条直接咬合：
-> `skill-overrides-audit.md` 的 deploy 事故——
+> `skill-patterns/references/skill-overrides-audit.md` 的 deploy 事故——
 > 三个同名 deploy 技能静默冲突。
 > ⭐ **显式 `conflicts` 正是那个事故的结构性解法**：
 > 不靠人去发现同名，而是⭐ 声明层就阻止共存。
@@ -179,7 +179,7 @@
    例：⭐⭐ 验证新版本技能是否破坏现有工作流
 ```
 
-> ⭐⭐ "缺失时提示安装或跳过该技能"——这与 `four-layer-diagnosis-flow.md`
+> ⭐⭐ "缺失时提示安装或跳过该技能"——这与 `skill-loading/references/four-layer-diagnosis-flow.md`
 > 环境层的"依赖工具都安装了吗"对应，
 > 但这里把它⭐ 前移到了安装时，而不是等运行时报错。
 >

@@ -24,7 +24,7 @@
    ——"妥善"是模糊词，等于没约束
 ```
 
-> 呼应 `what-not-to-do.md`（**`skill-authoring`**）：
+> 呼应 `skill-authoring/references/what-not-to-do.md`（**`skill-authoring`**）：
 > **"确保质量"对模型等于没有约束**。
 
 ## 该有的四段
@@ -66,7 +66,7 @@
 | 文档生成 | ⭐ 文件存在且能解析 | "我写了" |
 | 迁移完成 | ⭐ 验证查询返回预期 | 脚本没报错 |
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）。
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）。
 
 **红绿循环**（防"先写代码后补天然通过的测试"）：
 

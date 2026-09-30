@@ -1,9 +1,9 @@
 # 术语表：一个概念只能有一个词
 
-> 相关：《skill-content》的 `writing-style.md`（措辞规范）·
-> 《skill-crafting》的 `terminology.md`（术语一致性）·
-> 《skill-crafting》的 `vague-word-blacklist.md`（含糊词）·
-> 《skill-content》的 `instruction-ordering.md`（五段式骨架）
+> 相关：《skill-content》的 `skill-content/references/writing-style.md`（措辞规范）·
+> 《skill-crafting》的 `skill-precision/references/terminology.md`（术语一致性）·
+> 《skill-crafting》的 `skill-precision/references/vague-word-blacklist.md`（含糊词）·
+> 《skill-content》的 `skill-content/references/instruction-ordering.md`（五段式骨架）
 > 前置：那些讲⭐⭐⭐ 术语要一致、⭐ 措辞要规范，
 > 这份讲⭐⭐⭐⭐⭐ **术语不一致在技能里的特殊代价**——
 > 它比在普通文档里严重得多，因为模型会把同义词当成两个概念。
@@ -60,7 +60,7 @@
 > 同义混用只是冗余，一词多义是**歧义**——
 > 而歧义会让模型选一个，且它不知道自己选错了。
 
-这也正是 `structured-output-pipeline.md` 那条
+这也正是 `skill-output/references/structured-output-pipeline.md` 那条
 "没有 description 的字段等于省略了一半提示"的同源问题：
 **名字相同不等于含义相同。**
 

@@ -28,18 +28,18 @@ description: Agent Skills 的打包发布、版本管理、团队共享与组织
 > 真实事故：一次不带版本后缀的覆盖，导致下游所有依赖它的技能全部中断。
 
 ## 路由表（按需深读）
-| `sdk-programmatic-skills.md` | ⭐⭐★★★ SDK 里默认不加载；★slash_commands 可编程确认；query() 天然隔离 |
-| `localization-zh-adaptation.md` | ⭐⭐★★★ 本地化≠翻译；★上游同步分层；评测集也要本地化 |
-| `plugin-vs-skill-packaging.md` | ⭐⭐⭐★ 技能=内容 插件=容器 市场=渠道；★skills 字段指向父目录 |
-| `dependency-resolution-conflicts.md` | ⭐⭐ 结构化声明 required/optional + conflicts；★可选依赖缺失=降级 |
-| `skill-discovery-at-scale.md` | ⭐⭐ 15万技能下的发现机制；⭐⭐⭐ 给agent可信入口三要素 |
-| `gray-release-rollback.md` | ⭐⭐⭐ 版本级指标拆分：10%全挂=大盘掉1-2点；跳档代价 |
-| `dependency-lockfile.md` | ⭐ 依赖与 lockfile：36.6% 隐藏依赖 + 五步加固 |
-| `cross-agent-portability.md` | ⭐ 跨平台：破坏可移植的三件事 + 中性目录 |
-| `skill-as-business-rule.md` | ⭐⭐⭐⭐⭐ 技能是业务规则的数字孪生；⭐⭐⭐⭐ 改 description 最危险（70% 事故）|
-| `enterprise-marketplace-ops.md` | ⭐ 企业市场运维三阶段与遥测盲区 |
-| `distribution-three-ways.md` | ⭐ Git / 插件市场 / 企业托管，优先级与 MDM |
-| `supply-chain-trust.md` | ⭐ 供应链信任：像对待代码依赖一样对待技能 |
+| `skill-distribution/references/sdk-programmatic-skills.md` | ⭐⭐★★★ SDK 里默认不加载；★slash_commands 可编程确认；query() 天然隔离 |
+| `skill-distribution/references/localization-zh-adaptation.md` | ⭐⭐★★★ 本地化≠翻译；★上游同步分层；评测集也要本地化 |
+| `skill-distribution/references/plugin-vs-skill-packaging.md` | ⭐⭐⭐★ 技能=内容 插件=容器 市场=渠道；★skills 字段指向父目录 |
+| `skill-distribution/references/dependency-resolution-conflicts.md` | ⭐⭐ 结构化声明 required/optional + conflicts；★可选依赖缺失=降级 |
+| `skill-distribution/references/skill-discovery-at-scale.md` | ⭐⭐ 15万技能下的发现机制；⭐⭐⭐ 给agent可信入口三要素 |
+| `skill-distribution/references/gray-release-rollback.md` | ⭐⭐⭐ 版本级指标拆分：10%全挂=大盘掉1-2点；跳档代价 |
+| `skill-distribution/references/dependency-lockfile.md` | ⭐ 依赖与 lockfile：36.6% 隐藏依赖 + 五步加固 |
+| `skill-distribution/references/cross-agent-portability.md` | ⭐ 跨平台：破坏可移植的三件事 + 中性目录 |
+| `skill-distribution/references/skill-as-business-rule.md` | ⭐⭐⭐⭐⭐ 技能是业务规则的数字孪生；⭐⭐⭐⭐ 改 description 最危险（70% 事故）|
+| `skill-distribution/references/enterprise-marketplace-ops.md` | ⭐ 企业市场运维三阶段与遥测盲区 |
+| `skill-distribution/references/distribution-three-ways.md` | ⭐ Git / 插件市场 / 企业托管，优先级与 MDM |
+| `skill-distribution/references/supply-chain-trust.md` | ⭐ 供应链信任：像对待代码依赖一样对待技能 |
 
 **打包与发布**：
 

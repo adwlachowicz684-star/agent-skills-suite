@@ -1,9 +1,9 @@
 # 上下文预算：给技能定一个它花得起的额度
 
-> 相关：《skill-context》的 `skill-cost-attribution.md`（成本归账）·
-> `skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
-> 《skill-loading》的 `three-tier-token-math.md`（三级加载的精确数字）·
-> 《skill-crafting》的 `token-bloat-audit.md`（瘦身六动作）
+> 相关：《skill-context》的 `skill-context/references/skill-cost-attribution.md`（成本归账）·
+> `skill-selection/references/skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
+> 《skill-loading》的 `skill-loading/references/three-tier-token-math.md`（三级加载的精确数字）·
+> 《skill-crafting》的 `skill-crafting/references/token-bloat-audit.md`（瘦身六动作）
 > 前置：成本归账那份讲⭐⭐⭐⭐ **怎么把成本算到单个技能**，
 > 这份讲⭐⭐⭐⭐⭐ **算出来之后该怎么办**——
 > **没有预算的成本数据只是一个仪表盘，它不会改变任何人的行为。**
@@ -178,7 +178,7 @@ grep -nE "^(## 红线|## 失败|## 验证|## Critical)" SKILL.md
 > ⭐⭐⭐ 还有一个容易忽略的：**预算也要给"失败路径"**。
 > 一个技能成功时花 2K，失败重试三次花 8K——
 > ⭐⭐⭐ 而失败恰恰是你最不想再被收费的时候。
-> 所以重试预算（见 `budget-caps-no-progress.md`）应当独立于单次预算设定。
+> 所以重试预算（见 `skill-recovery/references/budget-caps-no-progress.md`）应当独立于单次预算设定。
 
 ---
 

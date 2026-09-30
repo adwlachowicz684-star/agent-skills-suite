@@ -1,7 +1,7 @@
 # description 的句式、反触发与"一技能一动词"
 
-> 相关：《skill-triggering》的 `description-by-collision-risk.md`（在 evaluating）·
-> 《skill-triggering》的 `description-by-collision-risk.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/description-by-collision-risk.md`（在 evaluating）·
+> 《skill-triggering》的 `skill-triggering/references/description-by-collision-risk.md`
 > 前置：那份讲"按碰撞风险决定长度"，
 > 这份讲⭐ **句式模板、反触发的质量判据、以及范围蔓延**。
 
@@ -150,7 +150,7 @@
 > ① 太长，在目录扫描时有截断风险
 > ② ⭐ 运行时只读 description 做匹配——流程细节对激活毫无帮助
 > ```
-> 这与 `skill-anatomy-antipatterns.md` 的"绝不在 description 总结工作流"
+> 这与 `skill-patterns/references/skill-anatomy-antipatterns.md` 的"绝不在 description 总结工作流"
 > 完全一致（模型会照着 description 抄近路）。
 
 **③ 缺"何时不用"**

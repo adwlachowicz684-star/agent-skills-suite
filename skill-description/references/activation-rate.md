@@ -1,7 +1,7 @@
 # 激活率实证：四档数据与一组矛盾证据
 
-> 相关：`description-patterns.md`（写法）· `naming-description.md`（字段规范）·
-> 《skill-triggering》的 `trigger-debugging.md`（排错）· `trigger-eval-set.md`（测试集）
+> 相关：`skill-description/references/description-patterns.md`（写法）· `skill-description/references/naming-description.md`（字段规范）·
+> 《skill-triggering》的 `skill-triggering/references/trigger-debugging.md`（排错）· `skill-triggering/references/trigger-eval-set.md`（测试集）
 
 ---
 
@@ -117,7 +117,7 @@ description: >
 > 两者可以同时存在，治的病不同。中文实践那份测的是后者，且它真正想说的是"**别把边界不清的技能靠否定词救回来**"——那条是对的。
 
 **但请注意作用域**：这条否定约束写在 **description** 里（路由层，模型唯一能看到的），
-**不是**写在正文里的禁令清单。后者的问题见 `skill-crafting` 的 `guidance-forms.md`——
+**不是**写在正文里的禁令清单。后者的问题见 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`——
 正文里的"不要做 X"因为没有给出"该做什么"，反而会让输出更差。
 
 > ⚠️ **同一个句式，在 description 里有效，在正文里可能反噬。位置决定效果。**
@@ -146,8 +146,8 @@ description: >
 3. **别用 hook 强制激活**——它会和被动词描述打架，适得其反。
 4. **否定词要区分用途**：堵退路（召回）与排误触发（精确）分开写，别混。
 5. ⭐ **改完必须自己测**：这些数字来自特定模型、特定环境。
-   方法见《skill-triggering》的 `trigger-eval-set.md`——**用同事的原话测，不要用你写 description 时的措辞**。
-6. **边界不清的技能别靠否定词救**——那是粒度问题，应按 `splitting.md` 拆开。
+   方法见《skill-triggering》的 `skill-triggering/references/trigger-eval-set.md`——**用同事的原话测，不要用你写 description 时的措辞**。
+6. **边界不清的技能别靠否定词救**——那是粒度问题，应按 `skill-refining/references/splitting.md` 拆开。
 
 ---
 

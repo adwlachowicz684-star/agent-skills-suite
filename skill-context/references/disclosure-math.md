@@ -84,7 +84,7 @@ agent 先付一次成本（"哪个技能可能相关"），
 
 > 而渐进式披露正是针对它的架构性答案。
 
-⚠️ 这也和 `library-size-effect.md` 那条实测对上了：
+⚠️ 这也和 `skill-selection/references/library-size-effect.md` 那条实测对上了：
 **上下文开销在各种库规模下都与零无显著差异，**
 真正伤人的是**技能遮蔽**（路由选错）。
 所以：
@@ -152,4 +152,4 @@ metadata         可变             作者、版本等任意键值对
 → 或直接删掉
 ```
 
-这是 no-op 测试（见 `pruning.md`）的成本版表述。
+这是 no-op 测试（见 `skill-refining/references/pruning.md`）的成本版表述。

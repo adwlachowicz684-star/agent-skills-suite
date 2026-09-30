@@ -90,9 +90,9 @@ references/ requirement-intake · service-boundary · config-model
 
 | 模式 | 解决什么 | 结构 |
 |---|---|---|
-| **Tool Wrapper** | 让 agent 成为某个库的专家，但**不把 API 文档硬编码进提示词** | 提到关键词才加载 `references/conventions.md` |
+| **Tool Wrapper** | 让 agent 成为某个库的专家，但**不把 API 文档硬编码进提示词** | 提到关键词才加载 conventions.md |
 | **Generator** | 产出结构化文档 | `assets/` 放输出模板 + `references/` 放风格指南，填模板 |
-| **Reviewer** | 把"查什么"和"怎么查"分开 | `references/review-checklist.md` 清单 + 严重度分级 + 说清 why + 给具体修法 |
+| **Reviewer** | 把"查什么"和"怎么查"分开 | `skill-patterns/references/review-checklist.md` 清单 + 严重度分级 + 说清 why + 给具体修法 |
 | **Inversion** | **先访谈再产出** | 严格门禁："未完成所有阶段前不得开始设计" |
 | **Pipeline** | 多步串联 | 串起上述模式 |
 
@@ -101,7 +101,7 @@ references/ requirement-intake · service-boundary · config-model
 ```markdown
 你是 FastAPI 开发专家。
 ## 核心约定
-加载 `references/conventions.md` 获取完整的最佳实践清单。
+加载 conventions.md 获取完整的最佳实践清单。
 ## 审查代码时
 1. 加载清单  2. 逐条比对  3. 每条违规引用具体规则并给出修法
 ```
@@ -210,7 +210,7 @@ release-notes/
 **这就是可复用资产生存下来的原因**：写一次逻辑，在客户已有的任何 agent 里跑。
 
 **判断你的技能是否做到**：换一个项目/客户，你需要改 SKILL.md 吗？
-需要 → 说明流程和数据还没分离（见 `skill-refining` 的 `splitting.md` 的"与数据分离"）。
+需要 → 说明流程和数据还没分离（见 `skill-refining` 的 `skill-refining/references/splitting.md` 的"与数据分离"）。
 
 ---
 

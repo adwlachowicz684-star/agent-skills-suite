@@ -37,7 +37,7 @@ security:
 > 没有它，本地模型返回低置信度响应时，系统会**尝试访问云端 API**——
 > 产生连接超时错误污染日志，**并可能触发安全监控告警**。
 
-> 这也呼应 `skill-crafting` 的 `error-handling.md`：
+> 这也呼应 `skill-crafting` 的 `skill-recovery/references/error-handling.md`：
 > **失败回退路径本身要显式声明，不能靠默认行为。**
 
 ---
@@ -72,7 +72,7 @@ security:
 ⭐ 用模型路由配置把两类任务分开
 ```
 
-> 呼应 `skill-governance` 的 `cost-control.md` 的模型路由：
+> 呼应 `skill-governance` 的 `skill-governance/references/cost-control.md` 的模型路由：
 > **分层路由在任何环境都成立，只是离线时"便宜档"变成了"本地小模型"。**
 
 ---
@@ -88,7 +88,7 @@ security:
 □ ⭐ 离线环境里"稍后安装"等于"永远不可用"
 ```
 
-> 呼应 `packaging.md` 的 provenance 与 `skill-scripting` 的 `script-engineering.md`
+> 呼应 `skill-distribution/references/packaging.md` 的 provenance 与 `skill-scripting` 的 `skill-scripting/references/script-engineering.md`
 > 的 PEP 723 内联依赖——**自包含在离线场景从"推荐"升级为"必需"**。
 
 ---

@@ -1,12 +1,12 @@
 # 什么时候不该照做
 
-> 相关：《skill-content》的 `default-actions.md`（省略不是留白）·
-> `portability-across-projects.md`（环境耦合 vs 组织耦合）·
-> 《skill-crafting》的 `conflicting-instructions.md`（冲突时的折中）·
-> 《skill-execution》的 `change-questions.md`（中途变更四问）·
-> 《skill-recovery》的 `exit-conditions-when-to-stop.md`
+> 相关：《skill-content》的 `skill-content/references/default-actions.md`（省略不是留白）·
+> `skill-content/references/portability-across-projects.md`（环境耦合 vs 组织耦合）·
+> 《skill-crafting》的 `skill-precision/references/conflicting-instructions.md`（冲突时的折中）·
+> 《skill-execution》的 `skill-execution/references/change-questions.md`（中途变更四问）·
+> 《skill-recovery》的 `skill-recovery/references/exit-conditions-when-to-stop.md`
 > 前置：
-> `change-questions.md` 讲的是⭐⭐⭐⭐ **用户主动改了需求**，
+> `skill-execution/references/change-questions.md` 讲的是⭐⭐⭐⭐ **用户主动改了需求**，
 > 这份讲的是⭐⭐⭐⭐⭐ **用户没改需求，但技能自己发现它不适用**——
 > 而技能从不定义这种情况，于是模型的默认动作是"照做完"。
 
@@ -79,7 +79,7 @@
 **② ⭐⭐⭐⭐⭐ 停止意味着"我没有完成任务"**
 
 ```
-按《skill-content》的 `default-actions.md`：
+按《skill-content》的 `skill-content/references/default-actions.md`：
 ⭐⭐⭐⭐⭐ 遇到阻碍时默认动作不是停下报告，而是想办法绕过去
 ```
 

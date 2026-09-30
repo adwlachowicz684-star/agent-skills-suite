@@ -1,9 +1,9 @@
 # 成本归账：每个技能到底花了多少钱
 
-> 相关：《skill-selection》的 `roi-breakeven.md`（回本月数 = B/(S×N)）·
-> `skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
-> 《skill-loading》的 `three-tier-token-math.md`（L1 30–50 tokens/技能）·
-> `prompt-caching-and-skills.md`（缓存是前缀匹配）
+> 相关：《skill-selection》的 `skill-selection/references/roi-breakeven.md`（回本月数 = B/(S×N)）·
+> `skill-selection/references/skill-portfolio-audit.md`（47 个技能 34% 僵尸）·
+> 《skill-loading》的 `skill-loading/references/three-tier-token-math.md`（L1 30–50 tokens/技能）·
+> `skill-loading/references/prompt-caching-and-skills.md`（缓存是前缀匹配）
 > 前置：那些讲⭐ 总开销多大、⭐ 装多少算多，
 > 这份讲⭐⭐⭐⭐ **把账单拆到单个技能头上**——
 > 因为没有归因，就没有优化。
@@ -85,7 +85,7 @@ C_load = 元数据 tokens × 每次判断的次数
 > 它在每一次判断里都作为候选被读了一遍——
 > 这正是"僵尸技能仍在损害其他技能"的可量化版本。
 
-具体数字（来自 `three-tier-token-math.md` 与 `skill-portfolio-audit.md`）：
+具体数字（来自 `skill-loading/references/three-tier-token-math.md` 与 `skill-selection/references/skill-portfolio-audit.md`）：
 
 ```
 元数据  30–50 tokens/技能
@@ -110,7 +110,7 @@ C_load = 元数据 tokens × 每次判断的次数
 
 第三类的判据很实用：**如果技能的主要作用是"让输出更规范"，
 而 delta 却是正的，那它的格式要求一定写得比需要更长**
-（《skill-output》的 `output-stability-contract.md` 同源）。
+（《skill-output》的 `skill-output/references/output-stability-contract.md` 同源）。
 
 第四类不是"优化"能解决的——**必须加终止条件**，
 因为偶发极大的分布意味着它不是一个可以调优的参数，是一个缺失的机制。
@@ -142,7 +142,7 @@ C_load = 元数据 tokens × 每次判断的次数
 ```
 
 > ⭐⭐⭐ L3 的价值在于它**自动包含了 C_load 和缓存破坏**——
-> 这正是前两层算不出来的部分（见 `prompt-caching-and-skills.md`：
+> 这正是前两层算不出来的部分（见 `skill-loading/references/prompt-caching-and-skills.md`：
 > 技能声明 allowed-tools 会改变工具集，从而让整段历史缓存失效）。
 
 建议：**L1 立刻做，L2 一个月内做，L3 只在成本真的成问题时做。**
@@ -162,12 +162,12 @@ C_load = 元数据 tokens × 每次判断的次数
 > 它是唯一一个"做了就一定赚"的格子——
 > 删掉它同时省了钱、减少了候选噪音。
 
-但有一个例外必须记住（来自 `skill-portfolio-audit.md`）：
+但有一个例外必须记住（来自 `skill-selection/references/skill-portfolio-audit.md`）：
 
 ```
 ⭐ 低频高价值的"专家型"技能，成本高也该留
    → 留在库里，⭐ 但不装进项目
-   （见《skill-selection》的 `project-level-overload.md`）
+   （见《skill-selection》的 `skill-selection/references/project-level-overload.md`）
 ```
 
 ---
@@ -177,7 +177,7 @@ C_load = 元数据 tokens × 每次判断的次数
 **误算：把"技能文件大小"当成"技能成本"。**
 
 脚本源码默认**不进上下文**——只有它的输出进
-（《skill-recovery》的 `three-crash-scenes.md`）。
+（《skill-recovery》的 `skill-recovery/references/three-crash-scenes.md`）。
 
 ```
 ❌ 脚本 2000 行 → 成本 2000 行

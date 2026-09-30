@@ -1,10 +1,10 @@
 # 技能的可读性：写给模型，也写给下一个改它的人
 
-> 相关：《skill-crafting》的 `writing-style-rfc2119.md`（RFC 2119、语义换行）·
-> `imperative-style.md`（祈使句）·
-> `system-prompt-structure.md`（结构优于长度）·
-> 《skill-structuring》的 `five-paragraph-skeleton.md` ·
-> `reference-file-practices.md`（100 行带目录）
+> 相关：《skill-crafting》的 `skill-crafting/references/writing-style-rfc2119.md`（RFC 2119、语义换行）·
+> `skill-crafting/references/imperative-style.md`（祈使句）·
+> `skill-crafting/references/system-prompt-structure.md`（结构优于长度）·
+> `skill-structuring/references/five-paragraph-skeleton.md` ·
+> `skill-structuring/references/reference-file-practices.md`（100 行带目录）
 > 前置：文风那份讲⭐⭐⭐ **句子怎么写**（祈使、RFC 2119、语义换行），
 > 这份讲⭐⭐⭐⭐ **整份文档怎么排**——
 > **技能有两类读者：模型和下一个改它的人。多数技能只为第一类排过版。**
@@ -76,7 +76,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ 后者是关键：目录的作用是⭐⭐⭐⭐ **在被截断时仍能指路**。
-> 这也是 `reference-file-practices.md` 那条规则的真实机制。
+> 这也是 `skill-structuring/references/reference-file-practices.md` 那条规则的真实机制。
 
 ---
 
@@ -119,7 +119,7 @@
 ✅ ⭐⭐⭐ 只在一处（frontmatter 或 Changelog）
 ```
 
-> ⭐⭐⭐⭐ 多处必漏（这是 `version-changelog-practice.md` 里
+> ⭐⭐⭐⭐ 多处必漏（这是 `skill-versioning/references/version-changelog-practice.md` 里
 > "文件写 1.2.0 但 tag 是 v1.1.0"那个错误的排版版，建议加 pre-commit 检查）。
 
 ---

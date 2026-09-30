@@ -1,9 +1,9 @@
 # 技能的可迁移性：换个项目/团队/模型还能用吗
 
-> 相关：《skill-patterns》的 `self-containment-rewrite.md`（自包含重写）·
-> 《skill-input》的 `data-dependency-declaration.md`（依赖与假设）·
-> 《skill-structuring》的 `naming-conventions.md` ·
-> 《skill-content》的 `default-actions.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/self-containment-rewrite.md`（自包含重写）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（依赖与假设）·
+> 《skill-structuring》的 `skill-structuring/references/naming-conventions.md` ·
+> 《skill-content》的 `skill-content/references/default-actions.md`
 > 前置：自包含那份讲⭐⭐⭐ **能不能独立跑**，
 > 这份讲⭐⭐⭐⭐⭐ **换个地方还能不能跑**——
 > **技能里最贵的那部分内容，往往是"只在这里成立"的东西。**
@@ -53,7 +53,7 @@
 
 > ⭐⭐⭐⭐ 第二条的第二选项值得记：
 > ⭐⭐⭐⭐⭐ **"找不到就停下来问"比"写死一个命令"可迁移得多**，
-> 而且它同时是 `default-actions.md` 的正确姿势——
+> 而且它同时是 `skill-content/references/default-actions.md` 的正确姿势——
 > 给一个显式出口，而不是让模型猜。
 
 一个额外的坑：**技能里写"运行 `npm test`"是对 npm 项目的假设**
@@ -126,7 +126,7 @@
 ```
 
 对策：⭐⭐⭐⭐⭐ **在正文里显式写"能力不足时的降级路径"**，
-而不是让模型隐式降级（见 `prompt-altitude-three-laws.md`）。
+而不是让模型隐式降级（见 `skill-content/references/prompt-altitude-three-laws.md`）。
 这也是唯一能让同一份技能跨模型档位可用的写法。
 
 ---
@@ -176,7 +176,7 @@
 他问的每个问题 = 一处组织耦合
 ```
 
-> ⭐⭐⭐⭐ 这是 `second-reader-test.md` 的结论在新维度的复用：
+> ⭐⭐⭐⭐ 这是 `skill-scoping/references/second-reader-test.md` 的结论在新维度的复用：
 > ⭐⭐⭐⭐⭐ **agent/人提出的每个澄清问题，都是一处缺失的语境。**
 
 **② ⭐⭐⭐⭐ 换一个仓库跑一次（或做思想实验）**

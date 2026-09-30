@@ -1,9 +1,9 @@
 # 最小可用三原则：执行契约 · 一技能一事 · 路径不硬编码
 
-> 相关：《skill-patterns》的 `six-anti-patterns-pitfalls.md` ·
-> `eight-practical-lessons.md` · `operator-card-style.md` ·
-> 《skill-execution》的 `seven-contracts.md` ·
-> 《skill-structuring》的 `directory-decision-matrix.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/six-anti-patterns-pitfalls.md` ·
+> `skill-crafting/references/eight-practical-lessons.md` · `skill-content/references/operator-card-style.md` ·
+> 《skill-execution》的 `skill-execution/references/seven-contracts.md` ·
+> 《skill-structuring》的 `skill-structuring/references/directory-decision-matrix.md`
 > 前置：那些讲具体写法，
 > 这份是⭐⭐⭐ **三条从失败里提炼的原则**——
 > 含⭐⭐⭐ 一个此前没被讲透的⭐ **"为什么'为什么'是噪音"**。
@@ -125,7 +125,7 @@
 ```
 
 > ⭐⭐⭐ 第 ② 条"⭐ 开头声明工作目录约定"很实用——
-> 与 `argument-substitution.md` 的 `${CLAUDE_SKILL_DIR}` 是⭐ 同一问题的两个解法：
+> 与 `skill-loading/references/argument-substitution.md` 的 `${CLAUDE_SKILL_DIR}` 是⭐ 同一问题的两个解法：
 > ```
 > 引用⭐ 技能自带的脚本 → ⭐⭐⭐ 用 ${CLAUDE_SKILL_DIR}（相对、可移植）
 > 引用⭐ 外部路径       → ⭐⭐⭐ 开头声明约定 + 环境变量
@@ -138,8 +138,8 @@
 > 一个未声明的外部依赖，其⭐ 失败信息（command not found）
 > ⭐⭐⭐ **完全不指向真正的原因（缺依赖）**。
 >
-> ⭐⭐⭐ 这与 `dependency-lockfile.md` 的 36.6% 隐藏依赖、
-> `team-admission-criteria.md` 的"脚本必须支持 `--help` 并说明副作用"
+> ⭐⭐⭐ 这与 `skill-distribution/references/dependency-lockfile.md` 的 36.6% 隐藏依赖、
+> `skill-adoption/references/team-admission-criteria.md` 的"脚本必须支持 `--help` 并说明副作用"
 > ⭐⭐⭐⭐ 是⭐ 同一条原则的第三个说法：
 > **声明不是礼貌，是让失败可诊断。**
 

@@ -1,8 +1,8 @@
 # 写完后的十条检查清单与"只记三条"
 
-> 相关：《skill-patterns》的 `anti-patterns-catalog.md` ·
-> `six-anti-patterns-pitfalls.md` · `common-mistakes-checklist.md` ·
-> 《skill-patterns》的 `publish-checklist-20.md`（20 项 0–2 分制）
+> 相关：《skill-patterns》的 `skill-patterns/references/anti-patterns-catalog.md` ·
+> `skill-patterns/references/six-anti-patterns-pitfalls.md` · `skill-patterns/references/common-mistakes-checklist.md` ·
+> 《skill-patterns》的 `skill-patterns/references/publish-checklist-20.md`（20 项 0–2 分制）
 > 前置：那份是⭐ 20 项打分，
 > 这份是⭐⭐⭐ **十条定性判定 + ⭐⭐⭐ "如果只能记住三条"**——
 > 更短，适合每次写完随手过一遍。
@@ -35,23 +35,23 @@
 
 **逐条说哪几条最容易挂**：
 
-**第 1 条**——与 `skill-anatomy-antipatterns.md` 的
+**第 1 条**——与 `skill-patterns/references/skill-anatomy-antipatterns.md` 的
 "正文里不要写 When to Use 章节"⭐ 完全同一条。
 > ⭐⭐⭐ 两个独立来源：触发信息⭐ 只能在 description，写在正文等于马后炮。
 
 **第 7 条**——"确定性逻辑放 scripts"：
-> ⭐⭐⭐ 与 `deterministic-scripts.md` 的
+> ⭐⭐⭐ 与 `skill-scripting/references/deterministic-scripts.md` 的
 > "从 Y 算出 X，X 是数字 → 脚本"一致，
 > ⭐⭐ 但这里把它放进了⭐ 资源分层的框架里：
 > **references 装"要读的"，scripts 装"要算的"，assets 装"要用的"。**
 
 **第 9 条**——"至少覆盖黄金路径和误触发场景"：
-> ⭐⭐⭐ 这就是 `eval-set-two-dimensions.md` 的
-> 触发评测 + 执行评测两维度，以及 `eval-case-design.md` 的负向用例。
+> ⭐⭐⭐ 这就是 `skill-evaluating/references/eval-set-two-dimensions.md` 的
+> 触发评测 + 执行评测两维度，以及 `skill-evaluating/references/eval-case-design.md` 的负向用例。
 > ⭐⭐ 三个来源一致：**只测"该触发时能触发"是不够的。**
 
 **第 10 条**——"不放 README/安装指南/更新日志"：
-> ⭐⭐ 与 `operator-card-style.md` 的
+> ⭐⭐ 与 `skill-content/references/operator-card-style.md` 的
 > "安装/贡献/隐私章节一律删"完全同一条（第二个来源）。
 
 ---
@@ -79,7 +79,7 @@
 ```
 
 > ⭐⭐⭐ 这条与我们已有的一条⭐ 强力互证：
-> `five-design-patterns.md` 的⭐ **反转测试**——
+> `skill-patterns/references/five-design-patterns.md` 的⭐ **反转测试**——
 > "把每条规则反过来读一遍，如果反过来也说得通，那就是空话"。
 >
 > ⭐⭐⭐ 两个独立来源给出⭐ 同一个判据的两种问法：
@@ -122,15 +122,15 @@
 
 > ⭐⭐⭐ 所以正确写法是⭐ **禁令 + 具体替代**，
 > 而不是任一单独一侧。
-> 这与 `write-reasons-not-rules.md` 的
-> "禁令必须配替代方案"、以及 `activation-rate.md` 的
+> 这与 `skill-crafting/references/write-reasons-not-rules.md` 的
+> "禁令必须配替代方案"、以及 `skill-description/references/activation-rate.md` 的
 > "NOT for X → 用 Y 代替"是⭐ 同一规则的第三次出现。
 
 ---
 
 ## 4. ⭐⭐ 与 20 项清单的分工
 
-| | `publish-checklist-20.md` | 本份 |
+| | `skill-patterns/references/publish-checklist-20.md` | 本份 |
 |---|---|---|
 | 形式 | ⭐ 20 项，0–2 分制 | ⭐⭐ 10 项，定性判定 |
 | 用时 | 较长，⭐ 适合发布前 | ⭐⭐⭐ 极短，⭐ 适合每次写完随手过 |

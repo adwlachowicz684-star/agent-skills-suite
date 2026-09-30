@@ -1,7 +1,7 @@
 # 瘦身：技能为什么会变慢、怎么砍
 
-> 相关：《skill-context》的 `budget-truncation.md` ·
-> `context-budget.md` · 《skill-governance》的 `cost-control.md`
+> 相关：《skill-context》的 `skill-context/references/budget-truncation.md` ·
+> `skill-context/references/context-budget.md` · 《skill-governance》的 `skill-governance/references/cost-control.md`
 > 前置：那些文档讲预算的"边界在哪里"，
 > 这份讲⭐ **日常可执行的瘦身动作**。
 
@@ -71,7 +71,7 @@ wc -w ~/.claude/skills/*.md
 ```
 
 > ⭐ 差别在于：**前者在教模型已知的概念，后者在给行为指令。**
-> 也正是 `anti-patterns-catalog.md` 的第一条——包含模型训练里已有的信息。
+> 也正是 `skill-patterns/references/anti-patterns-catalog.md` 的第一条——包含模型训练里已有的信息。
 
 ---
 

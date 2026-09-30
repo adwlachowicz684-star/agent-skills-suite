@@ -27,14 +27,14 @@
    ⭐ 长会话里这一项常常超过前两项
 ```
 
-**典型分布**（`context-budget.md` 的数据）：
+**典型分布**（`skill-context/references/context-budget.md` 的数据）：
 
 ```
 100 个技能全量加载   = 715K tokens
 三层渐进式           = ⭐ 3.4%
 ```
 
-呼应 `scale-effects.md`（**`skill-governance`**）：
+呼应 `skill-governance/references/scale-effects.md`（**`skill-governance`**）：
 **1,236 个技能吃掉 36.6% 上下文**——
 那是纯粹的目录税。
 
@@ -69,7 +69,7 @@ python scripts/estimate_tokens.py ./my-skill
 □ ⭐ 这个数字在 60 轮对话里会被付 60 次
 ```
 
-呼应 `failure-modes.md` 与 `/skill-doctor`：
+呼应 `skill-triggering/references/failure-modes.md` 与 `/skill-doctor`：
 **列表里每一个技能每一轮都在消耗上下文，不管有没有用过**。
 
 **一个反直觉的推论**：
@@ -105,7 +105,7 @@ python scripts/estimate_tokens.py ./my-skill
    ——确认每个文件都写了"何时加载"
 ```
 
-呼应 `pruning.md` 与 `runtime-failures.md`。
+呼应 `skill-refining/references/pruning.md` 与 `skill-refining/references/runtime-failures.md`。
 
 **第 3 条那条禁令值得重复**：
 
@@ -116,7 +116,7 @@ python scripts/estimate_tokens.py ./my-skill
 
 ## 什么时候该拆而不是瘦
 
-**三个信号**（呼应 `architecture-layering.md`）：
+**三个信号**（呼应 `skill-refining/references/architecture-layering.md`）：
 
 ```
 1. ⭐ 正文 >150 行且路由表无可合并项

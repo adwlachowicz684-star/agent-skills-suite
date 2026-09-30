@@ -1,8 +1,8 @@
 # Gotchas 的供给：去哪里系统性挖
 
-> 相关：`anthropic-team-lessons.md`（⭐ Gotchas 是技能里信号最高的内容）·
-> 《skill-examples》的 `examples-three-branches.md`（gotchas 每纠正一次就写进去）·
-> 《skill-recovery》的 `execution-error-protocol.md`
+> 相关：`skill-content/references/anthropic-team-lessons.md`（⭐ Gotchas 是技能里信号最高的内容）·
+> 《skill-examples》的 `skill-examples/references/examples-three-branches.md`（gotchas 每纠正一次就写进去）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`
 > 前置：那些讲⭐⭐⭐⭐⭐ Gotchas 为什么最值钱、⭐ 怎么维护，
 > 这份讲⭐⭐⭐⭐⭐ **第一批 Gotchas 从哪来**——
 > 一个所有人都默认"作者自己知道"、因而从未被写成方法的环节。
@@ -99,7 +99,7 @@
 ```
 
 ⭐ 这类带**时间维度**，也正因如此最容易腐烂
-（见《skill-refining》的 `memory-layering-and-skills.md`：
+（见《skill-refining》的 `skill-refining/references/memory-layering-and-skills.md`：
 程序记忆层没有时间维度）。
 
 ---
@@ -143,7 +143,7 @@
 > 没有它，模型知道这条规则存在，但不知道违反的代价，
 > 于是在"看起来可以省一步"的时候就会省。
 
-配一条对照（来自 `write-reasons-not-rules.md`）：
+配一条对照（来自 `skill-crafting/references/write-reasons-not-rules.md`）：
 
 ```
 禁令版："不要忘记过滤软删除"        ← 依赖遵守
@@ -170,7 +170,7 @@
 2. ⭐ **维护方式本身就是质量保障**：只有真踩过的才进得来，
    而这个门槛在一次性采集时是不存在的
 
-> ⭐⭐⭐ 这和 `examples-as-contract.md` 是同一个道理：
+> ⭐⭐⭐ 这和 `skill-content/references/examples-as-contract.md` 是同一个道理：
 > **来源决定可信度。** 来自真实纠错的 Gotcha 天然比来自想象的高一个等级。
 
 ---
@@ -181,7 +181,7 @@
 
 ```
 ❌ "我喜欢函数不超过 30 行"
-✅ 反例见 `scope-multiplication.md`：
+✅ 反例见 `skill-scoping/references/scope-multiplication.md`：
    老张加了这条"看起来正确"的规则，pass_rate 从 0.85 掉到 0.72
 ```
 

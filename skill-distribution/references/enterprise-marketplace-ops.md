@@ -1,7 +1,7 @@
 # 企业级市场运维：分发 → 可见性 → 质量
 
-> 相关：《skill-distribution》的 `distribution-three-ways.md` ·
-> `enterprise-registry.md` · `usage-analytics.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/distribution-three-ways.md` ·
+> `skill-distribution/references/enterprise-registry.md` · `skill-distribution/references/usage-analytics.md`
 
 ---
 
@@ -36,7 +36,7 @@
 
 ## 2. 阶段一：托管分发
 
-两条路径（MDM / 服务端）见 `distribution-three-ways.md` 第 4 节。
+两条路径（MDM / 服务端）见 `skill-distribution/references/distribution-three-ways.md` 第 4 节。
 
 私有市场的四项控制：
 

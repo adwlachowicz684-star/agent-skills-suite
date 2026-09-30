@@ -31,7 +31,7 @@ git log:    "update SKILL.md" / "fix description" / "tweak"
 → 那个被修复过的 bug 回来了
 ```
 
-> ⭐ 这正是 `refactor-pass.md` 强调的：
+> ⭐ 这正是 `skill-refining/references/refactor-pass.md` 强调的：
 > "没有记录理由的重构，会变成来回摆动。"
 
 ## 一条合格的条目

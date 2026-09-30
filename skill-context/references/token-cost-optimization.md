@@ -1,7 +1,7 @@
 # 成本优化：Token 泄漏、模型路由与"伪技能"陷阱
 
-> 相关：《skill-crafting》的 `token-bloat-audit.md`（瘦身六动作）·
-> `context-budget.md` · `budget-truncation.md`
+> 相关：《skill-crafting》的 `skill-crafting/references/token-bloat-audit.md`（瘦身六动作）·
+> `skill-context/references/context-budget.md` · `skill-context/references/budget-truncation.md`
 > 前置：那份讲"技能内部怎么瘦身"，
 > 这份讲⭐ **系统层面的成本治理**：怎么找到耗能大户、怎么分层用模型、
 > 以及⭐⭐ 一个会让所有优化白费的结构性陷阱。
@@ -40,7 +40,7 @@
 ```
 
 > ⭐ 四个"没有"里中两个以上，基本就是伪技能。
-> 这与 `worth-skillifying.md` 的五维矩阵互补——
+> 这与 `skill-boundaries/references/worth-skillifying.md` 的五维矩阵互补——
 > 那个判断"该不该做"，这个判断"做出来了是不是真的技能"。
 
 ---
@@ -76,7 +76,7 @@
 > ⭐⭐ **优化一个被高频调用的技能，
 > 比优化十个低频技能效果更显著。**
 
-> ⭐ 这与 `skill-evolution-loop.md` 的
+> ⭐ 这与 `skill-versioning/references/skill-evolution-loop.md` 的
 > "每月选 1–2 个⭐ 使用频率最高的技能做正式修订"完全对上：
 > **优化顺序按频率排，不按"看起来有多臃肿"排。**
 
@@ -109,8 +109,8 @@
 · ⭐ 对频繁调用的基础技能优先缓存
 ```
 
-> ⭐ 三条里第 ② 条对应 `skill-vs-rag.md`，
-> 第 ① 条对应 `context-compression.md`——**这份的价值在于把三者放进同一张图**，
+> ⭐ 三条里第 ② 条对应 `skill-boundaries/references/skill-vs-rag.md`，
+> 第 ① 条对应 `skill-context/references/context-compression.md`——**这份的价值在于把三者放进同一张图**，
 > 并指出它们是⭐ 不同层级的手（都不是改技能本身，是改上下文）。
 
 ---
@@ -138,7 +138,7 @@
 > 但技能的粒度正好适合做路由决策——
 > **每个技能天然带有"这件事有多难"的信息**。
 
-> ⭐ 顺带：这与 `cross-model.md` 的"跨模型测试矩阵"是配套的——
+> ⭐ 顺带：这与 `skill-selection/references/cross-model.md` 的"跨模型测试矩阵"是配套的——
 > 你先按难度分层，再为每层测它在哪些模型上还成立。
 
 ---
@@ -147,8 +147,8 @@
 
 ```
 ① ⭐ 精简技能描述文本（description 是主要消耗源之一）
-② （去重与引用，见 `deduplication.md`）
-③ （分层加载，见 `progressive-disclosure-official.md`）
+② （去重与引用，见 `skill-refining/references/deduplication.md`）
+③ （分层加载，见 `skill-structuring/references/progressive-disclosure-official.md`）
 ④ ⭐ 缓存技能执行结果
 ⑤ ⭐ 精简技能返回结果：只返回用户真正需要的信息
    · 移除调试信息和内部状态
@@ -165,7 +165,7 @@
 ```
 
 > ⭐⭐ 第 ⑧ 条最反直觉也最重要：**嵌套是乘法的**。
-> 这与 `reference-file-practices.md` 的
+> 这与 `skill-structuring/references/reference-file-practices.md` 的
 > "嵌套引用会让模型改用 head -100 预览"是两个独立来源指出嵌套的代价——
 > **一个说它贵，一个说它会丢信息。**
 

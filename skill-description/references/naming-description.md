@@ -62,7 +62,7 @@ writing-documentation
 □ 技能库显得专业、 cohesive
 ```
 
-> ⭐ 呼应 `troubleshooting-manual.md`（**`skill-evaluating`**）的
+> ⭐ 呼应 `skill-triggering/references/troubleshooting-manual.md`（**`skill-evaluating`**）的
 > "避免通用名"：
 > ❌ review / test / deploy
 > ✅ frontend-code-review / react-component-test / aws-deployment
@@ -148,7 +148,7 @@ SKILL.md 正文 → 提供实现细节
 
 ## 中文场景的补充
 
-呼应 `i18n.md`（**`skill-refining`**）：
+呼应 `skill-refining/references/i18n.md`（**`skill-refining`**）：
 
 ```
 □ ⭐ name 不翻译（它是标识符，必须 kebab-case）

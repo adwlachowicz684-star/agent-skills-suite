@@ -1,8 +1,8 @@
 # 描述要"稍微强势一点"
 
-> 相关：《skill-description》的 `activation-rate.md` ·
-> `imperative-description.md` · `description-rewrite-case.md` ·
-> `activation-mechanism.md`
+> 相关：《skill-description》的 `skill-description/references/activation-rate.md` ·
+> `skill-description/references/imperative-description.md` · `skill-description/references/description-rewrite-case.md` ·
+> `skill-description/references/activation-mechanism.md`
 
 ---
 
@@ -42,7 +42,7 @@
 
 ## 3. 为什么需要"强势"
 
-根因是 `activation-mechanism.md` 那条：
+根因是 `skill-description/references/activation-mechanism.md` 那条：
 
 > 激活是**纯 LLM 推理**。模型有一条更简单的
 > **"直接自己干"**的默认路径。
@@ -67,11 +67,11 @@
 ❌ 夸张："强大""智能""最好用"——形容词没有路由价值
 ```
 
-`description-rewrite-case.md` 的错误清单里，
+`skill-description/references/description-rewrite-case.md` 的错误清单里，
 "使用形容词如强大/智能/好用"被明确列为错误——
 **它缺少实质性的动词和名词，模型无从匹配**。
 
-> ⭐ 判据回到 `activation-mechanism.md` 那句：
+> ⭐ 判据回到 `skill-description/references/activation-mechanism.md` 那句：
 > **坏描述读起来像营销文案，好描述读起来像工单的第一行。**
 
 ---

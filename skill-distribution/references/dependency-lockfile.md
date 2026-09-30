@@ -1,7 +1,7 @@
 # 依赖声明与 lockfile：技能不是孤岛
 
-> 相关：《skill-distribution》的 `packaging.md` ·
-> `cross-agent-portability.md` · 《skill-governance》的 `retirement-pipeline.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/packaging.md` ·
+> `skill-distribution/references/cross-agent-portability.md` · 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`
 
 ---
 

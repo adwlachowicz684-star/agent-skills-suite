@@ -1,9 +1,9 @@
 # 官方描述调优循环：20 个查询、跑 3 次、按测试集选
 
-> 相关：《skill-triggering》的 `trigger-tuning-loop.md`（误触发 vs 漏触发修法相反）·
-> `description-by-collision-risk.md`（长度由碰撞风险定）·
-> `triggering.md`（三类故障）·
-> 《skill-description》的 `activation-rate.md`（四档实测）
+> 相关：《skill-triggering》的 `skill-triggering/references/trigger-tuning-loop.md`（误触发 vs 漏触发修法相反）·
+> `skill-triggering/references/description-by-collision-risk.md`（长度由碰撞风险定）·
+> `skill-triggering/references/triggering.md`（三类故障）·
+> 《skill-description》的 `skill-description/references/activation-rate.md`（四档实测）
 > 前置：那些讲"修法方向"和"长度该多长"，
 > 这份讲⭐⭐⭐ **官方给出的⭐ 可执行优化循环**——
 > 含一个⭐⭐⭐ 此前完全没覆盖的关键点：**防过拟合**。
@@ -38,8 +38,8 @@
 
 > ⭐⭐⭐ **"带着真实杂讯"** 是本份最该记住的一条。
 >
-> 它与 `eval-case-design.md` 的"用反映你真实使用的脏输入，不是干净样例"、
-> `outgrowth-regression-detection.md` 的"用你实际打出的半成品 message"
+> 它与 `skill-evaluating/references/eval-case-design.md` 的"用反映你真实使用的脏输入，不是干净样例"、
+> `skill-triggering/references/outgrowth-regression-detection.md` 的"用你实际打出的半成品 message"
 > ⭐⭐⭐ 是⭐ 第三个独立来源——
 > **干净样例会让你高估触发率，而且高估多少你不知道。**
 
@@ -58,7 +58,7 @@
 ```
 
 > ⭐⭐⭐ 这条与我们已有的一条⭐ 强力互证：
-> `examples-three-branches.md` 说 Pattern 类技能"⭐ 必须测 near-miss"，
+> `skill-examples/references/examples-three-branches.md` 说 Pattern 类技能"⭐ 必须测 near-miss"，
 > 因为"只测该识别的能识别不够，还要测不该识别的会被拒绝"。
 >
 > ⭐⭐ 两份独立来源，同一个词（near-miss / 近命中）。
@@ -82,7 +82,7 @@
 
 > ⭐⭐⭐ 触发是⭐ 概率性的，单次通过/不通过⭐ 不能作为判据。
 >
-> ⭐⭐ 与我们已有的 `assert-on-environment.md` 的 **pass^5** 同源——
+> ⭐⭐ 与我们已有的 `skill-evaluating/references/assert-on-environment.md` 的 **pass^5** 同源——
 > 只是这里更省（3 次），因为⭐ 触发判定的成本比完整执行低。
 > ⭐⭐ 两者合起来是一套分级：**触发稳定性跑 3 次，执行正确性跑 5 次。**
 
@@ -108,7 +108,7 @@
 > **如果你每一轮都在涨，要警惕——那正是过拟合的典型曲线。**
 
 > ⭐⭐ 与我们已有的一条对照：
-> `eval-loop-official.md` 说"两组都通过的断言没有区分度"——
+> `skill-evaluating/references/eval-loop-official.md` 说"两组都通过的断言没有区分度"——
 > ⭐⭐ 两条都在说同一件事：**评测要能证伪。**
 > 只不过一条针对断言，一条针对样本集。
 
@@ -134,7 +134,7 @@ Anthropic 在自己 ⭐ 6 个公开的文档类 skill 上验证
    ⭐⭐⭐ 评审 agent ⭐ 不知道输出来自哪边，只判质量高低
 ```
 
-> ⭐⭐ 这与 `comparator-ab-eval.md` 完全一致（第二个来源），
+> ⭐⭐ 这与 `skill-automation/references/comparator-ab-eval.md` 完全一致（第二个来源），
 > ⭐⭐ 但补了一个⭐ 此前没写的具体约束：**同一轮同时启动**——
 > 不能先用 baseline 跑一遍、再装技能跑一遍，因为⭐ 间隔里的环境变化会污染对比。
 
@@ -144,9 +144,9 @@ Anthropic 在自己 ⭐ 6 个公开的文档类 skill 上验证
 
 | 已有 | 本份 |
 |---|---|
-| `trigger-tuning-loop.md`：误触发/漏触发修法相反 | ⭐⭐⭐ 修法之外的⭐ 循环机制（切分/重复/轮次/防过拟合） |
-| `description-by-collision-risk.md`：长度定多长 | ⭐⭐ 长度之外的⭐ 内容怎么迭代 |
-| `triggering.md`：三类故障 | ⭐⭐⭐ ⭐ 样本怎么造（带杂讯的正例 + 近命中的负例） |
+| `skill-triggering/references/trigger-tuning-loop.md`：误触发/漏触发修法相反 | ⭐⭐⭐ 修法之外的⭐ 循环机制（切分/重复/轮次/防过拟合） |
+| `skill-triggering/references/description-by-collision-risk.md`：长度定多长 | ⭐⭐ 长度之外的⭐ 内容怎么迭代 |
+| `skill-triggering/references/triggering.md`：三类故障 | ⭐⭐⭐ ⭐ 样本怎么造（带杂讯的正例 + 近命中的负例） |
 
 ---
 

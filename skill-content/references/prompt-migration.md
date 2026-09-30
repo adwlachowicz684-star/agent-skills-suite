@@ -161,7 +161,7 @@ code-review-skill/
 > 你写了"不修改用户代码"，模型在用户强烈要求时**仍可能直接给出修改后的代码块**。
 >
 > → **关键逻辑不能只靠 SKILL.md 约束，必要时应配合代码层面的校验**
-> （呼应 `skill-governance` 的 `injection-defense.md` 的层 4：确定性门禁优于提示词约束）。
+> （呼应 `skill-governance` 的 `skill-security/references/injection-defense.md` 的层 4：确定性门禁优于提示词约束）。
 
 **局限二：写成百科全书反而稀释关键约束**
 

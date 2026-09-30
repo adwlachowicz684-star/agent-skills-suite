@@ -1,7 +1,7 @@
 # 祈使句 + 否定约束：650 次测试的结论
 
-> 相关：《skill-description》的 `activation-rate.md`（四档数据）·
-> `description-rewrite-case.md` · 《skill-crafting》的 `guidance-forms.md`
+> 相关：《skill-description》的 `skill-description/references/activation-rate.md`（四档数据）·
+> `skill-description/references/description-rewrite-case.md` · 《skill-crafting》的 `skill-crafting/references/guidance-forms.md`
 
 ---
 
@@ -97,7 +97,7 @@ description: >
 
 > ⚠️ **这个句式在 description 里有效，在正文里可能反噬。**
 
-`guidance-forms.md` 的实测：
+`skill-crafting/references/guidance-forms.md` 的实测：
 正文里的"不要做 X"因为**没说该做什么**，反而让输出更差。
 
 ```

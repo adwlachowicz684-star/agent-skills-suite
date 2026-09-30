@@ -14,6 +14,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 - 用于：**指令措辞与形态** · 示例设计 · 验收与判断分支 · 整体写法原则与自查
 - 不用于：整体创建流程 · 瘦身拆分 · 评估打分 · 一次性提示词
 - ⭐ **范围章节、粒度、四层沉淀、与 CLAUDE.md/AGENTS.md 的分工 → 《skill-scoping》**
+- ⭐⭐⭐⭐⭐ **一句话是否真的构成约束（无主语指令、条件嵌套、含糊词、无出处数字、指代、术语）→ 《skill-precision》**
 
 ## 核心原则
 
@@ -31,22 +32,15 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 > → **默认不要伸手拿禁令**。
 
 ## 路由表（按需深读）
-| `vague-word-blacklist.md` | ⭐⭐⭐⭐⭐ 含糊词替换表；⭐⭐⭐⭐⭐ 五类伪装成约束的词（确保/重要：/总是）；可 grep 的 CI 检查 |
-| `system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
-| `minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
-| `eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
-| `skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
-| `conditional-branch-writing.md` | ⭐⭐⭐⭐⭐ 没有 else 的 if = 授权模型自己定义 else；⭐⭐⭐⭐⭐ 半写的约束比不写更危险；⭐⭐⭐⭐⭐ "有但不可用"那档 |
-| `conflicting-instructions.md` | ⭐⭐⭐⭐⭐ 详尽vs简洁等五类冲突；⭐⭐⭐⭐⭐ 模型默认折中不是二选一；⭐⭐⭐⭐⭐ 按「被约束的维度」分组才能发现 |
-| `positional-references.md` | ⭐⭐⭐⭐⭐ 上文/第3步/如下；⭐⭐⭐⭐⭐ 压缩后指令留下而引用没了；⭐⭐⭐⭐⭐ 给中间产物起名 |
-| `enumeration-closed-vs-open.md` | ⭐⭐⭐⭐⭐ 枚举是穷举还是举例；⭐⭐⭐⭐⭐ 列表越长越像穷举；⭐⭐⭐⭐⭐ 遇到列表外默认归类是静默失败 |
-| `list-item-relations.md` | ⭐⭐⭐⭐⭐ 列表项之间是且/或/顺序；⭐⭐⭐⭐⭐ 默认解读是且+顺序；⭐⭐⭐⭐⭐ 混合列表 |
-| `unjustified-numbers.md` | ⭐⭐⭐⭐⭐ 没有出处的数字；⭐⭐⭐⭐⭐ 具体性≠有依据；⭐⭐⭐⭐⭐ 数字+出处+越界动作 |
-| `skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题
-| `writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
-| `token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
-| `write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
-| `imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
+| `skill-crafting/references/system-prompt-structure.md` | ⭐⭐⭐ 结构优于长度+五分节；★★★禁令仲裁（第四个来源） |
+| `skill-crafting/references/minimum-viable-three-principles.md` | ⭐⭐⭐ 最小可用三原则：★执行契约非产品文档、路径不硬编码 |
+| `skill-crafting/references/eight-practical-lessons.md` | ⭐⭐⭐⭐ 八条实战技巧；★给约束不给流程，顺序重要则写脚本 |
+| `skill-crafting/references/skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
+| `skill-crafting/references/skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题
+| `skill-crafting/references/writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
+| `skill-crafting/references/token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
+| `skill-crafting/references/write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
+| `skill-crafting/references/imperative-style.md` | ⭐ 祈使句 vs 第二人称 + 尺寸分级 + 评分权重 |
 
 **看完整样本**：
 
@@ -61,18 +55,18 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 |---|---|
 | ⭐ **形态匹配：禁令 / 配方 / 槽位 / 条件** | `references/guidance-forms.md` |
 | **反理性化：agent 找借口跳过步骤** | **`skill-execution` 的 `anti-rationalizations.md`** |
-| **事实边界：该写什么不该写什么** | **`skill-scoping` 的 `fact-boundary.md`** |
-| **措辞、语气、格式** | **`skill-content` 的 `writing-style.md`** |
+| **事实边界：该写什么不该写什么** | **`skill-scoping` 的 `skill-scoping/references/fact-boundary.md`** |
+| **措辞、语气、格式** | **`skill-content` 的 `skill-content/references/writing-style.md`** |
 
 **输出与收尾**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **输出契约：Schema-First、四道防线** | **`skill-execution` 的 `output-contract.md`** |
-| ⭐ **落地与验证：怎么证明"完成了"** | **`skill-execution` 的 `grounding-verification.md`** |
-| **失败处理、重试、熔断、降级** | **`skill-execution` 的 `error-handling.md`** |
-| ⭐ **幂等、状态文件、恢复与回滚** | **`skill-execution` 的 `idempotency-resume.md`** |
-| ⭐ **行动前先查状态** | **`skill-execution` 的 `state-check.md`** |
+| ⭐ **输出契约：Schema-First、四道防线** | **`skill-execution` 的 `skill-output/references/output-contract.md`** |
+| ⭐ **落地与验证：怎么证明"完成了"** | **`skill-execution` 的 `skill-output/references/grounding-verification.md`** |
+| **失败处理、重试、熔断、降级** | **`skill-execution` 的 `skill-recovery/references/error-handling.md`** |
+| ⭐ **幂等、状态文件、恢复与回滚** | **`skill-execution` 的 `skill-recovery/references/idempotency-resume.md`** |
+| ⭐ **行动前先查状态** | **`skill-execution` 的 `skill-recovery/references/state-check.md`** |
 
 ## Critical Rules
 

@@ -1,7 +1,7 @@
 # 激活机制：为什么 description 是唯一的杠杆
 
-> 相关：《skill-description》的 `activation-rate.md` ·
-> `imperative-description.md` · `description-rewrite-case.md`
+> 相关：《skill-description》的 `skill-description/references/activation-rate.md` ·
+> `skill-description/references/imperative-description.md` · `skill-description/references/description-rewrite-case.md`
 
 ---
 
@@ -67,7 +67,7 @@ description: Use when continuing work from a previous AI coding-agent session,
 
 ## 4. ⭐ 与向量检索方案的关系
 
-`vector-skill-retrieval.md` 讲的是**在决策前用向量检索缩候选**。
+`skill-selection/references/vector-skill-retrieval.md` 讲的是**在决策前用向量检索缩候选**。
 但要注意：**平台内置的激活决策是纯 LLM 推理**。
 
 所以：

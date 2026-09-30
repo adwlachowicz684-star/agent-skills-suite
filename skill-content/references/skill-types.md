@@ -50,7 +50,7 @@
    去查 payment_events。"
 ```
 
-> ⭐ 对照 `skill-refining` 的 `pruning.md` 的 no-op 测试：
+> ⭐ 对照 `skill-refining` 的 `skill-refining/references/pruning.md` 的 no-op 测试：
 > **Gotchas 是唯一几乎不可能通过 no-op 测试的部分**——
 > 删掉它行为一定会变。修剪时**永远不要动这一节**。
 
@@ -72,7 +72,7 @@
 
 > 技能是个文件夹，**整个文件系统都应该是上下文工程的一部分**。
 > 告诉 Claude 里面有什么文件，它会在合适的时候自己读。
-> 详细函数签名拆到 `references/api.md`，输出模板放 `assets/`。
+> 详细函数签名拆到 api.md，输出模板放 `assets/`。
 
 **④ 不要过度约束 Claude**
 
@@ -88,7 +88,7 @@
 
 > 技能可以在自身存数据——从简单文本日志到 SQLite。
 > 如 `standup-post` 维护 `standups.log`，下次运行知道昨天以来什么变了。
-> `${CLAUDE_PLUGIN_DATA}` 提供了稳定的存储目录（呼应 `skill-orchestration` 的 `memory-state.md`）。
+> `${CLAUDE_PLUGIN_DATA}` 提供了稳定的存储目录（呼应 `skill-orchestration` 的 `skill-state/references/memory-state.md`）。
 
 **⑦ 内置脚本，让 Claude 生成代码给 Claude**
 

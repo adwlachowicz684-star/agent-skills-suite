@@ -1,7 +1,7 @@
 # 预算的硬边界：截断发生在哪、谁会被丢
 
-> 前置：`context-budget.md`（2% 规则、四桶）· `token-profiling.md`（三笔账）·
-> `disclosure-math.md`（三层算术）
+> 前置：`skill-context/references/context-budget.md`（2% 规则、四桶）· `skill-context/references/token-profiling.md`（三笔账）·
+> `skill-context/references/disclosure-math.md`（三层算术）
 > 这份只讲**硬边界本身**——超限之后具体砍哪里、哪些能把预算彻底省掉。
 
 ---
@@ -51,7 +51,7 @@
 
 > ⭐ **你精心写进 description 的触发词，可能根本没进上下文——被截掉了。**
 
-这就是 `discovery-ux.md` 里那条"装太多技能描述会被压缩"的具体数字。
+这就是 `skill-refining/references/discovery-ux.md` 里那条"装太多技能描述会被压缩"的具体数字。
 **它是共享预算，不是每个技能独立额度。**
 
 ---
@@ -71,7 +71,7 @@
 ✅ 把 Quick Reference（核心规则/命令/约束）放顶部，详细示例沉到底部
 ```
 
-这与《skill-crafting》的 `skill-structuring` 的 `directory-contract.md` 里"承重指令必须放顶部"是同一条。
+这与《skill-crafting》的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md` 里"承重指令必须放顶部"是同一条。
 这里给出的是**精确的字数**：前 5,000 tokens 是安全区。
 
 ---
@@ -159,7 +159,7 @@ deploy · release · 维护类任务 · 破坏性操作
 > （1M 窗口比 200K 给约 5 倍元数据空间）。
 
 ⚠️ 但注意这**只解决元数据预算问题**——
-前面 `scale-effects.md` 说过，**技能遮蔽才是主因**（占 68%），
+前面 `skill-governance/references/scale-effects.md` 说过，**技能遮蔽才是主因**（占 68%），
 换大窗口对遮蔽无效（两篇文章结论一致：换大窗口没用，只能减候选）。
 
 ---
@@ -191,4 +191,4 @@ deploy · release · 维护类任务 · 破坏性操作
 | 技能加载很慢 | ⭐ 动态注入命令太慢（>2s） |
 | 同一 reference 反复读 | 主文件加紧凑摘要 |
 | 预算不够 | 换大窗口 + 手动技能设 `disable-model-invocation` |
-| 触发不准（不是预算问题） | ⭐ 那是遮蔽，见 `scale-effects.md` |
+| 触发不准（不是预算问题） | ⭐ 那是遮蔽，见 `skill-governance/references/scale-effects.md` |

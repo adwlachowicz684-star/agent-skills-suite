@@ -10,7 +10,7 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 
 - 用于：**上下文怎么分配、成本怎么算、压缩怎么影响行为**
 - 不用于：正文怎么删 → 《skill-refining》
-- 不用于：改长输出 → 《skill-output》的 `output-length-budget.md`
+- 不用于：改长输出 → 《skill-output》的 `skill-output/references/output-length-budget.md`
 - 不用于：没触发 → 《skill-triggering》
 
 ## 核心原则
@@ -30,15 +30,15 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 
 ## 路由表（按需深读）
 
-| `context-budget-per-skill.md` | ⭐⭐⭐⭐⭐ 单技能预算三层；超预算先砍输出 |
-| `skill-cost-attribution.md` | ⭐⭐⭐⭐⭐ 认知切换 $15–30/月 vs 常驻 $2–4；判断预算才是瓶颈 |
-| `disclosure-math.md` | ⭐⭐⭐⭐⭐ 三级加载的精确数字；健康基线 8K = 窗口 4% |
-| `context-compression.md` | ⭐⭐⭐⭐⭐ 压缩只保留前 5000；指令放顶部 |
-| `context-engineering.md` | ⭐⭐⭐⭐ 上下文工程总纲 |
-| `token-profiling.md` | ⭐⭐⭐⭐ 逐项测量而非总数 |
-| `token-cost-optimization.md` | ⭐⭐⭐⭐ 伪技能陷阱与 Token 泄漏 |
-| `budget-truncation.md` | ⭐⭐⭐⭐ 截断边界与被切掉的部分 |
-| `context-budget.md` | ⭐⭐⭐ 预算分配 |
+| `skill-context/references/context-budget-per-skill.md` | ⭐⭐⭐⭐⭐ 单技能预算三层；超预算先砍输出 |
+| `skill-context/references/skill-cost-attribution.md` | ⭐⭐⭐⭐⭐ 认知切换 $15–30/月 vs 常驻 $2–4；判断预算才是瓶颈 |
+| `skill-context/references/disclosure-math.md` | ⭐⭐⭐⭐⭐ 三级加载的精确数字；健康基线 8K = 窗口 4% |
+| `skill-context/references/context-compression.md` | ⭐⭐⭐⭐⭐ 压缩只保留前 5000；指令放顶部 |
+| `skill-context/references/context-engineering.md` | ⭐⭐⭐⭐ 上下文工程总纲 |
+| `skill-context/references/token-profiling.md` | ⭐⭐⭐⭐ 逐项测量而非总数 |
+| `skill-context/references/token-cost-optimization.md` | ⭐⭐⭐⭐ 伪技能陷阱与 Token 泄漏 |
+| `skill-context/references/budget-truncation.md` | ⭐⭐⭐⭐ 截断边界与被切掉的部分 |
+| `skill-context/references/context-budget.md` | ⭐⭐⭐ 预算分配 |
 
 ## Critical Rules
 
@@ -59,6 +59,7 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 | 脚本 | 用途 |
 |---|---|
 | `scripts/estimate_tokens.py <dir>` | 成本估算 |
+| `skill-context/references/compression-truncation.md` | ⭐⭐⭐⭐⭐ 长会话里技能怎么消失；真失忆 vs 假失灵的二分诊断；compact hook 重注入 |
 
 ## 参考
 

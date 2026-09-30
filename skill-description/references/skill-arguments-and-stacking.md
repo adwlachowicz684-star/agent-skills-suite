@@ -1,7 +1,7 @@
 # 参数与叠加：\$ARGUMENTS、位置占位符、多技能同载
 
-> 相关：《skill-loading》的 `argument-substitution.md`（\$1 会静默损坏代码）·
-> 《skill-chaining》的 `skill-chaining-composition.md`（叠加不覆盖）
+> 相关：《skill-loading》的 `skill-loading/references/argument-substitution.md`（\$1 会静默损坏代码）·
+> 《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md`（叠加不覆盖）
 > 前置：那份讲⭐ 替换的陷阱，
 > 这份讲⭐⭐⭐⭐ ⭐ 替换的⭐ 全部语法 +
 > ⭐⭐⭐⭐⭐ 一条⭐ 此前没写过的⭐ 机制（⭐ 多技能同载）+
@@ -39,7 +39,7 @@ Migrate the $0 component from $1 to $2. Preserve all existing behavior and tests
 
 > ⭐⭐⭐⭐⭐ 注意⭐ 一个⭐ 容易记错的⭐ 点：⭐ **`$0` 是第一个参数，不是 `$1`**
 > （这⭐ 与⭐ shell 脚本的⭐ `$1` ⭐ 相反，⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 恰恰是⭐ shell 习惯⭐ 会让人写错）。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这一条⭐ 与 `argument-substitution.md` 里⭐ 那条⭐ 完全一致——
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这一条⭐ 与 `skill-loading/references/argument-substitution.md` 里⭐ 那条⭐ 完全一致——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 那里⭐ 是从⭐ "shell 示例代码会被替换"⭐ 的角度说的，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 这里⭐ 是从⭐ "取第几个"⭐ 的角度说的。
 
@@ -70,7 +70,7 @@ Migrate the $0 component from $1 to $2. Preserve all existing behavior and tests
 > ⭐⭐⭐⭐⭐ 第 ① 条⭐ 解释了⭐ 一个⭐ 常见的⭐ 诡异现象：
 > ⭐⭐⭐⭐⭐ **技能正文里⭐ 出现了⭐ 字面量 `$1`**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 那⭐ 不是替换失败，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而是⭐ "该位置没有参数"⭐ 的⭐ 设计行为。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `argument-substitution.md` 那条"参数不足时 \$2 会原样留下，
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-loading/references/argument-substitution.md` 那条"参数不足时 \$2 会原样留下，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 模型会去猜它是什么"⭐ 是⭐ 同一件事，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而这里⭐ 补上了⭐ 精确的⭐ 判定规则。
 
@@ -110,7 +110,7 @@ Migrate the $0 component from $1 to $2. Preserve all existing behavior and tests
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 老版本上⭐ 多写几个技能名⭐ 会⭐ 全部变成⭐ 一段奇怪的参数。**
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与⭐ 已有知识的⭐ 对接：
-> ⭐⭐⭐⭐⭐ **`skill-chaining-composition.md` 说"后加载的不覆盖先加载的，所有活跃技能的约束同时生效"**——
+> ⭐⭐⭐⭐⭐ **`skill-composition/references/skill-chaining-composition.md` 说"后加载的不覆盖先加载的，所有活跃技能的约束同时生效"**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 本条⭐ 正是⭐ 那个"同时活跃"⭐ 状态的⭐ 具体产生方式之一，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 并且⭐ 给出了⭐ 一个硬上限（6 个）。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 顺带一提：⭐⭐⭐⭐⭐ **这个上限（6）比⭐ 我们建议的⭐ "单任务挂载 ≤3"
@@ -155,8 +155,8 @@ Your task: Summarize this pull request...
 > ⭐⭐⭐⭐⭐ 第 ② 条⭐ 是⭐ 一条⭐ 典型的⭐ 安全设计：
 > ⭐⭐⭐⭐⭐ **不允许⭐ 命令输出⭐ 再产生⭐ 新的占位符**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ 否则⭐ 一个⭐ 被注入的⭐ 输出⭐ 就能⭐ 诱导⭐ 执行⭐ 另一条命令
-> （⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 正是 `unicode-injection-defense.md` 那类⭐ 二次注入的⭐ 变体）。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与⭐ `argument-substitution.md` 的
+> （⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 正是 `skill-security/references/unicode-injection-defense.md` 那类⭐ 二次注入的⭐ 变体）。
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与⭐ `skill-loading/references/argument-substitution.md` 的
 > "⭐ 替换在加载时执行，⭐⭐⭐⭐⭐ ⭐⭐⭐ 模型读到之前⭐ 就已经替换完了"⭐ 是⭐ 同一族：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **替换发生在模型看见之前，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 因此⭐ 是⭐ 不可被模型审查的。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 推论：⭐⭐⭐⭐⭐ **这类"加载前执行"的机制
@@ -172,7 +172,7 @@ Your task: Summarize this pull request...
 ## 5. ⭐⭐⭐⭐ 与已有知识的对接
 
 ```
-`argument-substitution.md`  → ⭐⭐⭐⭐⭐ 讲替换的陷阱（$1 会损坏 shell 示例代码）
+`skill-loading/references/argument-substitution.md`  → ⭐⭐⭐⭐⭐ 讲替换的陷阱（$1 会损坏 shell 示例代码）
 ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 本份           → ⭐⭐⭐⭐⭐ ⭐⭐⭐ 讲替换的完整语法与规则（三种占位符 + ! + 叠加）
 
 两者共同指向一条：
@@ -183,7 +183,7 @@ Your task: Summarize this pull request...
 
 > ⭐⭐⭐⭐⭐ 还有一条⭐ 关于⭐ `context: fork` 的⭐ 交叉印证：
 > ⭐⭐⭐⭐⭐ **本份的示例技能 ⭐ 同时用了 `context: fork` + `agent: Explore` + `allowed-tools` + `!` 注入**——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 正好⭐ 演示了⭐ `fork-token-economics.md` 那句
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 正好⭐ 演示了⭐ `skill-subagents/references/fork-token-economics.md` 那句
 > "⭐ fork 型技能⭐ 必须写成⭐ 一份⭐ 独立可执行的⭐ 工单"：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **数据（`!` 注入的结果）⭐ 已经⭐ 在正文里了，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 子代理⭐ 不需要⭐ 再回去问父会话要任何东西。**

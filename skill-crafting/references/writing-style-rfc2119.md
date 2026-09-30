@@ -1,8 +1,8 @@
 # 文风规范：RFC 2119、语义换行、句子长度
 
-> 相关：《skill-crafting》的 `imperative-style.md` ·
-> `write-reasons-not-rules.md` · `anti-patterns-catalog.md`
-> 前置：`imperative-style.md` 讲祈使句 vs 第二人称，
+> 相关：《skill-crafting》的 `skill-crafting/references/imperative-style.md` ·
+> `skill-crafting/references/write-reasons-not-rules.md` · `skill-patterns/references/anti-patterns-catalog.md`
+> 前置：`skill-crafting/references/imperative-style.md` 讲祈使句 vs 第二人称，
 > 这份讲⭐ **更细的可执行文风约束**——关键词、换行、句长、层级。
 
 ---
@@ -44,7 +44,7 @@ MUST NOT    禁止
 ```
 
 > ⭐ 好处是**强度可查**：你可以数一数 MUST 有多少条，
-> 如果一屏好几个就该降级（与 `write-reasons-not-rules.md` 的三成原则呼应）。
+> 如果一屏好几个就该降级（与 `skill-crafting/references/write-reasons-not-rules.md` 的三成原则呼应）。
 
 **注意一个张力**：
 
@@ -84,7 +84,7 @@ RFC 2119 用 "Agent MUST ..."（第三人称主语）
 ```
 
 > ⭐ 第 ② 条对团队协作特别值钱：
-> `skill-ownership-changeflow.md` 说"git 历史是定位回归的第一工具"，
+> `skill-governance/references/skill-ownership-changeflow.md` 说"git 历史是定位回归的第一工具"，
 > 而语义换行让这个工具**精确到行**。
 
 ---

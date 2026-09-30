@@ -1,8 +1,8 @@
 # 操作卡写法：Keep / Delete 清单与 30–60 行目标
 
-> 相关：《skill-content》的 `skill-anatomy.md` ·
-> 《skill-gallery》的 `first-skill-minimal.md` ·
-> `token-bloat-audit.md`
+> 相关：《skill-content》的 `skill-content/references/skill-anatomy.md` ·
+> 《skill-gallery》的 `skill-gallery/references/first-skill-minimal.md` ·
+> `skill-crafting/references/token-bloat-audit.md`
 > 前置：那些讲"结构是什么"，
 > 这份给⭐ **一份可照抄的取舍清单**：正文里该留什么、该删什么、目标多长。
 
@@ -34,7 +34,7 @@
 
 > ⭐⭐ 第 ③ 条"输出意味着什么"是多数技能漏掉的一项——
 > 它给出步骤、给输出格式，但**不说"看到这个输出说明什么、下一步怎么办"**。
-> 这正是 `script-cli-contract.md` 说"模型靠退出码判断"的那个道理的正文版。
+> 这正是 `skill-scripting/references/script-cli-contract.md` 说"模型靠退出码判断"的那个道理的正文版。
 
 **澄清只问缺的**（避免反复打断）：
 
@@ -95,7 +95,7 @@
 
 > ⭐ 这里出现了一个比主套件常用的 500 行更严的口径。
 > 两者不矛盾：**500 行是硬边界（物理截断），120 行是质量目标**。
-> 这与 `budget-truncation.md` 的"压缩后只留前 5,000 tokens"一致——
+> 这与 `skill-context/references/budget-truncation.md` 的"压缩后只留前 5,000 tokens"一致——
 > **越短，被完整保留的概率越高。**
 
 **如果 setup 很长**：
@@ -121,7 +121,7 @@ description: Use when [触发条件] — [具体能力]. Handles [文件类型/�
    then outputting results.
 ```
 
-> ⭐⭐ 坏例子的问题正是 `skill-anatomy-antipatterns.md` 那条
+> ⭐⭐ 坏例子的问题正是 `skill-patterns/references/skill-anatomy-antipatterns.md` 那条
 > **"绝不在 description 里总结工作流——Claude 可能照着它抄近路"**。
 > 两个独立来源给出了同一个禁令。
 
@@ -155,7 +155,7 @@ description: Use when [触发条件] — [具体能力]. Handles [文件类型/�
 ```
 
 > ⭐ "第三人称"的理由给得很实在：**它是作为元数据被注入的，
-> 不是 agent 说出的话**。这与 `imperative-style.md` 讲的"you 指代不确定"
+> 不是 agent 说出的话**。这与 `skill-crafting/references/imperative-style.md` 讲的"you 指代不确定"
 > 是同一件事的另一面。
 
 ---
@@ -175,7 +175,7 @@ description: Use when [触发条件] — [具体能力]. Handles [文件类型/�
 
 > ⭐⭐ 这条解释了为什么"NOT for X → 用 Y 代替"这个句式这么强：
 > **它同时是路由提示和边界声明，而且失败了也不会造成伤害。**
-> 这正是 `description-scope-shape.md` 与 `namespace-collision.md`
+> 这正是 `skill-description/references/description-scope-shape.md` 与 `skill-orchestration/references/namespace-collision.md`
 > 都推荐的写法——现在有了机制上的解释。
 
 **跨技能指针的另一条纪律**：
