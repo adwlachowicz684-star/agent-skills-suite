@@ -120,4 +120,4 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 ## 参考
 
 - 相关技能：《skill-crafting》（措辞与形态）·《skill-scripting》（脚本契约）·
-  《skill-evaluating》（`skill-evaluating/references/assert-on-environment.md` 断言打在环境状态上）
+  《skill-evaluating》（`skill-judging/references/assert-on-environment.md` 断言打在环境状态上）

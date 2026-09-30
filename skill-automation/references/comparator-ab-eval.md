@@ -1,7 +1,7 @@
 # A/B 对比评测：改了到底有没有变好
 
 > 相关：《skill-automation》的 `skill-automation/references/claude-ab-loop.md` ·
-> `skill-evaluating/references/regression-baseline.md` · `skill-evaluating/references/judge-design.md`
+> `skill-evaluating/references/regression-baseline.md` · `skill-judging/references/judge-design.md`
 > 前置：这份只讲⭐ 官方新增的 comparator 机制与统计纪律。
 
 ---
@@ -27,7 +27,7 @@
 
 > ⭐⭐ **盲评是这个机制的关键**——
 > 不盲的话，评委知道自己看过哪个版本、或者知道"哪个是新的"，
-> 就会产生系统性偏差。这与 `skill-evaluating/references/judge-design.md` 的"换一个全新实例来审"同源。
+> 就会产生系统性偏差。这与 `skill-judging/references/judge-design.md` 的"换一个全新实例来审"同源。
 
 **为什么必须并行独立跑**：
 

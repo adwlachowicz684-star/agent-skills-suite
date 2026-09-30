@@ -44,7 +44,7 @@
 > "需要 Python 环境"不是声明，`python: ">=3.11"` 才是。
 >
 > 这与 `skill-execution/references/preflight-gate.md` 的"Prerequisites 要可判定"、
-> `skill-evaluating/references/determinism-boundary.md` 的"确定性判断用确定性机制"
+> `skill-judging/references/determinism-boundary.md` 的"确定性判断用确定性机制"
 > 是同一原则在依赖层的版本。
 
 ---

@@ -2,7 +2,7 @@
 
 > 相关：《skill-triggering》的 `skill-triggering/references/failure-quadrant-diagnosis.md`（稳定地错 vs 偶尔错）·
 > `skill-evaluating/references/eval-case-design.md`（按分支铺用例）·
-> `skill-evaluating/references/benchmark-assertions-delta.md`（baseline 会不会也通过）·
+> `skill-judging/references/benchmark-assertions-delta.md`（baseline 会不会也通过）·
 > 《skill-examples》的 `skill-examples/references/example-values-become-defaults.md`（示例值被复制）·
 > 《skill-execution》的 `skill-execution/references/repeat-invocation-same-session.md`（第二次测的是自洽）·
 > 《skill-refining》的 `skill-refining/references/memory-layering-and-skills.md`

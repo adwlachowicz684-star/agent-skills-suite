@@ -52,7 +52,7 @@
 | 撤销 | 不需要 | ⭐⭐⭐ 必须有回滚路径 |
 
 > ⭐⭐⭐⭐ 第五行最容易被漏，也最有价值——
-> 它和 `skill-evaluating/references/assert-on-environment.md` 是同一条：
+> 它和 `skill-judging/references/assert-on-environment.md` 是同一条：
 > **只读技能可以断言"输出里说了什么"，写入技能必须断言"世界变成了什么样"。**
 
 ---

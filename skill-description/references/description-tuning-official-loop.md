@@ -82,7 +82,7 @@
 
 > ⭐⭐⭐ 触发是⭐ 概率性的，单次通过/不通过⭐ 不能作为判据。
 >
-> ⭐⭐ 与我们已有的 `skill-evaluating/references/assert-on-environment.md` 的 **pass^5** 同源——
+> ⭐⭐ 与我们已有的 `skill-judging/references/assert-on-environment.md` 的 **pass^5** 同源——
 > 只是这里更省（3 次），因为⭐ 触发判定的成本比完整执行低。
 > ⭐⭐ 两者合起来是一套分级：**触发稳定性跑 3 次，执行正确性跑 5 次。**
 

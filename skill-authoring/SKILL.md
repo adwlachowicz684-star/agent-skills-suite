@@ -39,7 +39,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 | 你要做的事 | 读 |
 |---|---|
 | **⭐ 三步实操手册** | `skill-authoring/references/how-to-guide.md`（怎么做）· `skill-authoring/references/creation-framework.md`（骨架与流程）· `skill-authoring/references/what-not-to-do.md`（不能做） |
-| **完整流程 / 六阶段** | `skill-authoring/references/workflow.md` |
+| **完整流程 / 六阶段** | `skill-refining/references/workflow.md` |
 | ⭐ **跨模型测试矩阵：Haiku/Sonnet/Opus 三档** | `skill-authoring/references/testing-matrix.md` |
 | **看模板** | `assets/SKILL_template.md` |
 | **写完后自查 / 反模式对照表** | `skill-authoring/references/authoring-checklist.md` |

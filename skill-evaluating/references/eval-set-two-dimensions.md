@@ -113,7 +113,7 @@
 >       ⭐ 线上出问题的恰恰是⭐ 你没测过的那些情况
 > ```
 >
-> ⭐⭐ 这也解释了 `skill-evaluating/references/fault-injection-eval.md` 为什么值得做——
+> ⭐⭐ 这也解释了 `skill-judging/references/fault-injection-eval.md` 为什么值得做——
 > 那整份文档就是专门造失败路径的。
 > 以及 `skill-triggering/references/three-failure-modes.md` 的"引用了不存在的模板文件"——
 > 那也是一个失败路径。

@@ -85,7 +85,7 @@
 
 > ⭐⭐⭐ **"如果产物不可定位，完成也就不可验证。"**
 
-> ⭐⭐ 这条与 `skill-evaluating/references/assert-on-environment.md` 的
+> ⭐⭐ 这条与 `skill-judging/references/assert-on-environment.md` 的
 > "断言要打在环境状态上"是同一原则的⭐ 上游版本：
 > **先让产物可定位，才谈得上断言。**
 > 一个只说"已完成"的技能，你连该去查什么都不知道。
@@ -110,7 +110,7 @@
 > 但模型会这么推导。
 >
 > 这也是为什么门禁必须是⭐ 显式的、独立于任务目标的
-> （呼应 `skill-evaluating/references/determinism-boundary.md` 的 Hooks、
+> （呼应 `skill-judging/references/determinism-boundary.md` 的 Hooks、
 > `skill-security/references/allowed-tools-reference.md` 的执行侧强制）。
 
 ---
@@ -154,7 +154,7 @@
 >
 > ⭐⭐ 与我们已有的对照：
 > `skill-recovery/references/error-handling.md` 讲"错误怎么报"（退出码分级），
-> `skill-evaluating/references/fault-injection-eval.md` 讲"失败怎么造"，
+> `skill-judging/references/fault-injection-eval.md` 讲"失败怎么造"，
 > ⭐⭐⭐ 这里讲的是**失败在契约里的地位**——
 > 它是⭐ 流程的一部分，不是⭐ 兜底的备注。
 

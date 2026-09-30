@@ -151,7 +151,7 @@
 > ⭐⭐⭐ 如果你断言的是"是否按步骤执行"，你测的是⭐ **是否听话**；
 > 断言"输出能编译吗？用了正确的 API 吗？"，测的才是⭐ **有没有用**。
 >
-> ⭐⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的
+> ⭐⭐ 这与 `skill-judging/references/assert-on-environment.md` 的
 > "断言打在环境状态上，而不是模型'说了正确的话'"同源，
 > ⭐⭐ 但这里是在⭐ 技能评测的语境下说的，更具体。
 

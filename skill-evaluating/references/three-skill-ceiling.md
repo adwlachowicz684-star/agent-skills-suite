@@ -117,7 +117,7 @@ SkillsBench 数据：
 
 > ⭐⭐⭐ 第三行最值得记：**"提示词里写'请运行 lint'"是错误做法**——
 > 因为那是一句⭐ 请愿，不是一次执行。
-> ⭐⭐ 这与 `skill-evaluating/references/determinism-boundary.md` 的"Hooks 用于模型不可被信任去遵守的事"、
+> ⭐⭐ 这与 `skill-judging/references/determinism-boundary.md` 的"Hooks 用于模型不可被信任去遵守的事"、
 > `skill-patterns/references/feedback-loop-design.md` 的"规则升级为代码"是⭐ 同一条原则的
 > ⭐⭐⭐ **第四个独立来源**。
 

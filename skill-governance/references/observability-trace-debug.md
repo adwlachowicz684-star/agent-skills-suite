@@ -168,7 +168,7 @@ safe-gcloud-logs.sh  只允许 gcloud logging read
 > ⭐⭐ **LLM 会照着你给的指令做，所以护栏要放在包装器里——
 > 不在提示里，在代码里。**
 
-> ⭐⭐ 这与 `skill-evaluating/references/determinism-boundary.md` 完全同源：
+> ⭐⭐ 这与 `skill-judging/references/determinism-boundary.md` 完全同源：
 > **"把破坏性命令拦截写进技能是表演"**——
 > 这里是同一个结论的**正面实现样板**。
 

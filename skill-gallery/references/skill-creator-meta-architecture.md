@@ -146,7 +146,7 @@ Draft Skill → Write Test Cases → ⭐ Spawn Parallel Runs → Grade
 
 > ⭐⭐⭐⭐⭐ 第 ② 条⭐ 与⭐ 我们⭐ 已有的⭐ 一条⭐ 完全同一：
 > ⭐⭐⭐⭐⭐ **"⭐ PASS 必须有 concrete 证据，⭐⭐⭐⭐⭐ ⭐⭐⭐ 不'疑罪从无'"**
-> （`skill-evaluating/references/assert-on-environment.md`）。
+> （`skill-judging/references/assert-on-environment.md`）。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这里⭐ 把⭐ 它⭐ 做成了⭐ **数据结构里的⭐ 必填字段**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 有 `passed` 就必须有 `evidence`，⭐⭐⭐⭐⭐ ⭐⭐⭐ 否则⭐ schema 不合规。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 又是⭐ 一次⭐ "⭐ 书面规则⭐ 升级为⭐ 代码"⭐ 的实例。
@@ -155,7 +155,7 @@ Draft Skill → Write Test Cases → ⭐ Spawn Parallel Runs → Grade
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 理由⭐ 是⭐ 可判定的：⭐⭐⭐⭐⭐ ⭐⭐⭐ 打分需要⭐ 一个
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ "⭐ 什么是 3 分"⭐ 的⭐ 标准，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 那个标准⭐ 本身
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 又需要⭐ 主观⭐ 判断——⭐⭐⭐⭐⭐ ⭐⭐⭐ 于是⭐ 循环回去了。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-evaluating/references/assert-on-environment.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-judging/references/assert-on-environment.md` 的
 > "⭐ 断言打在⭐ 环境状态上⭐ 而非⭐ 文字上"⭐ 是⭐ 同一族：⭐⭐⭐⭐⭐ ⭐⭐⭐ **都⭐ 在⭐ 消除
 > ⭐ "看起来对"⭐ 与 ⭐ "真的对"⭐ 之间的⭐ 模糊地带。**
 

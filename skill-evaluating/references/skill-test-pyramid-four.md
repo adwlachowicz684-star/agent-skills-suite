@@ -1,7 +1,7 @@
 # 测试金字塔四层：L1 结构 → L4 回归
 
 > 相关：《skill-evaluating》的 `skill-evaluating/references/skill-test-pyramid-four.md` ·
-> `skill-evaluating/references/assert-on-environment.md` · `skill-patterns/references/skill-type-testing.md`
+> `skill-judging/references/assert-on-environment.md` · `skill-patterns/references/skill-type-testing.md`
 > 前置：那些讲"断言什么、怎么断言"，
 > 这份讲⭐ **分层：每一层解决一个不同的问题，缺一层就有一类盲区**。
 
@@ -121,7 +121,7 @@ Comparator 盲评 A/B
 
 > ⭐⭐ 第 ② 步是关键洞察：**断言的质量取决于你是否已经看过真实输出。**
 > 跳过手跑直接写自动断言，写出来的往往是"恒过的断言"——
-> 而 `skill-evaluating/references/assert-on-environment.md` 说过：**恒过的断言比没有断言更危险。**
+> 而 `skill-judging/references/assert-on-environment.md` 说过：**恒过的断言比没有断言更危险。**
 
 **CI 的形态**：
 

@@ -50,7 +50,7 @@ Workflow   定义⭐「先做 A 再做 B」 → ⭐ 业务流程编排
 > 模型哪天理解偏了，顺序就乱了。
 > **你想保证顺序，就该用 Workflow，别指望模型每次都记得。**
 
-> ⭐ 这与 `skill-evaluating/references/determinism-boundary.md` 那条
+> ⭐ 这与 `skill-judging/references/determinism-boundary.md` 那条
 > "Hooks 用于模型不可被信任去遵守的事；Skills 用于模型需要知道的事"
 > 是同一原则：**需要保证 → 交给有强制力的层**。
 

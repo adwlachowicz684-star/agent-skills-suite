@@ -125,7 +125,7 @@ CI 算出 diff → ⭐ 谁判断"这个变化是改进还是退化"？
 | 方式 | 适用 | 风险 |
 |---|---|---|
 | ⭐ 人工判 | 低频高价值技能 | 会变成走过场 |
-| LLM-as-Judge | 大规模 | ⭐ 需要防偏差（见 `skill-evaluating/references/judge-design.md`） |
+| LLM-as-Judge | 大规模 | ⭐ 需要防偏差（见 `skill-judging/references/judge-design.md`） |
 | ⭐⭐ 分层：结构自动判、措辞人判 | ⭐ 推荐 | — |
 
 > ⭐⭐⭐ 推荐第三种的理由很实际：

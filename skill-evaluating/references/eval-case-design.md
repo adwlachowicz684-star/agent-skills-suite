@@ -95,7 +95,7 @@
 ```
 
 > ⭐⭐ 前五条是"该有的有没有"，最后一条是"不该有的有没有"——
-> 这与 `skill-evaluating/references/assert-on-environment.md` 的"断言打在环境状态上"、
+> 这与 `skill-judging/references/assert-on-environment.md` 的"断言打在环境状态上"、
 > `skill-quality/references/four-dimension-eval.md` 的"只看结果会漏掉顺序颠倒"是同一条线：
 > **不同的检查手段发现不同类别的缺陷，缺一类就有一个盲区。**
 

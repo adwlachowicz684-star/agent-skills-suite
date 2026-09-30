@@ -1,7 +1,7 @@
 # CI 里能验证什么、不能验证什么
 
 > 相关：《skill-evaluating》的 `skill-evaluating/references/skill-test-pyramid-four.md`（L1 契约 / L2 触发 / L3 执行 / L4 benchmark）·
-> `skill-evaluating/references/assert-on-environment.md`（pass^5）· `skill-evaluating/references/benchmark-assertions-delta.md`（delta 判读）
+> `skill-judging/references/assert-on-environment.md`（pass^5）· `skill-judging/references/benchmark-assertions-delta.md`（delta 判读）
 > 前置：那份讲⭐ 测试金字塔的四层，
 > 这份讲⭐⭐⭐⭐ ⭐ 哪几层能进 CI + ⭐⭐⭐⭐⭐ 一条⭐ 必须记住的⭐ 边界。
 
@@ -44,7 +44,7 @@
 > ```
 > "YAML 通过但技能仍失败" ←→ ⭐⭐⭐⭐⭐ `skill-loading/references/yaml-frontmatter-errors.md` 的⭐ 半可用态
 > "结构正确的废话"        ←→ ⭐⭐⭐⭐⭐ `skill-triggering/references/three-failure-modes.md` 的⭐ 静默失败
-> "断言打在环境状态上"    ←→ ⭐⭐⭐⭐ `skill-evaluating/references/assert-on-environment.md` 不能只检查它说了什么
+> "断言打在环境状态上"    ←→ ⭐⭐⭐⭐ `skill-judging/references/assert-on-environment.md` 不能只检查它说了什么
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 三条⭐ 从不同角度⭐ 指向同一件事：
 > ⭐⭐⭐⭐⭐ **结构层的通过⭐ 从来不是⭐ 行为层的证据。**

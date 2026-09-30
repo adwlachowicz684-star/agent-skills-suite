@@ -103,7 +103,7 @@
 主观质量：抽样**盲评成对**给人工看，评审者不知道哪个是候选。
 用**绑定到产品任务**的 rubric，而不是"你更喜欢哪个"。
 LLM 评委可以帮忙筛量，但要**校准到人工标签**并监控位置/冗长偏差
-（见 `skill-evaluating/references/judge-design.md`）。
+（见 `skill-judging/references/judge-design.md`）。
 
 ## 前进或回滚要"刻意"
 

@@ -1,7 +1,7 @@
 ---
 name: skill-evaluating
 description: 评估一个 Agent Skill 到底有没有用。用于技能不触发 / 乱触发 / 改了不生效 / 触发后跑偏、要做 A/B 配对对照、算 Skill Lift、跑四层测试金字塔、做质量评分 Rubric、排查加载失败与运行时问题。
-  Do NOT use for 从零写技能（用 skill-authoring）、技能不触发乱触发与加载失败（用 skill-triggering）、瘦身拆分（用 skill-refining）、安全审计与合规（用 skill-governance）、打包发布（用 skill-distribution），也不用于单纯解释概念。
+  Do NOT use for 从零写技能（用 skill-authoring）、技能不触发乱触发与加载失败（用 skill-triggering）、断言与判定怎么设计（用 skill-judging）、质量评分维度（用 skill-quality）、瘦身拆分（用 skill-refining）、安全审计与合规（用 skill-governance）、打包发布（用 skill-distribution），也不用于单纯解释概念。
 ---
 
 # 评估技能有没有用
@@ -10,6 +10,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 
 - 用于：**配对对照** · **质量评分** · **评测集设计** · **触发后的运行时诊断**
 - 不用于：从零写 · 瘦身拆分 · 安全审计 · 打包发布
+- ⭐ **断言打在哪 / Judge 怎么设计 / 什么必须交给代码判 → 《skill-judging》**
 - ⭐ **技能不触发 / 乱触发 / 改了不生效 / 加载失败 → 《skill-triggering》**
 
 ## 核心原则
@@ -35,7 +36,6 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `skill-evaluating/references/skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
 | `skill-evaluating/references/eval-set-rot.md` | ⭐⭐⭐⭐⭐ 测试集自身四种腐烂；⭐⭐⭐⭐⭐ 全绿是坏消息；⭐⭐ 定期改坏技能看它报不报警 |
 | `skill-triggering/references/skill-health-metrics.md` | ⭐⭐★★★ 指标是问诊工具；★Token收益；★成功率三层 |
-| `skill-evaluating/references/benchmark-assertions-delta.md` | ⭐⭐⭐⭐ 断言好坏+delta判读表+VibeCheck；★约束型要写抑制测试 |
 | `skill-evaluating/references/three-skill-ceiling.md` | ⭐⭐⭐⭐ 每任务挂载>3个技能成功率下滑；★门槛曲线 |
 | `skill-evaluating/references/eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
 | `skill-triggering/references/outgrowth-regression-detection.md` | ⭐⭐⭐ 三失败模式：被追上要归档、回归要修、本来不行要重做 |
@@ -46,11 +46,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | `skill-evaluating/references/skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
 | `skill-triggering/references/three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |
 | `skill-triggering/references/trace-debugging.md` | ⭐ 读 trace：找第一个错的 turn + 循环唯一根因 |
-| `skill-evaluating/references/fault-injection-eval.md` | ⭐ 故障注入评测：先写恢复契约 + 故障矩阵 + 四判定 |
-| `skill-evaluating/references/determinism-boundary.md` | ⭐ 确定性边界：什么必须放 Hook，什么放技能 |
-| `skill-evaluating/references/assert-on-environment.md` | ⭐ 断言打在环境状态上 + pass^5 + 20 条路由集 |
 | `skill-evaluating/references/eval-loop-official.md` | ⭐ 官方评估四步、benchmark delta、盲评 A/B |
-| `skill-evaluating/references/deterministic-first.md` | ⭐ 确定性优先：能用代码判的别交给模型 |
 | `skill-evaluating/references/eval-case-sources.md` | ⭐ 每次手动修复都变成一条用例；10–20 条就够 |
 
 **正式评估**：
@@ -61,7 +57,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | ⭐ **Skill Lift：A/B 对照方法** | `skill-quality/references/skill-lift-eval.md` |
 | **评测工具、pass@k、能力 vs 回归** | `skill-automation/references/eval-tooling.md` |
 | ⭐ **四维评估：Outcome/Process/Style/Efficiency 可代码化** | `skill-quality/references/four-dimension-eval.md` |
-| ⭐ **LLM-as-Judge：四种形式、机器可读判据、偏差与校准** | `skill-evaluating/references/judge-design.md` |
+| ⭐ **判定通过/不通过：断言、Judge、确定性边界** | **`skill-judging`** |
 | **官方有效性清单（逐项对照）** | `skill-quality/references/official-checklist.md` |
 | ⭐ **金丝雀发布：把技能改动当可执行配置** | `skill-automation/references/canary-release.md` |
 | ⭐ **触发与加载问题（不触发/乱触发/不生效）** | **`skill-triggering`** |

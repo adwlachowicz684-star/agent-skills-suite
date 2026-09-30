@@ -78,7 +78,7 @@ csv-analyzer-workspace/
 ③ 人工评审     —— 金标准
 ```
 
-> ⭐ 与 `skill-evaluating/references/deterministic-first.md` 一致：**从代码检查起步**。
+> ⭐ 与 `skill-judging/references/deterministic-first.md` 一致：**从代码检查起步**。
 
 ### 步骤 4：分析并迭代
 

@@ -116,7 +116,7 @@
 > ⭐⭐⭐⭐⭐ 第 ③ 条那组对照⭐ 值得单独抄——
 > ⭐⭐⭐⭐⭐ 它把"要具体"落成了⭐ 一个可检查的形式：
 > ⭐⭐⭐⭐ **每条验证项都能被⭐ 机械判定**（非空 / ≥1 / 不在过去）。
-> ⭐⭐⭐⭐⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的
+> ⭐⭐⭐⭐⭐ 这与 `skill-judging/references/assert-on-environment.md` 的
 > "断言要打在环境状态上（版本号 == 1.42.0）"
 > ⭐⭐⭐⭐⭐ ⭐ 是⭐ 同一条原则在⭐ 提示措辞层面的应用。
 >
