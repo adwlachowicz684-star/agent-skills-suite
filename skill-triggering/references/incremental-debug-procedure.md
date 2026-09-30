@@ -1,7 +1,7 @@
 # 增量验证：从最小配置一步步加
 
-> 相关：《skill-evaluating》的 `test-pyramid.md` ·
-> `troubleshooting-manual.md` · 《skill-loading》的 `nine-checks-not-working.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/test-pyramid.md` ·
+> `skill-triggering/references/troubleshooting-manual.md` · 《skill-loading》的 `skill-loading/references/nine-checks-not-working.md`
 > 前置：那些文档讲"故障后怎么定位"，
 > 这份讲⭐ 开发过程中怎么用增量方式让故障根本不发生。
 
@@ -37,7 +37,7 @@ Output "Test successful".
 ```
 
 > ⭐ 这一步的价值是**把"技能根本没被识别"和"技能逻辑有问题"
-> 一次性分开**——和 `nine-checks-not-working.md` 的显式调用是同一招，
+> 一次性分开**——和 `skill-loading/references/nine-checks-not-working.md` 的显式调用是同一招，
 > 只不过这个更早、更便宜。
 
 ---
@@ -60,7 +60,7 @@ Step 5: 加 scripts/（如果需要）
 
 > ⭐ **每步都验证，就能快速定位问题出在哪一步。**
 >
-> 这与 `argument-substitution.md` 的"一次只改一处"是同一条纪律：
+> 这与 `skill-loading/references/argument-substitution.md` 的"一次只改一处"是同一条纪律：
 > **同时改多处，出问题就分不清是哪个引起的。**
 
 ---
@@ -152,7 +152,7 @@ description: "description text"
 - Expected: 错误 "File not found"
 ```
 
-> ⭐ 三类用例的划分与 `three-failure-modes.md` 的
+> ⭐ 三类用例的划分与 `skill-triggering/references/three-failure-modes.md` 的
 > 正例/反例/边界例一致：**正常 / 缺参数 / 坏输入**。
 
 **回归测试**：
@@ -161,7 +161,7 @@ description: "description text"
 ⭐ 更新技能后，重跑之前通过的用例。
 ```
 
-这与 `skill-ownership-changeflow.md` 的"任何修改必须跑 eval"是同一条。
+这与 `skill-governance/references/skill-ownership-changeflow.md` 的"任何修改必须跑 eval"是同一条。
 
 ---
 

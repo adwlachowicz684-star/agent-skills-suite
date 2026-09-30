@@ -1,7 +1,7 @@
 # 版本管理三层次与迭代策略（含 in-session 陷阱）
 
-> 相关：《skill-versioning》的 `version-strategy.md` ·
-> `release-versioning.md` · 《skill-distribution》的 `supply-chain-trust.md`
+> 相关：《skill-versioning》的 `skill-versioning/references/version-strategy.md` ·
+> `skill-distribution/references/release-versioning.md` · 《skill-distribution》的 `skill-distribution/references/supply-chain-trust.md`
 
 ---
 
@@ -163,7 +163,7 @@ L1 做快速标识 + L2 做完整历史追溯 + L3 兜底
 ```
 
 > ⭐ 最后一项很关键：**定期合并重叠技能**——
-> 因为重叠正是 `library-size-effect.md` 里那个"遮蔽占 68%"的根源。
+> 因为重叠正是 `skill-selection/references/library-size-effect.md` 里那个"遮蔽占 68%"的根源。
 
 ---
 

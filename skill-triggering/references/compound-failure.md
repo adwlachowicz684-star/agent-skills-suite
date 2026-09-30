@@ -1,9 +1,9 @@
 # 技能的复合失效：三个同时坏、互相当不在场证明
 
-> 相关：《skill-triggering》的 `troubleshooting-order-five-cases.md`（五步顺序）·
-> `hit-rate-four-questions.md`（四类诊断）·
-> 《skill-evaluating》的 `eval-set-rot.md`（标尺变形）·
-> 《skill-recovery》的 `execution-error-protocol.md`（错误被吞掉）
+> 相关：《skill-triggering》的 `skill-triggering/references/troubleshooting-order-five-cases.md`（五步顺序）·
+> `skill-triggering/references/hit-rate-four-questions.md`（四类诊断）·
+> 《skill-evaluating》的 `skill-evaluating/references/eval-set-rot.md`（标尺变形）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`（错误被吞掉）
 > 前置：那些教⭐⭐⭐ 单因排错（一步步排除），
 > 这份讲⭐⭐⭐⭐⭐ **当两个以上故障同时存在时，单因排错会系统性地失败**——
 > 以及为什么"修好了一个，另一个立刻显形"是好事而不是倒霉。
@@ -142,7 +142,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ **核心纪律：每层清干净后重新观察一次，再决定去下一层。**
-> 这正是 `troubleshooting-order-five-cases.md` 说的"找到问题就停"
+> 这正是 `skill-triggering/references/troubleshooting-order-five-cases.md` 说的"找到问题就停"
 > 的加强版——**不仅要停，还要停完重新看**。
 
 配套一条硬要求：**每一层的结论要能被独立验证**。

@@ -36,7 +36,7 @@
         切换 Agent 模式、检查依赖工具、跨平台复现
 ```
 
-> ⭐ 呼应 `reload-debug.md`：
+> ⭐ 呼应 `skill-triggering/references/reload-debug.md`：
 > **重启客户端往往没用**——要执行 `/reload-skills`。
 > 技能系统有自己的缓存与注册表。
 
@@ -140,7 +140,7 @@
 > 最后定位到技能目录里放了一个**几十 MB 的图片**，把上下文撑爆了。
 > 压缩图片后立刻解决。
 
-> ⭐ 呼应 `skill-distribution` 的 `packaging.md` 的孤儿资产检测与 `skill-refining` 的 `context-budget.md`：
+> ⭐ 呼应 `skill-distribution` 的 `skill-distribution/references/packaging.md` 的孤儿资产检测与 `skill-refining` 的 `skill-context/references/context-budget.md`：
 > **技能目录里不要放大文件。**
 
 ---

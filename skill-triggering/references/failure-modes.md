@@ -111,7 +111,7 @@
 > agent 可能会适配、部分使用、或重建相关流程。
 
 **推论**：别把"是否命中 ground-truth 技能"当成主要指标。
-真正要看的是**下游任务是否成功**（见 `metrics.md` 第 5 层）。
+真正要看的是**下游任务是否成功**（见 `skill-quality/references/metrics.md` 第 5 层）。
 
 ---
 

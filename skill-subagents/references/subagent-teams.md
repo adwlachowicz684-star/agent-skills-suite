@@ -1,7 +1,7 @@
 # 子代理团队：依赖分析 → 并行批次 → 关卡
 
-> 相关：《skill-subagents》的 `subagents.md` ·
-> `skill-subagent-combo.md` · `composition.md`
+> 相关：《skill-subagents》的 `skill-subagents/references/subagents.md` ·
+> `skill-subagents/references/skill-subagent-combo.md` · `skill-composition/references/composition.md`
 
 ---
 

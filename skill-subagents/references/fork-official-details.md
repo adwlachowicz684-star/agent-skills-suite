@@ -1,8 +1,8 @@
 # Fork 官方细则：background、rewind 与"返回空"
 
-> 前置：`fork-context-skill.md`（什么时候用、怎么配、四个常见故障）
+> 前置：`skill-subagents/references/fork-context-skill.md`（什么时候用、怎么配、四个常见故障）
 > 这份只讲**官方文档里那些用错了才发现**的机制细节。
-> 相关：`subagents.md`（不继承技能）· `subagent-advanced.md`（不能嵌套、可恢复）
+> 相关：`skill-subagents/references/subagents.md`（不继承技能）· `skill-subagents/references/subagent-advanced.md`（不能嵌套、可恢复）
 
 ---
 
@@ -99,7 +99,7 @@ background: false     # ⭐ 在调用这一轮里等结果
 ✅ "读取 src/auth/ 下的文件，检查 SQL 注入，返回发现列表"  → 有任务
 ```
 
-配套故障（见 `fork-context-skill.md`）：
+配套故障（见 `skill-subagents/references/fork-context-skill.md`）：
 **`agent: Explore` 是只读的**，写不了文件。要改文件就用 `general-purpose` 或自定义 agent。
 
 ---
@@ -163,7 +163,7 @@ background: false     # ⭐ 在调用这一轮里等结果
 | **子代理带 `skills` 字段** | 子代理自己的 markdown 正文 | Claude 的委派消息 | ⭐ **技能正文 + CLAUDE.md** |
 
 第二种是"自定义子代理把技能当参考资料用"——
-正好对应 `subagents.md` 那条：**子代理不从父对话继承技能，必须在 `skills:` 里显式声明。**
+正好对应 `skill-subagents/references/subagents.md` 那条：**子代理不从父对话继承技能，必须在 `skills:` 里显式声明。**
 
 ---
 

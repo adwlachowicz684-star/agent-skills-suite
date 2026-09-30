@@ -1,8 +1,8 @@
 # 三种失败模式：回归、被追上、本来就没用
 
-> 相关：《skill-evaluating》的 `capability-offset-net-gain.md`（59% 抵消）·
-> `metrics.md` · `comparator-ab-eval.md` · `eval-loop-official.md` ·
-> 《skill-versioning》的 `skill-rot-rollback-discipline.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/capability-offset-net-gain.md`（59% 抵消）·
+> `skill-quality/references/metrics.md` · `skill-automation/references/comparator-ab-eval.md` · `skill-evaluating/references/eval-loop-official.md` ·
+> 《skill-versioning》的 `skill-versioning/references/skill-rot-rollback-discipline.md`
 > 前置：那些讲"怎么测、测什么"，
 > 这份讲⭐⭐⭐ **测出来的数字对应哪三种不同的病**——
 > ⭐⭐ 其中一种的正确处置是"删掉这个技能"。
@@ -53,7 +53,7 @@ commit-message 技能：92% → 71%（模型更新后）
 
 > ⭐⭐⭐ "直到生产里出一条错的"这句话很关键：
 > **回归的代价不是分数下降，是你在错误的地方信任了它**
-> （呼应 `skill-rot-rollback-discipline.md` 的"自信的漂移"）。
+> （呼应 `skill-versioning/references/skill-rot-rollback-discipline.md` 的"自信的漂移"）。
 
 **② ⭐⭐ 发现"被追上"**
 
@@ -72,8 +72,8 @@ commit-message 技能：92% → 71%（模型更新后）
 > ⭐⭐ 仍然会干扰触发匹配
 > ```
 >
-> 第三条尤其重要——它与 `library-size-effect.md` 的遮蔽、
-> `capability-offset-net-gain.md` 的 59% 抵消
+> 第三条尤其重要——它与 `skill-selection/references/library-size-effect.md` 的遮蔽、
+> `skill-evaluating/references/capability-offset-net-gain.md` 的 59% 抵消
 > 构成了同一个结论的三个机制：
 > ⭐⭐⭐ **留着无用的技能不是"放着而已"，它在主动损害其他技能。**
 
@@ -97,7 +97,7 @@ commit-message 技能：92% → 71%（模型更新后）
 > ⭐⭐ 这是两种完全不同的取舍，不能只看 pass_rate
 > ```
 >
-> ⭐⭐⭐ 这与 `capability-offset-net-gain.md` 的"净增益"是同一思路的延伸：
+> ⭐⭐⭐ 这与 `skill-evaluating/references/capability-offset-net-gain.md` 的"净增益"是同一思路的延伸：
 > **技能不是白来的，要看它换来什么、付出什么。**
 
 ---
@@ -115,7 +115,7 @@ commit-message 技能：92% → 71%（模型更新后）
 ⭐⭐ 单次运行告诉你"这一次发生了什么"，不是"通常会发生什么"
 ```
 
-> ⭐⭐⭐ 这与 `assert-on-environment.md` 的 `pass^5`（跑 5 次全过才算过）
+> ⭐⭐⭐ 这与 `skill-evaluating/references/assert-on-environment.md` 的 `pass^5`（跑 5 次全过才算过）
 > 是同一个原理，只是官方给的默认值是 3。
 > ⭐ 仲裁：**关键断言用 5，常规基准用 3**——
 > 因为 `pass^5` 针对的是"这条断言是否稳定"，
@@ -136,7 +136,7 @@ commit-message 技能：92% → 71%（模型更新后）
 
 > ⭐⭐⭐ "基准结果就是你要做的那个决定的证据。没有它，你是在猜。"
 >
-> ⭐⭐ 第 ③ 条与 `model-migration-audit.md` 完全一致——
+> ⭐⭐ 第 ③ 条与 `skill-versioning/references/model-migration-audit.md` 完全一致——
 > 那份从"指令要重校准"的角度，这份从"测量要给证据"的角度，
 > **两边都把模型更新列为必须重跑的时刻**。
 
@@ -150,7 +150,7 @@ commit-message 技能：92% → 71%（模型更新后）
 ```
 
 > ⭐⭐⭐ 这条解释了"为什么本地测得好、实际用起来差"。
-> 它和 `eval-case-design.md` 的"按分支铺用例"是互补的：
+> 它和 `skill-evaluating/references/eval-case-design.md` 的"按分支铺用例"是互补的：
 > ⭐ **分支保证覆盖面，脏输入保证真实性**——两者都要。
 
 ---
@@ -167,7 +167,7 @@ commit-message 技能：92% → 71%（模型更新后）
 
 > ⭐⭐⭐ **这些断言是噪音，要换成真正有区分度的。**
 >
-> 这与 `eval-loop-official.md` 那条
+> 这与 `skill-evaluating/references/eval-loop-official.md` 那条
 > "两组都通过的断言没有区分度，要换掉"是⭐ 同一条规则的独立佐证。
 > 也呼应"恒过的断言比没有断言更危险"——
 > **它给你一种"我在测"的错觉。**

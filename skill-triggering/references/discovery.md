@@ -96,7 +96,7 @@
 > 它们的占位符被替换成一个标记，注明"该技能不可信"。
 
 > 这条设计很聪明：**不是一刀切禁止，而是按来源分级**。
-> 呼应 `skill-orchestration` 的 `prompt-injection.md` 的"按信任级别分类每项输入"。
+> 呼应 `skill-orchestration` 的 `skill-orchestration/references/prompt-injection.md` 的"按信任级别分类每项输入"。
 
 ---
 

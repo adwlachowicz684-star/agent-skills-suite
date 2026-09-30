@@ -1,8 +1,8 @@
 # 子代理不继承技能（以及内置 agent 完全用不了）
 
-> 相关：《skill-subagents》的 `subagents.md` ·
-> `skill-subagent-combo.md` · `subagent-teams.md` ·
-> `fork-official-details.md`
+> 相关：《skill-subagents》的 `skill-subagents/references/subagents.md` ·
+> `skill-subagents/references/skill-subagent-combo.md` · `skill-subagents/references/subagent-teams.md` ·
+> `skill-subagents/references/fork-official-details.md`
 
 ---
 
@@ -74,7 +74,7 @@ skills: accessibility-audit, performance-check
 ❌ 偶尔用一次的大技能  → ⭐ 会让每次启动都付出成本
 ```
 
-> 这是 `composition.md` 里"预加载 vs 按需"取舍的一个具体实现约束。
+> 这是 `skill-composition/references/composition.md` 里"预加载 vs 按需"取舍的一个具体实现约束。
 > 子代理的 `skills` 字段**没有按需这一档**。
 
 ---

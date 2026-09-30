@@ -1,8 +1,8 @@
 # 技能腐烂与回滚纪律：自改进是版本控制问题
 
-> 相关：《skill-versioning》的 `skill-evolution-loop.md` ·
-> `self-evolution-three-levels.md` · `iteration-three-levels.md` ·
-> 《skill-governance》的 `retirement-pipeline.md`
+> 相关：《skill-versioning》的 `skill-versioning/references/skill-evolution-loop.md` ·
+> `skill-versioning/references/self-evolution-three-levels.md` · `skill-versioning/references/iteration-three-levels.md` ·
+> 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`
 > 前置：那些讲"进化循环"与"版本三层次"，
 > 这份讲⭐⭐⭐ **自改进真正的难点不在智能而在版本控制**，
 > 以及⭐⭐ 更聪明的模型会让漂移变得更危险而不是更安全。
@@ -41,7 +41,7 @@
 > ⭐⭐⭐ 重点：**这些失败⭐ 都不需要弱模型才会发生**。
 > 模型能力不足会加剧它们，但⭐ 根因是"产物冻结了，而周围的一切在移动"。
 >
-> ⭐ 这与 `data-source-validation.md` 的"数据源验证"是同一类问题——
+> ⭐ 这与 `skill-authoring/references/data-source-validation.md` 的"数据源验证"是同一类问题——
 > 那份讲的是数据，这份讲的是⭐ 技能引用的结构本身。
 
 ---
@@ -75,7 +75,7 @@
 > ⭐⭐⭐ **"自信的漂移读起来就像改进，直到它失败为止。"**
 
 > ⭐⭐⭐ 这句是本份最锋利的一句，也⭐ 直接修正了
-> `self-evolution-three-levels.md` 里偏乐观的部分：
+> `skill-versioning/references/self-evolution-three-levels.md` 里偏乐观的部分：
 > **自进化不是"模型越强越安全"，恰恰相反——
 > 模型越强，通过审查的漂移越难被人类发现。**
 > 所以⭐⭐ 人工审核这道关⭐ 必须存在，且不能因为"输出看起来很专业"而放松。
@@ -102,9 +102,9 @@
 ⭐⭐ 歧义时的默认动作是 ⭐ 回滚，不是保留。
 ```
 
-> ⭐⭐⭐ "默认回滚"这条与 `fault-injection-eval.md` 的
+> ⭐⭐⭐ "默认回滚"这条与 `skill-evaluating/references/fault-injection-eval.md` 的
 > "恢复前检查点缺失/过期 → 安全停止，绝不编造进度"是同一种保守取向。
-> 也与 `retirement-pipeline.md` 的"归档 ≠ 删除"一致——
+> 也与 `skill-governance/references/retirement-pipeline.md` 的"归档 ≠ 删除"一致——
 > **留着旧版本，成本极低；丢掉它，代价极高。**
 
 **结论**（一句话版本）：
@@ -143,8 +143,8 @@
 > ⭐⭐⭐ 第 ③ 条是四条里最"贵"也最值钱的：
 > **没有它，①②只是让你知道了自己是怎么死的。**
 >
-> ⭐ 第 ④ 条与 `ops-iteration-sop.md` 的周期性运维、
-> `lifecycle.md` 的四阶段是同一件事的不同节奏。
+> ⭐ 第 ④ 条与 `skill-governance/references/ops-iteration-sop.md` 的周期性运维、
+> `skill-governance/references/lifecycle.md` 的四阶段是同一件事的不同节奏。
 
 **一个态度**（值得照抄）：
 

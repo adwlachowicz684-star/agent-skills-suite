@@ -1,7 +1,7 @@
 # 版本与 Changelog：三种记录方式与四个常见错误
 
-> 相关：《skill-versioning》的 `version-strategy.md` ·
-> `iteration-three-levels.md` · 《skill-governance》的 `retirement-pipeline.md`
+> 相关：《skill-versioning》的 `skill-versioning/references/version-strategy.md` ·
+> `skill-versioning/references/iteration-three-levels.md` · 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`
 
 ---
 
@@ -75,7 +75,7 @@ author: 开发者A
 · 输出/结果纠正
 ```
 
-> ⭐ MAJOR 的判定与 `iteration-three-levels.md` 那条一致：
+> ⭐ MAJOR 的判定与 `skill-versioning/references/iteration-three-levels.md` 那条一致：
 > **不是"改了多少字"，而是"按旧版本用会不会错"**。
 
 一个具体例子：
@@ -170,7 +170,7 @@ git log 提供变更历史
 
 ## 5. 破坏性变更的处理
 
-**时间线**（与 `retirement-pipeline.md` 的四阶段互补）：
+**时间线**（与 `skill-governance/references/retirement-pipeline.md` 的四阶段互补）：
 
 | 阶段 | 时长 | 动作 |
 |---|---|---|

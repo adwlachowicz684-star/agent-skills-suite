@@ -159,7 +159,7 @@ SubAgent（隔离、记忆、可恢复）
 
 > 注意跨工具差异：**自定义子代理在部分客户端是独占能力**，
 > 而技能通过 AGENTS.md 指令文件在各处可用。
-> 呼应 `skill-selection` 的 `cross-model.md` 与 `skill-crafting` 的 `skill-structuring` 的 `directory-contract.md`。
+> 呼应 `skill-selection` 的 `skill-selection/references/cross-model.md` 与 `skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md`。
 
 ---
 

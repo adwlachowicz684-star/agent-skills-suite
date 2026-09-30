@@ -136,7 +136,7 @@ allowed-tools:             ⭐ 工具白名单（这里是只读工具）
 > 评审场景里你明确**不希望**它顺手改东西。
 
 如果确实需要 reviewer 也应用修复，改用 `general-purpose`，
-但**要对自动修改保持警惕**（见 `approval-gates.md`）。
+但**要对自动修改保持警惕**（见 `skill-security/references/approval-gates.md`）。
 
 ## 与"用子代理还是技能"的关系
 
@@ -151,6 +151,6 @@ fork 技能其实是**两者的组合**：
 ## 一条提醒
 
 `context: fork` 的子代理**仍然会加载 CLAUDE.md**（除非是 Explore/Plan，
-它们跳过——见 `subagent-advanced.md`）。
+它们跳过——见 `skill-subagents/references/subagent-advanced.md`）。
 所以项目级约定会自动生效，
 **你不需要在技能里重复 CLAUDE.md 已有的内容**。

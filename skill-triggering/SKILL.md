@@ -29,40 +29,40 @@ description: 技能的触发与加载诊断——技能不触发、乱触发、�
 
 - 已经触发了，只是输出不好 → `skill-evaluating`
 - description 该怎么写 → `skill-description`
-- frontmatter 字段含义 → `skill-loading` 的 `frontmatter-full-reference.md`
+- frontmatter 字段含义 → `skill-loading` 的 `skill-loading/references/frontmatter-full-reference.md`
 
 ## 路由表（按需深读）
-| `troubleshooting-order-five-cases.md` | ⭐⭐⭐⭐ 五步排错顺序；五类用例；⭐ 别一上来补正文 |
-| `hit-rate-four-questions.md` | ⭐⭐⭐⭐ 四类问题诊断；⭐⭐⭐ 纪律约束型最容易被理性化绕过 |
-| `trigger-tuning-loop.md` | ⭐⭐⭐ 误触发 vs 漏触发修法相反；生成的查询首先是诊断 |
-| `trigger-eval-set.md` | ⭐⭐⭐ 触发 Eval 集：⭐ near-miss 负例是承重的一半 |
-| `priority-override-layers.md` | ⭐⭐⭐ 临时 Prompt > 技能 > 全局 Rule；用非作者措辞测试 |
-| `description-by-collision-risk.md` | ⭐⭐⭐ 按碰撞风险分级 + 混淆伙伴审计 |
-| `troubleshooting-manual.md` | ⭐⭐⭐ 四层定位法 + 症状诊断表 |
-| `reload-debug.md` | ⭐⭐⭐ 改了不生效：⭐ 先 `/reload-skills`，不是重启 |
-| `trigger-debugging.md` | ⭐⭐ 触发不稳：欠触发 / 过触发 / 冲突 |
-| `triggering.md` | ⭐⭐ 触发机制基础 |
-| `discovery.md` | ⭐⭐ 发现性测试 |
-| `incremental-debug-procedure.md` | ⭐ 最小配置起步、增量验证、diff 测试 |
+| `skill-triggering/references/troubleshooting-order-five-cases.md` | ⭐⭐⭐⭐ 五步排错顺序；五类用例；⭐ 别一上来补正文 |
+| `skill-triggering/references/hit-rate-four-questions.md` | ⭐⭐⭐⭐ 四类问题诊断；⭐⭐⭐ 纪律约束型最容易被理性化绕过 |
+| `skill-triggering/references/trigger-tuning-loop.md` | ⭐⭐⭐ 误触发 vs 漏触发修法相反；生成的查询首先是诊断 |
+| `skill-triggering/references/trigger-eval-set.md` | ⭐⭐⭐ 触发 Eval 集：⭐ near-miss 负例是承重的一半 |
+| `skill-triggering/references/priority-override-layers.md` | ⭐⭐⭐ 临时 Prompt > 技能 > 全局 Rule；用非作者措辞测试 |
+| `skill-triggering/references/description-by-collision-risk.md` | ⭐⭐⭐ 按碰撞风险分级 + 混淆伙伴审计 |
+| `skill-triggering/references/troubleshooting-manual.md` | ⭐⭐⭐ 四层定位法 + 症状诊断表 |
+| `skill-triggering/references/reload-debug.md` | ⭐⭐⭐ 改了不生效：⭐ 先 `/reload-skills`，不是重启 |
+| `skill-triggering/references/trigger-debugging.md` | ⭐⭐ 触发不稳：欠触发 / 过触发 / 冲突 |
+| `skill-triggering/references/triggering.md` | ⭐⭐ 触发机制基础 |
+| `skill-triggering/references/discovery.md` | ⭐⭐ 发现性测试 |
+| `skill-triggering/references/incremental-debug-procedure.md` | ⭐ 最小配置起步、增量验证、diff 测试 |
 
 **按症状查**：
 
 | 症状 | 读 |
 |---|---|
-| ⭐ **改了不生效 / 技能不加载** | `reload-debug.md` |
-| **四层定位 / 症状诊断表** | `troubleshooting-manual.md` |
-| **触发不稳：欠触发 / 过触发 / 冲突** | `triggering.md` · `trigger-debugging.md` |
-| ⭐ **命中率低，不知是哪种病** | `hit-rate-four-questions.md` |
-| ⭐ **改 description 越改越差** | `troubleshooting-order-five-cases.md` |
-| **被别的技能抢走** | `description-by-collision-risk.md` · `priority-override-layers.md` |
+| ⭐ **改了不生效 / 技能不加载** | `skill-triggering/references/reload-debug.md` |
+| **四层定位 / 症状诊断表** | `skill-triggering/references/troubleshooting-manual.md` |
+| **触发不稳：欠触发 / 过触发 / 冲突** | `skill-triggering/references/triggering.md` · `skill-triggering/references/trigger-debugging.md` |
+| ⭐ **命中率低，不知是哪种病** | `skill-triggering/references/hit-rate-four-questions.md` |
+| ⭐ **改 description 越改越差** | `skill-triggering/references/troubleshooting-order-five-cases.md` |
+| **被别的技能抢走** | `skill-triggering/references/description-by-collision-risk.md` · `skill-triggering/references/priority-override-layers.md` |
 
 **建触发测试集**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **near-miss 负例** | `trigger-eval-set.md` |
-| 调优循环 | `trigger-tuning-loop.md` |
-| 发现性测试 | `discovery.md` |
+| ⭐ **near-miss 负例** | `skill-triggering/references/trigger-eval-set.md` |
+| 调优循环 | `skill-triggering/references/trigger-tuning-loop.md` |
+| 发现性测试 | `skill-triggering/references/discovery.md` |
 
 ## Critical Rules
 

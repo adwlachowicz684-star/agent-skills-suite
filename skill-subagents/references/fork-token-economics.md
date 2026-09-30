@@ -1,8 +1,8 @@
 # fork 的 token 经济学与三个真实坑
 
-> 相关：《skill-subagents》的 `context-isolation-fork.md`（三条件才 fork）·
-> 《skill-boundaries》的 `skill-vs-subagent-decide.md` ·
-> 《skill-loading》的 `frontmatter-advanced-fields.md`
+> 相关：《skill-subagents》的 `skill-subagents/references/context-isolation-fork.md`（三条件才 fork）·
+> 《skill-boundaries》的 `skill-boundaries/references/skill-vs-subagent-decide.md` ·
+> 《skill-loading》的 `skill-loading/references/frontmatter-advanced-fields.md`
 > 前置：那份讲⭐ 该不该 fork，
 > 这份讲⭐⭐⭐ fork 之后⭐ 到底谁付了多少 token +
 > ⭐⭐⭐⭐ 三个⭐ 只有真跑了才会遇到的坑。
@@ -41,7 +41,7 @@
 > ⭐⭐⭐⭐ 而"多个 fork"那一行⭐ 意味着：
 > ⭐⭐⭐⭐⭐ **并行 fork 的⭐ 上下文成本是⭐ 线性叠加在 fork 侧、主上下文仍是零**——
 > ⭐⭐⭐⭐ 所以⭐ 并行探索是⭐ 少数"变多但不挤主上下文"的手段
-> （与 `skill-chaining-composition.md` 的"叠加不覆盖"不矛盾：
+> （与 `skill-composition/references/skill-chaining-composition.md` 的"叠加不覆盖"不矛盾：
 > ⭐⭐ 叠加说的是⭐ 同一上下文内，fork 说的是⭐ 另起上下文）。
 
 **压缩预算的补充数据**：
@@ -73,7 +73,7 @@
 > ⭐⭐⭐⭐⭐ 所以⭐⭐⭐⭐ **fork 型技能的正文必须写成⭐ 一份独立可执行的工单**，
 > ⭐⭐⭐ 而不是⭐ 一段"做事的原则"。
 >
-> ⭐⭐⭐⭐⭐ 这与 `context-isolation-fork.md` 那条"fork 正文要写成⭐ 直接的命令式步骤"
+> ⭐⭐⭐⭐⭐ 这与 `skill-subagents/references/context-isolation-fork.md` 那条"fork 正文要写成⭐ 直接的命令式步骤"
 > ⭐⭐⭐⭐ ⭐ 是⭐ 同一结论——而这里⭐ 给出了⭐ 失败的样子（空输出）和⭐ 原因（正文=提示词）。
 
 **agent 类型选错是同一类问题**：
@@ -100,8 +100,8 @@ general-purpose  ⭐ 全权限（读、写、执行）
 > ⭐⭐⭐⭐⭐ 最后那句反问⭐ 是本轮最实用的一条设计建议：
 > ⭐⭐⭐⭐⭐ **委派分析、保留写入**——⭐⭐⭐ 因为⭐ 写入有副作用、
 > ⭐⭐⭐ 且⭐ 需要主上下文的⭐ 完整判断力。
-> ⭐⭐⭐⭐ 与 `seven-contracts.md` 的"⭐ 副作用要能被授权"、
-> `allowed-tools-least-privilege.md` ⭐ 同源。
+> ⭐⭐⭐⭐ 与 `skill-execution/references/seven-contracts.md` 的"⭐ 副作用要能被授权"、
+> `skill-security/references/allowed-tools-least-privilege.md` ⭐ 同源。
 
 ---
 
@@ -118,11 +118,11 @@ general-purpose  ⭐ 全权限（读、写、执行）
 ```
 
 > ⭐⭐⭐⭐⭐ 这修正了一个⭐ 常见误解——⭐ **不是"子代理读不到 CLAUDE.md"**
-> （我们已有的 `subagent-skill-inheritance.md` 说"子代理不继承技能"，
+> （我们已有的 `skill-subagents/references/subagent-skill-inheritance.md` 说"子代理不继承技能"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 但⭐ CLAUDE.md 是⭐ 另一回事，⭐⭐⭐⭐⭐ ⭐ 它会被加载）。
 > ⭐⭐⭐⭐ 真正的失败是⭐ **被挤掉**，不是⭐ 没加载。
 > ⭐⭐⭐⭐ 不过⭐ 注意这个数字：⭐⭐⭐⭐⭐ **200 行**——
-> 与 `context-file-selection.md` 里"300 行 CLAUDE.md 的代价"⭐ 量级一致，
+> 与 `skill-selection/references/context-file-selection.md` 里"300 行 CLAUDE.md 的代价"⭐ 量级一致，
 > ⭐⭐⭐⭐ 而官方建议是⭐⭐⭐ **保持在 200 行以内**。
 
 ---

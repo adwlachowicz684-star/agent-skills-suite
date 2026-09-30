@@ -1,14 +1,14 @@
 # 排错顺序与五类测试用例
 
-> 相关：《skill-triggering》的 `hit-rate-four-questions.md`（四类问题诊断）·
-> `trace-debugging.md` · 《skill-loading》的 `four-layer-diagnosis-flow.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/hit-rate-four-questions.md`（四类问题诊断）·
+> `skill-triggering/references/trace-debugging.md` · 《skill-loading》的 `skill-loading/references/four-layer-diagnosis-flow.md`
 > 前置：那些讲⭐ 分层定位，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 更实用的⭐ 东西——⭐⭐⭐⭐⭐ ⭐⭐⭐ **顺序**，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 以及⭐ 一个⭐ 全新的⭐ 拆分判据（⭐⭐⭐⭐⭐ 权限集合）。
 
 ---
 
-> 下篇：见 `permission-set-split-criteria.md`
+> 下篇：见 `skill-evaluating/references/permission-set-split-criteria.md`
 
 ## 目录
 - [1. ⭐⭐⭐⭐⭐ 大部分问题不在正文里](#1--大部分问题不在正文里)
@@ -32,7 +32,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 正文里⭐ 再写⭐ 一万字⭐ 也救不回来。"**
 
 > ⭐⭐⭐⭐⭐ 这条⭐ 与⭐ 我们⭐ 已有的⭐ 80/15/5 ⭐ 分布
-> （`four-layer-diagnosis-flow.md`：⭐⭐⭐⭐⭐ 80% 文件层）⭐ 是⭐ 同一个⭐ 判断的⭐ 两种表述：
+> （`skill-loading/references/four-layer-diagnosis-flow.md`：⭐⭐⭐⭐⭐ 80% 文件层）⭐ 是⭐ 同一个⭐ 判断的⭐ 两种表述：
 > ```
 > 那份说：⭐⭐⭐⭐⭐ 先花 2 分钟查文件层，⭐⭐⭐⭐⭐ ⭐⭐⭐ 比改 description 收益高 5 倍
 > 这份说：⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 别一上来补正文——⭐⭐⭐⭐⭐ ⭐⭐⭐ 问题多半在触发与连接
@@ -76,7 +76,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 我们⭐ 记过的⭐ "⭐ 伪技能陷阱"⭐ 的一个⭐ 变体。
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 第 ⑤ 步⭐ 的⭐ "⭐ 重新分组"⭐ 也⭐ 值得⭐ 注意——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 与 `collision-arbitration.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 与 `skill-orchestration/references/collision-arbitration.md` 的
 > "⭐ 首选⭐ exclusive_group（⭐ 声明期预防）"⭐ 一致：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **抢任务⭐ 的⭐ 根治⭐ 是⭐ 改⭐ 分组，⭐⭐⭐⭐⭐ ⭐⭐⭐ 不是⭐ 加⭐ 仲裁。**
 
@@ -101,14 +101,14 @@
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 第 ④ 类⭐ 也⭐ 值得⭐ 强调：
 > ⭐⭐⭐⭐⭐ **"⭐ 失败路径⭐ 最容易漏，⭐⭐⭐⭐⭐ ⭐⭐⭐ 却⭐ 恰恰是⭐ 线上⭐ 最常出现"**
-> （`eval-set-two-dimensions.md`）——⭐⭐⭐⭐⭐ ⭐⭐⭐ 两个来源⭐ 同一结论。
+> （`skill-evaluating/references/eval-set-two-dimensions.md`）——⭐⭐⭐⭐⭐ ⭐⭐⭐ 两个来源⭐ 同一结论。
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 五类⭐ 合起来⭐ 看，⭐⭐⭐⭐⭐ ⭐⭐⭐ 还⭐ 可以发现
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 一个⭐ 结构：⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **①⑤ 测"选得对不对"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ ②③④ 测"干得对不对"**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 前者⭐ 是⭐ 入口，⭐⭐⭐⭐⭐ ⭐⭐⭐ 后者⭐ 是⭐ 出口，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 正好⭐ 对应⭐ 我们⭐ 那条
-> "⭐⭐⭐⭐⭐⭐ **夸奖入口能力之前，⭐⭐⭐⭐⭐ ⭐⭐⭐ 先把出口⭐ 做扎实**"（`three-skill-ceiling.md`）。
+> "⭐⭐⭐⭐⭐⭐ **夸奖入口能力之前，⭐⭐⭐⭐⭐ ⭐⭐⭐ 先把出口⭐ 做扎实**"（`skill-evaluating/references/three-skill-ceiling.md`）。
 
 ---
 
@@ -125,8 +125,8 @@
 ```
 
 > ⭐⭐⭐⭐⭐⭐ **这是⭐ "负例⭐ 要⭐ 近命中"⭐ 这条⭐ 结论的⭐ 第三次⭐ 独立出现**
-> （⭐⭐⭐⭐⭐ ⭐⭐⭐ 前两次：⭐⭐⭐⭐⭐ ⭐⭐⭐ `description-tuning-official-loop.md` 的
-> "⭐ 别用明显无关的"，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 与 `localization-zh-adaptation.md` 的
+> （⭐⭐⭐⭐⭐ ⭐⭐⭐ 前两次：⭐⭐⭐⭐⭐ ⭐⭐⭐ `skill-description/references/description-tuning-official-loop.md` 的
+> "⭐ 别用明显无关的"，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 与 `skill-distribution/references/localization-zh-adaptation.md` 的
 > "⭐⭐⭐⭐⭐ ⭐⭐⭐ 容易误触发的⭐ 相邻反例"）。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 三个来源⭐ 给出⭐ 的⭐ 理由⭐ 也⭐ 完全一致：
 > ⭐⭐⭐⭐⭐ **⭐ 远的⭐ 负例⭐ 不会误触发，⭐⭐⭐⭐⭐ ⭐⭐⭐ 所以⭐ 它⭐ 永远⭐ 通过，

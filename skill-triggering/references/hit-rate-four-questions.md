@@ -1,8 +1,8 @@
 # 命中率优化：四类问题诊断与六步迭代
 
-> 相关：《skill-triggering》的 `trigger-tuning-loop.md` ·
-> `outgrowth-regression-detection.md` · `eval-set-two-dimensions.md` ·
-> 《skill-description》的 `description-tuning-official-loop.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/trigger-tuning-loop.md` ·
+> `skill-triggering/references/outgrowth-regression-detection.md` · `skill-evaluating/references/eval-set-two-dimensions.md` ·
+> 《skill-description》的 `skill-description/references/description-tuning-official-loop.md`
 > 前置：那份讲⭐ 官方循环的切分与防过拟合，
 > 这份讲⭐⭐⭐ **一张四类问题诊断表**（先分清是哪一类，再动手），
 > 以及⭐⭐⭐ 一个此前没收过的分类：**纪律约束型技能最容易被"理性化绕过"**。
@@ -33,8 +33,8 @@
 > ⭐⭐⭐ 这张表的价值在于⭐ **第四类**——它把"触发了但更差"
 > 从"技能质量问题"重新归类为⭐ **"也许这里不该用技能"**。
 >
-> ⭐⭐ 这与 `worth-skillifying.md` 的"不该封装的被封装 → 制造伪稳定"、
-> `outgrowth-regression-detection.md` 的"被追上 → 归档"是同一件事的
+> ⭐⭐ 这与 `skill-boundaries/references/worth-skillifying.md` 的"不该封装的被封装 → 制造伪稳定"、
+> `skill-triggering/references/outgrowth-regression-detection.md` 的"被追上 → 归档"是同一件事的
 > ⭐⭐⭐ 第三个说法，但这里⭐ **给了一个可观察的入口症状**：
 > ⭐⭐⭐ **"触发后反而变差" = 该检查这个技能是否还该存在。**
 >
@@ -56,7 +56,7 @@
 ③ ⭐⭐⭐ 哪些⭐ 隐式表达也要命中（同义说法、口语、错别字）
 ```
 
-> ⭐⭐⭐ 第 ③ 条"隐式表达"对应 `trigger-tuning-loop.md` 的
+> ⭐⭐⭐ 第 ③ 条"隐式表达"对应 `skill-triggering/references/trigger-tuning-loop.md` 的
 > "漏触发根因 = 缺⭐ 用户实际用词"——
 > ⭐⭐ 关键词是你以为他会说的，⭐ 隐式表达是他真的会说的。
 
@@ -125,7 +125,7 @@
 > ⭐⭐⭐ 这是本份最有价值的一条，且给出了⭐ 具体对策——
 > **写"常见借口和反驳"**（即 anti-rationalizations 表），
 > 以及⭐⭐ **"用压力场景测试是否还会遵守"**
-> （对应 `skill-type-testing.md` 的"Discipline 类要在时间压力下再审一次"）。
+> （对应 `skill-patterns/references/skill-type-testing.md` 的"Discipline 类要在时间压力下再审一次"）。
 
 ---
 
@@ -149,8 +149,8 @@
 > 它是⭐ 唯一一个直接衡量"人是否省事了"的指标，
 > ⭐⭐ 其余六项都是过程指标。
 >
-> ⭐⭐ 与我们已有的 `roi-breakeven.md`（B / S×N）、
-> `adoption-metrics.md`（先行/滞后指标）互补：
+> ⭐⭐ 与我们已有的 `skill-selection/references/roi-breakeven.md`（B / S×N）、
+> `skill-adoption/references/adoption-metrics.md`（先行/滞后指标）互补：
 > 那两份是⭐ 组织级，这七项是⭐ 单次迭代级。
 
 ---

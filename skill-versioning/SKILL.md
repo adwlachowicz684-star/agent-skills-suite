@@ -27,16 +27,16 @@ description: 技能的演进、版本与变更管理。当需要处理"技能改
 
 ## 路由表
 
-| `adr-lightweight.md` | ⭐⭐⭐⭐⭐ 同一决策做三次两次是浪费；⭐⭐⭐⭐⭐ 记被否决方案比记采纳方案更值钱；⭐⭐⭐⭐⭐ 重审条件让它有终点 |
-| `version-strategy.md` | ⭐⭐⭐⭐ 版本策略：MAJOR/MINOR/PATCH 判据 |
-| `version-changelog-practice.md` | ⭐⭐⭐⭐ changelog 写法 |
-| `version-diff-behavior-compare.md` | ⭐⭐⭐⭐⭐ **改了什么≠变了什么**；⭐⭐⭐⭐⭐ 只改描述的 PR 也要走行为对比；⭐⭐ 必须有"无技能基线" |
-| `change-impact-analysis.md` | ⭐⭐⭐⭐⭐ 六问影响面；⭐⭐⭐⭐ 查不到不等于不存在；⭐⭐⭐⭐ 编排下游会级联 |
-| `iteration-three-levels.md` | ⭐⭐⭐⭐ 三级迭代：改描述 / 改正文 / 重做 |
-| `skill-evolution-loop.md` | ⭐⭐⭐⭐⭐ 三档信号、周月季节奏；⭐⭐⭐⭐ 连续 5 次无用就删 |
-| `skill-rot-rollback-discipline.md` | ⭐⭐⭐⭐⭐ **自改进是版本控制问题**；⭐⭐⭐⭐⭐ 自信的漂移读起来就像改进 |
-| `self-evolution-three-levels.md` | ⭐⭐⭐⭐ 自进化三层次与边界（外循环只能提议） |
-| `model-migration-audit.md` | ⭐⭐⭐⭐⭐ **升级模型默认做减法**；⭐⭐⭐⭐ 提示跨模型只弱相关，三档都要测 |
+| `skill-versioning/references/adr-lightweight.md` | ⭐⭐⭐⭐⭐ 同一决策做三次两次是浪费；⭐⭐⭐⭐⭐ 记被否决方案比记采纳方案更值钱；⭐⭐⭐⭐⭐ 重审条件让它有终点 |
+| `skill-versioning/references/version-strategy.md` | ⭐⭐⭐⭐ 版本策略：MAJOR/MINOR/PATCH 判据 |
+| `skill-versioning/references/version-changelog-practice.md` | ⭐⭐⭐⭐ changelog 写法 |
+| `skill-versioning/references/version-diff-behavior-compare.md` | ⭐⭐⭐⭐⭐ **改了什么≠变了什么**；⭐⭐⭐⭐⭐ 只改描述的 PR 也要走行为对比；⭐⭐ 必须有"无技能基线" |
+| `skill-versioning/references/change-impact-analysis.md` | ⭐⭐⭐⭐⭐ 六问影响面；⭐⭐⭐⭐ 查不到不等于不存在；⭐⭐⭐⭐ 编排下游会级联 |
+| `skill-versioning/references/iteration-three-levels.md` | ⭐⭐⭐⭐ 三级迭代：改描述 / 改正文 / 重做 |
+| `skill-versioning/references/skill-evolution-loop.md` | ⭐⭐⭐⭐⭐ 三档信号、周月季节奏；⭐⭐⭐⭐ 连续 5 次无用就删 |
+| `skill-versioning/references/skill-rot-rollback-discipline.md` | ⭐⭐⭐⭐⭐ **自改进是版本控制问题**；⭐⭐⭐⭐⭐ 自信的漂移读起来就像改进 |
+| `skill-versioning/references/self-evolution-three-levels.md` | ⭐⭐⭐⭐ 自进化三层次与边界（外循环只能提议） |
+| `skill-versioning/references/model-migration-audit.md` | ⭐⭐⭐⭐⭐ **升级模型默认做减法**；⭐⭐⭐⭐ 提示跨模型只弱相关，三档都要测 |
 
 ## Critical Rules
 

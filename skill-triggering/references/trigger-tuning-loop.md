@@ -1,8 +1,8 @@
 # 触发调优循环：误触发与漏触发是两种病
 
-> 相关：《skill-triggering》的 `trigger-eval-set.md`（用例集设计）·
-> `description-by-collision-risk.md` · `trigger-debugging.md` ·
-> `metrics.md` · 《skill-description》的 `description-scope-shape.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/trigger-eval-set.md`（用例集设计）·
+> `skill-triggering/references/description-by-collision-risk.md` · `skill-triggering/references/trigger-debugging.md` ·
+> `skill-quality/references/metrics.md` · 《skill-description》的 `skill-description/references/description-scope-shape.md`
 > 前置：那份讲"用例集长什么样"，
 > 这份讲⭐⭐ **调优的循环过程本身**——
 > 以及⭐⭐⭐ 一个必须先分清的诊断分叉：误触发和漏触发。
@@ -95,7 +95,7 @@
 > ⭐⭐ 第 ② 步是整套流程里**唯一无法自动化的一步**，也正因如此最关键：
 > **"应该触发"这件事只有你知道。**
 > 让模型自己生成又自己判断，就退化成了
-> `eval-roles.md` 警告过的"让模型给自己作业打分"。
+> `skill-evaluating/references/eval-roles.md` 警告过的"让模型给自己作业打分"。
 
 ---
 
@@ -113,7 +113,7 @@
 > ⭐ 换句话说：**如果你不同意这批测试，先别急着改测试——
 > 先想想是不是 description 写歪了。**
 >
-> 这与 `description-scope-shape.md` 那条
+> 这与 `skill-description/references/description-scope-shape.md` 那条
 > "写不出三条反触发条件，说明我对范围理解得还不够"
 > 是同一个思想的另一个出口：
 > ⭐ **写不出/看不中，都说明定义还没想清楚。**

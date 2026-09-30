@@ -39,7 +39,7 @@
 □ 覆盖 80% 的人可能描述这个功能的方式
 ```
 
-> 呼应 `gen_eval_set.py` 与 `metrics.md` 的 near-miss 负样本。
+> 呼应 `gen_eval_set.py` 与 `skill-quality/references/metrics.md` 的 near-miss 负样本。
 
 **Step 3：查技能冲突**
 
@@ -165,7 +165,7 @@ def run_skill(input_data):
 | **技能名与版本** | |
 
 > ⭐ **记"技能名与版本"**——否则你不知道是哪个版本产出的。
-> 呼应 `skill-governance` 的 `telemetry-schema.md`。
+> 呼应 `skill-governance` 的 `skill-governance/references/telemetry-schema.md`。
 
 ---
 
@@ -191,7 +191,7 @@ def run_skill(input_data):
 □ 运行时：依赖要装、脚本要 chmod +x、路径一律 /
 ```
 
-> 呼应 `reload-debug.md`：**先跑验证器，再确认真的加载了**。
+> 呼应 `skill-triggering/references/reload-debug.md`：**先跑验证器，再确认真的加载了**。
 
 ---
 

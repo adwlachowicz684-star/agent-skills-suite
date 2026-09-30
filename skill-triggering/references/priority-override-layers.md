@@ -1,8 +1,8 @@
 # 优先级铁律：临时 Prompt > 技能 > 全局 Rule
 
-> 相关：《skill-triggering》的 `trigger-debugging.md` ·
-> `nine-checks-not-working.md`（在《skill-structuring》）·
-> 《skill-orchestration》的 `collision-arbitration.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/trigger-debugging.md` ·
+> `skill-loading/references/nine-checks-not-working.md`（在《skill-structuring》）·
+> 《skill-orchestration》的 `skill-orchestration/references/collision-arbitration.md`
 > 前置：那些讲"技能没触发怎么办"，
 > 这份讲⭐⭐ **技能触发了但输出不对**——以及那条⭐⭐⭐ 优先级铁律。
 
@@ -53,7 +53,7 @@
 > **技能是被复用到你没预想的上下文里的**，
 > 全局规则的作者并不知道你的技能需要例外。
 >
-> ⭐ 更稳的做法是同时说明"为什么"（呼应 `write-reasons-not-rules.md`）：
+> ⭐ 更稳的做法是同时说明"为什么"（呼应 `skill-crafting/references/write-reasons-not-rules.md`）：
 > "本技能下游解析器只接受 JSON，故输出规则优先于全局格式约定。"
 
 ---
@@ -97,8 +97,8 @@
 ```
 
 > ⭐⭐ 注意"干脆全部不用"这个结果——
-> 这与 `library-size-effect.md` 的"遮蔽"、
-> `namespace-collision.md` 的"互相稀释触发概率"是同一个现象：
+> 这与 `skill-selection/references/library-size-effect.md` 的"遮蔽"、
+> `skill-orchestration/references/namespace-collision.md` 的"互相稀释触发概率"是同一个现象：
 > **重叠的代价不是"选错"，是"一个都不选"**。
 
 ---
@@ -116,7 +116,7 @@
 > ⭐⭐⭐ **"手动测试用的是你自己的措辞——
 > 也就是你写 description 时用的措辞。当然会匹配。"**
 >
-> 这与 `troubleshooting-manual.md` 里那条
+> 这与 `skill-triggering/references/troubleshooting-manual.md` 里那条
 > "没有反馈闭环是元问题中的元问题"完全一致，
 > 但这里给了⭐ 可执行的解法（找同事要原话）。
 
@@ -142,7 +142,7 @@
 ```
 ① ⭐ frontmatter 是否合法（未闭合引号、混用 tab/空格）
 ② ⭐ description 是否超平台字符上限
-   （呼应 `description-by-collision-risk.md` 的 1,536 字符口径）
+   （呼应 `skill-triggering/references/description-by-collision-risk.md` 的 1,536 字符口径）
 ③ 标题层级是否符合预期（H1 标题、H2 章节）
 ④ 字段名里是否有破坏解析器的 Unicode 字符
 ⑤ ⭐⭐ description 是否为空（⭐ agent 没有任何东西可匹配）

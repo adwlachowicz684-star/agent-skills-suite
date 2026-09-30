@@ -1,7 +1,7 @@
 # 读 trace 排错：找到第一个错的 turn
 
-> 相关：《skill-triggering》的 `troubleshooting-manual.md` ·
-> `fault-injection-eval.md` · 《skill-loading》的 `verbose-debug.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/troubleshooting-manual.md` ·
+> `skill-evaluating/references/fault-injection-eval.md` · 《skill-loading》的 `skill-loading/references/verbose-debug.md`
 
 ---
 
@@ -164,7 +164,7 @@ token/时间燃烧风险 · 需要的后续 · ⭐ 以后该编码进去的预�
 ```
 
 > ⭐ 最后一项最有价值：**"以后该编码进去的预防性改动"**
-> ——这正是 `feedback-loop-design.md` 那条"规则升级为代码"的输入。
+> ——这正是 `skill-patterns/references/feedback-loop-design.md` 那条"规则升级为代码"的输入。
 
 **一个"幽灵超时"的实战**：
 

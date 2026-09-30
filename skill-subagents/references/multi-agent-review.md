@@ -133,7 +133,7 @@ challenge_agent  ⭐ 质疑每位倡导者的推理
 ```
 
 > ⭐ 第 4 步"化解分歧"很关键——
-> 呼应 `composition.md`：多 agent 的真正难点是协调，不是派活。
+> 呼应 `skill-composition/references/composition.md`：多 agent 的真正难点是协调，不是派活。
 
 ---
 
@@ -234,7 +234,7 @@ challenge_agent  ⭐ 质疑每位倡导者的推理
    输出：security_review.md，发现按 CVSS 严重程度排序。"
 ```
 
-> ⭐ 呼应 `subagents.md` 与 `composition.md`：
+> ⭐ 呼应 `skill-subagents/references/subagents.md` 与 `skill-composition/references/composition.md`：
 > **每个子代理都要有明确的所有权和输出契约。**
 
 ---

@@ -1,7 +1,7 @@
 # 进化方法论：三档信号、三种节奏、四种操作
 
-> 相关：《skill-refining》的 `pruning.md` · `refactor-pass.md` ·
-> `skill-reducer-study.md` · `iteration-three-levels.md`
+> 相关：《skill-refining》的 `skill-refining/references/pruning.md` · `skill-refining/references/refactor-pass.md` ·
+> `skill-refining/references/skill-reducer-study.md` · `skill-versioning/references/iteration-three-levels.md`
 > 前置：那些讲"怎么改"，
 > 这份讲⭐ **什么时候该改（信号分级）、多久改一次（节奏）、改的动作有哪些**。
 
@@ -29,7 +29,7 @@
 > ⭐ 这句话是整个进化方法论的地基——**如果你把它当文档，就不会有迭代，
 > 而它就会一直停在"第一版"的水平。**
 
-配套一条来自 `skill-anatomy-antipatterns.md` / `weekend-lessons.md` 的实证：
+配套一条来自 `skill-patterns/references/skill-anatomy-antipatterns.md` / `skill-refining/references/weekend-lessons.md` 的实证：
 **技能是从几行字加一条踩坑记录开始的**——所以"第一版很小"不是缺陷，是常态。
 
 ---
@@ -68,7 +68,7 @@
 
 > ⭐ 中信号里那条"多余的预检步骤"特别值得记——
 > 它是**技能里最常见的"看起来正确但实际浪费"的内容**，
-> 也正是 `skill-reducer-study.md` 说"拿掉之后质量反而上升"的那类东西。
+> 也正是 `skill-refining/references/skill-reducer-study.md` 说"拿掉之后质量反而上升"的那类东西。
 
 ---
 
@@ -113,7 +113,7 @@
 > 这与人类写作直觉相反——**我们天然更愿意加东西而不是减东西**。
 
 "连续 5 次没有产生实际作用"这个判据很实用：**它是可数的、可观察的**，
-比"感觉没用"强得多（又一次印证 `write-reasons-not-rules.md` 的
+比"感觉没用"强得多（又一次印证 `skill-crafting/references/write-reasons-not-rules.md` 的
 "把形容词换成规格"）。
 
 ---
@@ -143,7 +143,7 @@
 > **五条具体规则 → 一条原则，不是信息的丢失，而是⭐ 抽象层级的提升**。
 >
 > 具体规则只能覆盖列举到的情况，原则能覆盖没列举到的情况
-> ——这正是 `write-reasons-not-rules.md` 说的"写原因而非堆规则"：
+> ——这正是 `skill-crafting/references/write-reasons-not-rules.md` 说的"写原因而非堆规则"：
 > **给了原则，模型碰到你没预料的场景也知道怎么办。**
 
 **规则的生命周期路径**（完整的四步）：

@@ -1,6 +1,6 @@
 # 子代理进阶：恢复、嵌套限制与上下文成本
 
-> 基础规则（不继承技能、一层深）在 `subagents.md`。
+> 基础规则（不继承技能、一层深）在 `skill-subagents/references/subagents.md`。
 > 这份讲几个**用错了才发现**的机制。
 
 ## 目录

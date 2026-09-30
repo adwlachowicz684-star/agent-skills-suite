@@ -1,9 +1,9 @@
 # 技能体检指标：六个维度与"只留三个"
 
-> 相关：《skill-quality》的 `quality-rubric-nine-dims.md` ·
-> `capability-offset-net-gain.md`（净增益）·
-> 《skill-selection》的 `roi-breakeven.md` ·
-> 《skill-selection》的 `skill-portfolio-audit.md`
+> 相关：《skill-quality》的 `skill-quality/references/quality-rubric-nine-dims.md` ·
+> `skill-evaluating/references/capability-offset-net-gain.md`（净增益）·
+> 《skill-selection》的 `skill-selection/references/roi-breakeven.md` ·
+> 《skill-selection》的 `skill-selection/references/skill-portfolio-audit.md`
 > 前置：那份讲⭐ 单份技能的质量打分，
 > 这份讲⭐⭐⭐⭐ ⭐ 整个技能库的⭐ 运行期健康度 +
 > ⭐⭐⭐⭐⭐ 一条⭐ 关于"指标怎么用"的⭐ 提醒。
@@ -55,11 +55,11 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 那它⭐ 只是把⭐ '抽象'⭐ 伪装成了⭐ '复杂'。"**
 
 > ⭐⭐⭐⭐⭐ 最后半句⭐ 是本轮最锋利的一句，⭐⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 直接命中了
-> `token-cost-optimization.md` 的"⭐ 伪技能陷阱"——
+> `skill-context/references/token-cost-optimization.md` 的"⭐ 伪技能陷阱"——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而这里⭐ 给了⭐ 一个⭐ 可测量的判据：
 > **带技能跑一次 vs 不带跑一次，总 token 谁多。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 若⭐ 带技能更贵，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 那它⭐ 大概率就是⭐ 伪技能。
-> ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 注意这⭐ 与 `roi-breakeven.md` ⭐ 互补：
+> ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 注意这⭐ 与 `skill-selection/references/roi-breakeven.md` ⭐ 互补：
 > 那份算的是⭐ 人的时间，这份算的是⭐ 机器成本，⭐⭐⭐⭐⭐ ⭐ 两者都要为正才算真的值。
 
 **⑤ 变体密度**：
@@ -85,7 +85,7 @@
 什么时候该调用我 · 什么时候不该调用我
 ```
 
-> ⭐⭐⭐⭐⭐ 这四问⭐ 与 `description-scope-shape.md` 的
+> ⭐⭐⭐⭐⭐ 这四问⭐ 与 `skill-description/references/description-scope-shape.md` 的
 > "⭐ 写不出三条反触发条件就不该发布"⭐ 是⭐ 同一件事的⭐ 两个说法，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这里⭐ 把它⭐ 变成了⭐ 一个⭐ 可对库里每个技能⭐ 逐条打的⭐ 分。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 那句后果描述也很准：
@@ -110,7 +110,7 @@
 > ```
 >
 > ⭐⭐⭐⭐⭐ 这套⭐ 与我们已有的⭐ 度量⭐ 是⭐ 互补而非重复：
-> `adoption-metrics.md` 的四个组织级指标⭐ 看的是⭐ 人（采纳率、返工率），
+> `skill-adoption/references/adoption-metrics.md` 的四个组织级指标⭐ 看的是⭐ 人（采纳率、返工率），
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这三个⭐ 看的是⭐ 技能本身在系统里的运行状态。
 > ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 一个⭐ 从组织视角，⭐ 一个⭐ 从系统视角——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 都做才完整，⭐⭐⭐⭐⭐ ⭐⭐⭐ 只做一个⭐ 会误判
@@ -140,7 +140,7 @@
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 那句总结⭐ 值得⭐ 单独记：
 > ⭐⭐⭐⭐⭐ **"所以⭐ 体检指标⭐ 不是⭐ 一张冷冰冰的淘汰表，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而是⭐ 一个问诊工具。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 这与 `skill-portfolio-audit.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 这与 `skill-selection/references/skill-portfolio-audit.md` 的
 > "⭐ 不删除，只调整作用域"⭐ 是⭐ 完全一致的立场：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **指标的用途是⭐ 告诉你该做什么手术，⭐ 不是⭐ 判死刑。**
 
@@ -170,7 +170,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而且⭐ 它⭐ 把"复用率"⭐ 从⭐ 一个统计数字⭐ 变成了⭐ 一个设计目标：
 > ⭐⭐⭐⭐⭐ **如果每个新需求都要写新技能，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 说明你的技能库⭐ 在结构上⭐ 没有被设计成⭐ 可组合的。**
 >
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这与 `composition-patterns-types.md` 的"⭐ 显式依赖声明"
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这与 `skill-orchestration/references/composition-patterns-types.md` 的"⭐ 显式依赖声明"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 直接相关：⭐ **不声明依赖，⭐⭐⭐⭐⭐ ⭐⭐⭐ 就没法组合，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 于是只能每个需求⭐ 重新造一个。**
 >

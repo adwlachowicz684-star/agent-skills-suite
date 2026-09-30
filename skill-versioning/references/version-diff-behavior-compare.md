@@ -1,10 +1,10 @@
 # 技能的版本对比：改之前先看两份差在哪
 
-> 相关：《skill-versioning》的 `version-changelog-practice.md`（版本号与 Changelog）·
-> `measure-before-cut.md`（先量后切）·
-> `change-impact-analysis.md`（影响面）·
-> 《skill-automation》的 `comparator-ab-eval.md`（盲评）·
-> `failure-quadrant-diagnosis.md`（四象限）
+> 相关：《skill-versioning》的 `skill-versioning/references/version-changelog-practice.md`（版本号与 Changelog）·
+> `skill-refining/references/measure-before-cut.md`（先量后切）·
+> `skill-versioning/references/change-impact-analysis.md`（影响面）·
+> 《skill-automation》的 `skill-automation/references/comparator-ab-eval.md`（盲评）·
+> `skill-triggering/references/failure-quadrant-diagnosis.md`（四象限）
 > 前置：版本管理那份讲⭐⭐⭐ **怎么记**（semver + Changelog），
 > 这份讲⭐⭐⭐⭐⭐ **怎么比**——
 > **Changelog 记的是"我改了什么"，而你需要知道的是"它变了什么行为"。**
@@ -112,7 +112,7 @@ Changelog：  "移除第 4 步的兜底逻辑"
       → 输出格式更干净了 → 评审时"看起来是改进"
 ```
 
-> ⭐⭐⭐⭐ 这也是要写⭐⭐⭐ **"我预期会看到什么"**（`compound-failure.md` 里的习惯）
+> ⭐⭐⭐⭐ 这也是要写⭐⭐⭐ **"我预期会看到什么"**（`skill-triggering/references/compound-failure.md` 里的习惯）
 > 的第二个理由：**改对了但多改了东西，只有预先写了预期才能发现。**
 
 ---
@@ -138,7 +138,7 @@ v1 的 3 个失败输入，v2 是否修好了？
 
 > ⭐⭐⭐ 这条看似显然，但常被跳过——
 > 因为对比集是"重新挑的"，包含了新输入，却没包含旧失败。
-> ⭐⭐⭐⭐ **每次生产事故产生一条 eval，永久留在套件里**（`ci-skill-validation.md`）——
+> ⭐⭐⭐⭐ **每次生产事故产生一条 eval，永久留在套件里**（`skill-automation/references/ci-skill-validation.md`）——
 > 这些就是必须进对比集的东西。
 
 ---

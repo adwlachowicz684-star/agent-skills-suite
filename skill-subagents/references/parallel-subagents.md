@@ -23,7 +23,7 @@
 □ ⭐ 不继承：父对话里已加载的技能（必须在 skills: 显式声明）
 ```
 
-最后一条呼应 `subagents.md`：
+最后一条呼应 `skill-subagents/references/subagents.md`：
 **编排总是一层深**。
 
 ## 什么时候并行
@@ -55,9 +55,9 @@
 ✅ ⭐ "Identify all uses of eval() and suggest safe alternatives"
 ```
 
-> 呼应 `composition.md` 与 `multi-agent-review.md`：
+> 呼应 `skill-composition/references/composition.md` 与 `skill-subagents/references/multi-agent-review.md`：
 > **每个专家只带自己领域的规则**，
-> 也呼应 `guidance-forms.md`（**`skill-crafting`**）的
+> 也呼应 `skill-crafting/references/guidance-forms.md`（**`skill-crafting`**）的
 > **给具体判据，不给抽象任务**。
 
 ## 五种模式
@@ -79,7 +79,7 @@
 
 > ⭐ **子代理 + 技能组合**——
 > 技能给方法，子代理给隔离。
-> 呼应 `skill-vs-subagent.md`：
+> 呼应 `skill-subagents/references/skill-vs-subagent.md`：
 > **Skill 是应用程序装在主机里；SubAgent 是虚拟机**。
 
 **③ 层级子代理**
@@ -99,7 +99,7 @@ Level 2（每个服务）：
 ```
 
 > ⭐ **两层是上限**——
-> 呼应 `subagents.md` 的"编排总是一层深"。
+> 呼应 `skill-subagents/references/subagents.md` 的"编排总是一层深"。
 
 **④ 并行评审循环**
 
@@ -110,7 +110,7 @@ Level 2（每个服务）：
 /subagent: 性能分析（复杂度、数据库查询）
 ```
 
-> 这个模式与 `security-pipeline.md` 的多 Agent 并行扫描一致：
+> 这个模式与 `skill-orchestration/references/security-pipeline.md` 的多 Agent 并行扫描一致：
 > ⭐ **按"心智模型"切，不按"数据块"切**。
 
 **⑤ 条件分支**
@@ -131,7 +131,7 @@ Level 2（每个服务）：
 □ ⭐ 从 2–4 个起步，证明确实有效再往上加
 ```
 
-呼应 `skill-composition-patterns.md` 的甜蜜点 5–8：
+呼应 `skill-composition/references/skill-composition-patterns.md` 的甜蜜点 5–8：
 **数量上限是真实约束，不是保守建议**。
 
 **② 所有权不清**
@@ -142,7 +142,7 @@ Level 2（每个服务）：
         或实现协调协议
 ```
 
-呼应 `multi-agent-review.md`：
+呼应 `skill-subagents/references/multi-agent-review.md`：
 **必须明确"谁能改盘、谁只能提议"**。
 
 **③ 上下文管理**
@@ -155,8 +155,8 @@ Level 2（每个服务）：
    - 在子代理调用之间清理无用上下文
 ```
 
-呼应 `context-budget.md`（**`skill-refining`**）与
-`performance.md`（**`skill-selection`**）的
+呼应 `skill-context/references/context-budget.md`（**`skill-refining`**）与
+`skill-selection/references/performance.md`（**`skill-selection`**）的
 **"长工具输出回灌前先做摘要"**。
 
 **④ 依赖没理清**
@@ -185,7 +185,7 @@ Level 2（每个服务）：
 □ ⭐ 边界（只动数据处理模块）
 ```
 
-> 呼应 `grounding-verification.md`（**`skill-crafting`**）：
+> 呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 > **写明证明完成的具体命令、什么证据够什么不够**。
 
 ## 自查

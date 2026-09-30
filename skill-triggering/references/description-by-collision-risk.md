@@ -1,8 +1,8 @@
 # description 按碰撞风险分级 + 混淆伙伴审计
 
-> 相关：《skill-description》的 `imperative-description.md` ·
-> 《skill-description》的 `description-four-rules.md` ·
-> 《skill-orchestration》的 `namespace-collision.md`
+> 相关：《skill-description》的 `skill-description/references/imperative-description.md` ·
+> 《skill-description》的 `skill-description/references/description-four-rules.md` ·
+> 《skill-orchestration》的 `skill-orchestration/references/namespace-collision.md`
 
 ---
 
@@ -27,7 +27,7 @@
 | **ALSO** | ⭐ 加用户可能用但不点名方法的说法 | "也触发于非正式请求，如'一期看到了哪些毒性？'" |
 
 > ⭐ **NOT 段必须"点名替代方案"，不能只说"不要找我"**——
-> 这与 `activation-rate.md`、`namespace-collision.md` 完全一致。
+> 这与 `skill-description/references/activation-rate.md`、`skill-orchestration/references/namespace-collision.md` 完全一致。
 
 ---
 

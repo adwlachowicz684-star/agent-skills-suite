@@ -1,9 +1,9 @@
 # 改一个技能之前：影响面分析
 
-> 相关：《skill-versioning》的 `version-changelog-practice.md`（MAJOR/MINOR 判据）·
-> 《skill-distribution》的 `skill-as-business-rule.md`（数字孪生）·
-> `gray-release-rollback.md`（10% 全挂大盘只掉 1–2 点）·
-> `dependency-resolution-conflicts.md`（显式依赖声明）
+> 相关：《skill-versioning》的 `skill-versioning/references/version-changelog-practice.md`（MAJOR/MINOR 判据）·
+> 《skill-distribution》的 `skill-distribution/references/skill-as-business-rule.md`（数字孪生）·
+> `skill-distribution/references/gray-release-rollback.md`（10% 全挂大盘只掉 1–2 点）·
+> `skill-distribution/references/dependency-resolution-conflicts.md`（显式依赖声明）
 > 前置：那些讲⭐ 版本号怎么定、⭐ 出问题怎么回滚，
 > 这份讲⭐⭐⭐⭐ **改之前怎么知道会波及谁**——
 > 也就是把"破坏性改动静默影响全队"从事后追责变成事前可见。
@@ -59,7 +59,7 @@
 > 你改了 A 的输出格式，B 解析失败，C 拿到空的 B 输出——
 > 而 C 的失败报告里根本不会提到 A。
 
-这正是 `skill-data-passing.md` 那句"出错的地方 ≠ 你改动的地方"的机制。
+这正是 `skill-interfaces/references/skill-data-passing.md` 那句"出错的地方 ≠ 你改动的地方"的机制。
 
 ---
 
@@ -74,7 +74,7 @@
 | 3 | 这次改动会改变**输出形状**吗？ | 形状一变，下游全变 |
 | 4 | 会改变**触发条件**吗？ | ⭐ 触发变了，调用它的场景就变了 |
 | 5 | 会改变**权限要求**吗？ | ⭐ 少给权限 = 静默失败 |
-| 6 | 有没有外部系统依赖变了？ | 见 `dependency-resolution-conflicts.md` |
+| 6 | 有没有外部系统依赖变了？ | 见 `skill-distribution/references/dependency-resolution-conflicts.md` |
 
 > ⭐⭐⭐ **第 2 问的默认答案是"有"，不是"没有"。**
 > 这是整份文档最重要的一条——因为查不到不等于不存在，
@@ -125,7 +125,7 @@ grep -rn "skill-name" --include="*.md" .
 | ⭐ 有编排下游 | ⭐ 输出形状、步骤编号 | ⭐ PR + 下游技能一起跑回归 |
 | ⭐⭐ 有外部依赖 | 权限、数据源 | ⭐⭐ PR + 灰度 + 回滚预案 |
 
-> ⭐⭐⭐ 这张表和 `skill-as-business-rule.md` 的"四类改动危险等级"
+> ⭐⭐⭐ 这张表和 `skill-distribution/references/skill-as-business-rule.md` 的"四类改动危险等级"
 > 是两个维度，要交叉看：
 > **改动类型**（描述 vs 规则）× **影响面**（有没有下游）。
 > 两者都高时，才需要最重的流程。
@@ -147,7 +147,7 @@ grep -rn "skill-name" --include="*.md" .
 > 那测的是下游能不能处理理想输入，不是能不能处理你的新输出。
 > 必须**把上游的真实输出喂进去**。
 
-配一条来自 `outgrowth-regression-detection.md` 的要求：
+配一条来自 `skill-triggering/references/outgrowth-regression-detection.md` 的要求：
 **eval 输入要脏**——用真实使用的半成品输入，不是干净样例。
 
 ---
@@ -166,7 +166,7 @@ grep -rn "skill-name" --include="*.md" .
 | 重写整个流程 | 300 行 | 无下游 | 低 |
 
 > ⭐⭐⭐ **这直接反驳了"大改动才需要谨慎"的直觉。**
-> 也解释了为什么 `version-changelog-practice.md` 的 MAJOR 判据
+> 也解释了为什么 `skill-versioning/references/version-changelog-practice.md` 的 MAJOR 判据
 > 不是"改了多少行"，而是"按旧版本使用会不会变成错误结果"——
 > 那本质上就是一个影响面判据。
 

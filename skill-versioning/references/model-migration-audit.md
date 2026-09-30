@@ -1,8 +1,8 @@
 # 模型升级后：技能要重新校准，不是自动变好
 
-> 相关：《skill-versioning》的 `skill-rot-rollback-discipline.md` ·
-> `skill-evolution-loop.md` · 《skill-evaluating》的
-> `capability-vs-preference.md` · `cross-model.md`
+> 相关：《skill-versioning》的 `skill-versioning/references/skill-rot-rollback-discipline.md` ·
+> `skill-versioning/references/skill-evolution-loop.md` · 《skill-evaluating》的
+> `skill-quality/references/capability-vs-preference.md` · `skill-selection/references/cross-model.md`
 > 前置：那份讲"技能会腐烂"，
 > 这份讲⭐⭐⭐ **腐烂最快的一种触发条件：换模型**——
 > 以及⭐⭐ 为什么"新模型变笨了"通常是错的诊断。
@@ -86,7 +86,7 @@ and anything that should be simplified or removed.
 >     ⭐ 一次只改最小量，才能让回归可归因
 > ```
 
-> ⭐ 边界：这与 `skill-rot-rollback-discipline.md` 的
+> ⭐ 边界：这与 `skill-versioning/references/skill-rot-rollback-discipline.md` 的
 > "agent 可以提议，人审核"完全一致——**审计 + 提议可以自动，落地必须人批**。
 
 ---
@@ -116,7 +116,7 @@ and anything that should be simplified or removed.
 > 这与直觉相反——多数人升级后会⭐ 追加指令来"压住"新行为，
 > 而官方建议的是⭐ 移除那些为旧模型打的补丁。
 
-> ⭐⭐ 顺带印证了 `token-bloat-audit.md` 与 `skill-reducer-study.md`：
+> ⭐⭐ 顺带印证了 `skill-crafting/references/token-bloat-audit.md` 与 `skill-refining/references/skill-reducer-study.md`：
 > **精简既有质量收益也有成本收益，两个收益方向一致。**
 
 ---
@@ -137,11 +137,11 @@ and anything that should be simplified or removed.
 
 ```
 · ⭐⭐⭐ 在一个模型上调优好的技能，换模型必须⭐ 重测，不能假设沿用
-· ⭐⭐ 这解释了为什么 `official-checklist.md` 那条
+· ⭐⭐ 这解释了为什么 `skill-quality/references/official-checklist.md` 那条
       "Haiku/Sonnet/Opus 三档都测"是最常被漏的一条——
       ⭐⭐ 它不只是"多测几个"，而是⭐⭐⭐ 弱相关意味着
       单档调优的结果⭐ 不能外推到其他档
-· ⭐⭐ 结合 `unicode-injection-defense.md` 的"越强越脆弱"：
+· ⭐⭐ 结合 `skill-security/references/unicode-injection-defense.md` 的"越强越脆弱"：
       ⭐⭐⭐ 换模型要同时重测⭐ 表现和⭐ 安全
 ```
 
@@ -161,7 +161,7 @@ and anything that should be simplified or removed.
 
 > ⭐⭐⭐ 第 ⑤ 条"一次只改一组"是整套清单的枢纽——
 > 没有它，第 ⑦ 条"只保留有改进的"就无从判断是哪一条起了作用。
-> 这与 `incremental-debug-procedure.md` 的增量调试、
+> 这与 `skill-triggering/references/incremental-debug-procedure.md` 的增量调试、
 > `skill-rot` 的"无法二分"是同一条原则。
 
 **一个类比**（很贴切）：

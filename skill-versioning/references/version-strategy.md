@@ -1,7 +1,7 @@
 # 版本号怎么打：判据是"调用方会不会坏"
 
-> 相关：《skill-distribution》的 `release-versioning.md` ·
-> `versioning-compat.md` · 《skill-distribution》的 `release-versioning.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/release-versioning.md` ·
+> `skill-distribution/references/versioning-compat.md` · 《skill-distribution》的 `skill-distribution/references/release-versioning.md`
 
 ---
 

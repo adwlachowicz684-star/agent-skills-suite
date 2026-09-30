@@ -1,10 +1,10 @@
 # 技能的 ADR：把设计决策记下来
 
-> 相关：《skill-versioning》的 `change-impact-analysis.md`（影响面六问）·
-> `version-diff-behavior-compare.md` ·
-> `skill-rot-rollback-discipline.md`（回滚纪律）·
-> 《skill-orchestration》的 `priority-arbitration.md`（仲裁要写成函数）·
-> 《skill-boundaries》的 `four-way-choice.md`（四选一）
+> 相关：《skill-versioning》的 `skill-versioning/references/change-impact-analysis.md`（影响面六问）·
+> `skill-versioning/references/version-diff-behavior-compare.md` ·
+> `skill-versioning/references/skill-rot-rollback-discipline.md`（回滚纪律）·
+> 《skill-orchestration》的 priority-arbitration.md（仲裁要写成函数）·
+> 《skill-boundaries》的 `skill-boundaries/references/four-way-choice.md`（四选一）
 > 前置：
 > 影响面分析讲⭐⭐⭐ **改一次要评估什么**，
 > 这份讲⭐⭐⭐⭐⭐ **当初为什么这么定**——

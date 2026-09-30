@@ -1,10 +1,10 @@
 # 技能的失败分类：四种失败要四种修法
 
-> 相关：《skill-triggering》的 `trigger-tuning-loop.md`（误触发 vs 漏触发）·
-> 《skill-triggering》的 `compound-failure.md`（复合失效）·
-> `hit-rate-four-questions.md`（四类诊断）·
-> 《skill-recovery》的 `execution-error-protocol.md`（错误被吞掉）·
-> 《skill-triggering》的 `outgrowth-regression-detection.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/trigger-tuning-loop.md`（误触发 vs 漏触发）·
+> 《skill-triggering》的 `skill-triggering/references/compound-failure.md`（复合失效）·
+> `skill-triggering/references/hit-rate-four-questions.md`（四类诊断）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`（错误被吞掉）·
+> 《skill-triggering》的 `skill-triggering/references/outgrowth-regression-detection.md`
 > 前置：已有文档按⭐⭐⭐ **阶段**（触发前/触发后）或⭐⭐⭐ **机制**（文件/描述/上下文）分类失败，
 > 这份按⭐⭐⭐⭐ **"对不对 / 稳不稳"这个二分**重切一遍——
 > 因为⭐⭐⭐⭐⭐ **"偶尔错"和"总是错"的根因完全不同，而多数人用同一套方法修**。
@@ -54,7 +54,7 @@
 > ⭐⭐⭐⭐ 第二种浪费尤其常见，而且 ⭐⭐⭐⭐ **它主动让技能变差**——
 > 这正是"一看到表现不对就疯狂补正文，越补越乱"的机制。
 
-判定的代价极低：**同一个输入跑 3 次**（`three-skill-ceiling.md` 的触发稳定性测试）
+判定的代价极低：**同一个输入跑 3 次**（`skill-evaluating/references/three-skill-ceiling.md` 的触发稳定性测试）
 就能分清。⭐ ⭐ **三次全错 = ①，三次不一样 = ②**。
 
 ---
@@ -84,7 +84,7 @@
 
 > ⭐⭐⭐⭐⭐ **这一类的第一嫌疑人是"没声明的依赖"**——
 > 它的特征症状就是 ⭐⭐⭐⭐ **"时好时坏"**，
-> 而这正是 `data-dependency-declaration.md` 里第四类（前置产物）的表现。
+> 而这正是 `skill-input/references/data-dependency-declaration.md` 里第四类（前置产物）的表现。
 
 **③ 健康** —— 不用管。
 

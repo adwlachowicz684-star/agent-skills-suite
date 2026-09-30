@@ -1,9 +1,9 @@
 # 自进化的三个层次与它的边界
 
-> 相关：《skill-versioning》的 `skill-evolution-loop.md` ·
-> `refine-with-execution.md` · 《skill-governance》的
-> `ops-iteration-sop.md`
-> 前置：`skill-evolution-loop.md` 讲"人怎么改"，
+> 相关：《skill-versioning》的 `skill-versioning/references/skill-evolution-loop.md` ·
+> `skill-refining/references/refine-with-execution.md` · 《skill-governance》的
+> `skill-governance/references/ops-iteration-sop.md`
+> 前置：`skill-versioning/references/skill-evolution-loop.md` 讲"人怎么改"，
 > 这份讲⭐ **让技能自己变强的三个层次，以及⭐⭐ 它的明确边界**。
 
 ---
@@ -61,7 +61,7 @@
 
 ## 3. 层次三：运行时反馈闭环
 
-系统化形态（见 `observability-trace-debug.md` 的可观测性三层）：
+系统化形态（见 `skill-governance/references/observability-trace-debug.md` 的可观测性三层）：
 决策日志、调用日志、trace_id 贯穿，让每次执行都留下可复盘的信号。
 
 **长期图景**（这段总结得很准）：
@@ -108,7 +108,7 @@ Warp 的 Loop Engineering（技能让 agent 自己改进技能）：
 ```
 
 > ⭐ 第 ② 条里最后一项最容易被漏：**初版技能要写明"我需要什么反馈"**——
-> 否则你收集不到信号，`skill-evolution-loop.md` 那三档信号就没有来源。
+> 否则你收集不到信号，`skill-versioning/references/skill-evolution-loop.md` 那三档信号就没有来源。
 
 **为什么选 Issue 分诊起步**（两条理由都很实在）：
 
@@ -128,8 +128,8 @@ Warp 的 Loop Engineering（技能让 agent 自己改进技能）：
 > 继续参与技能的演进。**
 > ⭐ 外循环 agent 可以提议修改，但⭐ 不能直接改主分支。
 
-这与 `skill-ownership-changeflow.md` 的"没跑 eval 的 PR 不接受"、
-以及 `comparator-ab-eval.md` 的"AI 给自己打分不可靠"是同一条纪律：
+这与 `skill-governance/references/skill-ownership-changeflow.md` 的"没跑 eval 的 PR 不接受"、
+以及 `skill-automation/references/comparator-ab-eval.md` 的"AI 给自己打分不可靠"是同一条纪律：
 **可以自动化提议，不能自动化放行。**
 
 ---

@@ -1,7 +1,7 @@
 # 三类失败模式：欠触发 / 误触发 / 执行失败
 
-> 相关：《skill-triggering》的 `trigger-debugging.md` ·
-> `trigger-eval-set.md` · 《skill-description》的 `trigger-fix-nine-causes.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/trigger-debugging.md` ·
+> `skill-triggering/references/trigger-eval-set.md` · 《skill-description》的 `skill-description/references/trigger-fix-nine-causes.md`
 > 前置：那些文档讲"怎么修"，这份讲"三类故障各自的根因链路与诊断思路"。
 
 ---
@@ -60,7 +60,7 @@
 
 > ⭐ **开发者写 description 时会下意识用精确的技术语言**，
 > ⭐ **但用户实际措辞往往更随意、更多样。**
-> 这正是 `activation-rate.md` 里"测试措辞是作者的词汇"那条。
+> 这正是 `skill-description/references/activation-rate.md` 里"测试措辞是作者的词汇"那条。
 
 **② 语义距离过大**
 
@@ -187,7 +187,7 @@
 ```
 
 > ⭐ **步骤越模糊，执行结果的方差越大。**
-> 这与 `instruction-craft.md` 的"祈使句 + 钉死格式"是同一条。
+> 这与 `skill-patterns/references/instruction-craft.md` 的"祈使句 + 钉死格式"是同一条。
 
 **② 资源路径错误或缺失**
 
@@ -213,7 +213,7 @@
 
 > ⭐ **这类假设在开发者本地往往成立，
 > ⭐ 但在其他成员的环境或 CI 中可能不成立。**
-> 与 `preflight-gate.md` 的 STEP 0 前置门禁是同一件事的两面。
+> 与 `skill-execution/references/preflight-gate.md` 的 STEP 0 前置门禁是同一件事的两面。
 
 ---
 

@@ -128,7 +128,7 @@ rm -rf ~/.cache/skill-watch    # 删缓存
 
 > 这是高手才会碰到的问题。
 
-**一般规则**（呼应 `discovery.md`）：
+**一般规则**（呼应 `skill-triggering/references/discovery.md`）：
 
 ```
 项目级 > 全局级
