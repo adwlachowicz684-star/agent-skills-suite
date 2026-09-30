@@ -94,7 +94,7 @@
 >
 > ⭐ **九个没用的技能 = 每次请求都在白白烧几百 token。**
 
-> 呼应 `skill-distribution` 的 `library-ops.md` 的清库与 `/skill-doctor`：
+> 呼应 `skill-distribution` 的 `skill-distribution/references/library-ops.md` 的清库与 `/skill-doctor`：
 > **每个技能都在为每一轮付费，不管你有没有用过它。**
 
 ---
@@ -121,7 +121,7 @@
 □ 可选的 references，只在需要时加载
 ```
 
-> 这也解释了为什么 `skill-refining` 的 `context-budget.md` 强调**按需加载**——
+> 这也解释了为什么 `skill-refining` 的 `skill-context/references/context-budget.md` 强调**按需加载**——
 > **技能是成本项，不是纯收益项。**
 
 ---

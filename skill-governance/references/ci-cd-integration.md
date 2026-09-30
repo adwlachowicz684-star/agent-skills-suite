@@ -98,7 +98,7 @@ Agent fixes → pushes → CI runs again
 
 > ⭐ **"测试失败时路由到调试技能"这条值得单独学**——
 > 它演示了技能之间**通过路由协作，而不是各自为政**。
-> 呼应 `skill-orchestration` 的 `composition.md` 与 `skill-refining` 的 `architecture-layering.md` 的 Router 模式。
+> 呼应 `skill-orchestration` 的 `skill-composition/references/composition.md` 与 `skill-refining` 的 `skill-refining/references/architecture-layering.md` 的 Router 模式。
 
 **本地复现命令表**（写进技能让 agent 直接查）：
 
@@ -131,9 +131,9 @@ gh run rerun <id> · gh pr checks
 □ 网络访问限制——控制外部资源访问
 ```
 
-> 呼应 `sandbox-execution.md`：
+> 呼应 `skill-security/references/sandbox-execution.md`：
 > **审查引擎尤其需要切片**，因为它会读大量不可信内容
-> （见 `skill-selection` 的 `untrusted-repo-content.md`）。
+> （见 `skill-selection` 的 `skill-selection/references/untrusted-repo-content.md`）。
 
 ---
 
@@ -161,8 +161,8 @@ gh run rerun <id> · gh pr checks
 □ ⭐ 建议分阶段执行（先快速检查，再深度分析）
 ```
 
-> ⭐ 呼应 `skill-scripting` 的 `script-engineering.md` 的"绝不交互"与超时纪律，
-> 以及 `skill-selection` 的 `performance.md` 的并行 IO。
+> ⭐ 呼应 `skill-scripting` 的 `skill-scripting/references/script-engineering.md` 的"绝不交互"与超时纪律，
+> 以及 `skill-selection` 的 `skill-selection/references/performance.md` 的并行 IO。
 
 ---
 

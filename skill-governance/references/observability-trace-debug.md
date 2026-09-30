@@ -1,8 +1,8 @@
 # 可观测性：trace 与调试技能
 
-> 相关：《skill-automation》的 `skill-observability.md` ·
-> 《skill-triggering》的 `trace-debugging.md`
-> 前置：`skill-observability.md` 讲"该记什么字段"，
+> 相关：《skill-automation》的 `skill-automation/references/skill-observability.md` ·
+> 《skill-triggering》的 `skill-triggering/references/trace-debugging.md`
+> 前置：`skill-automation/references/skill-observability.md` 讲"该记什么字段"，
 > 这份讲⭐ **trace 怎么串起来，以及"用技能来调试技能"这个自举思路**。
 
 ---
@@ -28,7 +28,7 @@ Agent 系统出问题时最头疼的是"黑盒效应"：
 > ⭐ **唯一解法：从第一天就开始构建可观测性体系。**
 
 > ⭐ 为什么是"从第一天"：你无法在出事之后补记已经发生的东西。
-> 这与 `retirement-pipeline.md` 的"退役才有清单"是同一类教训。
+> 这与 `skill-governance/references/retirement-pipeline.md` 的"退役才有清单"是同一类教训。
 
 ---
 
@@ -88,7 +88,7 @@ Agent 系统出问题时最头疼的是"黑盒效应"：
 {"selected_skill": "web_search", "reason": "用户询问最新信息"}
 ```
 
-> ⭐ 这与 `skillsbench-vs-realworld.md` 那条硬数据接上了：
+> ⭐ 这与 `skill-evaluating/references/skillsbench-vs-realworld.md` 那条硬数据接上了：
 > **加载率只有 16%–49%——"选错/没选"是最大的失效源，
 > 而决策日志是唯一能观测它的东西。**
 
@@ -148,7 +148,7 @@ Arize 团队的实践，一个三技能链：
    → ⭐ Write once, debug everywhere.
 ```
 
-> ⭐ 这与 `cross-agent-portability.md` 的"中性目录 + symlink，绝不手抄副本"
+> ⭐ 这与 `skill-distribution/references/cross-agent-portability.md` 的"中性目录 + symlink，绝不手抄副本"
 > 完全一致——**同一结论在两个不同来源独立出现**。
 
 ---
@@ -168,7 +168,7 @@ safe-gcloud-logs.sh  只允许 gcloud logging read
 > ⭐⭐ **LLM 会照着你给的指令做，所以护栏要放在包装器里——
 > 不在提示里，在代码里。**
 
-> ⭐⭐ 这与 `determinism-boundary.md` 完全同源：
+> ⭐⭐ 这与 `skill-evaluating/references/determinism-boundary.md` 完全同源：
 > **"把破坏性命令拦截写进技能是表演"**——
 > 这里是同一个结论的**正面实现样板**。
 

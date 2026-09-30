@@ -32,16 +32,16 @@ description: 完整技能样本库——可直接照抄的真实 SKILL.md 源码
 > ⭐ **没有一个说"功能很全"**。
 
 ## 路由表（按需深读）
-| `bad-skill-anatomy.md` | ⭐⭐⭐⭐⭐ 反面样本 14 处诊断 + 改写；⭐⭐⭐⭐⭐ Q2：不用这技能模型也会做 = 伪技能 |
-| `skill-creator-agents-and-stats.md` | ⭐⭐★★★ 三子代理分工（校验者≠解释者）；★stddev 是我们缺的维度 |
-| `skill-creator-meta-architecture.md` | ⭐⭐★★★ 元技能架构；★每用例跑 with/baseline 两个子代理；★grader 也评审 eval |
-| `team-skill-template.md` | ⭐⭐⭐ 团队模板 + ★★★★命名仲裁（动名词 vs verb-noun） |
-| `first-skill-minimal.md` | ⭐⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
-| `five-starter-skills.md` | ⭐ 五个起步技能完整源码（含各自行数） |
-| `code-review-skill-instance.md` | ⭐⭐ 八步、三档判词逻辑、三条硬规则；生成者≠校验者 |
-| `systematic-debugging-skill.md` | ⭐⭐⭐ 四阶段、三次修复规则、⭐ 六条写法分析 |
-| `unity-refactor-skill.md` | ⭐ 默认范围=最近改动、八条规则、"不确定就跳过" |
-| `frontend-ui-skills.md` | ⭐ 三 agent 前置、反 AI 味表（禁令+替代的完美实证） |
+| `skill-gallery/references/bad-skill-anatomy.md` | ⭐⭐⭐⭐⭐ 反面样本 14 处诊断 + 改写；⭐⭐⭐⭐⭐ Q2：不用这技能模型也会做 = 伪技能 |
+| `skill-gallery/references/skill-creator-agents-and-stats.md` | ⭐⭐★★★ 三子代理分工（校验者≠解释者）；★stddev 是我们缺的维度 |
+| `skill-gallery/references/skill-creator-meta-architecture.md` | ⭐⭐★★★ 元技能架构；★每用例跑 with/baseline 两个子代理；★grader 也评审 eval |
+| `skill-gallery/references/team-skill-template.md` | ⭐⭐⭐ 团队模板 + ★★★★命名仲裁（动名词 vs verb-noun） |
+| `skill-gallery/references/first-skill-minimal.md` | ⭐⭐ 第一个技能可以只有 10 行 + 四条黄金法则 |
+| `skill-gallery/references/five-starter-skills.md` | ⭐ 五个起步技能完整源码（含各自行数） |
+| `skill-gallery/references/code-review-skill-instance.md` | ⭐⭐ 八步、三档判词逻辑、三条硬规则；生成者≠校验者 |
+| `skill-gallery/references/systematic-debugging-skill.md` | ⭐⭐⭐ 四阶段、三次修复规则、⭐ 六条写法分析 |
+| `skill-gallery/references/unity-refactor-skill.md` | ⭐ 默认范围=最近改动、八条规则、"不确定就跳过" |
+| `skill-gallery/references/frontend-ui-skills.md` | ⭐ 三 agent 前置、反 AI 味表（禁令+替代的完美实证） |
 
 ## Critical Rules
 

@@ -43,7 +43,7 @@ skills/ui-ux-pro-max/
 
 > ⭐ **把知识库查询做成脚本**是这里的关键设计：
 > 风格库可能几万行，但每次只需要检索出相关的几条——
-> 这正是 `scripts/` 该干的事（呼应 `skill-scripting` 的 `script-engineering.md`）。
+> 这正是 `scripts/` 该干的事（呼应 `skill-scripting` 的 `skill-scripting/references/script-engineering.md`）。
 
 ---
 
@@ -73,7 +73,7 @@ python3 scripts/search.py "layout responsive" --stack html-tailwind
 ```
 
 > ⭐ **"别这么做"清单是 Gotchas 的对应物**——
-> 呼应 `skill-authoring` 的 `skill-types.md`：这类内容来自实际踩过的坑，
+> 呼应 `skill-authoring` 的 `skill-content/references/skill-types.md`：这类内容来自实际踩过的坑，
 > 是技能里信号最高的部分。
 
 ---
@@ -100,7 +100,7 @@ search.py "payment checkout secure" --design-system --persist \
 ```
 
 > ⭐ **这是指令与数据分离的一个绝佳实例**——
-> 呼应 `skill-distribution` 的 `team-workflow.md` 的"SKILL.md 与数据文件分离"：
+> 呼应 `skill-distribution` 的 `skill-adoption/references/team-workflow.md` 的"SKILL.md 与数据文件分离"：
 > **how 在技能里，what 在数据文件里**，技能里不再出现死数字。
 
 ---
@@ -142,7 +142,7 @@ search.py "payment checkout secure" --design-system --persist \
 □ 覆盖：主题、表单、数据表、命令面板
 ```
 
-**无障碍**（另见 `a11y-skills.md`）：
+**无障碍**（另见 a11y-skills.md）：
 
 ```
 □ WCAG 2.1 检查：颜色对比、键盘操作、屏幕阅读器、ARIA 属性
@@ -172,7 +172,7 @@ search.py "payment checkout secure" --design-system --persist \
 □ ⭐ prefers-reduced-motion 这类细节
 ```
 
-> ⭐ **"上线前一句话"是可自动检查验收清单的典型**（呼应 `design-system-skills.md`）：
+> ⭐ **"上线前一句话"是可自动检查验收清单的典型**（呼应 design-system-skills.md）：
 > 全是**可判定的谓词**，而不是"看起来协调"。
 
 ---

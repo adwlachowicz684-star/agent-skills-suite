@@ -1,7 +1,7 @@
 # 五个立刻能做的起步技能（含完整源码）
 
-> 相关：《skill-gallery》的 `first-skill-minimal.md` ·
-> `creation-framework.md` · 《skill-authoring》的 `how-to-guide.md`
+> 相关：《skill-gallery》的 `skill-gallery/references/first-skill-minimal.md` ·
+> `skill-authoring/references/creation-framework.md` · 《skill-authoring》的 `skill-authoring/references/how-to-guide.md`
 
 ---
 
@@ -21,7 +21,7 @@
 ## 1. 为什么从这五个开始
 
 这五个都是**高频、重复、规则清晰**的任务——
-正是 `cold-start.md` 说的理想起步点。
+正是 `skill-adoption/references/cold-start.md` 说的理想起步点。
 
 > ⭐ **从一个你反复面对的真实问题开始。
 > 一个专注、把一件事做好的技能，永远胜过一个大而全的。**
@@ -72,7 +72,7 @@ Types: feat, fix, docs, style, refactor, test, chore
 首行不超过 72 字符。改动复杂时加正文。
 ```
 
-> ⭐ 这类**偏好型技能**（见 `capability-vs-preference.md`）
+> ⭐ 这类**偏好型技能**（见 `skill-quality/references/capability-vs-preference.md`）
 > 最适合起步——规则明确、验收简单、模型升级也不易破坏。
 
 ---
@@ -105,7 +105,7 @@ Types: feat, fix, docs, style, refactor, test, chore
 ⭐ Don't guess — read the actual code first.
 ```
 
-详尽版见（已移至 _parked 领域实例库）的 `systematic-debugging-skill.md`。
+详尽版见（已移至 _parked 领域实例库）的 `skill-gallery/references/systematic-debugging-skill.md`。
 
 ---
 
@@ -123,7 +123,7 @@ Types: feat, fix, docs, style, refactor, test, chore
 ```
 
 > ⭐ 后两条是它比"写点测试"有效的原因——
-> 与 `testing-skills.md` 的"框架检测 + 模式匹配"一致。
+> 与 `skill-domains/references/testing-skills.md` 的"框架检测 + 模式匹配"一致。
 
 ---
 

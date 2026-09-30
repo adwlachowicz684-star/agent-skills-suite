@@ -1,10 +1,10 @@
 # 让输出可审：把决策依据写出来
 
-> 相关：《skill-examples》的 `examples-three-branches.md`（Rationale 字段）·
-> 《skill-output》的 `grounding-verification.md`（有据可查）·
-> `structured-output-pipeline.md`（结构化≠正确）·
-> 《skill-triggering》的 `trace-debugging.md`（失败点≠出错点）·
-> 《skill-governance》的 `observability-trace-debug.md`
+> 相关：《skill-examples》的 `skill-examples/references/examples-three-branches.md`（Rationale 字段）·
+> 《skill-output》的 `skill-output/references/grounding-verification.md`（有据可查）·
+> `skill-output/references/structured-output-pipeline.md`（结构化≠正确）·
+> 《skill-triggering》的 `skill-triggering/references/trace-debugging.md`（失败点≠出错点）·
+> 《skill-governance》的 `skill-governance/references/observability-trace-debug.md`
 > 前置：
 > 有据可查验证讲⭐⭐⭐⭐ **结论要能追溯到源**（防编造），
 > 这份讲⭐⭐⭐⭐⭐ **判断要能被审查**（防"对但不可信"）——
@@ -197,7 +197,7 @@ B. ⭐⭐⭐⭐⭐ 结果对但依据错：结论对，理由是错的
 → ⭐⭐⭐⭐ 某条规则被引用但结果常错 → ⭐⭐⭐⭐⭐ 它该进 Gotchas
 ```
 
-> ⭐⭐⭐⭐⭐ 最后一行闭环了 `gotchas-mining.md`：
+> ⭐⭐⭐⭐⭐ 最后一行闭环了 `skill-content/references/gotchas-mining.md`：
 > **Gotchas 是采集的，而依据字段是一个自动的采集信号**——
 > 比人工回忆可靠得多（与 `stopped_at` 那条同理）。
 

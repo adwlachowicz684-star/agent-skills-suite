@@ -1,10 +1,10 @@
 # 中途变更：模型不会区分"补充"和"改主意"
 
-> 相关：《skill-execution》的 `intent-drift-midflight.md`（目标漂移）·
-> `human-checkpoint-design.md`（检查点）·
-> `exit-conditions-when-to-stop.md`（停止条件）·
-> `idempotency-resume.md`（幂等与续跑）·
-> 《skill-output》的 `output-contract.md`
+> 相关：《skill-execution》的 `skill-execution/references/intent-drift-midflight.md`（目标漂移）·
+> `skill-execution/references/human-checkpoint-design.md`（检查点）·
+> `skill-recovery/references/exit-conditions-when-to-stop.md`（停止条件）·
+> `skill-recovery/references/idempotency-resume.md`（幂等与续跑）·
+> 《skill-output》的 `skill-output/references/output-contract.md`
 > 前置：
 > 意图漂移讲⭐⭐⭐ **目标被替换**（目的地变了），
 > 这份讲⭐⭐⭐⭐⭐ **同一目标下的范围与细节变更**——
@@ -96,7 +96,7 @@
 如果那 6 条已经发出去了     → 重跑会发第二遍
 ```
 
-（这与 `idempotency-resume.md` 里"重试要区分'没写入'和'已写入但回应丢失'"是同一条原则。）
+（这与 `skill-recovery/references/idempotency-resume.md` 里"重试要区分'没写入'和'已写入但回应丢失'"是同一条原则。）
 
 判据一句话：
 
@@ -122,7 +122,7 @@
 > 省了它，用户会以为什么都没发生——
 > 而实际上文件系统里已经有一个半成品。
 
-> ⭐⭐⭐⭐⭐ 这与 `human-checkpoint-design.md` 那条
+> ⭐⭐⭐⭐⭐ 这与 `skill-execution/references/human-checkpoint-design.md` 那条
 > "不可逆的部分"是同一件事的两种出现时机：
 > 那份是**做之前**展示，这份是**目标变了之后**补报。
 
@@ -151,7 +151,7 @@
 > ② ⭐⭐⭐⭐⭐ **它暗示用户刚才的回答可能被推翻了**
 > ③ 用户会开始怀疑是不是自己表达不清
 
-> ⭐⭐⭐⭐⭐ 这与 `human-checkpoint-design.md` 那条
+> ⭐⭐⭐⭐⭐ 这与 `skill-execution/references/human-checkpoint-design.md` 那条
 > "无脑确认会摧毁检查点的全部价值"是同一条：
 > **重复确认把安全机制变成仪式。**
 

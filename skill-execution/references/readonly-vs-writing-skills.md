@@ -1,10 +1,10 @@
 # 只读技能与写入技能：两套完全不同的写法
 
-> 相关：《skill-recovery》的 `idempotency-resume.md`（幂等与恢复）·
-> `parallel-and-concurrency.md`（准入条件）·
-> `state-check.md`（行动前先查状态）·
-> 《skill-security》的 `allowed-tools-least-privilege.md`（最小权限）·
-> `hooks-skill-cooperation.md`（沉默≠批准）
+> 相关：《skill-recovery》的 `skill-recovery/references/idempotency-resume.md`（幂等与恢复）·
+> `skill-execution/references/parallel-and-concurrency.md`（准入条件）·
+> `skill-recovery/references/state-check.md`（行动前先查状态）·
+> 《skill-security》的 `skill-security/references/allowed-tools-least-privilege.md`（最小权限）·
+> `skill-security/references/hooks-skill-cooperation.md`（沉默≠批准）
 > 前置：那些讲⭐⭐⭐ 幂等怎么写、⭐⭐⭐⭐ 权限怎么收，
 > 这份讲⭐⭐⭐⭐⭐ **最上游的分岔：这个技能到底动不动东西**——
 > 一个决定后面所有写法、却几乎没人显式做出的选择。
@@ -46,13 +46,13 @@
 |---|---|---|
 | 失败后 | ⭐ 从头重跑，无副作用 | ⭐⭐⭐ 必须先查状态 |
 | 重复运行 | 无害 | ⭐⭐⭐ 可能重复创建/重复写入 |
-| 并发 | 通常安全 | ⭐⭐⭐ 需准入条件（见 `parallel-and-concurrency.md`） |
+| 并发 | 通常安全 | ⭐⭐⭐ 需准入条件（见 `skill-execution/references/parallel-and-concurrency.md`） |
 | 权限 | 读即可 | ⭐⭐⭐ 最小权限 + 人工确认门槛 |
 | 验证 | 看输出对不对 | ⭐⭐⭐ **看环境状态对不对** |
 | 撤销 | 不需要 | ⭐⭐⭐ 必须有回滚路径 |
 
 > ⭐⭐⭐⭐ 第五行最容易被漏，也最有价值——
-> 它和 `assert-on-environment.md` 是同一条：
+> 它和 `skill-evaluating/references/assert-on-environment.md` 是同一条：
 > **只读技能可以断言"输出里说了什么"，写入技能必须断言"世界变成了什么样"。**
 
 ---
@@ -135,7 +135,7 @@
 > ⭐⭐⭐ **第三层是硬约束：不可撤销的写入必须有预发送确认。**
 > 因为它没有 undo，所以唯一的防线是"发之前让人看一眼"。
 
-这与 `allowed-tools-least-privilege.md` 的权限分级是配套的：
+这与 `skill-security/references/allowed-tools-least-privilege.md` 的权限分级是配套的：
 **权限决定它能做什么，幂等层次决定做错了能不能收回。**
 两者都不该靠"模型会小心"。
 

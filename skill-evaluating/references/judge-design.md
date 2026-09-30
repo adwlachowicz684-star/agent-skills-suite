@@ -29,7 +29,7 @@
 □ 安全相关的一票否决项
 ```
 
-呼应 `test-pyramid.md`：
+呼应 `skill-evaluating/references/test-pyramid.md`：
 **第 1 层结构 lint 不用 LLM 判**——确定性检查必须确定性。
 
 ## 提示词四要素
@@ -42,7 +42,7 @@
 □ 每个维度配 1–5 的行为锚点（不是形容词）
 ```
 
-呼应 `quality-rubric.md` 的**行为锚点**——同一条要求。
+呼应 `skill-quality/references/quality-rubric.md` 的**行为锚点**——同一条要求。
 
 **② 输出格式固定**
 
@@ -51,7 +51,7 @@
 □ ⭐ 要求"引用具体证据"——否则会分数通胀
 ```
 
-呼应 `quality-rubric.md` 的三个评分陷阱：
+呼应 `skill-quality/references/quality-rubric.md` 的三个评分陷阱：
 **每个分数都要引用具体证据**。
 
 **③ 给反例**
@@ -61,7 +61,7 @@
    ——断言技术上满足但任务没完成
 ```
 
-呼应 `eval-roles.md`（**`skill-evaluating`**）。
+呼应 `skill-evaluating/references/eval-roles.md`（**`skill-evaluating`**）。
 
 **④ 要求自评置信度**
 
@@ -95,7 +95,7 @@
 ⚠️ 一个常见误解：**换个模型家族并不自动 unbiased，同一个家族也不自动 invalid**。
 别按品牌下结论，**在人工复核过的用例上实测**。
 
-**双盲**呼应 `eval-roles.md` 的 Comparator 设计：
+**双盲**呼应 `skill-evaluating/references/eval-roles.md` 的 Comparator 设计：
 **知道哪个是新版本就会带入偏见**。
 
 ## 校准：跟人类对齐
@@ -133,7 +133,7 @@
    ——⭐ 只在上面都不行时用
 ```
 
-> ⭐ 呼应 `eval-tooling.md`（**`skill-evaluating`**）：
+> ⭐ 呼应 `skill-automation/references/eval-tooling.md`（**`skill-evaluating`**）：
 > **硬检查交给代码，rubric 交给评审者**。
 
 ## 一个反直觉的提醒
@@ -146,7 +146,7 @@
 □ ⭐ 用不同模型，或至少独立实例 + 只读上下文
 ```
 
-呼应 `security-pipeline.md`（**`skill-orchestration`**）的
+呼应 `skill-orchestration/references/security-pipeline.md`（**`skill-orchestration`**）的
 **独立审查子 agent**——同一条原则。
 
 ## 机器可读的判据

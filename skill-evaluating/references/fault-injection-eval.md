@@ -1,7 +1,7 @@
 # 故障注入评测：先写恢复契约，再注入故障
 
-> 相关：《skill-evaluating》的 `assert-on-environment.md` ·
-> `skill-test-pyramid-four.md` · 《skill-recovery》的 `error-handling.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/assert-on-environment.md` ·
+> `skill-evaluating/references/skill-test-pyramid-four.md` · 《skill-recovery》的 `skill-recovery/references/error-handling.md`
 
 ---
 

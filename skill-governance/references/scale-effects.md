@@ -70,9 +70,9 @@
 ** outright 重复**：13 组（26 个）技能内容 85–100% 相同，
 且是仓库自己的组织方式产生的内部副本。
 
-> 呼应 `skill-evaluating` 的 `metrics.md` 的"候选池 5 → 100 精确率掉 10 倍"、
-> `skill-refining` 的 `discovery-ux.md` 的"装太多描述被压缩"、
-> `skill-distribution` 的 `library-ops.md` 的清库——**这里是同一结论的量化版**。
+> 呼应 `skill-evaluating` 的 `skill-quality/references/metrics.md` 的"候选池 5 → 100 精确率掉 10 倍"、
+> `skill-refining` 的 `skill-refining/references/discovery-ux.md` 的"装太多描述被压缩"、
+> `skill-distribution` 的 `skill-distribution/references/library-ops.md` 的清库——**这里是同一结论的量化版**。
 
 ---
 

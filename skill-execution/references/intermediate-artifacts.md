@@ -1,10 +1,10 @@
 # 中间产物
 
-> 相关：《skill-interfaces》的 `intermediate-file-contract.md`（文件是 API 不是便签）·
-> 《skill-recovery》的 `cross-session-continuity.md`（副作用持久，进度不持久）·
-> `idempotency-resume.md`（幂等与恢复）·
-> 《skill-execution》的 `parallel-and-concurrency.md`（并行）·
-> 《skill-context》的 `context-budget-per-skill.md`（上下文预算）
+> 相关：《skill-interfaces》的 intermediate-file-contract.md（文件是 API 不是便签）·
+> 《skill-recovery》的 `skill-recovery/references/cross-session-continuity.md`（副作用持久，进度不持久）·
+> `skill-recovery/references/idempotency-resume.md`（幂等与恢复）·
+> 《skill-execution》的 `skill-execution/references/parallel-and-concurrency.md`（并行）·
+> 《skill-context》的 `skill-context/references/context-budget-per-skill.md`（上下文预算）
 > 前置：
 > 已有文档讲的是⭐⭐⭐⭐ **技能之间传递的中间文件**（接口层），
 > 这份讲的是⭐⭐⭐⭐⭐ **技能自己执行过程中产生的临时产物**——
@@ -141,7 +141,7 @@ fetch_raw.json    ← 固定名
 - 失败：⭐⭐⭐⭐⭐ 保留，并在输出中报告路径（用户可自行删除）
 ```
 
-> ⭐⭐⭐⭐⭐ 这与《skill-recovery》的 `reversibility-and-undo.md` 完全同构：
+> ⭐⭐⭐⭐⭐ 这与《skill-recovery》的 `skill-recovery/references/reversibility-and-undo.md` 完全同构：
 > ⭐⭐⭐⭐⭐ **输出会随会话消失，文件不会——所以要写文件，不只是写"完成"。**
 
 ---
@@ -162,7 +162,7 @@ fetch_raw.json    ← 固定名
 ✅ ⭐⭐⭐⭐⭐ 写入临时文件，只返回路径 + 摘要
 ```
 
-> ⭐⭐⭐⭐⭐ 这是 `three-crash-scenes.md` 里那起 3 万字事故的正面解法：
+> ⭐⭐⭐⭐⭐ 这是 `skill-recovery/references/three-crash-scenes.md` 里那起 3 万字事故的正面解法：
 > ⭐⭐⭐⭐⭐ **中间产物存在的意义之一，就是让它可以不进上下文。**
 
 判据：
@@ -174,7 +174,7 @@ fetch_raw.json    ← 固定名
 还有一个反直觉的收益：
 
 > ⭐⭐⭐⭐ 中间产物写成文件，顺带让"重跑这一步"成为可能——
-> 不必从头再来（与 `idempotency-resume.md` 直接相关）。
+> 不必从头再来（与 `skill-recovery/references/idempotency-resume.md` 直接相关）。
 
 ---
 
@@ -194,12 +194,12 @@ fetch_raw.json    ← 固定名
 这三条合起来解决的是一个已有文档的痛点：
 
 ```
-《skill-governance》的 `observability-trace-debug.md`：
+《skill-governance》的 `skill-governance/references/observability-trace-debug.md`：
 ⭐⭐⭐⭐⭐ "失败点 ≠ 出错点"，于是排查要重跑
 ```
 
 > ⭐⭐⭐⭐⭐ 有了现场，⭐⭐⭐⭐⭐ **排错从"重跑并观察"变成"读文件"**——
-> 这跟 `decision-rationale-output.md` 的"写了依据的输出排错时不用重跑"是同一个收益。
+> 这跟 `skill-examples/references/decision-rationale-output.md` 的"写了依据的输出排错时不用重跑"是同一个收益。
 
 ---
 

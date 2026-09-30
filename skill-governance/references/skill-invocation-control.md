@@ -1,8 +1,8 @@
 # 调用控制：用权限规则限定哪些技能可被用
 
-> 相关：`runtime-controls.md`（frontmatter 开关：`disable-model-invocation` / `user-invocable`）
+> 相关：`skill-security/references/runtime-controls.md`（frontmatter 开关：`disable-model-invocation` / `user-invocable`）
 > 这份讲**权限规则层**——不改技能文件，从外部控制谁能调什么。
-> 相关：《skill-crafting》的 `skill-structuring` 的 `frontmatter-fields.md`（`allowed-tools` 字段）
+> 相关：《skill-crafting》的 `skill-structuring` 的 `skill-loading/references/frontmatter-fields.md`（`allowed-tools` 字段）
 
 ---
 
@@ -92,7 +92,7 @@ Skill(deploy *)
 两点含义：
 
 1. **它不是"永久授权"**——只覆盖那一轮，粒度很细，这是好事
-2. **它不是安全边界**——见 `least-privilege.md`：
+2. **它不是安全边界**——见 `skill-security/references/least-privilege.md`：
    真正的访问控制主要是**工具设计**问题，不是声明问题。
    你的基础权限设置仍然管辖所有其他工具的审批行为。
 
@@ -120,10 +120,10 @@ Skill(deploy *)
 | 禁止整个团队用某一类技能 | ⭐ 权限规则 deny + 命名前缀 |
 | 只允许新成员用安全的几个 | ⭐ 权限规则白名单 |
 | 调用时不想被反复询问工具确认 | `allowed-tools`（仅该轮有效） |
-| 防止危险操作真的执行 | ⭐ 都不够——需要 `approval-gates.md` 的人工批准门 |
+| 防止危险操作真的执行 | ⭐ 都不够——需要 `skill-security/references/approval-gates.md` 的人工批准门 |
 
 > ⚠️ **权限规则能阻止"谁可以调用"，但阻止不了"被调用后做什么"。**
-> 后者要靠工具层的最小权限（见 `least-privilege.md`）和批准门（见 `approval-gates.md`）。
+> 后者要靠工具层的最小权限（见 `skill-security/references/least-privilege.md`）和批准门（见 `skill-security/references/approval-gates.md`）。
 
 ---
 

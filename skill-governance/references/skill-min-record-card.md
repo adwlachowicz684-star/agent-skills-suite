@@ -1,7 +1,7 @@
 # 技能最小档案卡与 Owner 责任线
 
-> 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `library-ops.md` · 《skill-distribution》的 `enterprise-registry.md`
+> 相关：《skill-governance》的 `skill-governance/references/retirement-pipeline.md` ·
+> `skill-distribution/references/library-ops.md` · 《skill-distribution》的 `skill-distribution/references/enterprise-registry.md`
 
 ---
 
@@ -87,7 +87,7 @@ Agent 可以负责：
   · ⭐ 最终删除
 ```
 
-> ⭐ 这与 `library-ops.md` 那条"清库这件事不该让 LLM 来做"一致，
+> ⭐ 这与 `skill-distribution/references/library-ops.md` 那条"清库这件事不该让 LLM 来做"一致，
 > 但给出了更精确的切分：**发现与建议可以自动，决定不行**。
 
 ---

@@ -1,7 +1,7 @@
 # 重构类技能实例：范围、规则与报告
 
-> 相关：（已移至 _parked 领域实例库）的 `unity-csharp-standards.md` ·
-> `code-review-skill-instance.md` · 《skill-output》的 `output-contract.md`
+> 相关：（已移至 _parked 领域实例库）的 unity-csharp-standards.md ·
+> `skill-gallery/references/code-review-skill-instance.md` · 《skill-output》的 `skill-output/references/output-contract.md`
 
 ---
 
@@ -59,10 +59,10 @@
 | **跳过测试文件** | 除非明确要求 |
 
 > ⭐ 第五条最值得抄：**"不做投机优化"**
-> 直接对应 `performance-optimization.md` 的"先测量再优化"。
+> 直接对应 `skill-domains/references/performance-optimization.md` 的"先测量再优化"。
 
 > ⭐ 第六条也很关键：**混合改动会让验证失去归因**——
-> 与 `systematic-debugging-skill.md` 的
+> 与 `skill-gallery/references/systematic-debugging-skill.md` 的
 > "一次只改一个变量"是同一条原则。
 
 ---
@@ -76,7 +76,7 @@
 ```
 
 > ⭐ **报告里必须包含"跳过了什么及原因"**——
-> 这与 `research-skills.md` 的
+> 这与 `skill-domains/references/research-skills.md` 的
 > "要求 agent 说明哪些它没有验证"是同一条设计：
 > **不报告沉默的跳过，用户会以为都处理了**。
 
@@ -138,5 +138,5 @@ references/review/
 ```
 
 **配套的硬门槛**：零新增错误、零新增警告。
-这与 `code-review-skill-instance.md` 的"三档判词"互补——
+这与 `skill-gallery/references/code-review-skill-instance.md` 的"三档判词"互补——
 **审查是报告，重构是修改，但共用同一套标准**。

@@ -36,42 +36,42 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 > 而技能会被调用几百次且每次都不经复核。
 
 ## 路由表（按需深读）
-| `intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
-| `human-checkpoint-design.md` | ⭐⭐⭐⭐⭐ 暂停≠结束；⭐⭐⭐⭐⭐ 确认要继续吗不够，要展示不可逆部分；⭐⭐⭐⭐ 过度暂停会训练无脑确认 |
-| `change-questions.md` | ⭐⭐⭐⭐⭐ 模型不区分"补充"和"改主意"；⭐⭐⭐⭐⭐ 改细节不要从头再来；⭐⭐⭐⭐⭐ 同一任务内只问一次 |
-| `readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
-| `parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
-| `intermediate-artifacts.md` | ⭐⭐⭐⭐⭐ 中间产物写在哪/命名/清理；⭐⭐⭐⭐⭐ 不要用存在判断做过；⭐⭐⭐⭐⭐ 失败要留现场 |
-| `seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
-| `repeat-invocation-same-session.md` | ⭐⭐⭐⭐⭐ 第二次调用的输入多了第一次的输出；⭐⭐⭐⭐⭐ 会话内跑两次测的是自洽不是稳定 |
-| `sequential-dependency.md` | ⭐⭐⭐⭐⭐ 列表排列是建议不是约束；⭐⭐⭐⭐⭐ 顺序错不报错只是值不同；⭐⭐⭐⭐⭐ 顺序敏感性测试 |
-| `preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
+| `skill-execution/references/intent-drift-midflight.md` | ⭐⭐⭐⭐⭐ 目的地变了而技能没说怎么办→交付混合体；⭐⭐⭐⭐⭐ 部分失效=停下列清单；⭐⭐⭐⭐ 失效产物不得在结论位置 |
+| `skill-execution/references/human-checkpoint-design.md` | ⭐⭐⭐⭐⭐ 暂停≠结束；⭐⭐⭐⭐⭐ 确认要继续吗不够，要展示不可逆部分；⭐⭐⭐⭐ 过度暂停会训练无脑确认 |
+| `skill-execution/references/change-questions.md` | ⭐⭐⭐⭐⭐ 模型不区分"补充"和"改主意"；⭐⭐⭐⭐⭐ 改细节不要从头再来；⭐⭐⭐⭐⭐ 同一任务内只问一次 |
+| `skill-execution/references/readonly-vs-writing-skills.md` | ⭐⭐⭐⭐⭐ 只读断言说了什么/写入断言世界变成什么样；⭐⭐⭐⭐ 混合技能最危险；不可撤销 |
+| `skill-execution/references/parallel-and-concurrency.md` | ⭐⭐⭐⭐⭐ 并行把失败变成 N 个半成品且不报错；四条准入；⭐汇聚点必须报覆盖率 |
+| `skill-execution/references/intermediate-artifacts.md` | ⭐⭐⭐⭐⭐ 中间产物写在哪/命名/清理；⭐⭐⭐⭐⭐ 不要用存在判断做过；⭐⭐⭐⭐⭐ 失败要留现场 |
+| `skill-execution/references/seven-contracts.md` | ⭐⭐⭐ 七契约：从说明书到责任契约；★别把HTTP 200当成功 |
+| `skill-execution/references/repeat-invocation-same-session.md` | ⭐⭐⭐⭐⭐ 第二次调用的输入多了第一次的输出；⭐⭐⭐⭐⭐ 会话内跑两次测的是自洽不是稳定 |
+| `skill-execution/references/sequential-dependency.md` | ⭐⭐⭐⭐⭐ 列表排列是建议不是约束；⭐⭐⭐⭐⭐ 顺序错不报错只是值不同；⭐⭐⭐⭐⭐ 顺序敏感性测试 |
+| `skill-execution/references/preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
 
 **输出形状**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **Schema-First 与四道防线** | `references/output-contract.md` |
-| **模板放哪、目录语义** | `references/output-contract-templates.md` |
-| **输出控制三层次** | `references/output-control.md` |
+| ⭐ **Schema-First 与四道防线** | `skill-output/references/output-contract.md` |
+| **模板放哪、目录语义** | `skill-output/references/output-contract-templates.md` |
+| **输出控制三层次** | `skill-output/references/output-control.md` |
 
 **执行过程**：
 
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **开始前收齐前置条件** | `references/preflight-gate.md` |
-| **长任务怎么报进度** | `references/progress-reporting.md` |
-| ⭐ **行动前先查状态（别重复做）** | `references/state-check.md` |
-| ⭐ **失败后能恢复、能回滚** | `references/idempotency-resume.md` |
-| **重试/熔断/降级** | `references/error-handling.md` |
-| ⭐ **终止条件与超时** | `references/infinite-loop-timeout.md` |
-| ⭐ **agent 找借口跳步** | `references/anti-rationalizations.md` |
+| **长任务怎么报进度** | `skill-output/references/progress-reporting.md` |
+| ⭐ **行动前先查状态（别重复做）** | `skill-recovery/references/state-check.md` |
+| ⭐ **失败后能恢复、能回滚** | `skill-recovery/references/idempotency-resume.md` |
+| **重试/熔断/降级** | `skill-recovery/references/error-handling.md` |
+| ⭐ **终止条件与超时** | `skill-recovery/references/infinite-loop-timeout.md` |
+| ⭐ **agent 找借口跳步** | `skill-refining/references/anti-rationalizations.md` |
 
 **收尾**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **怎么证明"完成了"** | `references/grounding-verification.md` |
+| ⭐ **怎么证明"完成了"** | `skill-output/references/grounding-verification.md` |
 
 ## Critical Rules
 
@@ -120,4 +120,4 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 ## 参考
 
 - 相关技能：《skill-crafting》（措辞与形态）·《skill-scripting》（脚本契约）·
-  《skill-evaluating》（`assert-on-environment.md` 断言打在环境状态上）
+  《skill-evaluating》（`skill-evaluating/references/assert-on-environment.md` 断言打在环境状态上）

@@ -1,8 +1,8 @@
 # 评测集两个维度：触发评测 + 执行评测
 
-> 相关：《skill-evaluating》的 `eval-case-design.md`（按分支铺用例）·
-> `trigger-eval-set.md` · `trigger-tuning-loop.md` ·
-> `skill-test-pyramid-four.md` · `outgrowth-regression-detection.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/eval-case-design.md`（按分支铺用例）·
+> `skill-triggering/references/trigger-eval-set.md` · `skill-triggering/references/trigger-tuning-loop.md` ·
+> `skill-evaluating/references/skill-test-pyramid-four.md` · `skill-triggering/references/outgrowth-regression-detection.md`
 > 前置：那些讲"用例怎么设计、测试金字塔怎么搭"，
 > 这份讲⭐⭐⭐ **评测集的两个维度各自测什么**，
 > 以及⭐⭐⭐ 一个最反直觉的发现：**最容易漏的那类用例，恰恰是线上最常见的。**
@@ -28,8 +28,8 @@
 > 不是"测试总归是好的"，而是⭐ **技能之间存在非局部耦合**：
 > 你改 A 的 description，坏的可能是 B 的触发。
 >
-> 这与 `library-size-effect.md` 的遮蔽、
-> `capability-offset-net-gain.md` 的 59% 抵消是同一事实的三个侧面：
+> 这与 `skill-selection/references/library-size-effect.md` 的遮蔽、
+> `skill-evaluating/references/capability-offset-net-gain.md` 的 59% 抵消是同一事实的三个侧面：
 > **技能不是独立 deploy 的单元，它们共享一个触发预算和一个上下文。**
 
 ---
@@ -53,10 +53,10 @@
 ③ ⭐⭐⭐ 必须包含⭐ 反例——⭐ 也就是"这句话⭐ 不该触发任何技能"的情况
 ```
 
-> ⭐⭐⭐ 第 ③ 条与 `trigger-tuning-loop.md` 的
+> ⭐⭐⭐ 第 ③ 条与 `skill-triggering/references/trigger-tuning-loop.md` 的
 > "10 条应该触发 + 10 条不应该触发"完全一致——
 > ⭐ 两个独立来源都把**负样本列为必需项而不是可选项**。
-> 也呼应 `eval-case-design.md` 的
+> 也呼应 `skill-evaluating/references/eval-case-design.md` 的
 > "负向用例检查的是'它没做什么'"。
 >
 > ⭐⭐ 第 ① 条也很实用：**不要随机造样本，要专门造"混淆对"**——
@@ -113,9 +113,9 @@
 >       ⭐ 线上出问题的恰恰是⭐ 你没测过的那些情况
 > ```
 >
-> ⭐⭐ 这也解释了 `fault-injection-eval.md` 为什么值得做——
+> ⭐⭐ 这也解释了 `skill-evaluating/references/fault-injection-eval.md` 为什么值得做——
 > 那整份文档就是专门造失败路径的。
-> 以及 `three-failure-modes.md` 的"引用了不存在的模板文件"——
+> 以及 `skill-triggering/references/three-failure-modes.md` 的"引用了不存在的模板文件"——
 > 那也是一个失败路径。
 
 **回归测试**（配套）：
@@ -147,14 +147,14 @@
 ⑤ 把测试用例文档化
 ```
 
-> ⭐⭐⭐ 这条与 `incremental-debug-procedure.md` 的增量调试、
+> ⭐⭐⭐ 这条与 `skill-triggering/references/incremental-debug-procedure.md` 的增量调试、
 > 以及"一次只改一组"是同一个原理在测试阶段的应用：
 > **一次加一层，坏了就知道是哪一层。**
 >
 > ⭐⭐ 第 ① 步尤其有用：一个 10 行的"Test successful"技能
 > 能⭐ 一次性排除掉文件层的所有问题
 > （路径、大小写、YAML、编码），
-> 这正是 `troubleshooting-manual.md` 说的"80% 的问题在第一步"。
+> 这正是 `skill-triggering/references/troubleshooting-manual.md` 说的"80% 的问题在第一步"。
 
 ---
 

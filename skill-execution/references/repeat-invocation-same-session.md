@@ -1,12 +1,12 @@
 # 同一会话内被调用第二次
 
-> 相关：《skill-execution》的 `change-questions.md`（中途变更四问）·
-> 《skill-recovery》的 `cross-session-continuity.md`（跨会话接续）·
-> `idempotency-resume.md`（幂等与恢复）·
-> `relative-time-resolution.md`（相对时间解析）·
-> 《skill-loading》的 `skill-reload-and-session-state.md`（改了什么时候生效）
+> 相关：《skill-execution》的 `skill-execution/references/change-questions.md`（中途变更四问）·
+> 《skill-recovery》的 `skill-recovery/references/cross-session-continuity.md`（跨会话接续）·
+> `skill-recovery/references/idempotency-resume.md`（幂等与恢复）·
+> `skill-input/references/relative-time-resolution.md`（相对时间解析）·
+> 《skill-loading》的 `skill-loading/references/skill-reload-and-session-state.md`（改了什么时候生效）
 > 前置：
-> `cross-session-continuity.md` 讲的是⭐⭐⭐⭐ **会话之间**（上下文没了、副作用还在）；
+> `skill-recovery/references/cross-session-continuity.md` 讲的是⭐⭐⭐⭐ **会话之间**（上下文没了、副作用还在）；
 > 这份讲的是⭐⭐⭐⭐⭐ **会话之内**——上下文还在，而这恰恰是问题所在。
 
 ---
@@ -53,7 +53,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ 这不是随口一说：⭐⭐⭐⭐⭐ **上下文里已有的结论会成为最强的少样本示例**——
-> 按《skill-examples》的 `example-values-become-defaults.md`，模型对示例的信任度高于指令。
+> 按《skill-examples》的 `skill-examples/references/example-values-become-defaults.md`，模型对示例的信任度高于指令。
 
 **② ⭐⭐⭐⭐⭐ 省略**
 
@@ -75,7 +75,7 @@
 
 > ⭐⭐⭐⭐⭐ 第三条的危害最大，因为它**伪造了稳定性**。
 > 而我们已经有结论：⭐⭐⭐⭐⭐ 判定稳定性必须在干净环境跑两遍
-> （《skill-evaluating》的 `test-doubles-fixtures.md`）——
+> （《skill-evaluating》的 `skill-evaluating/references/test-doubles-fixtures.md`）——
 > 同一会话内的"跑两次"测不出稳定性，它测的是自洽。
 
 ---
@@ -110,7 +110,7 @@
 
 ## 4. ⭐⭐⭐⭐⭐ 相对时间在第二次会被重新解析
 
-与 `relative-time-resolution.md` 的冲突点，也正是在这里被触发：
+与 `skill-input/references/relative-time-resolution.md` 的冲突点，也正是在这里被触发：
 
 ```
 第 1 轮："分析最近一周" → 解析为 09-22 ~ 09-29
@@ -177,7 +177,7 @@
 ✅ ⭐⭐⭐⭐ "基于本次重新读取的 12 个文件（未沿用上一轮的结论）"
 ```
 
-> ⭐⭐⭐⭐⭐ 这一句的作用和 `relative-time-resolution.md` 里的
+> ⭐⭐⭐⭐⭐ 这一句的作用和 `skill-input/references/relative-time-resolution.md` 里的
 > "把解析结果写进输出首行"完全相同：
 > ⭐⭐⭐⭐⭐ **不是为了更正确，是为了让"它到底重跑了没有"变成可见的。**
 

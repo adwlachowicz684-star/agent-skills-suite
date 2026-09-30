@@ -1,10 +1,10 @@
 # 示例里的具体值会被当成默认值
 
-> 相关：《skill-examples》的 `examples-three-branches.md`（示例三分支 + Rationale）·
-> `example-mining-from-traces.md`（示例是采集的）·
-> `few-shot-example-quality.md`（示例六准则）·
-> 《skill-content》的 `real-examples.md` ·
-> 《skill-output》的 `output-contract-templates.md`
+> 相关：《skill-examples》的 `skill-examples/references/examples-three-branches.md`（示例三分支 + Rationale）·
+> `skill-examples/references/example-mining-from-traces.md`（示例是采集的）·
+> `skill-examples/references/few-shot-example-quality.md`（示例六准则）·
+> 《skill-content》的 `skill-content/references/real-examples.md` ·
+> 《skill-output》的 `skill-output/references/output-contract-templates.md`
 > 前置：
 > 前面几份讲的是⭐⭐⭐⭐ **示例该从哪来**（采集还是编），
 > 这份讲的是⭐⭐⭐⭐⭐ **示例里写什么值**——
@@ -122,7 +122,7 @@
 
 ## 4. ⭐⭐⭐⭐ 与"示例是采集的"的张力
 
-`example-mining-from-traces.md` 说：教判断的示例必须采集，带杂讯。
+`skill-examples/references/example-mining-from-traces.md` 说：教判断的示例必须采集，带杂讯。
 
 > ⭐⭐⭐⭐⭐ 而采集来的示例里，**值全是真的**。
 

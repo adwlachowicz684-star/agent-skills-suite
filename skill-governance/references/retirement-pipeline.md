@@ -1,7 +1,7 @@
 # 退役四阶段与归档：不是删除，是让依赖方有时间迁移
 
-> 相关：《skill-governance》的 `lifecycle.md` ·
-> `dead-skill-detection.md` · 《skill-versioning》的 `iteration-three-levels.md`
+> 相关：《skill-governance》的 `skill-governance/references/lifecycle.md` ·
+> `skill-governance/references/dead-skill-detection.md` · 《skill-versioning》的 `skill-versioning/references/iteration-three-levels.md`
 
 ---
 

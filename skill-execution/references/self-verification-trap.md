@@ -1,9 +1,9 @@
 # 自我验证陷阱
 
-> 相关：《skill-execution》的 `partial-following.md`（步骤被跳）·
-> 《skill-output》的 `enumeration-and-completeness.md`（没有分母就没有完成）·
-> 《skill-content》的 `default-actions.md`（默认动作）·
-> 《skill-quality》·《skill-triggering》的 `failure-quadrant-diagnosis.md`
+> 相关：《skill-execution》的 `skill-execution/references/partial-following.md`（步骤被跳）·
+> 《skill-output》的 `skill-output/references/enumeration-and-completeness.md`（没有分母就没有完成）·
+> 《skill-content》的 `skill-content/references/default-actions.md`（默认动作）·
+> 《skill-quality》·《skill-triggering》的 `skill-triggering/references/failure-quadrant-diagnosis.md`
 > 前置：
 > 那份讲的是⭐⭐⭐⭐ **验证步骤被跳过**，
 > 这份讲的是⭐⭐⭐⭐⭐ **验证步骤执行了，但验证本身不成立**——
@@ -39,7 +39,7 @@
 
 ## 2. ⭐⭐⭐⭐⭐ 三种失效，第二种最常见
 
-**① ⭐⭐⭐⭐ 验证被跳过**（见 `partial-following.md`）
+**① ⭐⭐⭐⭐ 验证被跳过**（见 `skill-execution/references/partial-following.md`）
 
 **② ⭐⭐⭐⭐⭐ 验证在自己刚生成的内容上做**（最常见）
 
@@ -58,7 +58,7 @@
 ✅ ⭐⭐⭐⭐⭐ "检查每行金额之和是否等于总计（容差 0.01）"
 ```
 
-> ⭐⭐⭐⭐⭐ 第 ③ 种与《skill-crafting》的 `vague-word-blacklist.md` 同源，
+> ⭐⭐⭐⭐⭐ 第 ③ 种与《skill-crafting》的 `skill-precision/references/vague-word-blacklist.md` 同源，
 > ⭐⭐⭐⭐⭐ 但后果更严重：含糊词在流程里只是执行不准，
 > ⭐⭐⭐⭐⭐ 含糊词在验证里会**产生一个假的通过信号**。
 
@@ -82,7 +82,7 @@
 **② ⭐⭐⭐⭐⭐ 完成倾向**
 
 ```
-按《skill-content》的 `default-actions.md`：
+按《skill-content》的 `skill-content/references/default-actions.md`：
 ⭐⭐⭐⭐⭐ 遇到阻碍时默认动作不是停下报告，而是想办法绕过去
 → 验证遇到"不确定"时，默认给"通过"
 ```
@@ -124,7 +124,7 @@
 ③ ⭐⭐⭐ 另一份产物（上游输出、中间文件）    — 可靠但可能同源
 ```
 
-> ⭐⭐⭐⭐⭐ 第 ① 条正是 `enumeration-and-completeness.md` 的核心：
+> ⭐⭐⭐⭐⭐ 第 ① 条正是 `skill-output/references/enumeration-and-completeness.md` 的核心：
 > ⭐⭐⭐⭐⭐ **没有分母，所谓的"完整"只是一个感觉。**
 
 ---
@@ -170,7 +170,7 @@
 
 > ⭐⭐⭐⭐⭐ 第 ③ 条最常被违反：⭐⭐⭐⭐ 一项检查没做成，
 > ⭐⭐⭐⭐⭐ 模型会把它当成"没发现问题"，于是 unknown 被写成 pass。
-> 这正是《skill-input》的 `inference-vs-asking.md` 里"0 与未获取"的翻版。
+> 这正是《skill-input》的 `skill-input/references/inference-vs-asking.md` 里"0 与未获取"的翻版。
 
 ---
 
@@ -186,11 +186,11 @@
 > ⭐⭐⭐⭐⭐ 差别在于：⭐⭐⭐⭐⭐ **先有分母，再写内容，最后比对**。
 > 而"生成完再检查"时，分母是从产物里数出来的——它必然等于自己。
 
-这与 `output-contract-first-order.md` 的排序原则咬合：
+这与 `skill-authoring/references/output-contract-first-order.md` 的排序原则咬合：
 ⭐⭐⭐⭐⭐ **输出契约先定，验证才有可比对的对象；
 验证先定，生成才知道要满足什么。**
 
-一个便宜的做法：**把清单写进中间文件**（`partial-following.md` 的成名手法），
+一个便宜的做法：**把清单写进中间文件**（`skill-execution/references/partial-following.md` 的成名手法），
 验证时读文件比对，而不是读自己的输出。
 
 ---

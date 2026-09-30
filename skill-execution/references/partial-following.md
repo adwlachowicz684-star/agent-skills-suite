@@ -1,10 +1,10 @@
 # 部分遵循
 
-> 相关：《skill-crafting》的 `list-item-relations.md`（列表项之间是且/或/顺序）·
-> `positional-references.md`（编号指代）·
-> 《skill-content》的 `default-actions.md`（省略不是留白）·
-> 《skill-output》的 `numbers-in-output.md`·
-> 《skill-recovery》的 `exit-conditions-when-to-stop.md`
+> 相关：《skill-crafting》的 `skill-precision/references/list-item-relations.md`（列表项之间是且/或/顺序）·
+> `skill-precision/references/positional-references.md`（编号指代）·
+> 《skill-content》的 `skill-content/references/default-actions.md`（省略不是留白）·
+> 《skill-output》的 `skill-output/references/numbers-in-output.md`·
+> 《skill-recovery》的 `skill-recovery/references/exit-conditions-when-to-stop.md`
 > 前置：
 > 已有文档讲的是⭐⭐⭐⭐ **技能完全没被触发**（《skill-triggering》）和
 > ⭐⭐⭐⭐ **触发后输出不对**（《skill-quality》），
@@ -57,7 +57,7 @@
 > ⭐⭐⭐⭐⭐ 第 ③ 条最关键：⭐⭐⭐⭐ **输出契约决定什么会被看见。**
 > 模板里没有"校验结果"这一栏，模型就没有理由报告它做过还是没做。
 
-这与《skill-output》的 `numbers-in-output.md` 同源：
+这与《skill-output》的 `skill-output/references/numbers-in-output.md` 同源：
 **不可见的东西不会被报告**，而"没报告"被读成"没问题"。
 
 ---
@@ -106,7 +106,7 @@
 > ⭐⭐⭐⭐⭐ 它给这一步制造了一个**可观测的后果**，于是跳过它变成一件需要"决定"的事，
 > 而不是一个无声的省略。
 
-这与 `conditional-branch-writing.md` 的"没有 else 的 if"同源：
+这与 `skill-precision/references/conditional-branch-writing.md` 的"没有 else 的 if"同源：
 ⭐⭐⭐⭐⭐ **没有后果的步骤，等于可选步骤。**
 
 ---
@@ -132,7 +132,7 @@
 > ⭐⭐⭐⭐⭐ 判据：⭐⭐⭐⭐ **这一步能不能被单独打勾？**
 > 不能独立成行的步骤，在模型的执行计划里通常不是一个步骤。
 
-这也解释了 `list-item-relations.md` 里那条——
+这也解释了 `skill-precision/references/list-item-relations.md` 里那条——
 ⭐⭐⭐⭐⭐ **列表项如果只是"一组相关内容"而不是"一组动作"，模型会自己决定做几项。**
 
 ---
@@ -150,7 +150,7 @@
 > ⭐⭐⭐⭐⭐ 而"顺便检查"的检查是在**已经写好的文本上**做的——
 > 它检查的是自己刚写的东西，于是必然通过。
 
-这跟《skill-execution》的 `self-verification-trap.md` 是同一件事的不同侧面：
+这跟《skill-execution》的 `skill-execution/references/self-verification-trap.md` 是同一件事的不同侧面：
 那份讲验证为何失效，这份讲**验证被跳过或被合并后，流程完整性本身失去了一个信号源**。
 
 修法只有一条：**验证必须有独立产出**。
@@ -189,7 +189,7 @@
 
 > ⭐⭐⭐⭐⭐ 跳了第 2 步，第 4 步就没有输入——
 > 于是跳过在结构上不可能，而不是靠提醒。
-> 这与 `positional-references.md` 的"给中间产物起名"是同一手法，这里是**用于强制依赖**。
+> 这与 `skill-precision/references/positional-references.md` 的"给中间产物起名"是同一手法，这里是**用于强制依赖**。
 
 **③ ⭐⭐⭐⭐ 在输出模板里留一格**
 

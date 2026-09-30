@@ -1,8 +1,8 @@
 # 三个技能之后成功率下滑
 
-> 相关：《skill-evaluating》的 `capability-offset-net-gain.md`（59% 抵消）·
-> `skill-test-pyramid-four.md` · `outgrowth-regression-detection.md` ·
-> 《skill-patterns》的 `seven-anti-patterns-scale.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/capability-offset-net-gain.md`（59% 抵消）·
+> `skill-evaluating/references/skill-test-pyramid-four.md` · `skill-triggering/references/outgrowth-regression-detection.md` ·
+> 《skill-patterns》的 `skill-patterns/references/seven-anti-patterns-scale.md`
 > 前置：那份讲"新增能力会抵消 59% 毛收益"，
 > 这份讲⭐⭐⭐ **一个更硬的门槛数字**——
 > 以及⭐⭐ 一个实践者的独立佐证。
@@ -34,7 +34,7 @@ SkillsBench 数据：
 > 哪怕你只有 20 个技能、路由很准，
 > ⭐⭐⭐ **只要一个任务同时挂了 3 个以上，成功率就会掉。**
 
-> ⭐⭐ 这与 `capability-offset-net-gain.md` 的机制解释完全一致：
+> ⭐⭐ 这与 `skill-evaluating/references/capability-offset-net-gain.md` 的机制解释完全一致：
 > ⭐⭐⭐ 常驻的技能描述⭐ 即使没触发也会渗入判断，
 > 后果之一是⭐ **验证环节被挤占**。
 > **挂 3 个 = 3 份指令同时挤占验证余量。**
@@ -48,8 +48,8 @@ SkillsBench 数据：
 ```
 
 > ⭐⭐⭐ "成功率随版本漂移"是一个⭐ 独立命名的问题——
-> 它与 `model-migration-audit.md`（提示跨模型只弱相关）、
-> `skill-rot-rollback-discipline.md`（歧义时默认回滚）同源，
+> 它与 `skill-versioning/references/model-migration-audit.md`（提示跨模型只弱相关）、
+> `skill-versioning/references/skill-rot-rollback-discipline.md`（歧义时默认回滚）同源，
 > ⭐⭐ 但这里把它列为⭐ **三类典型问题之一**，
 > 说明它在实践中足够常见。
 
@@ -78,7 +78,7 @@ SkillsBench 数据：
 
 > ⭐⭐ **"目录名、name、description 里的⭐ 核心触发词⭐ 全部统一，减少干扰。"**
 
-> ⭐⭐ 与 `naming-conventions.md` 的"一致性 > 形态"同源，
+> ⭐⭐ 与 `skill-structuring/references/naming-conventions.md` 的"一致性 > 形态"同源，
 > ⭐⭐⭐ 但这里给了一个⭐ 更具体的做法：
 > **三处（目录名 / name / 触发词）用同一个词**，
 > 而不是"命名用一套、描述里用另一套同义词"。
@@ -117,8 +117,8 @@ SkillsBench 数据：
 
 > ⭐⭐⭐ 第三行最值得记：**"提示词里写'请运行 lint'"是错误做法**——
 > 因为那是一句⭐ 请愿，不是一次执行。
-> ⭐⭐ 这与 `determinism-boundary.md` 的"Hooks 用于模型不可被信任去遵守的事"、
-> `feedback-loop-design.md` 的"规则升级为代码"是⭐ 同一条原则的
+> ⭐⭐ 这与 `skill-evaluating/references/determinism-boundary.md` 的"Hooks 用于模型不可被信任去遵守的事"、
+> `skill-patterns/references/feedback-loop-design.md` 的"规则升级为代码"是⭐ 同一条原则的
 > ⭐⭐⭐ **第四个独立来源**。
 
 **原则三：写 "How" 不写 "What"**
@@ -130,8 +130,8 @@ SkillsBench 数据：
       ⭐⭐ 比⭐ 抽象原则⭐ 有效得多
 ```
 
-> ⭐⭐ 与 `knowledge-delta-checklist.md` 的
-> "该有的是模型不知道的"、`eight-practical-lessons.md` 的"写指令不写论文"
+> ⭐⭐ 与 `skill-patterns/references/knowledge-delta-checklist.md` 的
+> "该有的是模型不知道的"、`skill-crafting/references/eight-practical-lessons.md` 的"写指令不写论文"
 > 同源。⭐⭐⭐ **"How 不 What"是最精炼的表述。**
 
 ---

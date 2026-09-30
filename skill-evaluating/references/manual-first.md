@@ -150,4 +150,4 @@ test-04,false,"给现有的 React 应用加 Tailwind"
   文件都加载不了，跑什么都是测旧版本
 ```
 
-详见 `test-pyramid.md` 与 `reload-debug.md`。
+详见 `skill-evaluating/references/test-pyramid.md` 与 `skill-triggering/references/reload-debug.md`。

@@ -1,7 +1,7 @@
 # 死技能检测：用数据找出该修和该砍的
 
-> 相关：《skill-quality》的 `metrics.md`（指标）· `quality-rubric.md`（评分）·
-> `canary-release.md`（灰度）· 《skill-refining》的 `catalog-shape.md`（审计节奏）
+> 相关：《skill-quality》的 `skill-quality/references/metrics.md`（指标）· `skill-quality/references/quality-rubric.md`（评分）·
+> `skill-automation/references/canary-release.md`（灰度）· 《skill-refining》的 `skill-refining/references/catalog-shape.md`（审计节奏）
 
 ---
 
@@ -24,7 +24,7 @@
 误判二："这个技能没用"    →  实际高频触发，只是没人抱怨（它在默默干活）
 ```
 
-> ⭐ 而且每个技能**无论有没有被用过，都在为每一轮付费**（见 `context-budget.md`）。
+> ⭐ 而且每个技能**无论有没有被用过，都在为每一轮付费**（见 `skill-context/references/context-budget.md`）。
 > 所以"没人用"不只是浪费，是**持续成本**。
 
 ---
@@ -45,7 +45,7 @@
 | `trigger_query`（可选，脱敏后） | ⭐ 反查"用户实际怎么说的" |
 
 > ⚠️ `trigger_query` 是可选且需脱敏的——它会包含用户的真实措辞，
-> 可能含业务敏感信息。见《skill-governance》的 `telemetry-schema.md`。
+> 可能含业务敏感信息。见《skill-governance》的 `skill-governance/references/telemetry-schema.md`。
 
 ### L2：纠正信号
 
@@ -77,7 +77,7 @@
 | **低使用** | 两种可能 | ⭐ **要么 description 错了（模型从没触发），要么没人需要它 → 修或砍** |
 
 > ⭐ **第三类的判断是关键**：低使用不等于没价值。
-> 先按《skill-triggering》的 `trigger-debugging.md` 排查是不是触发问题，
+> 先按《skill-triggering》的 `skill-triggering/references/trigger-debugging.md` 排查是不是触发问题，
 > **确认不是之后才砍**。
 
 ---
@@ -132,7 +132,7 @@ cut -d' ' -f2 ~/.claude/skill-usage.log | sort | uniq -c | sort -rn
 
 | 现象 | 先查 | 再决定 |
 |---|---|---|
-| 某技能零触发 | `trigger-debugging.md`（触发链路） | 修 description，不是砍 |
+| 某技能零触发 | `skill-triggering/references/trigger-debugging.md`（触发链路） | 修 description，不是砍 |
 | 零触发且确认无人需要 | 业务必要性 | 砍 |
 | 高频 + 常被纠正 | 正文质量 | ⭐ 优先改 |
 | 高频 + 无反馈 | 无需动作 | 记录模式，复制它 |

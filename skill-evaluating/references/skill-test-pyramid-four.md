@@ -1,7 +1,7 @@
 # 测试金字塔四层：L1 结构 → L4 回归
 
-> 相关：《skill-evaluating》的 `skill-test-pyramid-four.md` ·
-> `assert-on-environment.md` · `skill-type-testing.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/skill-test-pyramid-four.md` ·
+> `skill-evaluating/references/assert-on-environment.md` · `skill-patterns/references/skill-type-testing.md`
 > 前置：那些讲"断言什么、怎么断言"，
 > 这份讲⭐ **分层：每一层解决一个不同的问题，缺一层就有一类盲区**。
 
@@ -42,7 +42,7 @@
 **工具**：pulser / 自写脚本
 
 > ⭐ 第三条最值钱：**引用不存在的文件会导致模型读失败后自己补内容**
-> ——这是幻觉的来源之一（见 `three-failure-modes.md`）。
+> ——这是幻觉的来源之一（见 `skill-triggering/references/three-failure-modes.md`）。
 > 而它 100% 可以在这一层被静态拦住。
 
 ---
@@ -82,7 +82,7 @@ Codex exec --json
 ```
 
 > ⭐ "代价断言"这一层常被漏掉。
-> 但 `skillsbench-vs-realworld.md` 已经证明**无关技能会因消耗资源而有害**——
+> 但 `skill-evaluating/references/skillsbench-vs-realworld.md` 已经证明**无关技能会因消耗资源而有害**——
 > 所以代价不是次要指标，是正确性的一部分。
 
 **可集成 pytest**。
@@ -102,7 +102,7 @@ Comparator 盲评 A/B
 
 > ⭐ **"Analyzer 找规律"这一环是多数评测缺失的**——
 > 大家只产出通过率数字，不做归因。
-> 而这正是 `trace-debugging.md` "失败点 ≠ 出错点"要解决的问题。
+> 而这正是 `skill-triggering/references/trace-debugging.md` "失败点 ≠ 出错点"要解决的问题。
 
 **必跑时机**：⭐ **模型升级时**。
 
@@ -121,7 +121,7 @@ Comparator 盲评 A/B
 
 > ⭐⭐ 第 ② 步是关键洞察：**断言的质量取决于你是否已经看过真实输出。**
 > 跳过手跑直接写自动断言，写出来的往往是"恒过的断言"——
-> 而 `assert-on-environment.md` 说过：**恒过的断言比没有断言更危险。**
+> 而 `skill-evaluating/references/assert-on-environment.md` 说过：**恒过的断言比没有断言更危险。**
 
 **CI 的形态**：
 

@@ -1,8 +1,8 @@
 # 你的第一个技能可以只有 10 行
 
-> 相关：《skill-authoring》的 `how-to-guide.md` ·
-> 《skill-adoption》的 `cold-start.md` ·
-> 《skill-authoring》的 `creation-framework.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/how-to-guide.md` ·
+> 《skill-adoption》的 `skill-adoption/references/cold-start.md` ·
+> 《skill-authoring》的 `skill-authoring/references/creation-framework.md`
 
 ---
 
@@ -84,7 +84,7 @@ description: 专门用于生成符合公司规范的周报、月报
 
 > ⭐ 这能大幅减少幻觉和错误。
 
-⚠️ 但注意 `guidance-forms.md` 的实测：
+⚠️ 但注意 `skill-crafting/references/guidance-forms.md` 的实测：
 **禁令在正文里可能反噬**——
 所以禁令要**配上明确的替代**（这里"改用项目组"就是替代），
 而不能只说"不要"。
@@ -101,7 +101,7 @@ description: 专门用于生成符合公司规范的周报、月报
 ```
 
 > ⭐ 顺序是**先跑通纯指令版，再按需加脚本**——
-> 与 `catalog-shape.md` 的"渐进复杂度三版本"一致。
+> 与 `skill-refining/references/catalog-shape.md` 的"渐进复杂度三版本"一致。
 
 ---
 

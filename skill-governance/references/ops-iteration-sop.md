@@ -1,7 +1,7 @@
 # 运维与持续迭代 SOP：四段式 + 分级 + 五条红线
 
-> 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `dead-skill-detection.md` · 《skill-versioning》的 `version-changelog-practice.md`
+> 相关：《skill-governance》的 `skill-governance/references/retirement-pipeline.md` ·
+> `skill-governance/references/dead-skill-detection.md` · 《skill-versioning》的 `skill-versioning/references/version-changelog-practice.md`
 > 前置：那些文档讲版本怎么记、技能怎么退，这份讲"上线之后怎么长期养"。
 
 ---
@@ -152,7 +152,7 @@
 5. ⭐ 禁止模型变差不做人工干预、放任输出降级
 ```
 
-> ⭐ 第 4 条与 `granularity-atomic-workflow.md` 的拆分信号呼应；
+> ⭐ 第 4 条与 `skill-scoping/references/granularity-atomic-workflow.md` 的拆分信号呼应；
 > ⭐ 第 5 条是技能特有的红线——**模型波动不是"环境抖动，等它自己好"，
 > 而是要人去改技能适配。**
 

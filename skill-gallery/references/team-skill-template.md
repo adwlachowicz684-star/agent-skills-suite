@@ -1,9 +1,9 @@
 # 团队 SKILL.md 约定模板（含命名仲裁）
 
 > 相关：《skill-gallery》的其余样本 ·
-> 《skill-structuring》的 `naming-conventions.md` ·
-> 《skill-description》的 `description-four-rules.md` ·
-> 《skill-crafting》的 `minimum-viable-three-principles.md`
+> 《skill-structuring》的 `skill-structuring/references/naming-conventions.md` ·
+> 《skill-description》的 `skill-description/references/description-four-rules.md` ·
+> 《skill-crafting》的 `skill-crafting/references/minimum-viable-three-principles.md`
 > 前置：那些讲命名的各个侧面，
 > 这份给一份⭐ 可直接落地的团队模板 +
 > ⭐⭐⭐⭐ 一处⭐ 命名风格的⭐ 矛盾仲裁。
@@ -87,7 +87,7 @@ For [detailed topic], read ${CLAUDE_SKILL_DIR}/references/[file].md
 
 > ⭐⭐⭐⭐⭐ **仲裁：两者都对，⭐⭐⭐ 因为⭐⭐⭐ 官方明确把"动作导向"列为可接受替代。**
 > ⭐⭐⭐⭐ 所以⭐ 真正的判据不是⭐ 动名词 vs verb-noun，
-> ⭐⭐⭐⭐⭐ 而是⭐⭐⭐⭐ **一致性 > 形态**（这正是 `naming-conventions.md` 的结论）：
+> ⭐⭐⭐⭐⭐ 而是⭐⭐⭐⭐ **一致性 > 形态**（这正是 `skill-structuring/references/naming-conventions.md` 的结论）：
 > ```
 > ❌ 一个 writing-workflow-sops，下一个 sop-writer，第三个 create-sops
 > ✅ ⭐⭐⭐⭐⭐ ⭐ 选定一个模式，⭐ 整套库都用它
@@ -108,7 +108,7 @@ Skill names follow verb-noun format with lowercase hyphens.
 
 > ⭐⭐⭐ 这又是⭐ "书面规则编码成校验器"的实例——
 > ⭐⭐⭐⭐ 但这里⭐ 更诚实：⭐ 写在 CLAUDE.md 里⭐ 只是让模型⭐ 更可能遵守，
-> ⭐⭐⭐⭐ ⭐⭐ 真正强制要靠 ⭐ linter（`lint-tooling.md` 横评里有相关工具）。
+> ⭐⭐⭐⭐ ⭐⭐ 真正强制要靠 ⭐ linter（`skill-structuring/references/lint-tooling.md` 横评里有相关工具）。
 
 ---
 
@@ -143,8 +143,8 @@ Skill names follow verb-noun format with lowercase hyphens.
 > ⭐⭐⭐⭐ 第 ④ 条是⭐ "确定性判断要用确定性机制承载"的
 > ⭐⭐⭐⭐⭐ **第六个独立来源**，而且⭐⭐ 官方措辞最强：
 > ⭐⭐⭐⭐⭐ **"MUST have disable-model-invocation: true"**。
-> ⭐⭐⭐⭐ 与我们已有的 `allowed-tools-reference.md`、
-> `seven-contracts.md`（"不能被'完成任务'这个宽泛目标自动授权"）
+> ⭐⭐⭐⭐ 与我们已有的 `skill-security/references/allowed-tools-reference.md`、
+> `skill-execution/references/seven-contracts.md`（"不能被'完成任务'这个宽泛目标自动授权"）
 > ⭐⭐⭐ 完全同源。
 
 ---
@@ -190,13 +190,13 @@ Skill names follow verb-noun format with lowercase hyphens.
 > ⭐⭐⭐⭐⭐ 第 ② 条⭐ 给出的修法很具体，值得单独抄：
 > ⭐⭐⭐⭐ **不要只加否定词，要⭐ 各自⭐ 换用⭐ 不同的动词/宾语搭配**
 > （"review PR 的改动" vs "review 代码风格与格式"）。
-> ⭐⭐⭐ 这与 `description-scope-shape.md` 的"排除声明互相点名"、
-> `trigger-tuning-loop.md` 的"误触发加反触发"
+> ⭐⭐⭐ 这与 `skill-description/references/description-scope-shape.md` 的"排除声明互相点名"、
+> `skill-triggering/references/trigger-tuning-loop.md` 的"误触发加反触发"
 > ⭐⭐ 一致，但⭐⭐⭐⭐ 这里更进一步：⭐ **从源头避免重叠，而不是事后打补丁。**
 >
 > ⭐⭐⭐⭐ 另一个相关信号（来自官方）：
 > ⭐⭐⭐ **如果两个技能 80% 相同，⭐⭐⭐⭐ 考虑合并成一个、内部按条件分支**
-> （与 `trigger-tuning-loop.md`/`nine-anti-patterns.md` 的结论一致）。
+> （与 `skill-triggering/references/trigger-tuning-loop.md`/`skill-patterns/references/nine-anti-patterns.md` 的结论一致）。
 
 ---
 

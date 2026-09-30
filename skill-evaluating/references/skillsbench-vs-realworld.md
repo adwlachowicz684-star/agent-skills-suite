@@ -1,8 +1,8 @@
 # SkillsBench vs 真实场景：同一个问题的两个答案
 
-> 相关：《skill-quality》的 `skill-lift-eval.md` ·
-> `library-size-effect.md` · 《skill-description》的 `activation-rate.md`
-> 前置：`skill-lift-eval.md` 记的是 SkillsBench 的 +16.2pp，
+> 相关：《skill-quality》的 `skill-quality/references/skill-lift-eval.md` ·
+> `skill-selection/references/library-size-effect.md` · 《skill-description》的 `skill-description/references/activation-rate.md`
+> 前置：`skill-quality/references/skill-lift-eval.md` 记的是 SkillsBench 的 +16.2pp，
 > 这份记⭐ **后续更大规模研究对它的重要修正**——两个都真，但条件不同。
 
 ---
@@ -119,7 +119,7 @@ Claude Opus 4.6 + Claude Code：
    ⭐ 最难场景下只有       16% 的运行加载了技能
 ```
 
-> ⭐⭐ 这条与 `activation-rate.md` 那组"基础描述 20%"的数据**互相印证**：
+> ⭐⭐ 这条与 `skill-description/references/activation-rate.md` 那组"基础描述 20%"的数据**互相印证**：
 > **技能最大的失效点不在内容质量，而在"根本没被选中"。**
 
 **② 检索能力弱**
@@ -160,7 +160,7 @@ Qwen3.5-397B   有技能 19.7%  vs  无技能基线 20.5%   ⭐ 更差
 > 它们消耗 token 和算力去加载、去遵循那些没用的指令。
 
 > ⭐ 这是"装得越多越好"这一直觉的**直接反证**，
-> 与 `library-size-effect.md` 的"遮蔽占 68%"是同一现象的两个测面。
+> 与 `skill-selection/references/library-size-effect.md` 的"遮蔽占 68%"是同一现象的两个测面。
 
 ---
 

@@ -1,9 +1,9 @@
 # 并行与并发：技能里的"同时做几件事"
 
-> 相关：《skill-recovery》的 `budget-caps-no-progress.md`（预算与无进展检测）·
-> `termination-modes-and-gates.md`（三种终止方式）·
-> 《skill-orchestration》的 `composition-patterns-types.md`（组合的四种依赖）·
-> `conflict-three-types-degradation.md`（无序并行比只跑一个还差）
+> 相关：《skill-recovery》的 `skill-recovery/references/budget-caps-no-progress.md`（预算与无进展检测）·
+> termination-modes-and-gates.md（三种终止方式）·
+> 《skill-orchestration》的 `skill-orchestration/references/composition-patterns-types.md`（组合的四种依赖）·
+> `skill-orchestration/references/conflict-three-types-degradation.md`（无序并行比只跑一个还差）
 > 前置：那些讲⭐⭐⭐ 并行会不会冲突、⭐ 该不该并行，
 > 这份讲⭐⭐⭐⭐⭐ **并行一旦允许，失败会变成什么形状**——
 > 以及为什么多数技能根本不该并行。
@@ -93,7 +93,7 @@
            → 必须先查状态，再决定跳过还是重做
 ```
 
-所以并行**强制要求幂等**（`idempotency-resume.md`）——
+所以并行**强制要求幂等**（`skill-recovery/references/idempotency-resume.md`）——
 串行里幂等是加分项，并行里它是**准入条件**。
 
 ---
@@ -107,7 +107,7 @@
 | **同一技能多次并行** | ⭐⭐ 最容易产生重复写入（同一份报告写两遍） |
 
 第三类的防护：⭐ **给每次并行实例一个唯一 ID**，
-写入前检查该 ID 是否已存在（`state-check.md`）。
+写入前检查该 ID 是否已存在（`skill-recovery/references/state-check.md`）。
 
 ---
 
@@ -133,13 +133,13 @@
 
 > ⭐⭐⭐⭐ **部分成功必须报覆盖率。**
 > 不报的话，"分析完成"就是一句谎言——
-> 而这正是 `execution-error-protocol.md` 描述的"错误被吞掉"的并行版本。
+> 而这正是 `skill-recovery/references/execution-error-protocol.md` 描述的"错误被吞掉"的并行版本。
 
 ---
 
 ## 6. ⭐⭐⭐ 顺序敏感性的检测
 
-一个便宜的测试（来自 `composition-patterns-types.md` 的同源思路）：
+一个便宜的测试（来自 `skill-orchestration/references/composition-patterns-types.md` 的同源思路）：
 
 ```
 1. 按 A→B 跑，记结果 R1
@@ -151,7 +151,7 @@
 > 你不用理解为什么，只要看到 R1≠R2 就知道不能并行。
 
 配一条：⭐ **同一个技能集，加载顺序不同结果就不同**
-（来自 `solid-for-skills.md`）——
+（来自 `skill-patterns/references/solid-for-skills.md`）——
 所以顺序敏感性不止存在于执行，也存在于加载。
 
 ---
@@ -166,7 +166,7 @@
 > （它们都要写回同一个地方）。
 
 对策就是我们已有的：**fork 正文必须写成独立可执行的工单**
-（`fork-token-economics.md`），且**回传格式要统一**——
+（`skill-subagents/references/fork-token-economics.md`），且**回传格式要统一**——
 否则汇聚点上无法合并。
 
 ---

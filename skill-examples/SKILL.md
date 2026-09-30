@@ -30,13 +30,13 @@ description: 技能里的示例与判断依据：示例从轨迹采集而非编�
 
 ## 路由表（按需深读）
 
-| `example-values-become-defaults.md` | ⭐⭐⭐⭐⭐ 示例值被当成默认值；换成会暴露自己的假值 |
-| `example-mining-from-traces.md` | ⭐⭐⭐⭐⭐ 示例是采集的；六个矿脉；被采纳的输出才是好示例 |
-| `few-shot-example-quality.md` | ⭐⭐⭐⭐⭐ 少示例的数量与质量准则；模糊输入示例 |
-| `examples-three-branches.md` | ⭐⭐⭐⭐⭐ 三分支覆盖 + Rationale 字段 |
-| `few-shot-examples.md` | ⭐⭐⭐⭐ 少示例总纲 |
-| `judgment-branches-acceptance.md` | ⭐⭐⭐⭐⭐ 流程/判断/验收三件套；差评反例 |
-| `decision-rationale-output.md` | ⭐⭐⭐⭐⭐ 因为更好不是依据，因为规则3b才是 |
+| `skill-examples/references/example-values-become-defaults.md` | ⭐⭐⭐⭐⭐ 示例值被当成默认值；换成会暴露自己的假值 |
+| `skill-examples/references/example-mining-from-traces.md` | ⭐⭐⭐⭐⭐ 示例是采集的；六个矿脉；被采纳的输出才是好示例 |
+| `skill-examples/references/few-shot-example-quality.md` | ⭐⭐⭐⭐⭐ 少示例的数量与质量准则；模糊输入示例 |
+| `skill-examples/references/examples-three-branches.md` | ⭐⭐⭐⭐⭐ 三分支覆盖 + Rationale 字段 |
+| `skill-examples/references/few-shot-examples.md` | ⭐⭐⭐⭐ 少示例总纲 |
+| `skill-examples/references/judgment-branches-acceptance.md` | ⭐⭐⭐⭐⭐ 流程/判断/验收三件套；差评反例 |
+| `skill-examples/references/decision-rationale-output.md` | ⭐⭐⭐⭐⭐ 因为更好不是依据，因为规则3b才是 |
 
 ## Critical Rules
 

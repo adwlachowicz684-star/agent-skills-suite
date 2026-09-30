@@ -1,10 +1,10 @@
 # 技能的测试替身：不调真实系统也能测
 
-> 相关：《skill-evaluating》的 `test-validation-three.md`（触发/边界/回归三类）·
-> `eval-case-design.md`（用例设计）·
-> `ci-skill-validation.md`（CI 能验什么）·
-> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）·
-> 《skill-scripting》的 `script-testing.md`（golden 文件）
+> 相关：《skill-evaluating》的 test-validation-three.md（触发/边界/回归三类）·
+> `skill-evaluating/references/eval-case-design.md`（用例设计）·
+> `skill-automation/references/ci-skill-validation.md`（CI 能验什么）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（数据依赖）·
+> 《skill-scripting》的 `skill-scripting/references/script-testing.md`（golden 文件）
 > 前置：
 > 用例设计讲⭐⭐⭐ **测什么**（哪些输入），
 > 这份讲⭐⭐⭐⭐⭐ **用什么测**（那些输入打到哪里）——
@@ -117,7 +117,7 @@
 
 > ⭐⭐⭐⭐⭐ 第二行最该记：
 > **替身通常只替成功响应**——而失败路径恰恰是最容易漏、
-> 线上最常出现的那一类（这是 `test-validation-three.md` 的结论）。
+> 线上最常出现的那一类（这是 test-validation-three.md 的结论）。
 > ⭐⭐⭐⭐ **所以录制时，要专门录一份失败响应。**
 
 第三行也常被忽略：技能里声明的 `allowed-tools`

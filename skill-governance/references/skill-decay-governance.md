@@ -1,9 +1,9 @@
 # 技能腐烂：五条最低限度治理清单
 
-> 相关：《skill-governance》的 `retirement-pipeline.md`（退役四阶段）·
-> `dead-skill-detection.md` · `lifecycle.md` ·
-> 《skill-versioning》的 `skill-rot-rollback-discipline.md` ·
-> `skill-scope-tiering.md`
+> 相关：《skill-governance》的 `skill-governance/references/retirement-pipeline.md`（退役四阶段）·
+> `skill-governance/references/dead-skill-detection.md` · `skill-governance/references/lifecycle.md` ·
+> 《skill-versioning》的 `skill-versioning/references/skill-rot-rollback-discipline.md` ·
+> `skill-refining/references/skill-scope-tiering.md`
 > 前置：那份讲"确认要退役之后怎么退"，
 > 这份讲⭐⭐ **腐烂的症状识别** 与⭐⭐⭐ **腐烂之前的日常治理**——
 > 核心判断：⭐⭐⭐ **"不是给 agent 更多技能就会更强；
@@ -40,7 +40,7 @@
 > **你的技能库里质量最差的那部分，恰恰是你最早写的那部分**——
 > 而它们⭐ 和最新的技能享有同等的被触发机会。
 >
-> ⭐⭐ 症状 ③ 与 `retirement-pipeline.md` 的"归档 ≠ 删除"完全对应：
+> ⭐⭐ 症状 ③ 与 `skill-governance/references/retirement-pipeline.md` 的"归档 ≠ 删除"完全对应：
 > 那里给了解法（移 `archived/`），这里给出了⭐ 病因（物理删除无法回滚）。
 
 ---
@@ -77,7 +77,7 @@
       ⭐⭐ 变成了一个⭐ 有日期、可自动触发的机制。
 ```
 
-> ⭐⭐ 对照 `dead-skill-detection.md` 的"低使用 + 零反馈最容易被误读成稳定运行"——
+> ⭐⭐ 对照 `skill-governance/references/dead-skill-detection.md` 的"低使用 + 零反馈最容易被误读成稳定运行"——
 > **过期和低使用是两种不同的死法，需要两种不同的探测器**：
 > 低使用靠遥测，⭐⭐ 过期靠 `review_after`。
 
@@ -89,7 +89,7 @@
 
 > ⭐⭐⭐ 这又是"把书面规则编码成校验器"的一个实例——
 > 不是建议"最好分类"，而是⭐ **不分类就注册不了**。
-> 与 `feedback-loop-design.md` 那条完全同型。
+> 与 `skill-patterns/references/feedback-loop-design.md` 那条完全同型。
 
 **④ 删 B 时警告** —— 与已有内容直接咬合：
 
@@ -116,7 +116,7 @@
 > ⭐⭐ 两者共同的底层原则：
 > **⭐⭐⭐ 淘汰必须⭐ 可逆**——软删除 + 归档 + 保留原因和日期。
 > 硬删除让"误判"无法挽回，而⭐ 误判在技能治理里是常态
-> （`dead-skill-detection.md`：低使用 ≠ 没价值）。
+> （`skill-governance/references/dead-skill-detection.md`：低使用 ≠ 没价值）。
 
 ---
 

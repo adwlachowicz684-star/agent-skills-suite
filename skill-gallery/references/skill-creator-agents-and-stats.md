@@ -1,13 +1,13 @@
 # skill-creator 的三个子代理与统计维度
 
-> 相关：`skill-creator-meta-architecture.md`（目录结构与核心循环）·
-> 《skill-automation》的 `comparator-ab-eval.md` · `benchmark-assertions-delta.md`
+> 相关：`skill-gallery/references/skill-creator-meta-architecture.md`（目录结构与核心循环）·
+> 《skill-automation》的 `skill-automation/references/comparator-ab-eval.md` · `skill-evaluating/references/benchmark-assertions-delta.md`
 > 前置：上篇讲⭐ 它的⭐ 结构⭐ 与⭐ 循环，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 三个子代理⭐ 的⭐ 分工，
 > ⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 它⭐ 多出的⭐ 一个⭐ 统计维度——⭐⭐⭐⭐⭐ ⭐⭐⭐ **stddev**。
 ---
 
-> 上篇：见 `skill-creator-meta-architecture.md`
+> 上篇：见 `skill-gallery/references/skill-creator-meta-architecture.md`
 
 ## 目录
 - [5. ⭐⭐⭐⭐⭐ Grader 也评审 eval 本身](#5--grader-也评审-eval-本身)
@@ -39,7 +39,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 顺带⭐ 一个⭐ 反身性⭐ 观察：
 > ⭐⭐⭐⭐ **一个只会被执行、从不会被评审的测试集，⭐⭐⭐⭐⭐ ⭐⭐⭐ 会随着时间
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 越来越⭐ 偏离⭐ 它⭐ 原本⭐ 要测的⭐ 东西**——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-decay-governance.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-governance/references/skill-decay-governance.md` 的
 > "⭐ 技能库里⭐ 最差的⭐ 是你⭐ 最早写的"⭐ 是⭐ 同一个⭐ 现象，⭐⭐⭐⭐⭐ ⭐⭐⭐ 只是⭐ 发生在⭐ 测试集上。
 
 ---
@@ -65,7 +65,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **只做盲比，⭐⭐⭐⭐⭐ ⭐⭐⭐ 你⭐ 知道⭐ 该用⭐ 哪一版，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 但⭐ 不知道⭐ 下一版⭐ 该往哪改——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 于是⭐ 迭代⭐ 只能靠⭐ 猜。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-evolution-loop.md` 那句
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-versioning/references/skill-evolution-loop.md` 那句
 > "⭐ 没有⭐ 反馈信号，⭐⭐⭐⭐⭐ ⭐⭐⭐ 自进化⭐ 就只是⭐ 用同样的错误方法⭐ 生成新版本"
 > ⭐ 是⭐ 同一件事的⭐ 正面解法。
 
@@ -78,7 +78,7 @@
 ⭐⭐⭐⭐⭐ Benchmark ：⭐⭐⭐⭐⭐ ⭐⭐⭐ 统计分析 —— ⭐⭐⭐⭐⭐ ⭐⭐⭐ mean / stddev / delta 跨配置
 ```
 
-> ⭐⭐⭐⭐⭐ 前者⭐ 与⭐ 我们⭐ 记的⭐ `description-tuning-official-loop.md`
+> ⭐⭐⭐⭐⭐ 前者⭐ 与⭐ 我们⭐ 记的⭐ `skill-description/references/description-tuning-official-loop.md`
 > （"⭐ 按测试集分数选，⭐⭐⭐⭐⭐ ⭐⭐⭐ 不按训练集"）⭐ 完全同源——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 两个⭐ 独立来源⭐ 都⭐ 用⭐ train/test 切分⭐ 来⭐ 防⭐ 过拟合。
 >
@@ -91,7 +91,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 为什么⭐ 方差⭐ 重要：⭐⭐⭐⭐⭐ ⭐⭐⭐ 两个版本
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 平均分⭐ 相同、⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 一个⭐ 稳定⭐ 一个⭐ 忽高忽低——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **在生产里⭐ 这⭐ 两个⭐ 完全不是⭐ 一回事。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `capability-offset-net-gain.md` 那份
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-evaluating/references/capability-offset-net-gain.md` 那份
 > "⭐ 相同平均分，⭐⭐⭐⭐⭐ ⭐⭐⭐ 两种实质（扩大能力边界 vs 换血）"⭐ 是⭐ 同一族：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ **平均分⭐ 是⭐ 一个⭐ 有损的⭐ 压缩，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 必须⭐ 配⭐ 至少一个⭐ 分布量。**

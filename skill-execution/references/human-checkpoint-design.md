@@ -1,10 +1,10 @@
 # 人在回路：哪些步骤必须停下来给人看
 
-> 相关：《skill-recovery》的 `exit-conditions-when-to-stop.md`（三种结束）·
-> `readonly-vs-writing-skills.md`（只读 vs 写入）·
-> `intent-drift-midflight.md`（意图漂移）·
-> `preflight-gate.md`（前置门禁）·
-> 《skill-output》的 `progress-reporting.md`
+> 相关：《skill-recovery》的 `skill-recovery/references/exit-conditions-when-to-stop.md`（三种结束）·
+> `skill-execution/references/readonly-vs-writing-skills.md`（只读 vs 写入）·
+> `skill-execution/references/intent-drift-midflight.md`（意图漂移）·
+> `skill-execution/references/preflight-gate.md`（前置门禁）·
+> 《skill-output》的 `skill-output/references/progress-reporting.md`
 > 前置：停止条件那份讲⭐⭐⭐ **什么时候结束**，
 > 这份讲⭐⭐⭐⭐⭐ **什么时候暂停**——
 > **"停下来给人看"和"停下来"是两件事，而技能几乎从不区分它们。**
@@ -65,7 +65,7 @@
 判据：⭐⭐⭐⭐⭐ 如果选错了需要回滚，就该问。
 ```
 
-> ⭐⭐⭐⭐ 模型的默认动作是挑一个继续（见 `default-actions.md`），
+> ⭐⭐⭐⭐ 模型的默认动作是挑一个继续（见 `skill-content/references/default-actions.md`），
 > ⭐⭐⭐⭐⭐ 而这个默认动作在"后果不同"的场景里是错的。
 > 注意判据不是"有多个方案"——**方案多但后果相同时不必问**（挑一个即可）。
 
@@ -151,7 +151,7 @@
 
 > ⭐⭐⭐⭐⭐ 第三行最常被漏：
 > **取消不等于什么都没发生**——前半程可能已经写入过。
-> 这与 `intent-drift-midflight.md` 那条一致：
+> 这与 `skill-execution/references/intent-drift-midflight.md` 那条一致：
 > ⭐⭐⭐⭐ 已发生的写入动作必须报告，不因目标变更/取消而省略。
 
 第二行的"丢弃"也值得强调：

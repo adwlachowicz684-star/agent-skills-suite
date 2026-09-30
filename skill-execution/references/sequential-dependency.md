@@ -1,12 +1,12 @@
 # 顺序依赖是隐式的
 
-> 相关：《skill-execution》的 `intermediate-artifacts.md`·
-> 《skill-orchestration》的 `composition-patterns-types.md`·
-> 《skill-crafting》的 `list-item-relations.md`（且/或/顺序）·
-> `conditional-branch-writing.md`·
-> 《skill-execution》的 `repeat-invocation-same-session.md`
+> 相关：《skill-execution》的 `skill-execution/references/intermediate-artifacts.md`·
+> 《skill-orchestration》的 `skill-orchestration/references/composition-patterns-types.md`·
+> 《skill-crafting》的 `skill-precision/references/list-item-relations.md`（且/或/顺序）·
+> `skill-precision/references/conditional-branch-writing.md`·
+> 《skill-execution》的 `skill-execution/references/repeat-invocation-same-session.md`
 > 前置：
-> `composition-patterns-types.md` 讲的是⭐⭐⭐⭐ **技能与技能之间的隐式依赖**，
+> `skill-orchestration/references/composition-patterns-types.md` 讲的是⭐⭐⭐⭐ **技能与技能之间的隐式依赖**，
 > 这份讲的是⭐⭐⭐⭐⭐ **同一个技能内部步骤之间的隐式顺序依赖**——
 > 它更常见，而"步骤"通常连名字都没有，所以更隐蔽。
 
@@ -81,13 +81,13 @@
 ⭐⭐⭐⭐⭐ 于是它没有被写——因为作者不认为它是一个需要说明的点
 ```
 
-> ⭐⭐⭐⭐⭐ 与 `default-actions.md` 完全同源：
+> ⭐⭐⭐⭐⭐ 与 `skill-content/references/default-actions.md` 完全同源：
 > ⭐⭐⭐⭐⭐ **凡是"看起来显然"的东西，都是最先丢掉的**。
 
 **② ⭐⭐⭐⭐⭐ 列表语法只表达"这是一组"**
 
 ```
-Markdown 的列表不表达顺序（见 `list-item-relations.md`）
+Markdown 的列表不表达顺序（见 `skill-precision/references/list-item-relations.md`）
 ⭐⭐⭐⭐⭐ 编号列表看起来表达了顺序，但"1. 2. 3."也被读作"三项并列要做的事"
 ```
 
@@ -140,7 +140,7 @@ partial-following： 步骤被跳 → 少做了一步
 
 ```
 ① ⭐⭐⭐⭐⭐ 至少跑两次，且两次都在干净会话（否则测的是自洽，见
-   `repeat-invocation-same-session.md`）
+   `skill-execution/references/repeat-invocation-same-session.md`）
 ② ⭐⭐⭐⭐⭐ 只改顺序，不改任何其他东西
 ③ ⭐⭐⭐⭐⭐ 顺序不同但结果相同 → 说明顺序其实不重要 → 可以声明"无顺序要求"
 ```

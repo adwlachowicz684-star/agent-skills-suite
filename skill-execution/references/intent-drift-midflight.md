@@ -1,9 +1,9 @@
 # 技能的意图漂移：任务被中途改变了怎么办
 
-> 相关：《skill-recovery》的 `exit-conditions-when-to-stop.md`（三种结束）·
-> `default-actions.md`（省略不是留白）·
-> `parallel-and-concurrency.md`（N 个半成品）·
-> 《skill-orchestration》的 `skill-dependency-injection.md`（双向无知）
+> 相关：《skill-recovery》的 `skill-recovery/references/exit-conditions-when-to-stop.md`（三种结束）·
+> `skill-content/references/default-actions.md`（省略不是留白）·
+> `skill-execution/references/parallel-and-concurrency.md`（N 个半成品）·
+> 《skill-orchestration》的 `skill-orchestration/references/skill-dependency-injection.md`（双向无知）
 > 前置：停止条件那份讲⭐⭐⭐ **什么时候结束**，
 > 这份讲⭐⭐⭐⭐⭐ **目标本身变了的时候怎么办**——
 > **技能定义了"怎么做"，但几乎从不说"任务中途变了该怎么处理"。**
@@ -49,7 +49,7 @@
 技能没定义的是：⭐ 输入在过程中变了怎么办
 ```
 
-于是模型的默认动作接管（见 `default-actions.md`）：
+于是模型的默认动作接管（见 `skill-content/references/default-actions.md`）：
 ⭐⭐⭐⭐⭐ **遇到阻碍的默认动作不是停下报告，而是想办法绕过去**——
 "目标变了"被当成一种阻碍，于是它想办法继续。
 
@@ -61,7 +61,7 @@
 | ⭐⭐⭐⭐ 堆砌：把新要求附加在末尾 | 结构混乱，前面的结论已失效但还在 |
 | ⭐⭐⭐⭐ 静默切换：直接做新的，不说明旧的作废 | ⭐⭐⭐⭐ 用户以为两个都做了 |
 
-> ⭐⭐⭐⭐⭐ 第一行正是 `parallel-and-concurrency.md` 里
+> ⭐⭐⭐⭐⭐ 第一行正是 `skill-execution/references/parallel-and-concurrency.md` 里
 > "N 个半成品"的另一个成因——
 > ⭐⭐⭐ **那一份的成因是并行，这一份的成因是目标变了，但结果同构。**
 

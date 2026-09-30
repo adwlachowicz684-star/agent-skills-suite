@@ -1,7 +1,7 @@
 # 代码审查技能实例：八步与三档判词
 
-> 相关：（已移至 _parked 领域实例库）的 `code-review-trust.md` ·
-> `five-starter-skills.md` · 《skill-quality》的 `four-dimension-eval.md`
+> 相关：（已移至 _parked 领域实例库）的 `skill-domains/references/code-review-trust.md` ·
+> `skill-gallery/references/five-starter-skills.md` · 《skill-quality》的 `skill-quality/references/four-dimension-eval.md`
 
 ---
 
@@ -58,7 +58,7 @@
 
 > 这个设计很妙：**同一个工具两种模式**，
 > 审查时只警告、提交时阻断。
-> 与 `four-dimension-eval.md` 里"阈值按用途分档"同理。
+> 与 `skill-quality/references/four-dimension-eval.md` 里"阈值按用途分档"同理。
 
 ### 第 6 步：代码质量扫描
 
@@ -89,7 +89,7 @@ Verdict: [CLEAN | READY FOR PR (N warnings) | NEEDS FIXES (N failures)]
 ```
 
 > ⭐ **FAIL 与 WARN 必须有不同后果**，否则分级没有意义。
-> 这与 `quality-rubric.md` 的"单项否决"是同一思路。
+> 这与 `skill-quality/references/quality-rubric.md` 的"单项否决"是同一思路。
 
 ---
 
@@ -101,7 +101,7 @@ Verdict: [CLEAN | READY FOR PR (N warnings) | NEEDS FIXES (N failures)]
 ③ ⭐ 疑似密钥永远是 FAIL，绝不放过
 ```
 
-第 ③ 条对应 `least-privilege.md` 的"密钥永不进入上下文"——
+第 ③ 条对应 `skill-security/references/least-privilege.md` 的"密钥永不进入上下文"——
 **在审查侧就要拦住**。
 
 ---
@@ -112,7 +112,7 @@ Verdict: [CLEAN | READY FOR PR (N warnings) | NEEDS FIXES (N failures)]
 > 它抓的是规范漂移，不是逻辑 bug。**
 
 这句声明很重要：
-**技能要写明自己不做什么**（对应 `scope-section.md` 的边界章节），
+**技能要写明自己不做什么**（对应 `skill-scoping/references/scope-section.md` 的边界章节），
 否则用户会误以为跑过就等于审过了。
 
 ---

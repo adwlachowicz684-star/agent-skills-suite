@@ -29,7 +29,7 @@
 | **版本基线** | 新版 vs 旧版 | 这次改动是改进还是退化 |
 | **跨模型基线** | 模型 A vs 模型 B | 换个模型还能用吗 |
 
-呼应 `skill-lift-eval.md`：
+呼应 `skill-quality/references/skill-lift-eval.md`：
 **唯一有意义的问题是"有这个技能比没有好多少"**。
 
 ## 套件的构成
@@ -42,7 +42,7 @@
 □ 形态：固定 prompt + 期望结果（断言）
 ```
 
-**用例类型分布**（呼应 `metrics.md` 的 20 条起始组合）：
+**用例类型分布**（呼应 `skill-quality/references/metrics.md` 的 20 条起始组合）：
 
 ```
 □ 正向：该触发的
@@ -68,7 +68,7 @@
 
 > ⭐ **单次结果不能区分"真的变好了"和"这次运气好"**。
 >
-> 呼应 `skill-lift-eval.md` 的诚实提醒：
+> 呼应 `skill-quality/references/skill-lift-eval.md` 的诚实提醒：
 > 85% 的公开评测只跑 1 次，**没有置信区间**。
 
 **分离记录触发与输出**：
@@ -79,7 +79,7 @@
 □ 两者分开统计——混在一起看不出该修哪里
 ```
 
-呼应 `test-pyramid.md` 的核心论点：
+呼应 `skill-evaluating/references/test-pyramid.md` 的核心论点：
 **四层失败原因完全不同，混着测等于两眼一抹黑**。
 
 ## 判定：改进还是转移
@@ -126,7 +126,7 @@ A 类减少，B 类增多且量相当    → ⭐ 转移了，等于没改
 □ ⭐ 混在一起会让基线每次跑出不同结果
 ```
 
-呼应 `test-pyramid.md` 第 1 层：
+呼应 `skill-evaluating/references/test-pyramid.md` 第 1 层：
 **结构 lint 不用 LLM 判**——确定性检查必须确定性。
 
 ## 常见错误

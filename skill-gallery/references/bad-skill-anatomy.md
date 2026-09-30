@@ -1,10 +1,10 @@
 # 反面样本：一份"看起来很专业"的坏技能
 
-> 相关：《skill-gallery》的 `code-review.md`（正面样本）·
-> 《skill-crafting》的 `vague-word-blacklist.md`（含糊词）·
-> 《skill-content》的 `instruction-ordering.md`（五段式骨架）·
-> 《skill-scoping》的 `scope-section.md`（Out of scope 要指向替代方案）·
-> 《skill-quality》的 `quality-rubric-nine-dims.md`（九维打分）
+> 相关：《skill-gallery》的 code-review.md（正面样本）·
+> 《skill-crafting》的 `skill-precision/references/vague-word-blacklist.md`（含糊词）·
+> 《skill-content》的 `skill-content/references/instruction-ordering.md`（五段式骨架）·
+> 《skill-scoping》的 `skill-scoping/references/scope-section.md`（Out of scope 要指向替代方案）·
+> 《skill-quality》的 `skill-quality/references/quality-rubric-nine-dims.md`（九维打分）
 > 前置：gallery 里已有⭐⭐⭐ **正面样本**（照着写），
 > 这份给⭐⭐⭐⭐⭐ **一份完整的坏样本 + 逐条改写**——
 > 因为看得出别人哪里坏，比照着好的抄更难，也更有用。
@@ -205,7 +205,7 @@ description: 按 cohorts 分析销售数据的复购与留存——读入订单�
 无脚本、无输出契约 → ⭐⭐⭐ 它的产出不可复现
 ```
 
-配一条来自 `quality-rubric-nine-dims.md` 的提醒：
+配一条来自 `skill-quality/references/quality-rubric-nine-dims.md` 的提醒：
 **实测表现占 23 分权重最高**——
 ⭐⭐⭐ **而这三条问法，就是不需要跑 eval 也能预判实测分数的快速筛。**
 

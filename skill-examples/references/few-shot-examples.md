@@ -1,7 +1,7 @@
 # 少样本示例：数量、质量三要素、排序
 
-> 相关：《skill-output》的 `output-contract-templates.md` ·
-> `guidance-forms.md` · 《skill-patterns》的 `instruction-craft.md`
+> 相关：《skill-output》的 `skill-output/references/output-contract-templates.md` ·
+> `skill-crafting/references/guidance-forms.md` · 《skill-patterns》的 `skill-patterns/references/instruction-craft.md`
 
 ---
 
@@ -102,7 +102,7 @@ Coverage  ⭐ 包含典型 + 边界案例
   · ⭐ 时敏任务用最近的示例
 ```
 
-> ⭐ "至少包含一个边界案例"——这与 `common-mistakes-checklist.md`
+> ⭐ "至少包含一个边界案例"——这与 `skill-patterns/references/common-mistakes-checklist.md`
 > 的"负样本比正样本值钱"同源：**边界定义了适用范围**。
 
 ---

@@ -1,14 +1,14 @@
 # 权限集合：拆分判据、审查清单与核心/个人分离
 
-> 相关：《skill-triggering》的 `troubleshooting-order-five-cases.md`（排错顺序与五类用例）·
-> 《skill-security》的 `allowed-tools-least-privilege.md` · `pre-install-security-audit.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/troubleshooting-order-five-cases.md`（排错顺序与五类用例）·
+> 《skill-security》的 `skill-security/references/allowed-tools-least-privilege.md` · `skill-security/references/pre-install-security-audit.md`
 > 前置：上篇讲⭐ 技能"表现不对"时⭐ 怎么⭐ 按顺序定位，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 两类⭐ 不同性质的⭐ 判断——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ **权限集合⭐ 作为⭐ 拆分判据**（⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 唯一一个⭐ 安全判据），
 > ⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 第三方技能⭐ 的⭐ 审查清单。
 ---
 
-> 上篇：见 `troubleshooting-order-five-cases.md`
+> 上篇：见 `skill-triggering/references/troubleshooting-order-five-cases.md`
 
 ## 目录
 - [5. ⭐⭐⭐⭐⭐ 权限集合不同就该拆](#5--权限集合不同就该拆)
@@ -42,7 +42,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 因为⭐ 前三个⭐ 是⭐ 质量⭐ 判断（⭐ 拆错了⭐ 效果差），
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **这一个⭐ 是⭐ 安全⭐ 判断
 > （⭐⭐⭐⭐⭐ ⭐⭐⭐ 不拆 = ⭐⭐⭐⭐⭐ ⭐⭐⭐ 低权限场景⭐ 被授予了⭐ 高权限）。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `allowed-tools-least-privilege.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-security/references/allowed-tools-least-privilege.md` 的
 > "⭐ 最小权限"⭐ 完全同源，⭐⭐⭐⭐⭐ ⭐⭐⭐ 只是⭐ 应用到了⭐ 拆分粒度上。
 
 ---
@@ -92,7 +92,7 @@
    引用资料 · 脚本 · 外部地址 · 网络调用 · 子进程 · 硬编码凭证 · 数据外传路径 ·（+ SKILL.md）
 ```
 
-> ⭐⭐⭐⭐⭐ 这⭐ 八项⭐ 比⭐ 我们⭐ 已有的⭐ `pre-install-security-audit.md`（15 向量）
+> ⭐⭐⭐⭐⭐ 这⭐ 八项⭐ 比⭐ 我们⭐ 已有的⭐ `skill-security/references/pre-install-security-audit.md`（15 向量）
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 更⭐ 简短，⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 有⭐ 两项⭐ 是⭐ 那份⭐ 没有的：
 > ⭐⭐⭐⭐⭐ **"⭐ 外部地址"⭐ 与 ⭐ "⭐⭐⭐⭐⭐ 数据外传路径"**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 注意⭐ 它们⭐ 不是⭐ 一回事：
@@ -106,7 +106,7 @@
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 还有一句⭐ 值得⭐ 单独⭐ 记：
 > ⭐⭐⭐⭐⭐ **"⭐ 来源可信，⭐⭐⭐⭐⭐ ⭐⭐⭐ 不代表⭐ 后续依赖⭐ 永远可信。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `dependency-lockfile.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-distribution/references/dependency-lockfile.md` 的
 > "⭐ 36.6% 隐藏依赖，⭐⭐⭐⭐⭐ ⭐⭐⭐ 仅 1.4% 声明"⭐ 是⭐ 同一个⭐ 问题的⭐ 两面：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ **安装那一刻的审查，⭐⭐⭐⭐⭐ ⭐⭐⭐ 覆盖不了
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 后续⭐ 拉进来的⭐ 东西。**
@@ -135,7 +135,7 @@
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 也⭐ 与⭐ 我们⭐ 已有的⭐ 一条⭐ 精确对应：
 > ⭐⭐⭐⭐⭐ **"⭐ 想改共享技能⭐ 就在仓库里 fork 并发新版本，⭐⭐⭐⭐⭐ ⭐⭐⭐ 别改本地副本"**
-> （`iteration-three-levels.md`）——
+> （`skill-versioning/references/iteration-three-levels.md`）——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 那份⭐ 说的是⭐ 流程，⭐⭐⭐⭐⭐ ⭐⭐⭐ 这份⭐ 说的是⭐ 结构：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **把⭐ 允许个人改的⭐ 那部分⭐ 显式隔离出来，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 于是⭐ "别改本地副本"⭐ 就不再⭐ 需要⭐ 靠⭐ 纪律维持。**

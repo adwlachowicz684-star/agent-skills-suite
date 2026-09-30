@@ -27,8 +27,8 @@
 > ⭐ **`provenance`（来源可追溯）这一项最重要**——
 > 出事时你要能回答"这个技能从哪来"。
 
-呼应 `packaging.md`（**`skill-refining`**）与
-`security-review.md`（**`skill-governance`**）。
+呼应 `skill-distribution/references/packaging.md`（**`skill-refining`**）与
+`skill-security/references/security-review.md`（**`skill-governance`**）。
 
 ## 三类技能的状态
 
@@ -42,7 +42,7 @@ QUARANTINE  ⭐ 发现可疑，已停用待查
 > 出事时你要能**立刻停掉**一个技能，
 > 而不是先走完废弃流程。
 
-呼应 `lifecycle.md`（**`skill-governance`**）的五阶段：
+呼应 `skill-governance/references/lifecycle.md`（**`skill-governance`**）的五阶段：
 `DRAFT → ACTIVE → MATURE → DEPRECATED → ARCHIVED`。
 
 ## 留存与删除
@@ -64,8 +64,8 @@ QUARANTINE  ⭐ 发现可疑，已停用待查
 □ ⭐ 留存期要写死，不能"默认永久"
 ```
 
-呼应 `telemetry-schema.md` 的"什么不该记"与
-`pii-data-handling.md` 的去标识化层次。
+呼应 `skill-governance/references/telemetry-schema.md` 的"什么不该记"与
+`skill-security/references/pii-data-handling.md` 的去标识化层次。
 
 **删除要真的删**：
 
@@ -75,7 +75,7 @@ QUARANTINE  ⭐ 发现可疑，已停用待查
    ——否则它还在付目录税
 ```
 
-呼应 `lifecycle.md`：**归档而非删除**，
+呼应 `skill-governance/references/lifecycle.md`：**归档而非删除**，
 但要确保归档的东西不再被加载。
 
 ## 定期审计
@@ -98,7 +98,7 @@ QUARANTINE  ⭐ 发现可疑，已停用待查
 □ 权限过宽的 → 收紧
 ```
 
-呼应 `library-ops.md`（**`skill-distribution`**）的
+呼应 `skill-distribution/references/library-ops.md`（**`skill-distribution`**）的
 五维健康诊断——**基于规则的，几乎零 LLM token**。
 
 ## 一条容易被忽略的关系
@@ -111,11 +111,11 @@ QUARANTINE  ⭐ 发现可疑，已停用待查
 □ ⭐ 清单变更要留审计日志
 ```
 
-呼应 `untrusted-repo-content.md`（**`skill-selection`**）的思路：
+呼应 `skill-selection/references/untrusted-repo-content.md`（**`skill-selection`**）的思路：
 **任何自动读取的来源都是数据，不是指令**——
 清单读取要校验签名或哈希。
 
-呼应 `release-versioning.md` 的
+呼应 `skill-distribution/references/release-versioning.md` 的
 **用内容寻址（tree SHA）而非只看版本号**。
 
 ## 自查

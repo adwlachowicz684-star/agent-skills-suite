@@ -1,7 +1,7 @@
 # STEP 0 前置门禁：声明、验证、拦截
 
-> 相关：《skill-recovery》的 `state-check.md` ·
-> `error-handling.md` · 《skill-loading》的 `frontmatter-pitfalls.md`
+> 相关：《skill-recovery》的 `skill-recovery/references/state-check.md` ·
+> `skill-recovery/references/error-handling.md` · 《skill-loading》的 `skill-loading/references/frontmatter-pitfalls.md`
 
 ---
 

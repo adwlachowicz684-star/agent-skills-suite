@@ -1,8 +1,8 @@
 # systematic-debugging：一个被广泛复刻的技能样本
 
-> 相关：（已移至 _parked 领域实例库）的 `debugging-recovery.md` ·
-> 《skill-crafting》的 `guidance-forms.md` ·
-> 《skill-description》的 `imperative-description.md`
+> 相关：（已移至 _parked 领域实例库）的 `skill-domains/references/debugging-recovery.md` ·
+> 《skill-crafting》的 `skill-crafting/references/guidance-forms.md` ·
+> 《skill-description》的 `skill-description/references/imperative-description.md`
 
 ---
 
@@ -34,7 +34,7 @@
 
 > **Symptom fixes are failure.**（修症状就是失败）
 
-> ⭐ 这是 `guidance-forms.md` 那条"禁令必须配替代"的反面教材吗？
+> ⭐ 这是 `skill-crafting/references/guidance-forms.md` 那条"禁令必须配替代"的反面教材吗？
 > 不是——因为这里禁令**同时给出了完整配方**（下面四阶段），
 > 所以它是有效的。这正是那条规则的实证。
 
@@ -157,7 +157,7 @@ STOP 停止继续修
 | 修症状 | 修根因 |
 
 > ⭐ 注意这张表的形态——**每行都是"禁令 + 替代"**，
-> 正是 `guidance-forms.md` 说的"配方"而非"禁令清单"。
+> 正是 `skill-crafting/references/guidance-forms.md` 说的"配方"而非"禁令清单"。
 > 这是它有效的第二个原因。
 
 ---
@@ -175,7 +175,7 @@ STOP 停止继续修
 
 > 最后一条容易被忽略：
 > **一个调试技能不该有写权限**（至少调查阶段不该）。
-> 这与 `least-privilege.md` 的"不需要写就只给只读"一致。
+> 这与 `skill-security/references/least-privilege.md` 的"不需要写就只给只读"一致。
 
 ---
 

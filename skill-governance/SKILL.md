@@ -35,14 +35,15 @@ description: Agent Skills 的生命周期治理、库存与退役、腐烂检测
 > 但**照样输出 "✅ SAFE"**——后台只剩 grep 正则在跑。
 
 ## 路由表（按需深读）
-| `skill-slo-error-budget.md` | ⭐⭐⭐⭐⭐ 有指标没执法；三条 SLI（触发准确/输出合格/⭐净增益）；错误预算三档状态 |
-| `skill-decay-governance.md` | ⭐⭐⭐ 腐烂四症状 + 五条治理清单（review_after/无category拒绝注册） |
-| `observability-trace-debug.md` | ⭐⭐ 用技能调试技能；护栏放包装脚本不放提示 |
-| `deprecation-compat-strategy.md` | ⭐⭐ 跨版本循环依赖 + 废弃三阶段 + 可选参数优先 |
-| `skill-ownership-changeflow.md` | ⭐ Owner 制度 + 变更七步 + 真实翻车案例 |
-| `ops-iteration-sop.md` | ⭐ 运维四段式 + S/A/B 分级 + 五条红线 |
-| `skill-min-record-card.md` | ⭐ 最小档案卡 9 字段 + Owner 责任线 + 六个触发点 |
-| `retirement-pipeline.md` | ⭐ 退役四阶段（35-42天）+ 归档≠删除 + 降级诊断 |
+| `skill-governance/references/unowned-skills.md` | ⭐⭐⭐⭐ 无主技能：没人认领=没人修；Owner 是治理的最小可执行单元 |
+| `skill-governance/references/skill-slo-error-budget.md` | ⭐⭐⭐⭐⭐ 有指标没执法；三条 SLI（触发准确/输出合格/⭐净增益）；错误预算三档状态 |
+| `skill-governance/references/skill-decay-governance.md` | ⭐⭐⭐ 腐烂四症状 + 五条治理清单（review_after/无category拒绝注册） |
+| `skill-governance/references/observability-trace-debug.md` | ⭐⭐ 用技能调试技能；护栏放包装脚本不放提示 |
+| `skill-governance/references/deprecation-compat-strategy.md` | ⭐⭐ 跨版本循环依赖 + 废弃三阶段 + 可选参数优先 |
+| `skill-governance/references/skill-ownership-changeflow.md` | ⭐ Owner 制度 + 变更七步 + 真实翻车案例 |
+| `skill-governance/references/ops-iteration-sop.md` | ⭐ 运维四段式 + S/A/B 分级 + 五条红线 |
+| `skill-governance/references/skill-min-record-card.md` | ⭐ 最小档案卡 9 字段 + Owner 责任线 + 六个触发点 |
+| `skill-governance/references/retirement-pipeline.md` | ⭐ 退役四阶段（35-42天）+ 归档≠删除 + 降级诊断 |
 
 **治理与观测**：
 
@@ -60,8 +61,8 @@ description: Agent Skills 的生命周期治理、库存与退役、腐烂检测
 |---|---|
 | ⭐ **CI/CD 集成与失败闭环** | `references/ci-cd-integration.md` |
 | **三个 token 桶、实测 8.5%、16x 案例** | `references/cost-control.md` |
-| **提示缓存：中途加载是最贵的失效模式** | **`skill-selection` 的 `caching-economics.md`** |
-| **运行时性能：冷启动预热、并行 IO** | **`skill-selection` 的 `performance.md`** |
+| **提示缓存：中途加载是最贵的失效模式** | **`skill-selection` 的 `skill-selection/references/caching-economics.md`** |
+| **运行时性能：冷启动预热、并行 IO** | **`skill-selection` 的 `skill-selection/references/performance.md`** |
 
 **规模与生命周期**：
 
@@ -70,7 +71,7 @@ description: Agent Skills 的生命周期治理、库存与退役、腐烂检测
 | ⭐ **1,236 技能吃掉 36.6% 上下文** | `references/scale-effects.md` |
 | ⭐ **技能清单与留存策略：治理的前提是知道有什么** | `references/skill-inventory.md` |
 | **五阶段：草稿 → 活跃 → 成熟 → 废弃 → 归档** | `references/lifecycle.md` |
-| **技能库运维与五维健康诊断** | **`skill-distribution` 的 `library-ops.md`** |
+| **技能库运维与五维健康诊断** | **`skill-distribution` 的 `skill-distribution/references/library-ops.md`** |
 
 ## Critical Rules
 

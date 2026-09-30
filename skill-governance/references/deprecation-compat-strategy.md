@@ -1,8 +1,8 @@
 # 废弃策略与向后兼容
 
-> 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `lifecycle.md` · 《skill-refining》的
-> `version-changelog-practice.md`
+> 相关：《skill-governance》的 `skill-governance/references/retirement-pipeline.md` ·
+> `skill-governance/references/lifecycle.md` · 《skill-refining》的
+> `skill-versioning/references/version-changelog-practice.md`
 > 前置：那些讲"单个团队内怎么退休一个技能"，
 > 这份讲⭐ **平台/对外发布视角**：版本协商、兼容矩阵、废弃三阶段。
 
@@ -163,7 +163,7 @@ Added · Changed · Deprecated · Removed · Fixed · Security
 > ⭐⭐ **只看"名字"维度没有环，但加上版本号就有环了。**
 > 所以检测必须在 **（名字, 版本）** 这个二维空间上做，不能只在名字上做。
 
-> 这与《patterns》的 `solid-for-skills.md` 呼应：
+> 这与《patterns》的 `skill-patterns/references/solid-for-skills.md` 呼应：
 > **技能依赖图是 DAG，要防环**——这条给出了"防环要防到版本这一层"。
 
 ---

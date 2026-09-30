@@ -34,7 +34,7 @@ DRAFT → ACTIVE → MATURE → DEPRECATED → ARCHIVED
 
 ```markdown
 > ⚠️ **DEPRECATED**：本技能自 v2.3.0 起弃用。
-> 请改用 `new-skill-name`。迁移指南：`references/migration.md`
+> 请改用 `new-skill-name`。迁移指南：migration.md
 > 终止支持：2026-06-01
 ```
 
@@ -104,7 +104,7 @@ refactor: 重构（无功能变化）
 perf:     性能优化
 ```
 
-> ⚠️ 一个关键提醒（呼应 `skill-distribution` 的 `team-workflow.md`）：
+> ⚠️ 一个关键提醒（呼应 `skill-distribution` 的 `skill-adoption/references/team-workflow.md`）：
 > **CHANGELOG 要记 why，不是 git log。**
 > "阈值从 5 次改为 10 次"要说明**为什么**。
 
@@ -188,7 +188,7 @@ deprecation_notice: |
 | 新的领域专长 | 新建技能 |
 | 现有技能的延伸 | 扩展该技能 |
 | **技能 >500 行** | **拆成聚焦的多个技能** |
-| 跨领域 | 用组合模式（见 `skill-orchestration` 的 `composition.md`） |
+| 跨领域 | 用组合模式（见 `skill-orchestration` 的 `skill-composition/references/composition.md`） |
 | 实验性的 | 在 DRAFT 建，**失败就删** |
 
 ---

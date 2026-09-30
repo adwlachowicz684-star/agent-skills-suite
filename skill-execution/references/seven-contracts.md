@@ -1,8 +1,8 @@
 # 七个契约：从"说明书"到"责任契约"
 
-> 相关：《skill-output》的 `output-contract.md` · `preflight-gate.md` ·
-> `error-handling.md` · `idempotency-resume.md` · `state-check.md` ·
-> 《skill-output》的 `output-control.md`
+> 相关：《skill-output》的 `skill-output/references/output-contract.md` · `skill-execution/references/preflight-gate.md` ·
+> `skill-recovery/references/error-handling.md` · `skill-recovery/references/idempotency-resume.md` · `skill-recovery/references/state-check.md` ·
+> 《skill-output》的 `skill-output/references/output-control.md`
 > 前置：那些讲单个契约怎么写（输出格式、前置门禁、错误处理、幂等），
 > 这份讲⭐⭐⭐ **它们合起来构成的七个面**——
 > 核心论点是⭐⭐⭐ **"单一职责、准确描述、惜字如金"都不足以让技能进生产**。
@@ -53,7 +53,7 @@
 
 > ⭐⭐⭐ **显式调用⭐ 不等于可以跳过安全边界。**
 
-> ⭐ 这与 `preflight-gate.md` 的三条 MUST NOT 一致，
+> ⭐ 这与 `skill-execution/references/preflight-gate.md` 的三条 MUST NOT 一致，
 > 但这里给了一个更简明的表述——
 > **用户亲口说"用这个技能"也不豁免前置检查**。
 > 很多人会以为 `/deploy` 是用户明确意图于是可以少查一步，恰恰相反。
@@ -71,7 +71,7 @@
 
 > ⭐⭐⭐ "在任务末尾才暴露"是这类失败的特征——
 > 前 90% 的输出看起来都对，最后发现处理的是错的对象。
-> 这正对应 `preflight-gate.md` 说的
+> 这正对应 `skill-execution/references/preflight-gate.md` 说的
 > "跑到一半才来问你要东西，或者更糟，默默即兴发挥一条替代路径"。
 
 ---
@@ -85,7 +85,7 @@
 
 > ⭐⭐⭐ **"如果产物不可定位，完成也就不可验证。"**
 
-> ⭐⭐ 这条与 `assert-on-environment.md` 的
+> ⭐⭐ 这条与 `skill-evaluating/references/assert-on-environment.md` 的
 > "断言要打在环境状态上"是同一原则的⭐ 上游版本：
 > **先让产物可定位，才谈得上断言。**
 > 一个只说"已完成"的技能，你连该去查什么都不知道。
@@ -110,8 +110,8 @@
 > 但模型会这么推导。
 >
 > 这也是为什么门禁必须是⭐ 显式的、独立于任务目标的
-> （呼应 `determinism-boundary.md` 的 Hooks、
-> `allowed-tools-reference.md` 的执行侧强制）。
+> （呼应 `skill-evaluating/references/determinism-boundary.md` 的 Hooks、
+> `skill-security/references/allowed-tools-reference.md` 的执行侧强制）。
 
 ---
 
@@ -129,7 +129,7 @@
 
 > ⭐⭐⭐ 这条比通用的"要注意幂等"高一个层次——
 > 它指出了⭐ **幂等失败的具体形态**：不是报错，是⭐ 静默的重复。
-> 对应到 `idempotency-resume.md`，这里补的是
+> 对应到 `skill-recovery/references/idempotency-resume.md`，这里补的是
 > **"重试"这个动作特有的陷阱**（区别于"断点续跑"）。
 
 ---
@@ -153,8 +153,8 @@
 > 这句话是这份文档的灵魂。
 >
 > ⭐⭐ 与我们已有的对照：
-> `error-handling.md` 讲"错误怎么报"（退出码分级），
-> `fault-injection-eval.md` 讲"失败怎么造"，
+> `skill-recovery/references/error-handling.md` 讲"错误怎么报"（退出码分级），
+> `skill-evaluating/references/fault-injection-eval.md` 讲"失败怎么造"，
 > ⭐⭐⭐ 这里讲的是**失败在契约里的地位**——
 > 它是⭐ 流程的一部分，不是⭐ 兜底的备注。
 
@@ -180,7 +180,7 @@
 ```
 
 > ⭐⭐⭐ "不要把 HTTP 200 当成成功"这条太常见了——
-> 它正是 `state-check.md` 讲的"验证要查状态而非听汇报"在网络层的具体版本，
+> 它正是 `skill-recovery/references/state-check.md` 讲的"验证要查状态而非听汇报"在网络层的具体版本，
 > 而这里给出了⭐ 更精确的失败形态：**200 只代表请求被接受，不代表状态已变更。**
 
 ---
@@ -193,7 +193,7 @@
 > ⭐⭐⭐ **好技能不会站队"全部写 Prompt"或"全部写代码"，
 > ⭐⭐ 而是把⭐ 每一类工作交给⭐ 更适合的执行介质。**
 
-> ⭐⭐ 这与 `deterministic-scripts.md` 的
+> ⭐⭐ 这与 `skill-scripting/references/deterministic-scripts.md` 的
 > "从 Y 算出 X，X 是数字、Y 是结构化数据 → 脚本"
 > 是同一判据，但这里的表述⭐ 更对称、更好记——
 > **不是"能脚本化就脚本化"，而是"各归各位"。**

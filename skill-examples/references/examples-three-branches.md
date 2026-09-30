@@ -1,8 +1,8 @@
 # 示例怎么选：三条分支 + 一个 Rationale 字段
 
-> 相关：《skill-examples》的 `few-shot-examples.md`（数量与排序）·
-> `examples-as-contract.md`（在《skill-authoring》）·
-> `real-examples.md`
+> 相关：《skill-examples》的 `skill-examples/references/few-shot-examples.md`（数量与排序）·
+> `skill-content/references/examples-as-contract.md`（在《skill-authoring》）·
+> `skill-content/references/real-examples.md`
 > 前置：那份讲"放几个、怎么排"，
 > 这份讲⭐ **选哪几个**——三个必覆盖的分支，以及⭐⭐ 被普遍漏掉的 Rationale 字段。
 
@@ -52,7 +52,7 @@
 ⭐⭐ 有 Rationale：模型学到的是"⭐ 为什么在这个场景下该这么处理"（迁移）
 ```
 
-> ⭐⭐⭐ 这与 `few-shot-examples.md` 那条
+> ⭐⭐⭐ 这与 `skill-examples/references/few-shot-examples.md` 那条
 > "示例只给输入→输出，模型学到的是格式；加上思考过程，它学到的才是判断"
 > 是⭐ 同一个原则的独立佐证——**格式里专门留一个字段来装它**。
 
@@ -105,7 +105,7 @@
 
 > ⭐⭐ 第 2 例尤其典型：**它不是知识，是⭐ 跨系统的命名映射**，
 > 模型不可能靠推理得出，只能被告知。
-> 这与 `official-lessons.md` 官方举的例子完全同构
+> 这与 `skill-scoping/references/official-lessons.md` 官方举的例子完全同构
 > （"这个字段在 API 网关叫 @request_id，在账单服务叫 trace_id"）。
 
 **维护方式**（这条让技能能自我进化）：
@@ -113,8 +113,8 @@
 > ⭐⭐ **每当你纠正了模型一个错误，就把这个纠正写进 gotchas。
 > 这是把技能越用越好的⭐ 最直接方式。**
 
-> ⭐⭐⭐ 这与 `skill-evolution-loop.md` 的"用每一次失败喂养它"、
-> `forty-skills-lessons.md` 的"先做一遍再写"是同一条主线的三种说法：
+> ⭐⭐⭐ 这与 `skill-versioning/references/skill-evolution-loop.md` 的"用每一次失败喂养它"、
+> `skill-authoring/references/forty-skills-lessons.md` 的"先做一遍再写"是同一条主线的三种说法：
 > **技能的价值来自真实错误的积累，不来自设计。**
 
 ---
@@ -138,15 +138,15 @@ SkillsBench 的反直觉发现：
 > ⭐⭐⭐ 这组数字非常关键，因为它**直接否定了"让 AI 帮我写技能库"这个想法**——
 > 至少在"从零生成"这一环是否定的。
 >
-> ⭐ 但要注意边界：这与 `self-evolution-three-levels.md` 的
+> ⭐ 但要注意边界：这与 `skill-versioning/references/self-evolution-three-levels.md` 的
 > "外循环 agent 可以⭐ 提议修改、由人审核"并不矛盾——
 > **生成（从零）是负效果，提议（基于真实轨迹）是有价值的**。
 > 区别就在于⭐ 有没有真实反馈信号。
 
-> ⭐ 另有一致证据：`context-file-selection.md` 引的 ETH 研究也说
+> ⭐ 另有一致证据：`skill-selection/references/context-file-selection.md` 引的 ETH 研究也说
 > "让 LLM 生成你的上下文文件，结果比你自己写的更差"。
 
-**拆分的三个信号**（与 `split-signals-five.md` 互补）：
+**拆分的三个信号**（与 `skill-refining/references/split-signals-five.md` 互补）：
 
 ```
 · 正文超过 500 行

@@ -1,8 +1,8 @@
 # 流程、判断、验收：三件套与"差评反例"
 
-> 相关：《skill-examples》的 `examples-three-branches.md`（示例三分支）·
-> `few-shot-examples.md` · `output-control.md`（输出控制三层次）·
-> `instruction-craft.md` · 《skill-execution》的 `seven-contracts.md`
+> 相关：《skill-examples》的 `skill-examples/references/examples-three-branches.md`（示例三分支）·
+> `skill-examples/references/few-shot-examples.md` · `skill-output/references/output-control.md`（输出控制三层次）·
+> `skill-patterns/references/instruction-craft.md` · 《skill-execution》的 `skill-execution/references/seven-contracts.md`
 > 前置：那份讲"示例要覆盖三个分支"，
 > 这份讲⭐⭐⭐ **正文该写的其实是三样不同的东西**，
 > 以及一条⭐⭐⭐ 比正向示例更有效的技巧：**故意展示一个差评案例。**
@@ -40,7 +40,7 @@
 > ⭐⭐⭐ 第三条最锋利：**"已完成"是最廉价的转义**。
 > 只要没有验收标准，模型总能输出"已完成"并停在那里——
 > 而它确实做了什么，只是没做对。
-> 这正对应 `seven-contracts.md` 的"把'做了'与'做对了'分开"。
+> 这正对应 `skill-execution/references/seven-contracts.md` 的"把'做了'与'做对了'分开"。
 
 ---
 
@@ -82,7 +82,7 @@
 > 模型仍然负责理解语境、组织语言和权衡取舍，
 > ⭐⭐ 但不用⭐ 每次都重新发明工作流。"**
 >
-> ⭐⭐ 这与 `write-reasons-not-rules.md` 的"给判断依据而不是死命令"
+> ⭐⭐ 这与 `skill-crafting/references/write-reasons-not-rules.md` 的"给判断依据而不是死命令"
 > 是同一条——**约束的是选择点，不是全部行为**。
 
 ---
@@ -100,7 +100,7 @@
 > ⭐⭐⭐ **"这种'看着改错'的例子，
 > ⭐⭐ 比再多的正向示例都更能让模型理解什么算合格。"**
 
-> ⭐⭐⭐ 这条是对 `few-shot-examples.md` 的⭐ 重要补充：
+> ⭐⭐⭐ 这条是对 `skill-examples/references/few-shot-examples.md` 的⭐ 重要补充：
 > 那份讲"示例要有 Rationale 字段"（讲为什么这么处理），
 > 这份讲⭐ **配一个反例 + 一句改进说明**——
 > 两者方向不同但都指向同一件事：**让模型看见边界在哪**，
@@ -147,7 +147,7 @@
 
 > ⭐⭐⭐ "示例能把模型拉回来"这个观察很重要——
 > 它说明**示例不只是初始指令，还是⭐ 纠偏装置**。
-> 这与 `imperative-style.md` 的
+> 这与 `skill-crafting/references/imperative-style.md` 的
 > "输出格式钉死 + 一个填好的示例"一致，
 > 但这里给了⭐ 后果证据（脚本改了三版 → 稳定）。
 
@@ -158,7 +158,7 @@
    —— ⭐⭐⭐ ⭐ 这种模式⭐ 容错率最高
 ```
 
-> ⭐⭐ 这与 `script-cli-contract.md` 的
+> ⭐⭐ 这与 `skill-scripting/references/script-cli-contract.md` 的
 > "stdout 只放结果、stderr 放调试"是配套的：
 > **结构化输出 + 代码渲染** 把"格式稳定性"从模型手里彻底拿走。
 

@@ -1,6 +1,6 @@
 # 可观测性工具选型：Langfuse vs LangSmith
 
-> 前面 `telemetry-schema.md` 讲"记什么字段"，
+> 前面 `skill-governance/references/telemetry-schema.md` 讲"记什么字段"，
 > 这份讲"用什么记"——两者的差异会反过来影响你的架构。
 
 ## 目录
@@ -41,7 +41,7 @@ LangSmith：闭源 SaaS，⭐ 无自托管版本
 > ⭐ **如果你的 trace 里有不能出内网的 prompt 或用户数据，
 > 这一条就直接决定了选型**——不用再看其他维度。
 
-呼应 `telemetry-schema.md` 那条：
+呼应 `skill-governance/references/telemetry-schema.md` 那条：
 **日志管道本身就会成为泄露源；目标是"让 prompt 可 diff，但不可读"**。
 自托管把这条风险的暴露面从"第三方 SaaS"缩回"你自己的 VPC"。
 

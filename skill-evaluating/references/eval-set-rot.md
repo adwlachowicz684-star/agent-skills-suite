@@ -1,9 +1,9 @@
 # 测试集自身的腐烂
 
-> 相关：《skill-evaluating》的 `test-data-design.md`（合成 vs 真实）·
-> `eval-case-design.md`（按分支铺用例）·
-> `outgrowth-regression-detection.md`（被追上/回归/本来不行）·
-> `capability-offset-net-gain.md`（新增失败抵消 59%）
+> 相关：《skill-evaluating》的 test-data-design.md（合成 vs 真实）·
+> `skill-evaluating/references/eval-case-design.md`（按分支铺用例）·
+> `skill-triggering/references/outgrowth-regression-detection.md`（被追上/回归/本来不行）·
+> `skill-evaluating/references/capability-offset-net-gain.md`（新增失败抵消 59%）
 > 前置：那些讲⭐⭐⭐ 测试集怎么设计、⭐⭐⭐ 结果怎么判读，
 > 这份讲⭐⭐⭐⭐⭐ **测试集本身会坏**——
 > 一个所有人都默认"它是标尺"、因而从不检查它的东西。
@@ -53,7 +53,7 @@
 → ⭐ 分数越来越高，泛化越来越差
 ```
 
-判据（`description-tuning-official-loop.md` 同源）：
+判据（`skill-description/references/description-tuning-official-loop.md` 同源）：
 **每一轮都在涨，就是过拟合的典型曲线。**
 
 **② ⭐⭐⭐⭐ 陈旧**
@@ -144,7 +144,7 @@
 
 | 事件 | ⭐ 动作 |
 |---|---|
-| ⭐ 线上事故 | ⭐⭐ **必须补一条用例，永久留下**（`ci-skill-validation.md`） |
+| ⭐ 线上事故 | ⭐⭐ **必须补一条用例，永久留下**（`skill-automation/references/ci-skill-validation.md`） |
 | 模型版本升级 | ⭐ 全部重跑，分数同变则说明标尺与被测物分离得还行 |
 | 技能新增分支 | 补用例 |
 | ⭐ 连续 N 次全绿 | ⭐⭐ 立即做一次注入测试 |

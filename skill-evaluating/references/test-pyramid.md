@@ -28,7 +28,7 @@
 > 它把低级错误挡在"编译期"——YAML 格式、name 与目录名一致、
 > description 长度、引用文件是否存在。**这一层不该用 LLM 判。**
 
-**第 2 层是触发测试**，见 `triggering.md`。
+**第 2 层是触发测试**，见 `skill-triggering/references/triggering.md`。
 > 正例 + 负例 + near-miss，跑 3 次取均值。
 
 **第 3 层是行为测试**：

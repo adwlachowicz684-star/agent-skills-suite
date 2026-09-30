@@ -1,15 +1,15 @@
 # skill-creator：一个元技能的完整架构
 
-> 相关：《skill-authoring》的 `forty-skills-lessons.md` ·
-> 《skill-automation》的 `comparator-ab-eval.md` · `skill-test-pyramid-four.md` ·
-> 《skill-examples》的 `examples-three-branches.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/forty-skills-lessons.md` ·
+> 《skill-automation》的 `skill-automation/references/comparator-ab-eval.md` · `skill-evaluating/references/skill-test-pyramid-four.md` ·
+> 《skill-examples》的 `skill-examples/references/examples-three-branches.md`
 > 前置：那些讲⭐ 该怎么做，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 真正⭐ 把⭐ 这些⭐ 全部⭐ 实现了的⭐ 元技能⭐ 长什么样——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 它⭐ 有三处⭐ 设计⭐ 与我们⭐ 已有结论⭐ 精确对上。
 
 ---
 
-> 下篇：见 `skill-creator-agents-and-stats.md`
+> 下篇：见 `skill-gallery/references/skill-creator-agents-and-stats.md`
 
 ## 目录
 - [1. ⭐⭐⭐⭐ 定位：把 ad-hoc 变成工程流程](#1--定位把-ad-hoc-变成工程流程)
@@ -84,7 +84,7 @@ skill-creator/
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这个⭐ 区分⭐ 很干净：⭐⭐⭐⭐⭐ ⭐⭐⭐ 一个⭐ 是⭐ 资料，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 一个⭐ 是⭐ 人格。⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而我们
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 此前⭐ 记的⭐ `five-design-patterns.md` 里的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 此前⭐ 记的⭐ `skill-patterns/references/five-design-patterns.md` 里的
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ "⭐ Reviewer 模式"⭐ 在⭐ 这里⭐ 有了⭐ 物理⭐ 落点。
 >
 > **② ⭐⭐⭐⭐ `eval-viewer/` 与 `assets/eval_review.html`**
@@ -146,7 +146,7 @@ Draft Skill → Write Test Cases → ⭐ Spawn Parallel Runs → Grade
 
 > ⭐⭐⭐⭐⭐ 第 ② 条⭐ 与⭐ 我们⭐ 已有的⭐ 一条⭐ 完全同一：
 > ⭐⭐⭐⭐⭐ **"⭐ PASS 必须有 concrete 证据，⭐⭐⭐⭐⭐ ⭐⭐⭐ 不'疑罪从无'"**
-> （`assert-on-environment.md`）。
+> （`skill-evaluating/references/assert-on-environment.md`）。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这里⭐ 把⭐ 它⭐ 做成了⭐ **数据结构里的⭐ 必填字段**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 有 `passed` 就必须有 `evidence`，⭐⭐⭐⭐⭐ ⭐⭐⭐ 否则⭐ schema 不合规。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 又是⭐ 一次⭐ "⭐ 书面规则⭐ 升级为⭐ 代码"⭐ 的实例。
@@ -155,7 +155,7 @@ Draft Skill → Write Test Cases → ⭐ Spawn Parallel Runs → Grade
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 理由⭐ 是⭐ 可判定的：⭐⭐⭐⭐⭐ ⭐⭐⭐ 打分需要⭐ 一个
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ "⭐ 什么是 3 分"⭐ 的⭐ 标准，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 那个标准⭐ 本身
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 又需要⭐ 主观⭐ 判断——⭐⭐⭐⭐⭐ ⭐⭐⭐ 于是⭐ 循环回去了。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `assert-on-environment.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-evaluating/references/assert-on-environment.md` 的
 > "⭐ 断言打在⭐ 环境状态上⭐ 而非⭐ 文字上"⭐ 是⭐ 同一族：⭐⭐⭐⭐⭐ ⭐⭐⭐ **都⭐ 在⭐ 消除
 > ⭐ "看起来对"⭐ 与 ⭐ "真的对"⭐ 之间的⭐ 模糊地带。**
 

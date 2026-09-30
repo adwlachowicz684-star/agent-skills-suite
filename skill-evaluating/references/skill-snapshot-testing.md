@@ -1,9 +1,9 @@
 # 技能的快照测试
 
-> 相关：《skill-evaluating》的 `test-pyramid.md`（四层金字塔）·
-> 《skill-scripting》的 `script-testing.md`（golden 文件是变更可见化机制）·
-> 《skill-versioning》的 `version-changelog-practice.md`（MAJOR/MINOR 判据）·
-> `change-impact-analysis.md`（影响面）
+> 相关：《skill-evaluating》的 `skill-evaluating/references/test-pyramid.md`（四层金字塔）·
+> 《skill-scripting》的 `skill-scripting/references/script-testing.md`（golden 文件是变更可见化机制）·
+> 《skill-versioning》的 `skill-versioning/references/version-changelog-practice.md`（MAJOR/MINOR 判据）·
+> `skill-versioning/references/change-impact-analysis.md`（影响面）
 > 前置：脚本侧我们已经有 golden 文件测试，
 > 这份讲⭐⭐⭐⭐ **技能输出侧的快照**——
 > 为什么它比脚本快照难得多，以及怎么做才不变成又一个恒过的断言。
@@ -125,7 +125,7 @@ CI 算出 diff → ⭐ 谁判断"这个变化是改进还是退化"？
 | 方式 | 适用 | 风险 |
 |---|---|---|
 | ⭐ 人工判 | 低频高价值技能 | 会变成走过场 |
-| LLM-as-Judge | 大规模 | ⭐ 需要防偏差（见 `judge-design.md`） |
+| LLM-as-Judge | 大规模 | ⭐ 需要防偏差（见 `skill-evaluating/references/judge-design.md`） |
 | ⭐⭐ 分层：结构自动判、措辞人判 | ⭐ 推荐 | — |
 
 > ⭐⭐⭐ 推荐第三种的理由很实际：
@@ -143,7 +143,7 @@ CI 算出 diff → ⭐ 谁判断"这个变化是改进还是退化"？
 > ⭐⭐⭐ 每月一次：**故意把技能改差一点**（删掉一个必需要素的要求），
 > 看快照会不会红。不红 → 快照失效。
 
-> ⭐⭐⭐⭐ 这和 `eval-set-rot.md` 的"定期把技能改坏一次"是同一手法，
+> ⭐⭐⭐⭐ 这和 `skill-evaluating/references/eval-set-rot.md` 的"定期把技能改坏一次"是同一手法，
 > 只是对象不同：那个测的是**评测集**，这个测的是**快照**。
 > **两个都要做，因为它们是两套独立的检查。**
 
@@ -165,7 +165,7 @@ CI 算出 diff → ⭐ 谁判断"这个变化是改进还是退化"？
 > 因为快照的价值不在通过与否，**在于强迫你回答"这次改动改变了什么输出"**
 > ——这和脚本 golden 文件的定位完全一致，只是载体从字节变成了结构。
 
-配一条来自 `change-impact-analysis.md` 的要求：
+配一条来自 `skill-versioning/references/change-impact-analysis.md` 的要求：
 **下游消费方要在 PR 评审者列表里**——输出形状变了，他们是唯一能判断影响的人。
 
 ---

@@ -1,9 +1,9 @@
 # 示例是采集的，不是编的
 
-> 相关：《skill-content》的 `gotchas-mining.md`（六个矿脉）·
-> 《skill-examples》的 `few-shot-example-quality.md`（示例六准则）·
-> `examples-three-branches.md`（三分支 + Rationale）·
-> `anti-patterns-catalog.md`
+> 相关：《skill-content》的 `skill-content/references/gotchas-mining.md`（六个矿脉）·
+> 《skill-examples》的 `skill-examples/references/few-shot-example-quality.md`（示例六准则）·
+> `skill-examples/references/examples-three-branches.md`（三分支 + Rationale）·
+> `skill-patterns/references/anti-patterns-catalog.md`
 > 前置：示例准则讲⭐⭐⭐ **一条好示例长什么样**，
 > 这份讲⭐⭐⭐⭐⭐ **示例从哪来**——
 > **Gotchas 有六个矿脉，示例一个都没有；所以示例常常是坐在那里编出来的。**
@@ -96,7 +96,7 @@
                         它同时给了反例（被退回的）和正例（改好的）
 ```
 
-> ⭐⭐⭐⭐ 与 `gotchas-mining.md` 的第一矿脉（你自己的纠错记录）是同一批材料——
+> ⭐⭐⭐⭐ 与 `skill-content/references/gotchas-mining.md` 的第一矿脉（你自己的纠错记录）是同一批材料——
 > ⭐⭐⭐⭐⭐ 所以一次采集可以同时产出 Gotchas 和示例，
 > 而且它们天然互相印证。
 
@@ -106,7 +106,7 @@
 空输入 · 超长 · 缺字段 · 编码异常
 ```
 
-> ⭐⭐⭐⭐ 这些在 `eval-case-design.md` 里是必测用例，
+> ⭐⭐⭐⭐ 这些在 `skill-evaluating/references/eval-case-design.md` 里是必测用例，
 > ⭐⭐⭐⭐⭐ 而如果它们没进示例，模型第一次遇到时只能靠猜。
 
 采集动作（很便宜）：
@@ -137,7 +137,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ **成对写（❌/✅）比只写 ✅ 值钱得多**——
-> 这与 `bad-skill-anatomy.md` 里"差评反例比再多正向示例都更能让模型理解什么算合格"
+> 这与 `skill-gallery/references/bad-skill-anatomy.md` 里"差评反例比再多正向示例都更能让模型理解什么算合格"
 > 完全一致。
 
 而⭐⭐⭐⭐ **"为什么错"和"依据"两行是采集时的天然产物**
@@ -145,7 +145,7 @@
 ⭐⭐⭐⭐⭐ 所以它们不是额外工作量，只是别丢掉。
 
 > ⭐⭐⭐⭐ 这也解释了为什么示例要带 Rationale 字段
-> （`examples-three-branches.md`）：
+> （`skill-examples/references/examples-three-branches.md`）：
 > **编的示例写不出 Rationale，采集的示例天然就有。**
 
 ---
