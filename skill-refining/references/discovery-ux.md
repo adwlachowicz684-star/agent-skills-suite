@@ -1,7 +1,7 @@
 # 可发现性：用户怎么知道技能存在
 
 > **技能写得再好，用户不知道它存在就等于不存在。**
-> 这一章讲**用户侧**的发现机制——与 `skill-evaluating` 的 `triggering.md` 讲的**模型侧**匹配是两回事。
+> 这一章讲**用户侧**的发现机制——与 `skill-evaluating` 的 `skill-triggering/references/triggering.md` 讲的**模型侧**匹配是两回事。
 
 ## 目录
 
@@ -69,7 +69,7 @@
   ——这个别名提供跨 AI 工具兼容的互操作路径
 ```
 
-> 对照 `skill-authoring` 的 `skill-crafting` 的 `skill-structuring` 的 `directory-contract.md`：
+> 对照 `skill-authoring` 的 `skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md`：
 > **跨客户端分发优先用 `.agents/skills/`**，正是因为它在这个优先级里占位。
 
 **生命周期**：
@@ -85,7 +85,7 @@
 
 > ⭐ **Consent 这一步值得注意**——
 > 它把"这个技能将能访问哪个目录"**显式摆给用户**。
-> 这正是 `skill-governance` 的 `sandbox-execution.md` 里权限最小化在交互层的体现。
+> 这正是 `skill-governance` 的 `skill-security/references/sandbox-execution.md` 里权限最小化在交互层的体现。
 
 ---
 
@@ -146,7 +146,7 @@ npx skills remove <名>       # 卸载
 □ 定期审计技能描述的差异化程度
 ```
 
-> 呼应 `skill-evaluating` 的 `metrics.md` 里"候选池 5 → 100 精确率掉 10 倍"：
+> 呼应 `skill-evaluating` 的 `skill-quality/references/metrics.md` 里"候选池 5 → 100 精确率掉 10 倍"：
 > **技能库从 17 个涨到 100+ 时，描述开始重叠，agent 频繁选错。**
 
 ---

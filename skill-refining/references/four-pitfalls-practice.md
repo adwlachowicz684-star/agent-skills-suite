@@ -1,8 +1,8 @@
 # 四个大坑：描述强实现弱、只建不评、过细拆分、忽视版本
 
-> 相关：《skill-versioning》的 `skill-evolution-loop.md` · `version-changelog-practice.md` ·
-> 《skill-patterns》的 `six-anti-patterns-pitfalls.md` ·
-> 《skill-adoption》的 `adoption-metrics.md`
+> 相关：《skill-versioning》的 `skill-versioning/references/skill-evolution-loop.md` · `skill-versioning/references/version-changelog-practice.md` ·
+> 《skill-patterns》的 `skill-patterns/references/six-anti-patterns-pitfalls.md` ·
+> 《skill-adoption》的 `skill-adoption/references/adoption-metrics.md`
 > 前置：那些讲"怎么演进、怎么打分"，
 > 这份是⭐⭐⭐ **一份实践者踩坑清单**——
 > 四个坑里有两个⭐⭐ 此前完全没覆盖：**描述强实现弱** 与 **过细粒度拆分**。
@@ -41,7 +41,7 @@
 > 一旦用户遇到过几次"听起来很强、结果很鸡肋"，
 > ⭐⭐ 他会把⭐ 整个技能库一并弃用，包括那些真正好用的。
 >
-> ⭐⭐ 这与 `hit-rate-four-questions.md` 的第三类
+> ⭐⭐ 这与 `skill-triggering/references/hit-rate-four-questions.md` 的第三类
 > "触发了但没帮助 → 正文质量不足"是同一件事，
 > ⭐⭐⭐ 但这里补上了⭐ **信任层面的连带损害**——
 > 一个坏技能会污染整个库的声誉。
@@ -64,13 +64,13 @@
 ```
 
 > ⭐⭐⭐ 第 ③ 条"自动记录到注册表"是我们此前没写的一层：
-> `version-changelog-practice.md` 讲的是⭐ 单技能内的版本号与 CHANGELOG，
+> `skill-versioning/references/version-changelog-practice.md` 讲的是⭐ 单技能内的版本号与 CHANGELOG，
 > ⭐⭐ 这里讲的是⭐ **库级别的注册表**——
 > 一个地方能查到"当前生效的是哪个版本"。
 >
 > ⭐⭐⭐ 两者缺一不可：单技能有版本号，你才知道改了什么；
 > ⭐⭐⭐ 库级有注册表，你才知道⭐ **现在跑的是哪一版**
-> （对应 `team-admission-criteria.md` 的"active 列表"概念）。
+> （对应 `skill-adoption/references/team-admission-criteria.md` 的"active 列表"概念）。
 
 ---
 
@@ -93,8 +93,8 @@
 > 而是会以三个月的量级累积**——
 > ⭐⭐⭐ 到那时你已经分不清哪些是当初的设计、哪些是后来腐坏的。
 >
-> ⭐⭐ 与 `skill-decay-governance.md` 的"库里最差的是你最早写的"、
-> `adoption-metrics.md` 的"高调用次数但没有质量审查 = 负债"
+> ⭐⭐ 与 `skill-governance/references/skill-decay-governance.md` 的"库里最差的是你最早写的"、
+> `skill-adoption/references/adoption-metrics.md` 的"高调用次数但没有质量审查 = 负债"
 > ⭐⭐⭐ 是⭐ 第三个独立来源。
 
 ---
@@ -146,7 +146,7 @@
 ⭐⭐⭐ ⭐ "模型⭐ 为什么选了这个技能"，⭐⭐⭐ 这个信息对后续优化⭐ 价值极高
 ```
 
-> ⭐⭐⭐ 这与 `skill-observability.md` 的"决策日志比调用日志更关键"
+> ⭐⭐⭐ 这与 `skill-automation/references/skill-observability.md` 的"决策日志比调用日志更关键"
 > 是⭐ 完全相同的第二条来源。两份独立来源都把⭐ **决策理由**
 > 列为最重要的埋点，值得立刻做。
 
@@ -162,7 +162,7 @@
 > 而我们此前所有关于触发的方案都是⭐ 事后优化（改描述、加触发词、两步路由）。
 >
 > ⭐⭐ 但要标一个⭐ 张力警告：
-> 预热会⭐ **同时加载多个技能**，与 `capability-offset-net-gain.md` 的
+> 预热会⭐ **同时加载多个技能**，与 `skill-evaluating/references/capability-offset-net-gain.md` 的
 > "常驻的技能描述即使没触发也会渗入判断、挤占验证环节"
 > ⭐⭐⭐ 存在冲突。
 > ⭐⭐⭐ 保守用法：**只预热 1–2 个、且预热后应观察是否挤占了验证**。

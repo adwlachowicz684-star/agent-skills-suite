@@ -28,7 +28,7 @@
 
 > 其中 **"上下文污染"** 值得单独注意——
 > 解法不是改技能内容，而是**改变执行位置**（隔离子代理）。
-> 呼应 **`skill-evaluating` 的 `failure-modes.md`** 里的"描述渗透"：技能**仅仅因为存在于上下文中**就会改变行为。
+> 呼应 **`skill-evaluating` 的 `skill-triggering/references/failure-modes.md`** 里的"描述渗透"：技能**仅仅因为存在于上下文中**就会改变行为。
 
 ---
 
@@ -176,7 +176,7 @@ CLOSED  ──[失败阈值]──▶  OPEN  ──[冷却结束]──▶  HALF
 ```
 □ 三者同时配置，取最先触发的
 □ 触发后必须保存状态，支持从断点恢复
-□ 避免同步工具调用/子代理活过缓存 TTL（见 **`skill-evaluating` 的 `skill-selection` 的 `caching-economics.md`**）
+□ 避免同步工具调用/子代理活过缓存 TTL（见 **`skill-evaluating` 的 `skill-selection` 的 `skill-selection/references/caching-economics.md`**）
 ```
 
 > 一个真实教训：`quality-check` 一开始没有最大重试限制，

@@ -1,8 +1,8 @@
 # 记忆四层与技能的位置
 
-> 相关：《skill-state》的 `state-persistence.md`（跨会话状态）·
-> 《skill-scoping》的 `no-op-and-value.md`（每段配得上 token 吗）·
-> 《skill-versioning》的 `skill-rot-rollback-discipline.md`
+> 相关：《skill-state》的 `skill-state/references/state-persistence.md`（跨会话状态）·
+> 《skill-scoping》的 `skill-scoping/references/no-op-and-value.md`（每段配得上 token 吗）·
+> 《skill-versioning》的 `skill-versioning/references/skill-rot-rollback-discipline.md`
 > 前置：那些讲"技能里该写什么、怎么维护"，
 > 这份借⭐ Agent 记忆分层框架反过来定位⭐⭐⭐ **技能到底该装哪一类内容**——
 > 一个⭐⭐ 此前没用过的视角。
@@ -68,7 +68,7 @@
 >     ⭐⭐ 塞进了程序记忆的格子里——
 >     ⭐⭐⭐ 于是它⭐ 过期了你也不知道，因为它没有"更新时间"这个概念。**
 >
-> ⭐⭐ 这直接呼应 `team-admission-criteria.md` 第 11 条
+> ⭐⭐ 这直接呼应 `skill-adoption/references/team-admission-criteria.md` 第 11 条
 > "参考资料必须说明来源或更新时间"——
 > **技能里的事实之所以会腐烂，正因为程序记忆层没有时间维度。**
 
@@ -79,7 +79,7 @@
 → ⭐⭐ 所以⭐⭐⭐ 一次性上下文不该进技能
 ```
 
-> ⭐⭐ 这与 `prompt-vs-skill-failure-modes.md` 的第 ③ 步
+> ⭐⭐ 这与 `skill-selection/references/prompt-vs-skill-failure-modes.md` 的第 ③ 步
 > "把当前事实移出去"完全对上——
 > ⭐⭐⭐ **"当前"和"重复"是互斥的：塞了当前的，就不能重复了。**
 
@@ -90,7 +90,7 @@
 ⭐⭐⭐ → ⭐⭐ 重复一遍 = ⭐⭐⭐ 第二个真相来源（会漂移）
 ```
 
-> ⭐⭐⭐ 与 `prompt-layering-positional-bias.md` 的
+> ⭐⭐⭐ 与 `skill-loading/references/prompt-layering-positional-bias.md` 的
 > "技能层不重复项目层约定"是同一条。
 > 三个来源一致：**技能只装"程序"这一层独有的东西。**
 
@@ -117,8 +117,8 @@
 > 要同时把"这次为什么会错"写成一条可检查的规则。**
 > 否则下次同样的错会以另一种形式重现。
 >
-> ⭐⭐ 与 `skill-decay-governance.md` 的 `review_after`
-> 和 `team-admission-criteria.md` 的 CHANGELOG 合起来：
+> ⭐⭐ 与 `skill-governance/references/skill-decay-governance.md` 的 `review_after`
+> 和 `skill-adoption/references/team-admission-criteria.md` 的 CHANGELOG 合起来：
 > **反思记忆制度化的三个产物 = Gotchas + review_after + CHANGELOG。**
 
 ---

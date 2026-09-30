@@ -25,7 +25,7 @@
 ```
 
 > 前四条是"技能从不生效"的绝大多数原因
-> （见 `reload-debug.md`：~80% 在文件层）。
+> （见 `skill-triggering/references/reload-debug.md`：~80% 在文件层）。
 
 ## 触发类
 

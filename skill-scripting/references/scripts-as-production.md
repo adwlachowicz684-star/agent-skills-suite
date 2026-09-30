@@ -1,7 +1,7 @@
 # 技能脚本就是生产代码
 
-> 相关：《skill-scripting》的 `script-engineering.md` ·
-> `skill-structuring` 的 `references-vs-assets.md` · 《skill-authoring》的 `seven-step-authoring.md`
+> 相关：《skill-scripting》的 `skill-scripting/references/script-engineering.md` ·
+> `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` · 《skill-authoring》的 `skill-authoring/references/seven-step-authoring.md`
 
 ---
 
@@ -76,7 +76,7 @@ SKILL.md 像 Unix 管道一样把它们串起来。
 > 这个技能自带 unittest 套件 + 冻结的 `gh` 输出 fixture，
 > 所以**整条管线可以在没有网络的情况下被完整演练**。
 
-这与 `test-pyramid.md` 第 1 层"确定性检查不用 LLM"完全同构——
+这与 `skill-evaluating/references/test-pyramid.md` 第 1 层"确定性检查不用 LLM"完全同构——
 **把可测性当作设计目标，而不是事后补测试。**
 
 ---
@@ -104,7 +104,7 @@ SKILL.md 像 Unix 管道一样把它们串起来。
 > ⭐ **反差本身说明了关键**：
 > **形态应由任务性质决定，不是由"好技能应该长什么样"决定。**
 
-判据回到 `skill-structuring` 的 `references-vs-assets.md` 那条：
+判据回到 `skill-structuring` 的 `skill-structuring/references/references-vs-assets.md` 那条：
 这段是需要被**理解**、被**使用**、还是需要被**执行**？
 
 ---

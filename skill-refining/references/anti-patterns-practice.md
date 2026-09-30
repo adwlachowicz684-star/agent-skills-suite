@@ -138,7 +138,7 @@
 
 > ⭐ **"盲测"这条尤其值得做**——
 > 它同时检验了可发现性、可读性与可维护性。
-> 呼应 `discovery-ux.md`：**技能写得再好，用户不知道它存在就等于不存在。**
+> 呼应 `skill-refining/references/discovery-ux.md`：**技能写得再好，用户不知道它存在就等于不存在。**
 
 ---
 
@@ -155,7 +155,7 @@
   哪些角色有权触发，执行日志如何留存
 ```
 
-> 呼应 `skill-governance` 的 `compliance-audit.md`：
+> 呼应 `skill-governance` 的 `skill-security/references/compliance-audit.md`：
 > **"干什么有记录，结果能审计"** 是权限控制的核心，
 > 不只是技术配置。
 

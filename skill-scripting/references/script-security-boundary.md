@@ -1,8 +1,8 @@
 # 脚本的安全边界：路径、凭据、网络
 
-> 相关：《skill-scripting》的 `script-cli-contract.md` ·
-> 《skill-security》的 `pre-install-security-audit.md`（15 向量扫描）·
-> `allowed-tools-least-privilege.md`
+> 相关：《skill-scripting》的 `skill-scripting/references/script-cli-contract.md` ·
+> 《skill-security》的 `skill-security/references/pre-install-security-audit.md`（15 向量扫描）·
+> `skill-security/references/allowed-tools-least-privilege.md`
 > 前置：那份讲"怎么审别人的技能"，
 > 这份讲⭐ **你自己写技能脚本时该守住的三条边界**。
 
@@ -53,7 +53,7 @@
 
 > ⭐ 一个具体的好习惯：**脚本开头就把"允许写的根目录"定义成一个常量，
 > 所有写操作都过一次校验**。这比在 SKILL.md 里写"不要写到别处"有效得多——
-> 因为它是代码，不依赖模型遵守（呼应 `determinism-boundary.md`）。
+> 因为它是代码，不依赖模型遵守（呼应 `skill-evaluating/references/determinism-boundary.md`）。
 
 ---
 
@@ -74,7 +74,7 @@
 ✅ ⭐⭐ 走环境变量传递，绝不写进文件
 ✅ 从用户已配置的凭据源读取（~/.aws 之类）时，⭐ 要在 SKILL.md 里声明
 ✅ 需要用户配置时，用技能里的 config.json + 首次运行询问
-   （见《skill-scoping》的 `official-lessons.md` 的初始化流程）
+   （见《skill-scoping》的 `skill-scoping/references/official-lessons.md` 的初始化流程）
 ```
 
 > ⭐⭐ **"KEY=actual_value"这一条最阴**：

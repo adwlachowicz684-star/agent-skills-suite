@@ -22,7 +22,7 @@
 
 > ⭐ **多数人只算第 ② 笔，以为"缩短正文"就是优化。
 > 但如果你的技能库很大，第 ① 笔才是大头。**
-> （见 `disclosure-math.md` 与 `library-size-effect.md`。）
+> （见 `skill-context/references/disclosure-math.md` 与 `skill-selection/references/library-size-effect.md`。）
 
 而如果你的技能里 references 很大且常被读，
 第 ③ 笔可能才是真凶。
@@ -119,7 +119,7 @@
 
 > ⭐ 第 ③ 条的"只做一类"很重要：
 > 一次做五种改动，就无法知道哪个是有效的、哪个是有害的。
-> （呼应 `claude-ab-loop.md`：每次只改 1–2 个变量。）
+> （呼应 `skill-automation/references/claude-ab-loop.md`：每次只改 1–2 个变量。）
 
 ## 自查
 

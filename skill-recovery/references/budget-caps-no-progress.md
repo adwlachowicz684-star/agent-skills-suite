@@ -1,8 +1,8 @@
 # 执行预算：五道上限与无进展检测
 
-> 相关：`infinite-loop-timeout.md`（循环与超时）·
-> `progress-reporting.md`（长任务分阶段报）·
-> 《skill-orchestration》的 `orchestrator-timing.md`
+> 相关：`skill-recovery/references/infinite-loop-timeout.md`（循环与超时）·
+> `skill-output/references/progress-reporting.md`（长任务分阶段报）·
+> 《skill-orchestration》的 `skill-orchestration/references/orchestrator-timing.md`
 > 前置：那些讲⭐ 循环怎么终止，
 > 这份讲⭐⭐⭐⭐ **一套完整的预算框架**——
 > 以及⭐⭐⭐⭐⭐ 一个比"循环"更常见、也更难发现的病：无进展。
@@ -32,7 +32,7 @@
 
 | 文档 | 管什么 |
 |---|---|
-| `infinite-loop-timeout.md` | ⭐ **循环**：在重复（同一个动作做两遍） |
+| `skill-recovery/references/infinite-loop-timeout.md` | ⭐ **循环**：在重复（同一个动作做两遍） |
 | ⭐ 本份 | ⭐⭐⭐ **预算**：在推进，但没尽头 / 没变化 |
 
 > ⭐⭐ **循环容易发现（日志里能看到重复），无进展发现不了
@@ -64,8 +64,8 @@
 上升成了**责任归属**：**终止不该是模型的一个选项。**
 
 对应到我们已有的三条：
-`infinite-loop-timeout.md` 的"不要给重试指令却不给重试预算"、
-`error-handling.md` 的"让终止显式化"——
+`skill-recovery/references/infinite-loop-timeout.md` 的"不要给重试指令却不给重试预算"、
+`skill-recovery/references/error-handling.md` 的"让终止显式化"——
 **三个来源，同一条原则。**
 
 ---
@@ -86,7 +86,7 @@
 每一步都在"做事"（读文件、调工具），日志完全正常，
 **但它在绕同一个圈，而圈的外观看不出重复。**
 
-> ⭐⭐⭐ 这解释了 `trace-debugging.md` 里那句
+> ⭐⭐⭐ 这解释了 `skill-triggering/references/trace-debugging.md` 里那句
 > "一个在第 12 轮才明显的循环，通常是从第 3 轮开始的"——
 > **无进展检测器就是把它在第 6 轮而不是第 12 轮抓出来的机制。**
 
@@ -107,7 +107,7 @@
 单独看这条容易觉得多余——直到你把它和"逃生口"放在一起：
 
 ```
-`prompt-altitude-three-laws.md`：盲区里要"说出不确定 → 给最佳判断 → 必要时问"
+`skill-content/references/prompt-altitude-three-laws.md`：盲区里要"说出不确定 → 给最佳判断 → 必要时问"
 本份：                           ⭐ 把它变成了一个可比较的数字
 ```
 
@@ -128,11 +128,11 @@
 
 | 对象 | 阈值 | 出处 |
 |---|---|---|
-| ⭐ 同时挂载技能 | ≤3 | `three-skill-ceiling.md` |
-| 技能库存（质量） | 10–20 | `skill-portfolio-audit.md` |
-| 技能库存（路由） | 50 → 两步路由 | `routing-tiers-and-arbitration.md` |
+| ⭐ 同时挂载技能 | ≤3 | `skill-evaluating/references/three-skill-ceiling.md` |
+| 技能库存（质量） | 10–20 | `skill-selection/references/skill-portfolio-audit.md` |
+| 技能库存（路由） | 50 → 两步路由 | `skill-orchestration/references/routing-tiers-and-arbitration.md` |
 | ⭐ **工具** | **<30** | 本份 |
-| 参考文件 | 一层深度 | `reference-file-practices.md` |
+| 参考文件 | 一层深度 | `skill-structuring/references/reference-file-practices.md` |
 
 > ⭐ 注意前两条与第四条**不矛盾**：技能有 description 做语义路由，
 > 工具只有名字和一行描述——**信息量更少，所以阈值更低**。

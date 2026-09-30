@@ -1,8 +1,8 @@
 # 技能太大时的三种拆法
 
-> 相关：《skill-refining》的 `splitting.md` ·
-> 《skill-crafting》的 `skill-structuring` 的 `reference-organization.md` ·
-> 《skill-patterns》的 `structure-modes-abcde.md`
+> 相关：《skill-refining》的 `skill-refining/references/splitting.md` ·
+> 《skill-crafting》的 `skill-structuring` 的 `skill-structuring/references/reference-organization.md` ·
+> 《skill-patterns》的 `skill-patterns/references/structure-modes-abcde.md`
 
 ---
 
@@ -71,7 +71,7 @@ api-guide/                 →  api-guide/
 >
 > ⭐ **沿着工作的接缝拆。一个流程或知识领域一个技能。**
 
-理由与 `library-size-effect.md` 一致——
+理由与 `skill-selection/references/library-size-effect.md` 一致——
 **拆得越细，描述越相近，遮蔽越严重**。
 
 **另一条实证**：
@@ -101,7 +101,7 @@ SkillsBench（2026，11 领域 86 任务）：
 拆的动机是"两个角色各用一半" → ⭐ 拆成两个角色的技能 + 共享层
 ```
 
-> ⭐ 这与 `gamedev-skill-routing.md` 的三维正交设计同源——
+> ⭐ 这与 `skill-orchestration/references/gamedev-skill-routing.md` 的三维正交设计同源——
 > **引擎技能 / 学科技能 / 类型技能**，共享原语放在能被两边取用的层。
 
 ---

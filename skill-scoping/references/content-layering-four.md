@@ -1,7 +1,7 @@
 # 四层沉淀：不同类型的信息放不同位置
 
-> 相关：《skill-structuring》的 `directory-decision-matrix.md` ·
-> `references-vs-assets.md` · 《skill-patterns》的 `structure-modes-abcde.md`
+> 相关：《skill-structuring》的 `skill-structuring/references/directory-decision-matrix.md` ·
+> `skill-structuring/references/references-vs-assets.md` · 《skill-patterns》的 `skill-patterns/references/structure-modes-abcde.md`
 > 前置：那些文档按"文件特征"决定目录，
 > 这份按⭐ "信息的语义类型"决定层次——同一个问题的另一种切法。
 
@@ -53,7 +53,7 @@
 | **assets** | 模板骨架：HTML/DOCX/LaTeX 骨架、图片 | ⭐ 按路径引用、零 token 成本 |
 | **scripts** | 机械动作：确定性的、不该让模型自由发挥的 | ⭐ 执行即可、不该进上下文 |
 
-> ⭐ 与 `directory-decision-matrix.md` 的"进不进上下文"判据一致，
+> ⭐ 与 `skill-structuring/references/directory-decision-matrix.md` 的"进不进上下文"判据一致，
 > ⭐ 但这里多给了**语义视角**：
 > **原则是"每次都要"，知识是"按需查阅"，模板是"拿来填"，动作是"叫它做"。**
 
@@ -79,7 +79,7 @@
 
 ## 4. ⭐ 与自由度分级的配合
 
-`write-reasons-not-rules.md` 给了三档风险分级，与四层是配套的：
+`skill-crafting/references/write-reasons-not-rules.md` 给了三档风险分级，与四层是配套的：
 
 | 风险 | 该沉到哪层 |
 |---|---|

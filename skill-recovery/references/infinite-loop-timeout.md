@@ -1,8 +1,8 @@
 # 无限循环与超时：技能最常见的两类失控
 
-> 相关：`skill-crafting` 的 `error-handling.md`（失败与回退）·
-> `skill-refining` 的 `runtime-failures.md` ·
-> `budget-truncation.md`（上下文溢出）
+> 相关：`skill-crafting` 的 `skill-recovery/references/error-handling.md`（失败与回退）·
+> `skill-refining` 的 `skill-refining/references/runtime-failures.md` ·
+> `skill-context/references/budget-truncation.md`（上下文溢出）
 
 ---
 
@@ -28,7 +28,7 @@ Claude 会一直试下去——消耗 token，不产出任何有用结果。
 ✅ "最多重试 3 次；3 次仍失败则停止并向用户报告失败原因"
 ```
 
-这是 `error-handling.md` 里"每个循环都要有出口"这条的具体写法。
+这是 `skill-recovery/references/error-handling.md` 里"每个循环都要有出口"这条的具体写法。
 
 ---
 
@@ -67,7 +67,7 @@ Claude 会一直试下去——消耗 token，不产出任何有用结果。
 慢技能被频繁掐断  → 永远跑不完
 ```
 
-**正确做法**（与 `namespace-collision.md` 第 5 节一致）：
+**正确做法**（与 `skill-orchestration/references/namespace-collision.md` 第 5 节一致）：
 
 ```
 ① 每个技能单独配 timeout
@@ -75,7 +75,7 @@ Claude 会一直试下去——消耗 token，不产出任何有用结果。
 ③ 让模型执行前先告知用户需要等待
 ```
 
-第 ③ 条属于 `progress-reporting.md`——**长任务必须先预告**。
+第 ③ 条属于 `skill-output/references/progress-reporting.md`——**长任务必须先预告**。
 
 ---
 
@@ -87,7 +87,7 @@ Claude 会一直试下去——消耗 token，不产出任何有用结果。
 | **串行工具调用** | ⭐ 逻辑允许时改并行调用 |
 | **加载外部数据慢** | 减少每轮加载的上下文量 |
 
-另外：脚本里要**加超时退出**，避免卡死（与 《skill-scripting》`script-engineering.md` 一致）。
+另外：脚本里要**加超时退出**，避免卡死（与 《skill-scripting》`skill-scripting/references/script-engineering.md` 一致）。
 
 ---
 
@@ -118,7 +118,7 @@ Claude 会一直试下去——消耗 token，不产出任何有用结果。
 > **把中间结果写到文件或数据库，按路径引用。**
 
 技能在开始和结束时读写这个外部存储。
-这与 `memory-state.md` / `cross-session-artifacts.md` 一致。
+这与 `skill-state/references/memory-state.md` / `skill-state/references/cross-session-artifacts.md` 一致。
 
 ### ④ 工具调用用对
 

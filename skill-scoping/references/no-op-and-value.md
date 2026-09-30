@@ -1,8 +1,8 @@
 # 每一段都要回答：它配得上 token 成本吗
 
-> 相关：《skill-refining》的 `pruning.md`（逐句修剪）·
-> 《skill-scoping》的 `official-lessons.md`（别陈述显而易见）·
-> `fact-boundary.md`
+> 相关：《skill-refining》的 `skill-refining/references/pruning.md`（逐句修剪）·
+> 《skill-scoping》的 `skill-scoping/references/official-lessons.md`（别陈述显而易见）·
+> `skill-scoping/references/fact-boundary.md`
 
 ---
 
@@ -65,7 +65,7 @@
 ✅ "deploy-service 在服务名含大写时会静默失败"
 ```
 
-> ⭐ **修剪时永远别动 Gotchas。**（与 `skill-types.md` 一致）
+> ⭐ **修剪时永远别动 Gotchas。**（与 `skill-content/references/skill-types.md` 一致）
 
 理由：这些内容**模型不可能自己知道**，删掉它行为一定会变（变差）。
 

@@ -34,30 +34,30 @@ description: Agent Skills 的安全——安装前审计（15 向量 + ToxicSkil
 - 遥测 Schema、trace 调试 → `skill-evaluating`
 
 ## 路由表（按需深读）
-| `toxicskills-13-4-percent.md` | ⭐⭐⭐⭐⭐ 13.4% 严重问题；⭐⭐⭐⭐⭐ description 注入即使不调用也中招；42% 是注入 |
-| `unicode-injection-defense.md` | ⭐⭐⭐⭐⭐ 隐藏 Unicode：⭐⭐⭐⭐ 人类审查对它完全失效，必须机器检测 |
-| `hooks-skill-cooperation.md` | ⭐⭐⭐⭐ 退出码三档；沉默≠批准；⭐⭐⭐⭐⭐ 阻断消息要可行动（否则试九次） |
-| `hooks-rewrite-reinject.md` | ⭐⭐⭐⭐ modifyInput 就地改写；compact 重注入（压缩可订阅）；子代理内也跑 |
-| `allowed-tools-least-privilege.md` | ⭐⭐⭐⭐ 最小权限四面红旗（bash+curl 是经典危险组合） |
-| `allowed-tools-reference.md` | ⭐⭐⭐ 完整工具表 + `Bash(prefix:*)` 作用域；⭐⭐⭐ 忘了写 Skill 就调不动别的技能 |
-| `pre-install-security-audit.md` | ⭐⭐⭐ 15 向量判决规则；⭐⭐⭐ 签名验身份不验善意 |
-| `injection-audit.md` | ⭐⭐⭐ 提示注入审计：六类红旗与徽章制 |
-| `injection-defense.md` | ⭐⭐⭐ 注入防御与不可信内容边界 |
-| `sandbox-execution.md` | ⭐⭐⭐ 沙箱与执行隔离 |
-| `runtime-controls.md` | ⭐⭐⭐ 运行时控制与强制层 |
-| `supply-chain-audit.md` | ⭐⭐⭐ 供应链审计：像对待代码依赖一样对待技能 |
-| `marketplace-security.md` | ⭐⭐⭐ 市场与第三方来源风险 |
-| `pii-data-handling.md` | ⭐⭐⭐ PII 处理与数据边界 |
-| `approval-gates.md` | ⭐⭐⭐ 审批门设计 |
-| `kill-switch.md` | ⭐⭐⭐ kill switch 与紧急停用 |
-| `agent-incident-response.md` | ⭐⭐⭐ 安全事件响应 |
-| `least-privilege.md` | ⭐⭐ 最小权限一般原则 |
-| `hook-risk.md` | ⭐⭐ Hook 自身风险 |
-| `compliance-audit.md` | ⭐⭐ 合规审计留痕 |
-| `security-review.md` | ⭐⭐ 安全评审清单 |
-| `security-audit-ops.md` | ⭐⭐ 安全审计运维 |
-| `access-review.md` | ⭐⭐ 访问评审 |
-| `audit.md` | ⭐⭐ 审计基础 |
+| `skill-security/references/toxicskills-13-4-percent.md` | ⭐⭐⭐⭐⭐ 13.4% 严重问题；⭐⭐⭐⭐⭐ description 注入即使不调用也中招；42% 是注入 |
+| `skill-security/references/unicode-injection-defense.md` | ⭐⭐⭐⭐⭐ 隐藏 Unicode：⭐⭐⭐⭐ 人类审查对它完全失效，必须机器检测 |
+| `skill-security/references/hooks-skill-cooperation.md` | ⭐⭐⭐⭐ 退出码三档；沉默≠批准；⭐⭐⭐⭐⭐ 阻断消息要可行动（否则试九次） |
+| `skill-security/references/hooks-rewrite-reinject.md` | ⭐⭐⭐⭐ modifyInput 就地改写；compact 重注入（压缩可订阅）；子代理内也跑 |
+| `skill-security/references/allowed-tools-least-privilege.md` | ⭐⭐⭐⭐ 最小权限四面红旗（bash+curl 是经典危险组合） |
+| `skill-security/references/allowed-tools-reference.md` | ⭐⭐⭐ 完整工具表 + `Bash(prefix:*)` 作用域；⭐⭐⭐ 忘了写 Skill 就调不动别的技能 |
+| `skill-security/references/pre-install-security-audit.md` | ⭐⭐⭐ 15 向量判决规则；⭐⭐⭐ 签名验身份不验善意 |
+| `skill-security/references/injection-audit.md` | ⭐⭐⭐ 提示注入审计：六类红旗与徽章制 |
+| `skill-security/references/injection-defense.md` | ⭐⭐⭐ 注入防御与不可信内容边界 |
+| `skill-security/references/sandbox-execution.md` | ⭐⭐⭐ 沙箱与执行隔离 |
+| `skill-security/references/runtime-controls.md` | ⭐⭐⭐ 运行时控制与强制层 |
+| `skill-security/references/supply-chain-audit.md` | ⭐⭐⭐ 供应链审计：像对待代码依赖一样对待技能 |
+| `skill-security/references/marketplace-security.md` | ⭐⭐⭐ 市场与第三方来源风险 |
+| `skill-security/references/pii-data-handling.md` | ⭐⭐⭐ PII 处理与数据边界 |
+| `skill-security/references/approval-gates.md` | ⭐⭐⭐ 审批门设计 |
+| `skill-security/references/kill-switch.md` | ⭐⭐⭐ kill switch 与紧急停用 |
+| `skill-security/references/agent-incident-response.md` | ⭐⭐⭐ 安全事件响应 |
+| `skill-security/references/least-privilege.md` | ⭐⭐ 最小权限一般原则 |
+| `skill-security/references/hook-risk.md` | ⭐⭐ Hook 自身风险 |
+| `skill-security/references/compliance-audit.md` | ⭐⭐ 合规审计留痕 |
+| `skill-security/references/security-review.md` | ⭐⭐ 安全评审清单 |
+| `skill-security/references/security-audit-ops.md` | ⭐⭐ 安全审计运维 |
+| `skill-security/references/access-review.md` | ⭐⭐ 访问评审 |
+| `skill-security/references/audit.md` | ⭐⭐ 审计基础 |
 
 ## Critical Rules
 
@@ -90,4 +90,4 @@ description: Agent Skills 的安全——安装前审计（15 向量 + ToxicSkil
 ## 参考
 
 - 相关技能：《skill-governance》（生命周期、退役、SLO）·《skill-evaluating》（遥测与 trace）·
-  《skill-adoption》的 `team-admission-criteria.md`（安全说明落地）
+  《skill-adoption》的 `skill-adoption/references/team-admission-criteria.md`（安全说明落地）

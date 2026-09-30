@@ -33,7 +33,7 @@
    生成草稿
 ```
 
-呼应 `authoring-checklist.md`（**`skill-authoring`**）：
+呼应 `skill-authoring/references/authoring-checklist.md`（**`skill-authoring`**）：
 **过约束会让 agent 瘫痪——一次普通 git push 也要确认三遍**。
 
 ## 门放哪一层
@@ -50,7 +50,7 @@
 ✅ 流程层：先输出命令清单，确认后再执行
 ```
 
-**关键区分**（呼应 `sandbox-execution.md` 与 `what-not-to-do.md`）：
+**关键区分**（呼应 `skill-security/references/sandbox-execution.md` 与 `skill-authoring/references/what-not-to-do.md`）：
 
 > ⭐ **技能里的权限声明不是安全边界。
 > 安全控制必须在工具层做，技能说了不算。**
@@ -73,8 +73,8 @@ tool --dry-run     # 默认：只显示会改什么
 tool --commit      # 显式才真做
 ```
 
-呼应 `cli-design-skills.md`（**`skill-domain-eng`**）与
-`idempotency-resume.md`（**`skill-crafting`**）。
+呼应 `skill-domains/references/cli-design-skills.md`（**`skill-domain-eng`**）与
+`skill-recovery/references/idempotency-resume.md`（**`skill-crafting`**）。
 
 **② 命令清单先行**
 
@@ -102,7 +102,7 @@ PreToolUse matcher: Bash(rm *) / Bash(git push --force *)
 □ ⭐ 生产环境额外批准门
 ```
 
-呼应 `soc-soar-skills.md`（**`skill-domain-eng`**）。
+呼应 `skill-domains/references/soc-soar-skills.md`（**`skill-domain-eng`**）。
 
 ## 三条失效方式
 
@@ -117,7 +117,7 @@ PreToolUse matcher: Bash(rm *) / Bash(git push --force *)
 ✅ ⭐ 写操作的确认门必须在读取不可信内容之后仍然有效
 ```
 
-呼应 `untrusted-repo-content.md`（**`skill-selection`**）：
+呼应 `skill-selection/references/untrusted-repo-content.md`（**`skill-selection`**）：
 **PR/Issue/CI 日志都是数据不是指令**。
 
 **② 门太宽导致麻木**
@@ -138,7 +138,7 @@ PreToolUse matcher: Bash(rm *) / Bash(git push --force *)
 
 > ⭐ **状态文件记录批准，这样重跑不会反复询问。**
 
-呼应 `idempotency-resume.md`：
+呼应 `skill-recovery/references/idempotency-resume.md`：
 
 ```
 □ 破坏性变更需要额外确认
@@ -168,7 +168,7 @@ PreToolUse matcher: Bash(rm *) / Bash(git push --force *)
 修法：⭐ 门要在工具层，不能在提示词层
 ```
 
-> ⭐ 呼应 `guidance-forms.md`（**`skill-crafting`**）的形态匹配：
+> ⭐ 呼应 `skill-crafting/references/guidance-forms.md`（**`skill-crafting`**）的形态匹配：
 > **禁令只在防明知故犯时有效**——
 > 想真正阻止，要给机制而不是措辞。
 

@@ -47,7 +47,7 @@
 "show me what would change"
 ```
 
-呼应 `cli-design-skills.md`（**`skill-domain-eng`**）：
+呼应 `skill-domains/references/cli-design-skills.md`（**`skill-domain-eng`**）：
 **破坏性操作默认 dry-run**——
 同一条原则在 CLI 设计与技能编排上的应用。
 
@@ -112,8 +112,8 @@
 □ "Assume nothing"（不要假设可逆）
 ```
 
-呼应 `database-sql-skills.md`（**`skill-domain-eng`**）与
-`legacy-modernization.md` 的同一条：
+呼应 database-sql-skills.md（**`skill-domain-eng`**）与
+`skill-domains/references/legacy-modernization.md` 的同一条：
 **每一步都要有回滚，且必须带验证查询**。
 
 ## 编排层的三条保证
@@ -140,8 +140,8 @@ import-content 不动 composition 条目
 author-composition-via-api 不动 entry 内容
 ```
 
-> 呼应 `multi-agent-review.md` 的**文件所有权排他**原则，
-> 与 `composition.md` 的 I/O 契约——
+> 呼应 `skill-subagents/references/multi-agent-review.md` 的**文件所有权排他**原则，
+> 与 `skill-composition/references/composition.md` 的 I/O 契约——
 > **关注点分离要匹配状态文件分离**。
 
 ## 安全保证

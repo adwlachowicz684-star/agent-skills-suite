@@ -1,8 +1,8 @@
 # 官方团队经验：不要陈述显而易见，也不要过度约束
 
 > 来源：Anthropic 官方博客《Lessons from building Claude Code: How we use skills》
-> 相关：`skill-principles.md`（原则）· `anti-pattern-section.md`（反模式节）·
-> 《skill-authoring》的 `what-not-to-do.md`（禁做清单）
+> 相关：`skill-scoping/references/skill-principles.md`（原则）· `skill-patterns/references/anti-pattern-section.md`（反模式节）·
+> 《skill-authoring》的 `skill-authoring/references/what-not-to-do.md`（禁做清单）
 
 ---
 
@@ -24,7 +24,7 @@
 > 一个只是复述 Claude 本来就会做的事的技能，**增加了上下文却没有增加价值**。
 
 判据很简单：**这一段删掉，模型行为会变吗？** 不会变就该删。
-（这与《skill-refining》的 `pruning.md` 里 no-op 测试是同一条。）
+（这与《skill-refining》的 `skill-refining/references/pruning.md` 里 no-op 测试是同一条。）
 
 ```
 ❌ "写代码时要遵循良好的命名规范"
@@ -102,7 +102,7 @@ skill/
 2. ⭐ **配置缺失 → 主动询问用户，而不是猜一个默认值**
 3. 若要让用户做结构化选择，用 `AskUserQuestion` 工具
 
-> 这条与 `idempotency-resume.md` 的"缺参数就问，不猜"一致。
+> 这条与 `skill-recovery/references/idempotency-resume.md` 的"缺参数就问，不猜"一致。
 > 区别在于：这里的配置是**一次设置、长期复用**，所以落到文件里。
 
 ---
@@ -153,7 +153,7 @@ ${CLAUDE_PLUGIN_DATA}   —— 稳定存储，⭐ 技能升级后仍然存活
 
 > ⭐ **运维和部署类技能没有借口不装这两个。**
 
-这与《skill-security》的 `sandbox-execution.md` 是互补的两层：
+这与《skill-security》的 `skill-security/references/sandbox-execution.md` 是互补的两层：
 沙箱是**环境级隔离**，这两个钩子是**会话级闸门**。
 
 ---

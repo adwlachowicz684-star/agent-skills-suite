@@ -1,10 +1,10 @@
 # 分级治理：触发空壳与"不删除只调整作用域"
 
-> 相关：《skill-refining》的 `catalog-shape.md` ·
-> `token-bloat-audit.md` · `skill-reducer-study.md` ·
-> 《skill-governance》的 `retirement-pipeline.md`
-> 前置：`retirement-pipeline.md` 讲单个技能怎么退，
-> `catalog-shape.md` 讲目录形状。
+> 相关：《skill-refining》的 `skill-refining/references/catalog-shape.md` ·
+> `skill-crafting/references/token-bloat-audit.md` · `skill-refining/references/skill-reducer-study.md` ·
+> 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`
+> 前置：`skill-governance/references/retirement-pipeline.md` 讲单个技能怎么退，
+> `skill-refining/references/catalog-shape.md` 讲目录形状。
 > 这份讲⭐ **大规模技能库的分级生效策略**：318 个技能一个没删。
 
 ---
@@ -109,7 +109,7 @@
 ⭐⭐ "减少了信息噪音，模型决策效率反而得到提升"
 ```
 
-> ⭐ 最后那条又一次印证 `skill-reducer-study.md` 的"少即是多"：
+> ⭐ 最后那条又一次印证 `skill-refining/references/skill-reducer-study.md` 的"少即是多"：
 > **削减噪音不只省钱，还让模型决策更准。**
 
 ---

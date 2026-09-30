@@ -72,7 +72,7 @@
 > ⭐ **"这在不撒谎的前提下争取到了时间"**
 > ——不要为了显得掌控全局而编一个还没验证的原因。
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）：
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 **未验证就声称成功是不诚实，不是高效**。
 同一条原则在对外沟通上同样成立。
 
@@ -122,7 +122,7 @@
 > ⭐ **"如果你需要向客户、同事或未来的自己解释这起事故，
 > 这个包比记忆重要。"**
 
-呼应 `telemetry-schema.md` 与 `compliance-audit.md`：
+呼应 `skill-governance/references/telemetry-schema.md` 与 `skill-security/references/compliance-audit.md`：
 **你必须能在事后证明"哪个 agent 做了什么"**。
 
 ## 把事故变成永久防御
@@ -170,7 +170,7 @@
 ✅ ⭐ 留下一两条能实质提升安全性的硬控制
 ```
 
-呼应 `refine-with-execution.md`（**`skill-refining`**）：
+呼应 `skill-refining/references/refine-with-execution.md`（**`skill-refining`**）：
 **确认失败模式是"减少"而非"转移"**——
 一两条硬控制比十条软建议有用得多。
 

@@ -25,26 +25,27 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 > 它来自实际踩过的坑，是技能里信号最高的内容。
 
 ## 路由表（按需深读）
-| `four-pitfalls-practice.md` | ⭐⭐⭐ 四坑：★★描述强实现弱→信任崩坏；过细拆分判据 |
-| `memory-layering-and-skills.md` | ⭐⭐⭐ 记忆四层：★技能=程序记忆，不该装事实 |
-| `skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
-| `skill-reducer-study.md` | ⭐⭐ 压缩后质量反升 2.8%；>10K token 技能压缩率达 95.8% |
-| `merge-signals-five.md` | ⭐⭐⭐⭐⭐ 单向棘轮；⭐⭐⭐⭐⭐ 顺序耦合=一个技能被拆两半；⭐⭐⭐⭐ 权限不同是合并否决项 |
-| `split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
-| `split-three-options.md` | ⭐ 三种拆法 + 别过度拆 + 拆后三件事 |
-| `weekend-lessons.md` | ⭐ 一个周末的六条经验：三对三错与实测数据 |
+| `skill-refining/references/shared-thresholds-single-source.md` | ⭐⭐⭐⭐⭐ 同一阈值复制到多个技能：每个都对、合起来错、且不报错；⭐⭐⭐⭐⭐ 引用必须带当前值 |
+| `skill-refining/references/four-pitfalls-practice.md` | ⭐⭐⭐ 四坑：★★描述强实现弱→信任崩坏；过细拆分判据 |
+| `skill-refining/references/memory-layering-and-skills.md` | ⭐⭐⭐ 记忆四层：★技能=程序记忆，不该装事实 |
+| `skill-refining/references/skill-scope-tiering.md` | ⭐⭐ 触发空壳：不删除只调作用域，单技能省 89% 启动开销 |
+| `skill-refining/references/skill-reducer-study.md` | ⭐⭐ 压缩后质量反升 2.8%；>10K token 技能压缩率达 95.8% |
+| `skill-refining/references/merge-signals-five.md` | ⭐⭐⭐⭐⭐ 单向棘轮；⭐⭐⭐⭐⭐ 顺序耦合=一个技能被拆两半；⭐⭐⭐⭐ 权限不同是合并否决项 |
+| `skill-refining/references/split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
+| `skill-refining/references/split-three-options.md` | ⭐ 三种拆法 + 别过度拆 + 拆后三件事 |
+| `skill-refining/references/weekend-lessons.md` | ⭐ 一个周末的六条经验：三对三错与实测数据 |
 
 **瘦身与预算**：
 
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **逐句修剪、五种失败模式** | `references/pruning.md` |
-| **上下文预算与瘦身清单** | `references/context-budget.md` |
-| ⭐ **上下文剖析：目录税 / 加载 / 按需三笔账** | `references/token-profiling.md` |
-| ⭐ **预算硬边界：截断砍哪、5,000 token 存活区** | `references/budget-truncation.md` |
-| ⭐ **上下文工程：写 / 选 / 压 / 隔** | `references/context-engineering.md` |
-| ⭐ **压缩：先改工具再谈摘要、三层级联、30–40% 预算** | `references/context-compression.md` |
-| ⭐ **渐进式披露的算术：三层各花多少、22 倍** | `references/disclosure-math.md` |
+| **上下文预算与瘦身清单** | `skill-context/references/context-budget.md` |
+| ⭐ **上下文剖析：目录税 / 加载 / 按需三笔账** | `skill-context/references/token-profiling.md` |
+| ⭐ **预算硬边界：截断砍哪、5,000 token 存活区** | `skill-context/references/budget-truncation.md` |
+| ⭐ **上下文工程：写 / 选 / 压 / 隔** | `skill-context/references/context-engineering.md` |
+| ⭐ **压缩：先改工具再谈摘要、三层级联、30–40% 预算** | `skill-context/references/context-compression.md` |
+| ⭐ **渐进式披露的算术：三层各花多少、22 倍** | `skill-context/references/disclosure-math.md` |
 | **平台差异：本地 vs 托管、上传方式、单请求 ≤8 个** | `references/platform-differences.md` |
 | ⭐ **坏味道目录：30 个可快速识别的信号** | `references/skill-smells.md` |
 | ⭐ **重构已有技能：表现 vs 行为、六步流程** | `references/refactor-pass.md` |
@@ -79,9 +80,9 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 ## 强制工作流（MANDATORY）
 
 1. **跑基线**：`python scripts/validate_skill.py <路径>` + `estimate_tokens.py`，记录行数与 token。
-2. **确认真的加载了**：改完让模型复述技能的流程——对得上才算生效。见 **`skill-evaluating`** 的 `reload-debug.md`。
-3. **逐句跑 no-op 测试**（`pruning.md`），删掉空操作句。
-4. **判断该拆还是该瘦**：正文 >150 行或路由表无可合并项 → 拆（见 `architecture-layering.md`）。
+2. **确认真的加载了**：改完让模型复述技能的流程——对得上才算生效。见 **`skill-evaluating`** 的 `skill-triggering/references/reload-debug.md`。
+3. **逐句跑 no-op 测试**（`skill-refining/references/pruning.md`），删掉空操作句。
+4. **判断该拆还是该瘦**：正文 >150 行或路由表无可合并项 → 拆（见 `skill-refining/references/architecture-layering.md`）。
 5. **改完复测**：再次 validate + 对比行数与 token，写进汇报。
 
 ## Critical Rules

@@ -1,7 +1,7 @@
 # 拆分信号五个：先试缩窄，再谈拆分
 
-> 相关：《skill-refining》的 `split-three-options.md` ·
-> `pruning.md` · 《skill-scoping》的 `granularity-atomic-workflow.md`
+> 相关：《skill-refining》的 `skill-refining/references/split-three-options.md` ·
+> `skill-refining/references/pruning.md` · 《skill-scoping》的 `skill-scoping/references/granularity-atomic-workflow.md`
 
 ---
 

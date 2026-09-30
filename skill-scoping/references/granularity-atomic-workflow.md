@@ -1,7 +1,7 @@
 # 粒度选择：原子技能 vs 工作流技能
 
-> 相关：《skill-refining》的 `split-three-options.md` ·
-> 《skill-patterns》的 `structure-modes-abcde.md`
+> 相关：《skill-refining》的 `skill-refining/references/split-three-options.md` ·
+> 《skill-patterns》的 `skill-patterns/references/structure-modes-abcde.md`
 
 ---
 
@@ -70,7 +70,7 @@
 > ⭐ 这是我见过最实用的拆分判据——
 > 它不依赖抽象原则，**直接问一个可观察的事实**。
 
-> 与 `split-three-options.md` 那条"两个角色各用一半 → 拆成角色技能"
+> 与 `skill-refining/references/split-three-options.md` 那条"两个角色各用一半 → 拆成角色技能"
 > 互补：一个看**故障恢复点**，一个看**使用者**。
 
 ---

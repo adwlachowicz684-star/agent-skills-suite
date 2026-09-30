@@ -1,8 +1,8 @@
 # CLAUDE.md 与技能的双向流动
 
-> 相关：《skill-scoping》的 `claude-md-vs-skill.md` ·
-> `instruction-layering.md` ·
-> 《skill-refining》的 `catalog-shape.md`
+> 相关：《skill-scoping》的 `skill-scoping/references/claude-md-vs-skill.md` ·
+> `skill-scoping/references/instruction-layering.md` ·
+> 《skill-refining》的 `skill-refining/references/catalog-shape.md`
 
 ---
 

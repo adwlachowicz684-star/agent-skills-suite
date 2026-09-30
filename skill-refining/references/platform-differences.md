@@ -70,7 +70,7 @@ curl -X POST 'https://api.openai.com/v1/skills' \
 > ⭐ **可以显式指定 version，也可以不指定（用最新）。**
 
 生产环境应该**总是指定**——
-理由和 `skill-packs.md` 里的 pin 纪律完全一致：
+理由和 `skill-distribution/references/skill-packs.md` 里的 pin 纪律完全一致：
 **不指定版本，更新就是"某天发生的事件"而不是"某人做的决定"。**
 
 ## 目录约定
@@ -96,7 +96,7 @@ assets/       ⭐ 可复用模板（被消费）
 
 > ⭐ `assets/` 这个目录在一些文档里被忽略，
 > 但它是"模板类资源"的正确去处——
-> 详见 `skill-structuring` 的 `resource-bundling.md`。
+> 详见 `skill-structuring` 的 `skill-structuring/references/resource-bundling.md`。
 
 ## 跨平台的三条硬差别
 
@@ -130,7 +130,7 @@ OpenAI Agents API
 ```
 
 > 这是个硬约束，而且它解释了为什么要控制库规模——
-> 详见 `trigger-eval-set.md` 里"召回随技能数退化"。
+> 详见 `skill-triggering/references/trigger-eval-set.md` 里"召回随技能数退化"。
 
 ## 自查
 
@@ -150,7 +150,7 @@ OpenAI Agents API
 > ⭐ **不意味着行为可移植**。
 
 同一个 SKILL.md 在 Claude 和 Codex 上的表现可能不同，
-原因正是 `cross-model.md` 讲的那条：
+原因正是 `skill-selection/references/cross-model.md` 讲的那条：
 **提示词是模型相关的**。
 
 所以：**格式一次写就到处能读，但触发与遵循仍要各平台各测一遍。**

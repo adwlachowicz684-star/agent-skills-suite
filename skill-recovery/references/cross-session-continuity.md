@@ -1,10 +1,10 @@
 # 跨会话接续：这次没做完，下次怎么接
 
-> 相关：《skill-recovery》的 `idempotency-resume.md`（幂等与断点续跑）·
-> `state-check.md`（先查状态）·
-> `budget-caps-no-progress.md`（预算与无进展）·
-> 《skill-refining》的 `memory-layering-and-skills.md`（记忆四层）·
-> 《skill-loading》的 `three-stages-discovery-activation-execution.md`（真失忆 vs 假失灵）
+> 相关：《skill-recovery》的 `skill-recovery/references/idempotency-resume.md`（幂等与断点续跑）·
+> `skill-recovery/references/state-check.md`（先查状态）·
+> `skill-recovery/references/budget-caps-no-progress.md`（预算与无进展）·
+> 《skill-refining》的 `skill-refining/references/memory-layering-and-skills.md`（记忆四层）·
+> 《skill-loading》的 `skill-loading/references/three-stages-discovery-activation-execution.md`（真失忆 vs 假失灵）
 > 前置：
 > 断点续跑讲⭐⭐⭐ **同一个会话内中断后怎么继续**，
 > 这份讲⭐⭐⭐⭐⭐ **换了一个会话怎么接**——

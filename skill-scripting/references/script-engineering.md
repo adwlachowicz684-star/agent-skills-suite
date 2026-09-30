@@ -202,7 +202,7 @@ def write_if_changed(path, content):
     return True
 ```
 
-> 这直接关系到 **`skill-evaluating` 的 `metrics.md`** 第 5 层的**幂等性**检查——
+> 这直接关系到 **`skill-evaluating` 的 `skill-quality/references/metrics.md`** 第 5 层的**幂等性**检查——
 > 工具超时后 agent 重试，不能产生重复项。
 
 ---

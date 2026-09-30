@@ -47,7 +47,7 @@ agent：直接跑 → 失败（依赖没装 / 没登录 / 分支不对）
 □ 例：生产环境缺凭据 → 停下来报给人，不要自己找
 ```
 
-呼应 `approval-gates.md`（**`skill-governance`**）：
+呼应 `skill-security/references/approval-gates.md`（**`skill-governance`**）：
 **门该拦不可逆操作**——自动配置基础设施也算。
 
 ## 三种该查的状态
@@ -74,7 +74,7 @@ agent：直接跑 → 失败（依赖没装 / 没登录 / 分支不对）
 □ ⭐ 也不要假设它存在
 ```
 
-呼应 `idempotency-resume.md` 的状态文件检查。
+呼应 `skill-recovery/references/idempotency-resume.md` 的状态文件检查。
 
 ## 查错地方比不查更糟
 
@@ -90,7 +90,7 @@ Grep: "i18next|useTranslation" in src/
 # ❌ 不要在 docs/、README、.md 里搜
 ```
 
-呼应 `i18n-implementation.md`（**`skill-domain-eng`**）。
+呼应 `skill-domains/references/i18n-implementation.md`（**`skill-domain-eng`**）。
 
 **技能里要写清"在哪里查"**，不能只写"检查 X 是否存在"。
 

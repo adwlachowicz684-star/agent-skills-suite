@@ -145,7 +145,7 @@ and when one fails, delete the whole sentence rather than trim words from it.
 | **脆弱易错、只有一种对法** | 写死步骤（低自由度） |
 | **开放多变、依赖上下文** | 给目标与理由，让 agent 推导 |
 
-> 判据：**这件事做错了有多严重？有多少种正确做法？** 见 `skill-authoring` 的 `patterns.md` 的自由度校准。
+> 判据：**这件事做错了有多严重？有多少种正确做法？** 见 `skill-authoring` 的 `skill-authoring/references/patterns.md` 的自由度校准。
 
 ---
 

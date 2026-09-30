@@ -1,10 +1,10 @@
 # 技能的停止条件：什么时候该结束、该转人、该放弃
 
-> 相关：《skill-recovery》的 `budget-caps-no-progress.md`（预算与无进展检测）·
-> `termination-modes-and-gates.md`（三种终止方式）·
-> `execution-error-protocol.md` ·
-> 《skill-orchestration》的 `routing-tiers-and-arbitration.md`（无法判断就提问）·
-> 《skill-content》的 `default-actions.md`
+> 相关：《skill-recovery》的 `skill-recovery/references/budget-caps-no-progress.md`（预算与无进展检测）·
+> termination-modes-and-gates.md（三种终止方式）·
+> `skill-recovery/references/execution-error-protocol.md` ·
+> 《skill-orchestration》的 `skill-orchestration/references/routing-tiers-and-arbitration.md`（无法判断就提问）·
+> 《skill-content》的 `skill-content/references/default-actions.md`
 > 前置：预算那份讲⭐⭐⭐ **跑不动时怎么停**（重试上限、无进展检测），
 > 这份讲⭐⭐⭐⭐⭐ **"跑得动"时也要会停**——
 > **多数技能定义了"怎么开始"和"怎么做"，但没定义"什么时候算完"。**
@@ -106,7 +106,7 @@
 ```
 
 > ⭐⭐⭐⭐ 判据：**如果选错了需要回滚，就该问。**
-> 模型的默认动作是挑一个继续（见 `default-actions.md`），
+> 模型的默认动作是挑一个继续（见 `skill-content/references/default-actions.md`），
 > ⭐⭐⭐⭐⭐ 而这个默认动作在"后果不同"的场景里是错的。
 
 **③ ⭐⭐⭐⭐⭐ 信息缺失且无法推断**
@@ -133,8 +133,8 @@
 | 情况 | ⭐ 为什么不该继续 |
 |---|---|
 | ⭐⭐⭐⭐ **缺少必要输入** | 继续 = 用猜测填补（见前置门禁） |
-| ⭐⭐⭐⭐⭐ **前提不成立** | 继续 = 在错误的世界里成功跑完（见 `assumption-registry.md`） |
-| ⭐⭐⭐⭐ **已尝试 N 次仍无进展** | 继续 = 循环（见 `budget-caps-no-progress.md`） |
+| ⭐⭐⭐⭐⭐ **前提不成立** | 继续 = 在错误的世界里成功跑完（见 `skill-input/references/assumption-registry.md`） |
+| ⭐⭐⭐⭐ **已尝试 N 次仍无进展** | 继续 = 循环（见 `skill-recovery/references/budget-caps-no-progress.md`） |
 
 > ⭐⭐⭐⭐⭐ 三者共同的判定：
 > **"再试一次"改变的是运气，不是条件。**

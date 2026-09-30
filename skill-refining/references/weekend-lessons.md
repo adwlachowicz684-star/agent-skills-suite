@@ -1,7 +1,7 @@
 # 一个周末写技能的六条经验（三对三错）
 
-> 相关：《skill-authoring》的 `how-to-guide.md` ·
-> 《skill-refining》的 `pruning.md` · 《skill-scripting》的 `scripts-as-production.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/how-to-guide.md` ·
+> 《skill-refining》的 `skill-refining/references/pruning.md` · 《skill-scripting》的 `skill-scripting/references/scripts-as-production.md`
 
 ---
 
@@ -66,8 +66,8 @@ AI 不擅长：精确读取一个 1000 行的日志文件
 最初的野心：做一个"能处理所有测试场景"的 skill
 ```
 
-> 这与 `cold-start.md` 那条完全对应：
-> **别从最宽的开始。** 也与 `what-not-to-do.md` 的
+> 这与 `skill-adoption/references/cold-start.md` 那条完全对应：
+> **别从最宽的开始。** 也与 `skill-authoring/references/what-not-to-do.md` 的
 > "反面教材：内容创作者技能想同时涵盖博客/社媒/邮件/技术文档"同源。
 
 ### ② 把所有规则堆进主文件（见上面第 ② 条的 ❌）

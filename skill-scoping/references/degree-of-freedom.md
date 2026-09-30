@@ -1,8 +1,8 @@
 # 自由度校准：窄桥给护栏，开阔地给方向
 
-> 相关：《skill-authoring》的 `patterns.md`（选结构、定约束强度）·
-> 《skill-scoping》的 `official-lessons.md`（不要过度约束）·
-> `guidance-forms.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/patterns.md`（选结构、定约束强度）·
+> 《skill-scoping》的 `skill-scoping/references/official-lessons.md`（不要过度约束）·
+> `skill-crafting/references/guidance-forms.md`
 
 ---
 
@@ -72,7 +72,7 @@ Step 3: git status      无法干净落地就说明原因。
 
 每一条约束都在消耗常驻预算。
 **加约束之前先问它是否真的改变了模型行为**
-（这与 `pruning.md` 的 no-op 测试同源）。
+（这与 `skill-refining/references/pruning.md` 的 no-op 测试同源）。
 
 ---
 

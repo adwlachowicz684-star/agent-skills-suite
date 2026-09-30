@@ -1,8 +1,8 @@
 # 脚本怎么测：golden 文件、退出码断言、幂等性
 
-> 相关：《skill-scripting》的 `deterministic-scripts.md`（纯函数四原则）·
-> `script-cli-contract.md`（退出码分级）·
-> 《skill-evaluating》的 `assert-on-environment.md`
+> 相关：《skill-scripting》的 `skill-scripting/references/deterministic-scripts.md`（纯函数四原则）·
+> `skill-scripting/references/script-cli-contract.md`（退出码分级）·
+> 《skill-evaluating》的 `skill-evaluating/references/assert-on-environment.md`
 > 前置：那份讲"脚本该怎么写"，
 > 这份讲⭐ **脚本写完之后怎么证明它对**——以及⭐⭐ 技能里的脚本和 CI 里的脚本有什么不同。
 
@@ -46,7 +46,7 @@ L3 属性测试   ⭐ 确定性（跑两次 diff）、幂等（跑三次结果�
 > ⭐ L1 最容易被跳过，但它恰恰是技能脚本特有的那一层。
 > 一个输出完全正确、但所有失败都返回 `exit(1)` 的脚本，
 > **L2/L3 全绿，而在真实使用中会让模型误判失败类型**
-> （这正是 `script-cli-contract.md` 里"接口不通被误判成测试未通过"的场景）。
+> （这正是 `skill-scripting/references/script-cli-contract.md` 里"接口不通被误判成测试未通过"的场景）。
 
 ---
 
@@ -84,7 +84,7 @@ L3 属性测试   ⭐ 确定性（跑两次 diff）、幂等（跑三次结果�
 ✅ assert proc.returncode == 20      ← 测的是分类，与措辞无关
 ```
 
-**按退出码分级分别断言**（承接 `script-cli-contract.md` 的 10/20/30）：
+**按退出码分级分别断言**（承接 `skill-scripting/references/script-cli-contract.md` 的 10/20/30）：
 
 | 场景 | 期望退出码 | 断言重点 |
 |---|---|---|
@@ -105,7 +105,7 @@ L3 属性测试   ⭐ 确定性（跑两次 diff）、幂等（跑三次结果�
           均未匹配。可用模板：A、B、C"
 ```
 
-> ⭐ 后者直接给出了替代选项——这正是 `guidance-forms.md` 的
+> ⭐ 后者直接给出了替代选项——这正是 `skill-crafting/references/guidance-forms.md` 的
 > "禁令/失败必须带替代方案"在脚本输出上的体现。
 
 ---
@@ -125,7 +125,7 @@ assert run2 == run3      ⭐ 幂等性
 > 这能抓出最常见的技能脚本缺陷——**重复执行会重复追加**
 > （日志追加两次、记录插入两条、文件被二次包裹）。
 
-**确定性测试**（承接 `deterministic-scripts.md`）：
+**确定性测试**（承接 `skill-scripting/references/deterministic-scripts.md`）：
 
 ```
 python3 x.py --time-range last_1h > /tmp/run1.json
@@ -154,7 +154,7 @@ diff /tmp/run1.json /tmp/run2.json
 ⭐ 这条能一次性抓出所有硬编码路径
 ```
 
-> 这与 `cross-agent-portability.md` 的"用其他成员账号跑一遍"是同一思路：
+> 这与 `skill-distribution/references/cross-agent-portability.md` 的"用其他成员账号跑一遍"是同一思路：
 > **在你的环境里能跑 ≠ 在别人的环境里能跑。**
 
 ---

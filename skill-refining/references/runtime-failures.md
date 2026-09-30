@@ -29,8 +29,8 @@
 3. 在技能逻辑允许的地方改用并行工具调用
 ```
 
-> 呼应 `context-budget.md`（**`skill-refining`**）与
-> `performance.md`（**`skill-selection`**）。
+> 呼应 `skill-context/references/context-budget.md`（**`skill-refining`**）与
+> `skill-selection/references/performance.md`（**`skill-selection`**）。
 
 ## 故障二：无限循环
 
@@ -88,7 +88,7 @@ agent 会无限重试，消耗 token 且产出不了任何有用结果。
 同时启用的技能过多时（经验上 20–50 个）要做分组与裁剪
 ```
 
-呼应 `scale-effects.md`（**`skill-governance`**）——
+呼应 `skill-governance/references/scale-effects.md`（**`skill-governance`**）——
 1,236 个技能实测吃掉 36.6% 上下文。
 
 ## 第四类：输出与状态

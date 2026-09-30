@@ -1,10 +1,10 @@
 # 技能的复用性：第一版就该为第二个人写
 
-> 相关：《skill-scoping》的 `scope-section.md`（范围章节）·
+> 相关：《skill-scoping》的 `skill-scoping/references/scope-section.md`（范围章节）·
 > 《skill-authoring》的 `anti-rationalizations.md`（反自我合理化）·
-> 《skill-distribution》的 `dependency-lockfile.md`（依赖声明）·
-> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）·
-> 《skill-adoption》的 `team-sharing.md`（PR 四项评审）
+> 《skill-distribution》的 `skill-distribution/references/dependency-lockfile.md`（依赖声明）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（数据依赖）·
+> 《skill-adoption》的 `skill-adoption/references/team-sharing.md`（PR 四项评审）
 > 前置：那些讲⭐⭐⭐ 依赖要声明、⭐⭐⭐⭐ 范围要写清，
 > 这份讲⭐⭐⭐⭐⭐ **一个能提前做的检验**——
 > 一份只能作者自己用的技能，问题在写第一版时就埋下了，
@@ -116,7 +116,7 @@
 判据一句话：**如果它的 description 里必须出现具体的人名、日期、
 issue 号才能说清楚，它就是一次性的。**
 
-配套纪律（来自 `project-level-overload.md`）：
+配套纪律（来自 `skill-selection/references/project-level-overload.md`）：
 ⭐⭐⭐ **用完就删，零延迟**。不需要等审计，因为它不需要数据就能判断。
 
 ---
@@ -140,7 +140,7 @@ issue 号才能说清楚，它就是一次性的。**
 
 > ⭐⭐⭐⭐⭐ **这条一举两得**：
 > 既消除了语境依赖，⭐⭐⭐ **又让第二个读者在情况变化时知道该怎么改**
-> ——这正是 `write-reasons-not-rules.md` 说的"可迁移的判断依据"。
+> ——这正是 `skill-crafting/references/write-reasons-not-rules.md` 说的"可迁移的判断依据"。
 
 **③ ⭐⭐⭐⭐ 明确写出"本技能假定什么"**
 
@@ -155,7 +155,7 @@ issue 号才能说清楚，它就是一次性的。**
 > **没有它，agent 会在不满足假定时默默"适配"**——
 > 而那个适配多半是错的，且不会报错。
 
-这与 `preflight-gate.md` 的 STEP 0 完全咬合：
+这与 `skill-execution/references/preflight-gate.md` 的 STEP 0 完全咬合：
 ⭐ **假定就是前置条件的一种**，不满足就该快速失败。
 
 ---

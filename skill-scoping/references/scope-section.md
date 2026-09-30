@@ -57,7 +57,7 @@ Scope 回答的是"什么时候"，不是"做什么"。
 ```
 
 > ⭐ **"NOT for X → 用 Y 代替" 是最强的路由提示**
-> （见 `triggering.md`）——一条同时治"用错"和"不知道该用谁"两个病。
+> （见 `skill-triggering/references/triggering.md`）——一条同时治"用错"和"不知道该用谁"两个病。
 
 **③ 领域特定的要说出来**
 
@@ -72,7 +72,7 @@ Scope 回答的是"什么时候"，不是"做什么"。
 > ⭐ **"适用"通常已经说在 description 里了；
 > "不适用"才是正文能额外提供的信息。**
 
-而且它直接缓解 `library-size-effect.md` 说的**技能遮蔽**：
+而且它直接缓解 `skill-selection/references/library-size-effect.md` 说的**技能遮蔽**：
 与其把候选移出池子，不如**在池子里给路由一条更强的判据**。
 
 写 Out of scope 的三步：

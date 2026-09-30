@@ -1,7 +1,7 @@
 # Helper 库模式：给函数，不给流程
 
-> 相关：`tool-output-design.md`（输出是模型的原材料）·
-> `script-cli-contract.md`（退出码分级）· `deterministic-scripts.md`（纯函数）
+> 相关：`skill-scripting/references/tool-output-design.md`（输出是模型的原材料）·
+> `skill-scripting/references/script-cli-contract.md`（退出码分级）· `skill-scripting/references/deterministic-scripts.md`（纯函数）
 > 前置：那些讲⭐ 单个脚本怎么写，
 > 这份讲⭐⭐⭐⭐ **一族脚本怎么组织**——以及为什么这比写流程更有效。
 
@@ -53,7 +53,7 @@ B) ⭐ 给 fetch_events(start, end, filters) + 几个聚合函数
 
 | 投放点 | 命中条件 |
 |---|---|
-| `references/gotchas.md` | ⭐ 模型恰好去读了那个文件 |
+| gotchas.md | ⭐ 模型恰好去读了那个文件 |
 | ⭐ **函数 docstring** | ⭐⭐ 模型一旦要用这个函数，就在它眼前 |
 
 ```python
@@ -94,7 +94,7 @@ def fetch_events(start, end, filters=None):
 ✅ fetch_events(start, end, filters)
 ```
 
-模型是**照着名字决定用不用**的（与工具命名同理：`tool-output-design.md`）。
+模型是**照着名字决定用不用**的（与工具命名同理：`skill-scripting/references/tool-output-design.md`）。
 
 **② 参数显式，不用全局状态**
 
@@ -103,7 +103,7 @@ def fetch_events(start, end, filters=None):
 ✅ fetch_events(start, end)   —— 时间必须由调用方传入
 ```
 
-⭐ 这与纯函数四原则一致（`deterministic-scripts.md`）：
+⭐ 这与纯函数四原则一致（`skill-scripting/references/deterministic-scripts.md`）：
 `datetime.now()` 藏在库内部 = 每次跑结果不同 = 不可测。
 
 **③ 错误消息要能自纠**
@@ -114,7 +114,7 @@ def fetch_events(start, end, filters=None):
 ```
 
 模型看到的是 stderr 的全部。**不告诉它下一步做什么，它就会重试九次**
-（`hooks-skill-cooperation.md` 里的实测）。
+（`skill-security/references/hooks-skill-cooperation.md` 里的实测）。
 
 **④ 返回要小**
 
@@ -164,7 +164,7 @@ SKILL.md 里要**明确写出这个用法**，否则模型会以为只能直接�
 
 ## 与已有判据的关系
 
-`deterministic-scripts.md` 给的判据是：
+`skill-scripting/references/deterministic-scripts.md` 给的判据是：
 
 ```
 "从 Y 算出 X，X 是数字、Y 是结构化数据" → 脚本

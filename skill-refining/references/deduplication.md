@@ -88,7 +88,7 @@ brand-doc.md      → 引用它
 
 适用：**常量、术语表、阈值表**。
 
-> ⭐ 注意引用要一层深（见 `skill-structuring` 的 `reference-routing.md`）——
+> ⭐ 注意引用要一层深（见 `skill-structuring` 的 `skill-structuring/references/reference-routing.md`）——
 > 引用链不能超过一层。
 
 **③ 合并技能**
@@ -100,7 +100,7 @@ brand-ppt + brand-doc + brand-excel → brand-guidelines
 适用：**它们本来就是同一件事的几个方面**。
 
 ⚠️ 但合并要有闸门：**合并后的 eval 必须与被取代的表现相当**
-（见 `skill-count-limit.md`）。
+（见 `skill-selection/references/skill-count-limit.md`）。
 
 ## 怎么扫描
 
@@ -121,7 +121,7 @@ grep -rn "scripts/" skill-*/SKILL.md
 > **把"共享常量"集中到一个文件，
 > 然后用脚本检查是否有技能里出现了散落的常量值。**
 
-（呼应 `brand-guidelines.md`：色值该有单一来源。）
+（呼应 `skill-domains/references/brand-guidelines.md`：色值该有单一来源。）
 
 ## 一个警告
 
@@ -159,7 +159,7 @@ grep -rn "scripts/" skill-*/SKILL.md
 
 > ⭐ **去重的本质是"找出必须一起变化的东西"。**
 
-这也是为什么 `team-workflow.md` 强调
+这也是为什么 `skill-adoption/references/team-workflow.md` 强调
 **"SKILL.md 与数据文件分离"**——
 how 变和 what 变的频率完全不同，
 把它们放一起，就会被迫一起改。

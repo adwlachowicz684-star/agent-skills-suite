@@ -1,8 +1,8 @@
 # 执行失败后的胡编：结构化错误协议
 
-> 相关：`error-handling.md`（失败处理与降级）·
-> 《skill-scripting》的 `script-cli-contract.md`（退出码分级）·
-> 《skill-output》的 `structured-output-pipeline.md` 的姐妹篇
+> 相关：`skill-recovery/references/error-handling.md`（失败处理与降级）·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md`（退出码分级）·
+> 《skill-output》的 `skill-output/references/structured-output-pipeline.md` 的姐妹篇
 > 前置：那些讲⭐ 脚本怎么报错，
 > 这份讲⭐⭐⭐⭐⭐ **模型收到错误之后会干什么**——
 > 一个几乎没人防、但每次都伤人的环节。
@@ -42,7 +42,7 @@
 | 输出格式错 | ⭐ 可见（一眼看出） |
 | ⭐ **错误被改写成功** | ⭐⭐⭐ **完全不可见** |
 
-> ⭐⭐⭐ 这是"错得自信"（`three-failure-modes.md`）最纯粹的形态——
+> ⭐⭐⭐ 这是"错得自信"（`skill-triggering/references/three-failure-modes.md`）最纯粹的形态——
 > 因为连模型自己都不知道自己在编（它认为技能成功了）。
 
 ---
@@ -64,7 +64,7 @@
 
 **一句话的规格，模型就会用一句话的方式去补。**
 
-这与 `seven-contracts.md` 那条"失败契约"是同一件事，
+这与 `skill-execution/references/seven-contracts.md` 那条"失败契约"是同一件事，
 但这里给的是**最小可执行版本**。
 
 ---
@@ -188,10 +188,10 @@
 
 | 已有 | 本份补的 |
 |---|---|
-| `script-cli-contract.md`：脚本要诚实退出 | ⭐ 脚本诚实了之后，模型会做什么 |
-| `error-handling.md`：重试/熔断/降级 | ⭐ 不重试、直接失败时的输出形状 |
-| `structured-output-pipeline.md`：schema 合规 ≠ 值正确 | ⭐ 错误路径上同样成立，且更致命 |
-| `three-failure-modes.md`：错得自信 | ⭐ 它的一个具体触发机制 |
+| `skill-scripting/references/script-cli-contract.md`：脚本要诚实退出 | ⭐ 脚本诚实了之后，模型会做什么 |
+| `skill-recovery/references/error-handling.md`：重试/熔断/降级 | ⭐ 不重试、直接失败时的输出形状 |
+| `skill-output/references/structured-output-pipeline.md`：schema 合规 ≠ 值正确 | ⭐ 错误路径上同样成立，且更致命 |
+| `skill-triggering/references/three-failure-modes.md`：错得自信 | ⭐ 它的一个具体触发机制 |
 
 一句话串起来：
 

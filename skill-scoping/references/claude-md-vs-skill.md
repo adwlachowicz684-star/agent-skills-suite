@@ -27,7 +27,7 @@
 | **docs/** | agent 被指向时才读 | 按需 | 无（纯参考） |
 
 > ⭐ **Hook 是唯一"零 token + 确定性"的位置**——
-> 呼应 `skill-orchestration` 的 `automation.md` 与 `instruction-layering.md`：
+> 呼应 `skill-orchestration` 的 `skill-orchestration/references/automation.md` 与 `skill-scoping/references/instruction-layering.md`：
 > **别让语言模型记住 shell 脚本能强制的事。**
 
 ---
@@ -144,7 +144,7 @@ docs/  三条都规避，但完全不强制
 ```
 
 > ⭐ 注意 `Never run ... — use the deploy skill` 这种写法：
-> **禁令 + 明确指向替代方案**，呼应 `guidance-forms.md` 的
+> **禁令 + 明确指向替代方案**，呼应 `skill-crafting/references/guidance-forms.md` 的
 > "NOT for X → 用 Y 代替"是最强路由提示。
 
 ---

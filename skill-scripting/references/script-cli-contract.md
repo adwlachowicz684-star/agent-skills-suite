@@ -1,8 +1,8 @@
 # 脚本 CLI 契约：模型怎么读懂你的脚本
 
-> 相关：《skill-scripting》的 `deterministic-scripts.md` ·
-> `script-engineering.md` · 《skill-structuring》的 `directory-decision-matrix.md`
-> 前置：`deterministic-scripts.md` 讲"脚本要确定性且可复现"，
+> 相关：《skill-scripting》的 `skill-scripting/references/deterministic-scripts.md` ·
+> `skill-scripting/references/script-engineering.md` · 《skill-structuring》的 `skill-structuring/references/directory-decision-matrix.md`
+> 前置：`skill-scripting/references/deterministic-scripts.md` 讲"脚本要确定性且可复现"，
 > 这份讲⭐ 脚本与调用方（模型）之间的接口约定。
 
 ---
@@ -146,7 +146,7 @@ BATCH_SIZE  = 100  # 内存与 API 调用次数之间的平衡
 TIMEOUT = 47       # 为什么是 47？
 ```
 
-> ⭐ 这与 `write-reasons-not-rules.md` 是同一条原则在代码里的体现：
+> ⭐ 这与 `skill-crafting/references/write-reasons-not-rules.md` 是同一条原则在代码里的体现：
 > **写原因，不写断言。** 有理由的常量在未来可被安全地修改。
 
 **错误处理也要显式**：

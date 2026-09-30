@@ -34,48 +34,48 @@ description: 技能的边界界定与内容分层——Out of scope 章节该怎
 
 ## 何时不用本技能
 
-- 文件放哪个子目录 → `skill-structuring` 的 `directory-contract.md`
-- 禁令还是配方、措辞怎么写 → `skill-crafting` 的 `guidance-forms.md`
-- 这个任务该不该做成技能 → `skill-selection` 的 `worth-skillifying.md`
-- 拆分信号与重构时机 → `skill-refining` 的 `split-signals-five.md`
+- 文件放哪个子目录 → `skill-structuring` 的 `skill-structuring/references/directory-contract.md`
+- 禁令还是配方、措辞怎么写 → `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`
+- 这个任务该不该做成技能 → `skill-selection` 的 `skill-boundaries/references/worth-skillifying.md`
+- 拆分信号与重构时机 → `skill-refining` 的 `skill-refining/references/split-signals-five.md`
 
 ## 路由表（按需深读）
-| `degree-of-freedom.md` | ⭐⭐⭐⭐ 给多少自由度：高/中/低三档与判据 |
-| `scope-multiplication.md` | ⭐⭐⭐⭐⭐ 每加一项能力，失败模式是乘法叠加 |
-| `no-op-and-value.md` | ⭐⭐⭐⭐⭐ 模型不用这个技能也会做的事 = 没有价值 |
-| `second-reader-test.md` | ⭐⭐⭐⭐⭐ 第二读者测试；⭐⭐⭐⭐ 四类'只有我能用'；⭐⭐⭐⭐ 少写怎么做多写前提
-| `scope-section.md` | ⭐⭐⭐⭐⭐ 范围章节：Out of scope 要指向替代方案；边界四错误 |
-| `granularity-atomic-workflow.md` | ⭐⭐⭐⭐ 原子 vs 工作流；⭐ 重启测试判据 |
-| `claude-md-bidirectional.md` | ⭐⭐⭐⭐ CLAUDE.md 与技能的双向流动；⭐⭐⭐ 头号反模式 |
-| `content-layering-four.md` | ⭐⭐⭐⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
-| `instruction-layering.md` | ⭐⭐⭐ 指令分层：什么该放 AGENTS.md 而不是技能 |
-| `claude-md-vs-skill.md` | ⭐⭐⭐ CLAUDE.md / AGENTS.md / SKILL.md 怎么选 |
-| `fact-boundary.md` | ⭐⭐⭐ 事实边界：技能该写什么、不该写什么 |
-| `failure-modes-doc.md` | ⭐⭐⭐⭐ 逐步写失败模式：⭐ 只有 happy path 会在生产里断 |
-| `skill-principles.md` | ⭐⭐⭐ 16 条实战原则 |
-| `official-lessons.md` | ⭐⭐⭐ 官方团队经验：别陈述显而易见、别过度约束 |
+| `skill-scoping/references/degree-of-freedom.md` | ⭐⭐⭐⭐ 给多少自由度：高/中/低三档与判据 |
+| `skill-scoping/references/scope-multiplication.md` | ⭐⭐⭐⭐⭐ 每加一项能力，失败模式是乘法叠加 |
+| `skill-scoping/references/no-op-and-value.md` | ⭐⭐⭐⭐⭐ 模型不用这个技能也会做的事 = 没有价值 |
+| `skill-scoping/references/second-reader-test.md` | ⭐⭐⭐⭐⭐ 第二读者测试；⭐⭐⭐⭐ 四类'只有我能用'；⭐⭐⭐⭐ 少写怎么做多写前提
+| `skill-scoping/references/scope-section.md` | ⭐⭐⭐⭐⭐ 范围章节：Out of scope 要指向替代方案；边界四错误 |
+| `skill-scoping/references/granularity-atomic-workflow.md` | ⭐⭐⭐⭐ 原子 vs 工作流；⭐ 重启测试判据 |
+| `skill-scoping/references/claude-md-bidirectional.md` | ⭐⭐⭐⭐ CLAUDE.md 与技能的双向流动；⭐⭐⭐ 头号反模式 |
+| `skill-scoping/references/content-layering-four.md` | ⭐⭐⭐⭐ 四层沉淀：原则/知识/模板/动作各归其位 |
+| `skill-scoping/references/instruction-layering.md` | ⭐⭐⭐ 指令分层：什么该放 AGENTS.md 而不是技能 |
+| `skill-scoping/references/claude-md-vs-skill.md` | ⭐⭐⭐ CLAUDE.md / AGENTS.md / SKILL.md 怎么选 |
+| `skill-scoping/references/fact-boundary.md` | ⭐⭐⭐ 事实边界：技能该写什么、不该写什么 |
+| `skill-scoping/references/failure-modes-doc.md` | ⭐⭐⭐⭐ 逐步写失败模式：⭐ 只有 happy path 会在生产里断 |
+| `skill-scoping/references/skill-principles.md` | ⭐⭐⭐ 16 条实战原则 |
+| `skill-scoping/references/official-lessons.md` | ⭐⭐⭐ 官方团队经验：别陈述显而易见、别过度约束 |
 
 **划边界**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 写 Out of scope 章节 | `scope-section.md` |
-| 事实与指导怎么分 | `fact-boundary.md` |
-| ⭐ 只有正向流程够不够 | `failure-modes-doc.md`（不够） |
+| ⭐ 写 Out of scope 章节 | `skill-scoping/references/scope-section.md` |
+| 事实与指导怎么分 | `skill-scoping/references/fact-boundary.md` |
+| ⭐ 只有正向流程够不够 | `skill-scoping/references/failure-modes-doc.md`（不够） |
 
 **定粒度**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 原子还是工作流 | `granularity-atomic-workflow.md`（含重启测试） |
-| 内容分几层 | `content-layering-four.md` |
+| ⭐ 原子还是工作流 | `skill-scoping/references/granularity-atomic-workflow.md`（含重启测试） |
+| 内容分几层 | `skill-scoping/references/content-layering-four.md` |
 
 **与全局文件分工**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 放技能还是 CLAUDE.md | `claude-md-vs-skill.md` · `claude-md-bidirectional.md` |
-| 放技能还是 AGENTS.md | `instruction-layering.md` |
+| ⭐ 放技能还是 CLAUDE.md | `skill-scoping/references/claude-md-vs-skill.md` · `skill-scoping/references/claude-md-bidirectional.md` |
+| 放技能还是 AGENTS.md | `skill-scoping/references/instruction-layering.md` |
 
 ## Critical Rules
 

@@ -1,10 +1,10 @@
 # 脚本的错误消息：写给模型看的
 
-> 相关：《skill-scripting》的 `script-engineering.md`（该不该抽成脚本）·
-> `tool-output-design.md`（输出设计）·
-> `script-testing.md`（golden 文件）·
-> 《skill-recovery》的 `execution-error-protocol.md`（`safe_reply` 字段）·
-> 《skill-security》的 `hooks-skill-cooperation.md`（stderr 就是模型看到的全部）
+> 相关：《skill-scripting》的 `skill-scripting/references/script-engineering.md`（该不该抽成脚本）·
+> `skill-scripting/references/tool-output-design.md`（输出设计）·
+> `skill-scripting/references/script-testing.md`（golden 文件）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`（`safe_reply` 字段）·
+> 《skill-security》的 `skill-security/references/hooks-skill-cooperation.md`（stderr 就是模型看到的全部）
 > 前置：那些讲⭐⭐⭐ 退出码要分级、⭐⭐⭐⭐ 输出要压缩，
 > 这份讲⭐⭐⭐⭐⭐ **错误消息本身的写法**——
 > 为什么"报错了"三个字会让模型去做一件比错误本身更糟的事。
@@ -65,7 +65,7 @@ Permission denied
 一句 `Error: API request failed (HTTP 401). Do not infer or substitute values; report the failure and stop.`
 就能拦住整条链——**成本是一行，收益是避免一次静默编造。**
 
-这与 `execution-error-protocol.md` 的 `safe_reply` 是完全同一件事：
+这与 `skill-recovery/references/execution-error-protocol.md` 的 `safe_reply` 是完全同一件事：
 **你不给"该说什么"，模型就得自己组织语言，而组织语言正是它开始编的时候。**
 
 ---
@@ -138,7 +138,7 @@ raise SystemExit(
 | ⭐⭐⭐ 密钥、token、完整 URL | 会进上下文、进日志、可能进最终输出 |
 | ⭐⭐ 堆栈里含内网地址 | 同上 |
 | ⭐ 模糊的"可能/也许" | 模型会当成不确定 → 自己猜 |
-| 多行无结构的 dump | ⭐ 挤占上下文（见 `tool-output-design.md`） |
+| 多行无结构的 dump | ⭐ 挤占上下文（见 `skill-scripting/references/tool-output-design.md`） |
 
 第一条的具体做法：**报错里只放标识符的后四位**。
 

@@ -48,7 +48,7 @@
 ④ ⭐ 有没有更窄的方式达成同样的目的？
 ```
 
-第 ④ 条呼应 `least-privilege.md`：
+第 ④ 条呼应 `skill-security/references/least-privilege.md`：
 **多数过宽的权限都能被一个更窄的工具取代。**
 
 处置：
@@ -124,6 +124,6 @@
 "我们每季度做权限复核" 这句话没有说服力；
 **"本季度回收了 7 项权限，其中 2 项是写权限"** 才有。
 
-把数字记下来，和 `usage-analytics.md` 的数据一起看——
+把数字记下来，和 `skill-distribution/references/usage-analytics.md` 的数据一起看——
 **权限的膨胀与技能的使用应该同步变化**，
 如果技能在减少而权限不变，那就是复核没到位。

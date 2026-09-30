@@ -62,7 +62,7 @@ python scripts/estimate_tokens.py ./my-skill     # 成本
 □ 验证方法：改完让它复述"你那个技能现在的流程是什么"
 ```
 
-详见 `skill-evaluating` 的 **`skill-evaluating` 的 `reload-debug.md`**。
+详见 `skill-evaluating` 的 **`skill-evaluating` 的 `skill-triggering/references/reload-debug.md`**。
 
 ### 步骤 4：定改动类型并只改一类
 
@@ -88,10 +88,10 @@ python scripts/estimate_tokens.py ./my-skill     # 成本
 
 | 改动类型 | 信号 | 详解 | 验证方式 |
 |---|---|---|---|
-| **结构拆分** | >300 行、description 出现长分支条件、**迭代 10 次仍修不好** | `architecture-layering.md` · `splitting.md` | 路由是否仍能命中每个子技能 |
-| **内容修剪** | no-op 测试通过的句子（删了行为不变） | `pruning.md` | 删完行为是否真的没变 |
-| **瘦身** | 启动常驻占比高、references 未按需加载 | `context-budget.md` | estimate_tokens 数字 |
-| **路由调整** | 欠触发 / 过触发 / 技能偷窃 | `skill-evaluating` 的 `triggering.md` | 触发率（跑 3 次） |
+| **结构拆分** | >300 行、description 出现长分支条件、**迭代 10 次仍修不好** | `skill-refining/references/architecture-layering.md` · `skill-refining/references/splitting.md` | 路由是否仍能命中每个子技能 |
+| **内容修剪** | no-op 测试通过的句子（删了行为不变） | `skill-refining/references/pruning.md` | 删完行为是否真的没变 |
+| **瘦身** | 启动常驻占比高、references 未按需加载 | `skill-context/references/context-budget.md` | estimate_tokens 数字 |
+| **路由调整** | 欠触发 / 过触发 / 技能偷窃 | `skill-evaluating` 的 `skill-triggering/references/triggering.md` | 触发率（跑 3 次） |
 
 > ⚠️ **"迭代 10 次还修不好某个失败模式"是架构信号，不是措辞信号。**
 > 这时候改 prompt 是打地鼠——该拆了。

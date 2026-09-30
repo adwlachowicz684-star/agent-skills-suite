@@ -1,8 +1,8 @@
 # 最小权限：allowed-tools 的四面红旗
 
-> 相关：《skill-governance》的 `skill-invocation-control.md` ·
-> `security-audit-ops.md` · 《skill-loading》的 `invocation-control-fields.md`
-> 前置：`skill-invocation-control.md` 讲权限规则语法，
+> 相关：《skill-governance》的 `skill-governance/references/skill-invocation-control.md` ·
+> `skill-security/references/security-audit-ops.md` · 《skill-loading》的 `skill-loading/references/invocation-control-fields.md`
+> 前置：`skill-governance/references/skill-invocation-control.md` 讲权限规则语法，
 > 这份讲⭐ **如何从声明判断一个技能是否过度授权**。
 
 ---
@@ -23,7 +23,7 @@
 > **在处理对抗性提示时，不能信任 LLM 会自我执行访问限制。**
 
 > ⭐ 这一条是所有后续讨论的地基。
-> 它与 `determinism-boundary.md` 的
+> 它与 `skill-evaluating/references/determinism-boundary.md` 的
 > "把破坏性拦截写进技能是表演"完全同源：
 > **声明只是意图，执行侧的强制才算数。**
 
@@ -97,7 +97,7 @@ bash · eval · exec
 ⭐ 只跑 SELECT，不修改数据。
 ```
 
-> ⭐ 这与 `write-reasons-not-rules.md` 同源：写原因。
+> ⭐ 这与 `skill-crafting/references/write-reasons-not-rules.md` 同源：写原因。
 > 而且在安全场景，写原因是**可审计性**的要求。
 
 **③ 能用只读就用只读**

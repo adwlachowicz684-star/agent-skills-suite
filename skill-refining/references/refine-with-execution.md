@@ -28,7 +28,7 @@
    ——A 类少了 B 类多了等于没改
 ```
 
-呼应 `claude-ab-loop.md`：双实例迭代，A 写 B 测。
+呼应 `skill-automation/references/claude-ab-loop.md`：双实例迭代，A 写 B 测。
 
 ## 从 Claude 的视角观察
 
@@ -54,7 +54,7 @@
   ⭐ 对不上 → 加载失败或读了旧版本
 ```
 
-呼应 `reload-debug.md` 与 `troubleshooting-manual.md`。
+呼应 `skill-triggering/references/reload-debug.md` 与 `skill-triggering/references/troubleshooting-manual.md`。
 
 ## 让 agent 自我反思
 
@@ -100,10 +100,10 @@
 ```
 □ 脚本进 scripts/
 □ SKILL.md 里写明调用方式
-□ ⭐ 脚本要有 --help 和错误处理（见 《skill-scripting》`script-engineering.md`）
+□ ⭐ 脚本要有 --help 和错误处理（见 《skill-scripting》`skill-scripting/references/script-engineering.md`）
 ```
 
-呼应 `skill-principles.md`（**`skill-crafting`**）：
+呼应 `skill-scoping/references/skill-principles.md`（**`skill-crafting`**）：
 **确定性推进代码——重复即脚本。**
 
 ## 泛化而非过拟合
@@ -139,7 +139,7 @@
   ⭐ 不能 → 它是为某个 case 打的补丁，会伤害泛化
 ```
 
-呼应 `eval-roles.md`（**`skill-evaluating`**）的过拟合检测。
+呼应 `skill-evaluating/references/eval-roles.md`（**`skill-evaluating`**）的过拟合检测。
 
 ## 什么时候该重写而不是修补
 
@@ -163,7 +163,7 @@
 结构本身不对         → 重写
 ```
 
-呼应 `splitting.md`：**"该拆还是该重写"的判定**。
+呼应 `skill-refining/references/splitting.md`：**"该拆还是该重写"的判定**。
 
 ## 一条反面经验
 

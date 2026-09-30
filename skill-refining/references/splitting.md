@@ -2,7 +2,7 @@
 
 > 本文讲**文件级**拆分（SKILL.md 长了该拆成哪些文件）。
 > **技能级**拆分（一个技能太杂要不要拆成多个、要不要 Router）
-> 见 `architecture-layering.md`。
+> 见 `skill-refining/references/architecture-layering.md`。
 
 ## 目录
 
@@ -61,7 +61,7 @@
 | API 文档 | → `references/` |
 | 历史背景 | → `references/` |
 | 大段代码 | → `scripts/` |
-| 10+ 个示例 | → `references/examples.md` |
+| 10+ 个示例 | → `skill-content/references/examples.md` |
 
 > **原则：SKILL.md 是目录和入口，不是全部内容。**
 

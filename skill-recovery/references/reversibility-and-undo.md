@@ -1,12 +1,12 @@
 # 技能完成后怎么撤销
 
-> 相关：《skill-recovery》的 `idempotent-design.md`（幂等）·
-> 《skill-execution》的 `readonly-vs-writing-skills.md`（只读 vs 写入）·
-> `human-checkpoint-design.md`（检查点设计）·
-> `change-questions.md`（中途变更四问）·
-> 《skill-governance》的 `skill-lifecycle.md`（退役）
+> 相关：《skill-recovery》的 idempotent-design.md（幂等）·
+> 《skill-execution》的 `skill-execution/references/readonly-vs-writing-skills.md`（只读 vs 写入）·
+> `skill-execution/references/human-checkpoint-design.md`（检查点设计）·
+> `skill-execution/references/change-questions.md`（中途变更四问）·
+> 《skill-governance》的 skill-lifecycle.md（退役）
 > 前置：
-> `readonly-vs-writing-skills.md` 讲的是⭐⭐⭐⭐ **要不要写**，
+> `skill-execution/references/readonly-vs-writing-skills.md` 讲的是⭐⭐⭐⭐ **要不要写**，
 > 这份讲的是⭐⭐⭐⭐⭐ **写完之后怎么撤回**——
 > **前者是事前判断，后者是事后兜底，两者都不可省。**
 

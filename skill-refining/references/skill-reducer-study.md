@@ -1,8 +1,8 @@
 # SkillReducer：压缩后功能反而变好的实证
 
-> 相关：《skill-crafting》的 `token-bloat-audit.md` ·
-> `pruning.md` · 《skill-evaluating》的 `skillsbench-vs-realworld.md`
-> 前置：`token-bloat-audit.md` 讲"怎么瘦"，
+> 相关：《skill-crafting》的 `skill-crafting/references/token-bloat-audit.md` ·
+> `skill-refining/references/pruning.md` · 《skill-evaluating》的 `skill-evaluating/references/skillsbench-vs-realworld.md`
+> 前置：`skill-crafting/references/token-bloat-audit.md` 讲"怎么瘦"，
 > 这份讲⭐ **一篇有完整实测的论文：瘦身后质量不降反升，以及它的方法**。
 
 ---
@@ -32,7 +32,7 @@
 > ⭐⭐ 这给"瘦身"提供了全新的理由——**以前瘦身是为了省钱，
 > 现在有了第二个理由：⭐ 瘦身本身能提升质量。**
 
-这与 `skillsbench-vs-realworld.md` 的两条数据互相印证：
+这与 `skill-evaluating/references/skillsbench-vs-realworld.md` 的两条数据互相印证：
 
 ```
 · "全面"型详尽文档 −2.9pp（有害），"详细"型 +18.8pp
@@ -58,7 +58,7 @@
 > ⭐ 第 ③ 步是这个方法最妙的地方：
 > **不是压缩完就结束，而是用查询集做回归，按贡献度逐条回补。**
 >
-> 这跟 `assert-on-environment.md` 的"同步校验断言本身"一样——
+> 这跟 `skill-evaluating/references/assert-on-environment.md` 的"同步校验断言本身"一样——
 > **对优化动作本身做验证**。
 
 ---
@@ -90,7 +90,7 @@
 ```
 
 > ⭐ 最后一条特别有价值：**给 reference 文件加路由元数据**。
-> 这与 `references-vs-assets.md` / `reference-file-practices.md` 的分层思路一致，
+> 这与 `skill-structuring/references/references-vs-assets.md` / `skill-structuring/references/reference-file-practices.md` 的分层思路一致，
 > 但更进了一步——**不只说"按需读"，还为每个文件写明"什么时候读它"**。
 
 **③ 验证**（下一节）

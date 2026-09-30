@@ -1,8 +1,8 @@
 # 三个翻车现场：脚本输出污染、语义边界、状态串扰
 
-> 相关：《skill-execution》的 `seven-contracts.md` · `error-handling.md` ·
-> 《skill-scripting》的 `script-cli-contract.md` ·
-> 《skill-description》的 `description-scope-shape.md`
+> 相关：《skill-execution》的 `skill-execution/references/seven-contracts.md` · `skill-recovery/references/error-handling.md` ·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md` ·
+> 《skill-description》的 `skill-description/references/description-scope-shape.md`
 > 前置：那些讲"该声明什么契约"，
 > 这份是⭐⭐⭐ **三起真实事故**——
 > 每一条都指向一个⭐⭐⭐ 靠推理想不出来的机制。
@@ -86,14 +86,14 @@
 
 > ⭐⭐⭐ **"回复质量反而更高"** 是本份最反直觉、也最有说服力的部分——
 > 它不是"以质量换成本"，而是⭐ **噪音本身就在损害质量**。
-> 这与 `skill-reducer-study.md` 的"压缩后质量反升 2.8%"
+> 这与 `skill-refining/references/skill-reducer-study.md` 的"压缩后质量反升 2.8%"
 > 是⭐ 完全同一现象的⭐ 第二个独立来源（一个在技能文本，一个在脚本输出）。
 
 **已沉淀为团队规范的一句话**（可直接抄）：
 
 > ⭐⭐⭐⭐ **任何脚本输出在进入上下文前，⭐⭐⭐ 必须先过一道⭐ 压缩或截断。**
 
-> ⭐⭐⭐ 这条与 `token-bloat-audit.md` 的 Fix 6
+> ⭐⭐⭐ 这条与 `skill-crafting/references/token-bloat-audit.md` 的 Fix 6
 > （"一个 dump 500 行日志的 Bash 命令会拖慢之后每一个响应"）同源，
 > ⭐⭐⭐ 但这里把它提升成了⭐ **脚本契约的一部分**——
 > 不是"少打点字"，而是⭐ **脚本必须负责自己输出的体积**。
@@ -148,7 +148,7 @@
    ⭐⭐⭐⭐ 而是⭐⭐ 在⭐ 边界/体积/归属⭐ 这三个⭐ 结构层面
 ```
 
-> ⭐⭐⭐ 第 ③ 条与 `feedback-loop-design.md` 的
+> ⭐⭐⭐ 第 ③ 条与 `skill-patterns/references/feedback-loop-design.md` 的
 > "规则升级为代码，而不是把段落写得更严厉"完全一致：
 > **这三个修法都是结构性的，没有一个是"多说一句"。**
 

@@ -70,7 +70,7 @@ npm test -- --coverage    # 覆盖率低于 80% 会失败
 
 ## 严格度匹配任务脆弱性
 
-（呼应 `guidance-forms.md` 与 `patterns.md`）
+（呼应 `skill-crafting/references/guidance-forms.md` 与 `skill-authoring/references/patterns.md`）
 
 ```
 多种做法都可行（如 code review）  → 松散的自然语言启发式
@@ -156,7 +156,7 @@ npm test -- --coverage    # 覆盖率低于 80% 会失败
 > **技能可以在仓库文件里保存持久上下文
 > （CONTEXT.md、ADR、决策日志），供后续会话使用。**
 
-呼应 `memory-state.md`（**`skill-orchestration`**）——
+呼应 `skill-state/references/memory-state.md`（**`skill-orchestration`**）——
 技能本身是无状态的，跨会话状态要显式写盘。
 
 ## 保持 SKILL.md 精简

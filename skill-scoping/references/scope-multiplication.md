@@ -1,8 +1,8 @@
 # 边界比能力重要：失败模式是乘法，不是加法
 
-> 相关：《skill-scoping》的 `degree-of-freedom.md` ·
-> `what-not-to-do.md` · 《skill-refining》的
-> `iteration-three-levels.md`
+> 相关：《skill-scoping》的 `skill-scoping/references/degree-of-freedom.md` ·
+> `skill-authoring/references/what-not-to-do.md` · 《skill-refining》的
+> `skill-versioning/references/iteration-three-levels.md`
 > 前置：那些讲"自由度怎么定、哪些错别犯"，
 > 这份讲⭐⭐ **为什么"再加一项能力"是最危险的动作**，
 > 以及⭐⭐⭐ 工程化优先级的正确顺序。
@@ -42,8 +42,8 @@ OCR 的失败模式 × 翻译的失败模式 × 摘要的失败模式
 > 推论很直接：**一个能力 = n 种失败模式；三个能力 ≠ 3n，是 n³ 量级的交互空间**。
 > 而这些交叉情形**你一个都不会去测**。
 
-> ⭐ 这也为 `granularity-atomic-workflow.md` 的"重启测试"、
-> `skill-families-nine.md` 的"一类做到底"提供了共同的理论基础。
+> ⭐ 这也为 `skill-scoping/references/granularity-atomic-workflow.md` 的"重启测试"、
+> `skill-patterns/references/skill-families-nine.md` 的"一类做到底"提供了共同的理论基础。
 
 ---
 
@@ -63,8 +63,8 @@ OCR 的失败模式 × 翻译的失败模式 × 摘要的失败模式
 >
 > 而且它解释了为什么"总体 pass rate 没变"是不够的：
 > **均值会掩盖长尾的崩塌**。
-> 这与 `comparator-ab-eval.md` 的"两组都通过的断言没有区分度"、
-> `quality-rubric-nine-dims.md` 的"异常路径短板"是同一类问题。
+> 这与 `skill-automation/references/comparator-ab-eval.md` 的"两组都通过的断言没有区分度"、
+> `skill-quality/references/quality-rubric-nine-dims.md` 的"异常路径短板"是同一类问题。
 
 ---
 
@@ -94,8 +94,8 @@ OCR 的失败模式 × 翻译的失败模式 × 摘要的失败模式
    "⭐ 不知道哪个版本是对的"的困境
 ```
 
-> ⭐ "不知道哪个版本是对的"——这与 `skill-overrides-audit.md` 的
-> deploy 事故、`forty-skills-lessons.md` 的
+> ⭐ "不知道哪个版本是对的"——这与 `skill-patterns/references/skill-overrides-audit.md` 的
+> deploy 事故、`skill-authoring/references/forty-skills-lessons.md` 的
 > "破坏性改动静默影响整个团队"是同一问题的三个侧面：
 > **技能没有构建产物，所以"当前生效的是哪份"必须靠流程来保证。**
 
@@ -124,7 +124,7 @@ OCR 的失败模式 × 翻译的失败模式 × 摘要的失败模式
 > 技能"挂了"的表现是**输出一份格式完美、字段齐全、但内容是错的产物**——
 > 监控系统全绿，用户拿到废话。
 >
-> ⭐ 这直接解释了 `skill-observability.md` 那条
+> ⭐ 这直接解释了 `skill-automation/references/skill-observability.md` 那条
 > "高调用次数但没有质量审查 = 负债"：
 > **调用量指标对这类故障完全无感。**
 
@@ -134,7 +134,7 @@ OCR 的失败模式 × 翻译的失败模式 × 摘要的失败模式
 
 既然边界这么重要，那"边界章节"该怎么写？
 
-**三条**（结合 `scope-section.md` 与本文档）：
+**三条**（结合 `skill-scoping/references/scope-section.md` 与本文档）：
 
 ```
 ① ⭐ 写"不做什么"必须带替代方案
@@ -148,7 +148,7 @@ OCR 的失败模式 × 翻译的失败模式 × 摘要的失败模式
    ——触发阶段就该挡掉，而不是加载进来再判断
 ```
 
-> ⭐ 第 ③ 条与 `description-by-collision-risk.md` 的
+> ⭐ 第 ③ 条与 `skill-triggering/references/description-by-collision-risk.md` 的
 > "高碰撞风险 → description 要写完整 NOT"对上了：
 > **边界的第一道闸在路由层。**
 

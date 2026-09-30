@@ -1,9 +1,9 @@
 # 合并：什么时候该把拆开的东西合回去
 
-> 相关：《skill-refining》的 `split-signals-five.md`（五个拆分信号）·
-> 《skill-scoping》的 `granularity-atomic-workflow.md`（原子 vs 工作流 + 重启测试）·
-> 《skill-crafting》的 `eight-practical-lessons.md`（粒度：能独立完成一个业务动作）·
-> 《skill-orchestration》的 `orchestrator-timing.md`（过早编排 = 过早抽象）
+> 相关：《skill-refining》的 `skill-refining/references/split-signals-five.md`（五个拆分信号）·
+> 《skill-scoping》的 `skill-scoping/references/granularity-atomic-workflow.md`（原子 vs 工作流 + 重启测试）·
+> 《skill-crafting》的 `skill-crafting/references/eight-practical-lessons.md`（粒度：能独立完成一个业务动作）·
+> 《skill-orchestration》的 `skill-orchestration/references/orchestrator-timing.md`（过早编排 = 过早抽象）
 > 前置：我们已有⭐⭐⭐ **四个拆分判据**（重启测试、双向无知、独立业务动作、权限集合），
 > 这份补⭐⭐⭐⭐⭐ **反向的那一半**——
 > 一套只有拆分判据的体系会单向棘轮，只拆不合。
@@ -135,7 +135,7 @@ A 成为主技能，B 变成 A 的一个 reference 或步骤
 > ① 能解决"永远一起用"的问题，且保留了将来再拆的可能；
 > ③ 是不可逆的（合并后再拆，你丢失了原来的边界依据）。
 
-这个顺序和 `orchestrator-timing.md` 完全一致：
+这个顺序和 `skill-orchestration/references/orchestrator-timing.md` 完全一致：
 **手动搬运超过三次才写编排器**——编排本身就是一种轻合并。
 
 ---

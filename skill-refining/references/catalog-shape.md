@@ -1,7 +1,7 @@
 # 目录形状：五个反模式与审计节奏
 
-> 相关：`splitting.md`（何时拆）· `deduplication.md`（去重）·
-> 《skill-content》的 `skill-types.md`（分类法）· `claude-md-vs-skill.md`（归属）
+> 相关：`skill-refining/references/splitting.md`（何时拆）· `skill-refining/references/deduplication.md`（去重）·
+> 《skill-content》的 `skill-content/references/skill-types.md`（分类法）· `skill-scoping/references/claude-md-vs-skill.md`（归属）
 
 ---
 
@@ -176,7 +176,7 @@ V2（参考）  加 references/api.md 或 schema 文件，提供更深上下文
 V3（脚本）  引入 scripts/ 下的 Python / Shell，自动化复杂逻辑
 ```
 
-> 这与《skill-refining》的 `architecture-layering.md` 一致：
+> 这与《skill-refining》的 `skill-refining/references/architecture-layering.md` 一致：
 > **先让它能跑，再按测出来的缺口加层，不要预先设计。**
 
 ---

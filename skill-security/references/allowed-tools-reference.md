@@ -1,8 +1,8 @@
 # allowed-tools 完整参考：工具表与 Bash 作用域
 
-> 相关：《skill-security》的 `allowed-tools-least-privilege.md`（四面红旗）·
-> `pre-install-security-audit.md` · 《skill-structuring》的
-> `frontmatter-fields.md` · `official-spec-and-style.md`
+> 相关：《skill-security》的 `skill-security/references/allowed-tools-least-privilege.md`（四面红旗）·
+> `skill-security/references/pre-install-security-audit.md` · 《skill-structuring》的
+> `skill-loading/references/frontmatter-fields.md` · `skill-loading/references/official-spec-and-style.md`
 > 前置：那份讲"最小权限的原则与危险组合"，
 > 这份是⭐⭐ **可查的完整清单**：有哪些工具名、Bash 怎么收窄、常见组合怎么配。
 
@@ -34,7 +34,7 @@
 > ⭐⭐ 所以 `allowed-tools` 是少数⭐ **真正在执行侧生效的技能内声明**。
 > 但它仍然是"允许"而不是"拒绝"——
 > ⭐ 它不能扩大用户已授予的权限，只能⭐ 收窄到这个技能需要的子集。
-> 这与 `determinism-boundary.md` 的
+> 这与 `skill-evaluating/references/determinism-boundary.md` 的
 > "Hooks 用于模型不可被信任去遵守的事"是同一层的不同机制。
 
 ---
@@ -76,12 +76,12 @@
 
 > ⭐⭐ `Skill` 这个工具值得单独注意：
 > ⭐⭐⭐ **技能组合（依赖注入/链式）需要显式声明 `Skill` 才能调用别的技能。**
-> 这与 `skill-dependency-injection.md` 的四种模式直接相关——
+> 这与 `skill-orchestration/references/skill-dependency-injection.md` 的四种模式直接相关——
 > ⭐ **正文里写了 `/pdf`，但 `allowed-tools` 里没有 `Skill`，调用会被阻止。**
 > 这是一条很容易漏的对应关系。
 
 > ⭐ `AskUserQuestion` 也要小心：
-> 它与 `preflight-gate.md` 的"不得中途暂停去要一个 STEP 0 本可收集到的输入"
+> 它与 `skill-execution/references/preflight-gate.md` 的"不得中途暂停去要一个 STEP 0 本可收集到的输入"
 > 存在张力——⭐ **前置门禁阶段该用 AskUserQuestion 一次问完，
 > 而不是执行中途反复问**。
 
@@ -123,7 +123,7 @@ allowed-tools: Read, Bash     # ⭐ 任意 shell 命令
 > **"只在技能确实需要广泛命令访问时才用无作用域 Bash——
 > 比如一个可能需要跑任意诊断命令的调试技能。"**
 >
-> ⭐⭐⭐ 这与 `allowed-tools-least-privilege.md` 那条
+> ⭐⭐⭐ 这与 `skill-security/references/allowed-tools-least-privilege.md` 那条
 > "能用具体工具就别用 bash（用 `git` 而不是 `bash -c "git log"`）"
 > 完全一致，只是这里给出了⭐ 折中档：
 > **不需要完全放开时，`Bash(git:*)` 比裸 `Bash` 好得多。**
