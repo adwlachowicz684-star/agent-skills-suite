@@ -1,7 +1,7 @@
 # 六条"不该做成技能"与三种误用后果
 
-> 相关：《skill-boundaries》的 `worth-skillifying.md` ·
-> 《skill-structuring》的 `what-not-to-ship.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/worth-skillifying.md` ·
+> 《skill-structuring》的 `skill-structuring/references/what-not-to-ship.md`
 
 ---
 
@@ -34,7 +34,7 @@
 
 > ⭐ 第 ② 条最隐蔽也最危险：
 > **技能自带一种"权威感"，而它可能并不配。**
-> 这与 `research-skills.md` 那条"研究技能能悄无声息地制造权威感"同源。
+> 这与 `skill-domains/references/research-skills.md` 那条"研究技能能悄无声息地制造权威感"同源。
 
 ---
 
@@ -122,8 +122,8 @@
       技能需要像软件一样持续迭代，否则会从资产变成技术债务
 ```
 
-> ⭐ 第 ① 条对应 `error-handling.md` 的降级路径；
-> 第 ③ 条对应 `library-ops.md` 的技术债务。
+> ⭐ 第 ① 条对应 `skill-recovery/references/error-handling.md` 的降级路径；
+> 第 ③ 条对应 `skill-distribution/references/library-ops.md` 的技术债务。
 
 ---
 

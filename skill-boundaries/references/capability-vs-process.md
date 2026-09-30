@@ -22,7 +22,7 @@
   ——能做到，但做得不对/不稳定
 ```
 
-呼应 `authoring-workflow.md`（**`skill-authoring`**）阶段一：
+呼应 `skill-authoring/references/authoring-workflow.md`（**`skill-authoring`**）阶段一：
 **先判断是能力缺口还是流程缺口**。
 
 ## 判定方法
@@ -38,7 +38,7 @@
 > 如果你的需求是"做不到"，那你需要的其实是工具连接，
 > 光写技能解决不了。
 >
-> 呼应 `mcp-vs-skill-decision.md`（**`skill-selection`**）的
+> 呼应 `skill-boundaries/references/mcp-vs-skill-decision.md`（**`skill-selection`**）的
 > 五问第 1、2 问——需要连外部系统就倾向 server。
 
 **"做不好"的三种表现**：
@@ -50,7 +50,7 @@
 ```
 
 第三项是最有价值的技能目标——
-呼应 `frontend-ui-skills.md`（**`skill-domain-eng`**）：
+呼应 `skill-gallery/references/frontend-ui-skills.md`（**`skill-domain-eng`**）：
 **"模型会写但写得像所有人"**。
 
 ## 两类的写法差异
@@ -84,12 +84,12 @@
                 + 一个流程技能教它"查什么、怎么解读"
 ```
 
-> ⭐ 后者正是 `mcp-vs-skill-decision.md` 说的
+> ⭐ 后者正是 `skill-boundaries/references/mcp-vs-skill-decision.md` 说的
 > **"薄 server 提供访问 + 技能提供工作流"**。
 
 ## 与九种类型的关系
 
-呼应 `skill-types.md`（**`skill-authoring`**）的九种分类：
+呼应 `skill-content/references/skill-types.md`（**`skill-authoring`**）的九种分类：
 
 ```
 偏能力的：
@@ -112,7 +112,7 @@
   ⭐ 先确认工具可用（脚本能跑、MCP 能连），再写技能
 ```
 
-呼应 `how-to-guide.md`（**`skill-authoring`**）的
+呼应 `skill-authoring/references/how-to-guide.md`（**`skill-authoring`**）的
 **先手动，再封装**。
 
 ## 自查

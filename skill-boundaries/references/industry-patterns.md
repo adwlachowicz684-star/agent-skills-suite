@@ -32,7 +32,7 @@
 > **发现新型诈骗手法时，只需更新对应的技能，而不必重新训练整个模型。**
 
 这正是技能化架构的核心价值——**把变化局部化**。
-呼应 `skill-distribution` 的 `versioning-compat.md`：**改一个技能的影响面，远小于改一个整体提示词。**
+呼应 `skill-distribution` 的 `skill-distribution/references/versioning-compat.md`：**改一个技能的影响面，远小于改一个整体提示词。**
 
 ---
 
@@ -53,7 +53,7 @@
 ```
 
 > ⭐ **"技能调用优先级动态调整"** 值得注意——
-> 说明技能之间不是平权的，编排层要有调度策略（呼应 `skill-orchestration` 的 `composition.md`）。
+> 说明技能之间不是平权的，编排层要有调度策略（呼应 `skill-orchestration` 的 `skill-composition/references/composition.md`）。
 
 **另一个值得记的边界**（摩根大通的实践）：
 
@@ -62,7 +62,7 @@
 Agent 只负责拼证据，最后拍板的还是人。
 ```
 
-> 这与 `skill-governance` 的 `compliance-audit.md` 的 Article 14 人工监督完全一致——
+> 这与 `skill-governance` 的 `skill-security/references/compliance-audit.md` 的 Article 14 人工监督完全一致——
 > **in-the-loop 的选择要明确记录在案。**
 
 ---
@@ -187,7 +187,7 @@ Agent 只负责拼证据，最后拍板的还是人。
 > **技能必须显式声明"哪些事不许做"**，
 > 而不只是描述"要做什么"。
 > 否则 agent 会用越界的方式达成"成功"。
-> 呼应 `skill-crafting` 的 `guidance-forms.md` 与 `skill-governance` 的 `injection-defense.md` 的禁令/权限章节。
+> 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md` 与 `skill-governance` 的 `skill-security/references/injection-defense.md` 的禁令/权限章节。
 
 ---
 

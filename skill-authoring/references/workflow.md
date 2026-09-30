@@ -60,7 +60,7 @@
 | 行为依条件而定 | `if <可观察谓词> then` | 无条件规则 + 例外条款 |
 
 **默认不要伸手拿禁令**——禁令只在防"明知故犯"时才是对的选择。
-详见 `skill-crafting` 的 `guidance-forms.md`。
+详见 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`。
 
 ---
 
@@ -86,7 +86,7 @@
 
 ## 阶段 4：选模式
 
-见 `patterns.md` 的决策树。五种架构模式：
+见 `skill-authoring/references/patterns.md` 的决策树。五种架构模式：
 
 | 模式 | 适用 |
 |---|---|
@@ -150,7 +150,7 @@ references/examples.md (250 行)：完整示例
 scripts/helper.py (80 行)：确定性逻辑
 ```
 
-详见 `skill-refining` 的 `splitting.md`。
+详见 `skill-refining` 的 `skill-refining/references/splitting.md`。
 
 ---
 
@@ -172,7 +172,7 @@ python scripts/validate_skill.py ./my-skill
 - 正例触发率 **>0.5**
 - 负例触发率 **<0.5**
 
-详见 **`skill-evaluating` 的 `triggering.md`**。
+详见 **`skill-evaluating` 的 `skill-triggering/references/triggering.md`**。
 
 **③ 执行测试**
 
@@ -191,7 +191,7 @@ description 目标 **300–500 字符**；正文 **100–150 行**理想、**500
 > 优化好的技能应该**比不用技能更省**（0.7x）——
 > 因为它阻止了 agent 探索不必要的路径。写得差则会**翻倍**（1.7x）。
 
-详见 `skill-refining` 的 `context-budget.md`。
+详见 `skill-refining` 的 `skill-context/references/context-budget.md`。
 
 ---
 
@@ -209,13 +209,13 @@ description 目标 **300–500 字符**；正文 **100–150 行**理想、**500
 □ 最后处理蔓延（拆分）
 ```
 
-详见 `skill-refining` 的 `pruning.md`。
+详见 `skill-refining` 的 `skill-refining/references/pruning.md`。
 
 ---
 
 ## 阶段 10：交付
 
-用 **`skill-evaluating`** 按 `skill-governance` 的 `audit.md` 打分。**≤6 分重写。**
+用 **`skill-evaluating`** 按 `skill-governance` 的 `skill-security/references/audit.md` 打分。**≤6 分重写。**
 
 汇报包含：目录树 · description 全文 · 触发测试结论 · validate 结果 · 审计得分。
 

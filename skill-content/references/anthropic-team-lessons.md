@@ -1,8 +1,8 @@
 # Claude Code 团队自己怎么用技能
 
-> 相关：《skill-crafting》的 `write-reasons-not-rules.md`（写原因）·
-> 《skill-domains》的 `methodology-skills.md`（外部化判断）·
-> 《skill-execution》的 `seven-contracts.md`（责任契约）
+> 相关：《skill-crafting》的 `skill-crafting/references/write-reasons-not-rules.md`（写原因）·
+> 《skill-domains》的 `skill-domains/references/methodology-skills.md`（外部化判断）·
+> 《skill-execution》的 `skill-execution/references/seven-contracts.md`（责任契约）
 > 前置：那些讲⭐ 一般写法，
 > 这份讲⭐⭐⭐⭐⭐ **写技能的人自己怎么用**——一手实践，不是转述。
 
@@ -72,7 +72,7 @@
 > ⭐ **这也顺带解释了为什么"别把 HTTP 200 当成功"要单独写一条**——
 > 第 ③ 条就是它的具体形态。
 
-与我们已有的呼应：**"每纠正模型一个错误就写进 gotchas"**（`eval-case-design.md`）
+与我们已有的呼应：**"每纠正模型一个错误就写进 gotchas"**（`skill-evaluating/references/eval-case-design.md`）
 在这里得到了官方确认，并被定位为**最高信号**，不是可选项。
 
 ---
@@ -88,7 +88,7 @@
 ✅ 把配置文件中的数据库端口更新为用户指定的值
 ```
 
-这与我们已有的"给约束不给流程"（`eight-practical-lessons.md`）**同源**，
+这与我们已有的"给约束不给流程"（`skill-crafting/references/eight-practical-lessons.md`）**同源**，
 但官方给了一个更强的理由：**技能的可复用性越高，过度具体化的代价越大**——
 一次写死的流程会在下一个场景失效。
 
@@ -109,7 +109,7 @@
 { "slack_channel": "#eng-standup" }
 ```
 
-这跟我们已有的 `preflight-gate.md`（STEP 0 前置门禁）是**同一件事的两个面**：
+这跟我们已有的 `skill-execution/references/preflight-gate.md`（STEP 0 前置门禁）是**同一件事的两个面**：
 
 | | 时机 | 做法 |
 |---|---|---|
@@ -154,7 +154,7 @@
 
 用 `${CLAUDE_PLUGIN_DATA}` 拿一个**稳定的存储目录**。
 
-> ⭐⭐⭐ 这给"技能是无状态的"（`four-design-principles-io-contract.md`）
+> ⭐⭐⭐ 这给"技能是无状态的"（`skill-patterns/references/four-design-principles-io-contract.md`）
 > 补上了精确边界：**指令层无状态，数据层可以有状态。**
 > 状态放在数据文件里，不藏在"指令留在对话里"这个事实里——后者不可控。
 
@@ -166,7 +166,7 @@
 ```
 
 ⚠️ **别把"容易过期的事实"写进技能**——
-程序记忆层没有时间维度（`memory-layering-and-skills.md`）。
+程序记忆层没有时间维度（`skill-refining/references/memory-layering-and-skills.md`）。
 **日志天然带时间戳，事实不天然带。**
 
 ---
@@ -210,4 +210,4 @@ Claude 现场拼出分析脚本去回答"周二发生了什么"
 > 同一个技能换一个模型跑，或在同一次模型更新之后跑，输出仍可能不同。
 
 → 稳定性重要时：**固定你测过的模型 + 升级后重测**
-（与 `model-migration-audit.md` 一致）。
+（与 `skill-versioning/references/model-migration-audit.md` 一致）。

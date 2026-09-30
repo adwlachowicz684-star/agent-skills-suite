@@ -29,14 +29,14 @@ description: 技能评测与运维的自动化执行：CI 门禁、评测工具�
 
 ## 路由表（按需深读）
 
-| `ci-skill-validation.md` | ⭐⭐⭐⭐⭐ CI 能验什么、不能验什么；按名字强制 disable-model-invocation |
-| `ci-gate-integration.md` | ⭐⭐⭐⭐ 门禁接入与失败分级 |
-| `eval-tooling.md` | ⭐⭐⭐⭐ 评测工具链选型 |
-| `claude-ab-loop.md` | ⭐⭐⭐⭐⭐ 用 `claude -p` 跑行为评测；四个设计 |
-| `comparator-ab-eval.md` | ⭐⭐⭐⭐ 盲评 comparator + 五条统计纪律 |
-| `canary-release.md` | ⭐⭐⭐⭐⭐ 灰度：版本级指标拆分；跳档事故 |
-| `skill-observability.md` | ⭐⭐⭐⭐ 调用日志 vs 决策日志；入参记两份 |
-| `execution-span-logging.md` | ⭐⭐⭐⭐⭐ `stopped_at`：从"要排查整个技能"缩小到"看一个步骤" |
+| `skill-automation/references/ci-skill-validation.md` | ⭐⭐⭐⭐⭐ CI 能验什么、不能验什么；按名字强制 disable-model-invocation |
+| `skill-automation/references/ci-gate-integration.md` | ⭐⭐⭐⭐ 门禁接入与失败分级 |
+| `skill-automation/references/eval-tooling.md` | ⭐⭐⭐⭐ 评测工具链选型 |
+| `skill-automation/references/claude-ab-loop.md` | ⭐⭐⭐⭐⭐ 用 `claude -p` 跑行为评测；四个设计 |
+| `skill-automation/references/comparator-ab-eval.md` | ⭐⭐⭐⭐ 盲评 comparator + 五条统计纪律 |
+| `skill-automation/references/canary-release.md` | ⭐⭐⭐⭐⭐ 灰度：版本级指标拆分；跳档事故 |
+| `skill-automation/references/skill-observability.md` | ⭐⭐⭐⭐ 调用日志 vs 决策日志；入参记两份 |
+| `skill-automation/references/execution-span-logging.md` | ⭐⭐⭐⭐⭐ `stopped_at`：从"要排查整个技能"缩小到"看一个步骤" |
 
 ## Critical Rules
 

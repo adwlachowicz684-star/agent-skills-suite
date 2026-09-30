@@ -1,8 +1,8 @@
 # 技能 vs 子代理：判断轴是"隔离"，不是"大小"
 
-> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
-> `capability-vs-process.md` · 《skill-orchestration》的
-> `skill-vs-subagent.md` · `subagent-skill-inheritance.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md` ·
+> `skill-boundaries/references/capability-vs-process.md` · 《skill-orchestration》的
+> `skill-subagents/references/skill-vs-subagent.md` · `skill-subagents/references/subagent-skill-inheritance.md`
 > 前置：那份讲"两者是什么"，
 > 这份讲⭐⭐⭐ **那个真正决定选谁的问题**——以及为什么"任务大不大"是错的轴。
 
@@ -87,7 +87,7 @@
 
 > ⭐⭐ 第二条例外漂亮：**"不被污染才更有用"** ——
 > 这是"隔离"作为⭐ 质量手段（而非仅仅是成本手段）的论据。
-> 呼应 `multi-agent-review.md` 的 challenge_agent 需要全新视角。
+> 呼应 `skill-subagents/references/multi-agent-review.md` 的 challenge_agent 需要全新视角。
 
 ---
 
@@ -153,7 +153,7 @@
 ```
 
 > ⭐⭐⭐ 最后半句是这套方法论里对"委派质量"最精准的警告——
-> **委派不等于降标准**。这与 `subagent-skill-inheritance.md` 的
+> **委派不等于降标准**。这与 `skill-subagents/references/subagent-skill-inheritance.md` 的
 > "子代理不继承技能，必须显式列 skills:"是配套的：
 > **不显式挂技能，你的子代理就是在裸奔。**
 

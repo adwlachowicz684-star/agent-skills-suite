@@ -1,7 +1,7 @@
 # 该不该做成技能：三条硬标准与五维矩阵
 
-> 相关：《skill-selection》的 `three-conditions-rule-of-three.md` ·
-> 《skill-authoring》的 `how-to-guide.md`
+> 相关：《skill-selection》的 `skill-selection/references/three-conditions-rule-of-three.md` ·
+> 《skill-authoring》的 `skill-authoring/references/how-to-guide.md`
 
 ---
 

@@ -1,8 +1,8 @@
 # 数据源验证：技能会取到错的数据吗
 
-> 相关：`skill-authoring` 的 `seven-step-authoring.md`（第 5 步）·
-> 《skill-quality》的 `four-dimension-eval.md` ·
-> （已移至 _parked 领域实例库）的 `grounding-verification.md`
+> 相关：`skill-authoring` 的 `skill-authoring/references/seven-step-authoring.md`（第 5 步）·
+> 《skill-quality》的 `skill-quality/references/four-dimension-eval.md` ·
+> （已移至 _parked 领域实例库）的 `skill-output/references/grounding-verification.md`
 
 ---
 
@@ -73,7 +73,7 @@
 第 ④ 条很实用——**让答案自带出处**，
 人工一眼就能看出是不是取错了表。
 
-> 这与（已移至 _parked 领域实例库）的 `research-skills.md` 里
+> 这与（已移至 _parked 领域实例库）的 `skill-domains/references/research-skills.md` 里
 > "区分证据与解读、禁止编造引用"是同一条原则在数据层的延伸。
 
 ---

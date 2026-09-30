@@ -29,46 +29,46 @@ description: 让团队真正用起技能库——冷启动首个用例的选择�
 ## 何时不用本技能
 
 - 打包、版本、tag 回滚 → `skill-distribution`
-- 企业注册中心、RBAC、权限边界 → `skill-governance` 的 `enterprise-registry.md`
+- 企业注册中心、RBAC、权限边界 → `skill-governance` 的 `skill-distribution/references/enterprise-registry.md`
 - 技能本身质量打分 → `skill-evaluating`
 
 ## 路由表（按需深读）
-| `adoption-playbook-six-steps.md` | ⭐⭐⭐⭐ 六步采用；⭐⭐⭐ 首个用例四条件（含"错了只烦人"）；阻力最小路径 |
-| `cold-start.md` | ⭐⭐⭐ 冷启动：⭐⭐⭐ 别从最棘手的任务开始 |
-| `team-admission-criteria.md` | ⭐⭐⭐ 14 步流程 + 准入标准；⭐⭐⭐ 安全说明只写给人看 = 不存在 |
-| `team-conventions-pr.md` | ⭐⭐⭐ 团队约定四原则 + PR 评审清单 + 等级分层 |
-| `team-landing-seven.md` | ⭐⭐⭐ 七原则 + 三层分发 + ⭐ stable/dev 标签回滚 |
-| `team-naming-collisions.md` | ⭐⭐⭐ 防冲突命名 + 按环境拆分 + 四步上手 |
-| `adoption-metrics.md` | ⭐⭐⭐ 推广度量：先行/滞后指标 + 毕业信号四条 |
-| `team-repo-structure.md` | ⭐⭐⭐ 团队仓库结构 / profiles / CI 验证 |
-| `team-sharing.md` | ⭐⭐⭐ PR 四项评审 + 三作用域 |
-| `team-workflow.md` | ⭐⭐ 团队协作：指令与数据分离 |
-| `team-adoption.md` | ⭐⭐ 组织推广：为什么推不动 |
-| `adoption-playbook.md` | ⭐⭐ 前 30 天手册 / 冠军 / 规范 |
+| `skill-adoption/references/adoption-playbook-six-steps.md` | ⭐⭐⭐⭐ 六步采用；⭐⭐⭐ 首个用例四条件（含"错了只烦人"）；阻力最小路径 |
+| `skill-adoption/references/cold-start.md` | ⭐⭐⭐ 冷启动：⭐⭐⭐ 别从最棘手的任务开始 |
+| `skill-adoption/references/team-admission-criteria.md` | ⭐⭐⭐ 14 步流程 + 准入标准；⭐⭐⭐ 安全说明只写给人看 = 不存在 |
+| `skill-adoption/references/team-conventions-pr.md` | ⭐⭐⭐ 团队约定四原则 + PR 评审清单 + 等级分层 |
+| `skill-adoption/references/team-landing-seven.md` | ⭐⭐⭐ 七原则 + 三层分发 + ⭐ stable/dev 标签回滚 |
+| `skill-adoption/references/team-naming-collisions.md` | ⭐⭐⭐ 防冲突命名 + 按环境拆分 + 四步上手 |
+| `skill-adoption/references/adoption-metrics.md` | ⭐⭐⭐ 推广度量：先行/滞后指标 + 毕业信号四条 |
+| `skill-adoption/references/team-repo-structure.md` | ⭐⭐⭐ 团队仓库结构 / profiles / CI 验证 |
+| `skill-adoption/references/team-sharing.md` | ⭐⭐⭐ PR 四项评审 + 三作用域 |
+| `skill-adoption/references/team-workflow.md` | ⭐⭐ 团队协作：指令与数据分离 |
+| `skill-adoption/references/team-adoption.md` | ⭐⭐ 组织推广：为什么推不动 |
+| `skill-adoption/references/adoption-playbook.md` | ⭐⭐ 前 30 天手册 / 冠军 / 规范 |
 
 **冷启动**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 第一个用例选什么 | `cold-start.md` · `adoption-playbook-six-steps.md` |
-| ⭐ 为什么推不动 | `team-adoption.md` |
-| 前 30 天怎么安排 | `adoption-playbook.md` |
+| ⭐ 第一个用例选什么 | `skill-adoption/references/cold-start.md` · `skill-adoption/references/adoption-playbook-six-steps.md` |
+| ⭐ 为什么推不动 | `skill-adoption/references/team-adoption.md` |
+| 前 30 天怎么安排 | `skill-adoption/references/adoption-playbook.md` |
 
 **建制度**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 团队约定与 PR 清单 | `team-conventions-pr.md` |
-| ⭐ 准入标准（安全说明落地） | `team-admission-criteria.md` |
-| 仓库结构与共享 | `team-repo-structure.md` · `team-sharing.md` |
-| 命名防冲突 | `team-naming-collisions.md` |
-| 三层分发与回滚标签 | `team-landing-seven.md` |
+| ⭐ 团队约定与 PR 清单 | `skill-adoption/references/team-conventions-pr.md` |
+| ⭐ 准入标准（安全说明落地） | `skill-adoption/references/team-admission-criteria.md` |
+| 仓库结构与共享 | `skill-adoption/references/team-repo-structure.md` · `skill-adoption/references/team-sharing.md` |
+| 命名防冲突 | `skill-adoption/references/team-naming-collisions.md` |
+| 三层分发与回滚标签 | `skill-adoption/references/team-landing-seven.md` |
 
 **看效果**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 采用度量（别测错东西） | `adoption-metrics.md` |
+| ⭐ 采用度量（别测错东西） | `skill-adoption/references/adoption-metrics.md` |
 
 ## Critical Rules
 

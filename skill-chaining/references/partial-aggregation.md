@@ -1,12 +1,12 @@
 # 部分成功的汇总是静默的
 
-> 相关：《skill-chaining》的 `fan-out-fan-in.md`·
-> 《skill-execution》的 `parallel-and-concurrency.md`（N 个半成品）·
-> 《skill-interfaces》的 `handoff-payload-contract.md`·
-> 《skill-output》的 `placeholder-in-output.md`（"无"是最危险的占位符）·
-> 《skill-execution》的 `partial-following.md`
+> 相关：《skill-chaining》的 `skill-composition/references/fan-out-fan-in.md`·
+> 《skill-execution》的 `skill-execution/references/parallel-and-concurrency.md`（N 个半成品）·
+> 《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`·
+> 《skill-output》的 `skill-output/references/placeholder-in-output.md`（"无"是最危险的占位符）·
+> 《skill-execution》的 `skill-execution/references/partial-following.md`
 > 前置：
-> `parallel-and-concurrency.md` 讲的是⭐⭐⭐⭐ **并行产生 N 个半成品**，
+> `skill-execution/references/parallel-and-concurrency.md` 讲的是⭐⭐⭐⭐ **并行产生 N 个半成品**，
 > 这份讲的是⭐⭐⭐⭐⭐ **汇总那一步把它变成了一份完整报告**——
 > 汇总才是静默真正发生的地方。
 
@@ -124,7 +124,7 @@ B 失败了 → 但它的失败没有变成下游可见的状态
 ```
 
 > ⭐⭐⭐⭐⭐ **没有分母就没有完成**（《skill-output》的
-> `enumeration-and-completeness.md`）在汇总层完全适用，
+> `skill-output/references/enumeration-and-completeness.md`）在汇总层完全适用，
 > ⭐⭐⭐⭐⭐ 而多数汇总技能的分母是"我收到了几个"——这是自指的分母。
 
 **③ ⭐⭐⭐⭐⭐ 报缺失会显得"没做完"**
@@ -163,7 +163,7 @@ B 失败了 → 但它的失败没有变成下游可见的状态
 ⭐⭐⭐⭐⭐ 带着缺口的产物，其正确状态是 partial
 ```
 
-这与 `placeholder-in-output.md` 咬合：⭐⭐⭐⭐⭐ **"少了一个源"和"有占位符"
+这与 `skill-output/references/placeholder-in-output.md` 咬合：⭐⭐⭐⭐⭐ **"少了一个源"和"有占位符"
 是同一类缺陷，都应该让整个产物降级**——而不是让它以 ok 的形态交付。
 
 ---

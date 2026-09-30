@@ -63,7 +63,7 @@
 > ⭐ **30 : 2000 = 1:67 的成本比**——
 > 这就是渐进式披露在规模化场景下的全部价值。
 
-呼应 `scale-effects.md`（**`skill-governance`**）：
+呼应 `skill-governance/references/scale-effects.md`（**`skill-governance`**）：
 1,236 个技能实测吃掉 36.6% 上下文——
 ⭐ **那是因为它们的 description 写得又长又差；
 而这个库用 30 tokens 的精简 frontmatter 换来了 754 个的可检索性。**
@@ -97,7 +97,7 @@ license: Apache-2.0
 | `tags` | ⭐ 检索主力——多标签允许一个技能从多个角度被找到 |
 | `atlas_techniques` 等标准映射 | 与外部知识体（ATT&CK/D3FEND/NIST）对齐 |
 | `version` / `author` | 溯源与生命周期 |
-| `license` | ⭐ 分发合规（呼应 `licensing-ip.md`，**`skill-refining`**） |
+| `license` | ⭐ 分发合规（呼应 `skill-distribution/references/licensing-ip.md`，**`skill-refining`**） |
 
 > ⭐ **`tags` 是被低估的字段**。
 > 一个技能只能有一个 domain，但可以有多个 tag——
@@ -153,7 +153,7 @@ skills/<name>/
 **"filled-in checklists and report templates"**——
 已填好的检查单，不是空表。
 
-呼应 `examples.md` 那条：**agent 对具体结构模式匹配得很好**。
+呼应 `skill-content/references/examples.md` 那条：**agent 对具体结构模式匹配得很好**。
 
 **③ 长尾域要合并，不要为对称而凑数**
 
@@ -164,7 +164,7 @@ skills/<name>/
 
 **④ Verification 是独立章节，不是散在步骤里**
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）：
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 剩余错误的主要来源是落地与验证**支持不足**——
 把它做成独立章节，就不容易被省略。
 

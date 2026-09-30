@@ -1,8 +1,8 @@
 # 团队准入标准、14 步流程与六个误区
 
-> 相关：《skill-adoption》的 `team-landing-seven.md`（七原则）·
-> `team-conventions-pr.md`（PR 评审清单）· `team-conventions-pr.md` ·
-> 《skill-governance》的 `retirement-pipeline.md`（退役四阶段）
+> 相关：《skill-adoption》的 `skill-adoption/references/team-landing-seven.md`（七原则）·
+> `skill-adoption/references/team-conventions-pr.md`（PR 评审清单）· `skill-adoption/references/team-conventions-pr.md` ·
+> 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`（退役四阶段）
 > 前置：那些讲"怎么推、怎么评"，
 > 这份讲⭐⭐⭐ **一份可直接抄的⭐ 准入标准**——
 > 以及⭐⭐⭐ 一条此前没出现过的洞察：**安全说明只写给人看是不够的**。
@@ -41,7 +41,7 @@
 > ⭐⭐ 这份流程可以按团队规模缩减（小团队可合并步骤），
 > ⭐⭐⭐ 但有五项⭐ 不能省（见下）。
 >
-> ⭐⭐ 与我们已有的 `retirement-pipeline.md` 四阶段对上——
+> ⭐⭐ 与我们已有的 `skill-governance/references/retirement-pipeline.md` 四阶段对上——
 > 第 14 步"废弃或归档"正是那份文档的内容，
 > ⭐ 这里把它明确写成了⭐ **生命周期的正式一环**，而不是"出事后的补救"。
 
@@ -60,8 +60,8 @@
 > ⭐⭐⭐ 注意"⭐ 安全边界"这一项——
 > 它不是"安全审查"（第 9 步已经有了），
 > ⭐⭐ 而是⭐ 技能自身声明并实现的边界。
-> 这与 `allowed-tools-least-privilege.md`、
-> `script-security-boundary.md` 是同一条：
+> 这与 `skill-security/references/allowed-tools-least-privilege.md`、
+> `skill-scripting/references/script-security-boundary.md` 是同一条：
 > ⭐⭐⭐ **边界是产物的一部分，不是流程的一个环节。**
 
 ---
@@ -85,7 +85,7 @@
 **第 10 条**——`--help` + 说明副作用：
 
 > ⭐⭐⭐ 这条把"脚本要能被理解"变成了⭐ 可检查的硬条件。
-> 与 `script-cli-contract.md` 的退出码分级同一思路：
+> 与 `skill-scripting/references/script-cli-contract.md` 的退出码分级同一思路：
 > **让脚本自己声明它是什么，而不是指望读它的人看懂。**
 
 **第 11 条**——参考资料要说明来源或更新时间：
@@ -93,7 +93,7 @@
 > ⭐⭐⭐ ⭐ 这条直接对应我们反复出现的那个失败模式
 > ——`"Stale references：输出错得自信而正确"`（第五个来源）。
 > ⭐⭐ **"更新时间"这个字段就是把腐烂从不可见变成可见的机制**，
-> 与 `skill-decay-governance.md` 的 `review_after` 是同一招。
+> 与 `skill-governance/references/skill-decay-governance.md` 的 `review_after` 是同一招。
 
 **第 1 条**——备份 owner：
 
@@ -111,8 +111,8 @@
 ⭐⭐ 负向测试可以发现⭐ 它是否抢了别的任务
 ```
 
-> ⭐⭐ 这与 `prompt-vs-skill-failure-modes.md` 的"过触发"、
-> `eval-set-two-dimensions.md` 的"至少覆盖误触发场景"
+> ⭐⭐ 这与 `skill-selection/references/prompt-vs-skill-failure-modes.md` 的"过触发"、
+> `skill-evaluating/references/eval-set-two-dimensions.md` 的"至少覆盖误触发场景"
 > 是⭐ 第三个独立来源。
 > ⭐⭐⭐ 但这里的角度不同：**团队环境下误触发的代价是别人被抢活**
 > ——不是你自己的输出变差，而是⭐ **别人的技能静默失效**。
@@ -126,7 +126,7 @@
 > ⭐⭐⭐ "误导用户"这个措辞值得注意——
 > 它说的不是成本问题（虽然成本也确实存在），
 > ⭐⭐⭐ 而是⭐ **用户会以为那个技能是当前的、被维护的、可信的**。
-> 与 `outgrowth-regression-detection.md` 的"被追上要归档"同源。
+> 与 `skill-triggering/references/outgrowth-regression-detection.md` 的"被追上要归档"同源。
 
 **⭐⭐⭐ 误区六：安全说明只写给人看**（本份最有价值的一条）
 
@@ -145,7 +145,7 @@
 >
 > ⭐⭐⭐ **结果：一条"已存在"的安全说明，实际上从未被执行。**
 >
-> ⭐⭐ 这与 `operator-card-style.md` 的
+> ⭐⭐ 这与 `skill-content/references/operator-card-style.md` 的
 > "安装/贡献/隐私章节一律删"（那些是写给人看的噪音）
 > 形成了⭐ 完美的呼应：
 > ```
@@ -172,8 +172,8 @@
 - [ ] ⭐⭐ ⭐ 是否和已有技能重复？
 ```
 
-> ⭐⭐⭐ 第一项对应 `worth-skillifying.md` 的三条硬标准，
-> ⭐⭐ 第二项对应 `namespace-collision.md` 与"一技能一动词"——
+> ⭐⭐⭐ 第一项对应 `skill-boundaries/references/worth-skillifying.md` 的三条硬标准，
+> ⭐⭐ 第二项对应 `skill-orchestration/references/namespace-collision.md` 与"一技能一动词"——
 > ⭐⭐⭐ **"是否与已有技能重复"应该是一道门禁，不是一次提醒。**
 
 ---

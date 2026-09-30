@@ -1,8 +1,8 @@
 # 四十个技能之后的五条硬经验
 
-> 相关：《skill-description》的 `activation-rate.md` ·
-> `pushy-description.md` · `what-not-to-do.md` ·
-> 《skill-gallery》的 `first-skill-minimal.md`
+> 相关：《skill-description》的 `skill-description/references/activation-rate.md` ·
+> `skill-description/references/pushy-description.md` · `skill-authoring/references/what-not-to-do.md` ·
+> 《skill-gallery》的 `skill-gallery/references/first-skill-minimal.md`
 > 前置：那些讲单条规则，
 > 这份是⭐ **做完 40 个技能之后的复盘**——五条都是"踩出来的"，不是推出来的。
 
@@ -33,13 +33,13 @@
 
 ```
 ① ⭐ 用⭐ 用户真正会输入的字面触发词重写 description
-② ⭐ 稍微强势一点（对应 `pushy-description.md` 的官方建议）
+② ⭐ 稍微强势一点（对应 `skill-description/references/pushy-description.md` 的官方建议）
 ③ ⭐ 触发率会立刻跳上去
 ```
 
 > ⭐⭐ **"几乎从来不是 Claude 坏了"** 这句话值得当作排障第一条。
-> 这与 `trigger-fix-nine-causes.md` 的"不触发九项排查"、
-> `library-size-effect.md` 的"激活率基础描述只有 20%"完全同源——
+> 这与 `skill-description/references/trigger-fix-nine-causes.md` 的"不触发九项排查"、
+> `skill-selection/references/library-size-effect.md` 的"激活率基础描述只有 20%"完全同源——
 > **欠触发是默认状态，不是故障。**
 
 ---
@@ -54,7 +54,7 @@
 超了怎么办：**把参考资料移到单独文件，从 SKILL.md 链接过去**——
 Claude 只在需要时才加载那些文件。
 
-> ⭐ 这条与主套件里 `budget-truncation.md` 的物理原因对上了：
+> ⭐ 这条与主套件里 `skill-context/references/budget-truncation.md` 的物理原因对上了：
 > **压缩后每个技能只留前 5,000 tokens**，500 行 × 4 字符 ≈ 20,000 字符 ≈ 5,000 tokens。
 > **500 行不是风格建议，是物理边界。**
 
@@ -76,8 +76,8 @@ Claude 只在需要时才加载那些文件。
 > "有点不对"（slightly wrong）这个措辞很准——
 > **它不是明显错误，是⭐ 差那么一点，你会一直觉得别扭却说不出哪里错**。
 
-> ⭐ 这一条与 `skill-evolution-loop.md` 的"从几行字 + 一条踩坑记录起步"、
-> `seven-step-authoring.md` 的流程完全一致：
+> ⭐ 这一条与 `skill-versioning/references/skill-evolution-loop.md` 的"从几行字 + 一条踩坑记录起步"、
+> `skill-authoring/references/seven-step-authoring.md` 的流程完全一致：
 > **技能是经验的沉淀，不是设计的产物。**
 
 ---
@@ -89,7 +89,7 @@ Claude 只在需要时才加载那些文件。
 ⭐ 技能是给⭐ 程序的，不是给参考资料的
 ```
 
-> ⭐ 这与 `context-file-selection.md` 的"常驻事实 → 上下文文件，
+> ⭐ 这与 `skill-selection/references/context-file-selection.md` 的"常驻事实 → 上下文文件，
 > 按需程序 → 技能"是同一条界线，且**第二句给了更好的记忆法**：
 > **技能 = 怎么做（procedure）；事实 = 上下文文件（reference material）。**
 
@@ -109,9 +109,9 @@ Claude 只在需要时才加载那些文件。
 > 你改了一个文件，**没有 CI 报警、没有构建失败、没有 changelog 通知**，
 > 但所有人的 agent 行为都变了。
 
-这与 `skill-overrides-audit.md` 那起 deploy 事故是同一类问题
+这与 `skill-patterns/references/skill-overrides-audit.md` 那起 deploy 事故是同一类问题
 （**没人知道当前生效的是哪一份**），也与
-`skill-ownership-changeflow.md` 的"没跑 eval 的 PR 不接受"直接呼应。
+`skill-governance/references/skill-ownership-changeflow.md` 的"没跑 eval 的 PR 不接受"直接呼应。
 
 ---
 

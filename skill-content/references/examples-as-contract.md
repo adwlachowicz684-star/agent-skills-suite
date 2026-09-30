@@ -63,7 +63,7 @@
 
 ## 哪些示例不能删
 
-重构技能时（见 `refactor-pass.md`），
+重构技能时（见 `skill-refining/references/refactor-pass.md`），
 以下属于**行为**，不能动：
 
 ```
@@ -134,7 +134,7 @@
 它看起来像"可以精简的部分"——
 尤其在你想把技能缩短的时候。
 
-但对照 no-op 测试（见 `pruning.md`）：
+但对照 no-op 测试（见 `skill-refining/references/pruning.md`）：
 
 ```
 删掉这条示例，行为会变吗？

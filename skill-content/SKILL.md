@@ -29,53 +29,53 @@ description: 技能各章节的内容来源与写法——正文该放什么（G
 
 - 想按什么顺序创建 → `skill-authoring` 的 `workflow.md`
 - description 与触发词 → `skill-description`
-- 交付形态（配方/模板/禁令）→ `skill-crafting` 的 `guidance-forms.md`
-- 触发率评测 → `skill-evaluating` 的 `trigger-tuning-loop.md`
+- 交付形态（配方/模板/禁令）→ `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`
+- 触发率评测 → `skill-evaluating` 的 `skill-triggering/references/trigger-tuning-loop.md`
 
 ## 路由表（按需深读）
-| `external-links-in-skills.md` | ⭐⭐⭐⭐⭐ 链接的三种命运；⭐⭐⭐⭐⭐ 抓与不抓都可能是错的；⭐⭐⭐⭐⭐ 会过期就必须内联 |
-| `when-not-to-follow.md` | ⭐⭐⭐⭐⭐ 技能从不定义"中途发现不适用"；⭐⭐⭐⭐⭐ 照做完总能产出东西，停下来看起来像什么都没做；⭐⭐⭐⭐⭐ 流程不适用 ≠ 任务不成立 |
-| `portability-across-projects.md` | ⭐⭐⭐⭐⭐ 环境耦合会报错/组织耦合不会；⭐⭐⭐⭐⭐ L3 环境细节改为运行时探测；⭐⭐⭐⭐ 升模型要做减法 |
-| `default-actions.md` | ⭐⭐⭐⭐⭐ 省略不是留白：默认值表；⭐⭐⭐⭐ 最贵的三处省略；⭐⭐⭐ 主动设默认
-| `terminology-table.md` | ⭐⭐⭐⭐⭐ 模型不会做同义消解；⭐⭐⭐⭐⭐ 术语表第三列（不要用的说法）
-| `instruction-ordering.md` | ⭐⭐⭐⭐⭐ 五段式骨架（契约/红线/术语/流程/验证）；⭐⭐⭐⭐ 验证不能放最后；目录即黄金位 |
-| `gotchas-mining.md` | ⭐⭐⭐⭐⭐ Gotchas 是采集的不是写的；六个矿脉；⭐不可推理性筛子 |
-| `anthropic-team-lessons.md` | ⭐⭐⭐⭐⭐ 官方团队七课：不陈述显然·Gotchas 最高信号·避免 railroading·技能自带记忆·helper 库 |
-| `skill-anatomy.md` | ⭐⭐⭐⭐ 正文该放什么：Gotchas / 模板 / ⭐ 程序优于声明 |
-| `examples-as-contract.md` | ⭐⭐⭐⭐ 示例即契约：改技能时不许动的那些示例 |
-| `examples.md` | ⭐⭐⭐ 示例怎么写：含 Rationale 字段与模糊输入档 |
-| `validation-escalation.md` | ⭐⭐⭐ 验证与升级：把"检查格式"写成可判定条件 |
-| `verification-section.md` | ⭐⭐⭐ 验证章节怎么写（含证据对照表） |
-| `operator-card-style.md` | ⭐⭐⭐ 操作卡写法 + Keep/Delete 清单；安装/贡献/隐私章节一律删 |
-| `body-writing-rules.md` | ⭐⭐⭐ 正文写作九条：可逐条检查的启发式 |
-| `prompt-altitude-three-laws.md` | ⭐⭐★★★ 高度检验法（三种诠释/崩掉）；★三条律含逃生口 |
-| `writing-style.md` | ⭐⭐ 措辞、语气、格式规范 |
-| `real-examples.md` | ⭐⭐ 真实技能范例拆解 |
+| `skill-content/references/external-links-in-skills.md` | ⭐⭐⭐⭐⭐ 链接的三种命运；⭐⭐⭐⭐⭐ 抓与不抓都可能是错的；⭐⭐⭐⭐⭐ 会过期就必须内联 |
+| `skill-content/references/when-not-to-follow.md` | ⭐⭐⭐⭐⭐ 技能从不定义"中途发现不适用"；⭐⭐⭐⭐⭐ 照做完总能产出东西，停下来看起来像什么都没做；⭐⭐⭐⭐⭐ 流程不适用 ≠ 任务不成立 |
+| `skill-content/references/portability-across-projects.md` | ⭐⭐⭐⭐⭐ 环境耦合会报错/组织耦合不会；⭐⭐⭐⭐⭐ L3 环境细节改为运行时探测；⭐⭐⭐⭐ 升模型要做减法 |
+| `skill-content/references/default-actions.md` | ⭐⭐⭐⭐⭐ 省略不是留白：默认值表；⭐⭐⭐⭐ 最贵的三处省略；⭐⭐⭐ 主动设默认
+| `skill-content/references/terminology-table.md` | ⭐⭐⭐⭐⭐ 模型不会做同义消解；⭐⭐⭐⭐⭐ 术语表第三列（不要用的说法）
+| `skill-content/references/instruction-ordering.md` | ⭐⭐⭐⭐⭐ 五段式骨架（契约/红线/术语/流程/验证）；⭐⭐⭐⭐ 验证不能放最后；目录即黄金位 |
+| `skill-content/references/gotchas-mining.md` | ⭐⭐⭐⭐⭐ Gotchas 是采集的不是写的；六个矿脉；⭐不可推理性筛子 |
+| `skill-content/references/anthropic-team-lessons.md` | ⭐⭐⭐⭐⭐ 官方团队七课：不陈述显然·Gotchas 最高信号·避免 railroading·技能自带记忆·helper 库 |
+| `skill-content/references/skill-anatomy.md` | ⭐⭐⭐⭐ 正文该放什么：Gotchas / 模板 / ⭐ 程序优于声明 |
+| `skill-content/references/examples-as-contract.md` | ⭐⭐⭐⭐ 示例即契约：改技能时不许动的那些示例 |
+| `skill-content/references/examples.md` | ⭐⭐⭐ 示例怎么写：含 Rationale 字段与模糊输入档 |
+| `skill-content/references/validation-escalation.md` | ⭐⭐⭐ 验证与升级：把"检查格式"写成可判定条件 |
+| `skill-content/references/verification-section.md` | ⭐⭐⭐ 验证章节怎么写（含证据对照表） |
+| `skill-content/references/operator-card-style.md` | ⭐⭐⭐ 操作卡写法 + Keep/Delete 清单；安装/贡献/隐私章节一律删 |
+| `skill-content/references/body-writing-rules.md` | ⭐⭐⭐ 正文写作九条：可逐条检查的启发式 |
+| `skill-content/references/prompt-altitude-three-laws.md` | ⭐⭐★★★ 高度检验法（三种诠释/崩掉）；★三条律含逃生口 |
+| `skill-content/references/writing-style.md` | ⭐⭐ 措辞、语气、格式规范 |
+| `skill-content/references/real-examples.md` | ⭐⭐ 真实技能范例拆解 |
 
 **写正文**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 正文该放什么 | `skill-anatomy.md` · `anthropic-team-lessons.md` |
-| 措辞与语气 | `writing-style.md` · `body-writing-rules.md` |
-| 指令写多具体 | `prompt-altitude-three-laws.md` |
-| 排版成操作卡 | `operator-card-style.md` |
+| ⭐ 正文该放什么 | `skill-content/references/skill-anatomy.md` · `skill-content/references/anthropic-team-lessons.md` |
+| 措辞与语气 | `skill-content/references/writing-style.md` · `skill-content/references/body-writing-rules.md` |
+| 指令写多具体 | `skill-content/references/prompt-altitude-three-laws.md` |
+| 排版成操作卡 | `skill-content/references/operator-card-style.md` |
 
 **写验证与示例**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 验证章节 | `verification-section.md` · `validation-escalation.md` |
-| ⭐ 示例 | `examples.md` · `examples-as-contract.md` |
+| ⭐ 验证章节 | `skill-content/references/verification-section.md` · `skill-content/references/validation-escalation.md` |
+| ⭐ 示例 | `skill-content/references/examples.md` · `skill-content/references/examples-as-contract.md` |
 
 **从既有素材转**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ 提示词 → 技能 | `prompt-to-skill.md` |
-| 迁移/重构既有提示词 | `prompt-migration.md` |
-| 判断该做成哪一类 | `skill-types.md`（Anthropic 九种类型） |
-| 看真实范例 | `real-examples.md` |
+| ⭐ 提示词 → 技能 | `skill-content/references/prompt-to-skill.md` |
+| 迁移/重构既有提示词 | `skill-content/references/prompt-migration.md` |
+| 判断该做成哪一类 | `skill-content/references/skill-types.md`（Anthropic 九种类型） |
+| 看真实范例 | `skill-content/references/real-examples.md` |
 
 ## Critical Rules
 

@@ -1,7 +1,7 @@
 # CI 里能验证什么、不能验证什么
 
-> 相关：《skill-evaluating》的 `skill-test-pyramid-four.md`（L1 契约 / L2 触发 / L3 执行 / L4 benchmark）·
-> `assert-on-environment.md`（pass^5）· `benchmark-assertions-delta.md`（delta 判读）
+> 相关：《skill-evaluating》的 `skill-evaluating/references/skill-test-pyramid-four.md`（L1 契约 / L2 触发 / L3 执行 / L4 benchmark）·
+> `skill-evaluating/references/assert-on-environment.md`（pass^5）· `skill-evaluating/references/benchmark-assertions-delta.md`（delta 判读）
 > 前置：那份讲⭐ 测试金字塔的四层，
 > 这份讲⭐⭐⭐⭐ ⭐ 哪几层能进 CI + ⭐⭐⭐⭐⭐ 一条⭐ 必须记住的⭐ 边界。
 
@@ -42,9 +42,9 @@
 >
 > ⭐⭐⭐⭐⭐ 这⭐ 与我们已有的⭐ 多条结论⭐ 精确对齐：
 > ```
-> "YAML 通过但技能仍失败" ←→ ⭐⭐⭐⭐⭐ `yaml-frontmatter-errors.md` 的⭐ 半可用态
-> "结构正确的废话"        ←→ ⭐⭐⭐⭐⭐ `three-failure-modes.md` 的⭐ 静默失败
-> "断言打在环境状态上"    ←→ ⭐⭐⭐⭐ `assert-on-environment.md` 不能只检查它说了什么
+> "YAML 通过但技能仍失败" ←→ ⭐⭐⭐⭐⭐ `skill-loading/references/yaml-frontmatter-errors.md` 的⭐ 半可用态
+> "结构正确的废话"        ←→ ⭐⭐⭐⭐⭐ `skill-triggering/references/three-failure-modes.md` 的⭐ 静默失败
+> "断言打在环境状态上"    ←→ ⭐⭐⭐⭐ `skill-evaluating/references/assert-on-environment.md` 不能只检查它说了什么
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 三条⭐ 从不同角度⭐ 指向同一件事：
 > ⭐⭐⭐⭐⭐ **结构层的通过⭐ 从来不是⭐ 行为层的证据。**
@@ -64,25 +64,25 @@
    ←→ ⭐⭐⭐⭐⭐ 半可用态（手动能调、自动不能）
 
 ② ⭐⭐⭐⭐⭐ name 字段格式：小写、连字符、数字，≤64 字符
-   ←→ ⭐⭐⭐⭐⭐ `naming-conventions.md`：kebab-case 是协议不是风格
+   ←→ ⭐⭐⭐⭐⭐ `skill-structuring/references/naming-conventions.md`：kebab-case 是协议不是风格
 
 ③ ⭐⭐⭐⭐⭐ description 存在且 <1,536 字符
-   ←→ ⭐⭐⭐⭐⭐ `imperative-style.md`：超出被截断，⭐ 主要用例必须前置
+   ←→ ⭐⭐⭐⭐⭐ `skill-crafting/references/imperative-style.md`：超出被截断，⭐ 主要用例必须前置
 
 ④ ⭐⭐⭐⭐⭐ 名字含 deploy / commit / send / delete / migrate / push 的
    ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 必须设 disable-model-invocation: true
-   ←→ ⭐⭐⭐⭐⭐ `seven-contracts.md` 与 `forty-skills-lessons.md` 的⭐ 副作用红线
+   ←→ ⭐⭐⭐⭐⭐ `skill-execution/references/seven-contracts.md` 与 `skill-authoring/references/forty-skills-lessons.md` 的⭐ 副作用红线
 ```
 
 > ⭐⭐⭐⭐⭐ 第 ④ 条⭐ 是⭐ 本轮最值得抄的一条——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 它把⭐ 我们反复收集的⭐ "副作用技能必须手动触发"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 从⭐ 一条⭐ 靠人记住的规则，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 变成了⭐ **一条⭐ 可按名字自动判定的⭐ 机械检查**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ （正是⭐ `golden-rules-failure-modes.md` 说的⭐ "规则升级为代码"）。
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ （正是⭐ `skill-patterns/references/golden-rules-failure-modes.md` 说的⭐ "规则升级为代码"）。
 >
 > ⭐⭐⭐⭐ 另外两项：
 > ⭐⭐⭐⭐ **引用的文件是否存在**（scripts/ references/ templates/）——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 直接命中 `three-failure-modes.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 直接命中 `skill-triggering/references/three-failure-modes.md` 那条
 > "⭐ 引用了不存在的模板 → 模型自己补内容 → ⭐⭐⭐⭐⭐ ⭐ 幻觉的来源之一"；
 > ⭐⭐⭐⭐ 以及⭐ **脚本语法检查**（shellcheck / py_compile）。
 
@@ -125,7 +125,7 @@ jobs:
 > **② ⭐⭐⭐⭐⭐ eval 套件是"活的"**
 > ⭐⭐⭐⭐⭐ **"⭐ 随着模型变强，⭐ 曾经⭐ 有区分度的用例⭐ 会⭐ 不再有区分度，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 必须⭐ 从持续的监控中⭐ 补充新的。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skillsbench-vs-realworld.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-evaluating/references/skillsbench-vs-realworld.md` 那条
 > "⭐ 模型升级后⭐ 部分技能⭐ 被追上（outgrowth）"⭐ 是⭐ 同一事实的⭐ 运维侧说法：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **评测集⭐ 会过期，⭐⭐⭐⭐⭐ ⭐⭐⭐ 因为它⭐ 测的是⭐ 模型与技能之间的⭐ 差值。**
 >
@@ -149,7 +149,7 @@ jobs:
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 最后这个比值⭐ 特别好——⭐ **它直接测量⭐ 这套门禁⭐ 有没有真的⭐ 拦住东西**，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而不是⭐ 只测"它跑了没有"。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 这与 `skill-health-metrics.md` 的"指标是问诊工具"⭐ 同源。
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 这与 `skill-triggering/references/skill-health-metrics.md` 的"指标是问诊工具"⭐ 同源。
 
 ---
 
@@ -174,7 +174,7 @@ jobs:
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 两者⭐ 不等价。**
 >
 > ⭐⭐⭐⭐ 反馈速度也给了具体数字：**从 push 到 CI 结果 ⭐ 不到 30 秒**。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这与 `skill-test-pyramid-four.md` 的"⭐ 瞬时失败自动重试 1 次"
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这与 `skill-evaluating/references/skill-test-pyramid-four.md` 的"⭐ 瞬时失败自动重试 1 次"
 > ⭐⭐⭐ ⭐ 是⭐ 同一个立场：⭐ **门禁要快，⭐⭐⭐⭐⭐ ⭐⭐⭐ 否则⭐ 会被绕开。**
 
 ---
@@ -216,7 +216,7 @@ jobs:
 
 > ⭐⭐⭐⭐⭐ 后半句⭐ 是⭐ 一条⭐ 此前没有的⭐ 判据：
 > ⭐⭐⭐⭐⭐ **"多具体才算够具体"⭐ 取决于⭐ 技能的范围宽度，⭐ 不是绝对值。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与我们已有的⭐ `description-by-collision-risk.md`
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与我们已有的⭐ `skill-triggering/references/description-by-collision-risk.md`
 > （⭐ 长度由碰撞风险决定）⭐ 是⭐ 同一思路的⭐ 另一个维度：
 > ```
 > 碰撞风险 → 决定⭐ 要不要写 NOT 段
@@ -238,7 +238,7 @@ jobs:
 2 = 配置或运行时错误（⭐⭐⭐ 工具本身跑不起来）
 ```
 
-> ⭐⭐⭐⭐⭐ 这与 `script-cli-contract.md` 的⭐ 退出码分级⭐ 是⭐ 同一个原则：
+> ⭐⭐⭐⭐⭐ 这与 `skill-scripting/references/script-cli-contract.md` 的⭐ 退出码分级⭐ 是⭐ 同一个原则：
 > ⭐⭐⭐⭐⭐ **1 和 2 ⭐ 对应的⭐ 处置完全不同（改技能 vs 修工具），
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 它们⭐ 都是"非 0"。**
 

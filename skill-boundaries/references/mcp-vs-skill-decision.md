@@ -36,7 +36,7 @@ MCP server 暴露 create_issue / search_issues / update_issue
 ⭐ server 是肌肉，技能是训练。谁也替代不了谁。
 ```
 
-呼应 `protocol-layering.md` 那句更底层的表述：
+呼应 `skill-composition/references/protocol-layering.md` 那句更底层的表述：
 **MCP 假设"工具是你的"；A2A 假设"agent 是别人的"**。
 
 ## 五问决策法
@@ -89,7 +89,7 @@ MCP server 暴露 create_issue / search_issues / update_issue
 > ⭐ 表里最关键的一行是**运行时**：
 > server 是活的进程，技能是死的文本。
 > 这决定了它们各自擅长什么——也决定了**技能无法授予工具访问权**
-> （呼应 `claude-md-vs-skill.md`，**`skill-crafting`**）。
+> （呼应 `skill-scoping/references/claude-md-vs-skill.md`，**`skill-crafting`**）。
 
 ## 什么时候两个都要
 
@@ -107,7 +107,7 @@ MCP server 暴露 create_issue / search_issues / update_issue
 > **技能才是差异化的地方**——
 > 两个技能用同样的 MCP，可以编码完全不同的专业知识。
 
-呼应 `mcp-composition.md`（**`skill-orchestration`**）的三层栈：
+呼应 `skill-composition/references/mcp-composition.md`（**`skill-orchestration`**）的三层栈：
 
 ```
 能力层（MCP）→ 指令层（技能）→ 编排层（agent）

@@ -1,17 +1,17 @@
 ---
 name: skill-chaining
-description: 把多个技能串成一条链——编排器、扇入扇出、组合模式、协议分层、MCP 组合。用于「这个任务需要几个技能按顺序/并行协作」「要不要写编排器」「技能之间怎么组合」「组合后失败怎么定位」。不用于单技能内部流程（见 skill-execution）、技能间接口契约（见 skill-interfaces）、触发哪个技能的路由决策（见 skill-orchestration）。
+description: 该不该把多个技能串成链，以及链了之后失败会长成什么样——升级阈值、过早编排、链式失败三种形状、覆盖率与 partial 传递。用于「这个任务要不要用几个技能协作」「链跑出来的结果不对但不知道哪一级错了」。不用于组合的具体写法（见 skill-composition）、技能间接口契约（见 skill-interfaces）、触发哪个技能的路由决策（见 skill-orchestration）。
 license: MIT
 ---
 
-# 技能链：把多个技能串起来
+# 技能链：该不该串，串了会怎么坏
 
 > 前置：《skill-authoring》（单技能怎么写）·《skill-execution》（单个技能怎么跑）·
-> 《skill-interfaces》（技能间接口契约）·《skill-orchestration》（路由与仲裁）
+> 《skill-interfaces》（技能间接口契约）
 > 分工：
 > 《skill-orchestration》决定⭐ **调哪个**；
-> 本技能决定⭐⭐⭐⭐⭐ **调完之后它们怎么协作**；
-> 《skill-interfaces》定⭐⭐⭐ **它们之间传什么**。
+> 《skill-composition》决定⭐⭐⭐⭐ **它们按什么形状组合**；
+> 本技能决定⭐⭐⭐⭐⭐ **该不该串，以及串了之后失败长什么样**。
 
 ---
 
@@ -19,11 +19,8 @@ license: MIT
 
 - [1. ⭐⭐⭐⭐⭐ 先问：真的需要链吗](#1--真的需要链吗)
 - [2. ⭐⭐⭐⭐⭐ 链式失败的形状](#2--链式失败的形状)
-- [3. 组合的四种形态](#3-组合的四种形态)
-- [4. ⭐⭐⭐⭐⭐ 编排器：写还是不写](#4--编排器写还是不写)
-- [5. ⭐⭐⭐⭐⭐ 扇出与扇入](#5--扇出与扇入)
-- [6. ⭐⭐⭐⭐⭐ 协议分层](#6--协议分层)
-- [7. 速查](#7-速查)
+- [3. 何时不用](#3-何时不用)
+- [4. 速查](#4-速查)
 
 ---
 
@@ -45,7 +42,7 @@ license: MIT
    → 那时才写编排器
 ```
 
-判据（与《skill-scoping》的 `no-op-and-value.md` 同构）：
+判据（与 `skill-scoping/references/no-op-and-value.md` 同构）：
 
 > ⭐⭐⭐⭐⭐ **如果模型不编排也会自己串起来，这个编排器没有价值。**
 
@@ -74,85 +71,19 @@ A → B → C 中 B 出错
 > ⭐⭐⭐⭐⭐ 第三种最危险：⭐⭐⭐⭐ **每一级都在正常完成自己的工作**，
 > ⭐⭐⭐⭐⭐ 合起来把一个错误加工成了一份看起来成功的报告。
 
----
-
-## 3. 组合的四种形态
-
-| 形态 | 结构 | ⭐ 失败点 |
-|---|---|---|
-| 顺序链 | A → B → C | ⭐⭐⭐⭐ 中间产物 |
-| ⭐⭐⭐⭐⭐ 扇出扇入 | A → {B,C,D} → 汇总 | ⭐⭐⭐⭐⭐ 部分成功 |
-| ⭐⭐⭐⭐ 条件分支 | 按输入选一条 | ⭐⭐⭐⭐ 分支未覆盖输入 |
-| ⭐⭐⭐ 流水线 | 每级产出一个产物 | ⭐⭐⭐⭐⭐ 错误被逐级改写 |
-
-依赖类型与三个反模式见 `composition-patterns-types.md`（隐式依赖最隐蔽：
-⭐⭐⭐⭐⭐ **单独测试完全看不出来，只在生产"被单独调用"时暴露**）。
+⭐⭐⭐⭐⭐ 唯一的结构性对策是**每级显式检查上游状态**——
+不能靠"下游自然会发现问题"，因为下游拿到的仍然是格式正确的输入。
 
 ---
 
-## 4. ⭐⭐⭐⭐⭐ 编排器：写还是不写
-
-三条判据，全中才写：
-
-```
-① ⭐⭐⭐⭐⭐ 顺序必须强制（换一条路走你介意吗？介意才是编排器）
-② ⭐⭐⭐⭐ 至少三个技能
-③ ⭐⭐⭐⭐ 已经手动搬运过 3 次以上
-```
-
-> ⭐⭐⭐⭐⭐ 只中①不中②③ → ⭐⭐⭐⭐ **应该写成脚本或工作流，不是编排器**。
-> 这与"顺序=确定性=该交给代码"是同一条原则。
-
-编排器本身也是技能，遵守同样约束（**它也会过时、也会被跳步骤、也会有占位符**）。
-
----
-
-## 5. ⭐⭐⭐⭐⭐ 扇出与扇入
-
-并行让失败形状变了：
-
-| | 串行 | ⭐ 并行 |
-|---|---|---|
-| 失败时状态 | 卡在某步 | ⭐⭐⭐⭐⭐ N 个半成品 |
-| 报错 | 一个 | ⭐⭐⭐⭐⭐ 可能 0 个 |
-
-> ⭐⭐⭐⭐⭐ **N 个半成品：每个单独看都是成功的，合起来是错的，没有任何组件会报错。**
-
-三条硬规则：
-
-```
-① ⭐⭐⭐⭐⭐ 汇总时必须报覆盖率（"3 个来源中 2 个成功，覆盖率 67%"）
-② ⭐⭐⭐⭐⭐ 部分成功必须传 partial，下游不得按全量处理
-③ ⭐⭐⭐⭐ 顺序敏感性测试：A→B 与 B→A 结果不同 → 禁止并行
-```
-
-第 ③ 条的价值在于：**不需要你事先知道依赖在哪**。
-
----
-
-## 6. ⭐⭐⭐⭐⭐ 协议分层
-
-```
-MCP     = ⭐⭐⭐⭐⭐ 世界的形状（有什么能力）
-技能     = ⭐⭐⭐⭐⭐ 做事的方法（怎么用这些能力）
-编排器   = ⭐⭐⭐⭐ 什么时候用哪个
-```
-
-> ⭐⭐⭐⭐⭐ **MCP 是普通话，技能是方言。**
-> 混淆这两层的典型症状：把"有什么能力"写进技能 → 换个 MCP 就全错；
-> 把"怎么用"写进 MCP → 能力被绑死在一个用法上。
-
-组合模式与失败不对称见 `mcp-composition.md` 与 `protocol-layering.md`。
-
----
-
-## 7. 何时不用
+## 3. 何时不用
 
 ```
 Do NOT 用于：
-❌ 单技能内部的步骤顺序 —— 那是《skill-execution》的 `sequential-dependency.md`
-❌ 技能之间传什么字段 —— 那是《skill-interfaces》的 `handoff-payload-contract.md`
+❌ 单技能内部的步骤顺序 —— 那是《skill-execution》的 `skill-execution/references/sequential-dependency.md`
+❌ 技能之间传什么字段 —— 那是《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`
 ❌ 决定触发哪一个技能 —— 那是《skill-orchestration》的路由
+❌ 组合形态、编排器写法、扇出扇入规则 —— 那是《skill-composition》
 ❌ ⭐⭐⭐⭐⭐ 顺序必须强制且只有一两个技能 —— 改用脚本或工作流
 ❌ 任务本身不稳定、每次流程都不同 —— 那是"对话"，不是链
 ```
@@ -162,18 +93,21 @@ Do NOT 用于：
 
 ---
 
-## 8. 速查
+## 4. 速查
 
 | 症状 | 先看 |
 |---|---|
-| ⭐⭐⭐⭐⭐ 报错的技能不是真正出错的技能 | `composition-patterns-types.md`（隐式依赖） |
-| ⭐⭐⭐⭐⭐ 汇总结果比预期少但不报错 | `partial-aggregation.md` | ⭐⭐⭐⭐⭐ "共200条"真实且误导；⭐⭐⭐⭐⭐ 缺失不是随机的会扭曲趋势；⭐⭐⭐⭐⭐ 分母必须来自扇出清单 |
-| `fan-out-fan-in.md` |
-| ⭐⭐⭐⭐⭐ 该不该写编排器 | `orchestrator-timing.md` |
-| ⭐⭐⭐⭐ 技能互相读对方的临时字段 | `skill-data-passing.md` |
-| ⭐⭐⭐⭐ MCP 与技能职责混淆 | `mcp-composition.md` |
-| ⭐⭐⭐⭐ 两个技能都要改同一份文件 | 《skill-orchestration》的 `collision-arbitration.md` |
-| ⭐⭐⭐ 组合后注入面变大 | `prompt-injection.md` |
+| ⭐⭐⭐⭐⭐ 报错的技能不是真正出错的技能 | `skill-orchestration/references/composition-patterns-types.md`（隐式依赖） |
+| ⭐⭐⭐⭐⭐ 汇总结果比预期少但不报错 | `skill-chaining/references/partial-aggregation.md` |
+| ⭐⭐⭐⭐⭐ 报错的技能不是出错的技能、不知断在哪一级 | `skill-chaining/references/chain-failure-localization.md` |
+| ⭐⭐⭐⭐⭐ 该不该写编排器 | `skill-orchestration/references/orchestrator-timing.md` |
+| ⭐⭐⭐⭐ 技能互相读对方的临时字段 | `skill-interfaces/references/skill-data-passing.md` |
+| ⭐⭐⭐⭐ 两个技能都要改同一份文件 | `skill-orchestration/references/collision-arbitration.md` |
+| ⭐⭐⭐ 组合后注入面变大 | `skill-orchestration/references/prompt-injection.md` |
+
+> ⭐⭐⭐⭐⭐ 汇总那条的三个要点：
+> ⭐⭐⭐⭐⭐ "共 200 条"真实且误导；⭐⭐⭐⭐⭐ 缺失不是随机的会扭曲趋势；
+> ⭐⭐⭐⭐⭐ 分母必须来自扇出清单，不能来自"成功返回的条数"。
 
 ---
 
@@ -181,12 +115,9 @@ Do NOT 用于：
 
 | 参考文件 | 何时读 |
 |---|---|
-| `composition-patterns-types.md` | ⭐⭐⭐⭐⭐ 四种依赖类型、三个反模式、隐式依赖 |
-| `orchestrator-timing.md` | ⭐⭐⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写 |
-| `fan-out-fan-in.md` | ⭐⭐⭐⭐⭐ 扇出并行、汇总、覆盖率 |
-| `skill-composition-patterns.md` | ⭐⭐⭐⭐ 组合的具体写法 |
-| `skill-chaining-composition.md` | ⭐⭐⭐⭐ 顺序链的产物传递 |
-| `composable-patterns.md` | ⭐⭐⭐⭐ 可组合性设计 |
-| `mcp-composition.md` | ⭐⭐⭐⭐ MCP 与技能的分层组合 |
-| `protocol-layering.md` | ⭐⭐⭐⭐ 协议分层原则 |
-| `composition.md` | ⭐⭐⭐ 组合总览 |
+| `skill-chaining/references/partial-aggregation.md` | ⭐⭐⭐⭐⭐ 汇总的覆盖率、缺失偏差、分母来源 |
+| `skill-chaining/references/chain-failure-localization.md` | ⭐⭐⭐⭐⭐ 链路 ID、从后往前二分定位、每级检查上游状态 |
+| `skill-orchestration/references/composition-patterns-types.md` | ⭐⭐⭐⭐⭐ 四种依赖类型、三个反模式、隐式依赖 |
+| `skill-orchestration/references/orchestrator-timing.md` | ⭐⭐⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写 |
+| `skill-composition/references/fan-out-fan-in.md` | ⭐⭐⭐⭐⭐ 扇出并行、汇总、覆盖率 |
+| `skill-composition/references/protocol-layering.md` | ⭐⭐⭐⭐ MCP 与技能的分层原则 |

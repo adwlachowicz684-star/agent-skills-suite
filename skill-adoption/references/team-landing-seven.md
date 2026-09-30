@@ -1,8 +1,8 @@
 # 团队落地：七原则、三层分发、三步走
 
-> 相关：《skill-adoption》的 `adoption-playbook.md` ·
-> `adoption-metrics.md` · `team-conventions-pr.md` ·
-> `enterprise-registry.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/adoption-playbook.md` ·
+> `skill-adoption/references/adoption-metrics.md` · `skill-adoption/references/team-conventions-pr.md` ·
+> `skill-distribution/references/enterprise-registry.md`
 > 前置：那些讲"怎么推广、怎么度量、怎么定规范、怎么建注册中心"，
 > 这份给⭐ **一份从零开始的落地路线**。
 
@@ -37,8 +37,8 @@
 > 而从"高频返工点"切入的会立刻见效。
 
 第 ④ 条对应 Anthropic 的 Gotchas 章节（信号密度最高）；
-第 ⑤ 条对应 `deterministic-scripts.md`；
-第 ⑦ 条对应 `dead-skill-detection.md` 与 `skill-scope-tiering.md`。
+第 ⑤ 条对应 `skill-scripting/references/deterministic-scripts.md`；
+第 ⑦ 条对应 `skill-governance/references/dead-skill-detection.md` 与 `skill-refining/references/skill-scope-tiering.md`。
 
 > ⭐ 这七条其实是前面所有方法论的**落地浓缩版**——
 > 每一条都能在主套件里找到对应的详细文档。
@@ -58,7 +58,7 @@
 
 > ⭐ 三层结构本身不新鲜，值得学的是**"上层注册表"这一层**：
 > 它把"安装/更新/同步"从手工复制变成了可管理的动作
-> ——正是 `cross-agent-portability.md` 说的"绝不手抄副本"。
+> ——正是 `skill-distribution/references/cross-agent-portability.md` 说的"绝不手抄副本"。
 
 **治理流程**（接在注册表上的那道闸）：
 
@@ -108,7 +108,7 @@ Draft → Review → Online v1.1.0 → ⭐ 灰度 Gray → 全量 Full rollout
 
 > ⭐ 第 ③ 条解释了为什么选"天天做"的任务：
 > **不是为了省最多时间，是为了让收益可见、从而形成正循环**
-> ——呼应 `adoption-playbook.md` 的"工程师选了最糟糕的第一个任务"。
+> ——呼应 `skill-adoption/references/adoption-playbook.md` 的"工程师选了最糟糕的第一个任务"。
 
 **第二步：完善体系、全团队铺开（1 个月左右）**
 
@@ -142,8 +142,8 @@ Draft → Review → Online v1.1.0 → ⭐ 灰度 Gray → 全量 Full rollout
    → ⭐ 具体扫代码、查问题交给工具去做
 ```
 
-> ⭐ 这条与 `mcp-integration-patterns.md` 的"MCP 给能力、技能给护栏"、
-> `script-engineering.md` 的"脚本兜底确定性工作"是同一条原则：
+> ⭐ 这条与 `skill-orchestration/references/mcp-integration-patterns.md` 的"MCP 给能力、技能给护栏"、
+> `skill-scripting/references/script-engineering.md` 的"脚本兜底确定性工作"是同一条原则：
 > **技能负责标准，执行交给确定性系统。**
 
 **配套规矩**（有技术规范没用，得有协作规则）：

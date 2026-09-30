@@ -1,7 +1,7 @@
 # 技能与 MCP：两层架构，以及失败方式的不对称
 
-> 相关：《skill-boundaries》的 `five-layer-choice.md` · `four-way-choice.md` ·
-> 《skill-orchestration》的 `routing-tiers-and-arbitration.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md` · `skill-boundaries/references/four-way-choice.md` ·
+> 《skill-orchestration》的 `skill-orchestration/references/routing-tiers-and-arbitration.md`
 > 前置：那份讲⭐ 五层选型的判据，
 > 这份讲⭐⭐⭐⭐ ⭐ 技能与 MCP ⭐ 这一对⭐ 最容易选错的组合 +
 > ⭐⭐⭐⭐⭐ 一条⭐ 关于⭐ 两者失败方式⭐ 完全相反 ⭐ 的洞察。
@@ -54,7 +54,7 @@
 >        是 → 技能
 >        否 → ⭐ 重新想清楚你到底要什么
 > ```
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与我们已有的⭐ `five-layer-choice.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与我们已有的⭐ `skill-boundaries/references/five-layer-choice.md` 那条
 > "⭐ 指令里出现 query / fetch / look up / current state → ⭐⭐⭐⭐⭐ ⭐ 几乎肯定需要 MCP"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 完全同源——⭐ 两个独立来源，⭐⭐⭐⭐⭐ ⭐ 同一判据。
 
@@ -97,7 +97,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 推论：⭐⭐⭐⭐⭐ **技能需要的⭐ 不是"更多监控"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而是⭐ 一种⭐ 现有监控⭐ 天然⭐ 不提供的⭐ 东西——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 即⭐ "本该触发却没触发" 的⭐ 检出能力**
-> （这也正是 `skill-observability.md` 里⭐ 决策日志⭐ 存在的理由）。
+> （这也正是 `skill-automation/references/skill-observability.md` 里⭐ 决策日志⭐ 存在的理由）。
 
 ---
 
@@ -122,7 +122,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 顺带一条⭐ 设计提醒：
 > ⭐⭐⭐⭐ **"MCP 工具的响应可能很冗长。⭐⭐⭐⭐⭐ ⭐ 设计输出时要简洁：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 返回 agent 需要的，⭐ 而不是⭐ 你有的。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `three-crash-scenes.md` 那起
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-recovery/references/three-crash-scenes.md` 那起
 > "⭐ 脚本输出 3 万字塞爆上下文"⭐ 是⭐ 同一个错误的⭐ 两个发生位置：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **输出侧的浪费，⭐⭐⭐⭐⭐ ⭐⭐⭐ 在脚本和 MCP 上⭐ 都同样致命。**
 
@@ -164,7 +164,7 @@
 > ⭐⭐⭐⭐⭐ 还有一个⭐ 此前没收过的⭐ 观察：
 > ⭐⭐⭐⭐⭐ **"在 headless 和 CI 场景中——⭐⭐⭐⭐⭐ ⭐⭐⭐ 没人在旁边⭐ 纠正一次糟糕的即兴发挥——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 技能层⭐ 比人们预想的⭐ 更重要。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 正好⭐ 补上了 `ci-skill-validation.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 正好⭐ 补上了 `skill-automation/references/ci-skill-validation.md` 那条
 > "⭐ CI 不能测行为"⭐ 的⭐ 另一半：⭐ **正因为 CI 里没人看着，⭐⭐⭐⭐⭐ ⭐⭐⭐ 技能才更要写好。**
 
 ---
@@ -194,7 +194,7 @@
 >
 > ⭐⭐⭐⭐ 还有一条⭐ 关于⭐ 不确定时怎么办：
 > ⭐⭐⭐⭐⭐ **"⭐ 不确定就从技能开始——⭐⭐⭐⭐⭐ ⭐⭐⭐ 它几分钟就能写出来。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `orchestrator-timing.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-orchestration/references/orchestrator-timing.md` 的
 > "⭐ 先做第一个技能、再做第二个，⭐⭐⭐⭐⭐ ⭐⭐⭐ 搬了三次才写编排器"⭐ 是⭐ 同一策略：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **从便宜的那一层起步，⭐⭐⭐⭐⭐ ⭐⭐⭐ 让证据⭐ 决定⭐ 要不要升级。**
 

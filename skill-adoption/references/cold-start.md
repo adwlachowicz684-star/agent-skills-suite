@@ -1,8 +1,8 @@
 # 冷启动：第一个技能该做哪个
 
-> 相关：《skill-adoption》的 `adoption-playbook.md` ·
-> 《skill-adoption》的 `team-adoption.md` ·
-> 《skill-content》的 `skill-types.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/adoption-playbook.md` ·
+> 《skill-adoption》的 `skill-adoption/references/team-adoption.md` ·
+> 《skill-content》的 `skill-content/references/skill-types.md`
 
 ---
 
@@ -22,7 +22,7 @@
 >
 > **他们选了最糟糕的第一个任务。**
 
-这是团队推广的头号卡点（见 `team-adoption.md`）。
+这是团队推广的头号卡点（见 `skill-adoption/references/team-adoption.md`）。
 第一个技能的目的是**建立信任**，不是挑战最难的问题。
 
 ---
@@ -72,7 +72,7 @@ agent 擅长的是：
 ⑤ 再考虑给团队
 ```
 
-这与 `catalog-shape.md` 的"渐进复杂度三版本"一致：
+这与 `skill-refining/references/catalog-shape.md` 的"渐进复杂度三版本"一致：
 **先让它能跑，再按测出来的缺口加层。**
 
 ---

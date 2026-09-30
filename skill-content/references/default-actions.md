@@ -1,10 +1,10 @@
 # 技能的默认动作：什么都不写时，模型会做什么
 
-> 相关：《skill-content》的 `instruction-ordering.md`（五段式骨架）·
-> 《skill-crafting》的 `vague-word-blacklist.md`（含糊词）·
-> `system-prompt-structure.md`（省略不是中性动作）·
-> 《skill-scoping》的 `scope-section.md`（Out of scope 指向替代方案）·
-> 《skill-execution》的 `readonly-vs-writing-skills.md`
+> 相关：《skill-content》的 `skill-content/references/instruction-ordering.md`（五段式骨架）·
+> 《skill-crafting》的 `skill-precision/references/vague-word-blacklist.md`（含糊词）·
+> `skill-crafting/references/system-prompt-structure.md`（省略不是中性动作）·
+> 《skill-scoping》的 `skill-scoping/references/scope-section.md`（Out of scope 指向替代方案）·
+> 《skill-execution》的 `skill-execution/references/readonly-vs-writing-skills.md`
 > 前置：那些讲⭐⭐⭐ 什么该写、⭐⭐⭐⭐ 歧义的代价，
 > 这份讲⭐⭐⭐⭐⭐ **它的反面**——
 > **每一处省略都在为模型设置一个默认值，而你不知道那个默认值是什么。**
@@ -113,7 +113,7 @@
 
 > ⭐⭐⭐ 这三处的共同点：**都是"异常/边界"路径**。
 > 而我们已经反复看到——**异常路径的规格通常只有一句话，
-> 于是模型就用一句话的方式去补**（见 `execution-error-protocol.md`）。
+> 于是模型就用一句话的方式去补**（见 `skill-recovery/references/execution-error-protocol.md`）。
 
 ---
 
@@ -166,7 +166,7 @@
 > 而它正是"自信的错误"的来源——
 > 模型不是故意隐瞒，是 ⭐⭐⭐ 没有人告诉它"报告自己的失误"是一个被期待的行为。
 
-这与 `eight-practical-lessons.md` 的"给约束不给流程"不冲突：
+这与 `skill-crafting/references/eight-practical-lessons.md` 的"给约束不给流程"不冲突：
 ⭐ **默认动作不是流程，是边界条件**——
 它不规定怎么做，只规定"做不动时怎么办"。
 

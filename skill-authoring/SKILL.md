@@ -29,10 +29,10 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 > ⭐ **先手写跑一遍，再封装**：重复做过 5 次以上、未来还做 10 次以上的事才值得做成技能。
 
 ## 路由表（按需深读，不要一次全读）
-| `forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
-| `output-contract-first-order.md` | ⭐⭐⭐⭐⭐ 先写输出契约再写流程；⭐⭐⭐⭐⭐ 写不出输出契约=不该做技能；⭐⭐⭐⭐⭐ 流程会反向决定输出 |
-| `seven-step-authoring.md` | ⭐ 七步写第一个技能，含最常被跳过的数据源验证 |
-| `data-source-validation.md` | ⭐ 数据源验证：技能会取到错的数据吗 |
+| `skill-authoring/references/forty-skills-lessons.md` | ⭐⭐ 40个技能后五条硬经验：默认欠触发、先做一遍再写、破坏性改动静默影响全队 |
+| `skill-authoring/references/output-contract-first-order.md` | ⭐⭐⭐⭐⭐ 先写输出契约再写流程；⭐⭐⭐⭐⭐ 写不出输出契约=不该做技能；⭐⭐⭐⭐⭐ 流程会反向决定输出 |
+| `skill-authoring/references/seven-step-authoring.md` | ⭐ 七步写第一个技能，含最常被跳过的数据源验证 |
+| `skill-authoring/references/data-source-validation.md` | ⭐ 数据源验证：技能会取到错的数据吗 |
 
 **起步**：
 
@@ -57,7 +57,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 
 1. **先手工跑一遍任务**，记录反复提供的上下文与模型踩的坑——**那就是技能内容**。没跑过就写 = 凭空想象。
 2. **定边界**：先写"不做什么"，再写"做什么"。
-3. **分类基线失败**：跳步？形状不对？漏元素？依条件而定？→ 决定写法（见 **`skill-crafting`** 的 `guidance-forms.md`）。
+3. **分类基线失败**：跳步？形状不对？漏元素？依条件而定？→ 决定写法（见 **`skill-crafting`** 的 `skill-crafting/references/guidance-forms.md`）。
 4. **选模式**：按 `references/patterns.md` 的决策树定结构。
 5. **定自由度**：脆弱易错 → 精确脚本；开放多变 → 文本指令。
 6. **写 `SKILL.md`**（路由层，目标 100–150 行，硬上限 500）。

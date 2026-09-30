@@ -56,7 +56,7 @@
    → 只是把一团乱的 Prompt 变成一团乱的 Markdown
 ```
 
-呼应 `prompt-migration.md`（**`skill-authoring`**）：
+呼应 `skill-content/references/prompt-migration.md`（**`skill-authoring`**）：
 真正的 SKILL.md 是**技能封装协议**，不是 Markdown 化的角色设定。
 
 ## 判据：一致性 vs 创造性
@@ -97,7 +97,7 @@
 | ⭐ 需要连外部系统 | **MCP server** |
 | ⭐ 需要补领域知识（事实性） | **RAG / references 检索** |
 
-呼应 `claude-md-vs-skill.md`（**`skill-crafting`**）的四选一判据：
+呼应 `skill-scoping/references/claude-md-vs-skill.md`（**`skill-crafting`**）的四选一判据：
 
 ```
 每轮为真          → CLAUDE.md
@@ -106,7 +106,7 @@
 该读不该守        → docs
 ```
 
-以及 `mcp-vs-skill-decision.md`（**`skill-selection`**）的五问决策法。
+以及 `skill-boundaries/references/mcp-vs-skill-decision.md`（**`skill-selection`**）的五问决策法。
 
 **还有一个常被忘的**：
 
@@ -124,8 +124,8 @@
 明显更差   → 值得做
 ```
 
-呼应 `skill-lift-eval.md`（**`skill-evaluating`**）与
-`failure-modes.md` 的实证：
+呼应 `skill-quality/references/skill-lift-eval.md`（**`skill-evaluating`**）与
+`skill-triggering/references/failure-modes.md` 的实证：
 
 ```
 □ 39/49 个技能零提升（SWE-Skills-Bench）

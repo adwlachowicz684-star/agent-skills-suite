@@ -1,9 +1,9 @@
 # 技能的可观测性：跑完了，你知道它做了什么吗
 
-> 相关：《skill-automation》的 `skill-observability.md`（调用日志 vs 决策日志）·
-> 《skill-context》的 `skill-cost-attribution.md`（成本归账）·
-> 《skill-governance》的 `observability-trace-debug.md`（用技能调试技能）·
-> 《skill-versioning》的 `skill-evolution-loop.md`（进化信号）
+> 相关：《skill-automation》的 `skill-automation/references/skill-observability.md`（调用日志 vs 决策日志）·
+> 《skill-context》的 `skill-context/references/skill-cost-attribution.md`（成本归账）·
+> 《skill-governance》的 `skill-governance/references/observability-trace-debug.md`（用技能调试技能）·
+> 《skill-versioning》的 `skill-versioning/references/skill-evolution-loop.md`（进化信号）
 > 前置：现有文档讲⭐⭐⭐ **记什么日志**、⭐⭐⭐ **怎么读 trace**，
 > 这份讲⭐⭐⭐⭐ **一个被跳过的层次**——
 > **单次执行内部的过程记录**，以及为什么"只有输入和输出"的日志

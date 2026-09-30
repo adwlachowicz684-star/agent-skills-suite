@@ -49,7 +49,7 @@ agent 也许能找到它们，但人类永远不会——
 ```
 
 > ⭐ **采纳是一个搜索问题，和质量问题同等重要。**
-> 呼应 `skill-refining` 的 `discovery-ux.md`。
+> 呼应 `skill-refining` 的 `skill-refining/references/discovery-ux.md`。
 
 **④ 期望错配**
 
@@ -76,7 +76,7 @@ agent 也许能找到它们，但人类永远不会——
 | **维护者 maintainer** | 高流量技能的正确性归属人 |
 | **冠军 champion** | 通常是技术负责人——**示范那个"下意识动作"**，维持社交仪式 |
 
-> 呼应 `library-ops.md`：清库是持续动作，不是一次性项目。
+> 呼应 `skill-distribution/references/library-ops.md`：清库是持续动作，不是一次性项目。
 
 ---
 

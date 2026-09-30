@@ -28,7 +28,7 @@ L3  附加资源（references/ · scripts/ · assets/）
 ```
 
 > ⭐ **这三层就是"渐进式披露"的全部**。
-> 之前 `skill-refining` 的 `context-budget.md` 里那个 34K tokens 的节省，
+> 之前 `skill-refining` 的 `skill-context/references/context-budget.md` 里那个 34K tokens 的节省，
 > 就来自严格区分 L1/L2/L3。
 
 **正文写作的两条纪律**：
@@ -70,7 +70,7 @@ my-skill/
 **引用写法**（每个子文件引用都要写清三件事）：
 
 ```markdown
-For security reviews, see `references/security.md`.
+For security reviews, see security.md.
 ```
 
 ```
@@ -79,7 +79,7 @@ For security reviews, see `references/security.md`.
 □ 读完产出什么
 ```
 
-> 呼应 `skill-refining` 的 `splitting.md`：**一层引用深度**——
+> 呼应 `skill-refining` 的 `skill-refining/references/splitting.md`：**一层引用深度**——
 > references 里不要再链向其他 md。
 
 ---
@@ -162,7 +162,7 @@ UI      Settings → Features
 ```
 
 **额外的四类验证**：触发验证 · 输出一致性 · ⭐ 非专家可用性（同事盲测）· 文档准确性。
-具体测法（5+5 触发测试、真实项目验证）见 `how-to-guide.md`。
+具体测法（5+5 触发测试、真实项目验证）见 `skill-authoring/references/how-to-guide.md`。
 
 ---
 
@@ -217,7 +217,7 @@ description: Reviews code for bugs, security issues, and improvements.
 ```
 
 > ⭐ 注意 description 里的 `Not for ...`——
-> 呼应 `skill-crafting` 的 `guidance-forms.md`：**"NOT for X → 用 Y 代替"是最强的路由提示**。
+> 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`：**"NOT for X → 用 Y 代替"是最强的路由提示**。
 
 ---
 

@@ -35,7 +35,7 @@
 ```
 
 > ⭐ **"先手动做 3–4 遍再封装"**——
-> 呼应 `prompt-to-skill.md` 的录屏生成：
+> 呼应 `skill-content/references/prompt-to-skill.md` 的录屏生成：
 > **它捕捉到了你认为理所当然、却从未写下来的判断**。
 
 ---
@@ -103,7 +103,7 @@ allowed-tools: Read, Write, Grep, Glob
 ```
 
 > ⚠️ `dependencies` 里声明的库在离线环境装不上——
-> 呼应 `skill-distribution` 的 `air-gapped.md`：那种场景要 PEP 723 内联 + 传输时捆绑。
+> 呼应 `skill-distribution` 的 `skill-distribution/references/air-gapped.md`：那种场景要 PEP 723 内联 + 传输时捆绑。
 
 ---
 
@@ -246,7 +246,7 @@ v3 脚本层    加 scripts/ 里的 Python / Shell，自动化复杂逻辑
 ## 交互微模式
 
 > 七个可直接偷的交互模式（标志解析 / 分阶段执行 / 深度校准 /
-> 批评者姿态 / 输出模板 / 迭代闸门 / 默认动作）见 `patterns.md`。
+> 批评者姿态 / 输出模板 / 迭代闸门 / 默认动作）见 `skill-authoring/references/patterns.md`。
 
 ## 自查
 

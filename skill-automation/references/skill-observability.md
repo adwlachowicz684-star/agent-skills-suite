@@ -1,8 +1,8 @@
 # 技能可观测性：日志记什么、指标看什么
 
-> 相关：《skill-governance》的 `telemetry-schema.md` ·
-> 《skill-triggering》的 `trace-debugging.md` · `metrics.md`
-> 前置：`telemetry-schema.md` 讲 Span 结构与 OTel 约定，
+> 相关：《skill-governance》的 `skill-governance/references/telemetry-schema.md` ·
+> 《skill-triggering》的 `skill-triggering/references/trace-debugging.md` · `skill-quality/references/metrics.md`
+> 前置：`skill-governance/references/telemetry-schema.md` 讲 Span 结构与 OTel 约定，
 > 这份讲⭐ 落地时要记录的具体字段与要看的指标。
 
 ---
@@ -141,7 +141,7 @@ latency_ms · retry_count · timestamp
 ```
 
 > ⭐ 这个设计很妙：**不健康的技能不是被删，而是先退出路由。**
-> 与 `retirement-pipeline.md` 的"归档 ≠ 删除"是同一思路。
+> 与 `skill-governance/references/retirement-pipeline.md` 的"归档 ≠ 删除"是同一思路。
 
 ---
 

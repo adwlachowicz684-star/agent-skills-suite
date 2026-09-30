@@ -1,7 +1,7 @@
 # 七步写第一个技能（含最常被跳过的一步）
 
-> 相关：《skill-authoring》的 `how-to-guide.md`（六步上手）·
-> `creation-framework.md`（骨架与流程）
+> 相关：《skill-authoring》的 `skill-authoring/references/how-to-guide.md`（六步上手）·
+> `skill-authoring/references/creation-framework.md`（骨架与流程）
 
 ---
 
@@ -83,7 +83,7 @@
 
 > ⭐ **技能会被调用数百次，且每次都不经复核。**
 
-这与 `grounding-verification.md` 那章的结论完全一致：
+这与 `skill-output/references/grounding-verification.md` 那章的结论完全一致：
 **流程和落地是两件事，现有技能普遍对后者支持不足。**
 
 ---

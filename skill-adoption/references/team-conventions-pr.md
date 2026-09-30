@@ -1,7 +1,7 @@
 # 团队约定与 PR 评审清单
 
-> 相关：《skill-adoption》的 `team-sharing.md` ·
-> `adoption-metrics.md` · 《skill-governance》的 `retirement-pipeline.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/team-sharing.md` ·
+> `skill-adoption/references/adoption-metrics.md` · 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`
 
 ---
 
@@ -232,7 +232,7 @@ exact steps · verification commands · ⭐ known failure modes
 ```
 
 > ⭐ **"已知失败模式"这一项最常被漏**，
-> 但它正是 `skill-types.md` 说的 Gotchas，也是技能价值最高的部分。
+> 但它正是 `skill-content/references/skill-types.md` 说的 Gotchas，也是技能价值最高的部分。
 
 ---
 

@@ -1,8 +1,8 @@
 # 团队命名冲突与上手导入
 
-> 相关：《skill-adoption》的 `team-conventions-pr.md` ·
-> `adoption-metrics.md` · 《skill-structuring》的 `naming-conventions.md`
-> 前置：`naming-conventions.md` 讲 kebab-case 等硬规则，
+> 相关：《skill-adoption》的 `skill-adoption/references/team-conventions-pr.md` ·
+> `skill-adoption/references/adoption-metrics.md` · 《skill-structuring》的 `skill-structuring/references/naming-conventions.md`
+> 前置：`skill-structuring/references/naming-conventions.md` 讲 kebab-case 等硬规则，
 > 这份讲⭐ 多人长期贡献时如何避免撞名，以及新人导入怎么做。
 
 ---
@@ -34,7 +34,7 @@
 ```
 
 > ⭐ 这个前缀向所有人发出信号：**它可能不适用于你的工作**。
-> 与 `skill-overrides-audit.md` 的"个人技能加 `my-` 前缀"是同一招。
+> 与 `skill-patterns/references/skill-overrides-audit.md` 的"个人技能加 `my-` 前缀"是同一招。
 
 **③ ⭐⭐ 绝不遮蔽官方技能名**
 
@@ -54,7 +54,7 @@ description 回答："这做什么？"
 ```
 
 > ⭐ 这段上下文能防止未来的维护者**删掉那些看起来冗余、其实不冗余的技能**。
-> 这与 `write-reasons-not-rules.md` 同源：写原因。
+> 这与 `skill-crafting/references/write-reasons-not-rules.md` 同源：写原因。
 
 **⑤ 约定评审周转时间**
 
@@ -93,7 +93,7 @@ claude-skills/
 ```
 
 > ⭐ 这比"靠大家记住"可靠得多——
-> 与 `preflight-gate.md` 的 STEP 0 前置门禁是同一思路。
+> 与 `skill-execution/references/preflight-gate.md` 的 STEP 0 前置门禁是同一思路。
 
 ---
 

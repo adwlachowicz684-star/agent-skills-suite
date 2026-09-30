@@ -41,7 +41,7 @@
 ```
 
 > ⭐ 这两个卡点都不是"工具不好"的问题——
-> 呼应 `team-adoption.md` 的"信任缺口的负面对称性"。
+> 呼应 `skill-adoption/references/team-adoption.md` 的"信任缺口的负面对称性"。
 
 ---
 
@@ -158,8 +158,8 @@
 □ ⭐ 轻量脉冲调查："这周 agent 帮你省时间了吗？省在什么上？"
 ```
 
-> ⭐ 呼应 `team-adoption.md` 的监控指标与
-> `skill-evaluating` 的 `metrics.md`：
+> ⭐ 呼应 `skill-adoption/references/team-adoption.md` 的监控指标与
+> `skill-evaluating` 的 `skill-quality/references/metrics.md`：
 > **使用率不等于价值**。
 
 ---

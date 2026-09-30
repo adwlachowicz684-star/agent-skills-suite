@@ -1,10 +1,10 @@
 # 先写输出契约，再写流程
 
-> 相关：《skill-authoring》的 `creation-framework.md`（创建框架）·
-> `seven-step-authoring.md` · `no-op-and-value.md`（有没有增量价值）·
-> 《skill-selection》的 `hard-thresholds-matrix.md`（三条硬门槛）·
-> 《skill-output》的 `output-contract.md` ·
-> 《skill-recovery》的 `exit-conditions-when-to-stop.md`
+> 相关：《skill-authoring》的 `skill-authoring/references/creation-framework.md`（创建框架）·
+> `skill-authoring/references/seven-step-authoring.md` · `skill-scoping/references/no-op-and-value.md`（有没有增量价值）·
+> 《skill-selection》的 `skill-selection/references/hard-thresholds-matrix.md`（三条硬门槛）·
+> 《skill-output》的 `skill-output/references/output-contract.md` ·
+> 《skill-recovery》的 `skill-recovery/references/exit-conditions-when-to-stop.md`
 > 前置：
 > 已有两份讲"按什么步骤写"，
 > 这份只讲一件事：⭐⭐⭐⭐⭐ **第一步应该是什么**。
@@ -88,7 +88,7 @@
 
 这是本份最硬的一条，也是与《skill-selection》的接入口：
 
-`hard-thresholds-matrix.md` 第①问是"输出该是什么"。
+`skill-selection/references/hard-thresholds-matrix.md` 第①问是"输出该是什么"。
 
 > ⭐⭐⭐⭐⭐ 如果把那道题提前到动笔之前，
 > ⭐⭐⭐⭐⭐ **它就不是一道评估题，而是一道准入题。**
@@ -171,7 +171,7 @@
 
 > ⭐⭐⭐⭐⭐ **如果去掉技能的这一部分，模型的默认输出里就已经有它了——
 > 那这部分不值得写进输出契约。**
-> （与 `no-op-and-value.md` 的"没有这个技能也会做的事没有价值"同源。）
+> （与 `skill-scoping/references/no-op-and-value.md` 的"没有这个技能也会做的事没有价值"同源。）
 
 ---
 
@@ -188,7 +188,7 @@
 
 | 症状 | ⭐⭐⭐⭐⭐ 缺什么 |
 |---|---|
-| 不知道有多少项 | ⭐⭐⭐⭐⭐ 分母（见 `enumeration-and-completeness.md`） |
+| 不知道有多少项 | ⭐⭐⭐⭐⭐ 分母（见 `skill-output/references/enumeration-and-completeness.md`） |
 | 不知道哪些是确定的 | ⭐⭐⭐⭐⭐ 置信度标记或来源标注 |
 | 不知道有没有漏 | ⭐⭐⭐⭐⭐ 覆盖率或"未覆盖"字段 |
 

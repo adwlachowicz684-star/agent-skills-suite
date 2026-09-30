@@ -23,7 +23,7 @@
 □ ⭐ 是否告诉了 agent 何时加载哪些额外文件？
 ```
 
-最后一条最常被漏：**写了 `references/api-errors.md` 却没说什么时候读，
+最后一条最常被漏：**写了 api-errors.md 却没说什么时候读，
 等于没写**。正确写法是给可判定的触发条件：
 
 ```
@@ -65,7 +65,7 @@
 症状：团队成员跑不同版本的技能，AI 行为差异巨大。
 修法：**项目技能必须随代码库版本控制**；个人技能放独立仓库管理。
 
-> 呼应 `release-versioning.md`（**`skill-distribution`**）。
+> 呼应 `skill-distribution/references/release-versioning.md`（**`skill-distribution`**）。
 
 **④ 技能膨胀但没用**
 症状：装了一堆，实际触发的没几个。

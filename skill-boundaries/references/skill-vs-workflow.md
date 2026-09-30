@@ -1,8 +1,8 @@
 # Skill vs Workflow：一个管怎么做，一个管流转
 
-> 相关：《skill-boundaries》的 `capability-vs-process.md` ·
-> `five-layer-choice.md` · 《skill-orchestration》的
-> `orchestrator-timing.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/capability-vs-process.md` ·
+> `skill-boundaries/references/five-layer-choice.md` · 《skill-orchestration》的
+> `skill-orchestration/references/orchestrator-timing.md`
 > 前置：那些讲"技能 vs MCP vs 子代理"，
 > 这份讲⭐ **技能与工作流引擎的界线**，以及⭐⭐ 两个方向各自会踩的坑。
 
@@ -50,7 +50,7 @@ Workflow   定义⭐「先做 A 再做 B」 → ⭐ 业务流程编排
 > 模型哪天理解偏了，顺序就乱了。
 > **你想保证顺序，就该用 Workflow，别指望模型每次都记得。**
 
-> ⭐ 这与 `determinism-boundary.md` 那条
+> ⭐ 这与 `skill-evaluating/references/determinism-boundary.md` 那条
 > "Hooks 用于模型不可被信任去遵守的事；Skills 用于模型需要知道的事"
 > 是同一原则：**需要保证 → 交给有强制力的层**。
 
@@ -75,7 +75,7 @@ Workflow   定义⭐「先做 A 再做 B」 → ⭐ 业务流程编排
 → ⭐ 凭空多出仪式感，收益为零
 ```
 
-> ⭐ 坑 2 正是 `orchestrator-timing.md` 的
+> ⭐ 坑 2 正是 `skill-orchestration/references/orchestrator-timing.md` 的
 > "过早编排是新的过早抽象"在工作流层面的表现。
 
 ---
@@ -96,7 +96,7 @@ workflow 内容发布：
 
 > ⭐⭐ **"Workflow 定骨架，Skill 写血肉"** —— 这是两者关系最好的表述。
 >
-> 这也解释了为什么 `orchestrator-timing.md` 说
+> 这也解释了为什么 `skill-orchestration/references/orchestrator-timing.md` 说
 > "编排器不干活，它只说明顺序"。
 
 在一个更大的技术栈视角里：
@@ -121,7 +121,7 @@ workflow 内容发布：
 
 > ⭐⭐ 第 ③ 条最有用，因为它把"变更的是什么"变成了判据：
 > **改的是流程 → Workflow；改的是能力 → Skill**。
-> 这跟 `version-changelog-practice.md` 的 MAJOR/MINOR 判据思路一致。
+> 这跟 `skill-versioning/references/version-changelog-practice.md` 的 MAJOR/MINOR 判据思路一致。
 
 **两边共有的风险**（三类，都要防）：
 

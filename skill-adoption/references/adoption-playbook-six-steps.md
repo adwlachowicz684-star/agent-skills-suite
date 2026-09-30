@@ -1,8 +1,8 @@
 # 团队采用六步：多数失败在采用，不在技术
 
-> 相关：《skill-adoption》的 `team-adoption.md`（为什么会卡住·三角色）·
-> `adoption-metrics.md`（先行/滞后指标）·
-> `adoption-playbook.md` · `team-conventions-pr.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/team-adoption.md`（为什么会卡住·三角色）·
+> `skill-adoption/references/adoption-metrics.md`（先行/滞后指标）·
+> `skill-adoption/references/adoption-playbook.md` · `skill-adoption/references/team-conventions-pr.md`
 > 前置：那份讲"为什么会卡住"，
 > 这份讲⭐⭐⭐ **一套完整的推广动作**——
 > 核心判断是：⭐⭐⭐ **部署完就祈祷，是最常见的失败模式。**
@@ -43,8 +43,8 @@
 ```
 
 > ⭐⭐⭐ 这个区分很关键，且与我们此前记的一条完全对上：
-> `worth-skillifying.md` 说"高频是必要条件不是充分条件"，
-> `adoption-metrics.md` 说"测出席率等于什么都没测"——
+> `skill-boundaries/references/worth-skillifying.md` 说"高频是必要条件不是充分条件"，
+> `skill-adoption/references/adoption-metrics.md` 说"测出席率等于什么都没测"——
 > **同一件事在三个层面各说了一次：采用是行为改变问题。**
 
 ---
@@ -103,7 +103,7 @@
 **理想例子**：交易分类 · 工单分诊 · 会议准备摘要 · 邮件初稿。
 
 > ⭐⭐⭐ 第 ④ 条"低风险/错了只是烦人"与我们已有的一条⭐ 完全对上：
-> `team-adoption.md` 说"工程师把 agent 用在手上最棘手的任务上——那个自己都解决不了的——
+> `skill-adoption/references/team-adoption.md` 说"工程师把 agent 用在手上最棘手的任务上——那个自己都解决不了的——
 > 得到平庸结果，于是断定这工具还不行"。
 > **两条独立来源给出同一条：第一个用例必须选"错了也无所谓"的。**
 
@@ -162,10 +162,10 @@
 
 | 本份 | 已有 | 关系 |
 |---|---|---|
-| 第一个用例要低风险 | `team-adoption.md` 的"他们选了最糟糕的第一个任务" | ⭐⭐⭐ 独立来源互证 |
-| 测出席率没用 | `adoption-metrics.md` 的四个行为指标 | 同一条，那份给指标本份给动作 |
-| 行为改变需要更多 | `worth-skillifying.md` 的可授权维度 | 不同层面同一类问题 |
-| champion 10× 说服力 | `team-conventions-pr.md` 的"三个真实 PR 试用后才叫标准" | ⭐ 都强调⭐ 同伴实践 > 自上而下 |
+| 第一个用例要低风险 | `skill-adoption/references/team-adoption.md` 的"他们选了最糟糕的第一个任务" | ⭐⭐⭐ 独立来源互证 |
+| 测出席率没用 | `skill-adoption/references/adoption-metrics.md` 的四个行为指标 | 同一条，那份给指标本份给动作 |
+| 行为改变需要更多 | `skill-boundaries/references/worth-skillifying.md` 的可授权维度 | 不同层面同一类问题 |
+| champion 10× 说服力 | `skill-adoption/references/team-conventions-pr.md` 的"三个真实 PR 试用后才叫标准" | ⭐ 都强调⭐ 同伴实践 > 自上而下 |
 
 **一条诚实的边界**：
 

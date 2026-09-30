@@ -44,7 +44,7 @@ frontmatter 里同理，description 用**动词开头**：
 ```
 
 判据：**这段代码原样复制到别处能跑吗？**
-（见 `writing-style.md` 的占位符陷阱。）
+（见 `skill-content/references/writing-style.md` 的占位符陷阱。）
 
 ## 一条 bullet 一个主张
 
@@ -83,7 +83,7 @@ If the response is 5xx:
   - The server is down. Stop and escalate.
 ```
 
-> ⭐ 这正是 `guidance-forms.md` 里的
+> ⭐ 这正是 `skill-crafting/references/guidance-forms.md` 里的
 > **`if <可观察谓词> then`**——条件必须可执行，不能写"视情况"。
 
 ## 命令要写全
@@ -117,7 +117,7 @@ If the response is 5xx:
      this means >20% of fetched content is being lost"
 ```
 
-这条和 `grounding-verification.md` 的"可观察判据"是同一件事：
+这条和 `skill-output/references/grounding-verification.md` 的"可观察判据"是同一件事：
 **"低"不是判据，"低于 80%"才是。**
 
 ## 约束要就地

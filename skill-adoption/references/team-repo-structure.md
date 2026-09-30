@@ -86,7 +86,7 @@ gh skill install team/team-skills --profile backend
 > （比如 Claude Code 用 `PreToolUse` hook，Copilot 没有）。
 > 用 append 把差异拼在公共内容后面，**公共部分只维护一份**。
 >
-> 呼应 `instruction-layering.md`（**`skill-crafting`**）那条反模式：
+> 呼应 `skill-scoping/references/instruction-layering.md`（**`skill-crafting`**）那条反模式：
 > ❌ 把同一份清单同时粘进多个地方——**三处必然漂移**。
 
 ## 语义化版本
@@ -99,7 +99,7 @@ gh skill install team/team-skills --profile backend
 | **MINOR** | 新增技能，既有行为不变 | 加 `backend/database-patterns.md` |
 | **PATCH** | 错别字、措辞改进，无功能变化 | 修一个拼写 |
 
-呼应 `versioning-compat.md` 那条提醒：
+呼应 `skill-distribution/references/versioning-compat.md` 那条提醒：
 ⭐ **不是每次 description 改进都是安全的**——它会改变触发边界，属 MAJOR。
 
 ## CHANGELOG 的写法
@@ -173,7 +173,7 @@ jobs:
 > 我们踩的正是"文件搬走了，引用还指着裸文件名"这个坑
 > （那次修了 187 处）。**CI 里加这一步就不会再犯。**
 
-呼应 `ci-cd-integration.md`（**`skill-governance`**）：
+呼应 `skill-governance/references/ci-cd-integration.md`（**`skill-governance`**）：
 **Lint/Validate 阻断合并，Security Scan 只警告**。
 
 ## 发布流程

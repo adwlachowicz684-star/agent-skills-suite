@@ -1,8 +1,8 @@
 # 推广度量：先行指标 vs 滞后指标
 
-> 相关：《skill-adoption》的 `adoption-playbook.md` ·
-> 《skill-adoption》的 `team-adoption.md` ·
-> 《skill-governance》的 `skill-min-record-card.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/adoption-playbook.md` ·
+> 《skill-adoption》的 `skill-adoption/references/team-adoption.md` ·
+> 《skill-governance》的 `skill-governance/references/skill-min-record-card.md`
 
 ---
 
@@ -115,7 +115,7 @@
 > ⭐ **强行把每一个好用的小技巧都工程化，
 > 你收获的不是"AI 原生组织"，而是一个半成品 Agent 坟场。**
 
-这与 `worth-skillifying.md` 的三条硬标准互补：
+这与 `skill-boundaries/references/worth-skillifying.md` 的三条硬标准互补：
 那份看**任务本身**，这份看**采纳证据**。
 
 ---

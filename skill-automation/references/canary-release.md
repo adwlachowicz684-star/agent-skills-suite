@@ -103,7 +103,7 @@
 主观质量：抽样**盲评成对**给人工看，评审者不知道哪个是候选。
 用**绑定到产品任务**的 rubric，而不是"你更喜欢哪个"。
 LLM 评委可以帮忙筛量，但要**校准到人工标签**并监控位置/冗长偏差
-（见 `judge-design.md`）。
+（见 `skill-evaluating/references/judge-design.md`）。
 
 ## 前进或回滚要"刻意"
 
@@ -175,11 +175,11 @@ vLLM 场景下可以把路由放在 serving 层，让所有请求（含 gRPC）�
 ① 发布单元：技能版本 + 依赖（脚本、模型、工具集）
    ——写在技能自己的 manifest 或 CHANGELOG 里
 
-② 回归套件：20 条触发 + 输出用例（见 `regression-baseline.md`）
+② 回归套件：20 条触发 + 输出用例（见 `skill-evaluating/references/regression-baseline.md`）
 
 ③ "影子模式" = ⭐ 双实例 A/B
    ——同一个任务，开技能 vs 不开，离线比对
-   （见 `claude-ab-loop.md`）
+   （见 `skill-automation/references/claude-ab-loop.md`）
 
 ④ "小流量" = ⭐ 先给 1–2 个同事用，而不是全团队
    ——技能没有百分比路由，"给人用"就是你的金丝雀

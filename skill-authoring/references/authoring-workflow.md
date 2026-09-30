@@ -141,7 +141,7 @@ Grader 评分 → 聚合基准 → Analyzer 分析 → 用户评审
 > **"对一个薄弱断言给出'通过'的评级，其危害比毫无用处还要糟糕
 > ——它会制造出虚假的信心。"**
 
-这跟 `grounding-verification.md`（**`skill-crafting`**）里
+这跟 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）里
 "未验证就声称成功是不诚实"是同一条原则在评估侧的体现。
 
 ## 贯穿全程的两条纪律

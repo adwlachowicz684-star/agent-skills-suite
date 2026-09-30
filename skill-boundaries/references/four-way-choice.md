@@ -1,8 +1,8 @@
 # 四选一：CLAUDE.md / Rules / Skill / Subagent
 
-> 相关：《skill-boundaries》的 `five-layer-choice.md` ·
-> `skill-vs-subagent-decide.md`（判断轴是隔离）· `context-file-selection.md` ·
-> 《skill-subagents》的 `context-isolation-fork.md`
+> 相关：《skill-boundaries》的 `skill-boundaries/references/five-layer-choice.md` ·
+> `skill-boundaries/references/skill-vs-subagent-decide.md`（判断轴是隔离）· `skill-selection/references/context-file-selection.md` ·
+> 《skill-subagents》的 `skill-subagents/references/context-isolation-fork.md`
 > 前置：那些讲⭐ 两两对比，
 > 这份讲⭐⭐⭐ **官方给出的四者并列对照**——
 > 含⭐⭐⭐⭐ 一个能把⭐ 三种"规则类载体"一次分清的⭐ 加载维度。
@@ -64,7 +64,7 @@
 | ⭐ 关键收益 | ⭐⭐⭐ **跨上下文共享内容** | ⭐⭐⭐ **上下文隔离** |
 
 > ⭐⭐⭐⭐⭐ 官方这个"关键收益"的对比⭐ 极其干净，
-> ⭐⭐⭐⭐ 而且⭐ 和 `skill-vs-subagent-decide.md` 的结论⭐ 完全吻合：
+> ⭐⭐⭐⭐ 而且⭐ 和 `skill-boundaries/references/skill-vs-subagent-decide.md` 的结论⭐ 完全吻合：
 > 那份说⭐ 判断轴是⭐ 隔离而不是大小
 > （"这个任务会因为⭐ 看不见其余对话⭐ 而受益吗？"），
 > ⭐⭐⭐⭐⭐ 这里则给出⭐ 反向的那一半——⭐⭐⭐⭐ **技能的关键收益是"共享"**，
@@ -142,7 +142,7 @@
 > ```
 >
 > ⭐⭐⭐ 第 ② 条虽小但⭐ 会导致静默失败——
-> ⭐⭐⭐⭐ 与 `naming-conventions.md` 里"camelCase 技能注册后⭐ 全部失效"
+> ⭐⭐⭐⭐ 与 `skill-structuring/references/naming-conventions.md` 里"camelCase 技能注册后⭐ 全部失效"
 > ⭐⭐⭐ 同类：⭐⭐⭐ **名字形式的错误不报错，⭐ 只是永远匹配不上。**
 
 ---

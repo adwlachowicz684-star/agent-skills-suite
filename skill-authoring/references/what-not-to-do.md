@@ -1,7 +1,7 @@
 # 不能做的事
 
 > ⭐ **这一份是"禁令清单"。**
-> 但记住 `skill-crafting` 的 `guidance-forms.md` 的发现：**禁令只说"不能做什么"，没说该做什么。**
+> 但记住 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md` 的发现：**禁令只说"不能做什么"，没说该做什么。**
 > 所以每条都配了对应的正面做法。
 
 ## 目录

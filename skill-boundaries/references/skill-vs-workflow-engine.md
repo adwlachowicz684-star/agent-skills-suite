@@ -84,7 +84,7 @@
 ```
 
 > **入口确定性，过程智能化**——
-> 和 `skill-vs-command.md` 的组合思路一致。
+> 和 `skill-orchestration/references/skill-vs-command.md` 的组合思路一致。
 
 ## 迁移信号
 

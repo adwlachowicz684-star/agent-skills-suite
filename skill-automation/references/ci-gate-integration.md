@@ -1,7 +1,7 @@
 # CI 门禁集成：增量触发、分级、幂等
 
-> 相关：《skill-evaluating》的 `test-pyramid.md` ·
-> `ci-cd-integration.md` · 《skill-governance》的 `retirement-pipeline.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/test-pyramid.md` ·
+> `skill-governance/references/ci-cd-integration.md` · 《skill-governance》的 `skill-governance/references/retirement-pipeline.md`
 
 ---
 
@@ -66,7 +66,7 @@
 ```
 
 > ⭐ 分级的关键：**P0 和 P1 的后果必须不同**。
-> 这与 `code-review-skill-instance.md` 那条
+> 这与 `skill-gallery/references/code-review-skill-instance.md` 那条
 > "FAIL 阻断 / WARN 不阻断必须有不同后果，否则分级没意义"是同一条原则。
 
 ---
@@ -81,7 +81,7 @@
 ```
 
 > ⭐ "重试 1 次"这个数字很克制——
-> 对应 `error-handling.md` 的"任何重试都必须声明最大次数"。
+> 对应 `skill-recovery/references/error-handling.md` 的"任何重试都必须声明最大次数"。
 > **重试多次会把环境波动放大成噪音**。
 
 ---
@@ -91,7 +91,7 @@
 > ⭐ **技能本身会持续迭代（优化逻辑、新增参数、升级依赖），
 > 很容易出现"改了新功能，坏了老能力"的退化问题。**
 
-这正是 `version-strategy.md` 那条"没有版本和 CHANGELOG，
+这正是 `skill-versioning/references/version-strategy.md` 那条"没有版本和 CHANGELOG，
 就无法把一次失败归因于'这次改坏了'"在 CI 层的解法——
 **自动化回归校验框架**。
 

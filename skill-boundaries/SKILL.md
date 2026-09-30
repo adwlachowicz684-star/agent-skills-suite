@@ -34,33 +34,33 @@ description: 技能与其他机制的边界划分——技能 vs RAG vs 微调 v
 - 多个技能怎么配合 → `skill-orchestration`
 
 ## 路由表（按需深读）
-| `skill-vs-mcp-two-layers.md` | ⭐⭐⭐⭐ 失败不对称（隐形 vs 报错）；Token 不对称；编排+执行 |
-| `four-way-choice.md` | ⭐⭐⭐ 四选一：⭐ 三种规则差别只在**何时加载 + 多大范围**；技能=共享 子代理=隔离 |
-| `skill-vs-subagent-decide.md` | ⭐⭐⭐⭐⭐ 判断轴是隔离不是大小；⭐⭐ 子代理挂技能 |
-| `skill-vs-workflow.md` | ⭐⭐⭐ Skill 管怎么做 / Workflow 管流转；⭐⭐⭐ 顺序必须强制就用 Workflow |
-| `skill-vs-workflow-engine.md` | ⭐⭐⭐ 五问判据与迁移信号 |
-| `mcp-vs-skill-decision.md` | ⭐⭐⭐ MCP vs 技能：五问决策法 |
-| `when-not-skill.md` | ⭐⭐⭐ 什么时候不该做成技能 |
-| `when-not-to-use-skill.md` | ⭐⭐⭐ 六条不该做成技能 + ⭐⭐⭐ 伪稳定最危险 |
-| `worth-skillifying.md` | ⭐⭐⭐ 该不该做：三条硬标准 + 五维矩阵 |
-| `capability-vs-process.md` | ⭐⭐⭐ 能力原语 vs 流程原语：做成哪一类技能 |
-| `five-layer-choice.md` | ⭐⭐⭐ 五层选型：Prompt/Skill/Project/MCP/Subagent |
-| `skill-vs-rag.md` | ⭐⭐ 技能 vs RAG：过程性 vs 事实性知识 |
-| `skill-vs-finetuning.md` | ⭐⭐ 技能 vs 微调：诊断差距的顺序 |
-| `instructions-vs-skills-mcp.md` | ⭐⭐ 自定义指令 / 技能 / MCP 怎么选 |
-| `domain-taxonomy.md` | ⭐⭐ 领域分类法：754 技能的检索算术 |
-| `industry-patterns.md` | ⭐⭐ 垂直行业落地模式、五条铁律 |
+| `skill-boundaries/references/skill-vs-mcp-two-layers.md` | ⭐⭐⭐⭐ 失败不对称（隐形 vs 报错）；Token 不对称；编排+执行 |
+| `skill-boundaries/references/four-way-choice.md` | ⭐⭐⭐ 四选一：⭐ 三种规则差别只在**何时加载 + 多大范围**；技能=共享 子代理=隔离 |
+| `skill-boundaries/references/skill-vs-subagent-decide.md` | ⭐⭐⭐⭐⭐ 判断轴是隔离不是大小；⭐⭐ 子代理挂技能 |
+| `skill-boundaries/references/skill-vs-workflow.md` | ⭐⭐⭐ Skill 管怎么做 / Workflow 管流转；⭐⭐⭐ 顺序必须强制就用 Workflow |
+| `skill-boundaries/references/skill-vs-workflow-engine.md` | ⭐⭐⭐ 五问判据与迁移信号 |
+| `skill-boundaries/references/mcp-vs-skill-decision.md` | ⭐⭐⭐ MCP vs 技能：五问决策法 |
+| `skill-boundaries/references/when-not-skill.md` | ⭐⭐⭐ 什么时候不该做成技能 |
+| `skill-boundaries/references/when-not-to-use-skill.md` | ⭐⭐⭐ 六条不该做成技能 + ⭐⭐⭐ 伪稳定最危险 |
+| `skill-boundaries/references/worth-skillifying.md` | ⭐⭐⭐ 该不该做：三条硬标准 + 五维矩阵 |
+| `skill-boundaries/references/capability-vs-process.md` | ⭐⭐⭐ 能力原语 vs 流程原语：做成哪一类技能 |
+| `skill-boundaries/references/five-layer-choice.md` | ⭐⭐⭐ 五层选型：Prompt/Skill/Project/MCP/Subagent |
+| `skill-boundaries/references/skill-vs-rag.md` | ⭐⭐ 技能 vs RAG：过程性 vs 事实性知识 |
+| `skill-boundaries/references/skill-vs-finetuning.md` | ⭐⭐ 技能 vs 微调：诊断差距的顺序 |
+| `skill-boundaries/references/instructions-vs-skills-mcp.md` | ⭐⭐ 自定义指令 / 技能 / MCP 怎么选 |
+| `skill-boundaries/references/domain-taxonomy.md` | ⭐⭐ 领域分类法：754 技能的检索算术 |
+| `skill-boundaries/references/industry-patterns.md` | ⭐⭐ 垂直行业落地模式、五条铁律 |
 
 **按问题查**：
 
 | 你的问题 | 读 |
 |---|---|
-| ⭐ **补知识还是稳动作？** | `skill-vs-rag.md` |
-| ⭐ **要不要微调？** | `skill-vs-finetuning.md` |
-| ⭐ **用 MCP 还是技能？** | `mcp-vs-skill-decision.md` · `skill-vs-mcp-two-layers.md` |
-| ⭐ **用子代理还是技能？** | `skill-vs-subagent-decide.md` |
-| ⭐ **顺序必须强制怎么办？** | `skill-vs-workflow.md` |
-| ⭐ **CLAUDE.md / AGENTS.md / SKILL.md？** | **`skill-crafting` 的 `claude-md-vs-skill.md`** |
+| ⭐ **补知识还是稳动作？** | `skill-boundaries/references/skill-vs-rag.md` |
+| ⭐ **要不要微调？** | `skill-boundaries/references/skill-vs-finetuning.md` |
+| ⭐ **用 MCP 还是技能？** | `skill-boundaries/references/mcp-vs-skill-decision.md` · `skill-boundaries/references/skill-vs-mcp-two-layers.md` |
+| ⭐ **用子代理还是技能？** | `skill-boundaries/references/skill-vs-subagent-decide.md` |
+| ⭐ **顺序必须强制怎么办？** | `skill-boundaries/references/skill-vs-workflow.md` |
+| ⭐ **CLAUDE.md / AGENTS.md / SKILL.md？** | **`skill-crafting` 的 `skill-scoping/references/claude-md-vs-skill.md`** |
 
 ## Critical Rules
 
