@@ -3,7 +3,7 @@
 > 相关：《skill-scoping》的 `scope-section.md`（范围章节）·
 > 《skill-authoring》的 `anti-rationalizations.md`（反自我合理化）·
 > 《skill-distribution》的 `dependency-lockfile.md`（依赖声明）·
-> 《skill-execution》的 `data-dependency-declaration.md`（数据依赖）·
+> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）·
 > 《skill-adoption》的 `team-sharing.md`（PR 四项评审）
 > 前置：那些讲⭐⭐⭐ 依赖要声明、⭐⭐⭐⭐ 范围要写清，
 > 这份讲⭐⭐⭐⭐⭐ **一个能提前做的检验**——

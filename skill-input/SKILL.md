@@ -29,6 +29,7 @@ description: 技能的输入侧契约：输入校验与分诊（残缺/矛盾/�
 
 ## 路由表（按需深读）
 
+| `ambiguous-references-in-user-input.md` | ⭐⭐⭐⭐⭐ "也这样"不缺成分只缺指向；⭐⭐⭐⭐⭐ 分诊三类全过而指向不明；⭐⭐⭐⭐⭐ ≥2候选不得自行选 |
 | `input-validation-and-triage.md` | ⭐⭐⭐⭐⭐ 残缺/矛盾/超范围；先判超范围 |
 | `data-dependency-declaration.md` | ⭐⭐⭐⭐⭐ 数据依赖；前置产物读不到时模型会自己造一份 |
 | `assumption-registry.md` | ⭐⭐⭐⭐⭐ 假设≠依赖；静的成功；规模假设只在生产崩 |

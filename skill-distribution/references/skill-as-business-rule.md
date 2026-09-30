@@ -2,7 +2,7 @@
 
 > 相关：《skill-versioning》的 `version-changelog-practice.md` ·
 > 《skill-distribution》的 `gray-release-rollback.md`（10% 流量全挂大盘只掉 1–2 点）·
-> 《skill-authoring》的 `scope-multiplication.md`（70% 事故来自未评估微调）
+> 《skill-scoping》的 `scope-multiplication.md`（70% 事故来自未评估微调）
 > 前置：那些讲⭐ 版本号怎么打，
 > 这份讲⭐⭐⭐⭐⭐ **为什么必须从第一天就做**——
 > 配一个真实的、定位了半天的线上事故。

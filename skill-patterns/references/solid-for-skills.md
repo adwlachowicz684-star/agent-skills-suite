@@ -1,6 +1,6 @@
 # 软件设计原则迁移到技能设计
 
-> 相关：《skill-orchestration》的 `skill-chaining-composition.md` ·
+> 相关：《skill-chaining》的 `skill-chaining-composition.md` ·
 > `collision-arbitration.md` · 《skill-boundaries》的 `five-layer-choice.md`
 > 前置：那些文档讲具体怎么组合，这份讲⭐ 底层原则——
 > 软件架构的哪些力在技能系统里同样成立。

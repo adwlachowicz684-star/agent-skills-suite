@@ -1,7 +1,7 @@
 # 技能的可迁移性：换个项目/团队/模型还能用吗
 
 > 相关：《skill-patterns》的 `self-containment-rewrite.md`（自包含重写）·
-> 《skill-execution》的 `data-dependency-declaration.md`（依赖与假设）·
+> 《skill-input》的 `data-dependency-declaration.md`（依赖与假设）·
 > 《skill-structuring》的 `naming-conventions.md` ·
 > 《skill-content》的 `default-actions.md`
 > 前置：自包含那份讲⭐⭐⭐ **能不能独立跑**，

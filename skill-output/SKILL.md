@@ -34,6 +34,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 | `output-stability-contract.md` | ⭐⭐⭐⭐ `/clear` 后跑两遍测试法；⭐⭐⭐ 长度上限 ≤ 基线 ×1.5 |
 | `output-control.md` | ⭐⭐⭐⭐ 输出控制：长度、详尽度、抑制冗长 |
 | `numbers-in-output.md` | ⭐⭐⭐⭐⭐ 单位/精度/口径/派生算法；⭐⭐⭐⭐⭐ 虚假精度是廉价权威感；⭐⭐⭐⭐⭐ 0 vs 无数据 |
+| `output-ordering-priority.md` | ⭐⭐⭐⭐⭐ 顺序不是排版是主张；⭐⭐⭐⭐⭐ 默认顺序=生成顺序≠重要程度；⭐⭐⭐⭐⭐ 覆盖率/例外必须在前5行 |
 | `output-length-budget.md` | ⭐⭐⭐⭐⭐ "详尽"不是长度规格；⭐⭐⭐⭐⭐ 每段给上限不给下限；⭐⭐⭐⭐⭐ 长度膨胀是最安静的退化 |
 | `enumeration-and-completeness.md` | ⭐⭐⭐⭐⭐ 没有分母就没有完成；⭐⭐⭐⭐⭐ 覆盖率必须出现在输出里；"全面"是无上限的词 |
 | `progress-reporting.md` | ⭐⭐⭐ 进度汇报：长任务的可见性 |

@@ -4,7 +4,7 @@
 > 《skill-refining》的 `pruning.md`（剪枝）·
 > 《skill-content》的 `gotchas-mining.md`（Gotchas 是采集的）·
 > `portability-across-projects.md`（可迁移性）·
-> 《skill-execution》的 `data-dependency-declaration.md`（数据依赖）
+> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）
 > 前置：
 > 依赖声明两份讲的是⭐⭐⭐⭐ **脚本依赖**和**数据依赖**，
 > 这份讲的是第三种：⭐⭐⭐⭐⭐ **知识依赖**——

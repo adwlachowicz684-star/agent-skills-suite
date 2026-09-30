@@ -1,7 +1,7 @@
 # 记忆四层与技能的位置
 
-> 相关：《skill-orchestration》的 `state-persistence.md`（跨会话状态）·
-> 《skill-authoring》的 `no-op-and-value.md`（每段配得上 token 吗）·
+> 相关：《skill-state》的 `state-persistence.md`（跨会话状态）·
+> 《skill-scoping》的 `no-op-and-value.md`（每段配得上 token 吗）·
 > 《skill-versioning》的 `skill-rot-rollback-discipline.md`
 > 前置：那些讲"技能里该写什么、怎么维护"，
 > 这份借⭐ Agent 记忆分层框架反过来定位⭐⭐⭐ **技能到底该装哪一类内容**——

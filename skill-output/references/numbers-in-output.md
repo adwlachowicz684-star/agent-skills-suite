@@ -3,7 +3,7 @@
 > 相关：《skill-output》的 `output-length-budget.md`（长度预算）·
 > `enumeration-and-completeness.md`（分母）·
 > 《skill-crafting》的 `unjustified-numbers.md`（技能里没有出处的数字）·
-> 《skill-execution》的 `relative-time-resolution.md`（相对时间）·
+> 《skill-input》的 `relative-time-resolution.md`（相对时间）·
 > 《skill-recovery》的 `execution-error-protocol.md`（错误协议）
 > 前置：
 > `unjustified-numbers.md` 管的是⭐⭐⭐⭐ **技能正文里的阈值**（输入侧），

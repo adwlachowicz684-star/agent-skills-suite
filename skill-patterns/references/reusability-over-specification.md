@@ -4,7 +4,7 @@
 > 《skill-crafting》的 `minimum-viable-three-principles.md` ·
 > `eight-practical-lessons.md`（给约束不给流程）·
 > 《skill-content》的 `portability-across-projects.md`（组织耦合）·
-> 《skill-execution》的 `data-dependency-declaration.md`
+> 《skill-input》的 `data-dependency-declaration.md`
 > 前置：
 > "给约束不给流程"说的是⭐⭐⭐ **不要写死步骤**，
 > 这份说的是⭐⭐⭐⭐⭐ **不要写死"世界长什么样"**——

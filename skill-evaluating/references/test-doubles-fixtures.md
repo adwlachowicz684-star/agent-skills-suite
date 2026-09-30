@@ -3,7 +3,7 @@
 > 相关：《skill-evaluating》的 `test-validation-three.md`（触发/边界/回归三类）·
 > `eval-case-design.md`（用例设计）·
 > `ci-skill-validation.md`（CI 能验什么）·
-> 《skill-execution》的 `data-dependency-declaration.md`（数据依赖）·
+> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）·
 > 《skill-scripting》的 `script-testing.md`（golden 文件）
 > 前置：
 > 用例设计讲⭐⭐⭐ **测什么**（哪些输入），

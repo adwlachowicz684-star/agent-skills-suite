@@ -1,6 +1,6 @@
 # 什么时候才该写编排器
 
-> 相关：《skill-orchestration》的 `skill-chaining-composition.md` ·
+> 相关：《skill-chaining》的 `skill-chaining-composition.md` ·
 > `composition-patterns-types.md` · `collision-arbitration.md`
 > 前置：那些讲"编排怎么搭"，
 > 这份讲⭐ **什么时候不该搭**——以及那个⭐⭐ 三复制信号。

@@ -4,7 +4,7 @@
 > `progress-reporting.md` ·
 > 《skill-recovery》的 `exit-conditions-when-to-stop.md`（停止条件）·
 > 《skill-execution》的 `parallel-and-concurrency.md`（覆盖率）·
-> 《skill-orchestration》的 `handoff-payload-contract.md`
+> 《skill-interfaces》的 `handoff-payload-contract.md`
 > 前置：
 > 停止条件那份解决的是⭐⭐⭐⭐ **"什么时候算做完"**，
 > 这份解决的是⭐⭐⭐⭐⭐ **"做完意味着做完了多少个"**——

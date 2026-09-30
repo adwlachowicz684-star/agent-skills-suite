@@ -1,6 +1,6 @@
 # 技能 / MCP / 子代理的协同范式
 
-> 相关：《skill-orchestration》的 `mcp-composition.md` ·
+> 相关：《skill-chaining》的 `mcp-composition.md` ·
 > `mcp-integration-patterns.md` · `skill-subagent-combo.md`
 
 ---

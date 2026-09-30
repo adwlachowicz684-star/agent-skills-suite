@@ -1,7 +1,7 @@
 # 参数与叠加：\$ARGUMENTS、位置占位符、多技能同载
 
 > 相关：《skill-loading》的 `argument-substitution.md`（\$1 会静默损坏代码）·
-> 《skill-orchestration》的 `skill-chaining-composition.md`（叠加不覆盖）
+> 《skill-chaining》的 `skill-chaining-composition.md`（叠加不覆盖）
 > 前置：那份讲⭐ 替换的陷阱，
 > 这份讲⭐⭐⭐⭐ ⭐ 替换的⭐ 全部语法 +
 > ⭐⭐⭐⭐⭐ 一条⭐ 此前没写过的⭐ 机制（⭐ 多技能同载）+

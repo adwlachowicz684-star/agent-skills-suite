@@ -29,6 +29,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 
 ## 路由表（按需深读）
 | `permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
+| `eval-input-contamination.md` | ⭐⭐⭐⭐⭐ 看着技能写查询=复述描述用词=测自洽；⭐⭐⭐⭐⭐ 污染使分数系统性偏高且随迭代增加；⭐⭐⭐⭐⭐ 留置集+按source分组报 |
 | `failure-quadrant-diagnosis.md` | ⭐⭐⭐⭐⭐ 稳定地错 vs 偶尔错根因不同；⭐⭐⭐⭐⭐ 第④格（对但不稳）最危险
 | `compound-failure.md` | ⭐⭐⭐⭐⭐ 多故障互相当不在场证明；⭐⭐ 改了只改善一点点=复合信号；逐层清空 |
 | `skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
