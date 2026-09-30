@@ -24,8 +24,8 @@ gh-address-pr-comments   取反馈 → 加回归测试 → 修 → 推送 → �
 ```
 
 > ⭐ **注意这是"三个技能"而不是"一个大技能"**——
-> 呼应 `skill-authoring` 的 `creation-framework.md` 的粒度判断与
-> `skill-authoring` 的 `what-not-to-do.md` 的坑 2：**一个技能一件事**。
+> 呼应 `skill-authoring` 的 `skill-authoring/references/creation-framework.md` 的粒度判断与
+> `skill-authoring` 的 `skill-authoring/references/what-not-to-do.md` 的坑 2：**一个技能一件事**。
 
 ---
 
@@ -59,7 +59,7 @@ git commit -m "feat(scope): …"   # 重复直到干净
 ```
 
 > ⭐ **"不在 main 上提交"是典型的 hook 候选**——
-> 呼应 `skill-crafting` 的 `claude-md-vs-skill.md`：这句话含"绝不"且机器能检查，
+> 呼应 `skill-crafting` 的 `skill-scoping/references/claude-md-vs-skill.md`：这句话含"绝不"且机器能检查，
 > ⭐ 最好用 hook 确定性拦截，而不是靠模型记住。
 
 ---
@@ -93,8 +93,8 @@ git push                  # 之后直接 push
 
 > ⭐ **"每次都一样"是这里的核心价值**：
 > 一致性让 PR 更容易被扫读和评审。
-> 呼应 `skill-crafting` 的 `output-contract.md` 的输出模板与
-> （领域实例库·已归档） 的 `writing-org-context.md` 的固定结构写作。
+> 呼应 `skill-crafting` 的 `skill-output/references/output-contract.md` 的输出模板与
+> （领域实例库·已归档） 的 `skill-domains/references/writing-org-context.md` 的固定结构写作。
 
 ---
 
@@ -122,7 +122,7 @@ gh pr view "$PR_NUMBER" --json number,title,url,headRefName,baseRefName,comments
 > 避免它把主观偏好当成必须执行的修改，或反之忽略真问题。
 
 **第 4 条**也是好实践：回复里带上**具体改了什么 + commit SHA**，
-让评审者能直接跳转验证（呼应 `skill-crafting` 的 `grounding-verification.md` 的证据文化）。
+让评审者能直接跳转验证（呼应 `skill-crafting` 的 `skill-output/references/grounding-verification.md` 的证据文化）。
 
 ---
 
@@ -139,12 +139,12 @@ gh pr view "$PR_NUMBER" --json number,title,url,headRefName,baseRefName,comments
 □ PR 正文格式固定
 ```
 
-> ⭐ 呼应 `skill-crafting` 的 `guidance-forms.md` 与 `legacy-modernization.md`：
+> ⭐ 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md` 与 `skill-domains/references/legacy-modernization.md`：
 > **禁令必须配正面做法**——
 > 这里的每一条都既有"不许"（不在 main 提交）也有
 > "该怎么做"（切分支、git add -p）。
 
-**与 CI 的衔接**（详见 `skill-governance` 的 `ci-cd-integration.md`）：
+**与 CI 的衔接**（详见 `skill-governance` 的 `skill-governance/references/ci-cd-integration.md`）：
 
 ```
 □ ⭐ CI 是提交后的独立验收，不是远程调试器

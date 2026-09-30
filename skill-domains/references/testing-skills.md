@@ -130,7 +130,7 @@ Timely         与代码同时或提前写，而不是几个月后补
 ——共享 setup，各自的断言
 ```
 
-> 呼应 `skill-crafting` 的 `output-contract.md` 与 `skill-authoring` 的 `examples.md`：
+> 呼应 `skill-crafting` 的 `skill-output/references/output-contract.md` 与 `skill-authoring` 的 `skill-content/references/examples.md`：
 > **这些都是"可观察谓词"，不是形容词**——所以模型能执行。
 
 ---
@@ -164,7 +164,7 @@ description: Use when writing tests, generating test files, or checking test cov
 
 > ⭐ **`What to avoid` 这节尤其值钱**——
 > "不用快照测试""不测实现细节""不用 sleep"
-> 全是你团队踩过才知道的坑，正是 `skill-authoring` 的 `skill-types.md` 说的 **Gotchas**。
+> 全是你团队踩过才知道的坑，正是 `skill-authoring` 的 `skill-content/references/skill-types.md` 说的 **Gotchas**。
 
 **E2E 技能的额外要点**：
 
@@ -188,7 +188,7 @@ description: Use when writing tests, generating test files, or checking test cov
 ```
 
 > ⭐ **这条对比本身就是好技能与坏技能的分界线**——
-> 呼应 `skill-crafting` 的 `grounding-verification.md`：可行动的证据，而不是笼统数字。
+> 呼应 `skill-crafting` 的 `skill-output/references/grounding-verification.md`：可行动的证据，而不是笼统数字。
 
 ---
 

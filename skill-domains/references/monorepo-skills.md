@@ -27,7 +27,7 @@
 □ 个人偏好                        → 个人级
 ```
 
-呼应 `team-repo-structure.md`（**`skill-distribution`**）的
+呼应 `skill-adoption/references/team-repo-structure.md`（**`skill-distribution`**）的
 `base/` + `frontend/` + `backend/` 分层——同一思路。
 
 ## 按目录激活
@@ -39,7 +39,7 @@ paths: "**/*.ts"        # 只在处理 TS 文件时加载
 paths: "packages/api/**"
 ```
 
-呼应 `skill-structuring` 的 `frontmatter-fields.md`（**`skill-crafting`**）：
+呼应 `skill-structuring` 的 `skill-loading/references/frontmatter-fields.md`（**`skill-crafting`**）：
 **paths 是 glob 模式，限定何时自动激活**。
 
 **好处**：
@@ -85,7 +85,7 @@ python tools/language-detector.py --project .
 python tools/language-switcher.py --set go
 ```
 
-呼应 `language-reviewer-skills.md`（**（领域实例库·已归档）**）：
+呼应 language-reviewer-skills.md（**（领域实例库·已归档）**）：
 **检测优先于推断**——确定性判断进脚本。
 
 **monorepo 的特殊处理**：
@@ -109,7 +109,7 @@ python tools/language-switcher.py --set go
    → agent 摇摆
 ```
 
-**冲突三解法**（呼应 `skill-composition-patterns.md`，
+**冲突三解法**（呼应 `skill-composition/references/skill-composition-patterns.md`，
 **`skill-orchestration`**）：
 
 ```
@@ -128,7 +128,7 @@ python tools/language-switcher.py --set go
 ✅ ⭐ go-api-review、react-component-test、api-deploy
 ```
 
-呼应 `naming-description.md`（**`skill-authoring`**）。
+呼应 `skill-description/references/naming-description.md`（**`skill-authoring`**）。
 
 ## 与渐进式披露的关系
 

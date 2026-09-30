@@ -94,11 +94,11 @@ reproduce → localize → reduce → fix → guard
 □ ⭐ 就明说——修复在代码之外，打代码补丁没用
 ```
 
-> ⭐ 第 ② 条呼应 `skill-evaluating` 的 `troubleshooting-manual.md` 的"环境层排查"与
-> `performance-optimization.md` 的"瓶颈在哪必须测量"：
+> ⭐ 第 ② 条呼应 `skill-evaluating` 的 `skill-triggering/references/troubleshooting-manual.md` 的"环境层排查"与
+> `skill-domains/references/performance-optimization.md` 的"瓶颈在哪必须测量"：
 > **很多"代码问题"其实是环境问题**，但 agent 默认会去改代码。
 
-> ⭐ 第 ① 条呼应 `skill-evaluating` 的 `eval-tooling.md` 的"每次只改 1–2 个变量"：
+> ⭐ 第 ① 条呼应 `skill-evaluating` 的 `skill-automation/references/eval-tooling.md` 的"每次只改 1–2 个变量"：
 > **无法归因的修改等于没改**。
 
 ---

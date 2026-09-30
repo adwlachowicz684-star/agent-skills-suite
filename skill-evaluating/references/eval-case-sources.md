@@ -1,7 +1,7 @@
 # 每次手动修复都应该变成一条用例
 
-> 相关：`skill-evaluating` 的 `trigger-eval-set.md` ·
-> `regression-baseline.md` · `suite-maintenance.md`
+> 相关：`skill-evaluating` 的 `skill-triggering/references/trigger-eval-set.md` ·
+> `skill-evaluating/references/regression-baseline.md` · `skill-evaluating/references/suite-maintenance.md`
 
 ---
 
@@ -75,7 +75,7 @@
 它不是一次性的测试脚本，而是**技能契约的可执行形式**——
 每次改动都要过一遍，新失败不断加进去。
 
-这与 `suite-maintenance.md` 那条呼应：
+这与 `skill-evaluating/references/suite-maintenance.md` 那条呼应：
 **100% 通过是坏消息**——说明你的用例没跟上技能的复杂度。
 
 ---

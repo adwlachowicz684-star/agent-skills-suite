@@ -22,7 +22,7 @@
 > ⭐ **没有基线的"异常"判断都是猜测**。
 > "错误率 3%"是高是低，取决于平时是 0.1% 还是 5%。
 
-呼应 `performance-optimization.md`（**（领域实例库·已归档）**）：
+呼应 `skill-domains/references/performance-optimization.md`（**（领域实例库·已归档）**）：
 **先测量再优化**——同一条纪律。
 
 ## 四类信号
@@ -56,7 +56,7 @@
 □ ⭐ 单看总数看不出——必须分群
 ```
 
-呼应 `event-driven-architecture.md`（**（领域实例库·已归档）**）：
+呼应 event-driven-architecture.md（**（领域实例库·已归档）**）：
 **它隐藏的失败模式是"lag 无声增长"**——
 只看总数就会错过。
 
@@ -79,8 +79,8 @@
 □ ⭐ 计数与基线对比
 ```
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）与
-`security-pipeline.md`（**`skill-orchestration`**）的
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）与
+`skill-orchestration/references/security-pipeline.md`（**`skill-orchestration`**）的
 **反幻觉验证**——同一条规则在排障场景的应用。
 
 ## 不要做的事
@@ -99,7 +99,7 @@
    ——"可能是 X 导致"要标为假设，并写明如何验证
 ```
 
-第三条呼应 `runtime-failures.md`（**`skill-refining`**）：
+第三条呼应 `skill-refining/references/runtime-failures.md`（**`skill-refining`**）：
 **10,000 token 的查询结果通常能压成 200 token 的相关数据**。
 
 ## 输出格式
@@ -122,7 +122,7 @@
 > agent 默认会输出一个"完整"的分析，
 > 把没查到的部分悄悄用推断填上。
 >
-> 呼应 `vertical-compliance.md`（**（领域实例库·已归档）**）：
+> 呼应 `skill-domains/references/vertical-compliance.md`（**（领域实例库·已归档）**）：
 > **要求 agent 说明"哪些它没有验证"**。
 
 ## 与相关文档的关系

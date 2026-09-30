@@ -79,7 +79,7 @@ validate_brand.py  校验是否符合品牌
 把它们移进 `references/` 反而更糟——
 每次都要多一次读取，而它们**几乎每次都会被用到**。
 
-判据回顾（`splitting.md`）：
+判据回顾（`skill-refining/references/splitting.md`）：
 
 ```
 □ 每次都会用到 → 留正文
@@ -106,7 +106,7 @@ validate_brand.py   校验
              → 颜色不对 / 字号不对 → 报错并指出位置
 ```
 
-这是 `grounding-verification.md` 那套"落地与验证"的直接应用，
+这是 `skill-output/references/grounding-verification.md` 那套"落地与验证"的直接应用，
 而且它把验证放对了地方：**不在模型内部，在技能边界**。
 
 ## 可迁移的三条

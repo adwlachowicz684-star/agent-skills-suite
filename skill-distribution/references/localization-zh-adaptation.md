@@ -1,7 +1,7 @@
 # 中文本土化：不是翻译，是让中文用户能自然触发
 
-> 相关：《skill-distribution》的 `cross-agent-portability.md` · `team-conventions-pr.md` ·
-> 《skill-description》的 `description-tuning-official-loop.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/cross-agent-portability.md` · `skill-adoption/references/team-conventions-pr.md` ·
+> 《skill-description》的 `skill-description/references/description-tuning-official-loop.md`
 > 前置：那份讲⭐ 跨 agent 可移植，
 > 这份讲⭐⭐⭐⭐ ⭐ 另一种移植——⭐⭐⭐⭐⭐ **跨语言的移植**，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 以及 ⭐ 它⭐ 暴露出的⭐ 一个⭐ 通用问题。
@@ -37,7 +37,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 如果⭐ 用的⭐ 是⭐ 中文里⭐ 没人会说的⭐ 说法，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 它⭐ 的⭐ 触发率⭐ 就是零。
 >
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `trigger-tuning-loop.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-triggering/references/trigger-tuning-loop.md` 那条
 > "⭐ 漏触发的根因是⭐ 太具体 / ⭐⭐⭐⭐⭐ ⭐⭐⭐ 缺用户实际用词"⭐ 是⭐ 同一条，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 只不过⭐ 这里⭐ 缺的⭐ 是⭐ 一整个语言⭐ 的用词。
 
@@ -74,8 +74,8 @@
 > ```
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 第 ③ 层里的⭐ **"容易误触发的相邻反例"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 与⭐ 我们已有的⭐ `eval-case-design.md`
-> "⭐ 负向用例⭐ 比正向⭐ 更值钱"⭐ 以及⭐ `description-tuning-official-loop.md`
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 与⭐ 我们已有的⭐ `skill-evaluating/references/eval-case-design.md`
+> "⭐ 负向用例⭐ 比正向⭐ 更值钱"⭐ 以及⭐ `skill-description/references/description-tuning-official-loop.md`
 > "⭐ 负例要用⭐ 近命中，⭐⭐⭐⭐⭐ ⭐⭐⭐ 别用明显无关的"⭐ 完全同源——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **三个来源⭐ 都在强调⭐ 同一件事：⭐⭐⭐⭐⭐ ⭐⭐⭐ 负例必须"近"。**
 
@@ -124,10 +124,10 @@
 
 > ⭐⭐⭐⭐⭐ 推论三⭐ 尤其⭐ 关键，⭐⭐⭐⭐⭐ ⭐⭐⭐ 因为⭐ 它⭐ 与⭐ 我们已有的⭐ 一条⭐ 直接咬合：
 > ⭐⭐⭐⭐⭐ **"⭐ 用⭐ 反映你真实使用的⭐ 脏输入，⭐ 不是干净样例"**
-> （`outgrowth-regression-detection.md`）——
+> （`skill-triggering/references/outgrowth-regression-detection.md`）——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 而⭐ "脏" ⭐ 在⭐ 中文场景里⭐ 首先就包括 ⭐ **中英夹杂**。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 我们此前⭐ 记过的⭐ "⭐ 覆盖口语/书面/带错别字/中英夹杂"
-> （`description-tuning-official-loop.md`）⭐ 也⭐ 正是指⭐ 这一点。
+> （`skill-description/references/description-tuning-official-loop.md`）⭐ 也⭐ 正是指⭐ 这一点。
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而⭐ 一个⭐ 更进一步的⭐ 观察：
 > ⭐⭐⭐⭐⭐ **本土化版本⭐ 会⭐ 新增⭐ 上游没有的⭐ 任务路由**

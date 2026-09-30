@@ -111,7 +111,7 @@
 > 直接按前者处理会误删。
 
 另外，把"从未被调用"和"占多少上下文"放在一起看——
-这正是 `/skill-doctor` 做的事（见 `runtime-controls.md`）。
+这正是 `/skill-doctor` 做的事（见 `skill-security/references/runtime-controls.md`）。
 
 ## 自己搭最小版本
 

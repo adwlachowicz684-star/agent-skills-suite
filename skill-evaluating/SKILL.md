@@ -28,58 +28,58 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 > ⭐ **但代价是 token +120.3%、耗时 34s→41.1s**——提升与代价必须一起看。
 
 ## 路由表（按需深读）
-| `permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
-| `eval-input-contamination.md` | ⭐⭐⭐⭐⭐ 看着技能写查询=复述描述用词=测自洽；⭐⭐⭐⭐⭐ 污染使分数系统性偏高且随迭代增加；⭐⭐⭐⭐⭐ 留置集+按source分组报 |
-| `failure-quadrant-diagnosis.md` | ⭐⭐⭐⭐⭐ 稳定地错 vs 偶尔错根因不同；⭐⭐⭐⭐⭐ 第④格（对但不稳）最危险
-| `compound-failure.md` | ⭐⭐⭐⭐⭐ 多故障互相当不在场证明；⭐⭐ 改了只改善一点点=复合信号；逐层清空 |
-| `skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
-| `eval-set-rot.md` | ⭐⭐⭐⭐⭐ 测试集自身四种腐烂；⭐⭐⭐⭐⭐ 全绿是坏消息；⭐⭐ 定期改坏技能看它报不报警 |
-| `skill-health-metrics.md` | ⭐⭐★★★ 指标是问诊工具；★Token收益；★成功率三层 |
-| `benchmark-assertions-delta.md` | ⭐⭐⭐⭐ 断言好坏+delta判读表+VibeCheck；★约束型要写抑制测试 |
-| `three-skill-ceiling.md` | ⭐⭐⭐⭐ 每任务挂载>3个技能成功率下滑；★门槛曲线 |
-| `eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
-| `outgrowth-regression-detection.md` | ⭐⭐⭐ 三失败模式：被追上要归档、回归要修、本来不行要重做 |
-| `capability-offset-net-gain.md` | ⭐⭐⭐ 5832次实验：新增失败抵消59%毛收益；平均通过率分不清净增长与换血 |
-| `test-doubles-fixtures.md` | ⭐⭐⭐⭐⭐ 清空环境跑两次应完全一致；⭐⭐⭐⭐⭐ 替身只替成功响应=失败路径永远没被测；⭐⭐⭐⭐ 夹具要 TTL |
-| `eval-case-design.md` | ⭐⭐⭐ 按分支铺用例；负向用例测'它没做什么' |
-| `skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
-| `skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
-| `three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |
-| `trace-debugging.md` | ⭐ 读 trace：找第一个错的 turn + 循环唯一根因 |
-| `fault-injection-eval.md` | ⭐ 故障注入评测：先写恢复契约 + 故障矩阵 + 四判定 |
-| `determinism-boundary.md` | ⭐ 确定性边界：什么必须放 Hook，什么放技能 |
-| `assert-on-environment.md` | ⭐ 断言打在环境状态上 + pass^5 + 20 条路由集 |
-| `eval-loop-official.md` | ⭐ 官方评估四步、benchmark delta、盲评 A/B |
-| `deterministic-first.md` | ⭐ 确定性优先：能用代码判的别交给模型 |
-| `eval-case-sources.md` | ⭐ 每次手动修复都变成一条用例；10–20 条就够 |
+| `skill-evaluating/references/permission-set-split-criteria.md` | ⭐⭐★★★ 权限集合不同就该拆（唯一安全判据）；★按软件包审八项 |
+| `skill-evaluating/references/eval-input-contamination.md` | ⭐⭐⭐⭐⭐ 看着技能写查询=复述描述用词=测自洽；⭐⭐⭐⭐⭐ 污染使分数系统性偏高且随迭代增加；⭐⭐⭐⭐⭐ 留置集+按source分组报 |
+| `skill-triggering/references/failure-quadrant-diagnosis.md` | ⭐⭐⭐⭐⭐ 稳定地错 vs 偶尔错根因不同；⭐⭐⭐⭐⭐ 第④格（对但不稳）最危险
+| `skill-triggering/references/compound-failure.md` | ⭐⭐⭐⭐⭐ 多故障互相当不在场证明；⭐⭐ 改了只改善一点点=复合信号；逐层清空 |
+| `skill-evaluating/references/skill-snapshot-testing.md` | ⭐⭐⭐⭐ 技能输出快照：三选二采样；⭐⭐⭐⭐ 长度膨胀；⭐ 定期改差看它红不红 |
+| `skill-evaluating/references/eval-set-rot.md` | ⭐⭐⭐⭐⭐ 测试集自身四种腐烂；⭐⭐⭐⭐⭐ 全绿是坏消息；⭐⭐ 定期改坏技能看它报不报警 |
+| `skill-triggering/references/skill-health-metrics.md` | ⭐⭐★★★ 指标是问诊工具；★Token收益；★成功率三层 |
+| `skill-evaluating/references/benchmark-assertions-delta.md` | ⭐⭐⭐⭐ 断言好坏+delta判读表+VibeCheck；★约束型要写抑制测试 |
+| `skill-evaluating/references/three-skill-ceiling.md` | ⭐⭐⭐⭐ 每任务挂载>3个技能成功率下滑；★门槛曲线 |
+| `skill-evaluating/references/eval-set-two-dimensions.md` | ⭐⭐⭐ 触发评测+执行评测；★失败路径最易漏却线上最常见 |
+| `skill-triggering/references/outgrowth-regression-detection.md` | ⭐⭐⭐ 三失败模式：被追上要归档、回归要修、本来不行要重做 |
+| `skill-evaluating/references/capability-offset-net-gain.md` | ⭐⭐⭐ 5832次实验：新增失败抵消59%毛收益；平均通过率分不清净增长与换血 |
+| `skill-evaluating/references/test-doubles-fixtures.md` | ⭐⭐⭐⭐⭐ 清空环境跑两次应完全一致；⭐⭐⭐⭐⭐ 替身只替成功响应=失败路径永远没被测；⭐⭐⭐⭐ 夹具要 TTL |
+| `skill-evaluating/references/eval-case-design.md` | ⭐⭐⭐ 按分支铺用例；负向用例测'它没做什么' |
+| `skill-evaluating/references/skill-test-pyramid-four.md` | ⭐⭐ L1结构→L4回归四层；先手跑再加CI |
+| `skill-evaluating/references/skillsbench-vs-realworld.md` | ⭐⭐ 34,198 真实技能：优势从 20pp 压缩到 3pp，瓶颈在检索 |
+| `skill-triggering/references/three-failure-modes.md` | ⭐ 欠触发/误触发/执行失败三类根因 + 15 条评测集 |
+| `skill-triggering/references/trace-debugging.md` | ⭐ 读 trace：找第一个错的 turn + 循环唯一根因 |
+| `skill-evaluating/references/fault-injection-eval.md` | ⭐ 故障注入评测：先写恢复契约 + 故障矩阵 + 四判定 |
+| `skill-evaluating/references/determinism-boundary.md` | ⭐ 确定性边界：什么必须放 Hook，什么放技能 |
+| `skill-evaluating/references/assert-on-environment.md` | ⭐ 断言打在环境状态上 + pass^5 + 20 条路由集 |
+| `skill-evaluating/references/eval-loop-official.md` | ⭐ 官方评估四步、benchmark delta、盲评 A/B |
+| `skill-evaluating/references/deterministic-first.md` | ⭐ 确定性优先：能用代码判的别交给模型 |
+| `skill-evaluating/references/eval-case-sources.md` | ⭐ 每次手动修复都变成一条用例；10–20 条就够 |
 
 **正式评估**：
 
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **四层测试金字塔（lint/触发/行为/回归）** | `references/test-pyramid.md` |
-| ⭐ **Skill Lift：A/B 对照方法** | `references/skill-lift-eval.md` |
-| **评测工具、pass@k、能力 vs 回归** | `references/eval-tooling.md` |
-| ⭐ **四维评估：Outcome/Process/Style/Efficiency 可代码化** | `references/four-dimension-eval.md` |
+| ⭐ **Skill Lift：A/B 对照方法** | `skill-quality/references/skill-lift-eval.md` |
+| **评测工具、pass@k、能力 vs 回归** | `skill-automation/references/eval-tooling.md` |
+| ⭐ **四维评估：Outcome/Process/Style/Efficiency 可代码化** | `skill-quality/references/four-dimension-eval.md` |
 | ⭐ **LLM-as-Judge：四种形式、机器可读判据、偏差与校准** | `references/judge-design.md` |
-| **官方有效性清单（逐项对照）** | `references/official-checklist.md` |
-| ⭐ **金丝雀发布：把技能改动当可执行配置** | `references/canary-release.md` |
+| **官方有效性清单（逐项对照）** | `skill-quality/references/official-checklist.md` |
+| ⭐ **金丝雀发布：把技能改动当可执行配置** | `skill-automation/references/canary-release.md` |
 | ⭐ **触发与加载问题（不触发/乱触发/不生效）** | **`skill-triggering`** |
-| ⭐ **触发 Eval 集：near-miss 负例是承重的一半** | `references/trigger-eval-set.md` |
+| ⭐ **触发 Eval 集：near-miss 负例是承重的一半** | `skill-triggering/references/trigger-eval-set.md` |
 | ⭐ **先手动跑一遍：eval 素材从哪来、--json 判分** | `references/manual-first.md` |
 | ⭐ **套件维护：100% 通过是坏消息、三个版本号** | `references/suite-maintenance.md` |
-| **八层质量模型、20 条起始用例** | `references/metrics.md` |
+| **八层质量模型、20 条起始用例** | `skill-quality/references/metrics.md` |
 | ⭐ **回归基线套件：三跑、分类统计、防转移** | `references/regression-baseline.md` |
-| ⭐ **质量评分 Rubric（Accuracy 有否决权）** | `references/quality-rubric.md` |
-| **双实例迭代：A 写 B 测** | `references/claude-ab-loop.md` |
+| ⭐ **质量评分 Rubric（Accuracy 有否决权）** | `skill-quality/references/quality-rubric.md` |
+| **双实例迭代：A 写 B 测** | `skill-automation/references/claude-ab-loop.md` |
 | ⭐ **三个评估角色 / 对抗测试 / 防过拟合** | `references/eval-roles.md` |
-| **发现性测试** | `references/discovery.md` |
+| **发现性测试** | `skill-triggering/references/discovery.md` |
 
 **理解失败**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **技能为什么会让人变差** | `references/failure-modes.md` |
+| ⭐ **技能为什么会让人变差** | `skill-triggering/references/failure-modes.md` |
 | **测试方法论** | `references/testing.md` |
 
 ## 强制工作流（MANDATORY）

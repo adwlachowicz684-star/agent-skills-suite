@@ -75,7 +75,7 @@ scientist（测量） → architect（诊断） → executor（优化） → sci
 | **网络** | ⭐ N+1 查询、缺批处理、同步调用 |
 | **并发** | 锁竞争、GIL、线程饥饿 |
 
-> ⭐ 呼应 `skill-crafting` 的 `guidance-forms.md`：这是 `if <可观察谓词> then` 的典型用法——
+> ⭐ 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`：这是 `if <可观察谓词> then` 的典型用法——
 > 先归类，再选对应的解法，而不是笼统地"优化一下"。
 
 **常见优化手段**（按类对应）：
@@ -189,7 +189,7 @@ scientist（测量） → architect（诊断） → executor（优化） → sci
 
 > ⭐ **教训**：
 > **"瓶颈在哪"是一个必须测量的问题，不是一个可以讨论的问题。**
-> 呼应 `skill-crafting` 的 `grounding-verification.md` 与 `data-engineering-skills.md` 的
+> 呼应 `skill-crafting` 的 `skill-output/references/grounding-verification.md` 与 data-engineering-skills.md 的
 > "先写契约/先测量，别先动手"。
 
 ---

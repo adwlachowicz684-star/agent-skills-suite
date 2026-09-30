@@ -62,8 +62,8 @@
 ✅ 抽出来，但标 low-confidence，让人复核
 ```
 
-呼应 `metrics.md`（**`skill-evaluating`**）与
-`grounding-verification.md`（**`skill-crafting`**）：
+呼应 `skill-quality/references/metrics.md`（**`skill-evaluating`**）与
+`skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 **不确定就是不确定**——
 把推断当成事实输出，是垂直行业技能最常见的失败模式。
 
@@ -122,7 +122,7 @@ python3 scripts/meeting_extractor.py notes.txt \
 
 ## 边界：不做什么
 
-> ⭐ **显式排除清单**（呼应 `code-simplifier.md` 的"何时不该简化"）：
+> ⭐ **显式排除清单**（呼应 code-simplifier.md 的"何时不该简化"）：
 
 ```
 ❌ 逐字转写（需要先用转写工具）
@@ -134,7 +134,7 @@ python3 scripts/meeting_extractor.py notes.txt \
 > 最后一句值得单独记：
 > **本技能产出的是"结构化中间物"，不是终点**。
 > 这定义了它在更大流程中的角色——
-> 呼应 `market-research-skills.md`（**（领域实例库·已归档）**）
+> 呼应 market-research-skills.md（**（领域实例库·已归档）**）
 > 评价标准第 6 条：**在更大流程中有清晰角色**。
 
 ## 命令示例

@@ -1,8 +1,8 @@
 # 技能 vs 插件 vs 市场：三层打包
 
-> 相关：《skill-adoption》的 `team-conventions-pr.md` ·
-> `enterprise-marketplace-ops.md` · `dependency-lockfile.md` ·
-> 《skill-boundaries》的 `four-way-choice.md`
+> 相关：《skill-adoption》的 `skill-adoption/references/team-conventions-pr.md` ·
+> `skill-distribution/references/enterprise-marketplace-ops.md` · `skill-distribution/references/dependency-lockfile.md` ·
+> 《skill-boundaries》的 `skill-boundaries/references/four-way-choice.md`
 > 前置：那些讲⭐ 发布与分发，
 > 这份讲⭐⭐⭐⭐ ⭐ 官方的⭐ 三层打包模型 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 很容易写错的⭐ 路径字段。
@@ -70,7 +70,7 @@
 > ⭐⭐⭐⭐⭐ **"⭐ 技能承载⭐ 知识，⭐⭐⭐⭐⭐ ⭐ 插件承载⭐ 消费这些知识的⭐ Claude Code 专属自动化
 > ⭐⭐⭐⭐⭐ ⭐（hooks、命令、MCP 接线）。"**
 >
-> ⭐⭐⭐⭐⭐ 这条⭐ 与 `cross-agent-portability.md` 完全同源，
+> ⭐⭐⭐⭐⭐ 这条⭐ 与 `skill-distribution/references/cross-agent-portability.md` 完全同源，
 > ⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 给出了⭐ 组织层面的⭐ 落地方式：
 > ⭐⭐⭐⭐ **把"可移植的部分"和"锁定的部分"⭐ 放在⭐ 不同的容器里，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这样⭐ 换工具时⭐ 你只丢掉后者。**
@@ -119,7 +119,7 @@
 > ⭐⭐⭐⭐⭐ **"一个仓库 = 一个插件 = 一个市场" 的映射，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 与"⭐ 一组技能应该一起发布" ⭐ 是⭐ 冲突的。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 修法显然是⭐ 合并到⭐ 一个仓库里多个插件目录 + 一份 marketplace.json。
-> ⭐⭐⭐⭐ 这跟⭐ `reference-organization.md` 的"⭐ 按任务类型切、不按主题切"
+> ⭐⭐⭐⭐ 这跟⭐ `skill-structuring/references/reference-organization.md` 的"⭐ 按任务类型切、不按主题切"
 > ⭐⭐⭐ ⭐ 是⭐ 同一个⭐ 组织原则的⭐ 打包层版本。
 
 ---
@@ -137,7 +137,7 @@
 · ⭐⭐⭐⭐ 读它里面有什么——⭐⭐⭐⭐⭐ 它含 hooks 或 MCP 服务器吗？
 ```
 
-> ⭐⭐⭐⭐⭐ 这条⭐ 与 `toxicskills-13-4-percent.md` 同源，
+> ⭐⭐⭐⭐⭐ 这条⭐ 与 `skill-security/references/toxicskills-13-4-percent.md` 同源，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 但⭐ 把⭐ 风险⭐ 分成了⭐ 两个层级：
 > ```
 > 技能 = 指令层（能改变模型行为）
@@ -145,7 +145,7 @@
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 所以⭐ "我读了一遍 SKILL.md" ⭐ 只覆盖了⭐ 前者——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而对插件，⭐ 你还得读⭐ plugin.json 和 hooks。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 也解释了⭐ 为什么⭐ `unicode-injection-defense.md` 那条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 也解释了⭐ 为什么⭐ `skill-security/references/unicode-injection-defense.md` 那条
 > ⭐⭐⭐⭐ ⭐⭐⭐⭐ "人类审查对隐藏 Unicode 失效" ⭐ 在插件场景下⭐ 后果更严重。
 
 ---
@@ -171,7 +171,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ **新同事⭐ 第一次打开仓库⭐ 就拿到插件——⭐⭐⭐⭐⭐ ⭐⭐⭐ 不需要入职文档。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这条⭐ 与 `team-landing-seven.md` 的"阻力最小路径"⭐ 同源，
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这条⭐ 与 `skill-adoption/references/team-landing-seven.md` 的"阻力最小路径"⭐ 同源，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 且⭐ 是最彻底的一种实现：⭐ **连"要做一件事"这个步骤都省了。**
 
 **② 跑一个私有市场**
@@ -194,8 +194,8 @@
 > ⭐⭐⭐⭐ 一个⭐ 必须知道的⭐ 行为：
 > ⭐⭐⭐⭐⭐ **"想改插件行为，⭐ 去市场仓库改源码并发新版本；
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ ⭐ 对已安装副本的本地修改⭐ 会在更新时被覆盖。"**
-> ⭐⭐⭐⭐ ⭐⭐⭐ 这与 `cross-agent-portability.md` 的"绝不手抄副本"
-> ⭐⭐⭐ ⭐ 和 `retirement-pipeline.md` 的"别改本地副本"⭐ 完全同一条纪律。
+> ⭐⭐⭐⭐ ⭐⭐⭐ 这与 `skill-distribution/references/cross-agent-portability.md` 的"绝不手抄副本"
+> ⭐⭐⭐ ⭐ 和 `skill-governance/references/retirement-pipeline.md` 的"别改本地副本"⭐ 完全同一条纪律。
 
 ---
 

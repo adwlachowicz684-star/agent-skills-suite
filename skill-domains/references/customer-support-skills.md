@@ -88,7 +88,7 @@
 □ 复杂投诉 → ⭐ 技能先整理事实，再交负责人（不自动回复）
 ```
 
-> 呼应 `skill-crafting` 的 `guidance-forms.md`：**升级条件必须是可观察谓词**，
+> 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`：**升级条件必须是可观察谓词**，
 > 不能写"视情况而定"。
 
 ---
@@ -110,7 +110,7 @@
 ```
 
 > ⭐ 第 3 条的"生效时间"字段是关键——
-> 呼应 `legal-contract-skills.md` 的依据日志：
+> 呼应 legal-contract-skills.md 的依据日志：
 > **没有时间信息的规则，无法判断它现在还成不成立**。
 
 ---

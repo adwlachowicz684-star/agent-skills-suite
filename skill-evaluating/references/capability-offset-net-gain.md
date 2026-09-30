@@ -1,8 +1,8 @@
 # 能力换血：59% 的毛收益被抵消
 
-> 相关：《skill-quality》的 `skill-lift-eval.md`（NVIDIA 300+ 实测）·
-> `skillsbench-vs-realworld.md`（真实场景优势压缩）·
-> `comparator-ab-eval.md` · `regression-baseline.md`
+> 相关：《skill-quality》的 `skill-quality/references/skill-lift-eval.md`（NVIDIA 300+ 实测）·
+> `skill-evaluating/references/skillsbench-vs-realworld.md`（真实场景优势压缩）·
+> `skill-automation/references/comparator-ab-eval.md` · `skill-evaluating/references/regression-baseline.md`
 > 前置：那些讲"技能带来多少提升"，
 > 这份讲⭐⭐⭐ **一个方向相反、且量级大到不能忽略的发现**——
 > 技能在增加能力的同时也在破坏能力，而⭐⭐ 平均通过率看不出来。
@@ -68,7 +68,7 @@ B：新增了能力，⭐ 同时破坏了大量原有能力
 ```
 
 > ⭐⭐⭐ 这个"净增益"口径是本份最重要的可操作结论。
-> 它与 `skill-lift-eval.md` 的 NVIDIA 数据不冲突而是⭐ 互补：
+> 它与 `skill-quality/references/skill-lift-eval.md` 的 NVIDIA 数据不冲突而是⭐ 互补：
 > **NVIDIA 测的是各维度提升（毛），这份测的是扣掉损耗后的净。**
 > 一个技能可以同时"+41 正确性"和"损耗 59%"——
 > ⭐ 因为正确性提升可能集中在新增场景，而损耗发生在原有场景。
@@ -93,7 +93,7 @@ B：新增了能力，⭐ 同时破坏了大量原有能力
 ⭐⭐ 那么"装得越多越好"不仅错，而且是⭐ 系统性变差
 ```
 
-> ⭐⭐⭐ 这为 `library-size-effect.md` 的"遮蔽"提供了一个⭐ 不同的机制解释：
+> ⭐⭐⭐ 这为 `skill-selection/references/library-size-effect.md` 的"遮蔽"提供了一个⭐ 不同的机制解释：
 > 那份归因于"技能之间抢触发"，
 > 这份提出了第二条路径——⭐ **即使没触发，常驻的描述也在改变行为**。
 
@@ -115,9 +115,9 @@ B：新增了能力，⭐ 同时破坏了大量原有能力
 > **你装的技能越多，agent 用于自检的余量越少——
 > 而没有任何日志会记录这件事。**
 >
-> ⭐⭐ 这与 `skillsbench-vs-realworld.md` 那条
+> ⭐⭐ 这与 `skill-evaluating/references/skillsbench-vs-realworld.md` 那条
 > "弱模型有技能反而更差（无关技能消耗 token 去加载无用指令）"、
-> `skill-reducer-study.md` 的"压缩后质量反升 2.8%（减少干扰）"
+> `skill-refining/references/skill-reducer-study.md` 的"压缩后质量反升 2.8%（减少干扰）"
 > 是⭐⭐⭐ 第三个独立来源的同一结论：
 > **占用上下文的东西，即使正确，也有成本。**
 
@@ -128,7 +128,7 @@ B：新增了能力，⭐ 同时破坏了大量原有能力
  ⭐ 不加载 skill 纯模型输出的效果也没想象中差。"
 ```
 
-> ⭐⭐⭐ 这句和 `skillsbench-vs-realworld.md` 的结论完全对上了：
+> ⭐⭐⭐ 这句和 `skill-evaluating/references/skillsbench-vs-realworld.md` 的结论完全对上了：
 > **通用软件工程类场景技能收益只有 ~4.5pp**，
 > 而⭐ 收益大的正是"有自己的一套做法"的地方。
 > 两个独立来源指向同一条：
@@ -160,8 +160,8 @@ B：新增了能力，⭐ 同时破坏了大量原有能力
 ```
 
 > ⭐⭐⭐ 最后这条是整套收藏里对"哪些技能该留"给出的⭐ 最明确的答案。
-> 它与 `worth-skillifying.md` 的五维矩阵、
-> `skill-scope-tiering.md` 的"触发空壳"是同一条线的三个落点。
+> 它与 `skill-boundaries/references/worth-skillifying.md` 的五维矩阵、
+> `skill-refining/references/skill-scope-tiering.md` 的"触发空壳"是同一条线的三个落点。
 
 **一处诚实的边界**：
 

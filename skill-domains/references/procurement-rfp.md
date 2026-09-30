@@ -63,7 +63,7 @@
 ⭐ 在签约前知道差距在哪，才能去谈缓释承诺
 ```
 
-呼应 `ab-testing-growth.md`（**（领域实例库·已归档）**）那条：
+呼应 ab-testing-growth.md（**（领域实例库·已归档）**）那条：
 **指标要配解读规则**，否则会被反向误读。
 
 ## 红旗清单
@@ -93,7 +93,7 @@
 > ⭐ **"红旗 ≠ 自动拒绝，而是默认淘汰 + 需记录的例外"**
 > ——这个双段设计比一票否决更实用，也比"酌情考虑"更严格。
 
-呼应 `hr-recruiting-skills.md` 与 `legal-contract-skills.md` 的同一条风格：
+呼应 hr-recruiting-skills.md 与 legal-contract-skills.md 的同一条风格：
 **红线要可判定，且要有例外路径**。
 
 ## 委员会流程：先冷评分
@@ -115,7 +115,7 @@
         ⭐ 愿意在这里谈判的供应商，通常能活过 18 个月的治理周期
 ```
 
-> ⭐ **"先冷评分再开会"** 呼应 `eval-roles.md`（**`skill-evaluating`**）
+> ⭐ **"先冷评分再开会"** 呼应 `skill-evaluating/references/eval-roles.md`（**`skill-evaluating`**）
 > 的 Comparator 双盲设计——**同一条防偏见原则**。
 
 ## 两条方法论

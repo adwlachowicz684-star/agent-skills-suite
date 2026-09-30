@@ -1,8 +1,8 @@
 # 确定性优先：能用代码判的别交给模型
 
-> 相关：《skill-evaluating》的 `test-pyramid.md`（第 1 层不用 LLM）·
-> `four-dimension-eval.md`（先确定性检查）·
-> `graded-rubric.md`（每维独立 0–1）
+> 相关：《skill-evaluating》的 `skill-evaluating/references/test-pyramid.md`（第 1 层不用 LLM）·
+> `skill-quality/references/four-dimension-eval.md`（先确定性检查）·
+> `skill-quality/references/graded-rubric.md`（每维独立 0–1）
 
 ---
 
@@ -54,7 +54,7 @@ rubric 评分回答："它按你想要的方式做了吗？"
 ```
 
 第 ① 条最关键：模型评分**天然有波动**，
-所以阈值要设"基线均值 − 3σ"（见 `four-dimension-eval.md`）。
+所以阈值要设"基线均值 − 3σ"（见 `skill-quality/references/four-dimension-eval.md`）。
 确定性检查没有这个问题。
 
 ---

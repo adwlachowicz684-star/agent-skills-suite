@@ -42,7 +42,7 @@
 > **同时改三处，修好了也不知道是哪处修的，
 > 而那三处里可能有一处是不必要的破坏性改动。**
 
-呼应 `refine-with-execution.md`（**`skill-refining`**）：
+呼应 `skill-refining/references/refine-with-execution.md`（**`skill-refining`**）：
 **每次只改 1–2 个变量——否则无法归因**。
 
 ## 四类常见根因
@@ -77,7 +77,7 @@
 > ⭐ 最后两条是"让红灯变绿"的两种典型作弊，
 > 必须显式禁止。
 >
-> 呼应 `grounding-verification.md`（**`skill-crafting`**）：
+> 呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 > **表面合规是最危险的失败模式**。
 
 ## 修完的验证
@@ -97,7 +97,7 @@
     调用点从 a() 改为 b()，签名差异见…"
 ```
 
-呼应 `debugging-recovery.md`（**（领域实例库·已归档）**）的
+呼应 `skill-domains/references/debugging-recovery.md`（**（领域实例库·已归档）**）的
 **根因已定位 + 5 Whys 已完成**——
 动手前要说明白为什么。
 

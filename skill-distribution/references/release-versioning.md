@@ -31,7 +31,7 @@ MAJOR.MINOR.PATCH
 | `refactor:` | 重构（无功能变化） | 将清洗逻辑抽成独立函数 |
 | `perf:` | 性能优化 | 大文件处理速度提升 3 倍 |
 
-**版本变更的边界**（呼应 `versioning-compat.md`）：
+**版本变更的边界**（呼应 `skill-distribution/references/versioning-compat.md`）：
 
 ```
 1.0.1  patch   修处理规则里的 bug

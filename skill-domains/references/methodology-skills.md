@@ -24,7 +24,7 @@
 □ 而且"用好框架"和"知道框架"是两回事
 ```
 
-> 呼应 `skill-selection` 的 `skill-vs-rag.md`：**程序性知识（How-to）走技能**。
+> 呼应 `skill-selection` 的 `skill-boundaries/references/skill-vs-rag.md`：**程序性知识（How-to）走技能**。
 > 文案公式正是典型的 How-to，不是 What。
 
 **技能的完整形态**：
@@ -42,7 +42,7 @@
 
 > ⭐ **这是整份技能里最有价值的部分**——
 > 它把"模型自己猜"变成"按可观察条件路由"。
-> 呼应 `skill-crafting` 的 `guidance-forms.md` 的 `if <可观察谓词> then`。
+> 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md` 的 `if <可观察谓词> then`。
 
 | 情境 | 最佳公式 |
 |---|---|
@@ -83,7 +83,7 @@ ACCA     认知 → 理解 → 确信 → 行动
 
 ## 每个公式的写法
 
-> ⭐ **统一的四段结构**——这本身就是 `skill-authoring` 的 `patterns.md`
+> ⭐ **统一的四段结构**——这本身就是 `skill-authoring` 的 `skill-authoring/references/patterns.md`
 > 讲的"决策树 + 按需加载"里每个分支的写法：
 
 ```
@@ -115,7 +115,7 @@ Example     F: 256 位加密
 ```
 
 > ⭐ **这种"逐级变好"的示例，比单个完美示例教得多。**
-> 呼应 `skill-authoring` 的 `examples.md`：**示例是 agent 理解"你要什么形状"的最快通道。**
+> 呼应 `skill-authoring` 的 `skill-content/references/examples.md`：**示例是 agent 理解"你要什么形状"的最快通道。**
 
 **另一条基础原则也该编码进去**：
 
@@ -137,7 +137,7 @@ One Reader, One Message
 
 ## 反模式该怎么编码
 
-> ⭐ **这里是本文与 `skill-crafting` 的 `guidance-forms.md` 直接对接的地方。**
+> ⭐ **这里是本文与 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md` 直接对接的地方。**
 
 一个成熟实现里的反模式写法是三段式：
 
@@ -151,7 +151,7 @@ Instead      ⭐ 每个特性都要接一句 "所以你可以…" 或 "这意味
 > ⭐ **必须有 `Why` 和 `Instead`**——
 > 只写"不要倾倒特性"是禁令，模型不知道该做什么；
 > 给出 `Instead` 才是配方。
-> 这正是 `skill-crafting` 的 `guidance-forms.md` 那张"失败形态 → 该用什么"表的实证。
+> 这正是 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md` 那张"失败形态 → 该用什么"表的实证。
 
 **另外两条**：
 
@@ -167,7 +167,7 @@ Instead      短句、具体的词
 
 > ⭐ 注意 `Instead` 里那句判据——**"你奶奶听不懂就重写"**——
 > 它是一个**可执行的操作性判据**，而不是"要简洁"这种形容词。
-> 呼应 `skill-authoring` 的 `writing-style.md`：形容词对模型等于没有约束。
+> 呼应 `skill-authoring` 的 `skill-content/references/writing-style.md`：形容词对模型等于没有约束。
 
 **人机协作流程**（也值得编码）：
 

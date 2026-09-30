@@ -1,7 +1,7 @@
 # 重构类技能：不改变行为的改造
 
-> 相关：（领域实例库·已归档） 的 `code-quality-skills.md` ·
-> `legacy-modernization.md` · `testing-skills.md`
+> 相关：（领域实例库·已归档） 的 `skill-domains/references/code-quality-skills.md` ·
+> `skill-domains/references/legacy-modernization.md` · `skill-domains/references/testing-skills.md`
 
 ---
 
@@ -42,7 +42,7 @@
 ```
 
 > ⭐ 这条"不做什么"清单的价值在于**防止技能被误用于它不擅长的场景**，
-> 且每个都指向了正确的替代——这正是 `guidance-forms.md` 说的
+> 且每个都指向了正确的替代——这正是 `skill-crafting/references/guidance-forms.md` 说的
 > "NOT for X → 用 Y 代替"是最强的路由提示。
 
 ---
@@ -61,7 +61,7 @@
 | 过长参数列 | >3 个参数 | 用对象/builder |
 
 > ⭐ **这类"味道 → 手法"表是重构类技能的核心资产**——
-> 它把"模型自己猜"变成查表，与 `methodology-skills.md` 的公式选择表同理。
+> 它把"模型自己猜"变成查表，与 `skill-domains/references/methodology-skills.md` 的公式选择表同理。
 
 ---
 

@@ -28,8 +28,8 @@
    并要求 agent 说明"哪些它没有验证"
 ```
 
-> 呼应 `skill-crafting` 的 `grounding-verification.md` 的
-> **"证据先于声明"** 与 `skill-crafting` 的 `fact-boundary.md`。
+> 呼应 `skill-crafting` 的 `skill-output/references/grounding-verification.md` 的
+> **"证据先于声明"** 与 `skill-crafting` 的 `skill-scoping/references/fact-boundary.md`。
 
 **为什么研究技能特别需要这些**：
 
@@ -68,7 +68,7 @@
 
 > ⭐ **第 4 步"交叉验证"是最容易被跳过的**，
 > 也是研究技能与普通写作技能的分水岭。
-> 呼应 `skill-crafting` 的 `guidance-forms.md`：**这一步需要禁令 + 借口反驳**。
+> 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`：**这一步需要禁令 + 借口反驳**。
 
 **三个应用示例**（放进技能里当示例很好用）：
 
@@ -117,7 +117,7 @@ survey-generation   综述写作 + 引用校验
 > **先让 AI 结构化证据，让你来判断结论——
 > 而不是先让 AI 给出结论。**
 
-> 呼应 `skill-orchestration` 的 `composition.md` 的串行编排与 I/O 契约。
+> 呼应 `skill-orchestration` 的 `skill-composition/references/composition.md` 的串行编排与 I/O 契约。
 
 ---
 
@@ -159,7 +159,7 @@ survey-generation   综述写作 + 引用校验
 > 让检索、筛选与纳入决策透明化。
 > **AI 技能可以支持这个过程，但不替代综述方案设计。**
 
-> ⭐ 呼应 `skill-governance` 的 `compliance-audit.md` 与 `skill-crafting` 的 `fact-boundary.md`：
+> ⭐ 呼应 `skill-governance` 的 `skill-security/references/compliance-audit.md` 与 `skill-crafting` 的 `skill-scoping/references/fact-boundary.md`：
 > **AI 提供组织，人类承担判断。**
 
 ---

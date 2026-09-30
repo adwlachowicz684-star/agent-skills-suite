@@ -88,7 +88,7 @@ WITHDRAWN  已撤回
 ```
 
 > 只能看元数据的审核等于没审——
-> 恶意逻辑在 `scripts/` 和自然语言段落里（见 `supply-chain-audit.md`）。
+> 恶意逻辑在 `scripts/` 和自然语言段落里（见 `skill-security/references/supply-chain-audit.md`）。
 
 **② 拒绝要给具体改进建议**
 

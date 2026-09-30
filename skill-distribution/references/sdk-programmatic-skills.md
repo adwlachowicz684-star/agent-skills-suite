@@ -1,7 +1,7 @@
 # 在 SDK / 程序化环境里使用技能
 
-> 相关：《skill-distribution》的 `plugin-vs-skill-packaging.md` ·
-> 《skill-automation》的 `ci-skill-validation.md` · `output-stability-contract.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/plugin-vs-skill-packaging.md` ·
+> 《skill-automation》的 `skill-automation/references/ci-skill-validation.md` · `skill-output/references/output-stability-contract.md`
 > 前置：那份讲⭐ 三层打包，
 > 这份讲⭐⭐⭐⭐⭐ ⭐ 一个⭐ 完全不同的⭐ 运行环境——⭐⭐⭐⭐⭐ ⭐⭐⭐ **没有交互会话时，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 技能怎么用、⭐⭐⭐⭐⭐ ⭐⭐⭐ 以及⭐ 这⭐ 带来⭐ 两个⭐ 宝贵的⭐ 副作用。**
@@ -45,7 +45,7 @@ options = ClaudeAgentOptions(
 > ⭐⭐⭐⭐⭐ 这⭐ 是⭐ "⭐ SDK 里技能没生效"⭐ 的⭐ 第一个⭐ 排查点，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而且⭐ 极隐蔽：
 > ⭐⭐⭐⭐⭐ **技能文件⭐ 就在磁盘上、⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 内容完全正确、⭐⭐⭐⭐⭐ ⭐⭐⭐ 在交互会话里好好的，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 在 SDK 里⭐ 它就是⭐ 不存在——⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 因为没开这两个开关。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与⭐ `nested-scope-discovery.md` 那份⭐ 记录的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与⭐ `skill-loading/references/nested-scope-discovery.md` 那份⭐ 记录的
 > "⭐ 嵌套 .claude/skills/ ⭐ 只在⭐ 处理该子目录文件⭐ 时才被发现"⭐ 是⭐ 同一类⭐ 故障：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **文件在，⭐⭐⭐⭐⭐ ⭐⭐⭐ 但不在⭐ 可见集里。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 排障口诀：⭐⭐⭐⭐⭐ **"在不在磁盘上"⭐ 与
@@ -65,7 +65,7 @@ if "security-check" in init_message["slash_commands"]: ...
 > ⭐⭐⭐⭐⭐ 这⭐ 是⭐ 一条⭐ 极实用的⭐ 可编程⭐ 检查手段：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 我们⭐ 此前⭐ 记过⭐ 一条⭐ "⭐⭐⭐⭐⭐ 无法判断哪个版本生效时，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 直接问 Claude 'What skills are available?'"
-> （`nested-scope-discovery.md`）——
+> （`skill-loading/references/nested-scope-discovery.md`）——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 而⭐ 这里⭐ 是⭐ 它的⭐ **机器可读版本**：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **不需要问，⭐⭐⭐⭐⭐ ⭐⭐⭐ 直接读数组。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 差别⭐ 很明确：
@@ -146,7 +146,7 @@ async for message in query(
 ```
 
 > ⭐⭐⭐⭐⭐ 这⭐ 是⭐ "⭐⭐⭐⭐⭐ **把纪律⭐ 变成⭐ 结构**"⭐ 的⭐ 又一个⭐ 样板——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-creator-meta-architecture.md` 那三条
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-gallery/references/skill-creator-meta-architecture.md` 那三条
 > （⭐ 成对对比成为默认形状、⭐ 评审 eval 成为角色、⭐ evidence 成为必填字段）⭐ 完全同源。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 在交互环境里，⭐⭐⭐⭐⭐ ⭐⭐⭐ "跑两遍要清会话"⭐ 是一条⭐ 需要记住的纪律；
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **在 SDK 里，⭐⭐⭐⭐⭐ ⭐⭐⭐ 它是环境的默认行为。**
@@ -183,7 +183,7 @@ async for message in query(
    ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ → ⭐⭐⭐⭐⭐ ⭐⭐⭐ **你无法从列表里看出被遮蔽的是哪一个**
 ```
 
-> ⭐⭐⭐⭐⭐ 这⭐ 与⭐ 我们⭐ 已有的⭐ `skill-overrides-audit.md` 那份
+> ⭐⭐⭐⭐⭐ 这⭐ 与⭐ 我们⭐ 已有的⭐ `skill-patterns/references/skill-overrides-audit.md` 那份
 > （⭐ 同名覆盖与冲突审计、⭐⭐⭐⭐⭐ ⭐⭐⭐ 那起 deploy 事故）⭐ 是⭐ 同一类⭐ 问题，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 这里⭐ 多出了⭐ 一个⭐ 此前⭐ 没有的⭐ 细节：
 > ⭐⭐⭐⭐⭐ **"⭐ 只列一次"**——⭐⭐⭐⭐⭐ ⭐⭐⭐ 也就是⭐ 说，
@@ -197,7 +197,7 @@ async for message in query(
 ⭐⭐⭐⭐⭐ Skills synced from claude.ai ⭐ 遵循⭐ 它们自己的⭐ frontmatter 规则
 ```
 
-> ⭐⭐⭐⭐⭐ 这⭐ 与 `argument-substitution.md` 那条
+> ⭐⭐⭐⭐⭐ 这⭐ 与 `skill-loading/references/argument-substitution.md` 那条
 > "⭐ 从 claude.ai 账户同步的技能，⭐⭐⭐⭐⭐ ⭐⭐⭐ 不会在你的机器上运行 `!` 命令"⭐ 完全同源——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 两处⭐ 都在⭐ 说：⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **同步来源的技能
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与本地技能⭐ 不是⭐ 一回事，⭐⭐⭐⭐⭐ ⭐⭐⭐ 行为有差异。**
@@ -220,7 +220,7 @@ async for message in query(
 ```
 
 > ⭐⭐⭐⭐⭐ 与⭐ 技能⭐ 最相关的⭐ 是⭐ 第一条：
-> ⭐⭐⭐⭐⭐ **CI 里跑技能。** ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `ci-skill-validation.md` 那份⭐ 的
+> ⭐⭐⭐⭐⭐ **CI 里跑技能。** ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-automation/references/ci-skill-validation.md` 那份⭐ 的
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 结论⭐ 正好⭐ 互补：
 > ```
 > 那份说：⭐⭐⭐⭐⭐ CI 不能验"技能是否被触发、触发后输出是否达标"（只能用 claude -p 另走一条路）

@@ -62,7 +62,7 @@ python scripts/enrich_ioc.py --ioc 192.168.1.100 \
 > 它承认了不确定性的存在，
 > 而不是把中间地带硬推向某一侧。
 >
-> 呼应 `meeting-notes-action.md`（**（领域实例库·已归档）**）的
+> 呼应 `skill-domains/references/meeting-notes-action.md`（**（领域实例库·已归档）**）的
 > **低置信度标记待复核**——同一条原则。
 
 **④ 响应**
@@ -98,8 +98,8 @@ python scripts/respond_block.py --ip 192.168.1.100 \
 > 它防的是"规则本身正确但触发了异常大量的动作"，
 > 这类失控不是单条规则能拦住的。
 >
-> 呼应 `error-handling.md`（**`skill-crafting`**）的熔断三态机，
-> 与 `agent-incident-response.md`（**`skill-governance`**）的
+> 呼应 `skill-recovery/references/error-handling.md`（**`skill-crafting`**）的熔断三态机，
+> 与 `skill-security/references/agent-incident-response.md`（**`skill-governance`**）的
 > **"先暂停外部动作"**。
 
 ## 产出与测试计划
@@ -111,7 +111,7 @@ trigger → enrich → decision → actions → guardrails → rollback
 ```
 
 > ⭐ **厂商中立很重要**——
-> 呼应 `protocol-layering.md`（**`skill-orchestration`**）的
+> 呼应 `skill-composition/references/protocol-layering.md`（**`skill-orchestration`**）的
 > 可移植性思路，以及安全库用 Sigma 作为检测规则单一来源的做法：
 > **避免锁定，保持一份检测逻辑**。
 
@@ -129,7 +129,7 @@ trigger → enrich → decision → actions → guardrails → rollback
     ——在翻转 --commit 标志前充分评审
 ```
 
-呼应 `security-domains.md`（**（领域实例库·已归档）**）：
+呼应 security-domains.md（**（领域实例库·已归档）**）：
 **授权边界必须显式**。
 
 ## 一个值得抄的设计选择
@@ -143,7 +143,7 @@ trigger → enrich → decision → actions → guardrails → rollback
 □ ⭐ 能部署在隔离网 / 受限环境——那里没法 pip install
 ```
 
-呼应 `air-gapped.md`（**`skill-distribution`**）：
+呼应 `skill-distribution/references/air-gapped.md`（**`skill-distribution`**）：
 **每个外部依赖必须在传输时捆绑，运行时不 npm install**。
 
 > 这是一个很好的例子说明
@@ -159,7 +159,7 @@ trigger → enrich → decision → actions → guardrails → rollback
 
 > ⭐ **"值得自动响应的才交给 SOAR"**——
 > 上游已经做了一轮筛选。
-> 呼应 `security-pipeline.md`（**`skill-orchestration`**）的
+> 呼应 `skill-orchestration/references/security-pipeline.md`（**`skill-orchestration`**）的
 > **可利用性验证独立成步**。
 
 ## 自查

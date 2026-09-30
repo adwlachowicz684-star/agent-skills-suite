@@ -210,7 +210,7 @@ PATCH  缺陷修复，向后兼容
 □ ⭐ 安全修复被显著标注
 ```
 
-> ⭐ 呼应 `release-versioning.md`（**`skill-distribution`**）：
+> ⭐ 呼应 `skill-distribution/references/release-versioning.md`（**`skill-distribution`**）：
 > 技能自己的 CHANGELOG 还要额外写"哪些 agent 受影响"——
 > 那是技能与普通项目 changelog 的关键差异。
 

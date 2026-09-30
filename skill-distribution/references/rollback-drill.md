@@ -28,7 +28,7 @@
 ```
 
 > ⭐ 所以**发布单元必须包含依赖**
-> （见 `canary-release.md` 的 release manifest）。
+> （见 `skill-automation/references/canary-release.md` 的 release manifest）。
 
 ## 为什么技能回滚更难
 
@@ -135,7 +135,7 @@ kill switch  出事时立刻停（秒级）
 ```
 
 两者都要有，且**都要演练**——
-见 `kill-switch.md`。
+见 `skill-security/references/kill-switch.md`。
 
 区别在于验收：
 

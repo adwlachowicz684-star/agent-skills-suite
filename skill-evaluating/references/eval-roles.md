@@ -45,7 +45,7 @@
 > **"对一个薄弱断言给出'通过'的评级，其危害比毫无用处还要糟糕
 > ——它会制造出虚假的信心。"**
 
-> 这与 `grounding-verification.md`（**`skill-crafting`**）同源：
+> 这与 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）同源：
 > 表面合规是 agent 的默认失败模式。
 
 **Grader 的自我批评职责**：
@@ -122,7 +122,7 @@
 □ 技能被另一个技能抢先触发
 ```
 
-呼应 `metrics.md` 里那 20 条起始用例的组合：
+呼应 `skill-quality/references/metrics.md` 里那 20 条起始用例的组合：
 **负例 > 边界 > 正例**。
 
 ## 泛化而非过拟合

@@ -1,8 +1,8 @@
 # 评估用例设计：按分支铺，而不是按感觉凑
 
-> 相关：《skill-evaluating》的 `eval-case-design.md` ·
-> `eval-case-sources.md` · `trigger-eval-set.md` ·
-> `skill-test-pyramid-four.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/eval-case-design.md` ·
+> `skill-evaluating/references/eval-case-sources.md` · `skill-triggering/references/trigger-eval-set.md` ·
+> `skill-evaluating/references/skill-test-pyramid-four.md`
 > 前置：那份讲"合成 vs 真实数据、边界用例"，
 > 这份讲⭐⭐ **一套可照抄的用例设计方法**：怎么保证覆盖，怎么判分。
 
@@ -95,8 +95,8 @@
 ```
 
 > ⭐⭐ 前五条是"该有的有没有"，最后一条是"不该有的有没有"——
-> 这与 `assert-on-environment.md` 的"断言打在环境状态上"、
-> `four-dimension-eval.md` 的"只看结果会漏掉顺序颠倒"是同一条线：
+> 这与 `skill-evaluating/references/assert-on-environment.md` 的"断言打在环境状态上"、
+> `skill-quality/references/four-dimension-eval.md` 的"只看结果会漏掉顺序颠倒"是同一条线：
 > **不同的检查手段发现不同类别的缺陷，缺一类就有一个盲区。**
 
 ---
@@ -136,7 +136,7 @@
 > 而不是从零发明。
 >
 > ⭐ 但有一处不同必须注意：**软件的输出是确定的，技能不是**。
-> 所以才有 `skill-test-pyramid-four.md` 的 pass^5（同一用例跑 5 次全过）——
+> 所以才有 `skill-evaluating/references/skill-test-pyramid-four.md` 的 pass^5（同一用例跑 5 次全过）——
 > **用重复执行来对冲非确定性**。
 
 ---

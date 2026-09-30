@@ -38,7 +38,7 @@ Phase 7 维护          自动生成、校验、评审流程、更新排期、�
 □ 文档已部署
 ```
 
-> ⭐ **"代码示例可运行"** 呼应 `skill-crafting` 的 `grounding-verification.md`——
+> ⭐ **"代码示例可运行"** 呼应 `skill-crafting` 的 `skill-output/references/grounding-verification.md`——
 > 写了不等于能跑，必须有验证步骤。
 
 **一条值得抄的 Limitations 声明**：
@@ -63,7 +63,7 @@ Phase 7 维护          自动生成、校验、评审流程、更新排期、�
 □ 相关文档链接有效
 ```
 
-> ⭐ 呼应 `skill-refining` 的 `anti-patterns-practice.md` 的坑 3：
+> ⭐ 呼应 `skill-refining` 的 `skill-refining/references/anti-patterns-practice.md` 的坑 3：
 > **代码示例会过时**——所以清单里明确要求"测过且最新"。
 
 ---
@@ -103,7 +103,7 @@ def calculate_total(items, tax_rate):
 ```
 
 > ⭐ **`Example` 标为"总是"**——
-> 呼应 `skill-authoring` 的 `examples.md`：示例是 agent 理解期望形状的最快通道。
+> 呼应 `skill-authoring` 的 `skill-content/references/examples.md`：示例是 agent 理解期望形状的最快通道。
 
 **用户指南的四段结构**：
 

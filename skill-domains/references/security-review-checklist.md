@@ -41,7 +41,7 @@
 这正是技能该做的事——
 **不是教它什么是注入，而是保证它不漏掉检查项**。
 
-判据（见 `capability-vs-process.md`）：
+判据（见 `skill-boundaries/references/capability-vs-process.md`）：
 这属于**流程原语**，不是能力原语。
 
 ## 好坏写法的关键差别：DANGEROUS / SAFE 对照
@@ -71,7 +71,7 @@ subprocess.run(["ping", hostname], check=True)
 ```
 
 > ⭐ **每一对都给了"错的样子"和"对的样子"——
-> 这是 `guidance-forms.md` 里"配方"形态的教科书示范。**
+> 这是 `skill-crafting/references/guidance-forms.md` 里"配方"形态的教科书示范。**
 
 对照只有 DANGEROUS 没有 SAFE 的写法：
 模型知道这段代码有问题，但不知道该改成什么，
@@ -120,7 +120,7 @@ Strict-Transport-Security: max-age=31536000
 
 而且技能要包含**更新机制**：
 这类清单会随标准演进而失效，
-属于 `lifecycle.md` 里最需要定期复查的一类内容。
+属于 `skill-governance/references/lifecycle.md` 里最需要定期复查的一类内容。
 
 配套建议：
 
@@ -132,7 +132,7 @@ Strict-Transport-Security: max-age=31536000
 
 **第二个警告**：清单类技能容易触发**过度验证**。
 
-`failure-modes.md` 的实测：
+`skill-triggering/references/failure-modes.md` 的实测：
 
 ```
 ⭐ 过度验证是最大的单一成本源（67/182 退化）

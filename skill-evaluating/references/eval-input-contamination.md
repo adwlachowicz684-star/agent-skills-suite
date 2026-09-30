@@ -1,11 +1,11 @@
 # 评测集被自身污染
 
-> 相关：《skill-triggering》的 `failure-quadrant-diagnosis.md`（稳定地错 vs 偶尔错）·
-> `eval-case-design.md`（按分支铺用例）·
-> `benchmark-assertions-delta.md`（baseline 会不会也通过）·
-> 《skill-examples》的 `example-values-become-defaults.md`（示例值被复制）·
-> 《skill-execution》的 `repeat-invocation-same-session.md`（第二次测的是自洽）·
-> 《skill-refining》的 `memory-layering-and-skills.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/failure-quadrant-diagnosis.md`（稳定地错 vs 偶尔错）·
+> `skill-evaluating/references/eval-case-design.md`（按分支铺用例）·
+> `skill-evaluating/references/benchmark-assertions-delta.md`（baseline 会不会也通过）·
+> 《skill-examples》的 `skill-examples/references/example-values-become-defaults.md`（示例值被复制）·
+> 《skill-execution》的 `skill-execution/references/repeat-invocation-same-session.md`（第二次测的是自洽）·
+> 《skill-refining》的 `skill-refining/references/memory-layering-and-skills.md`
 > 前置：
 > 那份讲的是⭐⭐⭐⭐ **同一会话内跑第二次测的是自洽**，
 > 这份讲的是⭐⭐⭐⭐⭐ **评测集本身是用被测技能（或同一个模型）造出来的**——
@@ -59,7 +59,7 @@
 → 而触发匹配正是基于用词 → 测的是"描述能不能匹配它自己的措辞"
 ```
 
-> ⭐⭐⭐⭐⭐ 这条与《skill-examples》的 `example-values-become-defaults.md`
+> ⭐⭐⭐⭐⭐ 这条与《skill-examples》的 `skill-examples/references/example-values-become-defaults.md`
 > 是同一个机制的两面：⭐⭐⭐⭐ 那份讲示例值被复制成默认值，
 > ⭐⭐⭐⭐⭐ 这份讲**描述里的措辞被复制成查询里的措辞**——
 > 于是匹配必然成功。
@@ -233,7 +233,7 @@
                生成的输入通常语法完整、术语准确
 ```
 
-> ⭐⭐⭐⭐⭐ 第 ② 条的判据与 `example-values-become-defaults.md`
+> ⭐⭐⭐⭐⭐ 第 ② 条的判据与 `skill-examples/references/example-values-become-defaults.md`
 > 完全一致：⭐⭐⭐⭐⭐ **"如果你的查询读起来像教科书，说明你编了。"**
 
 ---

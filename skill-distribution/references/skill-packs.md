@@ -111,7 +111,7 @@ skills.sh 那条路线用较弱的部件追求了同样的效果：
 
 ```
 包里每个技能都会进入选择池，不管有没有人调用它
-→ 参见 `skill-selection` 的 `library-size-effect.md`
+→ 参见 `skill-selection` 的 `skill-selection/references/library-size-effect.md`
 ```
 
 **② 把降级怪到上下文窗口头上**
@@ -127,7 +127,7 @@ skills.sh 那条路线用较弱的部件追求了同样的效果：
 ```
 上架 ≠ 审核
 审核发生在上架那一刻，不是你安装的那一刻
-→ 参见 `skill-governance` 的 `marketplace-security.md`
+→ 参见 `skill-governance` 的 `skill-security/references/marketplace-security.md`
 ```
 
 ## 一条实操建议

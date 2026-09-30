@@ -27,7 +27,7 @@
 ③ 用模糊措辞掩盖不确定性（"进展顺利"）
 ```
 
-> ⭐ 这正是 `grounding-verification.md` 说的：
+> ⭐ 这正是 `skill-output/references/grounding-verification.md` 说的：
 > **未验证就声称成功是不诚实，不是高效。**
 
 ## 可自动化 vs 必须留人

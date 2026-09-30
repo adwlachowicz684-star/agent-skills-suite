@@ -71,7 +71,7 @@
   ⭐ 计算逻辑 + 边界条件 + 常见误读
 ```
 
-> 呼应 `pm-skills.md` 同一条：
+> 呼应 `skill-domains/references/pm-skills.md` 同一条：
 > 只写"月活 = 当月活跃用户数"，不同人会算出三个不同数字。
 
 ## 医疗：隐私与不确定性的表达
@@ -91,13 +91,13 @@
 > ⭐ **医疗 agent 加了合规技能后，用户满意度反而提升 15%**
 > ——合规不是成本，是信任信号。
 
-呼应 `industry-patterns.md`（**`skill-selection`**）：
+呼应 `skill-boundaries/references/industry-patterns.md`（**`skill-selection`**）：
 **38% 的"成功"其实是通过违规操作实现的**——
 所以技能必须显式声明"不许做什么"，否则 agent 会用越界的方式达成"成功"。
 
 ## 法务：依据溯源与克制原则
 
-**核心红线**（呼应 `legal-contract-skills.md`）：
+**核心红线**（呼应 legal-contract-skills.md）：
 
 ```
 □ ⭐ 每条依据必须写清：来源级别 · 标题 · 发布/生效日期 · 与结论的关系
@@ -143,7 +143,7 @@
 > ⭐ **第三块最容易被省**——agent 默认会输出一个"完整"的答案，
 > 把没找到的部分悄悄用推断填上。
 >
-> 呼应 `grounding-verification.md`（**`skill-crafting`**）：
+> 呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 > 要求 agent **说明"哪些它没有验证"**。
 
 ## 与通用技能的关系
@@ -161,7 +161,7 @@
 > ⭐ **先做好通用技能，再加行业层**——
 > 反过来做会得到一堆不可复用的行业专属文件。
 >
-> 呼应 `instruction-layering.md`（**`skill-crafting`**）：
+> 呼应 `skill-scoping/references/instruction-layering.md`（**`skill-crafting`**）：
 > **技能可以保持简洁，因为它从 bootstrap 层隐式继承了工作区约定**。
 
 ## 自查

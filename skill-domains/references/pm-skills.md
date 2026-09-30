@@ -31,7 +31,7 @@
    → /strategy → /north-star → /write-prd
 ```
 
-> ⭐ 呼应 `skill-refining` 的 `architecture-layering.md` 的 Router 模式：
+> ⭐ 呼应 `skill-refining` 的 `skill-refining/references/architecture-layering.md` 的 Router 模式：
 > **先路由到子模式，再执行**，避免一个技能什么都做。
 
 ---
@@ -52,7 +52,7 @@
 
 > ⭐ **第 9 项"待决问题"最容易被漏**，
 > 但它恰恰是 PRD 与"假装很确定"的分界线——
-> 呼应 （领域实例库·已归档） 的 `research-skills.md` 的"说明哪些没有验证"。
+> 呼应 （领域实例库·已归档） 的 `skill-domains/references/research-skills.md` 的"说明哪些没有验证"。
 
 **产出格式**（分层，便于不同读者）：
 
@@ -108,7 +108,7 @@ Kano    基本型 · 期望型 · 兴奋型
 ```
 
 > ⭐ **"不替 PM 做决策"这条必须写进技能**——
-> 呼应 `methodology-skills.md` 的第⑥条：
+> 呼应 `skill-domains/references/methodology-skills.md` 的第⑥条：
 > **显式标出"只能人做"的步骤**。
 
 ---

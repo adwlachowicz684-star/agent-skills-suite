@@ -32,7 +32,7 @@
 □ ⭐ 定制技能能快速把隐性知识显性化
 ```
 
-> 呼应 `writing-org-context.md`：
+> 呼应 `skill-domains/references/writing-org-context.md`：
 > **个人经验 → 组织可复用的生产力资产**。
 
 ---
@@ -64,7 +64,7 @@
 ```
 
 > ⭐ **"合同条款比对"是法律与供应链的交叉**——
-> 呼应 `legal-contract-skills.md`：
+> 呼应 legal-contract-skills.md：
 > 这类技能应输出**差异清单 + 风险等级**，而不是"看起来差不多"。
 
 ---
@@ -78,7 +78,7 @@
 □ ⭐ 往往需调用多个内部系统
 ```
 
-> 详见 `customer-support-skills.md`。
+> 详见 `skill-domains/references/customer-support-skills.md`。
 
 ---
 
@@ -94,7 +94,7 @@
 ```
 
 > ⭐ **"不允许出错"是这类技能的定性**——
-> 呼应 `finance-accounting-skills.md`：
+> 呼应 finance-accounting-skills.md：
 > **模型可以组织数字，但不能生成数字**。
 
 ---
@@ -109,7 +109,7 @@
 □ ⭐ 需结合公司政策和历史数据
 ```
 
-> 详见 `hr-recruiting-skills.md`（含四条合规边界）。
+> 详见 hr-recruiting-skills.md（含四条合规边界）。
 
 ---
 
@@ -141,7 +141,7 @@
    ——确保输出符合企业标准
 ```
 
-> ⭐ 这正好对应 `skill-crafting` 的 `skill-structuring` 的 `directory-contract.md` 的三个子目录：
+> ⭐ 这正好对应 `skill-crafting` 的 `skill-structuring` 的 `skill-structuring/references/directory-contract.md` 的三个子目录：
 > 指令在 SKILL.md、确定性逻辑在 scripts/、模板在 assets/。
 
 ---

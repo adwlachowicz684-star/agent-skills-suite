@@ -63,7 +63,7 @@ Keep it short; the long version goes in the postmortem doc.
 ⭐ "what caused X"
 ```
 
-直接把用户的**原话**写进触发条件。这是 `description-patterns.md`
+直接把用户的**原话**写进触发条件。这是 `skill-description/references/description-patterns.md`
 里"匹配用户词汇"的教科书示范——
 不是"根因分析"，而是人会真的打出来的那句话。
 
@@ -77,7 +77,7 @@ Keep it short; the long version goes in the postmortem doc.
 两条禁令都在**防止最自然的错误动作**：
 人会本能地先去翻日志。技能明确禁止了它。
 （注意：这是**禁令+配方**组合——先给了正确顺序，
-禁令只是防止跑偏，符合 `guidance-forms.md` 的形态匹配。）
+禁令只是防止跑偏，符合 `skill-crafting/references/guidance-forms.md` 的形态匹配。）
 
 **③ "Things that have burned us"**
 
@@ -98,7 +98,7 @@ Keep it short; the long version goes in the postmortem doc.
 ```
 
 先规定**最后一行是什么**，再规定**它上面全是证据**。
-这是 `output-contract.md` 里 Schema-First 的一个极简版本——
+这是 `skill-output/references/output-contract.md` 里 Schema-First 的一个极简版本——
 **一行就能定义整个文档的结构**。
 
 而且给了降级路径：
@@ -182,5 +182,5 @@ description: ... or when asked "what caused X" about ...
 这个技能**很短**（全文不到 40 行）。
 它的价值不在篇幅，在于**每一行都是不可删的**。
 
-> 用 `pruning.md` 的 no-op 测试逐行过一遍：
+> 用 `skill-refining/references/pruning.md` 的 no-op 测试逐行过一遍：
 > 你会发现几乎删不掉任何一句——**这正是好技能的判据**。

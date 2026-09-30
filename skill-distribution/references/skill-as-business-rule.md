@@ -1,8 +1,8 @@
 # 技能是业务规则的数字孪生
 
-> 相关：《skill-versioning》的 `version-changelog-practice.md` ·
-> 《skill-distribution》的 `gray-release-rollback.md`（10% 流量全挂大盘只掉 1–2 点）·
-> 《skill-scoping》的 `scope-multiplication.md`（70% 事故来自未评估微调）
+> 相关：《skill-versioning》的 `skill-versioning/references/version-changelog-practice.md` ·
+> 《skill-distribution》的 `skill-distribution/references/gray-release-rollback.md`（10% 流量全挂大盘只掉 1–2 点）·
+> 《skill-scoping》的 `skill-scoping/references/scope-multiplication.md`（70% 事故来自未评估微调）
 > 前置：那些讲⭐ 版本号怎么打，
 > 这份讲⭐⭐⭐⭐⭐ **为什么必须从第一天就做**——
 > 配一个真实的、定位了半天的线上事故。
@@ -93,7 +93,7 @@
 - ⭐ **改完通常不跑评测**——因为没有"代码变了"这个信号
 
 > ⭐⭐⭐ 对策只有一条：**把 description 的改动也纳入回归触发条件**
-> （见 `ci-skill-validation.md` 的 path filter）。
+> （见 `skill-automation/references/ci-skill-validation.md` 的 path filter）。
 
 ---
 
@@ -114,11 +114,11 @@
 | 环节 | 用什么 |
 |---|---|
 | 结构校验 | `validate_skill.py`（CI 里能跑） |
-| 行为回归 | `claude -p` 跑 eval 集（`ci-skill-validation.md`） |
-| 灰度 | `stable/dev` 标签（`team-landing-seven.md`） |
+| 行为回归 | `claude -p` 跑 eval 集（`skill-automation/references/ci-skill-validation.md`） |
+| 灰度 | `stable/dev` 标签（`skill-adoption/references/team-landing-seven.md`） |
 | 回滚 | 切标签，指针移动 |
 
-⚠️ 一个诚实提醒（来自 `ci-skill-validation.md` 的实测）：
+⚠️ 一个诚实提醒（来自 `skill-automation/references/ci-skill-validation.md` 的实测）：
 **给 40 个已存在的技能补装 lint 花了一整个下午。**
 所以"从第一天做"的真正理由不是规范，是**补装的成本非线性**。
 

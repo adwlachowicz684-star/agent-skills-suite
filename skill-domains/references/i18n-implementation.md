@@ -45,8 +45,8 @@ Glob: "src/**/i18n/**"
 在文档里搜会让 agent **误判"已有 i18n 基础设施"**，
 从而跳过阶段 3，整个流程从一开始就错了。
 
-> 呼应 `grounding-verification.md`（**`skill-crafting`**）：
-> **行动前先查状态**（`skill-principles.md` 原则 7）——
+> 呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
+> **行动前先查状态**（`skill-scoping/references/skill-principles.md` 原则 7）——
 > 但**查错地方比不查更糟**。
 
 ## 字符串提取范围
@@ -67,7 +67,7 @@ Glob: "src/**/i18n/**"
 > ⭐ **`placeholder`、`aria-label`、`alt`、`title` 是最常漏的四类**。
 > 它们不在标签之间，肉眼看不出来，但对可访问性是必需的。
 
-呼应 `a11y-skills.md`（**（领域实例库·已归档）**）：
+呼应 a11y-skills.md（**（领域实例库·已归档）**）：
 **自动化工具只能抓到 30–57% 的无障碍问题**——
 `aria-label` 这类正是漏掉的那部分。
 
@@ -114,7 +114,7 @@ Glob: "src/**/i18n/**"
 ```
 
 > ⭐ "搜索模式验证"这四个字是关键——
-> 呼应 `grounding-verification.md`：
+> 呼应 `skill-output/references/grounding-verification.md`：
 > **给具体命令，不靠 agent 自己扫一眼**。
 
 ## 为什么这个场景适合做成技能
@@ -140,7 +140,7 @@ Glob: "src/**/i18n/**"
 
 ## 与多语言技能的关系
 
-呼应 `i18n.md`（**`skill-refining`**）：
+呼应 `skill-refining/references/i18n.md`（**`skill-refining`**）：
 
 ```
 i18n.md            → ⭐ 技能本身怎么做多语言

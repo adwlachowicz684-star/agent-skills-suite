@@ -33,47 +33,47 @@ description: 按业务领域写 Agent Skills——代码评审、测试、文档
 
 **工程**：
 
-| `code-review-automation.md` | ⭐⭐⭐⭐ 评审技能的结构与输出分级 |
-| `code-review-trust.md` | ⭐⭐⭐⭐⭐ 评审可信度：假阳性比漏报更伤信任 |
-| `testing-skills.md` | ⭐⭐⭐ 测试类技能 |
-| `code-quality-skills.md` | ⭐⭐⭐ 代码质量类 |
-| `refactoring-skills.md` | ⭐⭐⭐ 重构类：⭐ 必须先有测试基线 |
-| `legacy-modernization.md` | ⭐⭐⭐ 遗留现代化 |
-| `dependency-upgrade.md` | ⭐⭐⭐⭐ 依赖升级：⭐⭐⭐⭐ 破坏性变更要按 changelog 逐条核对 |
-| `performance-optimization.md` | ⭐⭐⭐⭐ 性能优化：⭐⭐⭐⭐ 必须先测量，禁止凭直觉改 |
-| `build-error-resolution.md` | ⭐⭐⭐ 构建错误排查 |
-| `debugging-recovery.md` | ⭐⭐⭐ 调试与恢复 |
-| `monorepo-skills.md` | ⭐⭐⭐⭐ monorepo：⭐⭐⭐⭐⭐ 作用域限定（paths）是这类技能的关键 |
-| `schema-migration-skills.md` | ⭐⭐⭐⭐ Schema 迁移：⭐⭐⭐⭐⭐ 不可逆，必须 dry-run |
-| `cli-design-skills.md` | ⭐⭐⭐ CLI 设计 |
-| `i18n-implementation.md` | ⭐⭐⭐ 国际化实现 |
-| `security-review-checklist.md` | ⭐⭐⭐ 安全评审清单 |
+| `skill-domains/references/code-review-automation.md` | ⭐⭐⭐⭐ 评审技能的结构与输出分级 |
+| `skill-domains/references/code-review-trust.md` | ⭐⭐⭐⭐⭐ 评审可信度：假阳性比漏报更伤信任 |
+| `skill-domains/references/testing-skills.md` | ⭐⭐⭐ 测试类技能 |
+| `skill-domains/references/code-quality-skills.md` | ⭐⭐⭐ 代码质量类 |
+| `skill-domains/references/refactoring-skills.md` | ⭐⭐⭐ 重构类：⭐ 必须先有测试基线 |
+| `skill-domains/references/legacy-modernization.md` | ⭐⭐⭐ 遗留现代化 |
+| `skill-domains/references/dependency-upgrade.md` | ⭐⭐⭐⭐ 依赖升级：⭐⭐⭐⭐ 破坏性变更要按 changelog 逐条核对 |
+| `skill-domains/references/performance-optimization.md` | ⭐⭐⭐⭐ 性能优化：⭐⭐⭐⭐ 必须先测量，禁止凭直觉改 |
+| `skill-domains/references/build-error-resolution.md` | ⭐⭐⭐ 构建错误排查 |
+| `skill-domains/references/debugging-recovery.md` | ⭐⭐⭐ 调试与恢复 |
+| `skill-domains/references/monorepo-skills.md` | ⭐⭐⭐⭐ monorepo：⭐⭐⭐⭐⭐ 作用域限定（paths）是这类技能的关键 |
+| `skill-domains/references/schema-migration-skills.md` | ⭐⭐⭐⭐ Schema 迁移：⭐⭐⭐⭐⭐ 不可逆，必须 dry-run |
+| `skill-domains/references/cli-design-skills.md` | ⭐⭐⭐ CLI 设计 |
+| `skill-domains/references/i18n-implementation.md` | ⭐⭐⭐ 国际化实现 |
+| `skill-domains/references/security-review-checklist.md` | ⭐⭐⭐ 安全评审清单 |
 
 **协作与流程**：
 
-| `git-pr-workflow.md` | ⭐⭐⭐⭐ Git/PR 工作流 |
-| `changelog-release-notes.md` | ⭐⭐⭐ CHANGELOG 与发布说明 |
-| `incident-triage.md` | ⭐⭐⭐⭐⭐ 事故分诊：⭐⭐⭐⭐⭐ 时效优先于完整，先止血后归因 |
-| `log-analysis.md` | ⭐⭐⭐ 日志分析 |
-| `meeting-notes-action.md` | ⭐⭐⭐⭐ 会议纪要与行动项：⭐⭐⭐⭐ 缺责任人和时间就是不合格 |
-| `stakeholder-comms.md` | ⭐⭐⭐ 干系人沟通 |
-| `documentation-skills.md` | ⭐⭐⭐ 文档类 |
-| `api-doc-generation.md` | ⭐⭐⭐ API 文档生成 |
-| `research-skills.md` | ⭐⭐⭐⭐ 研究类：⭐⭐⭐⭐⭐ 引用必须可追溯，禁止编造来源 |
-| `methodology-skills.md` | ⭐⭐⭐⭐ 方法论类：⭐⭐⭐⭐ 流程顺序不可打乱 |
-| `feedback-loop-design.md` | ⭐⭐⭐ 反馈回路设计 |
+| `skill-domains/references/git-pr-workflow.md` | ⭐⭐⭐⭐ Git/PR 工作流 |
+| `skill-domains/references/changelog-release-notes.md` | ⭐⭐⭐ CHANGELOG 与发布说明 |
+| `skill-domains/references/incident-triage.md` | ⭐⭐⭐⭐⭐ 事故分诊：⭐⭐⭐⭐⭐ 时效优先于完整，先止血后归因 |
+| `skill-domains/references/log-analysis.md` | ⭐⭐⭐ 日志分析 |
+| `skill-domains/references/meeting-notes-action.md` | ⭐⭐⭐⭐ 会议纪要与行动项：⭐⭐⭐⭐ 缺责任人和时间就是不合格 |
+| `skill-domains/references/stakeholder-comms.md` | ⭐⭐⭐ 干系人沟通 |
+| `skill-domains/references/documentation-skills.md` | ⭐⭐⭐ 文档类 |
+| `skill-domains/references/api-doc-generation.md` | ⭐⭐⭐ API 文档生成 |
+| `skill-domains/references/research-skills.md` | ⭐⭐⭐⭐ 研究类：⭐⭐⭐⭐⭐ 引用必须可追溯，禁止编造来源 |
+| `skill-domains/references/methodology-skills.md` | ⭐⭐⭐⭐ 方法论类：⭐⭐⭐⭐ 流程顺序不可打乱 |
+| `skill-patterns/references/feedback-loop-design.md` | ⭐⭐⭐ 反馈回路设计 |
 
 **业务职能**：
 
-| `customer-support-skills.md` | ⭐⭐⭐⭐ 客户支持：⭐⭐⭐⭐⭐ 不可承诺未授权事项 |
-| `pm-skills.md` | ⭐⭐⭐⭐ PM 类 |
-| `ecommerce-ops-skills.md` | ⭐⭐⭐ 电商运营 |
-| `procurement-rfp.md` | ⭐⭐⭐ 采购与 RFP |
-| `ml-mlops-skills.md` | ⭐⭐⭐⭐ ML/MLOps：⭐⭐⭐⭐ 数据漂移与可复现性 |
-| `soc-soar-skills.md` | ⭐⭐⭐⭐ SOC/SOAR 安全运营 |
-| `vertical-compliance.md` | ⭐⭐⭐⭐⭐ 垂直行业合规：⭐⭐⭐⭐⭐ 保守输出优于自信输出 |
-| `brand-guidelines.md` | ⭐⭐⭐ 品牌规范 |
-| `writing-org-context.md` | ⭐⭐⭐⭐ 组织上下文：⭐⭐⭐⭐ 缩写与内部术语是最大价值点 |
+| `skill-domains/references/customer-support-skills.md` | ⭐⭐⭐⭐ 客户支持：⭐⭐⭐⭐⭐ 不可承诺未授权事项 |
+| `skill-domains/references/pm-skills.md` | ⭐⭐⭐⭐ PM 类 |
+| `skill-domains/references/ecommerce-ops-skills.md` | ⭐⭐⭐ 电商运营 |
+| `skill-domains/references/procurement-rfp.md` | ⭐⭐⭐ 采购与 RFP |
+| `skill-domains/references/ml-mlops-skills.md` | ⭐⭐⭐⭐ ML/MLOps：⭐⭐⭐⭐ 数据漂移与可复现性 |
+| `skill-domains/references/soc-soar-skills.md` | ⭐⭐⭐⭐ SOC/SOAR 安全运营 |
+| `skill-domains/references/vertical-compliance.md` | ⭐⭐⭐⭐⭐ 垂直行业合规：⭐⭐⭐⭐⭐ 保守输出优于自信输出 |
+| `skill-domains/references/brand-guidelines.md` | ⭐⭐⭐ 品牌规范 |
+| `skill-domains/references/writing-org-context.md` | ⭐⭐⭐⭐ 组织上下文：⭐⭐⭐⭐ 缩写与内部术语是最大价值点 |
 
 ## Critical Rules
 
@@ -84,7 +84,7 @@ description: 按业务领域写 Agent Skills——代码评审、测试、文档
 - ⭐⭐⭐⭐ monorepo 类技能用 `paths:` 限定作用域（见《skill-loading》）
 - ⭐⭐⭐⭐ 会议纪要/行动项类：缺责任人或截止时间即为不合格输出
 - ⭐⭐⭐⭐ 事故分诊类：时效优先于完整，**先止血后归因**
-- ⭐⭐⭐ 不要把领域百科写进技能——会腐烂（见《skill-refining》的 `memory-layering-and-skills.md`）
+- ⭐⭐⭐ 不要把领域百科写进技能——会腐烂（见《skill-refining》的 `skill-refining/references/memory-layering-and-skills.md`）
 
 ## 常见借口
 

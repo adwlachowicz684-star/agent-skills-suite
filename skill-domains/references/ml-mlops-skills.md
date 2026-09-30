@@ -71,8 +71,8 @@
    EDA → 清洗 → 特征 → pipeline → 评估 → 服务
 ```
 
-> ⭐ 第 ③ 条呼应 `skill-authoring` 的 `skill-types.md`：**Gotchas 是信号最高的部分**。
-> 第 ④ 条呼应 `skill-orchestration` 的 `composition.md`：技能通过路由协作。
+> ⭐ 第 ③ 条呼应 `skill-authoring` 的 `skill-content/references/skill-types.md`：**Gotchas 是信号最高的部分**。
+> 第 ④ 条呼应 `skill-orchestration` 的 `skill-composition/references/composition.md`：技能通过路由协作。
 
 ---
 
@@ -91,7 +91,7 @@
    ⭐ 用 pipeline 把变换包进 CV 的每一折
 ```
 
-> ⭐ 呼应 `legacy-modernization.md` 的特征化测试思路：
+> ⭐ 呼应 `skill-domains/references/legacy-modernization.md` 的特征化测试思路：
 > **"指标好得不像真的"本身就是一个需要诊断的症状**——
 > 所以 `ml-debugging` 把"metrics look too good"列为触发条件之一。
 
@@ -125,7 +125,7 @@ ml-debugging 的诊断决策树
 □ 评估
 ```
 
-> 呼应 `skill-selection` 的 `skill-vs-rag.md`：技能教的是**怎么用好检索**，
+> 呼应 `skill-selection` 的 `skill-boundaries/references/skill-vs-rag.md`：技能教的是**怎么用好检索**，
 > 而不是替代检索本身。
 
 ---

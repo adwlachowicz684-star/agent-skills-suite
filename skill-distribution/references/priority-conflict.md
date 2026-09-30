@@ -47,7 +47,7 @@ code-review → code-review-frontend
               code-review-security
 ```
 
-> ⭐ 让名字更有区分度，顺带解决了 `library-size-effect.md`
+> ⭐ 让名字更有区分度，顺带解决了 `skill-selection/references/library-size-effect.md`
 > 里说的"遮蔽"问题——**同名和近义都会增加路由的不确定性**。
 
 **② 找管理员谈企业版技能**
@@ -147,4 +147,4 @@ code-review → code-review-frontend
 > 但真实情况是：**绝大多数问题是低级错误 + 认知偏差。**
 
 认知偏差那部分，最典型的就是**用自己写 description 时的措辞去测试**——
-见 `description-patterns.md` 与 `trigger-debugging.md`。
+见 `skill-description/references/description-patterns.md` 与 `skill-triggering/references/trigger-debugging.md`。

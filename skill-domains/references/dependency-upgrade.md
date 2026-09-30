@@ -158,5 +158,5 @@ PATCH  修复
 
 > ⭐ 而且**"证明了没弄坏"这件事，
 > 必须有具体的证据清单**——
-> 呼应 `grounding-verification.md`：
+> 呼应 `skill-output/references/grounding-verification.md`：
 > **"我跑了测试"要写明跑了什么、结果是什么。**

@@ -60,7 +60,7 @@
 > 直接 `ALTER TABLE ... RENAME` 会让正在运行的应用
 > 在切换瞬间找不到列——而四阶段让新旧结构**共存一段时间**。
 
-呼应 `database-sql-skills.md` 的安全迁移四步法与
+呼应 database-sql-skills.md 的安全迁移四步法与
 **大表直接 ALTER 会锁表**的警告。
 
 ## 完整用例
@@ -118,12 +118,12 @@ Q：修改已合并迁移文件的限制是什么？
 A：⭐ 已合并的迁移不可变；直接编辑会破坏幂等与回滚一致性。
 ```
 
-> 呼应 `authoring-workflow.md`（**`skill-authoring`**）的
+> 呼应 `skill-authoring/references/authoring-workflow.md`（**`skill-authoring`**）的
 > **引用既有原则**——用问答形式把边界讲清，成本很低。
 
 ## 为什么这类技能要写死流程
 
-对照自由度校准（**`skill-crafting`** 的 `guidance-forms.md`）：
+对照自由度校准（**`skill-crafting`** 的 `skill-crafting/references/guidance-forms.md`）：
 
 ```
 任务脆弱性：⭐ 极高（错了就是生产事故）

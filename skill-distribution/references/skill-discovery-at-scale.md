@@ -1,8 +1,8 @@
 # 库变大之后：发现机制、分级与"给 agent 一个可信入口"
 
-> 相关：《skill-distribution》的 `enterprise-registry.md` ·
-> `marketplace-ops` · 《skill-refining》的 `skill-scope-tiering.md` ·
-> `catalog-shape.md`
+> 相关：《skill-distribution》的 `skill-distribution/references/enterprise-registry.md` ·
+> `marketplace-ops` · 《skill-refining》的 `skill-refining/references/skill-scope-tiering.md` ·
+> `skill-refining/references/catalog-shape.md`
 > 前置：那些讲"库怎么治理、怎么分级"，
 > 这份讲⭐⭐ **规模化的发现端**：15 万技能的市场怎么组织、怎么评级，
 > 以及⭐⭐⭐ 一个很新的做法——给 agent 一个可信入口。
@@ -33,8 +33,8 @@
 > **技能的边际生产成本已经低到"随便写"**，
 > 于是瓶颈从"生产"转移到了⭐ **发现与信任**。
 >
-> ⭐⭐ 这与 `library-size-effect.md` 的"遮蔽"、
-> `skillsbench-vs-realworld.md` 的"加载率只有 49%/31%/16%"
+> ⭐⭐ 这与 `skill-selection/references/library-size-effect.md` 的"遮蔽"、
+> `skill-evaluating/references/skillsbench-vs-realworld.md` 的"加载率只有 49%/31%/16%"
 > 是同一个问题的两端：**技能越多，越难找到对的那个。**
 
 ---
@@ -49,7 +49,7 @@
 ```
 
 > ⭐⭐ 第 ③ 条值得注意：**市场在卖"组合"而不只是"单品"**。
-> 这与 `orchestrator-timing.md` 的"技能是乐高积木、
+> 这与 `skill-orchestration/references/orchestrator-timing.md` 的"技能是乐高积木、
 > 编排器是说明书"呼应——**市场开始连说明书一起卖了**。
 
 **分类维度**（观察：同时提供两种切法）：
@@ -84,11 +84,11 @@
 > ——建立规范、强制顺序、避免过载。
 > **没有一个在说"它功能很全"。**
 >
-> ⭐⭐ 这与 `quality-rubric-nine-dims.md` 的权重分布对上了：
+> ⭐⭐ 这与 `skill-quality/references/quality-rubric-nine-dims.md` 的权重分布对上了：
 > **实测表现 + 可执行具体性 + 失败模式编码占 52%**，
 > 而"功能覆盖"根本不在权重最高的几项里。
 
-> ⭐ 顺带印证 `worth-skillifying.md` 那条：
+> ⭐ 顺带印证 `skill-boundaries/references/worth-skillifying.md` 那条：
 > **技能在你"做事有自己的一套"的地方帮助最大**——
 > 三个 S 级技能全都是在教"一套做法"。
 
@@ -120,14 +120,14 @@
 > ③ ⭐⭐ "安装或更改配置前先征求确认"
 >    → ⭐⭐ install 是一种⭐ 副作用操作，
 >       与 deploy / send / commit 同样需要人工确认门槛
->        （呼应 `seven-anti-patterns-scale.md` 第 6 条）
+>        （呼应 `skill-patterns/references/seven-anti-patterns-scale.md` 第 6 条）
 > ```
 
 > ⭐⭐⭐ 这个模式的意义：**让 agent 自己去市场找技能**，
 > 而不是人来找。这把"发现"这件事的负担从人转给了 agent——
 > **但用三条约束把风险压住了**。
 >
-> ⭐ 这也与 `self-evolution-three-levels.md` 的自进化呼应：
+> ⭐ 这也与 `skill-versioning/references/self-evolution-three-levels.md` 的自进化呼应：
 > **agent 可以提议，但安装（改变配置）必须人批准。**
 
 ---
@@ -139,12 +139,12 @@
 Claude Code · Codex · Gemini CLI · OpenCode · OpenClaw
 ```
 
-> ⭐ 这与 `cross-agent-portability.md` 的"取工具中性的名字"、
+> ⭐ 这与 `skill-distribution/references/cross-agent-portability.md` 的"取工具中性的名字"、
 > "中性目录 `.agents/skills/` + symlink"是同一个趋势的两面：
 > **市场在推动跨平台，作者就该写成可移植的。**
 
 ⚠️ 但要注意边界：**平台特有字段（hooks、context: fork）在别的平台会被忽略**，
-所以"能安装"不等于"行为一致"（呼应 `frontmatter-full-reference.md`）。
+所以"能安装"不等于"行为一致"（呼应 `skill-loading/references/frontmatter-full-reference.md`）。
 
 ---
 

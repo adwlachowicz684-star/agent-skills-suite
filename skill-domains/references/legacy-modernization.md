@@ -67,7 +67,7 @@ def test_order_status_golden_master(order_id, expected_status):
 ```
 
 > ⭐ **"响亮失败"**
-> ——呼应 `testing-skills.md` 与 `skill-evaluating` 的 `trigger-debugging.md` 的边界校验。
+> ——呼应 `skill-domains/references/testing-skills.md` 与 `skill-evaluating` 的 `skill-triggering/references/trigger-debugging.md` 的边界校验。
 
 ---
 
@@ -147,7 +147,7 @@ SSR → 流式            现代化数据获取模式
 □ ⭐ 新代码被证明稳定之前就删除旧代码
 ```
 
-> ⭐ 呼应 `skill-crafting` 的 `guidance-forms.md`：
+> ⭐ 呼应 `skill-crafting` 的 `skill-crafting/references/guidance-forms.md`：
 > 这些**禁令都配了对应的正面做法**（特性开关、特征化测试、回滚能力），
 > 不是光说"不要"。
 

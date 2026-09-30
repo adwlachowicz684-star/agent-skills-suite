@@ -1,7 +1,7 @@
 # 断言打在环境状态上，而不是模型输出上
 
-> 相关：《skill-quality》的 `four-dimension-eval.md` ·
-> `skill-test-pyramid-four.md` · `test-pyramid.md`
+> 相关：《skill-quality》的 `skill-quality/references/four-dimension-eval.md` ·
+> `skill-evaluating/references/skill-test-pyramid-four.md` · `skill-evaluating/references/test-pyramid.md`
 
 ---
 
@@ -63,7 +63,7 @@ LLM 评分  内容完整性、逻辑合理性 —— 语义层，选择性用
 
 > ⭐ 第二条极少有人做，但极其重要：
 > **一个永远通过的断言跟没有断言一样，而且更危险**——
-> 它给你虚假的安全感。这与 `golden-rules-failure-modes.md`
+> 它给你虚假的安全感。这与 `skill-patterns/references/golden-rules-failure-modes.md`
 > "从未抓到问题的清单说明检查得不够硬"是同一条。
 
 ---

@@ -30,7 +30,7 @@
 □ 输出格式随 TTY 与否变化
 ```
 
-呼应 《skill-scripting》`script-engineering.md` 的
+呼应 《skill-scripting》`skill-scripting/references/script-engineering.md` 的
 「脚本必须非交互、JSON 输出、区分退出码、幂等」——
 **这里是同一套原则在 CLI 设计上的应用**。
 
@@ -67,7 +67,7 @@
 ```
 
 > ⭐ **不要给选项菜单——做决定，让用户覆盖。**
-> 呼应 `skill-principles.md`（**`skill-crafting`**）同一条：
+> 呼应 `skill-scoping/references/skill-principles.md`（**`skill-crafting`**）同一条：
 > "Don't offer menus of options—make the decision and let the user override."
 
 **破坏性操作必须有 `--dry-run` 且默认开启**：
@@ -107,7 +107,7 @@ mytool list --format table    # 给人看
 > ⭐ **把 `ok`、`warnings`、`errors` 做成固定字段**——
 > agent 不需要猜"这次到底算成功吗"。
 
-呼应 `output-contract.md`（**`skill-crafting`**）的 Schema-First：
+呼应 `skill-output/references/output-contract.md`（**`skill-crafting`**）的 Schema-First：
 **边界校验要在技能边界做，失败要"响亮"**。
 
 ## 退出码
@@ -124,7 +124,7 @@ mytool list --format table    # 给人看
 > ⭐ **区分"要不要重试"比区分"成功失败"更有用**：
 > 20（未找到）重试没意义，10（校验失败）改输入再试有意义。
 
-呼应 《skill-scripting》`script-engineering.md`：
+呼应 《skill-scripting》`skill-scripting/references/script-engineering.md`：
 **退出码要区分类型，否则 SKILL.md 的错误处理章节没法精准回退**。
 
 **错误信息要给"下一步"**：
@@ -156,7 +156,7 @@ cat items.txt | mytool process -
    ——agent 超时重试时这条救命
 ```
 
-呼应 `error-handling.md`（**`skill-crafting`**）：
+呼应 `skill-recovery/references/error-handling.md`（**`skill-crafting`**）：
 **工具超时后 agent 重试，不能产生重复项**。
 
 ## 自查清单

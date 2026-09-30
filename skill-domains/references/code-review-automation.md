@@ -45,7 +45,7 @@
 第二步：⭐ 合并权保留在人类手里，直到证据质量稳定
 ```
 
-呼应 `security-pipeline.md`（**`skill-orchestration`**）的
+呼应 `skill-orchestration/references/security-pipeline.md`（**`skill-orchestration`**）的
 **基线感知质量门禁**——只对新引入的问题失败。
 
 ## 五层技能栈
@@ -101,10 +101,10 @@
 ❌ 任何不指向具体锚点的通用意见
 ```
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）：
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 **落地 = 把输出锚定到现实**。
 
-也呼应 `security-pipeline.md` 的反幻觉验证：
+也呼应 `skill-orchestration/references/security-pipeline.md` 的反幻觉验证：
 **结论必须挂在一个可独立验证的锚点上**。
 
 ## Token scope 是安全边界
@@ -121,9 +121,9 @@
 ❌ 组织级作用域
 ```
 
-> 呼应 `skill-structuring` 的 `frontmatter-fields.md`（**`skill-crafting`**）的
+> 呼应 `skill-structuring` 的 `skill-loading/references/frontmatter-fields.md`（**`skill-crafting`**）的
 > `allowed-tools` 最小授权原则，与
-> `sandbox-execution.md`（**`skill-governance`**）的按技能类型切片：
+> `skill-security/references/sandbox-execution.md`（**`skill-governance`**）的按技能类型切片：
 > **权限边界在工具层，不在提示词层。**
 
 ## 什么叫生产就绪

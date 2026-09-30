@@ -63,7 +63,7 @@ name 格式错 / 与目录名不一致  → ⭐ 加载时被静默拒绝
 ❌ coding / documents
 ```
 
-理由同 `description-patterns.md` 里的"太宽"：
+理由同 `skill-description/references/description-patterns.md` 里的"太宽"：
 **通用名字会和一大片技能竞争，赢不了任何一场。**
 
 **④ 长度适中**
@@ -107,7 +107,7 @@ plugin-name:skill-name
 > ⭐ **有命名空间的技能不会与用户/项目技能因同名冲突。**
 
 所以如果你遇到同名冲突，冲突方一定是
-**企业 / 个人 / 项目**这三档之一（见 `priority-conflict.md`）。
+**企业 / 个人 / 项目**这三档之一（见 `skill-distribution/references/priority-conflict.md`）。
 
 自定义命名空间约定（团队内部）：
 

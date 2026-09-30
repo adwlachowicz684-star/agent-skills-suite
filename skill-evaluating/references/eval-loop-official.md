@@ -1,7 +1,7 @@
 # 官方评估循环：四步与 benchmark 结构
 
-> 相关：《skill-evaluating》的 `test-pyramid.md` ·
-> `four-dimension-eval.md` · `graded-rubric.md` · `claude-ab-loop.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/test-pyramid.md` ·
+> `skill-quality/references/four-dimension-eval.md` · `skill-quality/references/graded-rubric.md` · `skill-automation/references/claude-ab-loop.md`
 
 ---
 
@@ -78,7 +78,7 @@ csv-analyzer-workspace/
 ③ 人工评审     —— 金标准
 ```
 
-> ⭐ 与 `deterministic-first.md` 一致：**从代码检查起步**。
+> ⭐ 与 `skill-evaluating/references/deterministic-first.md` 一致：**从代码检查起步**。
 
 ### 步骤 4：分析并迭代
 
@@ -177,8 +177,8 @@ token 翻倍换 2 个百分点的提升
 ③ 应用并验证：更新 frontmatter 的 description，重跑
 ```
 
-> near-miss 那部分与 `activation-rate.md`、
-> `trigger-eval-set.md` 的说法完全一致——**负样本必须共享关键词**，
+> near-miss 那部分与 `skill-description/references/activation-rate.md`、
+> `skill-triggering/references/trigger-eval-set.md` 的说法完全一致——**负样本必须共享关键词**，
 > 否则测不出真本事。
 
 ---

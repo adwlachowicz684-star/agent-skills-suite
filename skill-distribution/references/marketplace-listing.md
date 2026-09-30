@@ -24,7 +24,7 @@
 > ⭐ **"典型触发场景用用户原文"** 这条最常被忽略：
 > 用户是照着自己会说的话来搜的，不是照着技术术语。
 
-呼应 `naming-description.md`（**`skill-authoring`**）：
+呼应 `skill-description/references/naming-description.md`（**`skill-authoring`**）：
 description 里也要写触发词——同一条纪律。
 
 ## 安装命令必须带版本
@@ -46,7 +46,7 @@ npx skills add owner/repo --skill my-skill
 导致所有依赖它的下游技能全部中断
 ```
 
-呼应 `release-versioning.md`（**`skill-distribution`**）：
+呼应 `skill-distribution/references/release-versioning.md`（**`skill-distribution`**）：
 **所有安装命令都必须带 `#vX.Y.Z` 后缀**。
 
 ## 安装后要断言
@@ -66,7 +66,7 @@ npx skills add owner/repo --skill my-skill
    ——让 agent 复述技能流程，对得上才算加载成功
 ```
 
-第三条呼应 `reload-debug.md`（**`skill-evaluating`**）：
+第三条呼应 `skill-triggering/references/reload-debug.md`（**`skill-evaluating`**）：
 **改完让模型复述技能的流程**——对得上才算生效。
 
 ## 常见上架问题
@@ -90,7 +90,7 @@ npx skills add owner/repo --skill my-skill
 □ ⭐ 安装后断言数量
 ```
 
-呼应 `packaging.md`（**`skill-refining`**）。
+呼应 `skill-distribution/references/packaging.md`（**`skill-refining`**）。
 
 ## 与许可的关系
 
@@ -99,7 +99,7 @@ npx skills add owner/repo --skill my-skill
 □ ⭐ 不要假设"仓库是 MIT 所以技能也是 MIT"
 ```
 
-呼应 `licensing-ip.md`（**`skill-refining`**）：
+呼应 `skill-distribution/references/licensing-ip.md`（**`skill-refining`**）：
 **同一生态四种许可证逻辑并存**。
 
 ## 自查

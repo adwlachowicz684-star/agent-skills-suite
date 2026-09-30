@@ -1,7 +1,7 @@
 # 供应链信任：像对待代码依赖一样对待技能
 
-> 相关：《skill-security》的 `marketplace-security.md` ·
-> `security-audit-ops.md` · （已移至 _parked 领域实例库）的 `injection-audit.md`
+> 相关：《skill-security》的 `skill-security/references/marketplace-security.md` ·
+> `skill-security/references/security-audit-ops.md` · （已移至 _parked 领域实例库）的 `skill-security/references/injection-audit.md`
 
 ---
 
@@ -21,7 +21,7 @@
 >
 > ⭐ **真实的供应链攻击已经发生过了。**
 
-这不是理论风险（见 `marketplace-security.md` 的 ClawHub 2026-03 事件）。
+这不是理论风险（见 `skill-security/references/marketplace-security.md` 的 ClawHub 2026-03 事件）。
 
 ---
 
@@ -31,7 +31,7 @@
 |---|---|
 | ⭐ **锁定版本** | 用注册中心时 pin 到具体版本，不要追 latest |
 | ⭐ **信任边界** | ⭐ **不要从不新克隆的仓库自动加载项目级技能——先审查** |
-| **最小权限** | 用 `allowed-tools` 限制执行期能力（见 `least-privilege.md`） |
+| **最小权限** | 用 `allowed-tools` 限制执行期能力（见 `skill-security/references/least-privilege.md`） |
 | ⭐ **审批闸门** | ⭐ 破坏性动作（删文件、部署、发消息）前显式确认 |
 | **脚本最小化** | 短、可读、非交互、⭐ **除非绝对必要否则不做网络调用** |
 | 版本化迭代 | 随项目演进更新，像维护代码一样 |
@@ -84,7 +84,7 @@ Do NOT use when the user:
 ⭐ 跑"有技能" vs "无技能"基线对比
 ```
 
-> 这与 `eval-case-sources.md` 的数量建议一致，
+> 这与 `skill-evaluating/references/eval-case-sources.md` 的数量建议一致，
 > 且再次强调 **baseline delta 是唯一有意义的问题**。
 
 ---

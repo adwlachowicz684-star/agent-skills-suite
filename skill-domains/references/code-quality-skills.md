@@ -20,9 +20,9 @@
 | 意图 | 用哪些章节 |
 |---|---|
 | 写代码 | 核心规则 + 语言标准 + AI 友好模式 |
-| 评审 PR | 评审流程 + `references/checklist.md` + 严重度分级 |
+| 评审 PR | 评审流程 + checklist.md + 严重度分级 |
 | 配 CI | 配置文件 + 脚本 + 强制策略 |
-| Python 风格检查 | `references/python.md`（完整 PEP 8） |
+| Python 风格检查 | python.md（完整 PEP 8） |
 
 ```
 □ ⭐ 深度评审时才读对应语言的 references/ 文件
@@ -100,7 +100,7 @@
 
 > ⭐ **"Style 自动修复"是个好设计**——
 > 把风格问题交给 formatter，评审带宽留给真正的问题。
-> 呼应 `skill-governance` 的 `ci-cd-integration.md`：机器能检查的交给 hook/CI。
+> 呼应 `skill-governance` 的 `skill-governance/references/ci-cd-integration.md`：机器能检查的交给 hook/CI。
 
 ---
 
@@ -168,7 +168,7 @@ logger.info("user_login", user_id=user_id)  # structlog
 log.Info().Str("user_id", userID).Msg("user logged in") // zerolog
 ```
 
-> ⭐ 呼应 `database-sql-skills.md` 的 UPSERT 方言差异：
+> ⭐ 呼应 database-sql-skills.md 的 UPSERT 方言差异：
 > **跨语言/跨库的差异必须显式列出**。
 
 ---

@@ -1,7 +1,7 @@
 # API 文档生成类技能
 
-> 相关：（领域实例库·已归档） 的 `api-design-skills.md` ·
-> `documentation-skills.md` · `skill-crafting` 的 `output-contract.md`
+> 相关：（领域实例库·已归档） 的 api-design-skills.md ·
+> `skill-domains/references/documentation-skills.md` · `skill-crafting` 的 `skill-output/references/output-contract.md`
 
 ---
 
@@ -106,7 +106,7 @@ curl -X POST https://api.example.com/users/register \
 > ⭐ **把模板定义在技能里，意味着团队每个人生成的文档格式都一样，
 > 与个人习惯或 prompt 措辞无关。**
 
-这是 `output-contract.md` 那条"输出格式要显式指定"的直接收益。
+这是 `skill-output/references/output-contract.md` 那条"输出格式要显式指定"的直接收益。
 
 ---
 
@@ -148,7 +148,7 @@ curl -X POST https://api.example.com/users/register \
 - 每个端点都要有 curl 命令
 ```
 
-> ⭐ 这些约定属于 `instruction-layering.md` 里的持久上下文，
+> ⭐ 这些约定属于 `skill-scoping/references/instruction-layering.md` 里的持久上下文，
 > 写进技能或 CLAUDE.md，不要靠每次口头说。
 
 ---

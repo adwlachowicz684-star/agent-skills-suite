@@ -1,7 +1,7 @@
 # 断言好坏、delta 判读与 VibeCheck
 
-> 相关：《skill-evaluating》的 `assert-on-environment.md` ·
-> `eval-loop-official.md` · `comparator-ab-eval.md` · `skill-test-pyramid-four.md`
+> 相关：《skill-evaluating》的 `skill-evaluating/references/assert-on-environment.md` ·
+> `skill-evaluating/references/eval-loop-official.md` · `skill-automation/references/comparator-ab-eval.md` · `skill-evaluating/references/skill-test-pyramid-four.md`
 > 前置：那些讲"断言打在哪、盲评怎么做"，
 > 这份讲⭐⭐⭐ **断言本身的写法与⭐⭐⭐ delta 的判读表**——
 > 含⭐⭐⭐ 一个"⭐ 不用猜断言"的发现方法。
@@ -48,7 +48,7 @@
 
 > ⭐⭐⭐⭐ 核心判据：**baseline 会不会也通过？**
 > 会 → 这条断言⭐ 测的是模型基线能力，不是技能的贡献。
-> ⭐⭐⭐ 这与 `eval-loop-official.md` 的
+> ⭐⭐⭐ 这与 `skill-evaluating/references/eval-loop-official.md` 的
 > "两组都通过的断言没有区分度"是⭐ 同一条的第二个来源，
 > ⭐⭐ 但这里给出了⭐⭐⭐ **一个可操作的检验**：**先跑一次 baseline。**
 
@@ -64,7 +64,7 @@
 ⑤ ⭐⭐⭐ 正负混合："does NOT contain X" ⭐ 与 ⭐ "DOES contain Y" ⭐ 都要有
 ```
 
-> ⭐⭐⭐ 第 ⑤ 条与我们已有的 `eval-case-design.md`
+> ⭐⭐⭐ 第 ⑤ 条与我们已有的 `skill-evaluating/references/eval-case-design.md`
 > "负向用例测的是'它没做什么'"完全对上——
 > ⭐⭐ 但那里说的是⭐ 用例，这里说的是⭐ 断言：
 > **每个用例内部也要有正负两类断言。**
@@ -85,7 +85,7 @@
 > ⭐⭐⭐⭐ **"This prevents guessing at assertions that don't actually differentiate."**
 >
 > ⭐⭐⭐ 这个方法解决了一个⭐ 很实际的问题：
-> 我们已有的 `skill-test-pyramid-four.md` 说
+> 我们已有的 `skill-evaluating/references/skill-test-pyramid-four.md` 说
 > "先用 CLI 手跑一遍校准预期，再写自动断言"——
 > ⭐⭐ 但⭐ 手跑一遍仍然要靠你猜哪些差异重要。
 > **VibeCheck 用"稳定出现"这个客观标准替代了你的猜测。**
@@ -112,9 +112,9 @@ Delta = pass_rate − baseline_pass_rate
 > 因为写一个 baseline 也会过的断言，太容易了。
 >
 > ⭐⭐⭐⭐ **"Negative"那一格** 与我们已有的
-> `capability-offset-net-gain.md`（59% 抵消）、
-> `three-skill-ceiling.md`（挂载 >3 下滑）、
-> `skillsbench-vs-realworld.md`（弱模型有技能反而更差）
+> `skill-evaluating/references/capability-offset-net-gain.md`（59% 抵消）、
+> `skill-evaluating/references/three-skill-ceiling.md`（挂载 >3 下滑）、
+> `skill-evaluating/references/skillsbench-vs-realworld.md`（弱模型有技能反而更差）
 > ⭐⭐⭐⭐ 是⭐ 第四个独立来源——
 > **"技能可能让结果变差"这件事，现在有四个来源从不同角度证实了。**
 >
@@ -134,7 +134,7 @@ delta = { pass_rate, time_seconds, tokens }
 > ⭐⭐⭐⭐ **"13 秒开销换 50 点提升" 与 "token 翻倍换 2 点提升"
 > ⭐⭐⭐ ⭐ 是完全不同的权衡。**
 >
-> ⭐⭐ 这与 `quality-rubric-nine-dims.md` 的 L3 成本层
+> ⭐⭐ 这与 `skill-quality/references/quality-rubric-nine-dims.md` 的 L3 成本层
 > （质量分提升 ÷ 增加的 token）是同一思路。
 
 ---
@@ -153,7 +153,7 @@ delta = { pass_rate, time_seconds, tokens }
 > ⭐⭐⭐ 那么正向断言（"输出要有 X"）必然 baseline 也过——
 > ⭐⭐⭐⭐ **必须反过来测"输出⭐ 不含 X"**，才能测出它的贡献。
 >
-> ⭐⭐⭐ 这与 `eight-practical-lessons.md` 的
+> ⭐⭐⭐ 这与 `skill-crafting/references/eight-practical-lessons.md` 的
 > "不要请求用户贴密钥""不允许 push 到 main"这类⭐ 约束型技能
 > 直接相关：**约束型技能的 eval 必须写成抑制测试。**
 
@@ -171,7 +171,7 @@ delta = { pass_rate, time_seconds, tokens }
 ```
 
 > ⭐⭐⭐⭐ **"常识注入 delta 为 0"** 是对
-> `knowledge-delta-checklist.md`（该有的是模型不知道的）
+> `skill-patterns/references/knowledge-delta-checklist.md`（该有的是模型不知道的）
 > ⭐⭐⭐ 的⭐ 直接实证——**你写常识，delta 就是 0，一个点都涨不了。**
 >
 > ⭐⭐⭐ **"2–3 个精心设计的 eval 胜过 10 个平庸的"**

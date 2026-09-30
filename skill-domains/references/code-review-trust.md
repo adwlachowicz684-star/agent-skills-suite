@@ -102,7 +102,7 @@ NOTE    可以考虑
 ❌ ⭐ 对没跑过的验证做"应该没问题"的推断
 ```
 
-第三条呼应 `grounding-verification.md`：
+第三条呼应 `skill-output/references/grounding-verification.md`：
 **"我看了代码，应该能过"不是验证。**
 
 配套的一条：
