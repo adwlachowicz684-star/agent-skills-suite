@@ -41,7 +41,7 @@
 > ⭐⭐⭐⭐ 而"多个 fork"那一行⭐ 意味着：
 > ⭐⭐⭐⭐⭐ **并行 fork 的⭐ 上下文成本是⭐ 线性叠加在 fork 侧、主上下文仍是零**——
 > ⭐⭐⭐⭐ 所以⭐ 并行探索是⭐ 少数"变多但不挤主上下文"的手段
-> （与 `skill-composition/references/skill-chaining-composition.md` 的"叠加不覆盖"不矛盾：
+> （与 `skill-composition/references/sequential-composition.md` 的"叠加不覆盖"不矛盾：
 > ⭐⭐ 叠加说的是⭐ 同一上下文内，fork 说的是⭐ 另起上下文）。
 
 **压缩预算的补充数据**：
