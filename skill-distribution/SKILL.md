@@ -45,26 +45,26 @@ description: Agent Skills 的打包发布、版本管理、团队共享与组织
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **技能包：可寻址产物、锁文件与 pin 纪律** | `references/skill-packs.md` |
-| ⭐ **优先级冲突：企业>个人>项目>插件，同名必被盖** | `references/priority-conflict.md` |
-| ⭐ **使用分析：把技能库接进工程目录、清库** | `references/usage-analytics.md` |
-| ⭐ **两级审核：命名空间 + 全局、四种状态** | `references/review-governance.md` |
-| **命名规范：硬约束、动词 vs 名词、改名的代价** | `references/naming-convention.md` |
-| ⭐ **回滚演练：验收标准是 eval 回到基线** | `references/rollback-drill.md` |
-| ⭐ **变更日志：记 why 与影响，不是 git log** | `references/changelog-practice.md` |
-| ⭐ **打包布局、provenance、git tag** | `references/packaging.md` |
+| ⭐ **技能包：可寻址产物、锁文件与 pin 纪律** | `skill-distribution/references/skill-packs.md` |
+| ⭐ **优先级冲突：企业>个人>项目>插件，同名必被盖** | `skill-distribution/references/priority-conflict.md` |
+| ⭐ **使用分析：把技能库接进工程目录、清库** | `skill-distribution/references/usage-analytics.md` |
+| ⭐ **两级审核：命名空间 + 全局、四种状态** | `skill-distribution/references/review-governance.md` |
+| **命名规范：硬约束、动词 vs 名词、改名的代价** | `skill-distribution/references/naming-convention.md` |
+| ⭐ **回滚演练：验收标准是 eval 回到基线** | `skill-distribution/references/rollback-drill.md` |
+| ⭐ **变更日志：记 why 与影响，不是 git log** | `skill-distribution/references/changelog-practice.md` |
+| ⭐ **打包布局、provenance、git tag** | `skill-distribution/references/packaging.md` |
 | ⭐ **团队采用与推广（冷启动、PR 流程、度量）** | **`skill-adoption`** |
-| **语义化版本 / 回滚 / 迁移指引** | `references/release-versioning.md` |
-| **版本兼容与废弃四阶段** | `references/versioning-compat.md` |
-| **许可与知识产权归属** | `references/licensing-ip.md` |
+| **语义化版本 / 回滚 / 迁移指引** | `skill-distribution/references/release-versioning.md` |
+| **版本兼容与废弃四阶段** | `skill-distribution/references/versioning-compat.md` |
+| **许可与知识产权归属** | `skill-distribution/references/licensing-ip.md` |
 
 **环境与运维**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **离线与私有化部署** | `references/air-gapped.md` |
-| **技能库运维与健康诊断** | `references/library-ops.md` |
-| ⭐ **上架列表页与安装后断言** | `references/marketplace-listing.md` |
+| ⭐ **离线与私有化部署** | `skill-distribution/references/air-gapped.md` |
+| **技能库运维与健康诊断** | `skill-distribution/references/library-ops.md` |
+| ⭐ **上架列表页与安装后断言** | `skill-distribution/references/marketplace-listing.md` |
 
 ## Critical Rules
 

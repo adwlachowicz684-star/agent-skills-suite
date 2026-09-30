@@ -57,22 +57,22 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **四层测试金字塔（lint/触发/行为/回归）** | `references/test-pyramid.md` |
+| ⭐ **四层测试金字塔（lint/触发/行为/回归）** | `skill-evaluating/references/test-pyramid.md` |
 | ⭐ **Skill Lift：A/B 对照方法** | `skill-quality/references/skill-lift-eval.md` |
 | **评测工具、pass@k、能力 vs 回归** | `skill-automation/references/eval-tooling.md` |
 | ⭐ **四维评估：Outcome/Process/Style/Efficiency 可代码化** | `skill-quality/references/four-dimension-eval.md` |
-| ⭐ **LLM-as-Judge：四种形式、机器可读判据、偏差与校准** | `references/judge-design.md` |
+| ⭐ **LLM-as-Judge：四种形式、机器可读判据、偏差与校准** | `skill-evaluating/references/judge-design.md` |
 | **官方有效性清单（逐项对照）** | `skill-quality/references/official-checklist.md` |
 | ⭐ **金丝雀发布：把技能改动当可执行配置** | `skill-automation/references/canary-release.md` |
 | ⭐ **触发与加载问题（不触发/乱触发/不生效）** | **`skill-triggering`** |
 | ⭐ **触发 Eval 集：near-miss 负例是承重的一半** | `skill-triggering/references/trigger-eval-set.md` |
-| ⭐ **先手动跑一遍：eval 素材从哪来、--json 判分** | `references/manual-first.md` |
-| ⭐ **套件维护：100% 通过是坏消息、三个版本号** | `references/suite-maintenance.md` |
+| ⭐ **先手动跑一遍：eval 素材从哪来、--json 判分** | `skill-evaluating/references/manual-first.md` |
+| ⭐ **套件维护：100% 通过是坏消息、三个版本号** | `skill-evaluating/references/suite-maintenance.md` |
 | **八层质量模型、20 条起始用例** | `skill-quality/references/metrics.md` |
-| ⭐ **回归基线套件：三跑、分类统计、防转移** | `references/regression-baseline.md` |
+| ⭐ **回归基线套件：三跑、分类统计、防转移** | `skill-evaluating/references/regression-baseline.md` |
 | ⭐ **质量评分 Rubric（Accuracy 有否决权）** | `skill-quality/references/quality-rubric.md` |
 | **双实例迭代：A 写 B 测** | `skill-automation/references/claude-ab-loop.md` |
-| ⭐ **三个评估角色 / 对抗测试 / 防过拟合** | `references/eval-roles.md` |
+| ⭐ **三个评估角色 / 对抗测试 / 防过拟合** | `skill-evaluating/references/eval-roles.md` |
 | **发现性测试** | `skill-triggering/references/discovery.md` |
 
 **理解失败**：
@@ -80,7 +80,7 @@ description: 评估一个 Agent Skill 到底有没有用。用于技能不触发
 | 你要做的事 | 读 |
 |---|---|
 | ⭐ **技能为什么会让人变差** | `skill-triggering/references/failure-modes.md` |
-| **测试方法论** | `references/testing.md` |
+| **测试方法论** | `skill-evaluating/references/testing.md` |
 
 ## 强制工作流（MANDATORY）
 

@@ -38,11 +38,11 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 
 | 你要做的事 | 读 |
 |---|---|
-| **⭐ 三步实操手册** | `references/how-to-guide.md`（怎么做）· `references/creation-framework.md`（骨架与流程）· `references/what-not-to-do.md`（不能做） |
-| **完整流程 / 六阶段** | `references/workflow.md` |
-| ⭐ **跨模型测试矩阵：Haiku/Sonnet/Opus 三档** | `references/testing-matrix.md` |
+| **⭐ 三步实操手册** | `skill-authoring/references/how-to-guide.md`（怎么做）· `skill-authoring/references/creation-framework.md`（骨架与流程）· `skill-authoring/references/what-not-to-do.md`（不能做） |
+| **完整流程 / 六阶段** | `skill-authoring/references/workflow.md` |
+| ⭐ **跨模型测试矩阵：Haiku/Sonnet/Opus 三档** | `skill-authoring/references/testing-matrix.md` |
 | **看模板** | `assets/SKILL_template.md` |
-| **写完后自查 / 反模式对照表** | `references/authoring-checklist.md` |
+| **写完后自查 / 反模式对照表** | `skill-authoring/references/authoring-checklist.md` |
 
 **已写完之后**（交给姊妹技能）：
 
@@ -58,7 +58,7 @@ description: 从零创建 Agent Skills（SKILL.md 技能包）。用于写新技
 1. **先手工跑一遍任务**，记录反复提供的上下文与模型踩的坑——**那就是技能内容**。没跑过就写 = 凭空想象。
 2. **定边界**：先写"不做什么"，再写"做什么"。
 3. **分类基线失败**：跳步？形状不对？漏元素？依条件而定？→ 决定写法（见 **`skill-crafting`** 的 `skill-crafting/references/guidance-forms.md`）。
-4. **选模式**：按 `references/patterns.md` 的决策树定结构。
+4. **选模式**：按 `skill-authoring/references/patterns.md` 的决策树定结构。
 5. **定自由度**：脆弱易错 → 精确脚本；开放多变 → 文本指令。
 6. **写 `SKILL.md`**（路由层，目标 100–150 行，硬上限 500）。
 7. **长内容拆进 `references/`**：一层深度，超 100 行的文件加目录。

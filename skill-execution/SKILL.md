@@ -59,7 +59,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **开始前收齐前置条件** | `references/preflight-gate.md` |
+| ⭐ **开始前收齐前置条件** | `skill-execution/references/preflight-gate.md` |
 | **长任务怎么报进度** | `skill-output/references/progress-reporting.md` |
 | ⭐ **行动前先查状态（别重复做）** | `skill-recovery/references/state-check.md` |
 | ⭐ **失败后能恢复、能回滚** | `skill-recovery/references/idempotency-resume.md` |

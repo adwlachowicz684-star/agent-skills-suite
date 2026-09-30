@@ -53,7 +53,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **形态匹配：禁令 / 配方 / 槽位 / 条件** | `references/guidance-forms.md` |
+| ⭐ **形态匹配：禁令 / 配方 / 槽位 / 条件** | `skill-crafting/references/guidance-forms.md` |
 | **反理性化：agent 找借口跳过步骤** | **`skill-execution` 的 `anti-rationalizations.md`** |
 | **事实边界：该写什么不该写什么** | **`skill-scoping` 的 `skill-scoping/references/fact-boundary.md`** |
 | **措辞、语气、格式** | **`skill-content` 的 `skill-content/references/writing-style.md`** |

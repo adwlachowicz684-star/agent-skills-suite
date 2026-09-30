@@ -49,18 +49,18 @@ description: Agent Skills 的生命周期治理、库存与退役、腐烂检测
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **遥测 Schema：六类 Span、什么不该记** | `references/telemetry-schema.md` |
-| **可观测性：怎么知道技能到底用没用** | `references/observability.md` |
-| ⭐ **死技能检测：三类处置决策与四个判读陷阱** | `references/dead-skill-detection.md` |
-| ⭐ **Langfuse vs LangSmith：数据驻留与成本** | `references/observability-tools.md` |
-| ⭐ **调用控制：Skill(name) 权限语法与三种用法** | `references/skill-invocation-control.md` |
+| ⭐ **遥测 Schema：六类 Span、什么不该记** | `skill-governance/references/telemetry-schema.md` |
+| **可观测性：怎么知道技能到底用没用** | `skill-governance/references/observability.md` |
+| ⭐ **死技能检测：三类处置决策与四个判读陷阱** | `skill-governance/references/dead-skill-detection.md` |
+| ⭐ **Langfuse vs LangSmith：数据驻留与成本** | `skill-governance/references/observability-tools.md` |
+| ⭐ **调用控制：Skill(name) 权限语法与三种用法** | `skill-governance/references/skill-invocation-control.md` |
 
 **流水线与成本**：
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **CI/CD 集成与失败闭环** | `references/ci-cd-integration.md` |
-| **三个 token 桶、实测 8.5%、16x 案例** | `references/cost-control.md` |
+| ⭐ **CI/CD 集成与失败闭环** | `skill-governance/references/ci-cd-integration.md` |
+| **三个 token 桶、实测 8.5%、16x 案例** | `skill-governance/references/cost-control.md` |
 | **提示缓存：中途加载是最贵的失效模式** | **`skill-selection` 的 `skill-selection/references/caching-economics.md`** |
 | **运行时性能：冷启动预热、并行 IO** | **`skill-selection` 的 `skill-selection/references/performance.md`** |
 
@@ -68,9 +68,9 @@ description: Agent Skills 的生命周期治理、库存与退役、腐烂检测
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **1,236 技能吃掉 36.6% 上下文** | `references/scale-effects.md` |
-| ⭐ **技能清单与留存策略：治理的前提是知道有什么** | `references/skill-inventory.md` |
-| **五阶段：草稿 → 活跃 → 成熟 → 废弃 → 归档** | `references/lifecycle.md` |
+| ⭐ **1,236 技能吃掉 36.6% 上下文** | `skill-governance/references/scale-effects.md` |
+| ⭐ **技能清单与留存策略：治理的前提是知道有什么** | `skill-governance/references/skill-inventory.md` |
+| **五阶段：草稿 → 活跃 → 成熟 → 废弃 → 归档** | `skill-governance/references/lifecycle.md` |
 | **技能库运维与五维健康诊断** | **`skill-distribution` 的 `skill-distribution/references/library-ops.md`** |
 
 ## Critical Rules

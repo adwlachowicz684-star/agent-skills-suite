@@ -1,7 +1,7 @@
 # 参数与叠加：\$ARGUMENTS、位置占位符、多技能同载
 
 > 相关：《skill-loading》的 `skill-loading/references/argument-substitution.md`（\$1 会静默损坏代码）·
-> 《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md`（叠加不覆盖）
+> 《skill-composition》的 `skill-composition/references/sequential-composition.md`（叠加不覆盖）
 > 前置：那份讲⭐ 替换的陷阱，
 > 这份讲⭐⭐⭐⭐ ⭐ 替换的⭐ 全部语法 +
 > ⭐⭐⭐⭐⭐ 一条⭐ 此前没写过的⭐ 机制（⭐ 多技能同载）+
@@ -110,7 +110,7 @@ Migrate the $0 component from $1 to $2. Preserve all existing behavior and tests
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 老版本上⭐ 多写几个技能名⭐ 会⭐ 全部变成⭐ 一段奇怪的参数。**
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 与⭐ 已有知识的⭐ 对接：
-> ⭐⭐⭐⭐⭐ **`skill-composition/references/skill-chaining-composition.md` 说"后加载的不覆盖先加载的，所有活跃技能的约束同时生效"**——
+> ⭐⭐⭐⭐⭐ **`skill-composition/references/sequential-composition.md` 说"后加载的不覆盖先加载的，所有活跃技能的约束同时生效"**——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 本条⭐ 正是⭐ 那个"同时活跃"⭐ 状态的⭐ 具体产生方式之一，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 并且⭐ 给出了⭐ 一个硬上限（6 个）。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 顺带一提：⭐⭐⭐⭐⭐ **这个上限（6）比⭐ 我们建议的⭐ "单任务挂载 ≤3"

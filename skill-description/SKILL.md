@@ -34,17 +34,17 @@ description: 写好 Agent Skill 的 name 与 description，让它在该触发时
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **frontmatter 全字段与样式** | `references/frontmatter.md` |
-| ⭐⭐⭐ **激活率实证：四档数据与矛盾证据** | `references/activation-rate.md` |
-| ⭐⭐ **激活机制：LLM 推理而非关键词匹配** | `references/activation-mechanism.md` |
-| ⭐⭐ **描述要"稍微强势一点"（官方指引）** | `references/pushy-description.md` |
-| ⭐ **祈使句 + 否定约束：100% 激活** | `references/imperative-description.md` |
-| ⭐ **四种写法模式与三个致命错误** | `references/description-patterns.md` |
-| description 改写实录 30%→90% | `references/description-rewrite-case.md` |
-| description 四条规则 | `references/description-four-rules.md` |
-| ⭐⭐ **作用域句式、反触发、一技能一动词** | `references/description-scope-shape.md` |
-| name 与 description 命名 | `references/naming-description.md` |
-| ⭐⭐ **不触发九项排查 + 两个错误说法** | `references/trigger-fix-nine-causes.md` |
+| ⭐ **frontmatter 全字段与样式** | `skill-description/references/frontmatter.md` |
+| ⭐⭐⭐ **激活率实证：四档数据与矛盾证据** | `skill-description/references/activation-rate.md` |
+| ⭐⭐ **激活机制：LLM 推理而非关键词匹配** | `skill-description/references/activation-mechanism.md` |
+| ⭐⭐ **描述要"稍微强势一点"（官方指引）** | `skill-description/references/pushy-description.md` |
+| ⭐ **祈使句 + 否定约束：100% 激活** | `skill-description/references/imperative-description.md` |
+| ⭐ **四种写法模式与三个致命错误** | `skill-description/references/description-patterns.md` |
+| description 改写实录 30%→90% | `skill-description/references/description-rewrite-case.md` |
+| description 四条规则 | `skill-description/references/description-four-rules.md` |
+| ⭐⭐ **作用域句式、反触发、一技能一动词** | `skill-description/references/description-scope-shape.md` |
+| name 与 description 命名 | `skill-description/references/naming-description.md` |
+| ⭐⭐ **不触发九项排查 + 两个错误说法** | `skill-description/references/trigger-fix-nine-causes.md` |
 
 ## 何时不用（边界）
 
