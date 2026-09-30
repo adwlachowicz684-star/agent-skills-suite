@@ -104,7 +104,7 @@
    ⭐ 两份会漂移，漂移的规则比没有规则更糟
 ```
 
-（呼应 `instruction-layering.md`：同一份内容不要放三处。）
+（呼应 `skill-scoping/references/instruction-layering.md`：同一份内容不要放三处。）
 
 **④ 用技能承载"必须在此时执行"的约束**
 
@@ -116,7 +116,7 @@
 
 > 这条最关键：**需要 100% 保证的规则，
 > 既不能靠技能，也不能只靠命令，要靠 hook 或 CI。**
-> （见 `hook-risk.md`。）
+> （见 `skill-security/references/hook-risk.md`。）
 
 ## 自查
 
@@ -139,6 +139,6 @@
 > ⭐ 这实际上把"技能"变成了"命令"——
 > **适合那些内容复杂、但必须显式触发的东西**。
 
-用法示例见 `fork-context-skill.md`：
+用法示例见 `skill-subagents/references/fork-context-skill.md`：
 评审类技能通常这么配，因为它会消耗较多上下文，
 不该被模型随手触发。

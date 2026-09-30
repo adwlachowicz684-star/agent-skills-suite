@@ -1,6 +1,6 @@
 # 命名空间冲突：技能多了会互相抢
 
-> 前置：`composition.md`（五种编排模式、冲突优先级）
+> 前置：`skill-composition/references/composition.md`（五种编排模式、冲突优先级）
 > 这份只讲**触发边界打架**这件事——三个解法 + 三招命名设计 + 三个易漏的工程坑。
 
 ---
@@ -55,7 +55,7 @@
 报告技能   → 不需要数据库直连
 ```
 
-这不只防冲突，还顺带限制了爆炸半径（与 `least-privilege.md` 一致）。
+这不只防冲突，还顺带限制了爆炸半径（与 `skill-security/references/least-privilege.md` 一致）。
 
 ### ③ 设计手动触发口令
 
@@ -96,7 +96,7 @@
 > ⭐ **"你中有我、我中有你"的互斥声明，让模型在边界场景做出明确选择，
 > 而不是随机触发一个。**
 
-这与 `activation-rate.md` 那条"NOT for X → 用 Y 代替是最强路由提示"完全一致——
+这与 `skill-description/references/activation-rate.md` 那条"NOT for X → 用 Y 代替是最强路由提示"完全一致——
 **一条同时治两个病**。
 
 ### 第三招：维护"技能地图"
@@ -112,7 +112,7 @@
 - 给模型的**路由参考**
 - ⭐ 给你自己的**记忆清单**——**新增技能时先查索引，避免重复**
 
-这与 `skill-inventory.md`（治理的前提是知道有什么）是同一件事在个人/小团队的轻量版。
+这与 `skill-governance/references/skill-inventory.md`（治理的前提是知道有什么）是同一件事在个人/小团队的轻量版。
 
 ---
 
@@ -172,11 +172,11 @@
 统一 timeout 的后果：**要么快技能等太久，要么慢技能被频繁掐断**。
 
 **修法**：每个技能单独配 timeout，并在 description 里写明"这是长耗时技能"，
-⭐ **让模型在执行前先告知用户需要等待**（与 `progress-reporting.md` 一致）。
+⭐ **让模型在执行前先告知用户需要等待**（与 `skill-output/references/progress-reporting.md` 一致）。
 
 ### ③ 脚本里必须用相对路径
 
-绝对路径换机器就断——这与 《skill-scripting》`script-engineering.md` 一致，
+绝对路径换机器就断——这与 《skill-scripting》`skill-scripting/references/script-engineering.md` 一致，
 但在**多技能编排**时更容易踩：每个技能都自带路径假设，组合起来必冲突。
 
 ---
@@ -191,7 +191,7 @@
 Skill A（数据查询）→ Skill B（报告生成）→ Skill C（通知）
 ```
 
-编排原则（与 `composition.md` 一致）：
+编排原则（与 `skill-composition/references/composition.md` 一致）：
 
 ```
 ✅ 链式调用：前一个的输出就是后一个的输入

@@ -1,9 +1,9 @@
 # 技能即服务：SLO 与错误预算
 
-> 相关：《skill-distribution》的 `skill-as-business-rule.md`（数字孪生）·
-> `gray-release-rollback.md`（灰度与回滚）·
-> 《skill-triggering》的 `skill-health-metrics.md`（体检指标）·
-> `capability-offset-net-gain.md`（新增失败抵消 59% 毛收益）
+> 相关：《skill-distribution》的 `skill-distribution/references/skill-as-business-rule.md`（数字孪生）·
+> `skill-distribution/references/gray-release-rollback.md`（灰度与回滚）·
+> 《skill-triggering》的 `skill-triggering/references/skill-health-metrics.md`（体检指标）·
+> `skill-evaluating/references/capability-offset-net-gain.md`（新增失败抵消 59% 毛收益）
 > 前置：那些讲⭐⭐⭐ 指标有哪些、怎么算，
 > 这份讲⭐⭐⭐⭐ **指标到了什么程度就该停止发布**——
 > 一个此前缺失的"执法机制"。
@@ -52,7 +52,7 @@ SLO + 错误预算补的就是这个：**把"变差"变成一个有明确后果�
 | SLI | 定义 | ⭐ 口径要点 |
 |---|---|---|
 | **触发准确率** | 该触发时触发 /（该触发 + 不该触发） | ⭐ 分母必须含误触发，否则 100% 无意义 |
-| **输出合格率** | 输出通过验收 / 总输出 | ⭐ 验收要可判定（见《skill-content》的 `validation-escalation.md`） |
+| **输出合格率** | 输出通过验收 / 总输出 | ⭐ 验收要可判定（见《skill-content》的 `skill-content/references/validation-escalation.md`） |
 | **净增益** | 新增通过 − 回归数 | ⭐⭐⭐ 只报毛通过率会掩盖"换血"（59% 抵消的来源） |
 
 三条的分工很清楚：
@@ -155,7 +155,7 @@ SLO + 错误预算补的就是这个：**把"变差"变成一个有明确后果�
    个人随手写的、只自己用的 → 不需要
 ```
 
-这与 `worth-skillifying.md` 的可授权维度一致：**影响面决定治理强度**。
+这与 `skill-boundaries/references/worth-skillifying.md` 的可授权维度一致：**影响面决定治理强度**。
 
 **误用三：与"质量分"混为一谈**
 

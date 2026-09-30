@@ -1,8 +1,8 @@
 # Owner 制度与变更流程
 
-> 相关：《skill-governance》的 `retirement-pipeline.md` ·
-> `ops-iteration-sop.md` · 《skill-adoption》的 `team-conventions-pr.md`
-> 前置：`team-conventions-pr.md` 讲评审清单，
+> 相关：《skill-governance》的 `skill-governance/references/retirement-pipeline.md` ·
+> `skill-governance/references/ops-iteration-sop.md` · 《skill-adoption》的 `skill-adoption/references/team-conventions-pr.md`
+> 前置：`skill-adoption/references/team-conventions-pr.md` 讲评审清单，
 > 这份讲⭐ 谁对技能负责、以及一次改动要走完什么流程。
 
 ---
@@ -123,12 +123,12 @@ pass_rate: 0.85 → 0.72   ⭐ 掉了 13 个百分点
 > 1. ⭐ **一条"看起来正确"的规则会真实地损害表现**——
 >    不跑 eval 永远发现不了，因为每次输出都"看起来很专业"
 > 2. ⭐ **规则的代价往往落在边界情形上**（状态机函数），
->    而这正是 `three-failure-modes.md` 说的"隐式上下文依赖"
-> 3. ⭐ **退回旧版本不是可耻的**——`retirement-pipeline.md` 的
+>    而这正是 `skill-triggering/references/three-failure-modes.md` 说的"隐式上下文依赖"
+> 3. ⭐ **退回旧版本不是可耻的**——`skill-governance/references/retirement-pipeline.md` 的
 >    "归档 ≠ 删除"在这里同样适用，**保留被推翻的规则及其 eval 数据**
 >    是团队最值钱的资产之一
 
-**配套的版本管理**（与 `version-changelog-practice.md` 一致）：
+**配套的版本管理**（与 `skill-versioning/references/version-changelog-practice.md` 一致）：
 
 ```
 · 技能用语义化版本

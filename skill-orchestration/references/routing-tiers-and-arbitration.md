@@ -1,8 +1,8 @@
 # 三级路由与仲裁链：冲突要在编排层解决
 
-> 相关：《skill-orchestration》的 `collision-arbitration.md`（技能打架仲裁）·
-> `collision-arbitration.md` · `skill-chaining-composition.md` ·
-> `skill-dependency-injection.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/collision-arbitration.md`（技能打架仲裁）·
+> `skill-orchestration/references/collision-arbitration.md` · `skill-composition/references/skill-chaining-composition.md` ·
+> `skill-orchestration/references/skill-dependency-injection.md`
 > 前置：那份讲"两个技能打架怎么仲裁"，
 > 这份讲⭐⭐⭐ **路由本身的三层架构（规则→向量→模型）**
 > 与⭐⭐⭐ 一条更完整的仲裁优先级链——
@@ -99,7 +99,7 @@
 > ⭐⭐⭐ **"多一次交互对用户体验的伤害，
 > ⭐ 远小于⭐ 技能选错之后产生⭐ 错误操作的伤害。"**
 
-> ⭐⭐ 这与 `skill-dependency-injection.md` 的降级路径
+> ⭐⭐ 这与 `skill-orchestration/references/skill-dependency-injection.md` 的降级路径
 > （"只有引擎真的阻塞答案时才问，且只问一个具体问题"）
 > 看似张力，实则一致：
 > **前者是"信息不足时别问"（因为可以推断），
@@ -136,7 +136,7 @@
     ⭐ 仅当名称不存在或无权访问时返回错误/提示
 ```
 
-> ⭐⭐⭐ 这正好与 `priority-override-layers.md` 的
+> ⭐⭐⭐ 这正好与 `skill-triggering/references/priority-override-layers.md` 的
 > "临时 Prompt > 技能内置规则 > 全局 Rule"一致——
 > ⭐ **用户显式指定是最高优先级，路由层要给它开一条直通通道。**
 

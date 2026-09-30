@@ -1,8 +1,8 @@
 # 三道关卡：发现 / 激活 / 执行
 
-> 相关：《skill-loading》的 `skill-cascade-css.md` · `progressive-disclosure-official.md` ·
-> 《skill-scripting》的 `script-cli-contract.md` ·
-> 《skill-execution》的 `seven-contracts.md`
+> 相关：《skill-loading》的 `skill-loading/references/skill-cascade-css.md` · `skill-structuring/references/progressive-disclosure-official.md` ·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md` ·
+> 《skill-execution》的 `skill-execution/references/seven-contracts.md`
 > 前置：那些讲"字段怎么填、文件怎么放"，
 > 这份讲⭐⭐⭐ **运行时的三阶段模型**——
 > 含⭐⭐⭐⭐ 一个此前没分清的区分：**真失忆 vs 假失灵**。
@@ -62,7 +62,7 @@
 
 > ⭐⭐⭐⭐ **"两类失灵，两种修法，⭐⭐⭐⭐ 没区分清楚就动手，只会白费功夫。"**
 >
-> ⭐⭐⭐⭐ 这条与我们已有的 `context-budget-math.md`
+> ⭐⭐⭐⭐ 这条与我们已有的 `skill-patterns/references/context-budget-math.md`
 > （"技能中途失效——指令不一定消失了，可能模型只是改用了别的方法"）
 > ⭐⭐⭐ 是⭐ 第二个来源，
 > ⭐⭐⭐⭐ 但这里⭐ **给了分辨方法**：**重新调用一次**——
@@ -108,7 +108,7 @@
 > ⭐⭐⭐ **恰恰相反——脚本可以只被执行而不被读入，这正是它便宜的原因。**
 >
 > ⭐⭐⭐ 但要注意第二行：⭐ **脚本的输出会进上下文**。
-> 所以 `three-crash-scenes.md` 那起 3 万字事故的机制在这里得到解释：
+> 所以 `skill-recovery/references/three-crash-scenes.md` 那起 3 万字事故的机制在这里得到解释：
 > ⭐⭐⭐⭐ **脚本源码便宜（不进上下文），脚本输出昂贵（进上下文）**
 > ——所以"把体积控制放在脚本层"是对的（源码长没关系），
 > 而"输出不压缩"是致命的。
@@ -157,7 +157,7 @@ LLM 侧：读懂源文件 · 提取候选条目 · ⭐ 判断两条信息是否�
 > ⭐⭐⭐⭐ 根因表述值得记：⭐ **"你给了 Agent 执行能力，
 > 却没有给足'反思能力'。"**
 >
-> ⭐⭐⭐ 与我们已有的 `trace-debugging.md` 停止规则
+> ⭐⭐⭐ 与我们已有的 `skill-triggering/references/trace-debugging.md` 停止规则
 > （"连续两次相同参数命令 = 你在循环"）是⭐ 同一条的第二个来源，
 > ⭐⭐ 但这里⭐ **给了一个明确的数字：2 次**，并指定了失败后的去向（转人工）。
 
@@ -178,7 +178,7 @@ LLM 侧：读懂源文件 · 提取候选条目 · ⭐ 判断两条信息是否�
 
 > ⭐⭐⭐ 这句话比"惜字如金"更有力，因为它⭐ 点明了计价单位：
 > 不是"一次加载"，是⭐ **整个会话 × 每一次激活**。
-> 而 `context-budget-math.md` 的"激活后指令留在对话里持续消耗"
+> 而 `skill-patterns/references/context-budget-math.md` 的"激活后指令留在对话里持续消耗"
 > 是它的机制版本——⭐⭐⭐ 两份合起来就是完整的成本模型。
 
 ---

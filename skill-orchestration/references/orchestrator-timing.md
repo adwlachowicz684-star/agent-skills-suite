@@ -1,7 +1,7 @@
 # 什么时候才该写编排器
 
-> 相关：《skill-chaining》的 `skill-chaining-composition.md` ·
-> `composition-patterns-types.md` · `collision-arbitration.md`
+> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md` ·
+> `skill-orchestration/references/composition-patterns-types.md` · `skill-orchestration/references/collision-arbitration.md`
 > 前置：那些讲"编排怎么搭"，
 > 这份讲⭐ **什么时候不该搭**——以及那个⭐⭐ 三复制信号。
 
@@ -43,8 +43,8 @@
 ⭐⭐ 手动搬运次数 > 3 → 该写编排器了
 ```
 
-> ⭐ 这条与 `three-conditions-rule-of-three.md` 的三次法则、
-> `five-layer-choice.md` 的"同一段指令复制两次以上就该升级为技能"
+> ⭐ 这条与 `skill-selection/references/three-conditions-rule-of-three.md` 的三次法则、
+> `skill-boundaries/references/five-layer-choice.md` 的"同一段指令复制两次以上就该升级为技能"
 > 是同一个信号在⭐ 不同层级上的应用：
 >
 > ```
@@ -94,8 +94,8 @@
 ```
 
 > ⭐⭐ **"状态文件可以朴素到只是一个队列"** ——
-> 这与 `state-persistence.md` 的"append-only 文本日志就够了"、
-> `official-lessons.md` 的 standups.log 完全一致：
+> 这与 `skill-state/references/state-persistence.md` 的"append-only 文本日志就够了"、
+> `skill-scoping/references/official-lessons.md` 的 standups.log 完全一致：
 >
 > **别一上来就设计状态机，一个能追加的文件就能解决 80% 的问题。**
 

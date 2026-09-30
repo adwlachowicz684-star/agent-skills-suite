@@ -1,9 +1,9 @@
 # 技能的假设清单：把"我以为"写成"我假定"
 
-> 相关：《skill-scoping》的 `second-reader-test.md`（第二读者测试）·
-> 《skill-input》的 `data-dependency-declaration.md`（数据依赖）·
-> `prerequisites.md`（前置条件）·
-> 《skill-content》的 `default-actions.md`（默认动作）
+> 相关：《skill-scoping》的 `skill-scoping/references/second-reader-test.md`（第二读者测试）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（数据依赖）·
+> prerequisites.md（前置条件）·
+> 《skill-content》的 `skill-content/references/default-actions.md`（默认动作）
 > 前置：数据依赖那份解决⭐⭐⭐⭐ **"它需要什么才跑得起来"**，
 > 这份解决⭐⭐⭐⭐⭐ **"它默认世界是什么样的"**——
 > **后者更隐蔽，因为依赖缺失会报错，而假设不成立不报错，只是结果悄悄变错。**
@@ -152,7 +152,7 @@
 
 **③ ⭐⭐⭐ 让不了解背景的 agent 跑，看它问什么**
 
-> ⭐⭐⭐⭐⭐ 这一条已经在 `second-reader-test.md` 里说过了，
+> ⭐⭐⭐⭐⭐ 这一条已经在 `skill-scoping/references/second-reader-test.md` 里说过了，
 > 但这里值得重复：**它同时产出依赖清单和假设清单**，
 > ⭐⭐⭐ 一份功夫两份产出，是最划算的检查。
 

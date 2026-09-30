@@ -1,9 +1,9 @@
 # 技能之间怎么传数据
 
-> 相关：《skill-orchestration》的 `skill-dependency-injection.md`（双向无知）·
-> `skill-chaining-composition.md`（交接四步）·
-> `composition-patterns-types.md`（隐式依赖）·
-> 《skill-execution》的 `seven-contracts.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/skill-dependency-injection.md`（双向无知）·
+> `skill-composition/references/skill-chaining-composition.md`（交接四步）·
+> `skill-orchestration/references/composition-patterns-types.md`（隐式依赖）·
+> 《skill-execution》的 `skill-execution/references/seven-contracts.md`
 > 前置：那些讲⭐ 谁先谁后、⭐ 依赖怎么声明，
 > 这份讲⭐⭐⭐ **数据怎么从 A 到 B**——
 > 含⭐⭐⭐⭐ 一个我认为⭐ 讲得最好的比喻。
@@ -37,7 +37,7 @@
 > ⭐⭐⭐⭐ 你改的是⭐ 另一个往上下文里写字段的技能。
 > ⭐⭐⭐⭐⭐ 这类 bug 极难定位，因为⭐ 出错的地方和改动的地方⭐ 不是同一个。
 >
-> ⭐⭐⭐⭐ 与 `composition-patterns-types.md` 的"隐式依赖
+> ⭐⭐⭐⭐ 与 `skill-orchestration/references/composition-patterns-types.md` 的"隐式依赖
 > ⭐ 单独测试完全看不出来，只在生产被单独调用时暴露"
 > ⭐⭐⭐⭐ 是⭐ 同一件事的两个说法——这里⭐ 补上了⭐ 它的成因（黑板）和⭐ 修法。
 
@@ -58,7 +58,7 @@
 ```
 
 > ⭐⭐⭐⭐ 第 ② 条最关键：⭐ **"由编排层统一管理，技能不直接操作"**。
-> ⭐⭐⭐⭐ 这与 `skill-dependency-injection.md` 的"双向无知"是⭐ 同一原则：
+> ⭐⭐⭐⭐ 这与 `skill-orchestration/references/skill-dependency-injection.md` 的"双向无知"是⭐ 同一原则：
 > ⭐⭐⭐ 技能⭐ 不该知道⭐ 自己的输出会被谁用、被放在哪。
 >
 > ⭐⭐⭐⭐ 三条合起来的⭐ 收益说得很好：
@@ -89,14 +89,14 @@ dependencies:
 ```
 
 > ⭐⭐⭐ 注意 `conflicts` 这一节——⭐⭐ **显式声明"我和谁不能共存"**，
-> 这与 `description-scope-shape.md` 的"排除声明互相点名"、
-> `collision-arbitration.md` 的 `exclusive_group`
+> 这与 `skill-description/references/description-scope-shape.md` 的"排除声明互相点名"、
+> `skill-orchestration/references/collision-arbitration.md` 的 `exclusive_group`
 > ⭐ 是⭐ 同一条原则在⭐ 三个不同载体上的⭐ 第三次出现。
 >
 > ⭐⭐⭐⭐ **"让编排层知道谁在等谁"**——这句话点出了⭐ 依赖声明的真正用途：
 > ⭐⭐⭐⭐⭐ 不是给人类看的文档，⭐⭐⭐⭐⭐ 是⭐ 给调度器用的⭐ 输入。
 > ⭐⭐⭐ 所以⭐ 它必须是⭐ 结构化的（`^1.0.0` 而不是"新版本"），
-> ⭐⭐⭐⭐ 这与 `dependency-resolution-conflicts.md` 的
+> ⭐⭐⭐⭐ 这与 `skill-distribution/references/dependency-resolution-conflicts.md` 的
 > "需要 Python 环境"不是声明，`python: ">=3.11"` 才是
 > ⭐⭐⭐⭐ 是⭐ 同一条的第三个场景。
 
@@ -139,13 +139,13 @@ dependencies:
 >
 > ⭐⭐⭐⭐ 最后半句最重要：⭐⭐⭐ **它不是线性变慢，是⭐ 串联可靠性衰减**——
 > n 个环节、每环 p 的可靠度，整链是 pⁿ。
-> ⭐⭐⭐⭐ 这与 `scope-multiplication.md` 的"失败模式是⭐ 笛卡尔积"
+> ⭐⭐⭐⭐ 这与 `skill-scoping/references/scope-multiplication.md` 的"失败模式是⭐ 笛卡尔积"
 > ⭐⭐⭐⭐ ⭐ 是⭐ 同一数学直觉的⭐ 第二个场景：
 > ⭐⭐⭐⭐ **多一个环节（技能）不是多一份风险，是⭐ 乘一次风险。**
 
 > ⭐⭐⭐ 顺带一个相关判据：⭐ **模型运行时先加载主技能，
 > ⭐ 遇到依赖再加载子技能**，这样⭐ 不会出现"不知道下一步调哪个"。
-> ⭐⭐ 与 `frontmatter-full-reference.md` 的
+> ⭐⭐ 与 `skill-loading/references/frontmatter-full-reference.md` 的
 > ⭐ "子代理的 skills 字段是⭐ 启动时全量加载，没有按需档"
 > ⭐⭐⭐ 形成对比：⭐ 主链路可以按需，⭐⭐⭐ 子代理目前不行。
 
@@ -159,9 +159,9 @@ dependencies:
 ⭐⭐⭐⭐ ⭐ 但要⭐ 注意技能是否有⭐ 副作用——⭐⭐⭐⭐ ⭐ 只有只读技能⭐ 才能安全并行
 ```
 
-> ⭐⭐⭐ 这与 `conflict-precedence-four-types.md` 的
+> ⭐⭐⭐ 这与 `skill-patterns/references/conflict-precedence-four-types.md` 的
 > "⭐ 只读优于写入"仲裁规则、
-> `allowed-tools-least-privilege.md` 的最小权限
+> `skill-security/references/allowed-tools-least-privilege.md` 的最小权限
 > ⭐⭐⭐ 是⭐ 同一条的⭐ 第三个场景，而且⭐ 给出了一条⭐ 新的理由：
 > ⭐⭐⭐⭐ **并行的收益（降时延）只在⭐ 只读时成立**——
 > ⭐⭐⭐⭐ ⭐ 有副作用的技能并行会⭐ 互相踩踏，⭐⭐ 而且⭐ 失败后无法安全回滚。
@@ -178,7 +178,7 @@ dependencies:
 错误：  超时控制 · 指数退避重试 · ⭐⭐⭐ 降级（主技能失败用备用）· 监控告警
 ```
 
-> ⭐⭐⭐ 其中"⭐ 检查点"与 `fault-injection-eval.md` 的
+> ⭐⭐⭐ 其中"⭐ 检查点"与 `skill-evaluating/references/fault-injection-eval.md` 的
 > "⭐⭐ 恢复前检查点缺失/过期 → ⭐ 安全停止，⭐ 绝不编造进度"
 > ⭐⭐⭐ 完全一致——⭐⭐ 那份讲⭐ 检查点坏了怎么办，这里讲⭐ 检查点该怎么设计。
 

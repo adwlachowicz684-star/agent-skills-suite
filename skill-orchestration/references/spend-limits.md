@@ -57,9 +57,9 @@
 > 它对应"这一次任务"的自然边界，
 > 也是唯一能在单次失控时止损的层。
 
-工具层是 `least-privilege.md` 里
+工具层是 `skill-security/references/least-privilege.md` 里
 "narrow tools with typed, validated inputs" 的一部分；
-会话层与组织层是成本治理（见 `cost-control.md`）。
+会话层与组织层是成本治理（见 `skill-governance/references/cost-control.md`）。
 
 ## 数值怎么定
 
@@ -96,7 +96,7 @@
 **到达上限说明这次运行不正常，
 自动重试只会再烧一遍。**
 
-第 ② 条呼应 `escalation-rules.md`：
+第 ② 条呼应 `skill-orchestration/references/escalation-rules.md`：
 **升级包要带东西**，接手的人不该从零开始。
 
 ## 与重试的关系

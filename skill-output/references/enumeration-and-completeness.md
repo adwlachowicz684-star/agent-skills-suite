@@ -1,10 +1,10 @@
 # "处理所有 X" 是不可判定的
 
-> 相关：《skill-output》的 `output-contract.md` ·
-> `progress-reporting.md` ·
-> 《skill-recovery》的 `exit-conditions-when-to-stop.md`（停止条件）·
-> 《skill-execution》的 `parallel-and-concurrency.md`（覆盖率）·
-> 《skill-interfaces》的 `handoff-payload-contract.md`
+> 相关：《skill-output》的 `skill-output/references/output-contract.md` ·
+> `skill-output/references/progress-reporting.md` ·
+> 《skill-recovery》的 `skill-recovery/references/exit-conditions-when-to-stop.md`（停止条件）·
+> 《skill-execution》的 `skill-execution/references/parallel-and-concurrency.md`（覆盖率）·
+> 《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`
 > 前置：
 > 停止条件那份解决的是⭐⭐⭐⭐ **"什么时候算做完"**，
 > 这份解决的是⭐⭐⭐⭐⭐ **"做完意味着做完了多少个"**——
@@ -112,7 +112,7 @@
 > 没有任何一个会触发错误路径。
 > ⭐⭐⭐⭐⭐ 所以覆盖率是唯一能让它们变可见的字段。
 
-这与 `parallel-and-concurrency.md` 的
+这与 `skill-execution/references/parallel-and-concurrency.md` 的
 "部分成功必须报覆盖率"是同一条，
 那份讲的是⭐⭐⭐⭐ 并行的场景，这份讲的是⭐⭐⭐⭐⭐ **所有场景**。
 
@@ -187,7 +187,7 @@
 
 | | 管什么 |
 |---|---|
-| ⭐⭐⭐⭐ `exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐ **能不能结束**（跑不动/该转人/该放弃） |
+| ⭐⭐⭐⭐ `skill-recovery/references/exit-conditions-when-to-stop.md` | ⭐⭐⭐⭐ **能不能结束**（跑不动/该转人/该放弃） |
 | ⭐⭐⭐⭐⭐ 本份 | ⭐⭐⭐⭐⭐ **结束了意味着做完了多少**（分母与覆盖率） |
 
 > ⭐⭐⭐⭐⭐ 顺序不能反：**先定义分母，再定义停止。**

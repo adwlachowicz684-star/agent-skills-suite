@@ -1,10 +1,10 @@
 # 无人拥有的技能
 
 > 相关：《skill-governance》的生命周期与 Owner 机制·
-> 《skill-refining》的 `merge-signals-five.md`（合并信号靠运行数据）·
-> 《skill-versioning》的 `adr-lightweight.md`（记在哪比记什么重要）·
-> 《skill-authoring》的 `forty-skills-lessons.md`（静默影响整个团队）·
-> 《skill-content》的 `portability-across-projects.md`
+> 《skill-refining》的 `skill-refining/references/merge-signals-five.md`（合并信号靠运行数据）·
+> 《skill-versioning》的 `skill-versioning/references/adr-lightweight.md`（记在哪比记什么重要）·
+> 《skill-authoring》的 `skill-authoring/references/forty-skills-lessons.md`（静默影响整个团队）·
+> 《skill-content》的 `skill-content/references/portability-across-projects.md`
 > 前置：
 > 已有文档讲的是⭐⭐⭐⭐ **技能内容为什么会烂**（漂移、沉积、腐烂），
 > 这份讲的是⭐⭐⭐⭐⭐ **为什么烂了没人修**——
@@ -36,7 +36,7 @@
 > ⭐⭐⭐⭐⭐ 而"绕过"没有任何痕迹——
 > ⭐⭐⭐⭐⭐ 技能仍在触发、仍在消耗判断预算，只是不再被信任。
 
-这与 `forty-skills-lessons.md` 那条完全对应：
+这与 `skill-authoring/references/forty-skills-lessons.md` 那条完全对应：
 
 > ⭐⭐⭐⭐⭐ "我不止一次对技能做了破坏性改动，静默地影响了整个团队"
 > ——⭐⭐⭐⭐⭐ 反过来同样成立：**没人改，也是静默地影响整个团队。**
@@ -157,7 +157,7 @@ description: ...
      变成了一个读文件就能回答的问题**
 ```
 
-> ⭐⭐⭐⭐⭐ 这与 `adr-lightweight.md` 那条完全同构：
+> ⭐⭐⭐⭐⭐ 这与 `skill-versioning/references/adr-lightweight.md` 那条完全同构：
 > ⭐⭐⭐⭐⭐ **记在哪比记什么重要——它必须在"你会看到它"的地方。**
 
 配套：⭐⭐⭐⭐ **owner 写团队而不是个人**（个人会走，团队不会），
@@ -199,7 +199,7 @@ description: ...
 不是交接文件，是交接⭐⭐⭐⭐⭐ 那些没有写在技能里的判断依据
 ```
 
-> ⭐⭐⭐⭐⭐ 与 `adr-lightweight.md` 一致：⭐⭐⭐⭐ 新 Owner 会重新做一遍已被否决的决策，
+> ⭐⭐⭐⭐⭐ 与 `skill-versioning/references/adr-lightweight.md` 一致：⭐⭐⭐⭐ 新 Owner 会重新做一遍已被否决的决策，
 > ⭐⭐⭐⭐⭐ 因为否决的理由没有跟着交接。
 
 **② ⭐⭐⭐⭐⭐ 失联判定要有日期，不要靠感觉**

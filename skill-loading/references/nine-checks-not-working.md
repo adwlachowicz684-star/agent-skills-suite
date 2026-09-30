@@ -1,7 +1,7 @@
 # 九项排查：技能不工作时的顺序检查
 
-> 相关：《skill-loading》的 `frontmatter-pitfalls.md` ·
-> `three-stages-discovery-activation-execution.md` · 《skill-triggering》的 `troubleshooting-manual.md`
+> 相关：《skill-loading》的 `skill-loading/references/frontmatter-pitfalls.md` ·
+> `skill-loading/references/three-stages-discovery-activation-execution.md` · 《skill-triggering》的 `skill-triggering/references/troubleshooting-manual.md`
 > 前置：那些文档讲"为什么"，这份给一份⭐ 按顺序执行的实操清单。
 
 ---
@@ -49,7 +49,7 @@
 ⭐ 会话中途新增或编辑的技能，模型还没看见。
 ```
 
-> ⚠️ 与 `trigger-fix-nine-causes.md` 那条"改了技能不用重启"有出入
+> ⚠️ 与 `skill-description/references/trigger-fix-nine-causes.md` 那条"改了技能不用重启"有出入
 > （那份说有实时变更检测）。
 > ⭐ **仲裁**：实时检测能发现**新增**的技能；
 > ⭐ 但对**已加载会话中的修改**仍需重启——**保守做法是重启**，
@@ -128,7 +128,7 @@ Claude Code：   ⭐ 检查是否处于受限权限模式
 ③ ⭐ 包含用户实际会打出来的那些词
 ```
 
-> ⭐ 第 ③ 条与 `activation-rate.md` 的实测完全一致：
+> ⭐ 第 ③ 条与 `skill-description/references/activation-rate.md` 的实测完全一致：
 > **不是描述得更华丽，而是覆盖真实词汇。**
 
 ---
@@ -144,7 +144,7 @@ Claude Code：   ⭐ 检查是否处于受限权限模式
 
 > ⭐ 这一步是**最快的一次分诊**：
 > 一步就把"文件层/加载层"的故障和"匹配层"的故障分开了。
-> 与 `troubleshooting-manual.md` 的"指名调用"判据同源。
+> 与 `skill-triggering/references/troubleshooting-manual.md` 的"指名调用"判据同源。
 
 ---
 

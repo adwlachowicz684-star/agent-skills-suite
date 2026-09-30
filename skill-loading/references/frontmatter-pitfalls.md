@@ -1,8 +1,8 @@
 # Frontmatter 为什么会静默失败：两阶段解析
 
-> 相关：`skill-structuring` 的 `frontmatter-fields.md`（字段规范，对着填）·
-> 《skill-description》的 `frontmatter.md`（写法）·
-> 《skill-triggering》的 `troubleshooting-manual.md`（排查顺序）
+> 相关：`skill-structuring` 的 `skill-loading/references/frontmatter-fields.md`（字段规范，对着填）·
+> 《skill-description》的 `skill-description/references/frontmatter.md`（写法）·
+> 《skill-triggering》的 `skill-triggering/references/troubleshooting-manual.md`（排查顺序）
 
 ---
 
@@ -36,7 +36,7 @@
 
 **这解释了前面反复出现的一条经验**：
 改了 frontmatter 字段后必须重启客户端（甚至开新会话），
-因为注册发生在启动阶段。见《skill-triggering》的 `reload-debug.md`。
+因为注册发生在启动阶段。见《skill-triggering》的 `skill-triggering/references/reload-debug.md`。
 
 ---
 
@@ -44,7 +44,7 @@
 
 | 雷区 | 错误示例 | 正确示例 |
 |---|---|---|
-| 文件名 | `skill.md` / `Skill.md` / `SKILLS.md` | ⭐ **`SKILL.md`（全大写）** |
+| 文件名 | skill.md / `Skill.md` / `SKILLS.md` | ⭐ **`SKILL.md`（全大写）** |
 | 路径 | `~/.claude/skills/MySkill/SKILL.md` | `~/.claude/skills/my-skill/SKILL.md`（kebab-case） |
 | 缺 `---` | 直接写 `name: foo` | ⭐ **前后各一行 `---`，且 `---` 必须是文件第 0 字节** |
 | YAML 缩进 | Tab 缩进 | ⭐ **2 空格** |
@@ -80,7 +80,7 @@ Windows        默认不敏感
 
 **唯一可靠的防御是规范 + 静态检查**，不能靠"我本地能跑"。
 
-配套规则（已在 `naming-convention.md`）：
+配套规则（已在 `skill-distribution/references/naming-convention.md`）：
 **全小写 kebab-case，只用小写字母、数字、单个连字符。**
 
 ```

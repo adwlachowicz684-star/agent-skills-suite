@@ -1,10 +1,10 @@
 # 相对时间必须在执行时解析
 
-> 相关：《skill-input》的 `input-validation-and-triage.md`（输入分诊）·
-> `tool-argument-construction.md`（工具参数构造）·
-> `change-questions.md`（中途变更四问）·
-> 《skill-content》的 `default-actions.md`（默认动作）·
-> 《skill-output》的 `enumeration-and-completeness.md`（分母）
+> 相关：《skill-input》的 `skill-input/references/input-validation-and-triage.md`（输入分诊）·
+> `skill-input/references/tool-argument-construction.md`（工具参数构造）·
+> `skill-execution/references/change-questions.md`（中途变更四问）·
+> 《skill-content》的 `skill-content/references/default-actions.md`（默认动作）·
+> 《skill-output》的 `skill-output/references/enumeration-and-completeness.md`（分母）
 > 前置：
 > 前面几份讲的是⭐⭐⭐⭐ **输入残缺、矛盾、超范围**，
 > 这份讲的是第四种：⭐⭐⭐⭐⭐ **输入里的相对时间**——
@@ -91,7 +91,7 @@
 ✅ ⭐⭐⭐⭐⭐ 输出首行："统计区间：2026-09-22 ~ 2026-09-29（共 7 天）"
 ```
 
-> ⭐⭐⭐⭐⭐ 第二条是本份最实用的一条，理由与 `decision-rationale-output.md`
+> ⭐⭐⭐⭐⭐ 第二条是本份最实用的一条，理由与 `skill-examples/references/decision-rationale-output.md`
 > 那句"写了依据的输出，排错时不需要重跑"完全相同：
 > ⭐⭐⭐⭐⭐ **时间窗口错了，看一眼输出首行就知道；不写，就得重跑一遍才知道。**
 

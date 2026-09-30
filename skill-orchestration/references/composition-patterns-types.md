@@ -1,8 +1,8 @@
 # 组合的四种依赖类型与三个反模式
 
-> 相关：《skill-chaining》的 `skill-chaining-composition.md` ·
-> `collision-arbitration.md` · 《skill-patterns》的 `solid-for-skills.md`
-> 前置：`skill-chaining-composition.md` 讲"叠加加载与交接协议"，
+> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md` ·
+> `skill-orchestration/references/collision-arbitration.md` · 《skill-patterns》的 `skill-patterns/references/solid-for-skills.md`
+> 前置：`skill-composition/references/skill-chaining-composition.md` 讲"叠加加载与交接协议"，
 > 这份讲⭐ **依赖关系的类型学 + 组合反模式**。
 
 ---
@@ -105,7 +105,7 @@ Fix: ⭐ 拆成聚焦的、可组合的技能
 
 > ⭐ 第二个最值得警惕：**隐式依赖在单独测试时完全看不出来**，
 > 只在"被单独调用"的生产场景暴露——
-> 与 `three-failure-modes.md` 的"隐式上下文依赖"是同一类。
+> 与 `skill-triggering/references/three-failure-modes.md` 的"隐式上下文依赖"是同一类。
 
 ---
 
@@ -152,7 +152,7 @@ def analyze_with_optional_color():
 "Input for Y workflows"
 ```
 
-> ⭐ 这跟 `namespace-collision.md` 的"排除声明互相点名"是同一招，
+> ⭐ 这跟 `skill-orchestration/references/namespace-collision.md` 的"排除声明互相点名"是同一招，
 > 只是方向反过来：**那个说"别找我"，这个说"接在我后面"。**
 
 ---

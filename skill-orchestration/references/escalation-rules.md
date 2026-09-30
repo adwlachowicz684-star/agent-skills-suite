@@ -26,7 +26,7 @@
 > ⭐ **这类写法的效果等价于没写**——
 > agent 的默认行为是继续做下去。
 >
-> 呼应 `what-not-to-do.md`（**`skill-authoring`**）：
+> 呼应 `skill-authoring/references/what-not-to-do.md`（**`skill-authoring`**）：
 > **"确保质量"对模型等于没有约束**——同一类问题。
 
 ## 四类可判定的触发条件
@@ -62,8 +62,8 @@
 ✅ 阻断生产流量 → 批准门
 ```
 
-呼应 `approval-gates.md`（**`skill-governance`**）与
-`customer-success-playbook.md`（**`skill-domain-biz`**）的
+呼应 `skill-security/references/approval-gates.md`（**`skill-governance`**）与
+customer-success-playbook.md（**`skill-domain-biz`**）的
 分级告警表。
 
 ## 升级包该带什么
@@ -80,7 +80,7 @@
 > 收到升级的人第一句是"为什么找 me"——
 > 升级包要直接回答。
 
-呼应 `handoff-protocol.md`：
+呼应 `skill-interfaces/references/handoff-protocol.md`：
 交接包的五个字段在升级场景同样适用。
 
 ## 三条配套规则
@@ -99,7 +99,7 @@
 □ 设：同一任务最多升级 N 次，超出则整体转人工
 ```
 
-呼应 `error-handling.md`（**`skill-crafting`**）的
+呼应 `skill-recovery/references/error-handling.md`（**`skill-crafting`**）的
 **重试要有最大次数**——同一条纪律。
 
 **③ 升级要有回执路径**
@@ -118,7 +118,7 @@
 升级太多 → ⭐ 人开始闭眼点确认，门等于不存在
 ```
 
-呼应 `approval-gates.md` 的**过犹不及**：
+呼应 `skill-security/references/approval-gates.md` 的**过犹不及**：
 **护栏只拦不可逆操作，才能保住门的效力**。
 
 ## 自查

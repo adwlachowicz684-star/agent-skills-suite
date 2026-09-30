@@ -1,7 +1,7 @@
 # 五分钟诊断：不知道哪层坏了时按这个走
 
-> 相关：`reload-debug.md`（加载）· `skill-structuring` 的 `verbose-debug.md`（trace）·
-> `skill-structuring` 的 `frontmatter-pitfalls.md`（雷区）
+> 相关：`skill-triggering/references/reload-debug.md`（加载）· `skill-structuring` 的 `skill-loading/references/verbose-debug.md`（trace）·
+> `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md`（雷区）
 
 ---
 
@@ -68,7 +68,7 @@
 ③ 看什么动了
 ```
 
-这与 `claude-ab-loop.md` 的"每次只改 1–2 个变量，否则无法归因"是同一条纪律。
+这与 `skill-automation/references/claude-ab-loop.md` 的"每次只改 1–2 个变量，否则无法归因"是同一条纪律。
 
 ---
 
@@ -89,7 +89,7 @@ claude --version   # 两台都跑
 → 重启 Claude Code 可清
 ```
 
-分发纪律（与 `enterprise-registry.md` 一致）：
+分发纪律（与 `skill-distribution/references/enterprise-registry.md` 一致）：
 
 ```
 ✅ 通过 catalog 发布，或提交到共享仓库并在 README 写清安装步骤

@@ -14,7 +14,7 @@ description: 技能的加载机制与结构类故障排查——frontmatter 解�
 ## 核心原则
 
 > ⭐⭐ **技能不生效时，先分清是"没加载"还是"加载了但没触发"。**
-> 前者查文件层，后者查描述层——**80% 的问题在文件层**（`four-layer-diagnosis-flow.md`）。
+> 前者查文件层，后者查描述层——**80% 的问题在文件层**（`skill-loading/references/four-layer-diagnosis-flow.md`）。
 
 三层加载的成本形状：
 
@@ -28,43 +28,43 @@ L3 参考     未读取前为零
 
 ## 何时不用本技能
 
-- 文件该放哪个子目录 → `skill-structuring` 的 `directory-contract.md`
-- description 怎么写才触发 → `skill-description` 的 `description-patterns.md`
-- 触发率评测与打分 → `skill-evaluating` 的 `trigger-tuning-loop.md`
+- 文件该放哪个子目录 → `skill-structuring` 的 `skill-structuring/references/directory-contract.md`
+- description 怎么写才触发 → `skill-description` 的 `skill-description/references/description-patterns.md`
+- 触发率评测与打分 → `skill-evaluating` 的 `skill-triggering/references/trigger-tuning-loop.md`
 - 正文写得好不好 → `skill-crafting`
 
 ## 路由表（按需深读）
-| `frontmatter-full-reference.md` | ⭐⭐⭐ 六字段开放标准 vs CC 扩展边界；⭐ 加载失败硬条件四则 |
-| `frontmatter-advanced-fields.md` | ⭐⭐⭐ `context: fork` / `agent` / `hooks` / `paths` |
-| `yaml-frontmatter-errors.md` | ⭐⭐⭐★★ **半可用**：手动能调、自动不能；★中文全角冒号；三条验证命令 |
-| `diagnostic-commands.md` | ⭐⭐⭐★★ 三类收敛（加载/优先级/描述）；/context vs /skills；作用域优先级 |
-| `three-stages-discovery-activation-execution.md` | ⭐⭐⭐⭐ 三阶段；★★★真失忆 vs 假失灵二分诊断 |
-| `nested-scope-discovery.md` | ⭐⭐⭐⭐ 嵌套作用域只在子目录工作时才被发现（极易误诊） |
-| `prompt-caching-and-skills.md` | ⭐⭐★★★ 缓存是前缀匹配；★allowed-tools 是缓存事件 |
-| `three-tier-token-math.md` | ⭐⭐⭐★ L1 30–50 tokens/技能；★健康基线 8K=窗口 4% |
-| `skill-cascade-css.md` | ⭐⭐⭐ CSS 级联比喻：生效范围 vs 同名冲突；★插件不在梯子上 |
-| `prompt-layering-positional-bias.md` | ⭐⭐⭐ 四层职责 + 位置偏差；★关键规则两端重复 |
-| `four-layer-diagnosis-flow.md` | ⭐⭐⭐ 四步排查 + 停机规则；★80% 问题在文件层 |
-| `official-spec-and-style.md` | ⭐⭐⭐ 加载失败硬条件四则；Markdown 不用 XML |
-| `argument-substitution.md` | ⭐⭐ 参数替换：⭐⭐⭐ 会静默损坏 shell 代码示例 |
-| `skill-reload-and-session-state.md` | ⭐⭐⭐⭐⭐ 唯一需要重启的情况；⭐⭐⭐⭐⭐ 生效 vs 看清效果；⭐⭐⭐⭐⭐ 问它最快 |
-| `nine-checks-not-working.md` | ⭐ 九项排查清单 + 显式调用隔离技巧 |
-| `frontmatter-fields.md` | ⭐ 字段速查与 YAML 六个陷阱 |
-| `frontmatter-pitfalls.md` | ⭐ 静默失败根因：两阶段解析 + 完整雷区表 |
-| `metadata-fields.md` | ⭐ 四必需字段 + 六元数据 + 六章节 |
-| `invocation-control-fields.md` | ⭐ 谁能调用：两个 frontmatter 声明字段 |
-| `five-minute-diagnosis.md` | ⭐ 五分钟诊断八步：model pin、缓存、大小写 |
-| `verbose-debug.md` | ⭐ Verbose 调试：trace-compare 循环、grep 断言 |
+| `skill-loading/references/frontmatter-full-reference.md` | ⭐⭐⭐ 六字段开放标准 vs CC 扩展边界；⭐ 加载失败硬条件四则 |
+| `skill-loading/references/frontmatter-advanced-fields.md` | ⭐⭐⭐ `context: fork` / `agent` / `hooks` / `paths` |
+| `skill-loading/references/yaml-frontmatter-errors.md` | ⭐⭐⭐★★ **半可用**：手动能调、自动不能；★中文全角冒号；三条验证命令 |
+| `skill-loading/references/diagnostic-commands.md` | ⭐⭐⭐★★ 三类收敛（加载/优先级/描述）；/context vs /skills；作用域优先级 |
+| `skill-loading/references/three-stages-discovery-activation-execution.md` | ⭐⭐⭐⭐ 三阶段；★★★真失忆 vs 假失灵二分诊断 |
+| `skill-loading/references/nested-scope-discovery.md` | ⭐⭐⭐⭐ 嵌套作用域只在子目录工作时才被发现（极易误诊） |
+| `skill-loading/references/prompt-caching-and-skills.md` | ⭐⭐★★★ 缓存是前缀匹配；★allowed-tools 是缓存事件 |
+| `skill-loading/references/three-tier-token-math.md` | ⭐⭐⭐★ L1 30–50 tokens/技能；★健康基线 8K=窗口 4% |
+| `skill-loading/references/skill-cascade-css.md` | ⭐⭐⭐ CSS 级联比喻：生效范围 vs 同名冲突；★插件不在梯子上 |
+| `skill-loading/references/prompt-layering-positional-bias.md` | ⭐⭐⭐ 四层职责 + 位置偏差；★关键规则两端重复 |
+| `skill-loading/references/four-layer-diagnosis-flow.md` | ⭐⭐⭐ 四步排查 + 停机规则；★80% 问题在文件层 |
+| `skill-loading/references/official-spec-and-style.md` | ⭐⭐⭐ 加载失败硬条件四则；Markdown 不用 XML |
+| `skill-loading/references/argument-substitution.md` | ⭐⭐ 参数替换：⭐⭐⭐ 会静默损坏 shell 代码示例 |
+| `skill-loading/references/skill-reload-and-session-state.md` | ⭐⭐⭐⭐⭐ 唯一需要重启的情况；⭐⭐⭐⭐⭐ 生效 vs 看清效果；⭐⭐⭐⭐⭐ 问它最快 |
+| `skill-loading/references/nine-checks-not-working.md` | ⭐ 九项排查清单 + 显式调用隔离技巧 |
+| `skill-loading/references/frontmatter-fields.md` | ⭐ 字段速查与 YAML 六个陷阱 |
+| `skill-loading/references/frontmatter-pitfalls.md` | ⭐ 静默失败根因：两阶段解析 + 完整雷区表 |
+| `skill-loading/references/metadata-fields.md` | ⭐ 四必需字段 + 六元数据 + 六章节 |
+| `skill-loading/references/invocation-control-fields.md` | ⭐ 谁能调用：两个 frontmatter 声明字段 |
+| `skill-loading/references/five-minute-diagnosis.md` | ⭐ 五分钟诊断八步：model pin、缓存、大小写 |
+| `skill-loading/references/verbose-debug.md` | ⭐ Verbose 调试：trace-compare 循环、grep 断言 |
 
 **先读哪一份**：
 
 | 症状 | 读 |
 |---|---|
-| ⭐ 手动能调、自动不触发 | `yaml-frontmatter-errors.md`（元数据为空） |
-| ⭐ 改了不生效 | `diagnostic-commands.md` · `five-minute-diagnosis.md` |
-| ⭐ 新鲜会话好用、中途失效 | `three-stages-discovery-activation-execution.md` |
-| ⭐ 目录看着对但列表里没有 | `nested-scope-discovery.md` |
-| 长会话成本不合比例地涨 | `prompt-caching-and-skills.md` |
+| ⭐ 手动能调、自动不触发 | `skill-loading/references/yaml-frontmatter-errors.md`（元数据为空） |
+| ⭐ 改了不生效 | `skill-loading/references/diagnostic-commands.md` · `skill-loading/references/five-minute-diagnosis.md` |
+| ⭐ 新鲜会话好用、中途失效 | `skill-loading/references/three-stages-discovery-activation-execution.md` |
+| ⭐ 目录看着对但列表里没有 | `skill-loading/references/nested-scope-discovery.md` |
+| 长会话成本不合比例地涨 | `skill-loading/references/prompt-caching-and-skills.md` |
 
 ## Critical Rules
 

@@ -1,8 +1,8 @@
 # 四层排查法：80% 的问题在第一步
 
-> 相关：《skill-loading》的 `nine-checks-not-working.md`（九项排查）·
-> `frontmatter-pitfalls.md` · `five-minute-diagnosis.md` ·
-> 《skill-triggering》的 `troubleshooting-manual.md`
+> 相关：《skill-loading》的 `skill-loading/references/nine-checks-not-working.md`（九项排查）·
+> `skill-loading/references/frontmatter-pitfalls.md` · `skill-loading/references/five-minute-diagnosis.md` ·
+> 《skill-triggering》的 `skill-triggering/references/troubleshooting-manual.md`
 > 前置：那份讲"九项该查什么"，
 > 这份讲⭐⭐⭐ **一个带顺序和停机的排查流程**——
 > ⭐⭐⭐ 关键价值是那个经验分布：**80% 的问题在第一步。**
@@ -49,7 +49,7 @@
    · ⭐ 换个平台测试，确认是不是平台兼容性问题
 ```
 
-> ⭐⭐⭐ 与 `troubleshooting-manual.md` 那个判据完全一致：
+> ⭐⭐⭐ 与 `skill-triggering/references/troubleshooting-manual.md` 那个判据完全一致：
 > **"指名调用能跑 = description 问题；不能跑 = 文件加载问题"**——
 > 这里是同样分诊的四层展开版。
 > ⭐⭐ 新增的是**第三步优先级层**和**第四步环境层**，
@@ -129,7 +129,7 @@ scripts/ 不执行
 ```
 
 > ⭐⭐ "提供不依赖脚本的回退路径"这条容易被忽略，
-> 但它与 `cross-agent-portability.md` 的
+> 但它与 `skill-distribution/references/cross-agent-portability.md` 的
 > "Cursor 不解析 allowed-tools"是同一类问题——
 > ⭐ **环境不支持时，技能应该降级而不是完全失效。**
 
@@ -143,7 +143,7 @@ scripts/ 不执行
 > ⭐⭐⭐ 这句话值得单独记，因为它⭐ 直接指向排查的心态问题：
 > **把问题归给"技术不成熟"，是一种⭐ 让自己不用去查低级错误的解释。**
 >
-> ⭐⭐ 与 `model-migration-audit.md` 那条完全同构：
+> ⭐⭐ 与 `skill-versioning/references/model-migration-audit.md` 那条完全同构：
 > 那边的误诊是"模型变笨了"，这边是"技术不成熟"——
 > ⭐ 两者都是⭐ **把不可控因素当解释，从而关掉自己能查的那部分**。
 

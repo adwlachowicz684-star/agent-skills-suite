@@ -16,7 +16,7 @@
 > ⭐ **技能切换时上下文里的内容会被丢弃，
 > 但前一阶段的发现是后一阶段的输入。**
 
-呼应 `skill-activation.md`：
+呼应 `skill-state/references/skill-activation.md`：
 切换时要做的三件事之一就是**保存产物到文件**。
 
 **三种会丢上下文的情况**：
@@ -41,7 +41,7 @@
 > 未解决的事会被下一阶段当成"不存在"；
 > 已获的批准会被重新询问。
 
-呼应 `idempotency-resume.md`（**`skill-crafting`**）：
+呼应 `skill-recovery/references/idempotency-resume.md`（**`skill-crafting`**）：
 **批准状态要写进状态文件，避免重跑时反复询问**。
 
 ## 三种交接场景
@@ -63,7 +63,7 @@
 □ ⭐ 返回前先摘要——不要把整个上下文倒回来
 ```
 
-呼应 `parallel-subagents.md`：
+呼应 `skill-subagents/references/parallel-subagents.md`：
 **在子代理之间传递结果前先摘要；大数据用基于文件的通信**。
 
 **③ 长任务续接 / 压缩后**
@@ -76,7 +76,7 @@
     总 25,000 的上限，最旧的先丢
 ```
 
-呼应 `runtime-controls.md`（**`skill-governance`**）的运行时真相表。
+呼应 `skill-security/references/runtime-controls.md`（**`skill-governance`**）的运行时真相表。
 
 **推论**（也是这条最实用的部分）：
 
@@ -103,7 +103,7 @@
         让下一阶段能按需取回原文
 ```
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）：
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 **结论必须挂在一个可独立验证的锚点上**——
 交接时的锚点就是这个用途。
 
@@ -118,8 +118,8 @@
 | **锚点丢失** | 结论无法验证 | ⭐ 摘要必须带 file:line / 路径 |
 | **产物被覆盖** | 两个子代理写同一文件 | ⭐ 文件所有权排他 |
 
-最后一条呼应 `multi-agent-review.md` 与
-`parallel-subagents.md`：**给每个子代理排他的文件所有权**。
+最后一条呼应 `skill-subagents/references/multi-agent-review.md` 与
+`skill-subagents/references/parallel-subagents.md`：**给每个子代理排他的文件所有权**。
 
 ## 与相关文档的关系
 

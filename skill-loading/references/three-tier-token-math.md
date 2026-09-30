@@ -1,8 +1,8 @@
 # 三级加载的精确数字
 
-> 相关：《skill-structuring》的 `progressive-disclosure-official.md` ·
-> `reference-file-practices.md` ·
-> 《skill-patterns》的 `context-budget-math.md` · `budget-truncation.md`
+> 相关：《skill-structuring》的 `skill-structuring/references/progressive-disclosure-official.md` ·
+> `skill-structuring/references/reference-file-practices.md` ·
+> 《skill-patterns》的 `skill-patterns/references/context-budget-math.md` · `skill-context/references/budget-truncation.md`
 > 前置：那些讲⭐ 渐进式披露的机制与⭐ 预算算术，
 > 这份给⭐⭐⭐⭐ ⭐ 官方公布的⭐ 每级具体 token 数 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 能立刻判断"我这套库还健康吗"的⭐ 基准数字。
@@ -33,7 +33,7 @@
 >
 > ⭐⭐⭐⭐⭐ 这个数字⭐ 直接回答了一个⭐ 反复出现的担忧：
 > ⭐⭐⭐⭐ **"装多少技能算多？"→ ⭐⭐⭐ 100 个也才 5K，⭐⭐ 问题不在数量本身。**
-> ⭐⭐⭐⭐ 与 `skill-portfolio-audit.md` 的"库存 20+ 时 agent 每次随机加载好几个"
+> ⭐⭐⭐⭐ 与 `skill-selection/references/skill-portfolio-audit.md` 的"库存 20+ 时 agent 每次随机加载好几个"
 > ⭐⭐⭐ 并不矛盾——⭐⭐⭐⭐ **那说的是⭐ 候选集太大导致⭐ 选择质量下降，
 > ⭐⭐⭐⭐⭐ ⭐ 而这里说的是⭐ 元数据本身的⭐ 静态开销很小。**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ **两个成本来源不同：一个是常驻的、一个是每次判断时的**——
@@ -68,7 +68,7 @@
    ⭐⭐⭐⭐⭐ ⭐ = ⭐ 在用户说出第一句话之前，⭐ 一半窗口就没了
 ```
 
-> ⭐⭐⭐⭐ 与 `context-budget-math.md` 的⭐ 96% 那个数字⭐ 相互印证
+> ⭐⭐⭐⭐ 与 `skill-patterns/references/context-budget-math.md` 的⭐ 96% 那个数字⭐ 相互印证
 > （那份算的是⭐ 全量预加载 250K vs 渐进式 10K），
 > ⭐⭐⭐⭐⭐ 但⭐ 这里给的是⭐ "反过来做会怎样"的⭐ 绝对值对照：
 > **90K / 200K = 45%**。
@@ -98,8 +98,8 @@
 >
 > ⭐⭐⭐⭐ 反过来说，⭐⭐⭐ **一个⭐ 没有触发条件的常驻内容，
 > ⭐⭐⭐⭐ 就是⭐ 在每一次对话里⭐ 无条件收费**——
-> ⭐⭐⭐⭐ 这正是 `skill-portfolio-audit.md` 的"认知切换成本"、
-> `capability-offset-net-gain.md` 的"常驻描述渗入判断"
+> ⭐⭐⭐⭐ 这正是 `skill-selection/references/skill-portfolio-audit.md` 的"认知切换成本"、
+> `skill-evaluating/references/capability-offset-net-gain.md` 的"常驻描述渗入判断"
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ ⭐ 的⭐ 统一解释。
 
 ---
@@ -122,7 +122,7 @@
 
 > ⭐⭐⭐⭐ 注意⭐ 第二条的⭐ 失败性质完全不同：
 > ⭐⭐⭐⭐⭐ **它不报错，⭐⭐⭐⭐⭐ ⭐ 只是⭐ 效果悄悄变差**。
-> ⭐⭐⭐⭐ 这与 `naming-conventions.md` 里 camelCase 的例子⭐ 同类——
+> ⭐⭐⭐⭐ 这与 `skill-structuring/references/naming-conventions.md` 里 camelCase 的例子⭐ 同类——
 > ⭐⭐⭐⭐⭐ **"不报错的失败"比"报错的失败"⭐ 危险得多，
 > ⭐⭐⭐⭐⭐ ⭐ 因为你⭐ 没有信号去发现它。**
 

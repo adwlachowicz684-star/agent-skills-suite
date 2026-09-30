@@ -1,10 +1,10 @@
 # frontmatter 高级字段：fork、agent、hooks 与调用控制
 
-> 相关：《skill-loading》的 `frontmatter-full-reference.md`（基础四组）·
-> 《skill-loading》的 `invocation-control-fields.md` ·
-> `frontmatter-pitfalls.md` · 《skill-orchestration》的
-> `context-isolation-fork.md`
-> 前置：基础字段见 `frontmatter-full-reference.md`。
+> 相关：《skill-loading》的 `skill-loading/references/frontmatter-full-reference.md`（基础四组）·
+> 《skill-loading》的 `skill-loading/references/invocation-control-fields.md` ·
+> `skill-loading/references/frontmatter-pitfalls.md` · 《skill-orchestration》的
+> `skill-subagents/references/context-isolation-fork.md`
+> 前置：基础字段见 `skill-loading/references/frontmatter-full-reference.md`。
 > 这份只讲⭐ **高级执行组与调用控制的三种组合**。
 
 ---
@@ -43,7 +43,7 @@ hooks:               # 仅技能激活期间生效的生命周期 hooks
 ⭐ 用 context: fork 时，Stop hooks 在运行时会转为 SubagentStop 事件
 ```
 
-> ⚠️ 配套提醒（见 `context-isolation-fork.md`）：
+> ⚠️ 配套提醒（见 `skill-subagents/references/context-isolation-fork.md`）：
 > **fork 的正文如果写得"像一份技能规格"，会被子代理模式匹配成派发请求，
 > 递归调用自己**——所以 fork 正文要写成直接的命令式步骤。
 
@@ -93,7 +93,7 @@ user-invocable: false
 ⭐ 实践建议：⭐ 不依赖默认值，显式写出这个字段。
 ```
 
-> ⭐ 这与 `frontmatter-pitfalls.md` 里"静默失败"一脉相承：
+> ⭐ 这与 `skill-loading/references/frontmatter-pitfalls.md` 里"静默失败"一脉相承：
 > **凡是文档之间有分歧的字段，都要显式写出来，别赌默认行为。**
 
 ---

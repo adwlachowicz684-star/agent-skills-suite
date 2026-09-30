@@ -1,8 +1,8 @@
 # 诊断命令：三个问题类型与作用域优先级
 
-> 相关：《skill-loading》的 `nine-checks-not-working.md` ·
-> `four-layer-diagnosis-flow.md` · `four-way-choice.md` ·
-> 《skill-description》的 `trigger-fix-nine-causes.md`
+> 相关：《skill-loading》的 `skill-loading/references/nine-checks-not-working.md` ·
+> `skill-loading/references/four-layer-diagnosis-flow.md` · `skill-boundaries/references/four-way-choice.md` ·
+> 《skill-description》的 `skill-description/references/trigger-fix-nine-causes.md`
 > 前置：那些讲⭐ 逐项排查，
 > 这份给⭐⭐⭐⭐ ⭐ 官方的⭐ 诊断命令清单 +
 > ⭐⭐⭐⭐⭐ 一个⭐ 能把所有失败归成三类的⭐ 收敛框架。
@@ -32,7 +32,7 @@
 | ⭐⭐⭐⭐ **优先级** | 加载了但被别人盖掉 | 查谁的作用域更高 |
 | ⭐⭐⭐⭐ **描述匹配** | 加载了、也没被盖，但就是没触发 | 改 description |
 
-> ⭐⭐⭐⭐⭐ 这个框架⭐ 与 `four-layer-diagnosis-flow.md` 的四层⭐ 高度吻合，
+> ⭐⭐⭐⭐⭐ 这个框架⭐ 与 `skill-loading/references/four-layer-diagnosis-flow.md` 的四层⭐ 高度吻合，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但⭐ 它更值钱的地方在于⭐ **它是一次收敛，不是一次清单**：
 > ```
 > 清单：17 种失败模式，逐个试（⭐ 你会忘了第 9 个）
@@ -123,7 +123,7 @@
 > ```
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 恰好就是⭐ 三类问题里的⭐ 前两类——
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ **兜底答案落在"加载"和"优先级"上，⭐ 而不是"描述"上。**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 反过来印证了⭐ `four-layer-diagnosis-flow.md` 的 80/15/5：
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 反过来印证了⭐ `skill-loading/references/four-layer-diagnosis-flow.md` 的 80/15/5：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **描述层只占 5%，⭐⭐⭐⭐⭐ ⭐⭐⭐ 别一上来就改它。**
 
 **另外两条具体坑**（非技能但同源）：
@@ -149,8 +149,8 @@
 ```
 
 > ⭐⭐⭐⭐⭐ 第 ② 条⭐ 值得⭐ 单独强调：⭐ **"/doctor 是预防性的，不是治疗性的"**
-> ⭐⭐⭐⭐ ——这跟 `skill-decay-governance.md` 的 `review_after`、
-> `retirement-pipeline.md` 的定期审计⭐ 是⭐ 同一条纪律的⭐ 最短版本：
+> ⭐⭐⭐⭐ ——这跟 `skill-governance/references/skill-decay-governance.md` 的 `review_after`、
+> `skill-governance/references/retirement-pipeline.md` 的定期审计⭐ 是⭐ 同一条纪律的⭐ 最短版本：
 > ⭐⭐⭐⭐⭐ **对⭐ 静默失败的东西，⭐⭐⭐⭐⭐ ⭐ 唯一有效的对策是⭐ 定时去看它，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 因为⭐ 它不会自己报警。**
 

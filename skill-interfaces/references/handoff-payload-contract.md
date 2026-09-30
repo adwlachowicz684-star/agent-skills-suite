@@ -1,10 +1,10 @@
 # 交接协议：一个技能做完，怎么交给下一个
 
-> 相关：《skill-chaining》的 `skill-chaining-composition.md`（串联组合与交接四步）·
-> `composition-patterns-types.md`（隐式依赖）·
-> `skill-dependency-injection.md`（双向无知）·
-> 《skill-input》的 `data-dependency-declaration.md`（前置产物）·
-> `parallel-and-concurrency.md`（N 个半成品）
+> 相关：《skill-chaining》的 `skill-composition/references/skill-chaining-composition.md`（串联组合与交接四步）·
+> `skill-orchestration/references/composition-patterns-types.md`（隐式依赖）·
+> `skill-orchestration/references/skill-dependency-injection.md`（双向无知）·
+> 《skill-input》的 `skill-input/references/data-dependency-declaration.md`（前置产物）·
+> `skill-execution/references/parallel-and-concurrency.md`（N 个半成品）
 > 前置：串联那份讲了⭐⭐⭐ **交接四步**（ANNOUNCE → SUMMARIZE → LOAD → PASS），
 > 这份讲⭐⭐⭐⭐⭐ **交接的内容**——
 > **四步做全了，但如果交接包里没有下面这几项，下游照样在瞎猜。**
@@ -81,7 +81,7 @@ source_b 返回 401 → 只用了 source_a → 覆盖率 67%
 
 > ⭐⭐⭐⭐⭐ **第三条是最根本的**：
 > 作者把"部分成功"当成"成功"了。
-> 而 `parallel-and-concurrency.md` 已经给过结论——
+> 而 `skill-execution/references/parallel-and-concurrency.md` 已经给过结论——
 > ⭐⭐⭐⭐⭐ **部分成功必须报覆盖率，否则就是谎言。**
 
 修法很便宜，一行输出契约：

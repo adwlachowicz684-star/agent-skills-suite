@@ -1,18 +1,15 @@
 ---
 name: skill-interfaces
-description: 技能之间传什么、怎么传——交接包契约、协议、数据传递、值与单位随行。用于「A 的输出要给 B 用」「中间产物怎么定」「跨技能边界时信息为什么会丢」。不用于单技能内部流程（见 skill-execution）、调哪个技能的路由（见 skill-orchestration）、组合的形态（见 skill-chaining）。
+description: 技能之间传什么、怎么传——交接包契约、协议、数据传递、值与单位随行。用于「A 的输出要给 B 用」「中间产物怎么定」「跨技能边界时信息为什么会丢」。不用于单技能内部流程（见 skill-execution）、调哪个技能的路由（见 skill-orchestration）、组合的形态（见 skill-composition）。
 license: MIT
 ---
-
 # 技能间接口
-
 > 前置：《skill-execution》（单个技能怎么跑）·《skill-output》（输出契约）·
 > 《skill-chaining》（组合形态）
 > 分工：
-> 《skill-chaining》定⭐ **谁和谁组合**；
+> 《skill-composition》定⭐ **谁和谁组合**；
 > 本技能定⭐⭐⭐⭐⭐ **它们之间传什么**；
 > 《skill-execution》定⭐⭐⭐ **单个技能内部怎么产生这些东西**。
-
 ---
 
 ## 目录
@@ -53,7 +50,7 @@ license: MIT
 
 > ⭐⭐⭐⭐⭐ **没有一方在撒谎——是交接协议里没有这个字段。**
 
-五项必填（详见 `handoff-payload-contract.md`）：
+五项必填（详见 `skill-interfaces/references/handoff-payload-contract.md`）：
 
 ```
 status · coverage · failures · artifacts · ⭐⭐⭐⭐⭐ basis（依据）
@@ -83,7 +80,7 @@ B: {"count": 0,   "status": "ok"}
 ```
 
 > ⭐⭐⭐⭐⭐ 链条越长，末端越确定，也越可能错。
-> 改写的三种形态与三条修法见 `artifact-mutation-in-chain.md`。
+> 改写的三种形态与三条修法见 `skill-interfaces/references/artifact-mutation-in-chain.md`。
 
 关键判据：
 
@@ -122,7 +119,7 @@ MUST NOT 把临时字段塞进全局上下文 —— 出错的地方 ≠ 改动�
 
 ```
 Do NOT 用于：
-❌ 单技能内部的中间产物命名 —— 那是《skill-execution》的 `intermediate-artifacts.md`
+❌ 单技能内部的中间产物命名 —— 那是《skill-execution》的 `skill-execution/references/intermediate-artifacts.md`
 ❌ 决定调用哪个技能 —— 那是《skill-orchestration》的路由
 ❌ 组合的形态（顺序链/扇出/分支）—— 那是《skill-chaining》
 ❌ ⭐⭐⭐⭐⭐ 只有一个技能 —— 不需要接口，直接写输出契约（见《skill-output》）
@@ -134,12 +131,12 @@ Do NOT 用于：
 
 | 症状 | 先看 |
 |---|---|
-| ⭐⭐⭐⭐⭐ "共 N 条"真实但误导 | 《skill-chaining》的 `partial-aggregation.md` |
-| ⭐⭐⭐⭐⭐ null 变成 0、partial 变成 ok | `artifact-mutation-in-chain.md` |
-| ⭐⭐⭐⭐⭐ 交接包该有哪些字段 | `handoff-payload-contract.md` |
-| ⭐⭐⭐⭐ 技能互相读临时字段 | `skill-data-passing.md` |
-| ⭐⭐⭐⭐ 交接的时机与协议 | `handoff-protocol.md` |
-| ⭐⭐⭐ 中间产物命名/版本 | 《skill-execution》的 `intermediate-artifacts.md` |
+| ⭐⭐⭐⭐⭐ "共 N 条"真实但误导 | 《skill-chaining》的 `skill-chaining/references/partial-aggregation.md` |
+| ⭐⭐⭐⭐⭐ null 变成 0、partial 变成 ok | `skill-interfaces/references/artifact-mutation-in-chain.md` |
+| ⭐⭐⭐⭐⭐ 交接包该有哪些字段 | `skill-interfaces/references/handoff-payload-contract.md` |
+| ⭐⭐⭐⭐ 技能互相读临时字段 | `skill-interfaces/references/skill-data-passing.md` |
+| ⭐⭐⭐⭐ 交接的时机与协议 | `skill-interfaces/references/handoff-protocol.md` |
+| ⭐⭐⭐ 中间产物命名/版本 | 《skill-execution》的 `skill-execution/references/intermediate-artifacts.md` |
 
 ---
 
@@ -147,7 +144,7 @@ Do NOT 用于：
 
 | 参考文件 | 何时读 |
 |---|---|
-| `handoff-payload-contract.md` | ⭐⭐⭐⭐⭐ 交接包五项；缺 failures 是技术上真实的误导 |
-| `artifact-mutation-in-chain.md` | ⭐⭐⭐⭐⭐ 不确定性在传递中递减；null→0、partial→ok；单位/基准随值传 |
-| `skill-data-passing.md` | ⭐⭐⭐⭐ 显式传参 vs 全局上下文；上下文是涂改的黑板 |
-| `handoff-protocol.md` | ⭐⭐⭐⭐ 交接的时机与协议约定 |
+| `skill-interfaces/references/handoff-payload-contract.md` | ⭐⭐⭐⭐⭐ 交接包五项；缺 failures 是技术上真实的误导 |
+| `skill-interfaces/references/artifact-mutation-in-chain.md` | ⭐⭐⭐⭐⭐ 不确定性在传递中递减；null→0、partial→ok；单位/基准随值传 |
+| `skill-interfaces/references/skill-data-passing.md` | ⭐⭐⭐⭐ 显式传参 vs 全局上下文；上下文是涂改的黑板 |
+| `skill-interfaces/references/handoff-protocol.md` | ⭐⭐⭐⭐ 交接的时机与协议约定 |

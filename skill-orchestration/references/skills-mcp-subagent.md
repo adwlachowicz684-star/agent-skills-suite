@@ -1,7 +1,7 @@
 # 技能 / MCP / 子代理的协同范式
 
-> 相关：《skill-chaining》的 `mcp-composition.md` ·
-> `mcp-integration-patterns.md` · `skill-subagent-combo.md`
+> 相关：《skill-chaining》的 `skill-composition/references/mcp-composition.md` ·
+> `skill-orchestration/references/mcp-integration-patterns.md` · `skill-subagents/references/skill-subagent-combo.md`
 
 ---
 
@@ -57,7 +57,7 @@
 
 > ⭐ **把现有优秀的、但散落在个人聊天记录里的 Prompt，重构为标准技能。**
 
-这与 `prompt-migration.md`、`prompt-to-skill.md` 是同一条建议。
+这与 `skill-content/references/prompt-migration.md`、`skill-content/references/prompt-to-skill.md` 是同一条建议。
 
 ---
 
@@ -88,7 +88,7 @@
 
 "契约"这个比喻很准确——它解释了为什么
 正文与描述不一致、输入输出字段频繁变化这类问题如此致命：
-**合同前后矛盾时，执行一定混乱**（见 `description-rewrite-case.md` 的错误清单）。
+**合同前后矛盾时，执行一定混乱**（见 `skill-description/references/description-rewrite-case.md` 的错误清单）。
 
 ---
 

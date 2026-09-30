@@ -34,10 +34,10 @@
 > 一个类别的 agent 需要的是同一套心智模型；
 > 按文件切会让每个 agent 都要加载 22 类规则，token 直接爆掉。
 
-呼应 `multi-agent-review.md` 的角色配置原则：
+呼应 `skill-subagents/references/multi-agent-review.md` 的角色配置原则：
 **每个专家只带自己领域的规则**。
 
-**并行前提**（呼应 `composition.md`）：
+**并行前提**（呼应 `skill-composition/references/composition.md`）：
 
 ```
 □ 各 agent 输出互不依赖
@@ -62,7 +62,7 @@
 □ ⭐ 反编译支持（JAR/WAR）让证据链能落到字节码
 ```
 
-呼应 `grounding-verification.md`（**`skill-crafting`**）：
+呼应 `skill-output/references/grounding-verification.md`（**`skill-crafting`**）：
 **落地 = 把输出锚定到现实**。这条规则把它编码成了领域硬约束。
 
 **映射到通用场景**：
@@ -85,8 +85,8 @@
 □ ⭐ 被证伪的假阳性也记住，避免重复误报
 ```
 
-> 呼应 `memory-state.md` 的跨会话记忆，与
-> `library-ops.md`（**`skill-evaluating`**）的技能自我进化。
+> 呼应 `skill-state/references/memory-state.md` 的跨会话记忆，与
+> `skill-distribution/references/library-ops.md`（**`skill-evaluating`**）的技能自我进化。
 
 **关键设计**：**被证伪的也要记**。
 
@@ -95,7 +95,7 @@
 ⭐ 正负样本都记 → 下次能同时降低漏报和误报
 ```
 
-呼应 `skill-lift-eval.md`（**`skill-evaluating`**）的 Rejected-Edit Buffer：
+呼应 `skill-quality/references/skill-lift-eval.md`（**`skill-evaluating`**）的 Rejected-Edit Buffer：
 **被拒的编辑不丢弃，供未来反思**——零成本的负反馈。
 
 ## 可迁移的四条设计原则
@@ -121,7 +121,7 @@
 散在步骤里 → 赶工时就省了
 ```
 
-呼应 `guidance-forms.md`（**`skill-crafting`**）：
+呼应 `skill-crafting/references/guidance-forms.md`（**`skill-crafting`**）：
 **漏掉必需元素 → 用模板里的 REQUIRED 槽位**，而不是散文提醒。
 
 **④ 正负样本都回流**
@@ -149,8 +149,8 @@
 > 不考虑基线的门禁会立刻被团队绕过——
 > 因为它会让每个 PR 都红。
 >
-> 这对应 `grounding-verification.md` 里
-> "建造者不能当审计员"与 `ci-cd-integration.md`（**`skill-governance`**）
+> 这对应 `skill-output/references/grounding-verification.md` 里
+> "建造者不能当审计员"与 `skill-governance/references/ci-cd-integration.md`（**`skill-governance`**）
 > 的"Lint/Validate 阻断合并，Security Scan 只警告"。
 
 ## 自查

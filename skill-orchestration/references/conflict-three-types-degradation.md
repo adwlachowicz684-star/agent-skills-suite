@@ -1,8 +1,8 @@
 # 冲突三型与降级层：别把所有冲突都当排他型
 
-> 相关：《skill-orchestration》的 `collision-arbitration.md` ·
-> `routing-tiers-and-arbitration.md` · `skill-chaining-composition.md` ·
-> 《skill-patterns》的 `conflict-precedence-four-types.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/collision-arbitration.md` ·
+> `skill-orchestration/references/routing-tiers-and-arbitration.md` · `skill-composition/references/skill-chaining-composition.md` ·
+> 《skill-patterns》的 `skill-patterns/references/conflict-precedence-four-types.md`
 > 前置：那些讲"谁赢、怎么裁"，
 > 这份讲⭐⭐⭐ **冲突其实有三种，处理方式完全不同**——
 > 以及⭐⭐⭐ 一个多数系统缺的层：**降级**。
@@ -30,7 +30,7 @@
 ⭐⭐⭐ 你正在做手术，⭐ 不该因为"隔壁科室也会缝针"就把病人推过去
 ```
 
-> ⭐⭐ 这条与我们已有的 `routing-tiers-and-arbitration.md` 的
+> ⭐⭐ 这条与我们已有的 `skill-orchestration/references/routing-tiers-and-arbitration.md` 的
 > "显式指定 > 精确匹配 > 特异优于通用"不冲突——
 > ⭐⭐ 它是一个⭐ 额外的加权维度：
 > **同等条件下，已经在跑的那个流程里的技能优先。**
@@ -57,7 +57,7 @@
 
 > ⭐⭐ `exclusive_group`——⭐⭐⭐ **同组只留优先级最高的。**
 
-> ⭐⭐ 这与 `conflict-precedence-four-types.md` 的
+> ⭐⭐ 这与 `skill-patterns/references/conflict-precedence-four-types.md` 的
 > "技能 vs 技能 → 更具体的赢"是互补的：
 > 那条是⭐ 运行时裁决，
 > ⭐⭐⭐ 这里是⭐ 声明期预防——
@@ -80,7 +80,7 @@
 >    ⭐⭐⭐ ⭐ 结果⭐ 比只跑一个还差。**
 
 > ⭐⭐⭐ 这给了我们已有的"顺序敏感"一条⭐ 具体后果：
-> `composition-patterns-types.md` 说"同一技能集，加载顺序不同结果就不同"，
+> `skill-orchestration/references/composition-patterns-types.md` 说"同一技能集，加载顺序不同结果就不同"，
 > ⭐⭐ 这里说得更狠：**无序并行 = 比只用一个更糟**（不是持平，是更差）。
 >
 > ⭐⭐ 所以 ⭐ **给组合型冲突的解法不是"选一个"，而是"定顺序"**。
@@ -111,7 +111,7 @@
 >    ⭐⭐ 该组合的被硬选了一个
 >    ⭐⭐⭐ 该确认的被硬猜了一个**
 
-> ⭐⭐⭐ 这与 `conflict-precedence-four-types.md` 反模式表里的
+> ⭐⭐⭐ 这与 `skill-patterns/references/conflict-precedence-four-types.md` 反模式表里的
 > "总是提问 = 浪费时间"要合起来看，才完整：
 > ```
 > 优先级能裁 → 裁（别问）
@@ -189,8 +189,8 @@ Skill B (Legal)：   "严谨，字斟句酌，不要过度承诺"
 > ⭐⭐⭐ 这个模式很值得记住，因为它给出了一类冲突的⭐ 结构性解法：
 > **方向相反的两个技能不是二选一，而是⭐ 分阶段。**
 > 生成在前、约束在后——
-> ⭐⭐ 这也正是 `code-review-trust.md` 的"生成者 ≠ 校验者"
-> 与 `frontend-ui-skills.md` 的"生成完派框架专家校验"的通用形态。
+> ⭐⭐ 这也正是 `skill-domains/references/code-review-trust.md` 的"生成者 ≠ 校验者"
+> 与 `skill-gallery/references/frontend-ui-skills.md` 的"生成完派框架专家校验"的通用形态。
 
 **另一个相关模式（动态路由）**：
 

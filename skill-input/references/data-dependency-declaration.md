@@ -1,9 +1,9 @@
 # 技能的隐形依赖：喂给它的数据从哪来
 
-> 相关：《skill-execution》的 `preflight-gate.md`（STEP 0 前置门禁）·
-> 《skill-execution》的 `prerequisites.md`（前置条件声明）·
-> 《skill-distribution》的 `dependency-lockfile.md`（36.6% 隐藏依赖）·
-> 《skill-context》的 `skill-cost-attribution.md`（成本归账）
+> 相关：《skill-execution》的 `skill-execution/references/preflight-gate.md`（STEP 0 前置门禁）·
+> 《skill-execution》的 prerequisites.md（前置条件声明）·
+> 《skill-distribution》的 `skill-distribution/references/dependency-lockfile.md`（36.6% 隐藏依赖）·
+> 《skill-context》的 `skill-context/references/skill-cost-attribution.md`（成本归账）
 > 前置：依赖声明那份讲⭐⭐⭐ **脚本依赖**（包、版本、lockfile），
 > 这份讲⭐⭐⭐⭐⭐ **数据依赖**——
 > 技能读的那些文件/接口/环境变量，⭐⭐⭐ **几乎从不出现在任何声明里**，
@@ -103,7 +103,7 @@ python >=3.11 · jq · node 18+ · 某个 npm 包
 
 > ⭐⭐⭐⭐ 第四类的特征症状是**"时好时坏"**——
 > 有人先跑了 A 就成功，有人直接跑 B 就失败。
-> 而这正是 `dependency-lockfile.md` 里"隐式依赖"那条特征症状的来源。
+> 而这正是 `skill-distribution/references/dependency-lockfile.md` 里"隐式依赖"那条特征症状的来源。
 
 ---
 
@@ -127,7 +127,7 @@ python >=3.11 · jq · node 18+ · 某个 npm 包
 
 第四行的写法值得单独记：**前置产物要写清"由谁生成"**。
 这把隐式依赖变成了显式的一条边——
-⭐⭐⭐ 顺便也让"这两个技能该不该合并"（见 `merge-signals-five.md`）有了数据依据。
+⭐⭐⭐ 顺便也让"这两个技能该不该合并"（见 `skill-refining/references/merge-signals-five.md`）有了数据依据。
 
 ---
 
@@ -146,14 +146,14 @@ python >=3.11 · jq · node 18+ · 某个 npm 包
 
 对照第三行也值得警惕：
 **"分析完成，未发现异常"和"分析根本没拿到数据"在输出上很难区分**——
-所以报告必须带 ⭐ **样本量与数据来源说明**（这与 `bad-skill-anatomy.md`
+所以报告必须带 ⭐ **样本量与数据来源说明**（这与 `skill-gallery/references/bad-skill-anatomy.md`
 里"输出四项 REQUIRED 含数据说明"是同一条要求）。
 
 ---
 
 ## 6. ⭐⭐⭐ 与前置门禁的配合
 
-`preflight-gate.md` 的 STEP 0 说"不要在缺前置条件时开始执行"。
+`skill-execution/references/preflight-gate.md` 的 STEP 0 说"不要在缺前置条件时开始执行"。
 数据依赖就是 ⭐⭐⭐ **STEP 0 最该检查、却最常被漏掉的一类前置条件**。
 
 具体做法（三条）：

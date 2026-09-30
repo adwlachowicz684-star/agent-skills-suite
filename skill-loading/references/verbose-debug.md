@@ -1,7 +1,7 @@
 # Verbose 调试：把 trace 变成可断言的测试
 
-> 相关：`skill-evaluating` 的 `troubleshooting-manual.md`（四层定位）·
-> `reload-debug.md`（加载排查）
+> 相关：`skill-evaluating` 的 `skill-triggering/references/troubleshooting-manual.md`（四层定位）·
+> `skill-triggering/references/reload-debug.md`（加载排查）
 
 ---
 
@@ -124,7 +124,7 @@ echo "$OUTPUT" | grep -q "Write complete.*auth.*test" \
 产出层   → 产物生成了吗
 ```
 
-> ⭐ 这正好对应 `test-pyramid.md` 的下三层，
+> ⭐ 这正好对应 `skill-evaluating/references/test-pyramid.md` 的下三层，
 > 而**成本只有 grep**——不消耗 token、不依赖模型。
 
 ---

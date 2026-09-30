@@ -1,8 +1,8 @@
 # 技能依赖注入：委托 / 链式 / 配置 / 共享服务
 
-> 相关：《skill-orchestration》的 `composition-patterns-types.md` ·
-> `skill-chaining-composition.md` · `collision-arbitration.md` ·
-> 《skill-patterns》的 `five-design-patterns.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/composition-patterns-types.md` ·
+> `skill-composition/references/skill-chaining-composition.md` · `skill-orchestration/references/collision-arbitration.md` ·
+> 《skill-patterns》的 `skill-patterns/references/five-design-patterns.md`
 > 前置：那些讲"组合的类型与冲突怎么解"，
 > 这份讲⭐ **组合的四种具体写法**，每种都给一个可直接照抄的正文骨架。
 
@@ -39,7 +39,7 @@
    第三个技能编排整条流水线
 ```
 
-> ⭐ 这与 `composable-patterns.md` 的"一职责一技能"一致，
+> ⭐ 这与 `skill-composition/references/composable-patterns.md` 的"一职责一技能"一致，
 > 但这份给的是⭐ **接口层面的写法**——即"怎么在正文里调用另一个技能"。
 
 ---
@@ -197,7 +197,7 @@ Always return valid JSON output or clear error messages.
 | ⭐⭐ | **配置注入**：传参数间接控制依赖技能 | 同一个依赖、不同用法 |
 | ⭐⭐ | **共享服务**：造一个专门给别人调用的技能 | 多处重复同一确定性操作 |
 
-**一条贯穿的原则**（与 `solid-for-skills.md` 的依赖倒置对应）：
+**一条贯穿的原则**（与 `skill-patterns/references/solid-for-skills.md` 的依赖倒置对应）：
 
 ```
 ❌ "用这些 flag 调 qmd"

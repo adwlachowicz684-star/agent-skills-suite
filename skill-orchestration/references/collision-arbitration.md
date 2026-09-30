@@ -1,8 +1,8 @@
 # 技能打架的仲裁规则与两步路由
 
-> 相关：《skill-orchestration》的 `namespace-collision.md` ·
-> 《skill-triggering》的 `description-by-collision-risk.md` ·
-> 《skill-selection》的 `library-size-effect.md`
+> 相关：《skill-orchestration》的 `skill-orchestration/references/namespace-collision.md` ·
+> 《skill-triggering》的 `skill-triggering/references/description-by-collision-risk.md` ·
+> 《skill-selection》的 `skill-selection/references/library-size-effect.md`
 
 ---
 
@@ -23,7 +23,7 @@
 典型例子：同时有"合并重复代码"和"重构模块"两个技能。
 ```
 
-> 这与 `library-size-effect.md` 的实测一致——
+> 这与 `skill-selection/references/library-size-effect.md` 的实测一致——
 > **遮蔽是库规模效应的主要成分（占 68%）**。
 
 ---
@@ -37,7 +37,7 @@
 ⭐ 并在 description 里互相写明边界
 ```
 
-对应 `description-by-collision-risk.md` 的 NOT 段要点名替代方案。
+对应 `skill-triggering/references/description-by-collision-risk.md` 的 NOT 段要点名替代方案。
 
 **② priority 字段**
 
@@ -73,7 +73,7 @@ priority: 10
 > ⭐ 这个设计同时解了两个问题：
 > **遮蔽**（候选太多选错）和**延迟**（多一轮推理）。
 
-> 与 `skill-vs-rag.md` 那条"用 RAG 检索技能"同源——
+> 与 `skill-boundaries/references/skill-vs-rag.md` 那条"用 RAG 检索技能"同源——
 > 先把所有 description 做 embedding 预筛，再只加载 top-k。
 
 ---
@@ -105,7 +105,7 @@ priority: 10
 ⭐ 很多团队忽略的是：⭐ 工具调用权限不能由模型自己决定。
 ```
 
-> ⭐ 与 `determinism-boundary.md` 那条完全一致：
+> ⭐ 与 `skill-evaluating/references/determinism-boundary.md` 那条完全一致：
 > **技能里的权限声明不是安全边界，真正的边界在 hook 或 permission 规则。**
 
 ---

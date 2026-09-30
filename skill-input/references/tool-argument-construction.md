@@ -1,10 +1,10 @@
 # "用 X 工具" 不是参数说明
 
-> 相关：《skill-execution》的 `preflight-gate.md`（前置门禁）·
-> 《skill-recovery》的 `execution-error-protocol.md`（错误协议）·
-> 《skill-scripting》的 `script-cli-contract.md`（脚本 CLI 契约）·
-> 《skill-security》的 `allowed-tools-reference.md`（工具表）·
-> 《skill-crafting》的 `conditional-branch-writing.md`
+> 相关：《skill-execution》的 `skill-execution/references/preflight-gate.md`（前置门禁）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`（错误协议）·
+> 《skill-scripting》的 `skill-scripting/references/script-cli-contract.md`（脚本 CLI 契约）·
+> 《skill-security》的 `skill-security/references/allowed-tools-reference.md`（工具表）·
+> 《skill-crafting》的 `skill-precision/references/conditional-branch-writing.md`
 > 前置：
 > 脚本那份讲的是⭐⭐⭐ **你自己写的脚本该怎么设计接口**，
 > 这份讲的是⭐⭐⭐⭐⭐ **技能里引用外部工具时怎么写**——

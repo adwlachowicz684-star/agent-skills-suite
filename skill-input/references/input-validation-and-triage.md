@@ -1,11 +1,11 @@
 # 输入分诊：残缺、矛盾、超范围
 
-> 相关：《skill-execution》的 `preflight-gate.md`（前置门禁：依赖/权限）·
-> `data-dependency-declaration.md`（数据依赖）·
-> 《skill-recovery》的 `execution-error-protocol.md`（错误协议）·
-> `exit-conditions-when-to-stop.md` ·
-> 《skill-content》的 `default-actions.md` ·
-> 《skill-execution》的 `human-checkpoint-design.md`
+> 相关：《skill-execution》的 `skill-execution/references/preflight-gate.md`（前置门禁：依赖/权限）·
+> `skill-input/references/data-dependency-declaration.md`（数据依赖）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`（错误协议）·
+> `skill-recovery/references/exit-conditions-when-to-stop.md` ·
+> 《skill-content》的 `skill-content/references/default-actions.md` ·
+> 《skill-execution》的 `skill-execution/references/human-checkpoint-design.md`
 > 前置：
 > 前置门禁检查的是⭐⭐⭐ **"外部条件具备吗"**（文件在吗、权限有吗），
 > 这份检查的是⭐⭐⭐⭐⭐ **"用户给的这一份输入本身"**——
@@ -69,7 +69,7 @@
 > ⭐⭐⭐⭐⭐ 因为"提问"和"继续"之间，它倾向于继续。
 > **显式写"不要默认 X"，才是把那条路封死。**
 
-（这与 `conditional-branch-writing.md` 的"没有 else 的 if"是同一条规则，
+（这与 `skill-precision/references/conditional-branch-writing.md` 的"没有 else 的 if"是同一条规则，
 只是那份讲流程分支，这份讲输入字段。）
 
 一个廉价的高收益做法：
@@ -103,7 +103,7 @@
 > ⭐⭐⭐⭐⭐ **被丢弃的需求必须出现在输出里。**
 > 否则它就从对话里彻底消失了——用户不记得自己提过，就不会追问。
 
-这与 `human-checkpoint-design.md` 那条
+这与 `skill-execution/references/human-checkpoint-design.md` 那条
 "已完成的写入动作必须报告"是同一原则：
 **任何被静默处理掉的东西，都必须在输出里留痕。**
 
@@ -165,7 +165,7 @@
 > ⭐⭐⭐⭐⭐ **问一个补一个，是最消耗用户耐心的形态。**
 > 它把"缺 3 项"变成 3 轮对话，而每一轮用户都要重新进入上下文。
 >
-> ⭐⭐⭐⭐ 而且它与 `change-questions.md` 的"同一任务内只问一次"是互补的：
+> ⭐⭐⭐⭐ 而且它与 `skill-execution/references/change-questions.md` 的"同一任务内只问一次"是互补的：
 > 那份禁止⭐⭐⭐ **重复问同一个问题**，
 > 这份要求⭐⭐⭐⭐⭐ **不同问题要一次问完**——
 > 合起来是：**一个任务，一轮提问，之后不再问。**

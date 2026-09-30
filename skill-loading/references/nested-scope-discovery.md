@@ -1,8 +1,8 @@
 # 嵌套作用域与发现规则（monorepo）
 
-> 相关：《skill-loading》的 `skill-cascade-css.md` · `five-minute-diagnosis.md` ·
-> `nine-checks-not-working.md` ·
-> 《skill-patterns》的 `skill-overrides-audit.md`
+> 相关：《skill-loading》的 `skill-loading/references/skill-cascade-css.md` · `skill-loading/references/five-minute-diagnosis.md` ·
+> `skill-loading/references/nine-checks-not-working.md` ·
+> 《skill-patterns》的 `skill-patterns/references/skill-overrides-audit.md`
 > 前置：那份讲⭐ 同名谁赢（优先级），这份讲⭐⭐⭐ **嵌套目录什么时候被发现**——
 > 一个⭐⭐⭐⭐ 极易被误诊为"技能坏了"的机制。
 
@@ -35,7 +35,7 @@ monorepo 中：
 > → 你以为是⭐ 目录名/文件名/YAML 错了 → ⭐⭐⭐⭐ 查了半天
 > → ⭐⭐⭐⭐ ⭐ 其实它只是⭐ 不在当前作用域
 > ```
-> ⭐⭐⭐ 这是 `four-layer-diagnosis-flow.md` 的"环境层"里
+> ⭐⭐⭐ 这是 `skill-loading/references/four-layer-diagnosis-flow.md` 的"环境层"里
 > ⭐⭐⭐ **此前完全没覆盖的一项**。
 > ⭐⭐⭐ 那份清单里"换个项目/平台能复现吗"已经接近了，
 > ⭐⭐⭐⭐ 但没说⭐ **"换个目录试试"**——而 monorepo 下这正是第一嫌疑。
@@ -72,7 +72,7 @@ paths:
 > ```
 > ⭐⭐⭐⭐ **`paths` 更强**：它还能用于⭐ 非 monorepo 场景
 > （同一个仓库里按模块限定），且⭐ 是⭐ 唯一能直接减少候选集的字段
-> ——这点在 `frontmatter-full-reference.md` 里记过。
+> ——这点在 `skill-loading/references/frontmatter-full-reference.md` 里记过。
 >
 > ⭐⭐⭐ 两者可以叠加：既放在子目录、又写 `paths`，双保险。
 > ⭐⭐ 但注意⭐ **别过度**：多一层机制就多一处"为什么它没触发"的排查点。
@@ -98,7 +98,7 @@ paths:
 
 > ⭐⭐⭐ 第 ③ 条是我们那个长期矛盾的⭐ 第三个来源，
 > ⭐⭐⭐ 且措辞最精确：**不是"改了技能要不要重启"，而是"目录是否是新建的"。**
-> ⭐⭐⭐ 与 `skill-cascade-css.md` 的结论完全一致。
+> ⭐⭐⭐ 与 `skill-loading/references/skill-cascade-css.md` 的结论完全一致。
 
 ---
 

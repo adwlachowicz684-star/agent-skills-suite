@@ -1,11 +1,11 @@
 # 改了技能什么时候生效：一次说清
 
-> 相关：《skill-loading》的 `nine-checks-not-working.md` ·
-> `yaml-frontmatter-errors.md` ·
-> `nested-scope-discovery.md` ·
-> `skill-cascade-css.md`（层级与覆盖）·
-> `diagnostic-commands.md` ·
-> `three-stages-discovery-activation-execution.md`
+> 相关：《skill-loading》的 `skill-loading/references/nine-checks-not-working.md` ·
+> `skill-loading/references/yaml-frontmatter-errors.md` ·
+> `skill-loading/references/nested-scope-discovery.md` ·
+> `skill-loading/references/skill-cascade-css.md`（层级与覆盖）·
+> `skill-loading/references/diagnostic-commands.md` ·
+> `skill-loading/references/three-stages-discovery-activation-execution.md`
 > 前置：
 > 我们此前有两处直接冲突的记录——
 > 一处说"改了要重启"，一处说"改了不用重启"。

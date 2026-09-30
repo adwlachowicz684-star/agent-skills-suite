@@ -1,7 +1,7 @@
 # 输出控制：模板、长度与机器可解析
 
-> 相关：`skill-crafting` 的 `output-contract.md`（Schema-First）·
-> `terminology.md` · `skill-domain-eng` 的 `api-doc-generation.md`
+> 相关：`skill-crafting` 的 `skill-output/references/output-contract.md`（Schema-First）·
+> `skill-precision/references/terminology.md` · `skill-domain-eng` 的 `skill-domains/references/api-doc-generation.md`
 
 ---
 
@@ -123,7 +123,7 @@ OUTPUT_END
 > 一个简单的脚本就能提取这些块，转成
 > **JSON、GitHub annotations 或 Jira ticket**。
 
-这与 `four-dimension-eval.md` 的"用 `--output-schema` 约束返回固定 JSON"是同一原则：
+这与 `skill-quality/references/four-dimension-eval.md` 的"用 `--output-schema` 约束返回固定 JSON"是同一原则：
 **跨版本可比的前提是格式固定。**
 
 ---

@@ -76,7 +76,7 @@ tool name · version · input hash · input classification
 决策耗时 · 由此产生的 agent 动作
 ```
 
-> ⭐ **这是人工监督主张的审计证据**（呼应 `compliance-audit.md` 的 Article 14）。
+> ⭐ **这是人工监督主张的审计证据**（呼应 `skill-security/references/compliance-audit.md` 的 Article 14）。
 
 **⑥ 策略与安全 Span**
 

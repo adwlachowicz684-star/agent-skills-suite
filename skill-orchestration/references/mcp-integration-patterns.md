@@ -1,6 +1,6 @@
 # MCP 协同落地：配置、护栏与四个坑
 
-> 前置：`mcp-composition.md`（三层栈、五问决策树、三种混合模式）
+> 前置：`skill-composition/references/mcp-composition.md`（三层栈、五问决策树、三种混合模式）
 > 这份只讲**工程落地**：配置怎么写、护栏加在哪、协同时会踩什么。
 
 ---
@@ -67,7 +67,7 @@ claude mcp add github --command npx \
 python -m json.tool .mcp.json > /dev/null && echo OK
 ```
 
-> 这与 `skill-structuring` 的 `frontmatter-pitfalls.md` 是同一类问题——
+> 这与 `skill-structuring` 的 `skill-loading/references/frontmatter-pitfalls.md` 是同一类问题——
 > **配置文件语法错误在这个生态里普遍是静默失败**。
 
 ---
@@ -88,7 +88,7 @@ python -m json.tool .mcp.json > /dev/null && echo OK
 
 还有一条经常被忽略的：
 
-> 技能引用 `references/schema-overview.md`——**手工整理的数据模型地图**，
+> 技能引用 schema-overview.md——**手工整理的数据模型地图**，
 > 让 Claude ⭐ **不用每次从 information_schema 重新推导表关系**。
 
 **实测收益**：跑这个模式的团队报告**危险查询减少 5–10 倍**，
@@ -138,7 +138,7 @@ Stripe MCP + 财务技能：
 
 > ⚠️ 第三条是最容易做错的：
 > **不要在技能里声明权限就以为管住了**（`allowed-tools` 不是安全边界，
-> 见 `skill-invocation-control.md`）。
+> 见 `skill-governance/references/skill-invocation-control.md`）。
 > ⭐ **真正的边界在 MCP server 侧**——`--read-only` 这种才是硬限制。
 
 ---

@@ -1,12 +1,12 @@
 # 用户输入里的指代与省略
 
-> 相关：《skill-input》的 `input-validation-and-triage.md`（残缺/矛盾/超范围）·
-> `inference-vs-asking.md`（推断还是问）·
-> 《skill-crafting》的 `positional-references.md`（技能内部的编号指代）·
-> `enumeration-closed-vs-open.md`·
-> 《skill-execution》的 `change-questions.md`
+> 相关：《skill-input》的 `skill-input/references/input-validation-and-triage.md`（残缺/矛盾/超范围）·
+> `skill-input/references/inference-vs-asking.md`（推断还是问）·
+> 《skill-crafting》的 `skill-precision/references/positional-references.md`（技能内部的编号指代）·
+> `skill-precision/references/enumeration-closed-vs-open.md`·
+> 《skill-execution》的 `skill-execution/references/change-questions.md`
 > 前置：
-> `input-validation-and-triage.md` 管的是⭐⭐⭐⭐ **缺、矛盾、超范围**，
+> `skill-input/references/input-validation-and-triage.md` 管的是⭐⭐⭐⭐ **缺、矛盾、超范围**，
 > 这份管的是⭐⭐⭐⭐⭐ **看起来完整、实际指向不明的输入**——
 > 它不会被分诊拦下，因为它不缺任何东西。
 
@@ -64,7 +64,7 @@
 **④ ⭐⭐⭐⭐ 相对时间**（"上次""最近""跟之前一样"）
 
 ```
-已由《skill-input》的 `relative-time-resolution.md` 覆盖，
+已由《skill-input》的 `skill-input/references/relative-time-resolution.md` 覆盖，
 ⭐⭐⭐⭐⭐ 但那里讲的是"窗口边界"，这里是"参照物"——
 "上次"是上次运行，还是上次用户说话？
 ```
@@ -119,7 +119,7 @@
 → ⭐⭐⭐⭐⭐ 而它处理的是错的对象
 ```
 
-> ⭐⭐⭐⭐⭐ 与《skill-crafting》的 `positional-references.md` 完全同构：
+> ⭐⭐⭐⭐⭐ 与《skill-crafting》的 `skill-precision/references/positional-references.md` 完全同构：
 > 那份讲技能**内部**的"上一步/第 3 步"会因插入而错位，
 > 这份讲**用户侧**的"也这样/那个"会因上下文而错位。
 > 共同解法也一致：**给中间对象起名**。
@@ -166,7 +166,7 @@
 > ⭐⭐⭐⭐⭐ **它同时满足"不打断"和"不静默"**——
 > 而人们通常只在"执行"和"追问"之间二选一，于是要么静默要么啰嗦。
 
-它与 `inference-vs-asking.md` 的 L2（推断并标注）是同一原则，
+它与 `skill-input/references/inference-vs-asking.md` 的 L2（推断并标注）是同一原则，
 但那里的判据是"错了能不能看出来"，这里是"**有没有第二个候选**"：
 
 ```
@@ -202,14 +202,14 @@
 
 ```
 ① ⭐⭐⭐⭐⭐ 给中间产物/处理对象起名（"→ 记为 target_modules"），
-   让后续指代有唯一绑定的锚点（与 `positional-references.md` 同手法）
+   让后续指代有唯一绑定的锚点（与 `skill-precision/references/positional-references.md` 同手法）
 ② ⭐⭐⭐⭐⭐ 输出首行写"本次处理的对象：<显式列表>"——
    成本一行，让绑定错误在**第一屏**就可见
 ③ ⭐⭐⭐⭐ 多轮任务里，每轮开头复述一次当前作用域
    （"当前处理范围：A、B 两个模块"）
 ```
 
-> ⭐⭐⭐⭐⭐ 第 ② 条与《skill-output》的 `output-ordering-priority.md` 咬合：
+> ⭐⭐⭐⭐⭐ 第 ② 条与《skill-output》的 `skill-output/references/output-ordering-priority.md` 咬合：
 > ⭐⭐⭐⭐⭐ "本次处理的对象"是"会让用户改变用法的信息"，属于前 5 行内容。
 
 一个便宜的额外收益：

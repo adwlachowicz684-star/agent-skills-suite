@@ -1,8 +1,8 @@
 # YAML 静默失败：技能"半可用"的根因
 
-> 相关：《skill-loading》的 `official-spec-and-style.md`（加载失败 vs 仅警告）·
-> `four-layer-diagnosis-flow.md`（80% 在文件层）·
-> 《skill-description》的 `trigger-fix-nine-causes.md`
+> 相关：《skill-loading》的 `skill-loading/references/official-spec-and-style.md`（加载失败 vs 仅警告）·
+> `skill-loading/references/four-layer-diagnosis-flow.md`（80% 在文件层）·
+> 《skill-description》的 `skill-description/references/trigger-fix-nine-causes.md`
 > 前置：那份讲⭐ 哪些错误算硬失败、哪些只警告，
 > 这份讲⭐⭐⭐⭐ ⭐ 具体是哪几个字符导致的 +
 > ⭐⭐⭐⭐⭐ 为什么它⭐ 比直接失败更糟。
@@ -32,10 +32,10 @@
 
 > ⭐⭐⭐⭐⭐ 这是⭐ 本轮最值钱的一条诊断，因为它⭐ 给出了一个⭐ 零成本的分诊：
 > ⭐⭐⭐⭐⭐ **"显式调用能跑、自动触发不能"**——
-> ⭐⭐⭐⭐ 我们已有的 `nine-checks-not-working.md` 第 8 项也提到过这一点，
+> ⭐⭐⭐⭐ 我们已有的 `skill-loading/references/nine-checks-not-working.md` 第 8 项也提到过这一点，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ 但这里⭐ 给出了⭐ 它的⭐ 机制原因（元数据为空，不是描述写得差）。
 >
-> ⭐⭐⭐⭐⭐ 而且它⭐ 与 `official-spec-and-style.md` 那条⭐ 需要合起来看：
+> ⭐⭐⭐⭐⭐ 而且它⭐ 与 `skill-loading/references/official-spec-and-style.md` 那条⭐ 需要合起来看：
 > ⭐⭐⭐⭐⭐ 那份说"⭐ 无效 YAML = ⭐ 加载失败（硬）"，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 这份说⭐ 还有⭐ 一种⭐ "⭐ 解析出空值但没报错" 的⭐ 中间态。
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐ **两者症状不同**：
@@ -180,7 +180,7 @@ grep -m1 "^name:" SKILL.md
 ① ⭐⭐⭐⭐ 隐藏字符：从 PDF / 文字处理器 / 网页复制
    → ⭐⭐⭐ 智能引号、⭐⭐⭐⭐ 不换行空格
    ⭐⭐⭐⭐⭐ 症状：⭐⭐⭐⭐⭐ ⭐ 看起来完全正确，⭐⭐⭐⭐⭐ ⭐ 但解析不过
-   ⭐⭐⭐⭐ ⭐⭐⭐ 与 `unicode-injection-defense.md` 是⭐ 同一类问题的⭐ 非恶意版本
+   ⭐⭐⭐⭐ ⭐⭐⭐ 与 `skill-security/references/unicode-injection-defense.md` 是⭐ 同一类问题的⭐ 非恶意版本
    ⭐⭐⭐⭐ ⭐ 解法：⭐⭐⭐ 用纯文本编辑器确认⭐ 只有标准 ASCII
 
 ② ⭐⭐⭐⭐⭐ 常见的报错信息及其真实含义

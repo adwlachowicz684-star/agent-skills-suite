@@ -1,8 +1,8 @@
 # 游戏开发技能库的路由设计（多引擎 × 多学科 × 多类型）
 
-> 相关：（已移至 _parked 领域实例库）的 `methodology-skills.md` ·
-> 《skill-orchestration》的 `namespace-collision.md` ·
-> `skill-composition-patterns.md`
+> 相关：（已移至 _parked 领域实例库）的 `skill-domains/references/methodology-skills.md` ·
+> 《skill-orchestration》的 `skill-orchestration/references/namespace-collision.md` ·
+> `skill-composition/references/skill-composition-patterns.md`
 
 ---
 
@@ -69,7 +69,7 @@ Godot   → project.godot
 Unity   → Assets/ + ProjectSettings/
 ```
 
-另有次要信号与消歧规则（放在 `references/engine-detection.md`）。
+另有次要信号与消歧规则（放在 engine-detection.md）。
 
 > ⭐ 这是个很实用的通用模式：
 > **用文件系统指纹做路由，而不是问用户。**
@@ -125,7 +125,7 @@ Unity   → Assets/ + ProjectSettings/
 | "我的 Unity 游戏掉到 30 FPS，优化一下" | Unity | ⭐ `performance-optimization`（先 profile）→ 引擎技能 |
 
 > ⭐ 倒数第二条值得注意：
-> **"先 profile" 是硬约束**——与 `performance-optimization.md`
+> **"先 profile" 是硬约束**——与 `skill-domains/references/performance-optimization.md`
 > 的"先测量再优化"一致。
 
 ---
@@ -157,5 +157,5 @@ Unity   → Assets/ + ProjectSettings/
 ```
 
 **补充**：详细的触发词、引擎绑定、绑定缺口，
-单独放 `references/routing-table.md`——
+单独放 routing-table.md——
 **路由表本身就是 references 的典型用法**。

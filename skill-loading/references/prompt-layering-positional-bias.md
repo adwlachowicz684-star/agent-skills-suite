@@ -1,8 +1,8 @@
 # 提示分层：四层堆叠与位置偏差
 
-> 相关：《skill-triggering》的 `priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
-> 《skill-selection》的 `context-file-selection.md`（CLAUDE.md/AGENTS.md/SKILL.md 该放哪）·
-> 《skill-loading》的 `skill-cascade-css.md`
+> 相关：《skill-triggering》的 `skill-triggering/references/priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
+> 《skill-selection》的 `skill-selection/references/context-file-selection.md`（CLAUDE.md/AGENTS.md/SKILL.md 该放哪）·
+> 《skill-loading》的 `skill-loading/references/skill-cascade-css.md`
 > 前置：那些讲"谁覆盖谁"，
 > 这份讲⭐⭐⭐ **四层各自的职责边界**，
 > 以及一条⭐⭐⭐ 没人提过但影响极大的实证：**位置偏差**。
@@ -128,7 +128,7 @@
 > ⭐⭐⭐ **调试要查的是⭐ 子代理在调用那一刻收到了什么，
 > ⭐⭐ 而不是父代理当时拥有什么。**
 
-> ⭐ 这与 `subagent-skill-inheritance.md` 的
+> ⭐ 这与 `skill-subagents/references/subagent-skill-inheritance.md` 的
 > "子代理不继承技能，必须显式列 skills:"完全一致，
 > ⭐⭐ 但这里把它放进了⭐ 四层模型里：
 > **委派时，② ③ 两层默认都不存在，只有①④。**
@@ -164,8 +164,8 @@
 > 不只是省 token，
 > ⭐⭐ **每多一条规则，都在稀释其他所有规则的被遵守概率**。
 >
-> ⭐ 与 `library-size-effect.md` 的遮蔽、
-> `capability-offset-net-gain.md` 的 59% 抵消同源——
+> ⭐ 与 `skill-selection/references/library-size-effect.md` 的遮蔽、
+> `skill-evaluating/references/capability-offset-net-gain.md` 的 59% 抵消同源——
 > ⭐⭐⭐ **注意力是稀缺资源，规则之间在竞争它。**
 
 ---

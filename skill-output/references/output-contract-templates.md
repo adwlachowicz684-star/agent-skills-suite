@@ -1,7 +1,7 @@
 # 输出契约：声明格式、钉模板、可机械化解析
 
-> 相关：《skill-output》的 `output-control.md` ·
-> `imperative-style.md` · 《skill-patterns》的 `instruction-craft.md`
+> 相关：《skill-output》的 `skill-output/references/output-control.md` ·
+> `skill-crafting/references/imperative-style.md` · 《skill-patterns》的 `skill-patterns/references/instruction-craft.md`
 
 ---
 
@@ -80,7 +80,7 @@ scripts/     ⭐ EXECUTE   —— 执行，不进上下文
 输出形状随机 → 只能人肉看   → 无法比较     → 回归静默发生
 ```
 
-> 与 `assert-on-environment.md` 的"确定性断言能两秒筛掉一半失败样本"同源——
+> 与 `skill-evaluating/references/assert-on-environment.md` 的"确定性断言能两秒筛掉一半失败样本"同源——
 > **形状稳定是自动化的前提**。
 
 ---

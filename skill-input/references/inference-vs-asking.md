@@ -1,12 +1,12 @@
 # 缺的东西该推断还是该问
 
-> 相关：《skill-content》的 `default-actions.md`（默认动作）·
-> `portability-across-projects.md`（假设与可迁移性）·
-> 《skill-execution》的 `human-checkpoint-design.md`（检查点设计）·
-> `change-questions.md`（中途变更四问）·
-> `input-validation-and-triage.md`（输入分诊）
+> 相关：《skill-content》的 `skill-content/references/default-actions.md`（默认动作）·
+> `skill-content/references/portability-across-projects.md`（假设与可迁移性）·
+> 《skill-execution》的 `skill-execution/references/human-checkpoint-design.md`（检查点设计）·
+> `skill-execution/references/change-questions.md`（中途变更四问）·
+> `skill-input/references/input-validation-and-triage.md`（输入分诊）
 > 前置：
-> `input-validation-and-triage.md` 讲⭐⭐⭐⭐ **信息残缺时怎么分类**，
+> `skill-input/references/input-validation-and-triage.md` 讲⭐⭐⭐⭐ **信息残缺时怎么分类**，
 > 这份讲⭐⭐⭐⭐⭐ **分类之后，该自己补还是该开口问**——
 > 前者是诊断，这份是决策。
 
@@ -102,13 +102,13 @@
 ③ ⭐⭐⭐⭐ 用户只有在和另一个数字对不上时才会怀疑
 ```
 
-> ⭐⭐⭐⭐⭐ 这与《skill-output》的 `numbers-in-output.md` 完全咬合：
+> ⭐⭐⭐⭐⭐ 这与《skill-output》的 `skill-output/references/numbers-in-output.md` 完全咬合：
 > ⭐⭐⭐⭐⭐ **数字的可信度来源不是精度，是口径；而口径恰恰是最容易被默选的东西。**
 
 另一种变形更隐蔽：**默认值来自模型先验而非领域常识**。
 
 ```
-按《skill-content》的 `default-actions.md`：
+按《skill-content》的 `skill-content/references/default-actions.md`：
 省略 = 授权模型按"通用互联网文本里的常见做法"决定
 ```
 
@@ -128,7 +128,7 @@
 ```
 
 > ⭐⭐⭐⭐⭐ **廉价确认会摧毁确认机制本身。**
-> 这与 `human-checkpoint-design.md` 的"无脑确认会摧毁检查点的全部价值"是同一条。
+> 这与 `skill-execution/references/human-checkpoint-design.md` 的"无脑确认会摧毁检查点的全部价值"是同一条。
 
 三个信号说明你已经问太多：
 
@@ -161,11 +161,11 @@ L2 的标准写法只有一句：
 | 涉及的数字旁边 | ⭐⭐⭐⭐ 只在有人细看那个数字时被读到 |
 | ⭐⭐ 脚注 / 结尾 | ⭐⭐⭐⭐⭐ 等于没写（用户读到正文就停了） |
 
-> ⭐⭐⭐⭐⭐ 这与 `relative-time-resolution.md` 的"把解析结果写进输出首行"、
-> `numbers-in-output.md` 的"未获取不得写在脚注"是同一条规则的第三次出现：
+> ⭐⭐⭐⭐⭐ 这与 `skill-input/references/relative-time-resolution.md` 的"把解析结果写进输出首行"、
+> `skill-output/references/numbers-in-output.md` 的"未获取不得写在脚注"是同一条规则的第三次出现：
 > ⭐⭐⭐⭐⭐ **静默失败的唯一解药是可见性，而可见性取决于位置。**
 
-还有一个额外收益，和 `decision-rationale-output.md` 一样：
+还有一个额外收益，和 `skill-examples/references/decision-rationale-output.md` 一样：
 
 > ⭐⭐⭐⭐ **写了假设的输出，事后排查不需要重跑**——
 > 一眼就能看出差异来自口径，而不是数据或逻辑。

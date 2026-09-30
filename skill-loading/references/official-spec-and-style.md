@@ -1,8 +1,8 @@
 # 官方规格：字段约束、加载失败条件、正文风格
 
-> 相关：《skill-loading》的 `frontmatter-fields.md` ·
-> `naming-conventions.md` · 《skill-evaluating》的
-> `frontmatter-full-reference.md` · `frontmatter-advanced-fields.md`
+> 相关：《skill-loading》的 `skill-loading/references/frontmatter-fields.md` ·
+> `skill-structuring/references/naming-conventions.md` · 《skill-evaluating》的
+> `skill-loading/references/frontmatter-full-reference.md` · `skill-loading/references/frontmatter-advanced-fields.md`
 > 前置：那份讲"各字段是什么"，
 > 这份补⭐⭐ **开放标准的精确约束（含会让技能加载失败的硬条件）**
 > 与⭐⭐ 一套跨平台正文风格规范（含一条与我们习惯相反的劝告）。
@@ -34,7 +34,7 @@
 
 > ⭐⭐ `name` 的"必须与父目录名一致"这一条容易漏，
 > 而且⭐ **不一致会导致加载失败**（见下节）。
-> 这与 `naming-conventions.md` 的 kebab-case 要求是一致的，
+> 这与 `skill-structuring/references/naming-conventions.md` 的 kebab-case 要求是一致的，
 > 但那份没提"必须与目录名相同"这个⭐ 硬性对应关系。
 
 **大小写与重复**：
@@ -67,7 +67,7 @@
 
 > ⭐⭐⭐ 这个区分很实用：**top-level 字段错了 = 加载失败；
 > metadata 里的东西错了 = 只警告**。
-> 这解释了 `frontmatter-pitfalls.md` 里那个困惑——
+> 这解释了 `skill-loading/references/frontmatter-pitfalls.md` 里那个困惑——
 > "为什么有的错是静默失败、有的只是警告"。
 >
 > ⭐⭐ 而"期望标量处给了集合"正是最常见的踩法：
@@ -88,11 +88,11 @@
 ```
 
 > ⭐⭐ 第 ④ 条是常被漏掉的一层，也是最省的一层：
-> **脚本执行不占上下文**（呼应 `scripts-as-production.md`）。
+> **脚本执行不占上下文**（呼应 `skill-scripting/references/scripts-as-production.md`）。
 >
 > ⭐⭐⭐ 但要注意它带来的约束：
 > **脚本的输出会占上下文**——
-> 所以 `script-cli-contract.md` 的"stdout 只放结果、stderr 放调试"
+> 所以 `skill-scripting/references/script-cli-contract.md` 的"stdout 只放结果、stderr 放调试"
 > 才那么重要：⭐ 脚本本身不占上下文，但它的输出会。
 
 **正文长度要求**：
@@ -101,7 +101,7 @@
 ⭐ "SKILL.md 保持在 500 行以内，详细参考材料移到单独文件"
 ```
 
-> ⭐⭐ 这与 `budget-truncation.md` 的"压缩后每个技能只留前 5,000 tokens"
+> ⭐⭐ 这与 `skill-context/references/budget-truncation.md` 的"压缩后每个技能只留前 5,000 tokens"
 > 对上了——**500 行 × 4 字符 ≈ 20,000 字符 ≈ 5,000 tokens，
 > 所以 500 行这个数字不是拍的，是⭐ 由物理边界倒推出来的。**
 > 之前我们是从 token 推出来的，这里从行数给了交叉验证。
@@ -226,7 +226,7 @@ H1 = 仅文件标题 · H2 = 主要章节 · H3 = 子章节
 
 > ⭐⭐⭐ 最后半句是个很好的自检信号：
 > **Hard Limits 越长，说明你偷懒没去找肯定式写法。**
-> 这与 `write-reasons-not-rules.md` 的
+> 这与 `skill-crafting/references/write-reasons-not-rules.md` 的
 > "数一数'必须/禁止'的个数，一屏好几个就该改"是同一个思想。
 
 ---
@@ -243,8 +243,8 @@ SKILL.md 文件         < 500 行（~5000 tokens 上限）
 > ⭐⭐ "会话总计 < 5000（索引 + 1–2 个活跃技能）"这条很有意思：
 > ⭐⭐ 它默认你一次只有⭐ **1–2 个技能活跃**。
 > 所以⭐ 如果你的工作流同时需要 5 个技能，就已经超出设计假设了——
-> 这与 `skill-chaining-composition.md` 的组合成本、
-> `library-size-effect.md` 的遮蔽是同一件事的不同侧面。
+> 这与 `skill-composition/references/skill-chaining-composition.md` 的组合成本、
+> `skill-selection/references/library-size-effect.md` 的遮蔽是同一件事的不同侧面。
 
 **结构建议**（可直接照做）：
 
@@ -255,7 +255,7 @@ SKILL.md 文件         < 500 行（~5000 tokens 上限）
 · ⭐ 加 Related 章节做交叉引用
 ```
 
-> ⭐ 后两条与 `budget-truncation.md` 的
+> ⭐ 后两条与 `skill-context/references/budget-truncation.md` 的
 > "压缩只保留前 5000 tokens → 关键指令必须在顶部"完全对上：
 > ⭐⭐ **关键规则靠顶，是因为截尾会先砍掉底部。**
 

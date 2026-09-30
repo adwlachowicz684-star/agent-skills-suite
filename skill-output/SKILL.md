@@ -28,17 +28,18 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 
 ## 路由表
 
-| `output-contract.md` | ⭐⭐⭐⭐ 输出契约基础：字段、类型、必填 |
-| `output-contract-templates.md` | ⭐⭐⭐⭐ 可抄的输出模板 |
-| `structured-output-pipeline.md` | ⭐⭐⭐⭐⭐ **结构化≠正确**：schema 合规不保证值；⭐⭐⭐⭐⭐ 无 description 的字段=省略了一半提示 |
-| `output-stability-contract.md` | ⭐⭐⭐⭐ `/clear` 后跑两遍测试法；⭐⭐⭐ 长度上限 ≤ 基线 ×1.5 |
-| `output-control.md` | ⭐⭐⭐⭐ 输出控制：长度、详尽度、抑制冗长 |
-| `numbers-in-output.md` | ⭐⭐⭐⭐⭐ 单位/精度/口径/派生算法；⭐⭐⭐⭐⭐ 虚假精度是廉价权威感；⭐⭐⭐⭐⭐ 0 vs 无数据 |
-| `output-ordering-priority.md` | ⭐⭐⭐⭐⭐ 顺序不是排版是主张；⭐⭐⭐⭐⭐ 默认顺序=生成顺序≠重要程度；⭐⭐⭐⭐⭐ 覆盖率/例外必须在前5行 |
-| `output-length-budget.md` | ⭐⭐⭐⭐⭐ "详尽"不是长度规格；⭐⭐⭐⭐⭐ 每段给上限不给下限；⭐⭐⭐⭐⭐ 长度膨胀是最安静的退化 |
-| `enumeration-and-completeness.md` | ⭐⭐⭐⭐⭐ 没有分母就没有完成；⭐⭐⭐⭐⭐ 覆盖率必须出现在输出里；"全面"是无上限的词 |
-| `progress-reporting.md` | ⭐⭐⭐ 进度汇报：长任务的可见性 |
-| `grounding-verification.md` | ⭐⭐⭐⭐ 有据可查验证：⭐⭐⭐⭐⭐ 每个结论要能追溯到源 |
+| `skill-output/references/output-kind-three.md` | ⭐⭐⭐⭐⭐ 三类产出（产物/判定/变更）；⭐⭐⭐⭐⭐ 判定型不均衡测试集可拿 90 分假象；⭐⭐⭐⭐⭐ 变更型断言世界状态 |
+| `skill-output/references/output-contract.md` | ⭐⭐⭐⭐ 输出契约基础：字段、类型、必填 |
+| `skill-output/references/output-contract-templates.md` | ⭐⭐⭐⭐ 可抄的输出模板 |
+| `skill-output/references/structured-output-pipeline.md` | ⭐⭐⭐⭐⭐ **结构化≠正确**：schema 合规不保证值；⭐⭐⭐⭐⭐ 无 description 的字段=省略了一半提示 |
+| `skill-output/references/output-stability-contract.md` | ⭐⭐⭐⭐ `/clear` 后跑两遍测试法；⭐⭐⭐ 长度上限 ≤ 基线 ×1.5 |
+| `skill-output/references/output-control.md` | ⭐⭐⭐⭐ 输出控制：长度、详尽度、抑制冗长 |
+| `skill-output/references/numbers-in-output.md` | ⭐⭐⭐⭐⭐ 单位/精度/口径/派生算法；⭐⭐⭐⭐⭐ 虚假精度是廉价权威感；⭐⭐⭐⭐⭐ 0 vs 无数据 |
+| `skill-output/references/output-ordering-priority.md` | ⭐⭐⭐⭐⭐ 顺序不是排版是主张；⭐⭐⭐⭐⭐ 默认顺序=生成顺序≠重要程度；⭐⭐⭐⭐⭐ 覆盖率/例外必须在前5行 |
+| `skill-output/references/output-length-budget.md` | ⭐⭐⭐⭐⭐ "详尽"不是长度规格；⭐⭐⭐⭐⭐ 每段给上限不给下限；⭐⭐⭐⭐⭐ 长度膨胀是最安静的退化 |
+| `skill-output/references/enumeration-and-completeness.md` | ⭐⭐⭐⭐⭐ 没有分母就没有完成；⭐⭐⭐⭐⭐ 覆盖率必须出现在输出里；"全面"是无上限的词 |
+| `skill-output/references/progress-reporting.md` | ⭐⭐⭐ 进度汇报：长任务的可见性 |
+| `skill-output/references/grounding-verification.md` | ⭐⭐⭐⭐ 有据可查验证：⭐⭐⭐⭐⭐ 每个结论要能追溯到源 |
 
 ## Critical Rules
 
@@ -66,6 +67,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 |---|---|
 | `scripts/validate_skill.py <dir>` | 结构与路由校验 |
 | `scripts/estimate_tokens.py <dir>` | 成本基线 |
+| `skill-output/references/output-schema.md` | ⭐⭐⭐⭐⭐ 机器可判定的输出字段契约；无 description 的字段=省掉一半提示 |
 
 ## 参考
 

@@ -171,5 +171,5 @@ agent: Explore
 > 校验器能抓结构问题，**抓不了"字段没生效"**。
 
 所以：**改完 frontmatter 之后要重载并让模型复述一遍**
-（见 `reload-debug.md`）——
+（见 `skill-triggering/references/reload-debug.md`）——
 结构合法 ≠ 生效了。

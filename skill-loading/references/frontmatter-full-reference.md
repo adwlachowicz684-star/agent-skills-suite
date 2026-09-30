@@ -1,8 +1,8 @@
 # frontmatter 全字段：四组与开放标准边界
 
-> 相关：《skill-loading》的 `frontmatter-pitfalls.md` ·
-> `invocation-control-fields.md` · 《skill-crafting》的
-> `argument-substitution.md`
+> 相关：《skill-loading》的 `skill-loading/references/frontmatter-pitfalls.md` ·
+> `skill-loading/references/invocation-control-fields.md` · 《skill-crafting》的
+> `skill-loading/references/argument-substitution.md`
 > 前置：那些讲"常见错误"和"调用控制"，
 > 这份做⭐ **完整字段字典 + 可移植性边界**。
 
@@ -98,7 +98,7 @@ paths:
 >
 > ⭐ **monorepo 利器，也能避免无关任务误触发。**
 
-> ⭐ 这直接回应了 `skillsbench-vs-realworld.md` 的核心问题：
+> ⭐ 这直接回应了 `skill-evaluating/references/skillsbench-vs-realworld.md` 的核心问题：
 > **减少候选 = 提高加载率 16%→更高**。
 
 ---
@@ -127,7 +127,7 @@ user-invocable: true                          # 是否在 / 菜单显示
    → $0 = multi word，$1 = arg
 ```
 
-> ⚠️ 与 `argument-substitution.md` 的关键提醒配套：
+> ⚠️ 与 `skill-loading/references/argument-substitution.md` 的关键提醒配套：
 > **替换在加载时执行**，所以正文里任何长得像 `$1` 的代码（bash 函数、
 > awk）都会被替换——**含 `$N` 的代码示例必须移进 reference 文件**。
 
@@ -222,7 +222,7 @@ ${CLAUDE_EFFORT}       当前 effort
 □ ⭐ ${CLAUDE_SKILL_DIR} 引用自带脚本（不要相对路径）
 
 高级字段（context: fork / agent / hooks / 调用控制三档）
-→ 见 `frontmatter-advanced-fields.md`
+→ 见 `skill-loading/references/frontmatter-advanced-fields.md`
 ```
 
 **一句话**：

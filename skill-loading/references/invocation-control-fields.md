@@ -1,8 +1,8 @@
 # 谁能调用：两个 frontmatter 字段
 
-> 相关：《skill-description》的 `frontmatter.md` ·
-> `argument-substitution.md` · 《skill-governance》的 `skill-invocation-control.md`
-> 前置：`skill-invocation-control.md` 讲权限规则层，
+> 相关：《skill-description》的 `skill-description/references/frontmatter.md` ·
+> `skill-loading/references/argument-substitution.md` · 《skill-governance》的 `skill-governance/references/skill-invocation-control.md`
+> 前置：`skill-governance/references/skill-invocation-control.md` 讲权限规则层，
 > 这份只讲⭐ 作者侧的两个声明字段。
 
 ---
@@ -48,7 +48,7 @@ disable-model-invocation: true
 > ⭐ 官方给的理由很直白：
 > **你不希望模型因为"你的代码看起来准备好了"就决定去部署。**
 
-> ⭐ 这与 `budget-truncation.md` 那条呼应——设了它还能把该技能的
+> ⭐ 这与 `skill-context/references/budget-truncation.md` 那条呼应——设了它还能把该技能的
 > description **从元数据预算里移除**，等于**既更安全又省预算**，双重收益。
 
 ---

@@ -1,7 +1,7 @@
 # 提示缓存与技能：一个此前没人算过的成本
 
-> 相关：《skill-loading》的 `three-tier-token-math.md`（三级加载精确数字）·
-> `official-spec-and-style.md` · 《skill-crafting》的 `token-bloat-audit.md`
+> 相关：《skill-loading》的 `skill-loading/references/three-tier-token-math.md`（三级加载精确数字）·
+> `skill-loading/references/official-spec-and-style.md` · 《skill-crafting》的 `skill-crafting/references/token-bloat-audit.md`
 > 前置：那份算的是⭐ 技能自身占多少 token，
 > 这份算的是⭐⭐⭐ ⭐⭐⭐ ⭐ 一个完全不同量级的成本——⭐⭐⭐⭐⭐ **技能加载⭐ 对⭐ 提示缓存前缀⭐ 的影响。**
 
@@ -66,7 +66,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐ 整段历史⭐ 重新计费。**
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ **这就是"技能加载⭐ 不是⭐ 一次性开销"的⭐ 真正机制**
-> （此前 `context-budget-math.md` 只观察到现象，⭐⭐⭐⭐⭐ ⭐⭐⭐ 这里⭐ 给出了⭐ 原因）。
+> （此前 `skill-patterns/references/context-budget-math.md` 只观察到现象，⭐⭐⭐⭐⭐ ⭐⭐⭐ 这里⭐ 给出了⭐ 原因）。
 
 **顺带一条安全提示**（官方原话）：
 
@@ -75,7 +75,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐ 先⭐ 审查⭐ 签入该仓库的⭐ 技能的 allowed-tools。"**
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 并且⭐ 官方特意⭐ 强调：⭐⭐⭐⭐⭐ **工作区信任⭐ 不 gate 这个字段**
 > （`allowed-tools` ⭐ 不受⭐ 工作区信任⭐ 约束）——
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `allowed-tools-least-privilege.md` 的
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 这⭐ 与 `skill-security/references/allowed-tools-least-privilege.md` 的
 > "⭐ 声明摄入→权限强制→运行时隔离"⭐ 三层⭐ 完全吻合。
 
 ---
@@ -102,7 +102,7 @@
 >
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 抽象出来就是：
 > ⭐⭐⭐⭐⭐ **"⭐ 用工具⭐ 建模状态转换，⭐⭐⭐⭐⭐ ⭐⭐⭐ 而不是⭐ 通过⭐ 改变工具集。"**
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与⭐ 我们已有的⭐ `determinism-boundary.md`
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与⭐ 我们已有的⭐ `skill-evaluating/references/determinism-boundary.md`
 > "⭐ Hooks 用于⭐ 模型⭐ 不可被信任⭐ 去遵守的事"⭐ 是⭐ 同一族：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **状态⭐ 应该用⭐ 有强制力的⭐ 机制承载，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 而不是⭐ 靠⭐ 改配置 / 靠模型自觉。**
@@ -123,7 +123,7 @@
    ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 以同样的顺序⭐ 出现**
 ```
 
-> ⭐⭐⭐⭐⭐ 这⭐ 与 `skill-vs-mcp-two-layers.md` 那条
+> ⭐⭐⭐⭐⭐ 这⭐ 与 `skill-boundaries/references/skill-vs-mcp-two-layers.md` 那条
 > "⭐ 每个已连接 MCP 服务器的工具定义⭐ 加载进每一次请求"⭐ 是⭐ 同一个⭐ 问题的⭐ 两面：
 > ```
 > 问题：MCP 工具定义常驻 → 贵
@@ -175,7 +175,7 @@
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 说明 ⭐ `context: fork` 的技能
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐ 在⭐ 官方模型里⭐ 就是⭐ 一次 fork 调用，
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ 因此⭐ 同样适用⭐ 这条缓存规则。
-> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `fork-token-economics.md` 那份
+> ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这⭐ 与 `skill-subagents/references/fork-token-economics.md` 那份
 > （⭐ 主上下文成本零、fork 内仍加载完整正文）⭐ 是⭐ 互补的：
 > ⭐⭐⭐⭐⭐ ⭐⭐⭐⭐⭐ ⭐⭐⭐ **那份算 token，⭐⭐⭐⭐⭐ ⭐⭐⭐⭐ 这份算缓存。**
 

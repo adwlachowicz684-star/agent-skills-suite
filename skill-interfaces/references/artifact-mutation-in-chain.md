@@ -1,12 +1,12 @@
 # 中间产物会被下游改写
 
-> 相关：《skill-interfaces》的 `handoff-payload-contract.md`·
-> 《skill-execution》的 `intermediate-artifacts.md`·
-> `partial-following.md`·
-> 《skill-chaining》的 `partial-aggregation.md`·
-> 《skill-execution》的 `self-verification-trap.md`
+> 相关：《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`·
+> 《skill-execution》的 `skill-execution/references/intermediate-artifacts.md`·
+> `skill-execution/references/partial-following.md`·
+> 《skill-chaining》的 `skill-chaining/references/partial-aggregation.md`·
+> 《skill-execution》的 `skill-execution/references/self-verification-trap.md`
 > 前置：
-> `handoff-payload-contract.md` 讲的是⭐⭐⭐⭐ **交接包里该有哪些字段**，
+> `skill-interfaces/references/handoff-payload-contract.md` 讲的是⭐⭐⭐⭐ **交接包里该有哪些字段**，
 > 这份讲的是⭐⭐⭐⭐⭐ **字段齐了，值却在中途被改了**——
 > 且改它的不是出错，是"帮忙"。
 
@@ -93,7 +93,7 @@ f"共 {count} 条"  → null 会渲染成 "共 None 条"
 ⭐⭐⭐⭐⭐ 于是有人（或模型）在入口处把它补成 0
 ```
 
-**③ ⭐⭐⭐⭐⭐ 完成倾向**（见《skill-content》的 `default-actions.md`）
+**③ ⭐⭐⭐⭐⭐ 完成倾向**（见《skill-content》的 `skill-content/references/default-actions.md`）
 
 > ⭐⭐⭐⭐⭐ 遇到"缺一块"时默认动作不是停下报告，而是想办法补上。
 
@@ -142,7 +142,7 @@ B: {"duration": 1500}      ← 下游当成秒
 
 > ⭐⭐⭐⭐⭐ 数字一模一样，语义差 1000 倍，而**没有任何环节会报错**。
 
-与《skill-crafting》的 `terminology.md`（同义消解）同源，但后果更硬：
+与《skill-crafting》的 `skill-precision/references/terminology.md`（同义消解）同源，但后果更硬：
 
 ```
 字段名一致 ≠ 含义一致
@@ -155,7 +155,7 @@ B: {"duration": 1500}      ← 下游当成秒
 |---|---|
 | 单位 | 差 1000 倍，不报错 |
 | 时区 | 差一天，不报错 |
-| ⭐⭐⭐⭐⭐ 基准（相对于谁/何时） | "最近 7 天"基准漂移，见 `relative-time-resolution.md` |
+| ⭐⭐⭐⭐⭐ 基准（相对于谁/何时） | "最近 7 天"基准漂移，见 `skill-input/references/relative-time-resolution.md` |
 
 > ⭐⭐⭐⭐⭐ 与"示例里的具体值会被当成默认值"是同一族的：
 > ⭐⭐⭐⭐⭐ **凡是"看起来显然"的东西，都是传递中最先丢掉的**——

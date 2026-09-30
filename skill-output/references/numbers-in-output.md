@@ -1,12 +1,12 @@
 # 输出里的数字
 
-> 相关：《skill-output》的 `output-length-budget.md`（长度预算）·
-> `enumeration-and-completeness.md`（分母）·
-> 《skill-crafting》的 `unjustified-numbers.md`（技能里没有出处的数字）·
-> 《skill-input》的 `relative-time-resolution.md`（相对时间）·
-> 《skill-recovery》的 `execution-error-protocol.md`（错误协议）
+> 相关：《skill-output》的 `skill-output/references/output-length-budget.md`（长度预算）·
+> `skill-output/references/enumeration-and-completeness.md`（分母）·
+> 《skill-crafting》的 `skill-precision/references/unjustified-numbers.md`（技能里没有出处的数字）·
+> 《skill-input》的 `skill-input/references/relative-time-resolution.md`（相对时间）·
+> 《skill-recovery》的 `skill-recovery/references/execution-error-protocol.md`（错误协议）
 > 前置：
-> `unjustified-numbers.md` 管的是⭐⭐⭐⭐ **技能正文里的阈值**（输入侧），
+> `skill-precision/references/unjustified-numbers.md` 管的是⭐⭐⭐⭐ **技能正文里的阈值**（输入侧），
 > 这份管的是⭐⭐⭐⭐⭐ **输出里的数字**（输出侧）——
 > 前者错了是判断错，后者错了是**用户拿去决策的数错了**。
 
@@ -104,7 +104,7 @@
 ✅ ⭐⭐⭐⭐⭐ "覆盖率 67%（3 项中 2 项成功）"
 ```
 
-> ⭐⭐⭐⭐⭐ 这与 `enumeration-and-completeness.md` 的"没有分母就没有完成"同源：
+> ⭐⭐⭐⭐⭐ 这与 `skill-output/references/enumeration-and-completeness.md` 的"没有分母就没有完成"同源：
 > ⭐⭐⭐⭐⭐ **分母既是完成度的定义，也是数字可信度的唯一线索。**
 
 还有一个常被忽略的点：
@@ -179,7 +179,7 @@
 "响应时间中位数 230ms（P50，含网络，未剔除超时）"
 ```
 
-> ⭐⭐⭐⭐⭐ 这一句的作用与 `relative-time-resolution.md` 的
+> ⭐⭐⭐⭐⭐ 这一句的作用与 `skill-input/references/relative-time-resolution.md` 的
 > "把解析结果写进输出首行"完全一致：
 > ⭐⭐⭐⭐⭐ 不是为了这次更正确，是为了**下次不用重跑就能看出差别**。
 
@@ -200,7 +200,7 @@
 
 ```
 模型有强烈的完成倾向
-→ 遇到缺数据时默认填一个（按《skill-content》的 `default-actions.md`）
+→ 遇到缺数据时默认填一个（按《skill-content》的 `skill-content/references/default-actions.md`）
 → ⭐⭐⭐⭐⭐ 填 0 是最常见的填法，因为它"看起来中性"
 ```
 

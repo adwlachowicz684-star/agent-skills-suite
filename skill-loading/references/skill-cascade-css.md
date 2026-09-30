@@ -1,8 +1,8 @@
 # 技能级联：像 CSS 一样理解"谁生效"
 
-> 相关：《skill-patterns》的 `skill-overrides-audit.md`（覆盖优先级与冲突事故）·
-> 《skill-triggering》的 `priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
-> 《skill-structuring》的 `naming-conventions.md`
+> 相关：《skill-patterns》的 `skill-patterns/references/skill-overrides-audit.md`（覆盖优先级与冲突事故）·
+> 《skill-triggering》的 `skill-triggering/references/priority-override-layers.md`（临时 Prompt > 技能 > 全局 Rule）·
+> 《skill-structuring》的 `skill-structuring/references/naming-conventions.md`
 > 前置：那两份给了"优先级顺序"和"事故案例"，
 > 这份给⭐⭐⭐ **一个能一次记住全部规则的比喻——CSS 级联**，
 > 并澄清⭐⭐⭐ 两个几乎所有人都搞反的点。
@@ -71,7 +71,7 @@ my-app/.claude/skills/react-best-practices  → ⭐ 被覆盖
 > ⭐⭐⭐ **给技能起⭐ 唯一的名字，这样的冲突⭐ 根本不必被裁决。**
 > `frontend-pr-review`，而不是 `review`。
 
-> ⭐ 这与 `naming-conventions.md` 的
+> ⭐ 这与 `skill-structuring/references/naming-conventions.md` 的
 > "绝不遮蔽官方技能名（用 `pdf-internal` / `commit-team`）"
 > 是同一条，但这里补上了⭐ **为什么**：
 > 因为一旦同名，赢的⭐ 不是你以为的那一个。
@@ -149,7 +149,7 @@ apps/web/.claude/skills/ 也有 deploy
 > ⭐⭐ 它能影响多远，以及⭐⭐ 它被允许多大地做事。**
 
 > ⭐⭐ 第二句容易被忽略——"被允许多大地做事"
-> 正是指 `skill-invocation-control.md` 讲的权限边界：
+> 正是指 `skill-governance/references/skill-invocation-control.md` 讲的权限边界：
 > ⭐ **Enterprise 层不只是优先级最高，也是⭐ 最该被严格审查的一层**，
 > 因为它影响所有人且你无法回避。
 
