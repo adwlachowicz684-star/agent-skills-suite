@@ -35,7 +35,6 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | `skill-orchestration/references/skill-dependency-injection.md` | ⭐⭐ 依赖注入四模式：委托/链式/配置/共享服务；双向无知=解耦证据 |
 | `skill-orchestration/references/orchestrator-timing.md` | ⭐⭐⭐ 过早编排=过早抽象；手动搬运>3次才写编排器 |
 | `skill-orchestration/references/composition-patterns-types.md` | ⭐ 四种依赖类型 + 隐式依赖等三个组合反模式 |
-| `skill-orchestration/references/dependency-cycles.md` | ⭐⭐⭐⭐⭐ 依赖环路：跑很久然后超时；三种环、等待环画不出来、代次计数 |
 | `skill-orchestration/references/collision-arbitration.md` | ⭐ 技能打架仲裁三招 + 两步路由 + 延迟真相 |
 | `skill-orchestration/references/gamedev-skill-routing.md` | ⭐ 多维技能库路由：三维正交、指纹识别、降级 |
 | `skill-orchestration/references/skills-mcp-subagent.md` | 技能/MCP/子代理协同范式与治理先行 |
@@ -54,7 +53,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | ⭐ **多 Agent 并行流水线 / 反幻觉验证** | `skill-orchestration/references/security-pipeline.md` |
 | ⭐ **并行子代理：五种模式与四个坑** | `skill-subagents/references/parallel-subagents.md` |
 | ⭐ **交接协议：阶段之间传什么** | `skill-interfaces/references/handoff-protocol.md` |
-| ⭐ **Fan-out / Fan-in：难点在汇聚不在并行** | `skill-composition/references/fan-out-fan-in.md` |
+| ⭐ **Fan-out / Fan-in：难点在汇聚不在并行** | `skill-chain-failure/references/fan-out-fan-in.md` |
 | ⭐ **可组合模式：管道/扇出/装饰器/回退/过滤 + 调用链** | `skill-composition/references/composable-patterns.md` |
 | ⭐ **Fork 上下文技能：把大 diff 隔离到子代理** | `skill-subagents/references/fork-context-skill.md` |
 | ⭐ **Fork 官方细则：background、rewind、返回空** | `skill-subagents/references/fork-official-details.md` |

@@ -41,6 +41,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 | `skill-output/references/output-template-vs-scale.md` | ⭐⭐⭐⭐⭐ 模板是某个规模的隐式承诺；⭐⭐⭐⭐⭐ 规模变大时严格遵守模板=输出不可用；⭐⭐⭐⭐⭐ 0 条时空模板最危险 |
 | `skill-output/references/progress-reporting.md` | ⭐⭐⭐ 进度汇报：长任务的可见性 |
 | `skill-output/references/grounding-verification.md` | ⭐⭐⭐⭐ 有据可查验证：⭐⭐⭐⭐⭐ 每个结论要能追溯到源 |
+| `skill-output/references/output-becomes-fact.md` | ⭐⭐⭐⭐⭐ 输出进入上下文后获得与用户输入同等地位；自我确认闭环；不可追溯的结论永久变成事实 |
 
 ## Critical Rules
 

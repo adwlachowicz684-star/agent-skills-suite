@@ -53,6 +53,7 @@ assets/      ⭐ COPY+FILL  —— 被当作输入或模板消费，零成本
 | `skill-structuring` 的 `skill-structuring/references/content-placement-flowchart.md` | ⭐ 内容放哪五问决策流 + 跨阶段参数快照 |
 | `skill-structuring` 的 `skill-structuring/references/lint-tooling.md` | ⭐ Lint 工具横评：skillscheck / skill-tools 各管什么 |
 | `skill-structuring/references/five-paragraph-skeleton.md` | ⭐⭐⭐⭐⭐ 正文五段排布：红线在首、验收在尾、两端重复 |
+| `skill-structuring/references/shared-reference-coupling.md` | ⭐⭐⭐⭐⭐ 共享文件只有一份不漂移，但改它影响 N 个技能而 N 不可见；借用是单向引用；删除不报错 |
 
 **布局与打包**：
 

@@ -112,7 +112,7 @@ Do NOT 用于：
 
 | 症状 | 先看 |
 |---|---|
-| ⭐⭐⭐⭐⭐ "共 N 条"真实但误导 | `skill-composition/references/partial-aggregation.md` |
+| ⭐⭐⭐⭐⭐ "共 N 条"真实但误导 | `skill-chain-failure/references/partial-aggregation.md` |
 | ⭐⭐⭐⭐⭐ null 变成 0、partial 变成 ok | `skill-interfaces/references/artifact-mutation-in-chain.md` |
 | ⭐⭐⭐⭐⭐ 交接包该有哪些字段 | `skill-interfaces/references/handoff-payload-contract.md` |
 | ⭐⭐⭐⭐⭐ 交接内容太大挤爆上下文 / 摘要丢了东西 | `skill-interfaces/references/handoff-granularity.md` |

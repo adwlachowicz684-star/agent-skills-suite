@@ -41,6 +41,7 @@ description: 技能执行失败、跑不完、跑重了、跑断了之后的恢�
 | `skill-recovery/references/idempotency-resume.md` | ⭐⭐⭐⭐⭐ 幂等三层次；区分"没写入"vs"已写入但回应丢失" |
 | `skill-recovery/references/state-check.md` | ⭐⭐⭐⭐ 先查状态再决定跳过还是重做 |
 | `skill-recovery/references/cross-session-continuity.md` | ⭐⭐⭐⭐⭐ 重跑常比接续可靠 |
+| `skill-recovery/references/interrupted-execution.md` | ⭐⭐⭐⭐⭐ 中断不是失败→失败处理不触发；世界被改了一半且无记录；⭐⭐⭐⭐⭐ intent 必须在开始之前写 |
 
 ## Critical Rules
 
