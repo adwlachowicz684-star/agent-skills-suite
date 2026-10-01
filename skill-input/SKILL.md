@@ -37,7 +37,7 @@ description: 技能的输入侧契约：输入校验与分诊（残缺/矛盾/�
 | `skill-input/references/inference-vs-asking.md` | ⭐⭐⭐⭐⭐ 缺的该推断还是该问；⭐⭐⭐⭐⭐ 判据是错了能不能被看出来；⭐⭐⭐⭐⭐ L2 推断并标注在首行 |
 | `skill-input/references/ambiguous-input-selection.md` | ⭐⭐⭐⭐⭐ 多个都合法时按相似度选≠用户意图；⭐⭐⭐⭐⭐ 选错零信号（每个候选都合法）；⭐⭐⭐⭐ 默认规则要可复现 + 选中对象回显首行 |
 | `skill-input/references/tool-argument-construction.md` | ⭐⭐⭐⭐⭐ "用 X 工具"不是参数说明；200+成功+缺内容最静默 |
-| `skill-input/references/inference-vs-asking.md` | ⭐⭐⭐⭐⭐ 缺的东西该推断还是该问：按错了的代价分 |
+| `skill-input/references/user-input-omissions.md` | ⭐⭐⭐⭐⭐ 用户没说的不是授权；⭐⭐⭐⭐⭐ 补的依据是训练分布不是本项目；⭐⭐⭐⭐⭐ 确认会把"没说"变成"说了" |
 
 ## Critical Rules
 

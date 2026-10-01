@@ -38,6 +38,7 @@ description: 技能里的示例与判断依据：示例从轨迹采集而非编�
 | `skill-examples/references/few-shot-examples.md` | ⭐⭐⭐⭐ 少示例总纲 |
 | `skill-examples/references/judgment-branches-acceptance.md` | ⭐⭐⭐⭐⭐ 流程/判断/验收三件套；差评反例 |
 | `skill-examples/references/decision-rationale-output.md` | ⭐⭐⭐⭐⭐ 因为更好不是依据，因为规则3b才是 |
+| `skill-examples/references/example-placement-and-rot.md` | ⭐⭐⭐⭐⭐ 示例占比＞1/3 会稀释正文；⭐⭐⭐⭐⭐ 示例比正文烂得快（具体标识符）；⭐⭐⭐⭐⭐ 腐烂可 grep |
 
 ## Critical Rules
 

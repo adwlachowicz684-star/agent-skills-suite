@@ -37,6 +37,7 @@ description: 技能评测与运维的自动化执行：CI 门禁、评测工具�
 | `skill-automation/references/canary-release.md` | ⭐⭐⭐⭐⭐ 灰度：版本级指标拆分；跳档事故 |
 | `skill-automation/references/skill-observability.md` | ⭐⭐⭐⭐ 调用日志 vs 决策日志；入参记两份 |
 | `skill-automation/references/execution-span-logging.md` | ⭐⭐⭐⭐⭐ `stopped_at`：从"要排查整个技能"缩小到"看一个步骤" |
+| `skill-automation/references/production-drift-signals.md` | ⭐⭐⭐⭐⭐ 不跑 eval 的漂移检测：六个免费信号；⭐⭐⭐⭐⭐ 基线是它自己不是全库均值；⭐⭐⭐⭐⭐ 只看均值会漏掉"对但不稳" |
 
 ## Critical Rules
 
