@@ -39,12 +39,19 @@ description: 技能里的示例与判断依据：示例从轨迹采集而非编�
 | `skill-examples/references/judgment-branches-acceptance.md` | ⭐⭐⭐⭐⭐ 流程/判断/验收三件套；差评反例 |
 | `skill-examples/references/decision-rationale-output.md` | ⭐⭐⭐⭐⭐ 因为更好不是依据，因为规则3b才是 |
 | `skill-examples/references/example-placement-and-rot.md` | ⭐⭐⭐⭐⭐ 示例占比＞1/3 会稀释正文；⭐⭐⭐⭐⭐ 示例比正文烂得快（具体标识符）；⭐⭐⭐⭐⭐ 腐烂可 grep |
+| `skill-examples/references/example-order-recency.md` | ⭐⭐⭐⭐⭐ 最后一条示例权重最高；⭐⭐⭐⭐⭐ 而它通常是最晚随手加的；反例不能放最后 |
+| `skill-examples/references/negative-example-writing.md` | ⭐⭐⭐⭐⭐ 模型从反例学到的是字面形式不是规则；最小差异对；⭐⭐⭐⭐⭐ 反例必须带正面对应物 |
+| `skill-examples/references/example-contract-consistency.md` | ⭐⭐⭐⭐⭐ 拿 schema 校验自己的示例；⭐⭐⭐⭐⭐ schema 在校验示例的复制品；示例赢契约 |
+| `skill-examples/references/example-shapes-trigger-boundary.md` | ⭐⭐⭐⭐⭐ 示例输入侧隐式定义触发边界；方差为零的维度被当成常量；输入形态说明约 20 token |
 
 ## Critical Rules
 
 - ⭐⭐⭐⭐⭐ 格式示范用假值（`2099-01-01`、`¥1`），判断依据用真值
 - ⭐⭐⭐⭐⭐ 定格式的示例可以编，教判断的示例必须来自真实轨迹
 - ⭐⭐⭐⭐⭐ 每个示例必须说明"为什么在这个场景该这么处理"
+- ⭐⭐⭐⭐⭐ 最后一条示例权重最高——它必须是精心挑选的，不能是随手追加的
+- ⭐⭐⭐⭐⭐ 拿 schema 校验自己的每个示例；schema 报错时先校验示例
+- ⭐⭐⭐⭐⭐ 示例的输入侧要有方差：方差为零的维度会被当成常量
 - ⭐⭐⭐⭐ 示例集必须包含一个"模糊输入"的示例（其余教流程，只有它教判断）
 - ⭐⭐⭐⭐ 正文里的负例要 sparingly（测评集的负例要充分）
 - ⭐⭐⭐⭐⭐ 决策依据必须指向具体输入和规则，不能是"更好""更简洁"
