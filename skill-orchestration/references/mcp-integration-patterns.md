@@ -1,6 +1,6 @@
 # MCP 协同落地：配置、护栏与四个坑
 
-> 前置：`skill-composition/references/mcp-composition.md`（三层栈、五问决策树、三种混合模式）
+> 前置：`skill-boundaries/references/mcp-composition.md`（三层栈、五问决策树、三种混合模式）
 > 这份只讲**工程落地**：配置怎么写、护栏加在哪、协同时会踩什么。
 
 ---

@@ -64,10 +64,10 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 
 | 你要做的事 | 读 |
 |---|---|
-| ⭐ **Skill × MCP：三层栈与三种混合模式** | `skill-composition/references/mcp-composition.md` |
+| ⭐ **Skill × MCP：三层栈与三种混合模式** | `skill-boundaries/references/mcp-composition.md` |
 | ⭐ **MCP 协同落地：配置、护栏、四个坑** | `skill-orchestration/references/mcp-integration-patterns.md` |
 | ⭐ **命名空间冲突：互斥点名、遮蔽、参数冲突** | `skill-orchestration/references/namespace-collision.md` |
-| **技能 / MCP / A2A 三层分层** | `skill-composition/references/protocol-layering.md` |
+| **技能 / MCP / A2A 三层分层** | `skill-boundaries/references/protocol-layering.md` |
 
 **状态与自动化**：
 

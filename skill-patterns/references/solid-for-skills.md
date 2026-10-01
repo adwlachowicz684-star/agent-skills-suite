@@ -69,7 +69,7 @@
 ✅ ⭐ "搜索知识库"
 ```
 
-> ⭐ 与 `skill-composition/references/protocol-layering.md` 的"技能是协议无关的纯 Markdown"同源：
+> ⭐ 与 `skill-boundaries/references/protocol-layering.md` 的"技能是协议无关的纯 Markdown"同源：
 > **绑定到具体工具会让技能随工具变化而失效。**
 
 **快速失败 → STEP 0 前置门禁**：
