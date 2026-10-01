@@ -30,6 +30,7 @@ description: 技能里的示例与判断依据：示例从轨迹采集而非编�
 
 ## 路由表（按需深读）
 
+| `skill-examples/references/example-overrides-instruction.md` | ⭐⭐⭐⭐⭐ 示例与正文冲突时模型跟示例；⭐⭐⭐⭐⭐ 示例是唯一看起来不是指令的指令；改正文必须同步示例 |
 | `skill-examples/references/example-values-become-defaults.md` | ⭐⭐⭐⭐⭐ 示例值被当成默认值；换成会暴露自己的假值 |
 | `skill-examples/references/example-mining-from-traces.md` | ⭐⭐⭐⭐⭐ 示例是采集的；六个矿脉；被采纳的输出才是好示例 |
 | `skill-examples/references/few-shot-example-quality.md` | ⭐⭐⭐⭐⭐ 少示例的数量与质量准则；模糊输入示例 |

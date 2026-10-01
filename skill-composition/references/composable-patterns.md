@@ -56,7 +56,7 @@ Input → [A] → [B] → [C] → Output
 输出包含「按语言」与「聚合」两层结果
 ```
 
-⚠️ **难点在汇聚不在并行**——详见 `skill-chain-failure/references/fan-out-fan-in.md`。
+⚠️ **难点在汇聚不在并行**——详见 `skill-aggregation/references/fan-out-fan-in.md`。
 
 **③ Decorator（装饰器）**——包住一个技能加能力，不改它本身
 

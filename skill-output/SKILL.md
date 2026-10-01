@@ -28,6 +28,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 
 ## 路由表
 
+| `skill-output/references/empty-output-silent-success.md` | ⭐⭐⭐⭐⭐ 空输出≠空结果；⭐⭐⭐⭐⭐ "没有问题就不输出"把沉默变成了答案；空集必须输出带 N 的声明 |
 | `skill-output/references/output-kind-three.md` | ⭐⭐⭐⭐⭐ 三类产出（产物/判定/变更）；⭐⭐⭐⭐⭐ 判定型不均衡测试集可拿 90 分假象；⭐⭐⭐⭐⭐ 变更型断言世界状态 |
 | `skill-output/references/output-contract.md` | ⭐⭐⭐⭐ 输出契约基础：字段、类型、必填 |
 | `skill-output/references/output-contract-templates.md` | ⭐⭐⭐⭐ 可抄的输出模板 |

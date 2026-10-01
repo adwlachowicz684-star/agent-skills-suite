@@ -109,8 +109,8 @@ Do NOT 用于：单技能内部的步骤顺序 · 技能之间传什么字段 ·
 |---|---|
 | ⭐⭐⭐⭐⭐ 该不该写编排器 | `skill-orchestration/references/orchestrator-timing.md` |
 | ⭐⭐⭐⭐⭐ 报错的技能不是真正出错的技能 | `skill-chain-failure/references/chain-failure-localization.md` |
-| ⭐⭐⭐⭐⭐ 并行跑完，每个都对、合起来不对 | `skill-chain-failure/references/fan-out-fan-in.md` |
-| ⭐⭐⭐⭐⭐ 汇总比预期少但不报错 | `skill-chain-failure/references/partial-aggregation.md` |
+| ⭐⭐⭐⭐⭐ 并行跑完，每个都对、合起来不对 | `skill-aggregation/references/fan-out-fan-in.md` |
+| ⭐⭐⭐⭐⭐ 汇总比预期少但不报错 | `skill-aggregation/references/partial-aggregation.md` |
 | ⭐⭐⭐⭐ 技能互相读对方的临时字段 | `skill-interfaces/references/skill-data-passing.md` |
 | ⭐⭐⭐⭐ 两个技能都要改同一份文件 | `skill-orchestration/references/collision-arbitration.md` |
 

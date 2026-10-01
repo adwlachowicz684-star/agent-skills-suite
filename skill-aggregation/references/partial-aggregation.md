@@ -1,6 +1,6 @@
 # 部分成功的汇总是静默的
 
-> 相关：《skill-composition》的 `skill-chain-failure/references/fan-out-fan-in.md`·
+> 相关：《skill-composition》的 `skill-aggregation/references/fan-out-fan-in.md`·
 > 《skill-execution》的 `skill-execution/references/parallel-and-concurrency.md`（N 个半成品）·
 > 《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`·
 > 《skill-output》的 `skill-output/references/placeholder-in-output.md`（"无"是最危险的占位符）·

@@ -1,7 +1,7 @@
 # 链式失败定位：出错的地方不报错
 
 > 相关：`skill-composition/SKILL.md`（本技能的"链式失败形状"一节）·
-> `skill-chain-failure/references/partial-aggregation.md`（汇总覆盖率）·
+> `skill-aggregation/references/partial-aggregation.md`（汇总覆盖率）·
 > `skill-automation/references/execution-span-logging.md`（通用 span 日志）·
 > `skill-automation/references/skill-observability.md`（可观测性总览）
 > 分工：那两份讲⭐⭐⭐ **怎么记录**；
@@ -122,7 +122,7 @@ A → B → C，B 出错
 
 | 想解决什么 | 去哪 |
 |---|---|
-| 汇总覆盖率、缺失偏差 | `skill-chain-failure/references/partial-aggregation.md` |
+| 汇总覆盖率、缺失偏差 | `skill-aggregation/references/partial-aggregation.md` |
 | 中间产物怎么写、要不要留 | `skill-execution/references/intermediate-artifacts.md` |
 | 通用 span 日志怎么记 | `skill-automation/references/execution-span-logging.md` |
 | 技能间交接字段 | `skill-interfaces/references/handoff-payload-contract.md` |

@@ -53,7 +53,7 @@ description: 多个 Agent Skills 与子代理的编排协作。用于设计多�
 | ⭐ **多 Agent 并行流水线 / 反幻觉验证** | `skill-orchestration/references/security-pipeline.md` |
 | ⭐ **并行子代理：五种模式与四个坑** | `skill-subagents/references/parallel-subagents.md` |
 | ⭐ **交接协议：阶段之间传什么** | `skill-interfaces/references/handoff-protocol.md` |
-| ⭐ **Fan-out / Fan-in：难点在汇聚不在并行** | `skill-chain-failure/references/fan-out-fan-in.md` |
+| ⭐ **Fan-out / Fan-in：难点在汇聚不在并行** | `skill-aggregation/references/fan-out-fan-in.md` |
 | ⭐ **可组合模式：管道/扇出/装饰器/回退/过滤 + 调用链** | `skill-composition/references/composable-patterns.md` |
 | ⭐ **Fork 上下文技能：把大 diff 隔离到子代理** | `skill-subagents/references/fork-context-skill.md` |
 | ⭐ **Fork 官方细则：background、rewind、返回空** | `skill-subagents/references/fork-official-details.md` |

@@ -3,7 +3,7 @@
 > 相关：《skill-recovery》的 `skill-recovery/references/idempotency-resume.md`（幂等与恢复）·
 > 《skill-execution》的 `skill-execution/references/parallel-and-concurrency.md`（幂等在并行里是准入条件）·
 > 《skill-recovery》的 `skill-recovery/references/budget-caps-no-progress.md`（五道执行预算）·
-> 《skill-composition》的 `skill-chain-failure/references/partial-aggregation.md`（汇总的覆盖率）·
+> 《skill-composition》的 `skill-aggregation/references/partial-aggregation.md`（汇总的覆盖率）·
 > 《skill-interfaces》的 `skill-interfaces/references/handoff-payload-contract.md`（交接包里的 failures）
 > 前置：
 > `budget-caps-no-progress.md` 管⭐⭐⭐⭐ **单个技能的预算**；
