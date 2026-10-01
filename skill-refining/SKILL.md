@@ -34,6 +34,7 @@ description: 优化、瘦身、拆分、翻译与结构化改造已有 Agent Ski
 | `skill-refining/references/split-signals-five.md` | ⭐ 拆分五信号 + 先缩窄再拆 + 按认知动作拆 |
 | `skill-refining/references/split-three-options.md` | ⭐ 三种拆法 + 别过度拆 + 拆后三件事 |
 | `skill-refining/references/weekend-lessons.md` | ⭐ 一个周末的六条经验：三对三错与实测数据 |
+| `skill-refining/references/content-inflation.md` | ⭐⭐⭐⭐⭐ 加法是默认动作、减法需要理由；⭐⭐⭐⭐⭐ 膨胀不是变长是价值密度下降；⭐⭐⭐⭐⭐ 接缝词可 grep；加之前先问能不能下沉 |
 
 **瘦身与预算**：
 

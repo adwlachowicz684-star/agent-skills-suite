@@ -44,6 +44,7 @@ description: 技能的输出契约与产物设计。当需要定义技能"交付
 | `skill-output/references/grounding-verification.md` | ⭐⭐⭐⭐ 有据可查验证：⭐⭐⭐⭐⭐ 每个结论要能追溯到源 |
 | `skill-output/references/output-becomes-fact.md` | ⭐⭐⭐⭐⭐ 输出进入上下文后获得与用户输入同等地位；自我确认闭环；不可追溯的结论永久变成事实 |
 | `skill-output/references/output-consumer-mismatch.md` | ⭐⭐⭐⭐⭐ 同一份输出要喂人/机器/审计三类读者；⭐⭐⭐⭐⭐ 合成一份=三边静默妥协；产物是 canonical，回复从产物生成 |
+| `skill-output/references/actionable-output.md` | ⭐⭐⭐⭐⭐ 读完不知道下一步做什么；⭐⭐⭐⭐⭐ "建议"是免责词；动作+对象+阈值三要素；⭐⭐⭐⭐⭐ 它不会被报成 bug |
 
 ## Critical Rules
 

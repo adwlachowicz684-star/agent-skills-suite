@@ -46,6 +46,7 @@ description: 一句话是否真的构成约束——无主语指令的执行主�
 | `skill-precision/references/vague-word-blacklist.md` | ⭐⭐⭐⭐⭐ 含糊词替换表；五类伪装成约束的词；可 grep 的 CI 检查 |
 | `skill-precision/references/unjustified-numbers.md` | ⭐⭐⭐⭐⭐ 没有出处的数字；具体性≠有依据；数字+出处+越界动作 |
 | `skill-precision/references/terminology.md` | ⭐⭐⭐⭐ 术语表的关键是第三列「不要用的说法」；模型不做同义消解 |
+| `skill-precision/references/constraint-carrier-ladder.md` | ⭐⭐⭐⭐⭐ 约束写在哪一层：六层载体；⭐⭐⭐⭐⭐ 可靠性与覆盖面反向；⭐⭐⭐⭐⭐ 需要判断的规则硬编码=错误的硬拦截 |
 
 ## Critical Rules
 

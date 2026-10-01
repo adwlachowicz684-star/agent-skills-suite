@@ -44,6 +44,7 @@ description: 完整技能样本库——可直接照抄的真实 SKILL.md 源码
 | `skill-gallery/references/frontend-ui-skills.md` | ⭐ 三 agent 前置、反 AI 味表（禁令+替代的完美实证） |
 | `skill-gallery/references/stateful-skill-instance.md` | ⭐⭐⭐⭐ 唯一带状态的样本：追加日志+覆盖产物、两道新鲜度判断、事实每次重查 |
 | `skill-gallery/references/judgment-skill-instance.md` | ⭐⭐⭐⭐⭐ 唯一判定型样本：类别封闭且含"无法判定"；⭐⭐⭐⭐⭐ L1 是真等级不是"不知道"；⭐⭐⭐⭐⭐ 判定错了会被变更固化 |
+| `skill-gallery/references/artifact-skill-instance.md` | ⭐⭐⭐⭐⭐ 唯一产物型样本：五节契约固定、覆盖率在两处出现、数字带来源标签、⭐⭐⭐⭐⭐ 模板预填会暴露自己的值 |
 
 ## Critical Rules
 
