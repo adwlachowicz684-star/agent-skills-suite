@@ -37,6 +37,8 @@ description: 技能的质量标准、评分 rubric 与验收门槛。当需要�
 | `skill-quality/references/metrics.md` | ⭐⭐⭐⭐ 指标定义：⭐⭐⭐⭐ 必须报**净增益**（新增通过 − 回归） |
 | `skill-quality/references/capability-vs-preference.md` | ⭐⭐⭐⭐⭐ **能力问题 vs 偏好问题**——⭐ 修法完全不同 |
 | `skill-quality/references/skill-lift-eval.md` | ⭐⭐⭐⭐ Lift 度量：⭐⭐⭐⭐ 对无技能基线，不只是对上一版 |
+| `skill-quality/references/skill-replaces-not-adds.md` | ⭐⭐⭐⭐⭐ **技能是替换不是叠加**；⭐⭐⭐⭐⭐ 只写模型做不到的；大而全的技能半衰期最短 |
+| `skill-quality/references/consistent-wrongness.md` | ⭐⭐⭐⭐⭐ **一致性是正确性的伪装**；稳定地错最难被发现；⭐⭐⭐⭐⭐ 必须有独立外部基准 |
 
 ## Critical Rules
 
@@ -45,6 +47,8 @@ description: 技能的质量标准、评分 rubric 与验收门槛。当需要�
 - ⭐⭐⭐⭐⭐ **能力问题（做不到）用示例/规则修；偏好问题（做法不合意）用约束/格式修**
 - ⭐⭐⭐⭐ **分数长期 100% 不是一个好消息**——定期把技能改坏一次，测试集不报警说明坏的是测试集
 - ⭐⭐⭐⭐ **baseline 会不会也通过？会就说明这条断言毫无价值**
+- ⭐⭐⭐⭐⭐ **技能触发后替换的是模型的默认行为**——写"模型做不到"的，别写"模型本来就会"的
+- ⭐⭐⭐⭐⭐ **"没人报 bug"不等于健康**——一致性错误恰恰不产生 bug 报告
 - ⭐⭐⭐⭐ 权重分配要显式写出来——它是团队方法论的声明
 - ⭐⭐⭐ 分级要有"停止条件"，不只写"允许做什么"
 

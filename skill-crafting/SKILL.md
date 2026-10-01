@@ -38,6 +38,7 @@ description: 打磨 Agent Skill 的正文构件——指令形态、目录契约
 | `skill-crafting/references/skill-review-checklist-ten.md` | ⭐⭐⭐ 十条检查清单；★每条规则都要能对应一个失败场景 |
 | `skill-crafting/references/skill-readability-layout.md` | ⭐⭐⭐⭐⭐ 两类读者；结构性冗余保留/解释性冗余删除；⭐⭐⭐⭐ 可 diff 性（一个从句一行）；⭐⭐⭐⭐ 每 30 行一小标题
 | `skill-crafting/references/section-heading-weight.md` | ⭐⭐⭐⭐⭐ 标题是唯一的权重信号；红线写在"注意事项"下=降成建议；⭐⭐⭐⭐⭐ "可选"节里藏着必读约束 |
+| `skill-crafting/references/critical-rules-inflation.md` | ⭐⭐⭐⭐⭐ **红线膨胀**：条数越多每条越弱；⭐⭐⭐⭐⭐ 加红线是常见的"修 bug"动作，而它在削弱防线；上限 5 条 |
 | `skill-crafting/references/writing-style-rfc2119.md` | ⭐ RFC 2119 关键词 + 语义换行 + 20 词上限 |
 | `skill-crafting/references/token-bloat-audit.md` | ⭐ 瘦六个动作：合并工具调用、/compact、抑制冗长输出 |
 | `skill-crafting/references/write-reasons-not-rules.md` | ⭐ 写原因而非堆规则 + 三成原则 + 风险三档 |
