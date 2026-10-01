@@ -47,6 +47,7 @@ description: 技能的执行期行为——输出契约与 Schema-First、前置
 | `skill-execution/references/sequential-dependency.md` | ⭐⭐⭐⭐⭐ 列表排列是建议不是约束；⭐⭐⭐⭐⭐ 顺序错不报错只是值不同；⭐⭐⭐⭐⭐ 顺序敏感性测试 |
 | `skill-execution/references/preflight-gate.md` | ⭐ STEP 0：声明/验证/拦截三条 MUST NOT |
 | `skill-execution/references/invocation-entry-three.md` | ⭐⭐⭐⭐⭐ 斜杠命令/自动触发/被技能调用三种入口；⭐⭐⭐⭐⭐ "根据用户要求"在第三入口无指代；③下不能询问用户 |
+| `skill-execution/references/duplicate-execution-hazards.md` | ⭐⭐⭐⭐⭐ 幂等解决不了的那部分：副作用叠加；⭐⭐⭐⭐⭐ 不可发现的重复 |
 
 **输出形状**：
 

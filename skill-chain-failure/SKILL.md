@@ -111,3 +111,4 @@ A → B → C 中 B 出错 → ⭐⭐⭐⭐⭐ C 的失败报告里根本不会�
 | `skill-chain-failure/references/chain-failure-localization.md` | ⭐⭐⭐⭐⭐ 链路 ID、从后往前二分、每级检查上游状态 |
 | `skill-chain-failure/references/retry-amplification.md` | ⭐⭐⭐⭐⭐ 每层重试 3 次、三层链最坏 27 次；重试成功会抹掉失败记录 |
 | `skill-chain-failure/references/dependency-cycles.md` | ⭐⭐⭐⭐⭐ 依赖环路、代次计数、超时不携带信息 |
+| `skill-chain-failure/references/missing-input-upstream-failure.md` | ⭐⭐⭐⭐⭐ 缺的不是输入，是上游没跑；⭐⭐⭐⭐⭐ 存在≠成功（空/旧/partial） |

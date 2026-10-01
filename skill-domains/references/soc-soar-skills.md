@@ -111,7 +111,7 @@ trigger → enrich → decision → actions → guardrails → rollback
 ```
 
 > ⭐ **厂商中立很重要**——
-> 呼应 `skill-composition/references/protocol-layering.md`（**`skill-orchestration`**）的
+> 呼应 `skill-boundaries/references/protocol-layering.md`（**`skill-orchestration`**）的
 > 可移植性思路，以及安全库用 Sigma 作为检测规则单一来源的做法：
 > **避免锁定，保持一份检测逻辑**。
 

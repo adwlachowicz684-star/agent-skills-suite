@@ -63,16 +63,14 @@ license: MIT
 
 ---
 
-## 4. ⭐⭐⭐⭐⭐ 协议分层
+## 4. 协议分层
 
-```
-MCP   = ⭐⭐⭐⭐⭐ 世界的形状（有什么能力）
-技能   = ⭐⭐⭐⭐⭐ 做事的方法（怎么用这些能力）
-编排器 = ⭐⭐⭐⭐ 什么时候用哪个
-```
+> ⭐⭐⭐⭐⭐ **MCP 是普通话，技能是方言**：MCP 管"世界的形状"（有什么能力），
+> 技能管"做事的方法"（怎么用），编排器管"什么时候用哪个"。
+> 混淆的症状：把"有什么能力"写进技能 → 换个 MCP 就全错。
 
-> ⭐⭐⭐⭐⭐ **MCP 是普通话，技能是方言。** 混淆的症状：把"有什么能力"写进技能 → 换个 MCP 就全错；
-> 把"怎么用"写进 MCP → 能力被绑死在一个用法上。
+详见 `skill-boundaries/references/protocol-layering.md`（技能 / MCP / A2A 三层定位）·
+`skill-boundaries/references/mcp-composition.md`（三层栈与三种混合模式）。
 
 ---
 
@@ -124,5 +122,4 @@ Do NOT 用于：单技能内部的步骤顺序 · 技能之间传什么字段 ·
 | `skill-composition/references/composition.md` | ⭐⭐⭐⭐ 组合总览与选型 |
 | `skill-composition/references/sequential-composition.md` | ⭐⭐⭐⭐ 顺序链的产物传递、叠加加载 |
 | `skill-composition/references/composable-patterns.md` | ⭐⭐⭐⭐ 可组合性设计 |
-| `skill-composition/references/protocol-layering.md` | ⭐⭐⭐⭐ 协议分层原则 |
-| `skill-composition/references/mcp-composition.md` | ⭐⭐⭐⭐ MCP 与技能的分层组合 |
+| `skill-composition/references/chain-vs-single-skill.md` | ⭐⭐⭐⭐⭐ 一条链什么时候该合并回单技能；⭐⭐⭐⭐⭐ 链的失败比单技能更静默 |

@@ -35,6 +35,8 @@ description: 技能与其他机制的边界划分——技能 vs RAG vs 微调 v
 
 ## 路由表（按需深读）
 | `skill-boundaries/references/skill-vs-mcp-two-layers.md` | ⭐⭐⭐⭐ 失败不对称（隐形 vs 报错）；Token 不对称；编排+执行 |
+| `skill-boundaries/references/protocol-layering.md` | ⭐⭐⭐⭐ 技能 / MCP / A2A 三层各管什么；⭐⭐⭐⭐⭐ 混淆的症状 |
+| `skill-boundaries/references/mcp-composition.md` | ⭐⭐⭐⭐ 三层栈、五问决策树、⭐⭐⭐ 三种已跑通的混合模式 |
 | `skill-boundaries/references/four-way-choice.md` | ⭐⭐⭐ 四选一：⭐ 三种规则差别只在**何时加载 + 多大范围**；技能=共享 子代理=隔离 |
 | `skill-boundaries/references/skill-vs-subagent-decide.md` | ⭐⭐⭐⭐⭐ 判断轴是隔离不是大小；⭐⭐ 子代理挂技能 |
 | `skill-boundaries/references/skill-vs-workflow.md` | ⭐⭐⭐ Skill 管怎么做 / Workflow 管流转；⭐⭐⭐ 顺序必须强制就用 Workflow |

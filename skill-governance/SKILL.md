@@ -44,6 +44,7 @@ description: Agent Skills 的生命周期治理、库存与退役、腐烂检测
 | `skill-governance/references/ops-iteration-sop.md` | ⭐ 运维四段式 + S/A/B 分级 + 五条红线 |
 | `skill-governance/references/skill-min-record-card.md` | ⭐ 最小档案卡 9 字段 + Owner 责任线 + 六个触发点 |
 | `skill-governance/references/retirement-pipeline.md` | ⭐ 退役四阶段（35-42天）+ 归档≠删除 + 降级诊断 |
+| `skill-governance/references/chain-ownership.md` | ⭐⭐⭐⭐⭐ Owner 按技能登记、故障按链发生；⭐⭐⭐⭐⭐ 覆盖率 100% 的错觉 |
 
 **治理与观测**：
 
