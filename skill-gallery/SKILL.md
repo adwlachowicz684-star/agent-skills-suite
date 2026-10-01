@@ -42,6 +42,7 @@ description: 完整技能样本库——可直接照抄的真实 SKILL.md 源码
 | `skill-gallery/references/systematic-debugging-skill.md` | ⭐⭐⭐ 四阶段、三次修复规则、⭐ 六条写法分析 |
 | `skill-gallery/references/unity-refactor-skill.md` | ⭐ 默认范围=最近改动、八条规则、"不确定就跳过" |
 | `skill-gallery/references/frontend-ui-skills.md` | ⭐ 三 agent 前置、反 AI 味表（禁令+替代的完美实证） |
+| `skill-gallery/references/stateful-skill-instance.md` | ⭐⭐⭐⭐ 唯一带状态的样本：追加日志+覆盖产物、两道新鲜度判断、事实每次重查 |
 
 ## Critical Rules
 
