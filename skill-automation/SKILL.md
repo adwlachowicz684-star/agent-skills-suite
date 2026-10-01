@@ -38,6 +38,10 @@ description: 技能评测与运维的自动化执行：CI 门禁、评测工具�
 | `skill-automation/references/skill-observability.md` | ⭐⭐⭐⭐ 调用日志 vs 决策日志；入参记两份 |
 | `skill-automation/references/execution-span-logging.md` | ⭐⭐⭐⭐⭐ `stopped_at`：从"要排查整个技能"缩小到"看一个步骤" |
 | `skill-automation/references/production-drift-signals.md` | ⭐⭐⭐⭐⭐ 不跑 eval 的漂移检测：六个免费信号；⭐⭐⭐⭐⭐ 基线是它自己不是全库均值；⭐⭐⭐⭐⭐ 只看均值会漏掉"对但不稳" |
+| `skill-automation/references/flaky-gate-discipline.md` | ⭐⭐⭐⭐⭐ 门禁失效的方式是**被忽略**不是变绿；同一 commit 跑 3 次；⭐⭐⭐⭐⭐ "重跑就绿了"在训练团队忽略红灯；quarantine 必须有时限 |
+| `skill-automation/references/eval-scheduling-budget.md` | ⭐⭐⭐⭐⭐ 全量评测太慢 → 逐步缩成冒烟 → 绿灯仍在；三层调度；⭐⭐⭐⭐⭐ 重复次数最低 2 次（1 次是质变）；带债合入要有配额 |
+| `skill-automation/references/automation-coverage-blindspot.md` | ⭐⭐⭐⭐⭐ 能力边界 vs **配置边界**（后者无人审视）；⭐⭐⭐⭐⭐ 差集检查：担心的 vs 检查的；"有 CI"≠"有覆盖" |
+| `skill-automation/references/gate-bypass-threshold.md` | ⭐⭐⭐⭐⭐ 绕过路径在最没能力复核的时刻取消唯一一道复核；⭐⭐⭐⭐⭐ 调阈值是最容易的"修"；阈值 ≥1.0 = 已失效的保护 |
 
 ## Critical Rules
 
@@ -46,6 +50,9 @@ description: 技能评测与运维的自动化执行：CI 门禁、评测工具�
 - ⭐⭐⭐⭐⭐ 灰度期必须做版本级指标拆分，大盘平均分掩盖全挂
 - ⭐⭐⭐⭐ 失败全量记录、成功采样（失败样本信息量远高于成功样本）
 - ⭐⭐⭐⭐⭐ 某步骤 `ok=false` 反复出现 → 那一步该进 Gotchas
+- ⭐⭐⭐⭐⭐ 用例重复次数最低 2 次——1 次会让"不稳定"彻底不可见
+- ⭐⭐⭐⭐⭐ 调阈值前先问：这是在修问题，还是在分期关闭告警
+- ⭐⭐⭐⭐⭐ 阈值 ≥ 1.0 或白名单 > 10% = 已失效的保护（可 grep 的机械检查）
 
 ## 何时不用（边界）
 
