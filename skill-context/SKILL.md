@@ -26,6 +26,10 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 □ ⭐⭐⭐⭐ 成本可见 ≠ 成本受控（预算未绑定决策点）
 □ ⭐⭐⭐⭐⭐ 压缩是可订阅事件，关键约束可以重注入
 □ ⭐⭐⭐⭐ 脚本源码不进上下文，脚本输出必进
+□ ⭐⭐⭐⭐⭐ 预算算的是入场费；运行产出通常远大于入场费，且没人算过
+□ ⭐⭐⭐⭐⭐ 指令不会消失，只会从末尾被推到中间——对抗退化靠"刷新"，不靠排布
+□ ⭐⭐⭐⭐⭐ 指令不随技能退出而注销（没有"技能退出"这个事件）
+□ ⭐⭐⭐⭐⭐ 瘦身只作用于单价；总开销 = 单价 × 触发次数 × 轮次 + 返工
 ```
 
 ## 路由表（按需深读）
@@ -39,6 +43,10 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 | `skill-context/references/token-cost-optimization.md` | ⭐⭐⭐⭐ 伪技能陷阱与 Token 泄漏 |
 | `skill-context/references/budget-truncation.md` | ⭐⭐⭐⭐ 截断边界与被切掉的部分 |
 | `skill-context/references/context-budget.md` | ⭐⭐⭐ 预算分配 |
+| `skill-context/references/runtime-context-growth.md` | ⭐⭐⭐⭐⭐ 技能是上下文的**生产者**；六类产出；进度汇报改覆盖式 |
+| `skill-context/references/instruction-position-decay.md` | ⭐⭐⭐⭐⭐ 指令被推远（不是被切掉）；第 1 轮严格、第 5 轮走样 |
+| `skill-context/references/cross-skill-instruction-leakage.md` | ⭐⭐⭐⭐⭐ 指令不随技能退出而注销；约束比授权活得久 |
+| `skill-context/references/optimization-payoff-verification.md` | ⭐⭐⭐⭐⭐ 省下的 token 被谁吃掉；三个数一起测 |
 
 ## Critical Rules
 
@@ -47,6 +55,10 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 - ⭐⭐⭐⭐⭐ 同时挂载 ≤3 个技能（>3 成功率下滑）——这是质量上限，不是经济数字
 - ⭐⭐⭐⭐ 关键规则在两端都写一遍（首因 + 近因效应）
 - ⭐⭐⭐⭐ 缓存命中率要像可用性一样监控（allowed-tools 是缓存事件）
+- ⭐⭐⭐⭐⭐ 长流程的进度汇报用覆盖式（"当前第 N 步"），不用追加式（"已完成第 N 步"）
+- ⭐⭐⭐⭐⭐ 超过 2K 的工具返回先落盘，只回传路径 + 摘要 + 计数
+- ⭐⭐⭐⭐⭐ 约束类指令必须写明失效条件，否则它会在后续无关任务里继续生效
+- ⭐⭐⭐⭐⭐ 瘦身类改动按三个数验收（单价 / 总量 / 质量），只看单价会得出错误结论
 
 ## 何时不用（边界）
 
@@ -59,7 +71,9 @@ description: 技能的上下文与 token 经济学：三级加载的预算、压
 | 脚本 | 用途 |
 |---|---|
 | `scripts/estimate_tokens.py <dir>` | 成本估算 |
-| `skill-context/references/compression-truncation.md` | ⭐⭐⭐⭐⭐ 长会话里技能怎么消失；真失忆 vs 假失灵的二分诊断；compact hook 重注入 |
+
+> ⭐⭐⭐⭐⭐ `skill-context/references/compression-truncation.md`：长会话里技能怎么消失；
+> 真失忆 vs 假失灵的二分诊断；compact hook 重注入。
 
 ## 参考
 
