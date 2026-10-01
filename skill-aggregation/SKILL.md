@@ -98,6 +98,7 @@ license: MIT
 | ⭐⭐⭐⭐⭐ 并行跑完，每个都对、合起来不对 | `skill-aggregation/references/fan-out-fan-in.md` |
 | ⭐⭐⭐⭐⭐ 汇总结果比预期少但不报错 | `skill-aggregation/references/partial-aggregation.md` |
 | ⭐⭐⭐⭐⭐ 两个来源数字不同，输出里只有一个 | `skill-aggregation/references/merge-conflict-resolution.md` |
+| ⭐⭐⭐⭐⭐ 没矛盾，但跑两遍结果不一样 | `skill-aggregation/references/aggregation-order-dependence.md` |
 | ⭐⭐⭐⭐ 并行失败了要不要重跑单个分支 | 《skill-recovery》的 `skill-recovery/references/idempotency-resume.md` |
 | ⭐⭐⭐⭐ 层数多、每层重试导致调用数失控 | `skill-chain-failure/references/retry-amplification.md` |
 
@@ -110,3 +111,4 @@ license: MIT
 | `skill-aggregation/references/fan-out-fan-in.md` | ⭐⭐⭐⭐⭐ 扇出并行、N 个半成品、顺序敏感性、汇总契约 |
 | `skill-aggregation/references/partial-aggregation.md` | ⭐⭐⭐⭐⭐ 覆盖率分母、缺失偏差、partial 不得被加工成全量 |
 | `skill-aggregation/references/merge-conflict-resolution.md` | ⭐⭐⭐⭐⭐ 多路结果矛盾：报冲突 / 标注口径 / 不做平均 |
+| `skill-aggregation/references/aggregation-order-dependence.md` | ⭐⭐⭐⭐⭐ 没矛盾时结果仍取决于顺序；⭐⭐⭐⭐⭐ "取最新"的"最新"是谁的时间；⭐⭐⭐⭐⭐ 倒序跑一遍判定；改成可交换而非放弃并行 |

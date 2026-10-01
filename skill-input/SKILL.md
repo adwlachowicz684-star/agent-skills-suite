@@ -22,6 +22,7 @@ description: 技能的输入侧契约：输入校验与分诊（残缺/矛盾/�
 □ ⭐⭐⭐⭐⭐ 被丢弃的需求必须出现在输出里（矛盾输入时模型默认选一个且不告诉你）
 □ ⭐⭐⭐⭐⭐ 先判超范围，再判残缺，最后判矛盾
 □ ⭐⭐⭐⭐⭐ "需要 Python"不是声明，python: ">=3.11" 才是
+□ ⭐⭐⭐⭐⭐ 批量必须先枚举出 N；输出报"共 N / 成功 M / 失败 K"三段，不只报 status
 □ ⭐⭐⭐⭐⭐ 猜参数名是幻觉高发区，而它会真的发出一次请求
 □ ⭐⭐⭐⭐ 只写假定不写"不成立时"，比不写更糟
 □ ⭐⭐⭐⭐ 同一任务内同一个问题最多问一次（硬上限 1 次）
@@ -38,6 +39,7 @@ description: 技能的输入侧契约：输入校验与分诊（残缺/矛盾/�
 | `skill-input/references/ambiguous-input-selection.md` | ⭐⭐⭐⭐⭐ 多个都合法时按相似度选≠用户意图；⭐⭐⭐⭐⭐ 选错零信号（每个候选都合法）；⭐⭐⭐⭐ 默认规则要可复现 + 选中对象回显首行 |
 | `skill-input/references/tool-argument-construction.md` | ⭐⭐⭐⭐⭐ "用 X 工具"不是参数说明；200+成功+缺内容最静默 |
 | `skill-input/references/user-input-omissions.md` | ⭐⭐⭐⭐⭐ 用户没说的不是授权；⭐⭐⭐⭐⭐ 补的依据是训练分布不是本项目；⭐⭐⭐⭐⭐ 确认会把"没说"变成"说了" |
+| `skill-input/references/input-cardinality.md` | ⭐⭐⭐⭐⭐ 默认基数是 1；⭐⭐⭐⭐⭐ "这些文件"与"这个文件"差别极小；⭐⭐⭐⭐⭐ N 由上下文数出来而非枚举出来；批量必须报 共N/成功M/失败K |
 
 ## Critical Rules
 

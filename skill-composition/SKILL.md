@@ -41,6 +41,7 @@ license: MIT
 
 依赖类型与三个反模式见 `skill-orchestration/references/composition-patterns-types.md`（隐式依赖最隐蔽：
 ⭐⭐⭐⭐⭐ **单独测试完全看不出来，只在生产"被单独调用"时暴露**）。
+五维代价与选型见 `skill-composition/references/composition-shape-cost.md`（⭐⭐⭐⭐⭐ **可靠性指数是组件数不是链长**；⭐⭐⭐⭐⭐ **升形态 = 用可见性换延迟**）。
 
 > ⭐⭐⭐⭐⭐ 选形态的依据不是"哪个更强大"，是⭐⭐⭐⭐ **哪个的失败点你能承受**——
 > 扇出扇入最快，但它的失败点（部分成功）恰恰是最静默的那一种。
@@ -65,11 +66,10 @@ license: MIT
 
 ## 4. 协议分层
 
-> ⭐⭐⭐⭐⭐ **MCP 是普通话，技能是方言**：MCP 管"世界的形状"（有什么能力），
-> 技能管"做事的方法"（怎么用），编排器管"什么时候用哪个"。
-> 混淆的症状：把"有什么能力"写进技能 → 换个 MCP 就全错。
+> ⭐⭐⭐⭐⭐ **MCP 是普通话，技能是方言**：MCP 管"世界的形状"，技能管"做事的方法"，编排器管"什么时候用哪个"。
+> ⭐⭐⭐⭐ 混淆的症状：把"有什么能力"写进技能 → 换个 MCP 就全错。
 
-详见 `skill-boundaries/references/protocol-layering.md`（技能 / MCP / A2A 三层定位）·
+详见 `skill-boundaries/references/protocol-layering.md`（三层定位）·
 `skill-boundaries/references/mcp-composition.md`（三层栈与三种混合模式）。
 
 ---
@@ -84,8 +84,7 @@ license: MIT
 ③ ⭐⭐⭐⭐ 不依赖"只有用户会提供的东西"（对话上下文、刚才那句话）
 ```
 
-> ⭐⭐⭐⭐⭐ 第①条最常被违反：技能正文写"根据用户的要求"，
-> 而它被别的技能调用时，**根本没有一个"用户的要求"**——只有上游的产物。
+> ⭐⭐⭐⭐⭐ 第①条最常被违反：被调用时根本没有"用户的要求"，只有上游的产物。
 
 ---
 
@@ -111,6 +110,8 @@ Do NOT 用于：单技能内部的步骤顺序 · 技能之间传什么字段 ·
 | ⭐⭐⭐⭐⭐ 汇总比预期少但不报错 | `skill-aggregation/references/partial-aggregation.md` |
 | ⭐⭐⭐⭐ 技能互相读对方的临时字段 | `skill-interfaces/references/skill-data-passing.md` |
 | ⭐⭐⭐⭐ 两个技能都要改同一份文件 | `skill-orchestration/references/collision-arbitration.md` |
+| ⭐⭐⭐⭐⭐ 该选哪种形态、要不要升级形态 | `skill-composition/references/composition-shape-cost.md` |
+| ⭐⭐⭐⭐⭐ 编排器里还嵌着编排器 | `skill-composition/references/nested-composition.md` |
 
 ---
 
@@ -123,3 +124,5 @@ Do NOT 用于：单技能内部的步骤顺序 · 技能之间传什么字段 ·
 | `skill-composition/references/sequential-composition.md` | ⭐⭐⭐⭐ 顺序链的产物传递、叠加加载 |
 | `skill-composition/references/composable-patterns.md` | ⭐⭐⭐⭐ 可组合性设计 |
 | `skill-composition/references/chain-vs-single-skill.md` | ⭐⭐⭐⭐⭐ 一条链什么时候该合并回单技能；⭐⭐⭐⭐⭐ 链的失败比单技能更静默 |
+| `skill-composition/references/composition-shape-cost.md` | ⭐⭐⭐⭐⭐ 四种形态的五维代价与选型；⭐⭐⭐⭐⭐ 可靠性指数是组件数不是链长；⭐⭐⭐⭐⭐ 升形态必须同时升可观测性 |
+| `skill-composition/references/nested-composition.md` | ⭐⭐⭐⭐⭐ 编排器调编排器；⭐⭐⭐⭐⭐ 二分定位只剩一半；⭐⭐⭐⭐⭐ chain_id 会分叉需 parent_chain_id；代次上限与递归 |
